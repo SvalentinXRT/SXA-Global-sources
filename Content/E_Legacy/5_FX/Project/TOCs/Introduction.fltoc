@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Introduction au module FX"
+    Link="/Content/Topics/INTRO - Perimetre fonctionnel.htm"
+    Skin="/Project/Skins/Sage HTML5.flskn"
+    Class="SAGE"
+    ReplaceMergeNode="false"></TocEntry>
+  <TocEntry
+    Title="Gestion du risque de change avec FX"
+    Link="/Content/Topics/INTRO - Gestion risque change.htm"
+    Class="SAGE" />
+  <TocEntry
+    Title="Principes fonctionnels"
+    Link="/Content/Topics/INTRO - Principes fonctionnels.htm"
+    Class="SAGE" />
+  <TocEntry
+    Title="Accès au module"
+    Link="/Content/Topics/INTRO - Acces appli.htm"
+    Skin="/Project/Skins/Sage HTML5.flskn"
+    Class="SAGE"
+    ReplaceMergeNode="false" />
+</CatapultToc>

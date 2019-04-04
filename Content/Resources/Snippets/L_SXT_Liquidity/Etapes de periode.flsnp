@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table class="indent_p" cellspacing="0">
+            <col style="width: 155px;" />
+            <col style="width: 371px;" />
+            <col style="width: 371px;" />
+            <thead>
+                <tr>
+                    <th class="TableStyle_Tableau_standard_Head_0_0_RowSep_ColSep">Mot</th>
+                    <th class="TableStyle_Tableau_standard_Head_0_1_RowSep">Type</th>
+                    <th class="TableStyle_Tableau_standard_Head_0_1_RowSep_ColEnd">Utilisation</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep"><span class="TexteSaisi">D</span>
+                    </td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep">Période</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Jour</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep"><span class="TexteSaisi">W</span>
+                    </td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep">Période</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Semaine</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep"><span class="TexteSaisi">T</span>
+                    </td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep">Période</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Décade</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep"><span class="TexteSaisi">F</span>
+                    </td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep">Période</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Quinzaine</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep"><span class="TexteSaisi">M</span>
+                    </td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep">Période</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Mois</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep"><span class="TexteSaisi">Q</span>
+                    </td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep">Période</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Trimestre</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep"><span class="TexteSaisi">STARTOFWEEK</span>
+                    </td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep">Date</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Début de semaine</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep"><span class="TexteSaisi">ENDOFWEEK</span>
+                    </td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep">Date</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Fin de semaine</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep"><span class="TexteSaisi">STARTOFDECADE</span>
+                    </td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep">Date</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Début de décade</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep"><span class="TexteSaisi">ENDOFDECADE</span>
+                    </td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep">Date</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Fin de décade</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep"><span class="TexteSaisi">STARTOFFORTNIGHT</span>
+                    </td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep">Date</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Début de quinzaine</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep"><span class="TexteSaisi">ENDOFFORTNIGHT</span>
+                    </td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep">Date</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Fin de quinzaine</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep"><span class="TexteSaisi">STARTOFMONTH</span>
+                    </td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep">Date</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Début de mois</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep"><span class="TexteSaisi">ENDOFMONTH</span>
+                    </td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep">Date</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Fin de mois</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep"><span class="TexteSaisi">STARTOFQUARTER</span>
+                    </td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep">Date</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Début de trimestre</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowEnd_ColSep"><span class="TexteSaisi">ENDOFQUARTER</span>
+                    </td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowEnd">Date</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowEnd_ColEnd">Fin de trimestre</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

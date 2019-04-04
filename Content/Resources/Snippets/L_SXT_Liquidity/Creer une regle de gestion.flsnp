@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1989" MadCap:lastWidth="544">
+    <head>
+        <link href="../../TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <ol>
+            <li class="PuceNumNiv1">Dans la page de paramétrage des règles de gestion, cliquez sur le bouton <b>Créer</b>.<br></br>La page de création s'affiche.</li>
+        </ol>
+        <p class="IndentPuceNiv1" MadCap:targetName="Capture Création Règle gestion">
+            <img src="../../Images/L_Liquidity/Parametrer les regles de gestion 2.jpg" class="SAGE_screenshot">
+            </img>
+        </p>
+        <ol MadCap:continue="true">
+            <li class="PuceNumNiv1">Dans le champ <b>Libellé</b>, saisissez un libellé pour la règle de gestion.<br />Vous pouvez également modifier le code unique alimenté par défaut dans le champ <b>Code</b>.</li>
+            <li class="PuceNumNiv1">Sélectionnez le code de la nature budgétaire associée à la règle de gestion, comme suit&#160;:</li>
+        </ol>
+        <ol style="list-style-type: lower-alpha;">
+            <li class="PuceNumNiv2">Cliquez sur le bouton <img src="../../Images/L_Liquidity/Bouton Points de suspension.JPG" /> dans la zone <b>Code budgétaire</b>.<br />Une fenêtre contextuelle s'affiche avec la liste des codes de natures budgétaires disponibles.<br /></li>
+        </ol>
+        <p class="IndentPuceNiv2" MadCap:targetName="Capture code budget">
+            <img src="../../Images/L_Liquidity/Pop-up codes budget.JPG" class="SAGE_screenshot">
+            </img>
+        </p>
+        <ol style="list-style-type: lower-alpha;" MadCap:continue="true">
+            <li class="PuceNumNiv2">Pour sélectionner une nature budgétaire dans la liste, double-cliquez sur la ligne correspondante ou cliquez sur la ligne correspondante, puis cliquez sur <b>OK</b>.<br />Le code et le libellé de la nature budgétaire s'affichent dans la page de création de règle de gestion.<br />La zone <b>Formule</b> est activée, dans laquelle vous pouvez définir la formule de calcul de votre règle de gestion.</li>
+        </ol>
+        <ol>
+            <li class="PuceNumNiv1" value="4">Activez la case <b>Règle de gestion par défaut </b>si vous souhaitez définir cette règle de gestion par défaut pour cette nature budgétaire.<br />Ainsi, lorsque vous définissez votre structure de feuille budgétaire, c'est cette règle de gestion qui est proposée par défaut pour la nature budgétaire sélectionnée.</li>
+        </ol>
+        <table style="mc-table-style: url('../../TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1">
+                        <img src="../../Images/Assets/oh-Note.png" />
+                    </td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">Les cases à cocher <b>Budget général</b> et <b>Budget tréso.</b> sont toujours grisées et alimentées automatiquement une fois la formule paramétrée. Elles ne nécessitent aucune action de votre part.</td>
+                </tr>
+            </tbody>
+        </table>
+        <ol MadCap:continue="true">
+            <li class="PuceNumNiv1">Pour définir chaque ligne de formule, vous avez plusieurs manières de procéder.</li>
+        </ol>
+        <ol style="list-style-type: lower-alpha;">
+            <li class="PuceNumNiv2">Vous pouvez appeler l'assistant Règle de gestion en cliquant sur le bouton <b>Assistant Règles de gestion</b> (option recommandée si vous êtes un nouvel utilisateur).<br />Pour plus d'informations, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Legacy/2_Liquidity/PARAM - Assistant de regle de gestion.htm" target="" title="" alt="" class="XrefSansTexte">Assistant Règle de gestion</MadCap:xref>.</MadCap:conditionalText></li>
+            <li class="PuceNumNiv2">Vous pouvez définir une règle de gestion manuellement en utilisant les boutons <b>Opérateurs arithmétiques</b>, <b>Codes budgétaires</b> et <b>Découpage</b> (si vous êtes un utilisateur avancé).</li>
+        </ol>
+        <p class="IndentPuceNiv2">Consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Legacy/2_Liquidity/ANNEXE - Regles de gestion.htm" target="" title="" alt="" class="XrefSansTexte">Règles de gestion&#160;: fonctions, mots-clés et syntaxe</MadCap:xref> en annexe</MadCap:conditionalText> pour plus d'informations sur l'utilisation des options disponibles.</p>
+        <ul>
+            <li class="puceNiv3">Pour insérer une nature budgétaire, un opérateur arithmétique, une date ou une période, cliquez sur le bouton correspondant, puis, dans le menu contextuel qui s'affiche, cliquez sur une ligne pour la sélectionner.</li>
+            <li class="PuceNiv3">Si vous souhaitez faire référence à une nature budgétaire dans le budget de trésorerie, insérez l'arobase (signe @) après le code de la nature budgétaire (sans espace).</li>
+        </ul>
+        <p class="IndentPuceNiv2">Avant toute insertion, veillez à placer votre curseur à l'endroit adéquat dans le champ de saisie.</p>
+        <ol style="list-style-type: lower-alpha;" start="3">
+            <li class="PuceNumNiv2">Vous pouvez également écrire la formule en saisissant manuellement les mots clés et les opérateurs (si vous êtes un utilisateur expert).</li>
+            <li class="PuceNumNiv2">Vous pouvez également copier une formule d'une règle de gestion enregistrée, puis l'utiliser telle quelle ou la modifier.<br />Pour copier la formule, cliquez sur le bouton <b>Règles de gestion</b>, puis, dans la fenêtre contextuelle qui s'affiche, cliquez sur une ligne pour sélectionner la règle correspondante. La formule correspondante est alors copiée dans le champ <b>Formule</b>.<br /></li>
+        </ol>
+        <table style="mc-table-style: url('../../TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1">
+                        <img src="../../Images/Assets/oh-Note.png" />
+                    </td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">Pour les valeurs numériques, le séparateur de décimales est le point et non la virgule.</td>
+                </tr>
+            </tbody>
+        </table>
+        <ol>
+            <li class="PuceNumNiv1" value="6">Pour définir une formule supplémentaire, placez votre curseur sur la première ligne de la zone affichant les formules.<br />Chaque formule supplémentaire est ajoutée en dessous, la première formule créée figurant au bas de la liste.</li>
+        </ol>
+        <p class="IndentPuceNiv1">Les cases <b>Budget général</b> et <b>Budget tréso.</b> sont automatiquement alimentées une fois les formules de règles de gestion paramétrées.</p>
+        <ul style="list-style-type: square;">
+            <li class="PuceNiv2">Lorsque la case <b>Budget général</b> est cochée, cela signifie que le budget opérationnel est utilisé.</li>
+            <li class="PuceNiv2">Lorsque la case <b>Budget tréso.</b> est cochée, cela signifie que le budget de trésorerie est utilisé.</li>
+        </ul>
+        <p class="IndentPuceNiv1">
+            <MadCap:toggler targets="ValiderFormule;ValiderFormule2">Valider la formule et enregistrer la règle de gestion</MadCap:toggler>
+        </p>
+        <ul MadCap:targetName="ValiderFormule">
+            <li class="PuceNiv1">Si vous avez créé la formule <u>à l'aide de l'Assistant</u>, cliquez sur le bouton <b>OK </b>pour enregistrer la règle de gestion.</li>
+            <li class="PuceNiv1">Si vous avez créé la formule <u>sans l'Assistant</u>, le bouton de validation <img src="../../Images/L_Liquidity/BoutonValidationFormule.JPG" /> s'affiche.</li>
+        </ul>
+        <ol MadCap:targetName="ValiderFormule2">
+            <li class="PuceNumNiv2">Cliquez sur ce bouton pour valider la formule.<br />Si la syntaxe est incorrecte, un message d'erreur s'affiche en bas de page.</li>
+            <li class="PuceNumNiv2">Corrigez la formule et relancez sa validation.</li>
+            <li class="PuceNumNiv2">Une fois la formule validée, cliquez sur le bouton <b>OK </b>pour enregistrer la règle de gestion.</li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:ignoredWords="Back;First;FIFO" MadCap:lastBlockDepth="7" MadCap:lastHeight="1764" MadCap:lastWidth="589">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="LegacySXT"><a name="ProfilsCreation"></a>Création des profils</h1>
+        <p>Les profils sont obligatoirement définis par un code de transaction - le code de transaction étant lui-même implicitement lié à un type de transaction (virement, international, virement domestique, virement de trésorerie, etc). Le paramétrage des profils s'effectue du cas standard au cas particulier, permettant plusieurs combinaisons.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Exemple</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="SautLigneAvantEtAprès">Toutes vos agences gèrent les virements domestiques avec le format AFB160, sauf une, qui utilise le format MT100. Il faut donc créer un profil général pour le code de transaction de type virement domestique, en désignant le format AFB160, le régime et le protocole, sans entrer davantage dans le détail. Il faut créer d'autre part un profil prenant en compte le pays de l'agence du donneur d'ordre et l'agence du donneur d'ordre faisant l'exception à la règle (celle avec le format MT100). Il est possible d'aller encore plus loin dans la spécificité : cette agence, qui se distingue des autres par son format, peut parfaitement utiliser un format encore différent pour un donneur d'ordre particulier. Il faut dans ce cas créer un autre profil qui, cette fois-ci, renseignera, outre le code de transaction et l'agence, le donneur d'ordre en question et le format qui lui est propre.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Configurer les profils</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">Pour accéder à cette fonctionnalité, dans le volet <b><MadCap:variable name="Localization.SXTDashboardsTasks" /></b>, sélectionnez l'option <b>Eléments de paiement</b> dans le dossier <MadCap:variable name="Localization.SXTSetupFolder" style="font-weight: bold;" /> du module <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" />.</li>
+                </ol>
+                <p class="IndentPuceNiv1">La page de configuration des éléments de paiement s'affiche. Cliquez sur le lien <b>Profils</b>.</p>
+                <p MadCap:targetName="Capture 1">
+                    <img src="../../Resources/Images/L_Payment/Param Profils.png" class="SAGE_screenshot" />
+                </p>
+                <p class="IndentPuceNiv1">La liste des profils déjà paramétrés s'affiche. Vous avez la possibilité de supprimer ou modifier un profil déjà existant, ou d'en créer un nouveau. Pour créer un profil, cliquez sur <b>Créer</b>.</p>
+                <p MadCap:targetName="Capture 2">
+                    <img src="../../Resources/Images/L_Payment/Profil-Creation.png" class="SAGE_screenshot" />
+                </p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Renseignez au minimum le champ <b>Code transaction</b> au niveau du cadre Critères, et les champs <b>Format</b>, <b>Régime</b> et <b>Protocole</b> au niveau du cadre Transmission pour identifier une règle bancaire standard.</li>
+                    <li class="PuceNumNiv1">Une fois les champs obligatoires renseignés, cliquez sur <b>Appliquer</b> pour valider votre opération et poursuivre vos créations de profils ou cliquez sur <b>OK</b> pour enregistrer le nouveau profil et revenir à la liste des profils.</li>
+                </ol>
+                <p class="IndentPuceNiv1SautLigne">Pour formuler une exception, renseignez également les champs suivants&#160;avant de valider la création du profil :</p>
+                <ul>
+                    <li class="PuceNiv2"><b>Le pays de l'agence du donneur d'ordre</b> lorsqu'il s'agit d'un critère distinctif.,</li>
+                    <li class="PuceNiv2"><b>L</b><b>'agence&#160;du donneur d'ordre</b>, lorsqu'elle n'applique pas les mêmes conditions que les autres.</li>
+                    <li class="PuceNiv2"><b>Le donneur d'ordre</b>, s'il bénéficie de conditions particulières par rapport aux autres donneurs d'ordres travaillant avec l'agence préalablement sélectionnée.</li>
+                    <li class="PuceNiv2"><b>Le compte du payeur</b>, si pour le pays, l'agence et le donneur d'ordre sélectionnés, tous les comptes sont traités de façon identique sauf celui-ci.</li>
+                    <li class="PuceNiv2"><b>Le bénéficiaire</b>, lorsque la banque du payé utilise un format, régime et/ou protocole différent des autres.</li>
+                    <li class="PuceNiv2"><b>Le payé et son RIB </b>pour désigner le compte présentant une exception par rapport aux autres.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Modifier un profil</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">Sélectionnez l'option <b>Eléments de paiement</b> dans le dossier <MadCap:variable name="Localization.SXTSetupFolder" style="font-weight: bold;" /> du module <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" />. La page de configuration des éléments de paiement s'affiche. Cliquez sur le lien <b>Profils</b>.</li>
+                    <li class="PuceNumNiv1">Sélectionnez le profil à modifier dans la liste.</li>
+                    <li class="PuceNumNiv1">Cliquez sur <b>Modifier</b>. La page de détail du profil sélectionné s'affiche.</li>
+                    <li class="PuceNumNiv1">Effectuez tous les changements nécessaires, puis cliquez sur <b>OK</b> pour sauvegarder votre opération.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Supprimer un profil</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">Sélectionnez l'option <b>Eléments de paiement</b> dans le dossier <MadCap:variable name="Localization.SXTSetupFolder" style="font-weight: bold;" /> du module <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" />. La page de configuration des éléments de paiement s'affiche. Cliquez sur le lien <b>Profils</b>.</li>
+                    <li class="PuceNumNiv1">Sélectionnez le profil à supprimer dans la liste.</li>
+                    <li class="PuceNumNiv1">Cliquez sur <b>Supprimer</b> pour supprimer le profil sélectionné.</li>
+                    <li class="PuceNumNiv1">Confirmez votre opération en cliquant sur <b>Oui</b> dans la boîte de message qui s'affiche.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1">
+                        <img src="../../Resources/Images/Assets/oh-Note.png" />
+                    </td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">Il est conseillé de créer un profil par type de virement : virement domestique, virement commercial, virement international et virement de trésorerie.</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

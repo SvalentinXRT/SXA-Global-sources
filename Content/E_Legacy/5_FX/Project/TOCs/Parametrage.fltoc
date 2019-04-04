@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Paramétrage"
+    Link="/Content/Topics/PARAM - Intro.htm"
+    StartSection="true"
+    MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
+    PageNumber="1"
+    StartChapter="true"
+    PageNumberReset="reset"
+    VolumeNumberReset="same"
+    ChapterNumberReset="reset"
+    ChapterNumber="2"
+    Class="SAGE"
+    Skin="/Project/Skins/Sage HTML5.flskn"
+    ReplaceMergeNode="false"></TocEntry>
+  <TocEntry
+    Title="Module Paramétrage"
+    Link="/Content/Topics/PARAM - Parametrage.htm"
+    StartSection="true"
+    MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
+    PageNumber="1"
+    Class="SAGE"></TocEntry>
+  <TocEntry
+    Title="Module Données de Marché"
+    Link="/Content/Topics/PARAM - Donnees Marche.htm"
+    Class="SAGE" />
+  <TocEntry
+    Title="Configuration spécifique FX"
+    Link="/Content/Topics/PARAM - Configuration FX.htm"
+    StartSection="true"
+    PageNumber="1"
+    MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
+    VolumeNumberReset="same"
+    Class="SAGE" />
+  <TocEntry
+    Title="Editions automatiques"
+    Link="/Content/Topics/PARAM - Editions auto.htm"
+    StartSection="true"
+    MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
+    PageNumber="1"
+    Class="SAGE" />
+  <TocEntry
+    Title="Structure des fichiers échangés"
+    Link="/Content/Topics/PARAM - Structures de fichier.htm"
+    StartSection="true"
+    MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
+    PageNumber="1"
+    Class="SAGE">
+    <TocEntry
+      Title="Prévisions commerciales"
+      Link="/Content/Topics/PARAM - Structure importation previsions commerciales.htm"
+      Class="SAGE" />
+    <TocEntry
+      Title="Transactions de change à terme"
+      Link="/Content/Topics/PARAM - Structure exportation changes a terme.htm"
+      StartSection="true"
+      MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
+      PageNumber="1"
+      Class="SAGE" />
+  </TocEntry>
+</CatapultToc>

@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:lastBlockDepth="9" MadCap:lastHeight="4609" MadCap:lastWidth="714" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../Resources/TableStyles/Warning.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Warning.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT">
+            <MadCap:keyword term="Flux de trésorerie:création" />Création des flux de trésorerie dans le module Cash</h1>
+        <p MadCap:conditions="">Cette fonction vous permet de générer des flux dans le module <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> à partir des transactions budgétaires.</p>
+        <p MadCap:conditions="" class="SautLigne">Au préalable, vous devez avoir paramétré les éléments suivants qui définissent les règles de création des flux de trésorerie à partir des transactions budgétaires&#160;:</p>
+        <ul>
+            <li MadCap:conditions="" class="PuceNiv1">l'onglet <b>Code budgétaire - Compte</b> de la page de paramétrage de l'exercice budgétaire (<MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><a href="PARAM - Exercice budgetaire.htm#onglet_postage1">cliquez ici</a> pour consulter la rubrique</MadCap:conditionalText>),</li>
+            <li MadCap:conditions="" class="PuceNiv1">l'onglet <b>Compte - Code flux</b> de la page de paramétrage de l'exercice budgétaire (<MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><a href="PARAM - Exercice budgetaire.htm#onglet_postage2">cliquez ici</a> pour consulter la rubrique</MadCap:conditionalText>),</li>
+            <li MadCap:conditions="" class="PuceNiv1">les tables de répartition, si vous souhaitez répartir les montants sur plusieurs dates en fonction du calendrier de votre organisation (consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="PARAM - Tables de repartition.htm" target="" title="" alt="" class="XrefSansTexte">Tables de répartition</MadCap:xref></MadCap:conditionalText> pour plus d'informations).</li>
+        </ul>
+        <p MadCap:conditions="" class="SautLigne">Vous définissez ensuite des tâches de création de flux de trésorerie, que vous pouvez lancer immédiatement ou ultérieurement.</p>
+        <p MadCap:conditions="">Dans cette fonction, une tâche est un ensemble de paramètres définissant les critères de sélection des transactions budgétaires pour la création des flux de trésorerie ainsi que les modalités de création des ces derniers.</p>
+        <p MadCap:conditions="" class="SautLigne">Vous avez la possibilité de relancer plusieurs fois une même tâche, par exemple lorsque votre budget a été modifié depuis le dernier lancement de la tâche.</p>
+        <p MadCap:conditions="" class="SautLigneAvantEtAprès">Enfin, vous pouvez consulter les flux de trésorerie associés à chaque tâche à partir du journal de trésorerie.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Accéder à la page de gestion des tâches</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p MadCap:conditions="">Dans le volet <b><MadCap:variable name="Localization.SXTModulesTasks" /></b>, sélectionnez l'option <b>Poster dans la Trésorerie</b> dans le dossier <b><MadCap:variable name="Localization.SXTManagementFolder" /></b> du module <MadCap:variable name="Localization.SXT_Liquidity" style="font-weight: bold;" />.</p>
+                <p MadCap:conditions="" class="SautLigne">La page des tâches de création des flux de trésorerie s'affiche avec la liste des tâches enregistrées sous forme de tableau.</p>
+                <p MadCap:conditions="" class="SautLigne">Le tableau présente la date de création des flux de trésorerie si cette tâche a déjà été lancée, le nombre de flux de trésorerie générés à partir de cette tâche, ainsi que la date de début et la date de fin de la période de sélection des transactions budgétaires d'origine.</p>
+                <p MadCap:targetName="Capture importation 1">
+                    <img src="../../Resources/Images/L_Liquidity/Flux treso 1.png" class="SAGE_screenshot" />
+                </p>
+                <p class="SautLigne">Pour des informations sur&#160;:</p>
+                <ul>
+                    
+                    <li class="PuceNiv1" style="margin-top: 12pt" MadCap:conditions="Default.ScreenOnly"><b>la réorganisation de l'affichage des lignes</b> du tableau, <a href="ANNEXE - GUI - Tableau reorg.htm" target="_popup" class="Popup">cliquez ici</a>,</li>
+                    <li MadCap:conditions="Default.ScreenOnly" class="PuceNiv1"><b>la recherche de texte</b> dans le tableau, <a href="ContextualTopics/Rechercher texte dans tableau parametrage.htm" target="_popup" class="Popup">cliquez ici</a>.</li>
+                    
+                    <li MadCap:conditions="" class="PuceNiv1"><b>la création d'une ligne, la consultation du détail d'une tâche ou le lancement d'une tâche</b>, consultez les<MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"> rubriques</MadCap:conditionalText> ci-après. </li>
+                    <li MadCap:conditions="Default.ScreenOnly" class="PuceNiv1"><b>la suppression d'une ligne</b> dans le tableau, <a href="ContextualTopics/Supprimer element dans tableau page parametrage.htm" target="_popup" class="Popup">cliquez ici</a>.</li>
+                    
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Consulter le détail d'une tâche</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Dans la page des tâches de création des flux de trésorerie, double-cliquez sur une tâche ou sélectionnez une tâche puis cliquez sur le bouton <b>Afficher le détail</b>.</p>
+                <p>La page de détail de la tâche s'affiche en mode consultation.</p>
+                <p>Consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique</MadCap:conditionalText> suivante pour plus d'informations sur cette page.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Créer une tâche</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li MadCap:conditions="" class="PuceNumNiv1">Dans la page des tâches de création des flux de trésorerie, cliquez sur le bouton <b>Créer</b>.</li>
+                </ol>
+                <p MadCap:conditions="" class="IndentPuceNiv1">La page de détail de la nouvelle tâche s'affiche en mode création.</p>
+                <p MadCap:conditions="" class="IndentPuceNiv1" MadCap:targetName="Newtask1">
+                    <img src="../../Resources/Images/L_Liquidity/Flux treso 2.png" class="SAGE_screenshot" />
+                </p>
+                <ol MadCap:continue="true">
+                    <li MadCap:conditions="" class="PuceNumNiv1">Dans l'onglet <b>Entités</b>, sélectionnez les entités liées aux transactions budgétaires à sélectionner, comme suit.</li>
+                </ol>
+                <p class="IndentPuceNiv1">Dans la zone <b>Sélection par</b>, sélectionnez l'une des options décrites ci-après.</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2">Pour afficher toutes les entités paramétrées, activez la case d'option <b>Tout</b>.</li>
+                </ul>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2">Pour effectuer un filtrage sur les entités, activez la case d'option      <b>Entités</b>.</li>
+                </ul>
+                <p class="IndentPuceNiv2">Le bouton <b>Sélectionner </b>est activé dans la zone <b>Entités</b>. Cliquez sur ce bouton puis, dans la fenêtre contextuelle qui s'affiche, activez les cases à cocher correspondant aux entités à inclure dans la sélection.</p>
+                <p class="IndentPuceNiv2">Cliquez sur le bouton <img src="../../Resources/Images/L_Liquidity/Bouton coche bleue.JPG" /> pour valider votre sélection.</p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1">
+                                <img src="../../Resources/Images/Assets/oh-Note.png" />
+                            </td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">La liste affiche uniquement les entités pour lesquelles au moins un exercice budgétaire est créé.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="IndentPuceNiv2">Les entités sélectionnées sont affichées dans la zone <b>Entités</b>.</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2">Pour effectuer un filtrage sur les groupes d'entités, activez la case d'option <b>Groupes d'entités</b>.</li>
+                </ul>
+                <p class="IndentPuceNiv2">Le bouton <b>Sélectionner </b>est activé dans la zone <b>Entités</b>. Cliquez sur ce bouton puis, dans la fenêtre contextuelle qui s'affiche, activez les cases à cocher correspondant aux groupes d'entités à inclure dans la sélection.</p>
+                <p class="IndentPuceNiv2">Cliquez sur le bouton <img src="../../Resources/Images/L_Liquidity/Bouton coche bleue.JPG" /> pour valider votre sélection.</p>
+                <p class="IndentPuceNiv2">Les groupes d'entités sélectionnés s'affichent dans la zone <b>Entités</b>.</p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1">
+                                <img src="../../Resources/Images/Assets/oh-Note.png" />
+                            </td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">La liste affiche uniquement les groupes d'entités pour lesquels au moins un exercice budgétaire est créé.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol start="3">
+                    <li MadCap:conditions="" class="PuceNumNiv1">Cliquez sur l'onglet <b>Options</b>.</li>
+                </ol>
+                <p MadCap:conditions="" class="IndentPuceNiv1" MadCap:targetName="Newtask2">
+                    <img src="../../Resources/Images/L_Liquidity/Flux treso 3.png" class="SAGE_screenshot" />
+                </p>
+                <p MadCap:conditions="" class="IndentPuceNiv1">La zone <b>Périodes</b> vous permet de sélectionner les périodes d'exercice liées aux transactions budgétaires à sélectionner. Vous pourrez restreindre l'étendue de cette période dans l'onglet suivant.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Dans cette zone, cliquez sur le bouton <b>Sélectionner </b>puis, dans la fenêtre contextuelle qui s'affiche, activez les cases à cocher correspondant aux périodes d'exercice à sélectionner et cliquez sur le bouton <img src="../../Resources/Images/L_Liquidity/Bouton coche bleue.JPG" /> pour valider votre sélection.</li>
+                </ol>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1">
+                                <img src="../../Resources/Images/Assets/oh-Note.png" />
+                            </td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">La liste affiche uniquement les périodes pour lesquelles au moins un exercice budgétaire est créé.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="IndentPuceNiv1">Le code et le libellé des périodes d'exercice sélectionnées s'affichent dans la zone <b>Périodes</b>.</p>
+                <ol MadCap:continue="true">
+                    <li MadCap:conditions="" class="PuceNumNiv1">Dans la zone <b>Statut</b>, sélectionnez le statut à appliquer aux flux de trésorerie générés&#160;:</li>
+                </ol>
+                <ul>
+                    <li MadCap:conditions="" class="PuceNiv2">Prévision d'origine</li>
+                    <li MadCap:conditions="" class="PuceNiv2">Prévision confirmée</li>
+                    <li MadCap:conditions="" class="PuceNiv2">Réalisé</li>
+                </ul>
+                <p class="IndentPuceNiv1">Consultez la documentation du module <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> pour plus d'informations sur ces options.</p>
+                <ol start="6">
+                    <li MadCap:conditions="" class="PuceNumNiv1">Dans la zone <b>Règles de totalisation</b>, définissez les critères de regroupement des transactions budgétaires si vous souhaitez générer un flux de trésorerie unique pour plusieurs transactions, comme suit.</li>
+                </ol>
+                <ol>
+                    <li MadCap:conditions="" class="PuceNumNiv2">Activez la case à cocher <b>Code budgétaire identique</b> pour regrouper les transactions budgétaires de même nature.</li>
+                    <li MadCap:conditions="" class="PuceNumNiv2">Activez la case à cocher <b>Libellé identique</b> pour regrouper les transactions budgétaires portant le même libellé.</li>
+                    <li MadCap:conditions="" class="PuceNumNiv2">Dans le champ <b>Montant seuil</b>, définissez le montant minimum des transactions budgétaires à regrouper. Laissez ce champ à zéro si vous ne souhaitez pas définir de montant minimum pour le regroupement des transactions budgétaires.</li>
+                </ol>
+                <ol start="7">
+                    <li MadCap:conditions="" class="PuceNumNiv1">Cliquez sur l'onglet <b>Mode de postage</b>.</li>
+                </ol>
+                <p class="IndentPuceNiv1" MadCap:targetName="Newtask3">
+                    <img src="../../Resources/Images/L_Liquidity/Flux treso 4.png" class="SAGE_screenshot" />
+                </p>
+                <ol MadCap:continue="true">
+                    <li MadCap:conditions="" class="PuceNumNiv1">Dans les champs <b>Date de début</b> et <b>Date de fin</b> de la zone <b>Périodes</b>, sélectionnez la date de début et la date de fin de la période dans laquelle doivent se situer les transactions budgétaires à sélectionner, en saisissant ces dates ou en utilisant le calendrier.<MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"> Pour plus d'informations sur l'utilisation du calendrier, <a href="ContextualTopics/Calendrier.htm" target="_popup" class="Popup">cliquez ici</a>.</MadCap:conditionalText></li>
+                    <li MadCap:conditions="" class="PuceNumNiv1">Dans la zone <b>Appliquer</b>, activez la case à cocher&#160;:</li>
+                </ol>
+                <ul style="list-style-type: square;">
+                    <li MadCap:conditions="" class="PuceNiv2"><b>Conditions de réalisation</b> si vous souhaitez appliquer les conditions de valeur négociées avec les banques (qui déterminent les dates de valeur des flux),</li>
+                    <li MadCap:conditions="" class="PuceNiv2"><b>Flux de rétention</b> si vous souhaitez appliquer les conditions de frais aux flux assujettis aux frais,</li>
+                    <li MadCap:conditions="" class="PuceNiv2"><b>Flux intragroupe</b>, si vous souhaitez générer des flux intragroupe.</li>
+                </ul>
+                <p class="IndentPuceNiv1">Consultez la documentation du module <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> pour plus d'informations sur ces options.</p>
+                <ol start="10">
+                    <li class="PuceNumNiv1">Cliquez sur le bouton <b>OK </b>pour enregistrer le paramétrage de la tâche ou sur le bouton <b>Annuler </b>pour annuler.</li>
+                </ol>
+                <p class="IndentPuceNiv1">Un message d'avertissement s'affiche si la période de sélection des transactions budgétaires commence avant la date du jour. Cliquez sur <b>Oui</b> si vous souhaitez créer des flux de trésorerie avec une date antérieure à la date du jour ou sur <b>Non</b> pour redéfinir les dates de cette période.</p>
+                <p MadCap:conditions="" class="IndentPuceNiv1"><a name="page_sel_flux"></a>Si vous avez validé la création de la tâche, la page de sélection des transactions budgétaires s'affiche.</p>
+                <p MadCap:conditions="" MadCap:targetName="Newtask4" class="IndentPuceNiv1">
+                    <img src="../../Resources/Images/L_Liquidity/Flux treso 5.png" class="SAGE_screenshot" />
+                </p>
+                <p MadCap:conditions="" class="IndentPuceNiv1">Cette page affiche les flux de trésorerie pouvant être générés à partir des critères de sélection que vous avez définis<MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">.</MadCap:conditionalText></p>
+                <p class="IndentPuceNiv1SautLigne">
+                    <MadCap:toggler targets="Tableau colonnes">Afficher la description du tableau</MadCap:toggler>
+                </p>
+                <table class="TableStyle-Tableau_standard" cellspacing="0" MadCap:targetName="Tableau colonnes" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');margin-left: 0;margin-right: auto;">
+                    <col class="TableStyle-Tableau_standard-Column-Column1" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Tableau_standard-Head-Header1">
+                            <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Colonne</th>
+                            <th class="TableStyle-Tableau_standard-HeadF-Column2-Header1">Description</th>
+                            <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Modification</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Flux</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Nature du flux de trésorerie</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Sélection d'une valeur dans une liste</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Compte</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Compte bancaire</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Sélection d'une valeur dans une liste</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Date opéra.</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Date d'opération du flux</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Sélection d'une date dans le calendrier</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Date de valeur</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Date de valeur du flux</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Sélection d'une date dans le calendrier</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Devise Trn</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Devise du flux</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Sélection d'une valeur dans une liste</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Montant Trn</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Montant du flux exprimé dans la devise de transaction</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Saisie au clavier dans le champ</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Devise de ctrv</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Devise de contre-valeur</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Sélection d'une valeur dans une liste</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Montant Ctrv</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Montant du flux exprimé dans la devise de contre-valeur</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Saisie au clavier dans le champ</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Code budgétaire</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Nature budgétaire</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Sélection d'une valeur dans une liste</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Libellé</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Description courte du flux</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Sélection d'une valeur dans une liste</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Référence</td>
+                            <td class="TableStyle-Tableau_standard-BodyC-Column2-Body1">Référence externe du flux</td>
+                            <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1"><b>Non modifiable</b>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol MadCap:continue="true">
+                    <li MadCap:conditions="" class="PuceNumNiv1">Si vous le souhaitez, vous pouvez modifier les caractéristiques du flux directement dans les champs de cette page, à l'exception de la référence du flux. Reportez-vous au tableau ci-dessus pour plus d'informations.</li>
+                    <li MadCap:conditions="" class="PuceNumNiv1">Procédez comme suit pour lancer la tâche immédiatement ou ultérieurement.</li>
+                </ol>
+                <ul style="list-style-type: square;">
+                    <li MadCap:conditions="" class="PuceNiv2">Si vous souhaitez générer les flux de trésorerie <u>ultérieurement</u>, cliquez sur le bouton <b>Annuler</b>.</li>
+                </ul>
+                <p MadCap:conditions="" class="IndentPuceNiv2">La page de gestion des tâches s'affiche. La nouvelle tâche est ajoutée au tableau.</p>
+                <p MadCap:conditions="" class="IndentPuceNiv2">Reportez-vous à la procédure ci-après pour générer ultérieurement ces flux.</p>
+                <ul style="list-style-type: square;">
+                    <li MadCap:conditions="" class="PuceNiv2">Si vous souhaitez générer les flux de trésorerie <u>immédiatement</u>, activez les cases à cocher en regard des lignes à sélectionner, puis cliquez sur le bouton <b>Poster</b> pour lancer la tâche.</li>
+                </ul>
+                <p MadCap:conditions="" class="IndentPuceNiv2">Un message d'avertissement s'affiche si des flux de trésorerie ont déjà été générés pour la période sélectionnée, que ce soit à partir de cette tâche ou d'une autre.</p>
+                <ul style="list-style-type: square;">
+                    <li MadCap:conditions="" class="PuceNiv3">Cliquez sur <b>Non</b> pour conserver les flux générés antérieurement.</li>
+                </ul>
+                <p MadCap:conditions="" class="IndentPuceNiv3">La création des flux sélectionnés est annulée et la page de gestion des tâches est réaffichée.</p>
+                <p MadCap:conditions="" class="IndentPuceNiv3">Dans cette page, la nouvelle tâche est ajoutée au tableau.</p>
+                <p MadCap:conditions="" class="IndentPuceNiv3">La création des flux étant annulée, les champs <b>Date de postage</b> et <b>Nb de flux</b> ne sont pas renseignés pour cette tâche.</p>
+                <ul style="list-style-type: square;">
+                    <li MadCap:conditions="" class="PuceNiv3">Cliquez sur <b>Oui</b> pour supprimer les flux de trésorerie générés antérieurement et lancer la création des flux sélectionnés.</li>
+                </ul>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Warning.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Warning" cellspacing="0">
+                    <col class="TableStyle-Warning-Column-Column1" />
+                    <col class="TableStyle-Warning-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Warning-Body-Body1">
+                            <td class="TableStyle-Warning-BodyB-Column1-Body1" style="text-align: left;">
+                                <img src="../../Resources/Images/Assets/oh-Warning.png" />
+                            </td>
+                            <td class="TableStyle-Warning-BodyA-Column2-Body1">Si vous cliquez sur <b>Oui</b>, <u>tous</u> les flux générés antérieurement pour la même période seront écrasés.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p MadCap:conditions="" class="IndentPuceNiv3">La tâche est lancée et la page de gestion des tâches est réaffichée.</p>
+                <p MadCap:conditions="" class="IndentPuceNiv3">Dans cette page, la nouvelle tâche est ajoutée au tableau.</p>
+                <p MadCap:conditions="" class="IndentPuceNiv3">Les champs <b>Date de postage</b> et <b>Nb de flux</b> sont renseignés pour cette tâche avec la date du jour et le nombre flux générés.</p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1">
+                                <img src="../../Resources/Images/Assets/oh-Note.png" />
+                            </td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">Dès lors qu'une tâche est créée, vous ne pouvez plus la modifier. Si vous souhaitez inclure d'autres paramètres, vous devez créer une autre tâche.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Générer les flux de trésorerie</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p MadCap:conditions="">Dans la page des tâches de création des flux de trésorerie, cliquez sur une ligne correspondant à une tâche, puis sur le bouton <b>Envoyer ver le module Trésorerie</b>.</p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Warning.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Warning" cellspacing="0">
+                    <col class="TableStyle-Warning-Column-Column1" />
+                    <col class="TableStyle-Warning-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Warning-Body-Body1">
+                            <td class="TableStyle-Warning-BodyB-Column1-Body1" style="text-align: left;">
+                                <img src="../../Resources/Images/Assets/oh-Warning.png" />
+                            </td>
+                            <td class="TableStyle-Warning-BodyA-Column2-Body1">Les cases à cocher en regard des lignes du tableau ne permettent pas de sélectionner les tâches pour la création des flux. La ligne sélectionnée pour cette fonctionnalité est toujours la ligne grisée, c'est-à-dire la dernière ligne sur laquelle vous avez cliqué.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p MadCap:conditions="">La page de sélection des transactions budgétaires s'affiche.</p>
+                <p MadCap:conditions="">
+                    
+                    <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><a href="#page_sel_flux">Cliquez ici</a>
+                    </MadCap:conditionalText> pour connaître la procédure détaillée de lancement de la tâche.</p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1">
+                                <img src="../../Resources/Images/Assets/oh-Note.png" />
+                            </td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1"><span>Si vous relancez une même tâche ou si vous lancez une tâche dont la période recoupe celle d'une tâche lancée antérieurement, tous les flux de trésorerie générés antérieurement dans la même période à partir du module </span><MadCap:variable name="Localization.SXT_Liquidity" style="font-weight: bold" /> seront supprimés. Le total des flux de trésorerie générés pour chaque tâche est alors mis à jour dans la page de gestion des tâches de création des flux de trésorerie.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

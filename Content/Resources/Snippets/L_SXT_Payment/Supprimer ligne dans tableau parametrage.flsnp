@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>&#160;</head>
+    <body>
+        <p class="SautLigneAvantEtAprès">Dans les pages affichant un tableau, si la fonction le permet, vous pouvez ajouter, modifier ou supprimer des lignes.</p>
+        <p>Pour supprimer une ligne, sélectionnez-la en activant la case à cocher correspondante à gauche du tableau, puis cliquez sur le bouton<b> Supprimer</b>.</p>
+        <p>Cliquez sur le bouton <b>Oui </b>dans la boîte de dialogue vous invitant à confirmer votre action.</p>
+        <p class="SautLigne">L'élément est supprimé.</p>
+    </body>
+</html>

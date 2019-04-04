@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="1630" MadCap:lastWidth="727" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT">Concepts clés</h1>
+        <p class="SAGE_BodyText">Le fonctionnement du module <MadCap:variable name="Localization.SXT_Netting" style="font-weight: bold;" /> repose sur trois grands concepts, détaillés ci-dessous&#160;:</p>
+        <MadCap:dropDown class="SageDropDown">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Cycles</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="SAGE_BodyText">Dans le module <MadCap:variable name="Localization.SXT_Netting" style="font-weight: bold;" />, le traitement de compensation est effectué au cours de périodes définies appelées <i>cycles</i>. </p>
+                <p>Vous pouvez définir ces cycles et les générer automatiquement pour répondre exactement à vos besoins et profiter de tous les avantages du module <MadCap:variable name="Localization.SXT_Netting" style="font-weight: bold;" />. Vous pouvez également paramétrer un calendrier flexible des règlements.</p>
+                <p>Les cycles de compensation sont constitués de quatre phases principales&#160;:</p>
+                <ul style="list-style-type: square;">
+                    <li>Centralisation</li>
+                    <li>Simulation</li>
+                    <li>Approbation de la Simulation</li>
+                    <li>Validation</li>
+                </ul>
+                <p>
+                    <img src="../../Resources/Images/L_Netting/Cycles compensation.png" class="SAGE_screenshot" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown class="SageDropDown">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Simulations</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="SAGE_BodyText">Vous pouvez procéder à autant de simulations que nécessaire pour les cycles en cours et à venir.</p>
+                <p class="SautLigne">Ces simulations vous permettent de&#160;:</p>
+                <ul>
+                    <li>calculer les positions nettes approximatives avant la fin de la phase de notification des factures.</li>
+                    <li>prendre en compte les modifications éventuelles sur les factures (phase d’acceptation).</li>
+                </ul>
+                <p class="SautLigne">Deux processus de conversion se produisent lors du traitement de compensation&#160;:</p>
+                <ul>
+                    <li class="PuceNiv1">Les montants des factures (à payer et à recevoir) exprimés en devise de facturation pour chaque participant du cycle sont convertis en devise de compensation.</li>
+                    <li class="PuceNiv1">Ensuite, le résultat net exprimé en devise de compensation est converti en devise de règlement.</li>
+                </ul>
+                <p class="SautLigne">Un cours de change est utilisé pour calculer l’ensemble des à payer et des à recevoir dans la balance des devises de compensation et un autre pour le calcul des règlements. </p>
+                <p class="SAGE_BodyText">Par conséquent, vous pouvez choisir les cours utilisés pour le calcul des conversions dans les devises de compensation et de règlement. Les cours budget ou marché (moyen ou achat/vente) paramétrés dans le module <b class="SAGE_Bold">Marché</b> peuvent être utilisés ainsi que des cours personnalisés.</p>
+                <p class="SAGE_BodyText">Vous pouvez si nécessaire implémenter des majorations afin de rémunérer le centre pour la compensation effectuée ou pour ajuster les différences entre les cours des monnaies étrangères (différence entre l’achat/vente de devises étrangères).</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown class="SageDropDown">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Tiers</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="SAGE_BodyText">La possibilité d'inclure des tiers dans le processus de compensation représente l'une des fonctionnalités les plus importantes du module. Ainsi, grâce à l'application, il est possible de régler aux participants les factures de tiers en passant par le centre de compensation.</p>
+                <p class="SAGE_BodyText">Le centre de compensation peut centraliser la totalité des activités des tiers : il reçoit directement les règlements de tiers et effectue également les règlements en faveur des tiers. En parallèle, le centre de compensation peut intégrer toutes les transactions des tiers pour le compte de participants dans le processus global de la compensation.</p>
+                <p class="SAGE_BodyText">Aucune conversion de devise n’est effectuée pour les tiers dans la mesure où la devise de facturation est également la devise de règlement : le module offre donc un système de centralisation des règlements.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="571" MadCap:lastWidth="865">
+    <head>&#160;</head>
+    <body>
+        <p>Cette fonction vous permet de répartir un montant sur 12&#160;mois.</p>
+        <p class="SautLigne">Pour y accéder,&#160;dans la page de saisie de budget&#160;:</p>
+        <ul style="list-style-type: square;">
+            <li class="PuceNiv1">sélectionnez une cellule, cliquez sur le bouton <b>Répartitions </b>dans la barre d'actions, puis, dans le menu contextuel qui s'affiche, sélectionnez l'option <b>Répartition sur 12&#160;mois</b>,</li>
+            <li class="PuceNiv1">ou cliquez avec le bouton droit de la souris sur une cellule et sélectionnez l'option <b>Répartition sur 12&#160;mois</b>.</li>
+        </ul>
+        <p class="SautLigne">La page de saisie des paramètres de la fonction s'affiche.</p>
+        <p MadCap:targetName="Capture Repartition 12 mois">
+            <img src="../../Images/L_Liquidity/Repartition sur 12 mois.jpg" class="SAGE_screenshot" />
+        </p>
+        <p>La zone <b>Informations générales</b> affiche le code de la nature budgétaire et le type de la feuille budgétaire, ainsi que les dates de début et de fin d'application de la formule de répartition sur 12&#160;mois.</p>
+        <ol>
+            <li class="PuceNumNiv1">Dans la zone <b>Montant à répartir</b>, saisissez le total du montant à répartir sur 12&#160;mois dans le champ&#160;<b>Montant</b>.</li>
+            <li class="PuceNumNiv1">Dans le champ <b>Devise</b>, vous pouvez modifier la devise sélectionnée en cliquant sur le bouton <img src="../../Images/L_Liquidity/Bouton Points de suspension.JPG" />, puis, dans la fenêtre contextuelle qui s'affiche, en double-cliquant sur une ligne pour la sélectionner.<br />Le code et le libellé de la devise sélectionnée s'affichent dans la page de paramétrage de la répartition sur 12&#160;mois.</li>
+            <li class="PuceNumNiv1">Dans le champ <b>Libellé</b>, vous pouvez modifier le libellé affiché par défaut.</li>
+            <li class="PuceNumNiv1">Activez la case d'option&#160;:</li>
+        </ol>
+        <ul style="list-style-type: square;">
+            <li class="PuceNiv2"><b>Ajouter </b>pour ajouter les nouveaux montants à ceux déjà existants dans les mêmes cellules,</li>
+            <li class="PuceNiv2"><b>Remplacer </b>pour écraser les valeurs existantes dans les mêmes cellules par les 12&#160;montants.</li>
+        </ul>
+    </body>
+</html>

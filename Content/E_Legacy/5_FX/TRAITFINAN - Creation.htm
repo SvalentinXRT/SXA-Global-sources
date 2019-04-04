@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:lastBlockDepth="7" MadCap:lastHeight="788" MadCap:lastWidth="596">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT">Création et modification</h1>
+        <p>Les <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubriques</MadCap:conditionalText> suivantes détaillent les procédures de création et de modification des transactions de change ainsi que la configuration des critères de filtrage dans les pages d'application concernées.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Transactions de change au comptant et à terme</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>A chaque transaction d'achat ou de vente au comptant et à terme, deux flux sont générés dans la trésorerie.</p>
+                <p style="margin-top: 6pt;font-style: normal;"><i>Exemple :</i> Une société achète 10 000 USD pour lesquels elle devra payer la contrepartie en euros, la devise locale de la société. Des comptes de dénouement sont saisis.</p>
+                <p style="margin-top: 6pt;">Deux flux de trésorerie sont affectés à ce type de transaction&#160;:</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv1">un flux de recette en devise principale (achat de dollars),</li>
+                    <li class="PuceNiv1">un flux de dépense en devise de contre-valeur (vente d'euros en échange de dollars).</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Swap</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Un swap est la combinaison de deux transactions de sens inverse&#160;: une transaction de change au comptant ou à terme (jambe aller) avec une transaction de change à terme (jambe retour). A chaque swap de devises, quatre flux sont générés dans la trésorerie.</p>
+                <p class="SautLigne" style="font-style: italic;">Jambe aller (achat)</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv1">Un flux de recette en devise principale (achat de dollars)</li>
+                    <li class="PuceNiv1">Un flux de dépense en devise de contre-valeur (vente d'euros en échange de dollars)</li>
+                </ul>
+                <p class="SautLigne" style="font-style: italic;">Jambe retour (vente)</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv1">Un flux de dépense en devise principale (achat de dollars)</li>
+                    <li class="PuceNiv1">Un flux de recette en devises de contre-valeur (vente d'euros en échange de dollars)</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td class="TableStyle-Note-BodyB-Column1-Body1">
+                        <img src="../../Resources/Images/Assets/oh-Note.png" />
+                    </td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">La suppression d'une transaction de change entraîne la suppression automatique des flux de trésorerie associés.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Une transaction de change peut avoir deux statuts&#160;: ouverte et fermée (lorsqu'elle est dénouée).</p>
+        <p>Lors de la création des transactions, gardez à l'esprit que dans le module <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> un achat de devises correspond à une recette dans la devise principale de la transaction (devise étrangère) et à une dépense dans la devise de contre-valeur (devise locale).</p>
+    </body>
+</html>

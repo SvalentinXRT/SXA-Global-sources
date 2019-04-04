@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1144" MadCap:lastWidth="513">
+    <head>
+        <link href="../../TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <ul>
+            <li class="PuceNiv2">La zone <b>Devise principale</b> vous permet de sélectionner les comptes de la devise principale <b>à créditer dans le cas d'un achat ou à débiter dans le cas d'une vente</b>.</li>
+            <li class="PuceNiv2">La zone <b>Devise de contre-valeur</b> vous permet de sélectionner les comptes de la devise de contre-valeur <b>à débiter dans le cas d'un achat ou à créditer dans le cas d'une vente</b>.</li>
+        </ul>
+        <p class="IndentPuceNiv1">Dans le tableau suivant, les champs obligatoires sont indiqués dans la colonne intitulée O.
+</p>
+        <p class="IndentPuceNiv1SautLigne" MadCap:conditions="Default.ScreenOnly">
+            <MadCap:toggler targets="capture onglet Dénouement">Afficher la description des champs</MadCap:toggler>
+        </p>
+        <table class="TableStyle-Tableau_standard" cellspacing="0" MadCap:targetName="capture onglet Dénouement" style="mc-table-style: url('../../TableStyles/Tableau standard.css');">
+            <col class="TableStyle-Tableau_standard-Column-Column1" />
+            <col class="TableStyle-Tableau_standard-Column-Column2" />
+            <col class="TableStyle-Tableau_standard-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-Tableau_standard-Head-Header1">
+                    <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Champ</th>
+                    <th class="TableStyle-Tableau_standard-HeadF-Column2-Header1">Description</th>
+                    <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1" style="font-weight: bold;font-size: 11pt;">O</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Compte société</td>
+                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                        <p class="tableau">En utilisant le bouton <img src="../../Images/L_Payment/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" />, sélectionnez le compte bancaire de la société à débiter ou à créditer selon le cas.</p>
+                        <p class="tableau">Ce compte de dénouement peut être libellé dans une devise tierce, différente de la devise principale ou secondaire.</p>
+                    </td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                        <img src="../../Images/L_Payment/Checkmark_L.gif" style="width: 23px;height: 19px;" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Date de valeur</td>
+                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                        <p class="tableau">Ce champ modifiable affiche la date à laquelle les devises seront effectivement disponibles sur le compte considéré. Pour les transactions de change au comptant, il correspond à la date de livraison de la transaction.</p>
+                    </td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Compte contrepartie</td>
+                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                        <p class="tableau">Ces champs affichent le détail du compte bancaire de contrepartie. Ils sont automatiquement renseignés, le cas échéant, à partir du compte de contrepartie configuré pour la société sélectionnée et la devise de la transaction.</p>
+                        <p class="tableau">Ce compte est facultatif si la contrepartie est une banque. Lorsqu'il s'agit d'une autre contrepartie ou d'une société, le compte bancaire doit obligatoirement être configuré pour la contrepartie et la devise de la transaction. En effet, les transactions au comptant sont automatiquement dénouées par le module <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> dès leur validation, d'où la nécessité de l'existence de cette information lors de la création de la transaction.</p>
+                        <p class="tableau">La configuration des comptes de contrepartie est effectuée via le module <MadCap:variable name="Localization.SXT_Setup" style="font-weight: bold;" />. Consultez la documentation de ce module pour plus d'informations.</p>
+                    </td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Du /&#160;Par</td>
+                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                        <p class="tableau">Ce champ affiche le correspondant défini par défaut pour le compte bancaire sélectionné.</p>
+                        <p class="tableau">Si aucun correspondant par défaut n'a été défini ou si le correspondant pour cette transaction n'est pas le correspondant par défaut, vous pouvez saisir ou modifier le nom du correspondant dans ce champ.</p>
+                    </td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Conversion</td>
+                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                        <p class="tableau">Cette fonction vous permet de consulter le détail de la conversion de valeurs si la devise du compte crédité diffère de la devise principale de la transaction ou si la devise du compte débité diffère de la devise secondaire de la transaction.</p>
+                        <p class="tableau">Pour plus d'informations sur cette fonction, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Legacy/3_Payment/TRAITFINAN - Modele - Creation.htm" target="" title="" alt="" class="XrefSansTexte">Conversion des montants</MadCap:xref>.</MadCap:conditionalText></p>
+                    </td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Référence</td>
+                    <td class="TableStyle-Tableau_standard-BodyC-Column2-Body1">Saisissez dans ce champ une référence externe pour la transaction, le cas échéant. Il peut s'agir par exemple de la référence du système interne de classement de votre organisation&#160;: cette référence est reprise dans les courriers rattachés à la transaction. Elle constitue également un critère de recherche et de sélection.</td>
+                    <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">&#160;</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

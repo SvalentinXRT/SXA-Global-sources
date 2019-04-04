@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1455" MadCap:lastWidth="798">
+    <head>
+        <link href="../../TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>Deux possibilités sont offertes.</p>
+        <ul>
+            <li class="PuceNiv1">Vous pouvez afficher les transactions de change liées à l'opération commerciale sélectionnée.</li>
+        </ul>
+        <p class="IndentPuceNiv1">Cette fonctionnalité est accessible à partir du lien <b>Afficher le détail</b> disponible dans la page de gestion des opérations commerciales. Pour plus d'informations, <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">cliquez ici.</MadCap:conditionalText></p>
+        <ul>
+            <li class="PuceNiv1">Vous pouvez afficher les opérations commerciales liées à la transaction de change sélectionnée.</li>
+        </ul>
+        <p class="IndentPuceNiv1">Cette fonctionnalité est accessible via la fiche de position <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;"></MadCap:variable>. Pour plus d'informations, consultez la procédure ci-dessous.</p>
+        <table style="mc-table-style: url('../../TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1">
+                        <img src="../../Images/Assets/oh-Note.png" />
+                    </td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">La procédure suivante décrit uniquement la consultation du détail des transactions de change et des prévisions commerciales pour un montant dans la fiche de position FX. Pour une description complète de la fiche de position FX, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref target="" title="" alt="" class="XrefSansTexte">Fiche de position FX</MadCap:xref>.</MadCap:conditionalText></td>
+                </tr>
+            </tbody>
+        </table>
+        <ol>
+            <li class="PuceNumNiv1">Dans le volet <MadCap:variable name="Localization.SXTModulesTasks" style="font-weight: bold;" />, sélectionnez l'option <b>Fiche position <MadCap:variable name="Localization.SXT_Payment" /></b> dans le dossier <MadCap:variable name="Localization.SXTReportsFolder" style="font-weight: bold;" /> du module <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" />.</li>
+        </ol>
+        <p class="IndentPuceNiv1">La page de modification du filtre défini par défaut pour cette fonctionnalité s'affiche.</p>
+        <p MadCap:targetName="Capture filtre">
+            <img src="../../Images/L_Payment/Filtre Fiche position FX 2.png" class="SAGE_screenshot" />
+        </p>
+        <p class="IndentPuceNiv1SautLigne">Cette page vous permet de définir des critères de filtrage permettant de restreindre ou d'élargir la sélection de transactions à afficher dans la fiche de position <MadCap:variable name="Localization.SXT_Payment" />. Si aucun critère n'est renseigné dans cette page, toutes les transactions existantes sont sélectionnées pour le calcul de la position <MadCap:variable name="Localization.SXT_Payment" />.</p>
+        <table style="mc-table-style: url('../../TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1">
+                        <img src="../../Images/Assets/oh-Note.png" />
+                    </td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">Pour une description des champs de cette page, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">procédure de <MadCap:xref target="" title="" alt="" />création de filtre pour la fiche de position <MadCap:variable name="Localization.SXT_Payment" /> dans la rubrique <MadCap:xref target="" title="" alt="" class="XrefSansTexte">Fiche de position FX</MadCap:xref></MadCap:conditionalText>.</td>
+                </tr>
+            </tbody>
+        </table>
+        <ol MadCap:continue="true">
+            <li class="PuceNumNiv1">Configurez le filtre, puis cliquez sur <b>OK</b>.</li>
+        </ol>
+        <p class="IndentPuceNiv1">La fiche de position <MadCap:variable name="Localization.SXT_Payment" /> s'affiche avec les montants sous forme de tableau.</p>
+        <p MadCap:targetName="Capture fiche position FX">
+            <img src="../../Images/L_Payment/Fiche position FX 2.png" class="SAGE_screenshot" />
+        </p>
+        <p class="IndentPuceNiv1SautLigne">Pour une description complète des champs de cette page, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref target="" title="" alt="" class="XrefSansTexte">Fiche de position FX</MadCap:xref>.</MadCap:conditionalText></p>
+        <ol MadCap:continue="true">
+            <li class="PuceNumNiv1">Double-cliquez sur un montant dans la colonne <b>Montant de consolidation</b> pour en consulter le détail.</li>
+        </ol>
+        <p class="IndentPuceNiv1">Une fenêtre contextuelle s'affiche.</p>
+        <p MadCap:targetName="Capture detail pos FX">
+            <img src="../../Images/L_Payment/Fiche position FX detail.png" class="SAGE_screenshot" />
+        </p>
+        <p class="IndentPuceNiv1SautLigne">La fenêtre répertorie les transactions de change prises en compte dans le montant, ainsi que les prévisions commerciales associées avec, pour chacune, le type, la catégorie et le numéro de l'opération, la société, les dates d'opération, de valeur et de livraison, la devise principale, le montant de la transaction dans la devise principale et le taux de change.</p>
+        <ol MadCap:continue="true">
+            <li class="PuceNumNiv1">Cliquez sur <b>OK</b> pour fermer la fenêtre contextuelle.</li>
+        </ol>
+    </body>
+</html>

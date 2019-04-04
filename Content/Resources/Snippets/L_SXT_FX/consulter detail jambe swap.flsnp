@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="863" MadCap:lastWidth="633">
+    <head>&#160;</head>
+    <body>
+        <ol>
+            <li class="PuceNumNiv1">Dans la page de gestion des transactions de swap, cliquez sur le bouton <b>+</b> en regard d'une ligne pour afficher les jambes composant la transaction de swap correspondante.</li>
+        </ol>
+        <p class="IndentPuceNiv1">Deux lignes s'affichent sous la ligne sélectionnée, correspondant aux deux jambes de la transaction.</p>
+        <p class="IndentPuceNiv1">La capture ci-dessous présente la page affichée dans le cas d'une transaction de swap comptant contre terme.</p>
+        <p MadCap:targetName="Capture jambes">
+            <img src="../../Images/L_FX/Swap comptant contre terme 1b.png" class="SAGE_screenshot">
+            </img>
+        </p>
+        <p class="IndentPuceNiv1SautLigne">Les lignes correspondant aux jambes affichent&#160;:</p>
+        <ul>
+            <li class="PuceNiv2">le numéro de transaction de change au comptant ou à terme constituant la jambe,</li>
+            <li class="PuceNiv2">le numéro de dossier auquel est rattachée la transaction, le cas échéant,</li>
+            <li class="PuceNiv2">le numéro de portefeuille auquel est rattachée la transaction, le cas échéant,</li>
+            <li class="PuceNiv2">la société à l'origine de la transaction,</li>
+            <li class="PuceNiv2">la date de la transaction,</li>
+            <li class="PuceNiv2">le cours de change à terme,</li>
+            <li class="PuceNiv2">le cours de change au comptant.</li>
+        </ul>
+        <ol start="2">
+            <li class="PuceNumNiv1">Double-cliquez sur une ligne correspondant à une jambe pour en consulter le détail.</li>
+        </ol>
+        <p class="IndentPuceNiv1">La page de modification de la jambe s'affiche.</p>
+        <p MadCap:targetName="Capture detail jambe">
+            <img src="../../Images/L_FX/Swap comptant contre terme jambe.png" class="SAGE_screenshot">
+            </img>
+        </p>
+        <ul>
+            <li class="PuceNiv2">Si la transaction de swap a été validée en <i>back office</i>, aucun champ de la page n'est modifiable.<br />La jambe aller n'est plus modifiable.<br />Pour modifier la jambe retour, vous devez utiliser la fonctionnalité de gestion des transactions de change à terme. Pour plus d'informations sur cette fonctionnalité, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Legacy/5_FX/TRAITFINAN - Change a terme.htm" target="" title="" alt="" class="XrefSansTexte">Change à terme</MadCap:xref>.</MadCap:conditionalText></li>
+            <li class="PuceNiv2">Si la transaction n'a pas encore été validée en <i>back office</i>, vous pouvez modifier certains champs dans cette page.<br />Les champs modifiables sont les mêmes que ceux d'une transaction de change à terme initiale. Pour plus d'informations sur les champs modifiables de ce type de transaction, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Legacy/5_FX/TRAITFINAN - Change a terme.htm" target="" title="" alt="" class="XrefSansTexte">Change à terme</MadCap:xref>.</MadCap:conditionalText></li>
+        </ul>
+        <ol start="3">
+            <li class="PuceNumNiv1">Cliquez sur <b>OK</b> pour enregistrer vos modifications et revenir à la page de gestion des transactions de swap.</li>
+        </ol>
+    </body>
+</html>

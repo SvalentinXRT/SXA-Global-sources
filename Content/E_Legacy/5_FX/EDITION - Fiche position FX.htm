@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:lastBlockDepth="9" MadCap:lastHeight="8058" MadCap:lastWidth="570">
+    <head>
+        <link href="../../Resources/TableStyles/Warning.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Warning.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Warning.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <meta name="description" content="Texte Metadata à jouter" />
+    </head>
+    <body>
+        <h1 class="LegacySXT">
+            <MadCap:keyword term="Fiche de position" />Fiche de position FX</h1>
+        <p>La fiche de position permet de mettre en évidence l'exposition au risque de change, à la hausse ou à la baisse, par rapport aux couvertures mises en place et au solde bancaire. Elle établit ainsi&#160;:</p>
+        <ul>
+            <li class="PuceNiv1">le niveau de couverture sur l’horizon de gestion en montant et en pourcentage,</li>
+            <li class="PuceNiv1">le cours moyen de la position et des couvertures,</li>
+            <li class="PuceNiv1">la répartition des couvertures et le détail par type de transaction.</li>
+        </ul>
+        <p class="SautLigne">La fiche de position est consultable par société, par devise et par période.</p>
+        <p>Vous pouvez consulter le détail des montants en position et analyser en temps réel les modifications sur les transactions, facilitant ainsi l'analyse de la position et la prise de décision financière.</p>
+        <p>La fiche de position indique le niveau de couverture (solde des transactions commerciales diminué du solde des transactions de change), le cours devise moyen de la position, les transactions de couverture et les détails de la
+couverture par type de transaction.</p>
+        <p class="SautLigne">Deux notions fondamentales entrent dans le calcul de la position de change globale&#160;:</p>
+        <ul>
+            <li class="PuceNiv1">l’évaluation de la transaction commerciale et sa couverture par transaction de change à terme,</li>
+            <li class="PuceNiv1">le cours du point mort&#160;; c’est le cours de réévaluation auquel la société devrait réaliser une
+transaction de change pour obtenir une position fermée.</li>
+        </ul>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td class="TableStyle-Note-BodyB-Column1-Body1">
+                        <img src="../../Resources/Images/Assets/oh-Note.png" />
+                    </td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">Lorsque le cours du point mort est le cours marché, la position est dite <i>mark-to-market</i>.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="SautLigne">Vous disposez de différents affichages de la fiche de position qui vous permettent d'optimiser votre analyse de la position de change&#160;:</p>
+        <ul style="list-style-type: square;">
+            <li class="PuceNiv1">la configuration des filtres vous permet de déterminer des critères de sélection ainsi que différents paramètres d'affichage,</li>
+            <li class="PuceNiv1">la configuration du cube vous permet de réorganiser l'affichage des montants en regroupant ou en détaillant ces derniers sur des critères spécifiés.</li>
+        </ul>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead style="margin-top: 18pt;">
+                <MadCap:dropDownHotspot>Accéder à la fiche de position FX</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">Dans le volet <MadCap:variable name="Localization.SXTModulesTasks" style="font-weight: bold;" />, sélectionnez l'option <b>Fiche position FX</b> dans le dossier <MadCap:variable name="Localization.SXTReportsFolder" style="font-weight: bold;" /> du module <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" />.</li>
+                </ol>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2">Si aucun filtre n'a été paramétré pour cette édition, la page de création de filtre s'affiche. Vous devez créer un filtre.</li>
+                </ul>
+                <p class="IndentPuceNiv2">Ce filtre vous permet de sélectionner les opérations commerciales, les transactions de change ainsi que les opérations d'emprunt et de prêt de devises à afficher en fonction de critères que vous définissez.</p>
+                <p class="IndentPuceNiv2">Consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique</MadCap:conditionalText> ci-après pour plus d'informations sur la création de filtres de sélection des opérations et des transactions.</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2">Si un filtre a déjà été paramétré, la page de modification de filtre s'affiche avec les paramètres du filtre configuré par défaut.</li>
+                </ul>
+                <p MadCap:targetName="Capture Creer feuille de budget"><span style="color: #723e64;"><img src="../../Resources/Images/L_FX/Filtre Fiche position FX 1.png" class="SAGE_screenshot" /></span>
+                </p>
+                <p class="IndentPuceNiv1">Si vous souhaitez modifier les paramètres du filtre, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique</MadCap:conditionalText> ci-après concernant la création de filtre.</p>
+                <ol start="2">
+                    <li class="PuceNumNiv1">Cliquez sur <b>OK</b> pour afficher l'édition avec les paramètres du filtre.</li>
+                </ol>
+                <p MadCap:targetName="Capture edition" MadCap:conditions="">
+                    <img src="../../Resources/Images/L_FX/Fiche position FX 2.png" class="SAGE_screenshot" />
+                </p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead MadCap:conditions="">
+                        <MadCap:dropDownHotspot>Afficher la description de la fiche de position FX</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p class="IndentPuceNiv1">La fiche de position FX s'affiche sous forme de tableau.</p>
+                        <table class="TableStyle-Tableau_standard" cellspacing="0" MadCap:targetName="Tableau colonnes edition" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');">
+                            <col class="TableStyle-Tableau_standard-Column-Column1" />
+                            <col class="TableStyle-Tableau_standard-Column-Column2" />
+                            <thead>
+                                <tr class="TableStyle-Tableau_standard-Head-Header1">
+                                    <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Catégorie de montant</th>
+                                    <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Méthode de calcul</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Export</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Somme des recettes commerciales</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Import</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Somme des dépenses commerciales</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Commercial net</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Somme totale des dépenses et recettes commerciales</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Achats</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Somme des transactions de change à terme ayant le sens achat</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Intérêts perçus</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Somme des intérêts perçus sur les opérations de prêt de devises</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Couverture plus</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Somme totale des achats et des intérêts perçus</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Ventes</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Somme des transactions de change à terme ayant le sens vente</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Intérêts versés</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Somme des intérêts versés sur les opérations d'emprunt de devises</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Couverture moins</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Somme totale des ventes et des intérêts versés</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Couverture&#160;nette</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Somme du net financier positif (<b>Couverture plus</b>) et du net financier négatif (<b>Couverture moins</b>)</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Position courte&#160;/ longue</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Somme du net commercial et du net financier (<b>Couverture nette</b>)</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Prêts</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Somme des opérations de prêt de devises</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Emprunts</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Somme des opérations d'emprunt de devises</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Engagements</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Somme des engagements (total des prêts et emprunts)</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Financier net</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Somme totale des engagements et du net commercial et financier (<b>Position courte longue</b>)</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Stock</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Somme des transactions financières dénouées mais non réalisées et des transactions de change au comptant</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Solde bancaire global</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Somme des soldes bancaires (uniquement le réalisé à la date de transaction) dans la devise de la société</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Global net</td>
+                                    <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">Somme totale du net commercial et financier, des engagements, du stock et du solde</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="SautLigne">La position de change est dite&#160;:</p>
+                        <ul>
+                            <li class="PuceNiv1">courte (ou sous-couverte) si le global net est négatif,</li>
+                            <li class="PuceNiv1">fermée si le global net est nul,</li>
+                            <li class="PuceNiv1">longue (ou sur-couverte) si le global net est positif.</li>
+                        </ul>
+                        <p class="SautLigne">Pour plus d'informations sur les différentes fonctionnalités de la fiche de position&#160;FX ainsi que sur la création de filtre pour la fiche de position, consultez les <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubriques</MadCap:conditionalText> ci-après.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <p class="SautLigne">Si vous souhaitez afficher les informations de la fiche de position sous forme graphique, vous pouvez les exporter vers Microsoft&#160;Excel&#160;© et utiliser les fonctionnalités graphiques de ce logiciel.</p>
+                <p class="SautLigne">Pour plus d'informations sur les barres d'outils spécifiques à la fiche de position&#160;FX (barre d'actions et barre d'options OLAP), consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="ANNEXE - GUI - Barre outils actions.htm" target="" title="" alt="" class="XrefSansTexte">Barre d'actions</MadCap:xref></MadCap:conditionalText>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:keyword term="Fiche de position:affichage détaillé ou global des montants" />
+                <MadCap:dropDownHotspot>Basculer en affichage détaillé ou global des montants</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Vous avez la possibilité d'afficher le détail des montants ou les totaux de catégories.</p>
+                <p class="SautLigne" MadCap:conditions="">
+                    <MadCap:toggler targets="Capture aff det">Exemple d'affichage détaillé des montants</MadCap:toggler>
+                </p>
+                <p MadCap:targetName="Capture aff det">
+                    <img src="../../Resources/Images/L_FX/Fiche position FX affichage detaille.png" class="SAGE_screenshot">
+                    </img>
+                </p>
+                <p class="SautLigne" MadCap:conditions="">
+                    <MadCap:toggler targets="capture affichage glo">Exemple d'affichage global des montants</MadCap:toggler>
+                </p>
+                <p MadCap:targetName="capture affichage glo">
+                    <img src="../../Resources/Images/L_FX/Fiche position FX affichage global.png" class="SAGE_screenshot" />
+                </p>
+                <p>Pour basculer entre ces modes d'affichage, vous devez modifier le mode d'affichage dans l'onglet <b>Visualiser</b> du filtre d'affichage de la fiche de position&#160;FX, comme décrit ci-après.</p>
+                <ol>
+                    <li class="PuceNumNiv1">Depuis la page d'édition de la fiche de position&#160;FX, cliquez sur le bouton <b>Modifier</b> de la barre de filtres.</li>
+                </ol>
+                <p class="IndentPuceNiv1SautLigne">La page de modification de filtre s'affiche.</p>
+                <p MadCap:targetName="capture modif filtre 1">
+                    <img src="../../Resources/Images/L_FX/modifier filtre fiche position fx 1.png" class="SAGE_screenshot" />
+                </p>
+                <ol start="28" MadCap:continue="true">
+                    <li class="PuceNumNiv1">Cliquez sur l'onglet <b>Visualiser</b>.</li>
+                </ol>
+                <p MadCap:targetName="capture modif filtre 2">
+                    <img src="../../Resources/Images/L_FX/modifier filtre fiche position fx 7.png" class="SAGE_screenshot" />
+                </p>
+                <p class="IndentPuceNiv1">Cet onglet vous permet de configurer l'affichage pour la fiche de position&#160;FX.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Activez l'option&#160;:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Détaillée multi-échéance multidevise</b> si vous souhaitez afficher le détail des montants par catégorie,</li>
+                    <li class="PuceNiv2"><b>Globale multi-échéance multidevise</b> si vous souhaitez afficher le total des montants.</li>
+                </ul>
+                <ol start="4">
+                    <li class="PuceNumNiv1">Cliquez sur <b>Enregistrer</b> pour appliquer la modification et enregistrer la modification dans le filtre ou sur <b>OK </b>pour appliquer la modification sans l'enregistrer dans le filtre.</li>
+                </ol>
+                <p class="IndentPuceNiv1">L'édition est réaffichée. Les paramètres modifiés sont appliqués.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead MadCap:conditions="">
+                <MadCap:dropDownHotspot>Consulter le détail des montants d'une cellule</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Cette fonctionnalité vous permet de consulter la liste des opérations commerciales et des transactions de change entrant en compte dans le calcul du montant global d'une cellule affichée dans la fiche de position.</p>
+                <p class="SautLigne">Dans la fiche de position, double-cliquez sur un montant dans la colonne <b>Montant de consolidation</b> pour en consulter le détail.</p>
+                <p>Une fenêtre contextuelle s'affiche.</p>
+                <p MadCap:targetName="Capture detail pos FX">
+                    <img src="../../Resources/Images/L_FX/Fiche position FX detail.png" class="SAGE_screenshot" />
+                </p>
+                <p>La fenêtre répertorie les transactions de change prises en compte dans le montant, ainsi que les opérations commerciales associées avec, pour chacune, le type, la catégorie et le numéro de l'opération, la société, les dates d'opération, de valeur et de livraison, la devise principale, le montant de la transaction dans la devise principale et le taux de change.</p>
+                <p class="SautLigne">Cliquez sur <b>OK</b> pour fermer la fenêtre contextuelle.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead MadCap:conditions="">
+                <MadCap:keyword term="Fiche de position:filtre;Filtre:fiche de position" />
+                <MadCap:dropDownHotspot>Créer un filtre d'affichage pour la fiche de position FX</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">Pour accéder à la page de création de filtre depuis la page d'édition de la fiche de position FX, cliquez sur le menu déroulant <b>Actions</b> dans la barre de filtres, puis sur l'option <b>Ajouter</b> du menu.</li>
+                </ol>
+                <p class="IndentPuceNiv1SautLigne">La page de création de filtre s'affiche.</p>
+                <p MadCap:targetName="Capture creer filtre 1">
+                    <img src="../../Resources/Images/L_FX/Filtre fiche position FX 0.png" class="SAGE_screenshot" />
+                </p>
+                <p class="IndentPuceNiv1">Cette page vous permet de définir les informations d'identification unique du filtre.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Saisissez le code et le libellé du filtre dans les champs <b>Code </b>et <b>Libellé</b>.</li>
+                    <li class="PuceNumNiv1">Si vous souhaitez que ce filtre soit appliqué par défaut à la page de l'édition, activez la case à cocher <b>Filtre par défaut du modèle</b>.</li>
+                    <li class="PuceNumNiv1">Si vous souhaitez que ce filtre soit accessible par vous uniquement, activez la case à cocher <b>Privé</b>.<span style="background-color: #ffff00;"></span></li>
+                    <li class="PuceNumNiv1">Si vous souhaitez inclure un commentaire, ajoutez celui-ci dans la zone <b>Texte</b>.</li>
+                    <li class="PuceNumNiv1">Cliquez sur le bouton <b>Paramétrer </b>pour configurer les paramètres du filtre.</li>
+                </ol>
+                <p class="IndentPuceNiv1SautLigne">La page de configuration des paramètres du filtre s'affiche.</p>
+                <p MadCap:targetName="Capture creer filtre 2">
+                    <img src="../../Resources/Images/L_FX/Filtre Fiche position FX 1.png" class="SAGE_screenshot" />
+                </p>
+                <p class="IndentPuceNiv1">
+                    <MadCap:snippetText src="../../Resources/Snippets/L_SXT_FX/Bouton Copier filtre.flsnp">
+                    </MadCap:snippetText>
+                </p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td class="TableStyle-Note-BodyB-Column1-Body1">
+                                <img src="../../Resources/Images/Assets/oh-Note.png" />
+                            </td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">Si vous ne spécifiez aucun critère de filtrage pour les transactions dans les différents onglets de cette page, toutes les transactions de change existantes seront incluses dans l'édition.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="IndentPuceNiv1SautLigne">L'onglet <b>Sociétés</b> vous permet de spécifier un filtrage sur les sociétés pour lesquelles vous souhaitez visualiser la fiche de position&#160;FX, ainsi que sur la devise de contre-valeur.</p>
+                <ol start="8" MadCap:continue="true">
+                    <li class="PuceNumNiv1">Dans la zone  <b>Sélectionner</b>, activez la case d'option&#160;:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Tous</b> pour désactiver le filtrage au niveau des sociétés,</li>
+                    <li class="PuceNiv2"><b>Simple</b> pour sélectionner une seule société (à sélectionner dans la zone en dessous),</li>
+                    <li class="PuceNiv2"><b>Multiple</b> pour sélectionner plusieurs sociétés (à sélectionner dans la zone à droite).</li>
+                </ul>
+                <ol start="8">
+                    <li class="PuceNumNiv1">Si, dans la zone <b>Sélectionner</b>, vous avez activé l'option&#160;:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Simple</b>, sélectionnez, dans la zone <b>Simple</b>, une société en cliquant sur le bouton <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> puis, dans la fenêtre contextuelle qui s'affiche, en double-cliquant sur la société de votre choix&#160;;</li>
+                    <li class="PuceNiv2"><b>Multiple</b>, sélectionnez plusieurs sociétés comme expliqué ci-après.</li>
+                </ul>
+                <ol>
+                    <li class="PuceNumNiv3">À droite de la zone <b>Sélectionner</b>, cliquez sur le bouton <b>Sélectionner</b>.</li>
+                    <li class="PuceNumNiv3">Dans la fenêtre contextuelle qui s'affiche, activez les cases à cocher en regard des codes des sociétés à sélectionner, puis cliquez sur le bouton <img src="../../Resources/Images/L_FX/Bouton coche bleue.JPG"></img> en haut de la fenêtre contextuelle.</li>
+                </ol>
+                <p class="IndentPuceNiv3">Le code et le libellé des sociétés sélectionnées s'affichent dans le tableau de la zone.</p>
+                <ol start="9">
+                    <li class="PuceNumNiv1">Dans la zone <b>Critère complémentaire</b>, vous pouvez ajouter un critère de filtrage sur la devise de contre-valeur des transactions, en utilisant le bouton <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> comme expliqué ci-dessus.</li>
+                    <li class="PuceNumNiv1">Cliquez sur l'onglet <b>Devises principales</b>.</li>
+                </ol>
+                <p MadCap:targetName="capture onglet 2">
+                    <img src="../../Resources/Images/L_FX/Filtre Fiche position FX 2.png" class="SAGE_screenshot" />
+                </p>
+                <p class="IndentPuceNiv1">Cet onglet vous permet de spécifier des critères de filtrage sur les devises principales. Pour configurer le filtrage sur les devises principales, procédez comme dans l'onglet précédent concernant le filtrage sur les sociétés.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Cliquez sur l'onglet <b>Format</b>.</li>
+                </ol>
+                <p MadCap:targetName="Capture onglet 3">
+                    <img src="../../Resources/Images/L_FX/Filtre Fiche position FX 3.png" class="SAGE_screenshot" />
+                </p>
+                <p class="IndentPuceNiv1">Cet onglet vous permet de spécifier un filtrage sur la devise de consolidation de la fiche de position, ainsi que de modifier les valeurs des cours de change marché des devises étrangères par rapport à la devise de consolidation sélectionnée.</p>
+                <p class="IndentPuceNiv1SautLigne">La devise de consolidation sélectionnée détermine la devise dans laquelle sont convertis les montants des positions des sociétés. Si aucune devise de consolidation n'est définie dans cet onglet, aucune conversion n'est effectuée et les montants des positions des sociétés sont affichés dans les devises des transactions.</p>
+                <p class="IndentPuceNiv1SautLigne">La devise de consolidation affichée par défaut est&#160;:</p>
+                <ul>
+                    <li class="PuceNiv2">la devise de la société si vous avez sélectionné une société uniquement dans l'onglet <b>Entités</b>,</li>
+                    <li class="PuceNiv2">la devise de référence si vous avez sélectionné plusieurs sociétés dans l'onglet <b>Entités</b>.</li>
+                </ul>
+                <ol start="12">
+                    <li class="PuceNumNiv1">Dans le champ <b>Devise de consolidation</b>, cliquez sur le bouton <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> puis, dans la fenêtre contextuelle qui s'affiche, double-cliquez sur une ligne pour sélectionner la devise correspondante.</li>
+                </ol>
+                <p class="IndentPuceNiv1">Le code et le libellé de la devise sélectionnée s'affichent dans ce champ.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Procédez comme suit si vous souhaitez modifier la valeur des cours de change des devises principales (sélectionnées dans l'onglet <b>Devises principales</b>) par rapport à la devise de consolidation sélectionnée.</li>
+                </ol>
+                <ol>
+                    <li class="PuceNumNiv2">Cliquez sur le bouton <b>Ajuster les cours</b>.</li>
+                </ol>
+                <p class="IndentPuceNiv2">La page d'ajustement des cours de change s'affiche.</p>
+                <p MadCap:targetName="Capture Ajuster les cours">
+                    <img src="../../Resources/Images/L_FX/Ajuster les cours.png" class="SAGE_screenshot" />
+                </p>
+                <p class="IndentPuceNiv2">Cette page affiche les informations suivantes pour les couples de devises configurés dans le module <MadCap:variable name="Localization.SXT_Setup" style="font-weight: bold;" /> et qui incluent, d'une part, la devise de consolidation et, d'autre part, les devises de transaction principales&#160;:</p>
+                <ul>
+                    <li class="PuceNiv3">la valeur du cours de change acheteur au comptant à la date du jour, dans la colonne <b>Demande de Spot</b>,</li>
+                    <li class="PuceNiv3">la valeur du cours de change vendeur au comptant à la date du jour, dans la colonne <b>Offre de Spot</b>,</li>
+                    <li class="PuceNiv3">la moyenne des cours de change acheteur et vendeur au comptant, dans la colonne <b>Moyenne</b>.</li>
+                </ul>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Warning.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Warning" cellspacing="0">
+                    <col class="TableStyle-Warning-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Warning-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Warning-Body-Body1">
+                            <td class="TableStyle-Warning-BodyB-Column1-Body1">
+                                <img src="../../Resources/Images/Assets/oh-Warning.png" />
+                            </td>
+                            <td class="TableStyle-Warning-BodyA-Column2-Body1">Lorsque vous saisissez ou modifiez les valeurs des cours de change marché dans cette page, les valeurs enregistrées affectent tous les modules de l'application <MadCap:variable name="Localization.SXT" style="font-weight: bold;" /> utilisant les cours de change marché. Vous pouvez gérer les cours des devises en détail dans le module <MadCap:variable name="Localization.SXT_MarketData" style="font-weight: bold;" />. Pour plus d'informations sur cette fonctionnalité, consultez la documentation de ce module.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol start="2">
+                    <li class="PuceNumNiv2">Double-cliquez sur une cellule de la colonne <b>Demande de spot</b> ou <b>Offre de spot</b> pour saisir ou modifier la valeur du cours de change acheteur ou vendeur correspondant, puis appuyez sur la touche Entrée pour valider votre saisie.</li>
+                </ol>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Warning.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Warning" cellspacing="0">
+                    <col class="TableStyle-Warning-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Warning-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Warning-Body-Body1">
+                            <td class="TableStyle-Warning-BodyB-Column1-Body1">
+                                <img src="../../Resources/Images/Assets/oh-Warning.png" />
+                            </td>
+                            <td class="TableStyle-Warning-BodyA-Column2-Body1">Si vous renseignez la valeur du cours de change au comptant acheteur ou vendeur d'un couple de devises, vous devez renseigner la valeur complémentaire (cours acheteur ou vendeur).</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="IndentPuceNiv2">Ne renseignez pas la colonne <b>Moyenne</b>. Cette valeur est calculée automatiquement à partir des valeurs des cours de change acheteur et vendeur, une fois que vous avez cliqué sur le bouton <b>Enregistrer</b> de la page.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv2">Cliquez sur le bouton <b>Enregistrer</b> pour enregistrer votre saisie ou sur le bouton <b>Fermer</b> pour annuler toutes vos saisies dans la page.</li>
+                </ol>
+                <p class="IndentPuceNiv2">L'onglet <b>Format</b> de la page de création de filtre pour la fiche de position&#160;FX est réaffiché.</p>
+                <ol start="14">
+                    <li class="PuceNumNiv1">Cliquez sur l'onglet <b>Période</b>.</li>
+                </ol>
+                <p MadCap:targetName="Capture onglet 4">
+                    <img src="../../Resources/Images/L_FX/Filtre Fiche position FX 4.png" class="SAGE_screenshot" />
+                </p>
+                <p class="IndentPuceNiv1">Cet onglet vous permet de spécifier des critères de filtrage sur la périodicité, la période analysée, ainsi que sur les dates d'opération et de livraison des transactions à inclure dans l'édition.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Pour définir un filtrage au niveau de la date d'opération&#160;:</li>
+                </ol>
+                <ol>
+                    <li class="PuceNumNiv2">Activez la case à cocher <b>Date Opé</b>.</li>
+                </ol>
+                <p class="IndentPuceNiv2">Les champs en regard de la case à cocher sont activés.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv2">Dans ces champs, définissez les dates de début et de fin de la période dans laquelle doit se situer la date d'opération des transactions à inclure dans l'édition, comme suit&#160;:</li>
+                </ol>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv3">Dans le champ de saisie, sélectionnez la valeur à modifier et saisissez une date au clavier au format jj/mm/aaaa.</li>
+                </ul>
+                <p class="IndentPuceNiv3">- ou&#160;-</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv3">Cliquez sur le bouton <img src="../../Resources/Images/L_FX/Bouton fleche bas.jpg"></img> pour afficher le calendrier.</li>
+                </ul>
+                <p class="IndentPuceNiv3">Le calendrier s'affiche dans une fenêtre contextuelle.</p>
+                <p MadCap:targetName="Capture calendrier" class="IndentPuceNiv3">
+                    <img src="../../Resources/Images/L_FX/Pop-up calendrier.jpg" class="SAGE_screenshot">
+                    </img>
+                </p>
+                <p class="IndentPuceNiv3SautLigne">Utilisez les flèches <img src="../../Resources/Images/L_FX/Bouton calendrier fleche droite.jpg" style="width: 8px;height: 12px;"></img> et <img src="../../Resources/Images/L_FX/Bouton calendrier fleche gauche.jpg"></img> pour sélectionner un mois et une année, puis cliquez sur un jour dans le calendrier.</p>
+                <p class="IndentPuceNiv3">-&#160;ou&#160;-</p>
+                <p class="IndentPuceNiv3">Pour positionner la date à la date du jour, cliquez sur le bouton <b>Aujourd'hui</b>.</p>
+                <ol start="16">
+                    <li class="PuceNumNiv1">Pour spécifier un filtrage sur la date de livraison, activez la case à cocher <b>Date de livraison</b>, puis procédez comme expliqué précédemment pour définir les dates de début et de fin de la période dans laquelle doit se situer la date de livraison des transactions à inclure dans l'édition.</li>
+                    <li class="PuceNumNiv1">Pour spécifier un filtrage sur la date analysée, activez la case à cocher <b>Total dû</b> dans la zone <b>Période analysée</b>, puis procédez comme expliqué précédemment pour définir les dates de début et de fin de la période d'analyse.</li>
+                </ol>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Warning.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Warning" cellspacing="0">
+                    <col class="TableStyle-Warning-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Warning-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Warning-Body-Body1">
+                            <td class="TableStyle-Warning-BodyB-Column1-Body1">
+                                <img src="../../Resources/Images/Assets/oh-Warning.png" />
+                            </td>
+                            <td class="TableStyle-Warning-BodyA-Column2-Body1">La longueur de la période analysée peut être de 24&#160;mois au maximum.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol start="17" MadCap:continue="true">
+                    <li class="PuceNumNiv1">Si vous avez activé le filtrage sur la date analysée, dans la liste déroulante <b>Périodicité</b>, sélectionnez le pas&#160;de la période analysée&#160;: quotidien, hebdomadaire, par tranche de 10&#160;jours, bimensuel, mensuel ou trimestriel.</li>
+                    <li class="PuceNumNiv1">Cliquez sur l'onglet <b>Transactions</b>.</li>
+                </ol>
+                <p MadCap:targetName="Capture onglet Transactions">
+                    <img src="../../Resources/Images/L_FX/Filtre Fiche position FX 5.png" class="SAGE_screenshot">
+                    </img>
+                </p>
+                <p class="IndentPuceNiv1">Cet onglet vous permet de spécifier des critères de filtrage sur les types de transactions de change, d'opérations commerciales et d'opérations d'emprunt et de prêt de devises. Pour définir les critères de ce filtrage, procédez comme dans l'onglet précédent concernant le filtrage sur les sociétés.</p>
+                <ol start="20" MadCap:continue="true">
+                    <li class="PuceNumNiv1">Cliquez sur l'onglet <b>Avancé</b>.</li>
+                </ol>
+                <p MadCap:targetName="Capture onglet avance">
+                    <img src="../../Resources/Images/L_FX/Filtre Fiche position FX 6.png" class="SAGE_screenshot">
+                    </img>
+                </p>
+                <p class="IndentPuceNiv1">Cet onglet vous permet de spécifier des critères de filtrage sur les numéros d'ordre, la référence externe et les numéros de rattachement des transactions à inclure dans la fiche de position&#160;FX.</p>
+                <ol start="8" MadCap:continue="true">
+                    <li class="PuceNumNiv1">Dans le champ <b>Rattachement</b>, saisissez une plage de numéros de rattachement des transactions de change et des opérations commerciales, ou bien sélectionnez une plage en utilisant le bouton <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" /> comme expliqué précédemment.</li>
+                    <li class="PuceNumNiv1">Dans le champ <b>Référence</b>, saisissez le numéro de référence externe des transactions de change et des opérations commerciales.</li>
+                    <li class="PuceNumNiv1">Dans le champ <b>Remarques</b>, saisissez le début de la première ligne des remarques des transactions.</li>
+                    <li class="PuceNumNiv1">Dans le champ <b>Dossier</b>, saisissez le numéro de dossier des transactions, ou sélectionnez celui-ci en utilisant le bouton <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" />.</li>
+                    <li class="PuceNumNiv1">Dans le champ <b>Portefeuille</b>, saisissez le numéro de portefeuille des transactions, ou sélectionnez celui-ci en utilisant le bouton <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;"></img>.</li>
+                    <li class="PuceNumNiv1">Dans la liste déroulante <b>Etat</b> de la zone <b>Couverture</b>, sélectionnez l'option&#160;:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Couvert</b> pour inclure uniquement les opérations commerciales apurées et liées à des transactions de change, quelle que soit la période définie pour les dates de livraison des transactions dans l'onglet <b>Période</b>,</li>
+                    <li class="PuceNiv2"><b>Non couvert</b> pour inclure uniquement les opérations commerciales apurées, mais non liées à des transactions de change,</li>
+                    <li class="PuceNiv2"><b>Couvert et non couvert</b> pour désactiver le filtrage au niveau de la couverture des opérations.</li>
+                </ul>
+                <ol start="27">
+                    <li class="PuceNumNiv1">Cliquez sur l'onglet <b>Visualiser</b>.</li>
+                </ol>
+                <p MadCap:targetName="Capture onglet periode">
+                    <img src="../../Resources/Images/L_FX/Filtre Fiche position FX 7.png" class="SAGE_screenshot" />
+                </p>
+                <p class="IndentPuceNiv1">Cet onglet vous permet de configurer l'affichage pour la fiche de position&#160;FX.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Activez l'option&#160;:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Détaillée multi-échéance multidevise</b> si vous souhaitez afficher le détail des montants par catégorie,</li>
+                    <li class="PuceNiv2"><b>Globale multi-échéance multidevise</b> si vous souhaitez afficher le total des montants.</li>
+                </ul>
+                <p class="IndentPuceNiv1SautLigne" MadCap:conditions="">
+                    <MadCap:toggler targets="Capture aff det">Exemple d'affichage détaillé des montants</MadCap:toggler>
+                </p>
+                <p MadCap:targetName="Capture aff det">
+                    <img src="../../Resources/Images/L_FX/Fiche position FX affichage detaille.png" class="SAGE_screenshot" />
+                </p>
+                <p class="IndentPuceNiv1SautLigne" MadCap:conditions="">
+                    <MadCap:toggler targets="capture affichage glo">Exemple d'affichage global des montants</MadCap:toggler>
+                </p>
+                <p MadCap:targetName="capture affichage glo">
+                    <img src="../../Resources/Images/L_FX/Fiche position FX affichage global.png" class="SAGE_screenshot" />
+                </p>
+                <ol start="29">
+                    <li class="PuceNumNiv1">Cliquez sur <b>OK</b> pour confirmer la création du filtre et afficher l'édition avec les paramètres du nouveau filtre.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

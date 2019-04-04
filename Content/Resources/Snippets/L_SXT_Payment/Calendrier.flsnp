@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="265" MadCap:lastWidth="719">
+    <head>&#160;</head>
+    <body>
+        <ol>
+            <li class="PuceNumNiv1">Cliquez sur le bouton&#160;<img src="../../Images/L_Payment/bouton appel calendrier.png"></img> en regard du champ de saisie de date.</li>
+        </ol>
+        <p class="IndentPuceNiv1">Le calendrier contextuel s'affiche.</p>
+        <p MadCap:targetName="Capture popup calendrier">
+            <img src="../../Images/L_Payment/Pop-up calendrier 2.png" class="SAGE_screenshot">
+            </img>
+        </p>
+        <ol MadCap:continue="true">
+            <li class="PuceNumNiv1">Utilisez les boutons <img src="../../Images/L_Payment/Bouton calendrier fleche gauche.jpg"></img> et <img src="../../Images/L_Payment/Bouton calendrier fleche droite.jpg"></img> en haut de la fenêtre pour sélectionner le mois et l'année, puis cliquez sur le nombre correspondant au jour de la transaction.</li>
+        </ol>
+    </body>
+</html>

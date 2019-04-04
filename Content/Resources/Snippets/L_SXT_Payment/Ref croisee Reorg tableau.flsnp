@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>&#160;</head>
+    <body>
+        <p class="SautLigneAvantEtAprès">Vous pouvez modifier la présentation du tableau&#160;: sélection de colonnes, filtrage des informations affichées, groupement de lignes en fonction des informations, etc. Pour plus d'informations sur cette fonctionnalité, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Legacy/3_Payment/Content/ANNEXE - GUI - Tableau reorg.htm" target="" title="" alt="" class="XrefSansTexte">Réorganisation de l'affichage d'un tableau</MadCap:xref>.</MadCap:conditionalText></p>
+    </body>
+</html>

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:ignoredWords="Back;First;FIFO" MadCap:lastBlockDepth="9" MadCap:lastHeight="1800" MadCap:lastWidth="570">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT">
+            <MadCap:keyword term="Configuration FX;Paramétrage:configuration FX" />Configuration FX</h1>
+        <p>Cette fonctionnalité vous permet de configurer les préférences de gestion des transactions de change et des opérations commerciales.</p>
+        <p>Pour les prévisions des opérations commerciales, deux types de gestion, selon les besoins de suivi des risques et des transactions que vous souhaitez utiliser (politique de macro-couverture ou de micro-couverture à un seul niveau) sont proposés.</p>
+        <ul>
+            <li class="PuceNiv1">La <b>saisie globale avec décrémentation</b> et la <b>saisie globale avec décrémentation budgétaire</b> permettent un suivi en masse (macro-couverture) du risque de change avec une décrémentation sur la base FIFO (<i>First In, First Out</i>). Il est particulièrement adapté à la gestion d'une multitude d'opérations de faible montant unitaire.</li>
+            <li class="PuceNiv1">La <b>saisie détaillée avec rapprochement</b> permet, dans le cas d'opérations peu nombreuses mais de montant unitaire important ou en cas de nécessité de suivi unitaire, un suivi individuel du risque de change (micro-couverture), montant par montant.</li>
+        </ul>
+        <p>Le schéma ci-après récapitule les types de gestion des opérations commerciales proposés dans le module <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" />.</p>
+        <p>
+            <img src="../../Resources/Images/L_FX/Mode gestion ope comm.png" class="SAGE_screenshot" />
+        </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Configurer les préférences de gestion</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">Pour accéder à cette fonctionnalité, dans le volet <MadCap:variable name="Localization.SXTModulesTasks" style="font-weight: bold;" />, sélectionnez l'option <b>Configuration FX</b> dans le dossier <MadCap:variable name="Localization.SXTSetupFolder" style="font-weight: bold;" /> du module <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" />.</li>
+                </ol>
+                <p class="IndentPuceNiv1">La page de configuration des préférences de gestion des opérations commerciales et des transactions de change s'affiche.</p>
+                <p MadCap:targetName="Capture onglet 1">
+                    <img src="../../Resources/Images/L_FX/Configuration FX 1.png" class="SAGE_screenshot" />
+                </p>
+                <p class="IndentPuceNiv1">L'onglet <b>Général</b> vous permet de configurer les préférences de saisie des transactions de change. L'onglet <b>Opérations commerciales</b> vous permet de configurer les préférences de saisie des prévisions commerciales.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Dans l'onglet <b>Général</b>, activez l'option <b>Verrouillage modification Back Office</b> si vous souhaitez restreindre les possibilités de modification sur les transactions de change validées en <i>back office</i>.</li>
+                </ol>
+                <p class="IndentPuceNiv1">Pour plus d'informations sur&#160;:</p>
+                <ul>
+                    <li class="PuceNiv2">les champs modifiables concernés par cette option, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="ANNEXE - Verrouillage Back Office.htm" target="" title="" alt="" class="XrefSansTexte">Verrouillage back office</MadCap:xref>,</MadCap:conditionalText></li>
+                    <li class="PuceNiv2">la validation et le verrouillage <i>back office</i>, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="TRAITFINAN - Traitement Back Office.htm" target="" title="" alt="" class="XrefSansTexte">Traitement back office</MadCap:xref>.</MadCap:conditionalText></li>
+                </ul>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Activez l'option <b>Saisie obligatoire des comptes en dénouement</b> si vous souhaitez imposer la saisie des comptes de dénouement au moment de la création d'une transaction de change.</li>
+                </ol>
+                <p class="IndentPuceNiv1">Si cette option est désactivée, la saisie des comptes de dénouement est obligatoire uniquement au moment du dénouement.</p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1">
+                                <img src="../../Resources/Images/Assets/oh-Note.png" />
+                            </td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">Seules les transactions de change à terme et de swap sont concernées par cette option. Les transactions de change au comptant étant dénouées immédiatement, la saisie des comptes de dénouement est obligatoire lors de leur création, que cette option soit activée ou non.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Cliquez sur l'onglet <b>Opérations commerciales</b>.</li>
+                </ol>
+                <p MadCap:targetName="Capture onglet 2">
+                    <img src="../../Resources/Images/L_FX/Configuration FX 2.png" class="SAGE_screenshot" />
+                </p>
+                <ol start="6" MadCap:continue="true">
+                    <li class="PuceNumNiv1">Dans la zone <b>Mode de mise à jour</b>, activez l'une des options décrites ci-après.</li>
+                </ol>
+                <table class="TableStyle-Tableau_standard" cellspacing="0" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');">
+                    <col class="TableStyle-Tableau_standard-Column-Column1" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Tableau_standard-Head-Header1">
+                            <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Option</th>
+                            <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1"><span style="font-weight: bold;">Global, mode décrémentation</span>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Lorsque cette option est activée, les prévisions sont gérées de manière globale et une décrémentation est effectuée sur la base FIFO (<i>First In First Out</i>).<br />Ce mode de gestion utilise trois critères de rapprochement pour la décrémentation des opérations commerciales&#160;: le type de flux, la société, la devise de transaction et le mois.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1"><b style="font-family: Arial; font-weight: bold;">Global, mode décrémentation budgétaire</b>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Ce mode de gestion est similaire au mode <b>Global, mode décrémentation</b>, avec la nature budgétaire comme critère supplémentaire déterminant et obligatoire de décrémentation.<br />Ce mode utilise donc quatre critères de rapprochement pour la décrémentation des opérations commerciales&#160;: le type de flux, la société, la devise de transaction, le mois et la nature budgétaire affectée à chaque prévision.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1"><span style="font-family: Arial; font-weight: bold;">Détaillée, mode rapprochement</span><![CDATA[
+                            ]]></td>
+                            <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">
+                                <p class="tableau" style="font-family: Arial;">Lorsque cette option est activée, les prévisions sont gérées montant par montant et les flux correspondants sont générés avec le statut «&#160;prévision confirmée&#160;».</p>
+                                <p class="tableau" style="font-family: Arial;">Si vous activez cette option, toutes les transactions ouvertes sont dénouées.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="IndentPuceNiv1SautLigne">Pour plus d'informations sur l'impact des différents modes de gestion des opérations commerciales, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="ANNEXE - Gestion des op comm.htm" target="" title="" alt="" class="XrefSansTexte">Modes de gestion des opérations commerciales</MadCap:xref>.</MadCap:conditionalText></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Cliquez sur <b>OK</b> pour valider la configuration ou sur <b>Annuler</b> pour annuler.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

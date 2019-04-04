@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="1251" MadCap:lastWidth="824">
+    <head>
+        <link href="../../TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table class="TableStyle-Tableau_standard" cellspacing="0" MadCap:targetName="" style="mc-table-style: url('../../TableStyles/Tableau standard.css');">
+            <col class="TableStyle-Tableau_standard-Column-Column1" />
+            <col class="TableStyle-Tableau_standard-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-Tableau_standard-Head-Header1">
+                    <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Champ</th>
+                    <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Code transaction <b>*</b></td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Code du type de transaction<br />Si le type de transaction a un code différent dans le fichier et dans le module <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" />, dans l'étape suivante du paramétrage, vous devrez spécifier les équivalences de valeurs dans une table de correspondance.</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">N° rattach.</td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Numéro de rattachement commun associé à la transaction</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Code société <b>*</b></td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Code identifiant la société à laquelle est rattachée la transaction<br />Si la société a un code différent dans le fichier et dans le module <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" />, dans l'étape suivante du paramétrage, vous devrez spécifier les équivalences de valeurs dans une table de correspondance.</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Devise de transaction <b>*</b></td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Code de la devise de la transaction<br />Si la devise a un code différent dans le fichier et dans le module <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" />, dans l'étape suivante du paramétrage, vous devrez spécifier les équivalences de valeurs dans une table de correspondance.</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Montant transaction</td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Montant prévisionnel de la transaction exprimé dans la devise de la transaction<br /><b>Remarque&#160;:</b> Les montants ne comportent pas de séparateur de millier. Le séparateur de décimal est celui choisi dans la page précédente.</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Date d'opération</td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Date d'opération prévisionnelle de la transaction</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Date livraison</td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Date de livraison prévisionnelle de la transaction</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Cours budget</td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Cours budget prévisionnel</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Cours d'opportunité</td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Cours d'opportunité prévisionnel</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Référence</td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Référence de la transaction</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Code compte <b>*</b></td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Code du compte associé à la transaction<br />Si le compte a un code différent dans le fichier et dans le module <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;"></MadCap:variable>, dans l'étape suivante du paramétrage, vous devrez spécifier les équivalences de valeurs dans une table de correspondance.</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Code flux <b>*</b></td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Code de la nature du flux de trésorerie associé</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Code budgétaire <b>*</b></td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Code de la nature budgétaire de la transaction</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Tiers</td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Code du tiers considéré</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Remarque&#160;1</td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Commentaires inclus dans le journal</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Remarque&#160;2</td>
+                    <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">Commentaires inclus dans le ticket d'opération</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="IndentPuceNiv1SautLigne">* Ces codes étant paramétrés dans le référentiel, ils doivent déjà avoir été paramétrés via le module <MadCap:variable name="Localization.SXT_Setup" style="font-weight: bold;" /> au moment de l'importation du fichier.</p>
+    </body>
+</html>

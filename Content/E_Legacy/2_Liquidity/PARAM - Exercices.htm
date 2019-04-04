@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="776" MadCap:lastWidth="779">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT">Exercices</h1>
+        <p>Paramétrer un exercice budgétaire consiste à sélectionner&#160;:</p>
+        <ul style="list-style-type: circle;">
+            <li class="PuceNiv1">une organisation (paramétrage décrit dans la<MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"> rubrique <MadCap:xref href="PARAM - Structure organisationnelle.htm" target="" title="" alt="" class="XrefSansTexte">Structure organisationnelle</MadCap:xref></MadCap:conditionalText>),</li>
+            <li class="PuceNiv1">une devise,</li>
+            <li class="PuceNiv1">les natures budgétaires et leurs règles de gestion (paramétrage décrit dans la<MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"> rubrique <MadCap:xref href="PARAM - Natures budgetaires et regles.htm" target="" title="" alt="" class="XrefSansTexte">Postes budgétaires</MadCap:xref></MadCap:conditionalText>),</li>
+            <li class="PuceNiv1">une période d'exercice (paramétrage décrit dans la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique</MadCap:conditionalText> ci-après).</li>
+        </ul>
+        <p class="SautLigne">Vous définissez ensuite pour l'exercice&#160;: les soldes d'ouverture du budget opérationnel et du budget de trésorerie, la répartition des montants pour chaque unité (si des unités sont définies pour l'entité sélectionnée), des règles d'éclatement des flux du module <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> vers les transactions budgétaires, ainsi que les règles de création des flux de trésorerie dans le module <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold" /> à partir des transactions budgétaires.</p>
+        <p class="SautLigneAvantEtAprès">Lorsque toutes les équivalences possibles sont créées entre les natures de flux de trésorerie et les natures budgétaires, tous les écarts entre prévisions et réalisations peuvent être analysés.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Règles d'éclatement des flux de trésorerie</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="SautLigne">Ces règles déterminent la création des transactions budgétaires à partir des flux de trésorerie. Leur paramétrage consiste à associer à une nature de flux de trésorerie une ou plusieurs natures budgétaires avec, pour chaque nature budgétaire, un pourcentage de répartition du montant du flux d'origine.</p>
+                <p>L'illustration suivante présente un exemple de répartition du montant d'un flux de trésorerie sur plusieurs transactions budgétaires.</p>
+                <p MadCap:targetName="Diapo 1">
+                    <img src="../../Resources/Images/L_Liquidity/Diapositive6.JPG" class="SAGE_screenshot" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Règles de création de flux de trésorerie</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="SautLigne">Ces règles déterminent la création des flux de trésorerie à partir des transactions budgétaires. Leur paramétrage consiste à associer, à une nature budgétaire, différents comptes bancaires et différentes natures de flux de trésorerie avec, pour chaque compte bancaire puis chaque nature de flux, un pourcentage de répartition du montant de la transaction d'origine.</p>
+                <p>L'illustration suivante présente un exemple de répartition du montant d'une transaction budgétaire sur plusieurs flux de trésorerie.</p>
+                <p MadCap:targetName="Diapo 2">
+                    <img src="../../Resources/Images/L_Liquidity/Diapositive7.JPG" class="SAGE_screenshot" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

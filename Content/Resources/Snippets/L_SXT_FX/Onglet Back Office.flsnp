@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1601" MadCap:lastWidth="811">
+    <head>
+        <link href="../../TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p class="IndentPuceNiv1SautLigne">Dans le tableau suivant, les champs modifiables sont indiqués dans la colonne intitulée M.</p>
+        <p class="IndentPuceNiv1SautLigne">
+            <MadCap:toggler targets="Capture onglet BO">Afficher la description des champs</MadCap:toggler>
+        </p>
+        <table class="TableStyle-Tableau_standard" cellspacing="0" MadCap:targetName="Capture onglet BO" style="mc-table-style: url('../../TableStyles/Tableau standard.css');">
+            <col class="TableStyle-Tableau_standard-Column-Column1">
+            </col>
+            <col class="TableStyle-Tableau_standard-Column-Column2">
+            </col>
+            <col class="TableStyle-Tableau_standard-Column-Column2">
+            </col>
+            <thead>
+                <tr class="TableStyle-Tableau_standard-Head-Header1">
+                    <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Champ</th>
+                    <th class="TableStyle-Tableau_standard-HeadF-Column2-Header1">Description</th>
+                    <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">M</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="3">
+                        <p colspan="3" class="tableau">Zone <b>Création</b></p>
+                        <p colspan="3" class="tableau" style="font-style: normal;"><span style="font-weight: normal;">Cette zone affiche des informations sur la création de la transaction.</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Date</td>
+                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Date de création de la transaction</td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">A</td>
+                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Heure de création de la transaction</td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Par</td>
+                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Nom d'utilisateur et nom complet de l'utilisateur à l'origine de la création</td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="3">
+                        <p colspan="3" class="tableau">Zone <b>Dernière modification</b></p>
+                        <p colspan="3" class="tableau" style="font-style: normal;"><span style="font-weight: normal;">Cette zone affiche des informations sur la dernière modification de la transaction.</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Date</td>
+                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Date de la dernière modification de la transaction</td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">A</td>
+                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Heure de la dernière modification de la transaction</td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Par</td>
+                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Nom d'utilisateur et nom complet de l'utilisateur à l'origine de la dernière modification</td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="3">
+                        <p colspan="3" class="tableau">Zone <b>Validation</b></p>
+                        <p colspan="3" class="tableau" style="font-style: normal;"><span style="font-weight: normal;">Cette zone affiche des informations sur la validation </span>back&#160;office <span style="font-weight: normal;">de la transaction.</span></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Validation BO</td>
+                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                        <p class="tableau">Cette case à cocher est activée si la transaction a été validée en <i>back&#160;office</i>. Vous ne pouvez pas annuler la validation <i>back&#160;office</i> de cette transaction dans cette page. Pour plus d'informations sur l'annulation de la validation <i>back&#160;office</i>, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Legacy/5_FX/TRAITFINAN - Annulation BO.htm" target="" title="" alt="" class="XrefSansTexte">Annulation de la validation Back&#160;Office</MadCap:xref>.</MadCap:conditionalText></p>
+                        <p class="tableau">Si vous souhaitez procéder à la validation <i>back&#160;office</i> de la transaction à partir de cette page, activez cette case à cocher. La transaction est alors validée&#160;et un ticket d'opération, une lettre de confirmation et un ordre de paiement sont édités.</p>
+                        <p class="tableau">Tant qu'une transaction est validée en <i>back office</i>, elle ne peut pas être supprimée.</p>
+                    </td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                        <img src="../../Images/L_FX/Checkmark_L.gif" style="width: 23px;height: 19px;">
+                        </img>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Date</td>
+                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Date de validation <i>back&#160;office</i> de la transaction</td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">A</td>
+                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Heure de validation <i>back&#160;office</i> de la transaction</td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Par</td>
+                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Nom d'utilisateur et nom complet de l'utilisateur à l'origine de la validation <i>back&#160;office</i></td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="3">
+                        <p colspan="3" class="tableau">Zone <b>Editions</b></p>
+                        <p colspan="3" class="tableau" style="font-style: normal;"><span style="font-weight: normal;">Cette zone affiche des informations sur les documents générés à partir de la transaction.</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Ticket d'opération</td>
+                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Cette case à cocher est activée si un ticket d'opération a déjà été généré pour cette transaction.</td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Lettre de confirmation</td>
+                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Cette case à cocher est activée si une lettre de confirmation a déjà été générée pour cette transaction.</td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Ordre de paiement</td>
+                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Cette case à cocher est activée si un ordre de paiement a déjà été généré pour cette transaction.</td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="3">
+                        <p colspan="3" class="tableau" style="font-style: normal;"><i>Zone <b>Affectation comptable</b></i>
+                        </p>
+                        <p colspan="3" class="tableau" style="font-style: normal;font-weight: normal;">Cette zone vous permet de renseigner des informations comptables sur la transaction qui seront exportées à destination d'un système externe de comptabilité.</p>
+                        <p colspan="3" class="tableau" style="font-style: normal;"><span style="font-weight: normal;">Consultez la documentation du module </span><MadCap:variable name="Localization.SXT_Setup" style="font-weight: bold;" /><span style="font-weight: normal;"> pour plus d'informations sur la configuration des catégories, natures et périodes comptables.</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Catégorie</td>
+                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Ce champ vous permet d'associer une catégorie comptable à la transaction. Utilisez le bouton <img src="../../Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;"></img> comme décrit précédemment.</td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                        <img src="../../Images/L_FX/Checkmark_L.gif" style="width: 23px;height: 19px;">
+                        </img>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Type</td>
+                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Ce champ vous permet d'associer une nature comptable à la transaction en utilisant le bouton <img src="../../Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" />.</td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                        <img src="../../Images/L_FX/Checkmark_L.gif" style="width: 23px;height: 19px;">
+                        </img>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Période</td>
+                    <td class="TableStyle-Tableau_standard-BodyC-Column2-Body1">Ce champ vous permet d'associer une catégorie comptable à la transaction en utilisant le bouton <img src="../../Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" />.</td>
+                    <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">
+                        <img src="../../Images/L_FX/Checkmark_L.gif" style="width: 23px;height: 19px;">
+                        </img>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

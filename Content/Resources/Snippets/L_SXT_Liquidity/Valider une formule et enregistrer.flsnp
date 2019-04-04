@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="191" MadCap:lastWidth="811">
+    <head>&#160;</head>
+    <body>
+        <ul style="list-style-type: square;" start="1">
+            <li class="PuceNiv1">Si vous avez créé la formule <u>à l'aide de l'Assistant</u>, cliquez sur le bouton <b>OK </b>pour enregistrer la règle de gestion.</li>
+            <li class="PuceNiv1">Si vous avez créé la formule <u>sans l'Assistant</u>, le bouton de validation <img src="../../Images/L_Liquidity/BoutonValidationFormule.JPG" /> s'affiche.</li>
+        </ul>
+        <ol>
+            <li class="PuceNumNiv2">Cliquez sur ce bouton pour valider la formule.</li>
+        </ol>
+        <p class="IndentPuceNiv2">Si la syntaxe est incorrecte, un message d'erreur s'affiche en bas de page.</p>
+        <ol MadCap:continue="true">
+            <li class="PuceNumNiv2">Corrigez la formule et relancez sa validation.</li>
+            <li class="PuceNumNiv2">Une fois la formule validée, cliquez sur le bouton <b>OK </b>pour enregistrer la règle de gestion.</li>
+        </ol>
+    </body>
+</html>

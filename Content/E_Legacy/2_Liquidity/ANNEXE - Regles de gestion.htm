@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" MadCap:conditionTagExpression="" MadCap:ignoredWords="PDISTR;VENA;STARTOFMONTH;1M;2M;3M;4M;ADISTR;VENP;VENB;DISC;CHS;STARTOFQUARTER;ENDOFQUARTER;IMDOCD;ACHA;A196" MadCap:lastBlockDepth="8" MadCap:lastHeight="852" MadCap:lastWidth="727">
+    <head>
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT">Règles de gestion&#160;: fonctions, mots-clés et syntaxe</h1>
+        <p>La formule d'une fonction comporte généralement le nom de la fonction, puis, entre parenthèses, différents paramètres séparés par des points virgules&#160;: le code de la nature budgétaire sur laquelle portera le calcul, et les paramètres en entrée spécifiques à la fonction (date de début, date de fin, pourcentage...).</p>
+        <p><b class="SAGE_Bold">Fonctions prédéfinies&#160;:</b>
+        </p>
+        <table cellspacing="0" class="TableStyle-Tableau_standard" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');margin-left: 0;margin-right: auto;">
+            <col class="TableStyle-Tableau_standard-Column-Column1" style="width: 165px;" />
+            <col class="TableStyle-Tableau_standard-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-Tableau_standard-Head-Header1">
+                    <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Mot-clé</th>
+                    <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Utilisation</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">
+                        <MadCap:keyword term="PDISTR;Répartition:périodique;Règle de gestion:répartition périodique;Formule:répartition périodique" /><span class="TexteSaisi">PDISTR</span>
+                    </td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                        <p class="tableau">Répartition périodique</p>
+                        <p class="tableau">&#160;</p>
+                        <p class="tableau">Exemple&#160;:</p>
+                        <p class="tableau"><span class="TexteSaisi">PDISTR(VENA;DATE;(1M:25%);(2M:25%);(3M:25%);(4M:25%))</span>
+                        </p>
+                        <p class="tableau">Dans cet exemple, on choisit de répartir tout montant de la nature budgétaire spécifiée en quatre montants espacés d'un mois (sans décalage).</p>
+                        <p class="tableau">Vous pouvez par exemple utiliser cette fonction pour une vente ou un achat fractionné avec un paiement en n fois.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">
+                        <MadCap:keyword term="ADISTR;Règle de gestion:répartition analytique;Répartition:analytique;Formule:répartition analytique" /><span class="TexteSaisi">ADISTR</span>
+                    </td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                        <p class="tableau">Répartition analytique</p>
+                        <p class="tableau">&#160;</p>
+                        <p class="tableau">Exemple&#160;:</p>
+                        <p class="tableau"><span class="TexteSaisi">ADISTR(VENP;(VENA:80%);(VENB:20%))</span>
+                        </p>
+                        <p class="tableau">Dans cet exemple, on choisit de ventiler le montant de la nature budgétaire spécifiée vers deux autres natures budgétaires.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">
+                        <MadCap:keyword term="DISC;Règle de gestion:décalage;Décalage;Formule:décalage" /><span class="TexteSaisi">DISC</span>
+                    </td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                        <p class="tableau">Décalage dans le temps</p>
+                        <p class="tableau">&#160;</p>
+                        <p class="tableau">Exemple&#160;:</p>
+                        <p class="tableau"><span class="TexteSaisi">DISC(CHS;100%;DATE;ENDOFQUARTER)<br />DISC(ELEC;100%;DATE;ENDOFMONTH;2)</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">
+                        <MadCap:keyword term="IF;Règle de gestion:IF;Logique IF;Formule:IF" /><span class="TexteSaisi">IF</span>
+                    </td>
+                    <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">
+                        <p class="tableau">Condition logique</p>
+                        <p class="tableau">&#160;</p>
+                        <p class="tableau">Exemple&#160;:</p>
+                        <p class="tableau"><span class="TexteSaisi">IF(CA&gt;1000000;CA*10%;CA*5%)</span>
+                            <br />Dans cet exemple, on calcule une prime en fonction du volume du chiffre d'affaires.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

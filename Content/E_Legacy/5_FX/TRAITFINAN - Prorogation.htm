@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:lastBlockDepth="9" MadCap:lastHeight="6859" MadCap:lastWidth="758">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT">
+            <MadCap:keyword term="Prorogation" />Prorogation</h1>
+        <p>La prorogation d'une transaction de change intervient lorsque, à l'approche de l'échéance initiale, la date de livraison des devises doit être repoussée.</p>
+        <p>La prorogation d'un contrat de change peut s'analyser comme une transaction de swap comptant contre terme, où la jambe retour (change à terme) a le même sens que la transaction initiale et la jambe aller (change au comptant) est de sens contraire.</p>
+        <p>Lorsque vous saisissez une prorogation, le module <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> présente le double avantage&#160;:</p>
+        <ul>
+            <li class="PuceNiv1">d'éviter d'avoir à saisir une nouvelle fois les informations déjà renseignées sur vos transactions,</li>
+            <li class="PuceNiv1">de conserver un lien entre le contrat initial et les transactions mises en place à l'occasion de la prorogation.</li>
+        </ul>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Conditions nécessaires d'une transaction pour la prorogation</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>La gestion des prorogations suit les principes de fonctionnement suivants.</p>
+                <ul>
+                    <li class="PuceNiv1">La prorogation d'une transaction n'est possible qu'après validation <i>back office</i>.</li>
+                    <li class="PuceNiv1">La prorogation d'une transaction issue d'une levée anticipée est impossible. Il n'est pas non plus possible de lever par anticipation une transaction issue d'une prorogation.</li>
+                    <li class="PuceNiv1">Il est possible de procéder à des prorogations partielles multiples d'opérations de change à terme. Plusieurs prorogations partielles peuvent ainsi être réalisées à partir d'une seule opération initiale. A l'inverse, les prorogations «&#160;consécutives&#160;» ne sont pas autorisées. Une opération donnée ne peut, en effet, être prorogée qu'une seule fois.</li>
+                    <li class="PuceNiv1">A échéance de la prorogation, il est nécessaire de dénouer la transaction afin d'y mettre fin et de mouvementer en conséquence la position.</li>
+                </ul>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td class="TableStyle-Note-BodyB-Column1-Body1">
+                                <img src="../../Resources/Images/Assets/oh-Note.png" />
+                            </td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">La prorogation doit être effectuée à la date d'échéance de l'opération initiale. Cette date est reprise automatiquement comme date d'opération du change au comptant généré.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p><b>Impact de la prorogation</b>
+        </p>
+        <p>La prorogation d'une transaction modifie le statut de celle-ci mais également la manière dont elle sera gérée par la suite. L'ensemble des modifications apportées aux transactions prorogées peut être résumé de la manière suivante.</p>
+        <p>Deux nouvelles transactions sont créées automatiquement&#160;: une opération de change au comptant (de sens opposé à celui du contrat initial et avec le statut «&#160;Report&#160;») et une opération de change à terme et avec le statut «&#160;Prorogeant&#160;» (de même sens que la transaction d'origine). Le statut de la transaction prorogée est mis à jour et défini à «&#160;Prorogé&#160;».</p>
+        <p>Le schéma ci-après illustre les différentiels de montant d'une prorogation au cours du jour et d'une prorogation au cours historique.</p>
+        <p MadCap:targetName="schema">
+            <img src="../../Resources/Images/L_FX/prorogation.png" class="SAGE_screenshot" />
+        </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Prorogation totale et prorogation partielle</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li class="PuceNiv1">	Lors d'une prorogation totale, la transaction initiale est dénouée. Il n'est donc plus possible de la modifier. 
+Sa consultation, ainsi que la réédition des courriers ou du ticket la concernant, sont cependant autorisés. Ce principe est valable à la fois pour les prêts, les emprunts et les opérations de change. Il est appliqué de manière automatique : il n'est donc pas nécessaire d'utiliser la fonction de dénouement manuel pour solder le contrat initial.</li>
+                    <li class="PuceNiv1">Lors d'une prorogation partielle, deux cas peuvent se présenter.</li>
+                </ul>
+                <ul>
+                    <li class="PuceNiv2">La prorogation ne porte que sur une partie du contrat et doit être suivie du dénouement du solde : la case à cocher <b>Avec dénouement</b> doit être activée dans l'onglet <b>Caractéristiques</b> de la page de prorogation de la transaction. Cette option équivaut à l'option <b>Dénouer</b> utilisée pour solder l'opération d'origine.</li>
+                    <li class="PuceNiv2">La prorogation regroupe plusieurs prorogations partielles à des échéances distinctes et le dénouement de la transaction initiale ne doit pas intervenir tout de suite&#160;: le dénouement a lieu automatiquement lorsque, à l'occasion de la saisie de la dernière prorogation partielle, aucun solde ne subsiste sur l'opération initiale. En d'autres termes, la totalité de l'opération d'origine a été prorogée en plusieurs fois.
+Lorsqu'un solde subsiste sur l'opération initiale, le dénouement s'effectue si et seulement si la case à cocher <b>Avec dénouement</b> a été activée lors de la saisie de la dernière prorogation partielle ou si le dénouement a été explicitement demandé sur l'opération d'origine via l'option <b>Dénouer</b>.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:keyword term="Prorogation:change à terme;Change à terme:prorogation;Transaction de change:prorogation" />
+                <MadCap:dropDownHotspot>Proroger une transaction de change à terme</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">Dans la page de gestion des transactions de change à terme, activez la case à cocher en regard de la ligne à sélectionner.</li>
+                    <li class="PuceNumNiv1">Dans le menu <b>Traitement</b> de la barre d'actions, cliquez sur l'option <b>Proroger</b>.</li>
+                    <li class="PuceNumNiv1">Dans la boîte de dialogue de confirmation qui s'affiche, cliquez sur <b>OK</b> pour confirmer l'action en cours.</li>
+                </ol>
+                <p class="IndentPuceNiv1">La fenêtre de prorogation de la transaction de change à terme sélectionnée s'affiche.</p>
+                <p MadCap:targetName="Capture prorogation 1">
+                    <img src="../../Resources/Images/L_FX/Prorogation 1.png" class="SAGE_screenshot" />
+                </p>
+                <p class="IndentPuceNiv1">L'onglet <b>Caractéristiques</b> vous permet de saisir les informations de la prorogation&#160;: prorogation totale ou partielle, montant de la prorogation en cas de prorogation partielle, dates de l'opération de prorogation.</p>
+                <p class="IndentPuceNiv1SautLigne">Le tableau suivant décrit les informations de l'en-tête et de l'onglet <b>Caractéristiques</b>.</p>
+                <p class="IndentPuceNiv1">Les champs saisissables sont indiqués dans la colonne intitulée M.</p>
+                <p class="IndentPuceNiv1SautLigne">
+                    <MadCap:toggler targets="Tableau entete">Afficher le tableau</MadCap:toggler>&#160;</p>
+                <table class="TableStyle-Tableau_standard" cellspacing="0" MadCap:targetName="Tableau entete" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');">
+                    <col class="TableStyle-Tableau_standard-Column-Column1">
+                    </col>
+                    <col class="TableStyle-Tableau_standard-Column-Column2">
+                    </col>
+                    <col class="TableStyle-Tableau_standard-Column-Column2">
+                    </col>
+                    <thead>
+                        <tr class="TableStyle-Tableau_standard-Head-Header1">
+                            <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Champ</th>
+                            <th class="TableStyle-Tableau_standard-HeadF-Column2-Header1">Description</th>
+                            <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">M</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td colspan="3" class="TableStyle-Tableau_standard-BodyD-Column1-Body1">En-tête</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Achat/Vente</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Sens de la jambe à terme de la prorogation</p>
+                                <p class="tableau">Ce champ n'est pas modifiable.</p>
+                                <p class="tableau"><b></b>
+                                </p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Transaction</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Ce champ vous permet de sélectionner un type de transaction pour la jambe à terme de la prorogation en fonction du sens de la jambe défini.</p>
+                                <p class="tableau">Cliquez sur le bouton <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> pour afficher la liste des types de transaction existant pour le sens de la jambe puis, dans la fenêtre contextuelle qui s'affiche, double-cliquez sur une ligne pour la sélectionner.</p>
+                                <p class="tableau">Le code et la description du type de transaction sélectionné s'affichent dans le champ <b>Transaction</b>.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;">
+                                </img>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">N°</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Identifiant de la transaction</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">N° rattach.</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Ce champ facultatif vous permet de regrouper des prévisions commerciales et des transactions de change sous un numéro de rattachement commun. Ce numéro vous permet de déterminer l'affectation des couvertures relevant d'un type d'activité, d'une zone géographique, d'un projet, etc. Il peut être utilisé ultérieurement comme critère de traitement comptable ou de filtre selon votre politique de couverture (micro ou macro-couverture). Pour plus d'informations sur les numéros de rattachement, consultez la documentation du module <MadCap:variable name="Localization.SXT_Setup" style="font-weight: bold;"></MadCap:variable>.</p>
+                                <p class="tableau">Pour sélectionner un numéro de rattachement, utilisez le bouton <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> comme expliqué précédemment. Le numéro de rattachement est affecté à la jambe au comptant et à la jambe à terme de la prorogation.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;">
+                                </img>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Nature</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Nature de la jambe à terme de la prorogation</p>
+                                <p class="tableau">Dans le cas d'une prorogation, il s'agit de la nature de la jambe comptant de la prorogation, qui est toujours «&#160;Report&#160;».</p>
+                                <p class="tableau">Pour plus d'informations sur les natures des transactions de change, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="ANNEXE - Natures de transaction.htm" target="" title="" alt="" class="XrefSansTexte">Natures de transactions de change</MadCap:xref>.</MadCap:conditionalText></p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="3">Zone <b>Analyses FX</b></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Dossier</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Numéro de dossier</p>
+                                <p class="tableau">Pour plus d'informations sur les dossiers, consultez la documentation du module <MadCap:variable name="Localization.SXT_Setup" style="font-weight: bold;"></MadCap:variable>.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Portefeuille</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Sélectionnez un numéro de portefeuille en utilisant le bouton <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;"></img> comme expliqué précédemment.</p>
+                                <p class="tableau">Pour plus d'informations sur les portefeuilles, consultez la documentation du module <MadCap:variable name="Localization.SXT_Setup" style="font-weight: bold;"></MadCap:variable>.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;">
+                                </img>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="3">Zone <b>Intervenants</b></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Société</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Société donneuse d'ordre</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Contrepartie</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Contrepartie avec laquelle la transaction a été conclue</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Contact</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Saisissez le nom du représentant de la contrepartie. Si un nom a été défini lors du paramétrage de la contrepartie, cette zone est automatiquement renseignée. Vous pouvez cependant modifier le nom qui sera repris dans le courrier confirmant la transaction.</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;">
+                                </img>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="3">Zone <b>Général</b></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Mode Saisie</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Mode de saisie et de calcul des montants et du cours</p>
+                                <p class="tableau">La valeur est positionnée par défaut sur <b>Saisir le cours</b> pour la prorogation et n'est pas modifiable. En cas de prorogation partielle, cette option vous permet de modifier le montant de la transaction dans la devise principale et le cours de la devise. La contre-valeur est calculée automatiquement.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Prorogation partielle</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Activez cette case à cocher en cas de prorogation partielle et non totale.</p>
+                                <p class="tableau">Si vous activez cette case à cocher, en fonction du mode de saisie choisi (comme expliqué précédemment), le champ <b>Montant du dénouement</b> est activé.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;">
+                                </img>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Avec dénouement</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">En cas de prorogation partielle, activez case à cocher pour dénouer automatiquement le solde restant sur l'opération d'origine. Désactivez cette case à cocher lorsque plusieurs prorogations partielles (multiples) doivent avoir lieu à des échéances distinctes.</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;">
+                                </img>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Proroger le montant</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Les deux champs affichent la devise principale et le montant de la prorogation exprimé dans la devise principale.</p>
+                                <p class="tableau">La devise principale n'est pas modifiable.</p>
+                                <p class="tableau">La valeur du montant est alimentée par défaut avec le solde de la transaction. Si vous avez activé la case à cocher <b>Prorogation partielle</b>, vous pouvez diminuer le montant affiché en saisissant une valeur ou en utilisant la calculatrice.<MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"> Pour plus d'informations sur l'utilisation de la calculatrice, <a href="ContextualTopics/Calculatrice.htm" target="_popup" class="Popup">cliquez ici</a>.</MadCap:conditionalText></p>
+                                <p class="tableau">Lorsque vous modifiez ce montant, le montant indiqué dans le champ <b>Proroger la contre-valeur</b> est automatiquement recalculé.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;">
+                                </img>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Proroger la contre-valeur</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Devise de contre-valeur et montant de la prorogation exprimé dans la devise de contre-valeur</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Proroger date TRN</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Date de mise en place de la prorogation</p>
+                                <p class="tableau">Cette date alimentera la date de transaction de la jambe au comptant et de la jambe à terme.</p>
+                                <p class="tableau">Ce champ est alimenté par défaut avec la date d'échéance de la transaction prorogée. Ce champ n'est pas modifiable.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Proroger date de valeur</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Date de livraison de la jambe au comptant de la prorogation et date de valeur de la jambe à terme de la prorogation</p>
+                                <p class="tableau">Elle tombe deux jours après la date de la prorogation. Ce champ n'est pas modifiable.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Proroger date d'échéance</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Date d'échéance de la jambe à terme de la prorogation</p>
+                                <p class="tableau">Ce champ n'alimente pas la jambe au comptant de la prorogation.</p>
+                                <p class="tableau">Ce champ n'est pas modifiable. Cette date est définie par défaut à la date de livraison de la transaction initiale.</p>
+                                <p class="tableau">Si vous reportez la date de livraison à une date ultérieure, cette date est mise à jour et est redéfinie deux jours avant la date de livraison.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Proroger date de livraison</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Date de livraison de la jambe à terme de la prorogation</p>
+                                <p class="tableau">Ce champ n'alimente pas la jambe au comptant de la prorogation.</p>
+                                <p class="tableau">Cette date correspond à la date à laquelle les devises prorogées sont effectivement livrées.</p>
+                                <p class="tableau">Elle est définie par défaut à deux jours après la date d'échéance. Vous pouvez remplacer cette date par une date ultérieure, soit en saisissant la date dans le champ, soit en utilisant le calendrier.<MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"> Pour plus d'informations sur l'utilisation du calendrier, <a href="ContextualTopics/Calendrier.htm" target="_popup" class="Popup">cliquez ici</a>.</MadCap:conditionalText></p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;">
+                                </img>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="3">
+                                <p colspan="4" class="tableau">Zone <b>Cours</b></p>
+                                <p colspan="4" class="tableau" style="font-style: normal;">Cette zone affiche les informations des cours de change.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Cours</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Sélectionnez dans ce champ le type de taux de change à appliquer à la jambe au comptant créée pour annuler la transaction initiale.</p>
+                                <p class="tableau"><b>Cours marché</b>&#160;: le cours proposé par défaut est celui du cours comptant à la date de la transaction prorogée.</p>
+                                <p class="tableau"><b>Cours historique</b>&#160;: le cours comptant de référence est le cours à terme de la transaction initiale.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;">
+                                </img>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Cours jambe au comptant</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Cours de change des devises pour la jambe au comptant de la prorogation</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;">
+                                </img>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Cours au comptant jambe terme</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Cours de change au comptant des devises pour la jambe à terme de la prorogation</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;">
+                                </img>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Différentiel de cours</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Différence entre le cours comptant de la prorogation et le cours à terme de la transaction d'origine</p>
+                                <p class="tableau">En cas de prorogation au cours historique, la valeur attribuée au différentiel de comptant doit être nulle.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Différentiel de montant</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Ce montant correspond à la différence entre la contre-valeur du montant prorogé (calculée sur la base du cours au comptant de la prorogation) et la contre-valeur du montant prorogé (calculée sur la base du cours à terme du contrat initial).
+Il peut aussi s'obtenir par la formule : <i>Montant prorogé * Différentiel de comptant</i></p>
+                                <p class="tableau">En cas de prorogation au cours historique, la valeur du différentiel de montant doit être nulle.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Points de terme</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Différence en points entre le cours de change à terme et le cours de change au comptant pour la jambe à terme de la prorogation</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;">
+                                </img>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Cours à terme</td>
+                            <td class="TableStyle-Tableau_standard-BodyC-Column2-Body1">Cours de change à terme des devises pour la jambe à terme de la prorogation</td>
+                            <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">
+                                <img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;">
+                                </img>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="IndentPuceNiv1SautLigne">Les onglets <b>Cours croisé</b>, <b>Dénouement</b>, <b>Back Office</b> et <b>Zones utilisateur</b> sont identiques à ceux d'une transaction de change à terme. Pour plus d'informations sur ces onglets, <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><a href="TRAITFINAN - Change a terme.htm#onglet_ccroise">cliquez ici</a>.</MadCap:conditionalText></p>
+                <p class="IndentPuceNiv1SautLigne">Dans ces onglets, les informations suivantes sont modifiables&#160;: coordonnées bancaires de dénouement, informations d'affectation comptable et remarques. Elles sont alimentées par défaut avec les valeurs définies pour la transaction d'origine.</p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td class="TableStyle-Note-BodyB-Column1-Body1">
+                                <img src="../../Resources/Images/Assets/oh-Note.png" />
+                            </td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">Si vous avez activé l'édition automatique des ordres de paiement, un ordre de paiement est édité automatiquement lorsque vous validez une prorogation totale. L'ordre de paiement concerne la transaction initiale qui est dénouée lors de la prorogation. Pour plus d'informations sur la configuration des éditions automatiques, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="PARAM - Editions auto.htm" target="" title="" alt="" class="XrefSansTexte">Éditions automatiques</MadCap:xref>.</MadCap:conditionalText></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Solde de l'opération</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Pour connaître le solde d'une transaction ayant fait l'objet d'une prorogation, consultez le montant en position de la transaction dans le journal des transactions de change. Pour plus d'informations sur cette édition, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="EDITION - Journal TRN change.htm" target="" title="" alt="" class="XrefSansTexte">Journal des transactions de change</MadCap:xref>.</MadCap:conditionalText></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Modification des transactions</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>La transaction initiale et la jambe au comptant de la prorogation ne peuvent pas être modifiées après la prorogation.</p>
+                <p>Les informations suivantes de la jambe à terme de la prorogation sont modifiables&#160;tant que la jambe n'est pas dénouée&#160;:</p>
+                <ul>
+                    <li class="PuceNiv1">le numéro de rattachement,</li>
+                    <li class="PuceNiv1">le numéro de portefeuille,</li>
+                    <li class="PuceNiv1">le nom du contact de la contrepartie,</li>
+                    <li class="PuceNiv1">les comptes bancaires et les dates de valeur de dénouement,</li>
+                    <li class="PuceNiv1">la référence,</li>
+                    <li class="PuceNiv1">les informations d'affectation comptable,</li>
+                    <li class="PuceNiv1">les remarques.</li>
+                </ul>
+                <p>Pour plus d'informations sur ces champs, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="TRAITFINAN - Change a terme.htm#top" target="" title="" alt="" class="XrefSansTexte">Change à terme</MadCap:xref>.</MadCap:conditionalText></p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td class="TableStyle-Note-BodyB-Column1-Body1">
+                                <img src="../../Resources/Images/Assets/oh-Note.png" />
+                            </td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">Si vous avez activé l'édition automatique des ordres de paiement, un ordre de paiement est édité automatiquement lorsque vous validez une prorogation totale. L'ordre de paiement concerne la transaction initiale qui est dénouée lors de la prorogation. Pour plus d'informations sur la configuration des éditions automatiques, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="PARAM - Editions auto.htm" target="" title="" alt="" class="XrefSansTexte">Éditions automatiques</MadCap:xref>.</MadCap:conditionalText></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Suppression des transactions et annulation de la prorogation</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>La transaction initiale ne peut pas être supprimée après la prorogation.</p>
+                <p>Vous pouvez supprimer la jambe au comptant ou la jambe à terme de la prorogation&#160;: la suppression d'une des deux jambes entraîne la suppression automatique de l'autre jambe et la nature de la transaction d'origine passe de «&#160;Prorogée&#160;» à «&#160;Initiale&#160;». La prorogation est alors annulée.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="227" MadCap:lastWidth="633">
+    <head>&#160;</head>
+    <body>
+        <p>La procédure étant différente pour chaque type de fonction, consultez les <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubriques</MadCap:conditionalText> correspondantes&#160;:</p>
+        <ul>
+            <li class="PuceNiv1"><a href="../../../E_Legacy/5_FX/PARAM - Structure importation previsions commerciales.htm#dupliquer_str">Duplication de structure d'importation d'opérations commerciales</a>
+            </li>
+            <li class="PuceNiv1"><a href="../../../E_Legacy/5_FX/PARAM - Structure exportation changes a terme.htm#dupliquer_str">Duplication de structure d'exportation de transactions de change</a>
+            </li>
+            <li class="PuceNiv1"><a href="../../../E_Legacy/5_FX/TRAITFINAN - Change au comptant.htm#dupliquer_trn">Duplication de transaction de change au comptant</a>
+            </li>
+            <li class="PuceNiv1"><a href="../../../E_Legacy/5_FX/TRAITFINAN - Change a terme.htm#dupliquer_trn2">Duplication de transaction de change à terme</a>
+            </li>
+            <li class="PuceNiv1"><a href="../../../E_Legacy/5_FX/TRAITFINAN - Swap.htm#dupliquer_swp_cptrm">Duplication de transaction de swap comptant contre terme</a>
+            </li>
+            <li class="PuceNiv1"><a href="../../../E_Legacy/5_FX/TRAITFINAN - Swap.htm#dupliquer_swp_trmtrm">Duplication de transaction de swap terme contre terme</a>
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:lastBlockDepth="9" MadCap:lastHeight="2874" MadCap:lastWidth="570">
+    <head>
+        <link href="../../Resources/TableStyles/Warning.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Warning.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Warning.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT">
+            <MadCap:keyword term="Importation:prévisions commerciales;Prévision commerciale:importation;Opération commerciale:importation" />Importation des prévisions commerciales</h1>
+        <p>Cette fonction vous permet d'importer des prévisions commerciales à partir d'un fichier plat contenant les prévisions commerciales créées dans un système externe. Avant l'importation, vérifiez que la structure d'importation que vous allez utiliser est configurée correctement dans <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" />. Si le fichier ne correspond pas à la structure définie, l'importation générera des erreurs.</p>
+        <p>Consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="PARAM - Structure importation previsions commerciales.htm" target="" title="" alt="" class="XrefSansTexte">Structure de fichier des prévisions commerciales</MadCap:xref></MadCap:conditionalText> pour plus d'informations sur la configuration des structures de fichiers à importer.</p>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Warning.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Warning" cellspacing="0">
+            <col class="TableStyle-Warning-Column-Column1" style="width: 31px;" />
+            <col class="TableStyle-Warning-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Warning-Body-Body1">
+                    <td class="TableStyle-Warning-BodyB-Column1-Body1">
+                        <img src="../../Resources/Images/Assets/oh-Warning.png" />
+                    </td>
+                    <td class="TableStyle-Warning-BodyA-Column2-Body1">Vous ne pouvez pas importer deux fois le même fichier. Vous pouvez recycler les rejets générés (en cas d'information incorrecte dans un enregistrement) via la fonctionnalité de gestion des rejets des prévisions commerciales.</td>
+                </tr>
+            </tbody>
+        </table>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Accéder à la page de paramétrage des tâches d'importation des prévisions commerciales</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Dans le volet <MadCap:variable name="Localization.SXTModulesTasks" style="font-weight: bold;" />, sélectionnez l'option <b>Importation des prévisions commerciales</b> dans le dossier <MadCap:variable name="Localization.SXTImportFolder" style="font-weight: bold;" /> du module <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" />.<br />La page des tâches d'importation de fichiers s'affiche avec la liste des tâches enregistrées sous forme de tableau.</p>
+                <p MadCap:targetName="Capture importation 1">
+                    <img src="../../Resources/Images/L_FX/Creer Tache importation previsions commerciales 1.png" class="SAGE_screenshot" />
+                </p>
+                <p>Le tableau présente le numéro, le libellé de la tâche, la localisation du fichier et la structure de fichier associée.</p>
+                <p>Pour des informations sur&#160;:</p>
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_FX/Actions dans page export import.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Créer et lancer une tâche d'importation</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">Dans la page de paramétrage des tâches d'importation, cliquez sur le bouton <b>Créer</b>.<br />La page de l'Assistant Tâches d'importation s'affiche.</li>
+                </ol>
+                <p MadCap:conditions="" MadCap:targetName="Capture importation 2">
+                    <img src="../../Resources/Images/L_FX/Creer Tache importation previsions commerciales 2.png" class="SAGE_screenshot" />
+                </p>
+                <p class="IndentPuceNiv1">Un numéro séquentiel de tâche d'importation est créé automatiquement et affiché dans le champ <b>Vous êtes en train de créer la tâche N°</b>.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Saisissez un libellé pour la tâche d'importation dans le champ <b>Libellé</b>.</li>
+                    <li class="PuceNumNiv1">Dans le champ <b>Fichier</b>, cliquez sur le bouton <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" /> pour afficher l'explorateur du module <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> et sélectionner un fichier à tester.</li>
+                </ol>
+                <p class="IndentPuceNiv1">Une fenêtre contextuelle s'affiche.<span style="background-color: #ffff00;"></span></p>
+                <p MadCap:targetName="Capture structure importation 5b">
+                    <img src="../../Resources/Images/L_FX/Parametrer structure importation Popup.jpg" class="SAGE_screenshot" />
+                </p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Dans l'explorateur, sélectionnez le dossier où se trouve le fichier.<br />Le chemin s'affiche dans la zone <b>Chemin sélectionné</b> et les fichiers contenus dans le dossier sont répertoriés dans le tableau en bas de la fenêtre.</li>
+                    <li class="PuceNumNiv1">Double-cliquez sur un nom de fichier pour le sélectionner ou cliquez sur le nom de fichier, puis sur le bouton <img src="../../Resources/Images/L_FX/Bouton coche bleue.JPG" style="width: 12px;height: 12px;" /> pour valider votre sélection.</li>
+                </ol>
+                <p class="IndentPuceNiv1">La page de l'Assistant est réaffichée et le chemin du fichier est affiché dans le champ <b>Fichier</b>.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Dans la zone <b>Structure</b>, cliquez sur le bouton <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" /> pour afficher la liste des structures paramétrées. Dans la fenêtre contextuelle qui s'affiche, double-cliquez sur une ligne pour la sélectionner.</li>
+                    <li class="PuceNumNiv1">Cliquez sur le bouton <img src="../../Resources/Images/L_FX/Bouton STR fleche drte.JPG" />&#160;<b>Paramétrage des options d'importation</b> pour continuer le paramétrage.</li>
+                </ol>
+                <p class="IndentPuceNiv1">La page de paramétrage des options s'affiche.</p>
+                <p MadCap:targetName="Capture importation 3">
+                    <img src="../../Resources/Images/L_FX/Creer Tache importation previsions commerciales 3.png" class="SAGE_screenshot" />
+                </p>
+                <p class="IndentPuceNiv1">Cette page vous permet de définir des paramètres d'importation, comme la date de recherche du cours de change.</p>
+                <p class="IndentPuceNiv1">Si vous souhaitez&#160;:</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2">passer l'étape suivante et enregistrer la tâche telle quelle sans la lancer, cliquez sur le bouton <img src="../../Resources/Images/L_FX/Bouton STR coche verte.JPG" style="width: 17px;height: 17px;" />&#160;<b>Valider</b>,</li>
+                    <li class="PuceNiv2">annuler le paramétrage en cours et réafficher la liste des tâches d'importation, cliquez sur le bouton <img src="../../Resources/Images/L_FX/Bouton STR croix rouge.JPG" style="width: 17px;height: 17px;" />&#160;<b>Annuler</b>.</li>
+                </ul>
+                <ol start="8">
+                    <li class="PuceNumNiv1">Activez la case à cocher <b>Supprimer le fichier après l'importation</b> si vous ne souhaitez pas conserver le fichier de données lorsque l'importation est terminée.</li>
+                    <li class="PuceNumNiv1">Dans la zone <b>Date aux cours budget</b>, sélectionnez le type de date associée à la valeur du cours budget&#160;:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Date du jour</b>,</li>
+                    <li class="PuceNiv2"><b>Date livraison</b> (option sélectionnée par défaut).</li>
+                </ul>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Warning.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Warning" cellspacing="0">
+                    <col class="TableStyle-Warning-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Warning-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Warning-Body-Body1">
+                            <td class="TableStyle-Warning-BodyB-Column1-Body1">
+                                <img src="../../Resources/Images/Assets/oh-Warning.png" />
+                            </td>
+                            <td class="TableStyle-Warning-BodyA-Column2-Body1">Le cours budget est importé dans <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> uniquement s'il n'est pas déjà renseigné dans la base de données au moment de l'importation.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol start="10">
+                    <li class="PuceNumNiv1">Dans la zone <b>Date aux cours d'opportunité</b>, sélectionnez le type de date associée à la valeur du cours d'opportunité&#160;:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Date du jour</b>,</li>
+                    <li class="PuceNiv2"><b>Date d'opération</b> (option sélectionnée par défaut).</li>
+                </ul>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Warning.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Warning" cellspacing="0">
+                    <col class="TableStyle-Warning-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Warning-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Warning-Body-Body1">
+                            <td class="TableStyle-Warning-BodyB-Column1-Body1">
+                                <img src="../../Resources/Images/Assets/oh-Warning.png" />
+                            </td>
+                            <td class="TableStyle-Warning-BodyA-Column2-Body1">Le cours d'opportunité est importé dans <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> uniquement s'il n'est pas déjà renseigné dans la base de données au moment de l'importation.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol start="11">
+                    <li class="PuceNumNiv1">Cliquez sur le bouton <img src="../../Resources/Images/L_FX/Bouton STR fleche drte.JPG" />&#160;<b>Importer</b> pour lancer la tâche d'importation.</li>
+                </ol>
+                <p class="IndentPuceNiv1">Si vous souhaitez&#160;:</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2">enregistrer la tâche telle quelle sans la lancer, cliquez sur le bouton <img src="../../Resources/Images/L_FX/Bouton STR coche verte.JPG" />&#160;<b>Valider</b>.</li>
+                    <li class="PuceNiv2">annuler le paramétrage en cours et réafficher la liste des tâches d'importation, cliquez sur le bouton <img src="../../Resources/Images/L_FX/Bouton STR croix rouge.JPG" style="width: 17px;height: 17px;" />&#160;<b>Annuler</b>.</li>
+                </ul>
+                <p class="IndentPuceNiv1">L'importation est lancée et une nouvelle page s'affiche, indiquant la progression de la tâche.</p>
+                <p MadCap:targetName="Capture importation 4">
+                    <img src="../../Resources/Images/L_FX/Creer Tache importation previsions commerciales 4.png" class="SAGE_screenshot">
+                    </img>
+                </p>
+                <ol start="12">
+                    <li class="PuceNumNiv1">Une fois la tâche terminée, notez le nombre de rejets, puis cliquez sur le bouton <b>Fermer</b> en bas de la page.</li>
+                </ol>
+                <p class="IndentPuceNiv1">La page précédente est réaffichée.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Cliquez sur le bouton <b>Fermer </b>pour valider et enregistrer la tâche.</li>
+                </ol>
+                <p class="IndentPuceNiv1">La page de paramétrage des tâches d'importation de fichiers est réaffichée avec, en bas de la liste, la nouvelle tâche enregistrée.</p>
+                <p class="IndentPuceNiv1">Si le champ&#160;<b>Rejeté</b> affiche un nombre différent de 0, des rejets ont été générés lors de l'importation.</p>
+                <p class="IndentPuceNiv1">Pour plus d'informations, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique</MadCap:conditionalText> suivante, <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="INTEGRATION - Rejets previsions commerciales.htm" target="" title="" alt="" class="XrefSansTexte">Rejet des prévisions commerciales</MadCap:xref>.</MadCap:conditionalText></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>Vous pouvez consulter les prévisions commerciales importées dans le journal des opérations commerciales. Pour plus d'informations sur l'utilisation de cette édition, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="EDITION - Journal operations commerciales.htm" target="" title="" alt="" class="XrefSansTexte">Journal des opérations commerciales</MadCap:xref></MadCap:conditionalText>.</p>
+        <p>Une fois les prévisions commerciales importées, vous pouvez&#160;:</p>
+        <ul>
+            <li class="PuceNiv1">les modifier via la fonctionnalité de gestion des prévisions commerciales (pour plus d'informations, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="TRAITCOMM - Operations commerciales.htm" target="" title="" alt="" class="XrefSansTexte">Opérations commerciales</MadCap:xref></MadCap:conditionalText>),</li>
+            <li class="PuceNiv1">les associer aux transactions de change (pour plus d'informations, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="TRAITFINAN - Liaison avec previsions.htm" target="" title="" alt="" class="XrefSansTexte">Liaison avec les prévisions commerciales</MadCap:xref></MadCap:conditionalText>).</li>
+        </ul>
+    </body>
+</html>

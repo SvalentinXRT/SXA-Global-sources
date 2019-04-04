@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/E_Legacy/1_Cash/DASHB_Presentation.htm">
+    <TocEntry
+      Title="Flux"
+      Link="/Content/E_Legacy/1_Cash/FLUX_GestionMouvements.htm">
+      <TocEntry
+        Title="Gestion des mouvements"
+        Link="/Content/E_Legacy/1_Cash/FLUX_GestionMouvements.htm">
+        <TocEntry
+          Title="Saisie directe des prévisions"
+          Link="/Content/E_Legacy/1_Cash/FLUX_GestionMouvements_SaisieDirecte.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Intragroupe"
+        Link="/Content/E_Legacy/1_Cash/FLUX_Intragroupe.htm" />
+      <TocEntry
+        Title="Paiements Intragroupe"
+        Link="/Content/E_Legacy/1_Cash/FLUX_PaiementIntragroupe.htm" />
+      <TocEntry
+        Title="Swaps de Taux"
+        Link="/Content/E_Legacy/1_Cash/FLUX_SwapsIntro.htm">
+        <TocEntry
+          Title="Principes"
+          Link="/Content/E_Legacy/1_Cash/FLUX_SwapsPrincipes.htm" />
+        <TocEntry
+          Title="Paramétrage"
+          Link="/Content/E_Legacy/1_Cash/FLUX_SwapsParametrage.htm" />
+        <TocEntry
+          Title="Saisie d’opérations"
+          Link="/Content/E_Legacy/1_Cash/FLUX_SwapsSaisieOperations.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Equilibrage"
+      Link="/Content/E_Legacy/1_Cash/EQUIL_PrincipesEquilibrage.htm">
+      <TocEntry
+        Title="Principes d'équilibrage"
+        Link="/Content/E_Legacy/1_Cash/EQUIL_PrincipesEquilibrage.htm" />
+      <TocEntry
+        Title="ZBA"
+        Link="/Content/E_Legacy/1_Cash/EQUIL_Zba.htm" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1354" MadCap:lastWidth="1084">
+    <head>&#160;</head>
+    <body>
+        <h1 class="HelpTopics">Sécurité des données</h1>
+        <p>La solution <MadCap:variable name="Localization.SXA_BankDelegations" style="font-weight: bold;" /> permet de stocker en toute sécurité divers types de documents, tels que les pièces d'identité. La page ci-dessous détaille le fonctionnement du processus.</p>
+        <MadCap:dropDown class="SageDropDown">
+            <MadCap:dropDownHead class="SageDropDownHead">
+                <MadCap:dropDownHotspot>Stockage </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Tous les documents de l'utilisateur sont stockés dans la base de données de la solution, de manière cryptée.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown class="SageDropDown">
+            <MadCap:dropDownHead class="SageDropDownHead">
+                <MadCap:dropDownHotspot>Cryptage</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>L'implémentation a recours à des algorithmes cryptographiques éprouvés : AES256 (AES avec une clé de 256 octets), HMASCHA512, HMASCHA256, PBKDF2, MS DPAPI.</p>
+                <p>Tous les documents sont cryptés en AES256 et signés en HMACHA512.</p>
+                <p>La totalité des documents sont cryptés via une clé utilisée en session unique et dérivée de la fonction HMACSHA256 à partir de la clé principale commune. De ce fait, la connaissance de la clé utilisée pour le cryptage d'un document spécifique n'offre pas la possibilité de décrypter d'autres documents.</p>
+                <p>Le cryptage / décryptage est effectué au niveau de la plateforme et est transparent.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown class="SageDropDown">
+            <MadCap:dropDownHead class="SageDropDownHead">
+                <MadCap:dropDownHotspot>Génération des clés et gestion des versions<br /></MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>La clé principale (longueur de 256 octets) est générée par l'administrateur à partir d'un mot de passe fourni en utilisant la fonction PBKDF2.</p>
+                <p>La clé principale est gérée par version et peut être remplacée par une autre (fréquemment ou si, par exemple, l'administrateur a quitté la société). </p>
+                <p>Lors de la procédure de modification de la clé, la clé actuelle est  cryptée avec la nouvelle et stockée dans la base de données. Ainsi, tous les documents cryptés avec les versions de clés précédentes sont toujours disponibles pour les utilisateurs et les nouveaux documents cryptés avec la nouvelle clé.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown class="SageDropDown">
+            <MadCap:dropDownHead class="SageDropDownHead">
+                <MadCap:dropDownHotspot>Stockage des clés principales</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>La clé principale actuelle n'est pas stockée dans la base de données. En cas de vol du serveur, le décryptage des documents stockés s'avère impossible.</p>
+                <p>La clé principale est stockée sur le serveur IIS crypté via l'API de protection des données de Microsoft (moteur de cryptage spécifique pour les algorithmes AES256, HMACSHA512, et PBKDF2) dans le contexte d'un compte virtuel pour l'identité d'un pool d'application IIS. </p>
+                <p>La clé principale peut être compromise en utilisant un outil de piratage uniquement si un hacker pouvait accéder de manière physique au serveur IIS ou s'il possédait un compte privilégié sur ce serveur (qui serait commun à tous les systèmes de sécurité, avec un stockage des clés en interne).</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown class="SageDropDown">
+            <MadCap:dropDownHead class="SageDropDownHead">
+                <MadCap:dropDownHotspot>Administration</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>La gestion des clés peut être effectuée par l'administrateur via l'interface utilisateur de la solution avec le compte utilisateur ADMINISTRATEUR. Il n'est pas nécessaire d'avoir les droits d'administration à IIS ou au serveur de la base de données.<br />Avec cet outil, l'administrateur à la possibilité de :</p>
+                <ul style="list-style-type: square;">
+                    <li>créer une nouvelle clé principale à partir de mot de passe fourni lors de la première installation de l'application <MadCap:variable name="Localization.SXA_BankDelegations" style="font-weight: bold;" />. La politique de vérification des mots de passe est appliquée sur les nouveaux mots de passe. Les règles de cette politique sont configurées dans le fichier de configuration <MadCap:variable name="Localization.SXA_BankDelegations" style="font-weight: bold;" />.</li>
+                    <li>remplacer la clé actuelle par une nouvelle. Dans ce cas, le mot de passe utilisé pour générer la clé précédente doit être fourni également.</li>
+                    <li>créer une clé sur un nouveau serveur correspondant à la dernière clé utilisée dans l'application en cas de déplacement de celle-ci vers un autre serveur. Le mot de passe utilisé pour la génération de la clé actuelle doit être fourni.</li>
+                </ul>
+                <p>&#160;</p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

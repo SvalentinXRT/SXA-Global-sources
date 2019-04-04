@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/B_HelpTopics/1_BankDelegations/ParamIntro.htm">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/B_HelpTopics/1_BankDelegations/Parametrage.htm"></TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/B_HelpTopics/1_BankDelegations/ParamComplementaire.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/B_HelpTopics/1_BankDelegations/CreationIntro.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/B_HelpTopics/1_BankDelegations/CreationDelegation.htm">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/B_HelpTopics/1_BankDelegations/CreationUnitaire.htm" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/B_HelpTopics/1_BankDelegations/CreationMasse.htm"></TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/B_HelpTopics/1_BankDelegations/PreparationLettre.htm">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/B_HelpTopics/1_BankDelegations/ReglesGeneration.htm" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/B_HelpTopics/1_BankDelegations/Modele lettre.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/B_HelpTopics/1_BankDelegations/Filtres.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/B_HelpTopics/1_BankDelegations/SecuriteDonnees.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/B_HelpTopics/1_BankDelegations/V3_NouvelleInterface.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/B_HelpTopics/1_BankDelegations/V3_NouvelleInterface.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/B_HelpTopics/1_BankDelegations/V3_EditionReglesGeneration.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/B_HelpTopics/1_BankDelegations/V3_CreationCircuitValidation.htm">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/B_HelpTopics/1_BankDelegations/V3_CreationCircuitValidation_Notification.htm" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/B_HelpTopics/1_BankDelegations/V3_CreationCircuitValidation_SuiviRequetes.htm" />
+      </TocEntry>
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

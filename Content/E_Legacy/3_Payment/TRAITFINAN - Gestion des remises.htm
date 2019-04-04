@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:lastBlockDepth="6" MadCap:lastHeight="1276" MadCap:lastWidth="673">
+    <head>
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="LegacySXT">
+            <MadCap:keyword term="Remise: gestion" />Gestion des remises</h1>
+        <p>Dès qu'une remise doit être consultée, modifiée, supprimée ou générée "après-coup", vous devez passer par le menu <b>Remise</b>.</p>
+        <p class="SautLigne">Le tableau ci-après indique les possibilités d'action en fonction de la remise.</p>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');margin-left: 0;margin-right: auto;" class="TableStyle-Tableau_standard" cellspacing="0">
+            <col style="width: 11.11cm;" class="TableStyle-Tableau_standard-Column-Column1" />
+            <col style="width: 6.69cm;" class="TableStyle-Tableau_standard-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-Tableau_standard-Head-Header1">
+                    <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Statut</th>
+                    <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Possibilités</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Remise constituée (préparation des virements)</td>
+                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1" style="text-align: center;">Générer la remise<br />Enlever des ordres<br />Supprimer la remise</td>
+                </tr>
+                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                    <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Remise générée (mise au format, prête à être transmise)</td>
+                    <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1" style="text-align: center;">Consulter la remise<br />Archiver la remise</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>En revanche, quel que soit le statut de la remise, il est toujours possible d'éditer le bordereau de remise - à destination de la banque -et la lettre de confirmation - à destination du bénéficiaire.</p>
+        <p>La page <b>Sélection des remises</b> qui s'affiche systématiquement en cliquant sur le bouton <img src="../../Resources/Images/L_Payment/Bouton Modifier selection remise.png" /> vous permet notamment de choisir entre les remises constituées et les remises générées. Par défaut, l'affichage de toutes les remises (constituée, générée, archivée) est sélectionné.</p>
+        <p MadCap:targetName="Capture 1">
+            <img src="../../Resources/Images/L_Payment/Selection des remises.png" class="SAGE_screenshot" />
+        </p>
+        <p MadCap:targetName="exemple">La validation des critères entraîne l'ouverture de la page <b>Remise &lt;type de virement&gt;</b>.</p>
+        <p MadCap:targetName="Capture 2">
+            <img src="../../Resources/Images/L_Payment/Liste remises selectionnees.png" class="SAGE_screenshot" />
+        </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Modifier/consulter une remise</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Après sélection d'une remise, le bouton <img src="../../Resources/Images/L_Payment/Bouton Modifier remise.png" /> permet d'afficher la page <b>Remises &lt;type de virement&gt;</b>.</p>
+                <p>Toutes les informations utiles sont renseignées dans deux rubriques&#160;:</p>
+                <p MadCap:targetName="Capture 3">
+                    <img src="../../Resources/Images/L_Payment/Detail remise.png" class="SAGE_screenshot" />
+                </p>
+                <ul>
+                    <li class="PuceNiv1">La rubrique <b>Remise</b> reprend le nom du donneur d'ordre, celui de son agence, le statut de la remise (générée ou constituée) et indique si la banque détaille chaque virement par bénéficiaire sur le relevé de compte ou non (débit global ou non).</li>
+                    <li class="PuceNiv1">La rubrique <b>Ordres</b> recense tous les ordres composant la remise. A partir de cette liste, vous ne pouvez que consulter les informations affichées à l'écran.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Générer une remise constituée</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <p>Une remise qui n'a pas été générée directement à partir de la commande <b>Traitement en rafale</b> du menu <b>Validation</b>, peut l'être ultérieurement.</p>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">Sélectionnez une remise dans la liste, parmi celles affichées après avoir cliqué sur une des commandes du menu <b>Remises</b> (remises domestiques, remises, internationales, remises de trésorerie, etc).</li>
+                </ol>
+                <ol start="2">
+                    <li class="PuceNumNiv1">Cliquez sur le bouton <img src="../../Resources/Images/L_Payment/Bouton Process.png" /> dans la barre d'outils.</li>
+                    <li class="PuceNumNiv1">Sélectionner la commande <b>Générer</b> dans la liste déroulante.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

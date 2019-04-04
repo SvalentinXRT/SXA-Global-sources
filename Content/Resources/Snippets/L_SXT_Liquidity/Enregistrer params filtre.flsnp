@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="236" MadCap:lastWidth="865">
+    <head>&#160;</head>
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Enregistrer les paramètres appliqués dans un filtre</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Vous pouvez enregistrer les paramètres en cours dans un autre filtre, sans écraser les paramètres du dernier filtre sélectionné.</p>
+                <p>Dans la barre d'outils <b>Filtres </b>de la page d'édition, cliquez sur le bouton <b>Actions</b>, puis activez l'option&#160;<b>Enregistrer sous</b>.</p>
+                <p class="SautLigne">La page de création de filtre s'affiche. Consultez les <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubriques</MadCap:conditionalText> ci-dessus pour plus d'informations sur la création de filtre.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

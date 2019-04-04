@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:ignoredWords="Back;First;FIFO" MadCap:lastBlockDepth="7" MadCap:lastHeight="2253" MadCap:lastWidth="651">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="LegacySXT"><a name="RegleConsitutionCreation"></a>Création des règles de constitution</h1>
+        <p class="SautLigneAvantEtAprès">Lors de la génération des remises, Paiement utilise les profils pour identifier les formats et les protocoles bancaires utilisés, puis les règles de constitution pour adapter les profils aux accords passés avec les banques.</p>
+        <p class="SautLigneAvantEtAprès">Par exemple, le format MT101, qui fait partie des formats les plus flexibles, peut-être bridé par une banque. C'est la règle de constitution qui est chargée de définir le niveau de restriction du format d'origine.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Configurer les règles de constitution</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">Pour accéder à cette fonctionnalité, dans le volet <b><MadCap:variable name="Localization.SXTDashboardsTasks" /></b>, sélectionnez l'option <b>Eléments de paiement</b> dans le dossier <MadCap:variable name="Localization.SXTSetupFolder" style="font-weight: bold;" /> du module <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" />.</li>
+                </ol>
+                <p class="IndentPuceNiv1">La page de configuration des éléments de paiement s'affiche. Cliquez sur le lien <b>Règles de constitution</b>.</p>
+                <p MadCap:targetName="Capture 3">
+                    <img src="../../Resources/Images/L_Payment/RegleConstitution-Creation.png" class="SAGE_screenshot" />
+                </p>
+                <p class="IndentPuceNiv1">La liste des règles déjà paramétrées s'affiche. Vous avez la possibilité de supprimer ou de modifier une règle déjà existante, ou d'en créer une nouvelle. Pour créer une règle de constitution, cliquez sur <b>Créer</b>.</p>
+                <p MadCap:targetName="Capture 4">
+                    <img src="../../Resources/Images/L_Payment/RegleConstitution-Creation-2.png" class="SAGE_screenshot" />
+                </p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Renseignez au minimum le champ <b>Code transaction</b> au niveau du cadre <b>Critères</b>.</li>
+                    <li class="PuceNumNiv1">Dans le cadre <b>Traitements</b>, cochez les cases de votre choix en fonction des informations que vous souhaitez voir figurer sur la remise:</li>
+                    <ul>
+                        <li class="PuceNiv2"><b>Multi-devises</b> : les remises contiennent des ordres libellés en différentes devises. Cochez également la case <b>Alerte</b> si vous souhaitez être prévenu à chaque fois qu'une remise est effectivement multi-devise.</li>
+                        <li class="PuceNiv2"><b>Multi-date</b>s : les remises contiennent des ordres à différentes dates d'échéance ou d'exécution. Cochez également la case <b>Alerte</b> si vous souhaitez être prévenu à chaque fois qu'une remise est effectivement multi-date.</li>
+                        <li class="PuceNiv2"><b>Remise multiple</b> : chaque remise contient un lot d'ordres regroupés, qu'ils soient multi-devises ou multi-dates, mono-devise ou mono-date.</li>
+                        <li class="PuceNiv2"><b>Limite</b> : le nombre d'ordres par remise est limité. Saisissez ensuite le nombre correspondant dans le champ <b>Max. Ordres/Remise</b>.</li>
+                        <li class="PuceNiv2"><b>Débit remise</b> : sélectionnez dans la liste déroulante un type de débit pour votre remise. <b>Unitaire</b> : la remise est détaillée pour chaque ordre. <b>Global</b> : la remise n'est pas détaillée. <b>Global par devise</b> : la remise est classée par devise, avec une somme globale pour chaque devise.</li>
+                    </ul>
+                    <li class="PuceNumNiv1">Saisissez éventuellement des commentaires dans les champs <b>Libellé</b> (35 caractères alphanumériques maximum) et <b>Suite</b>.</li>
+                    <li class="PuceNumNiv1">Une fois les champs obligatoires renseignés, cliquez sur <b>Appliquer</b> pour valider votre opération et poursuivre vos créations de profils ou cliquez sur <b>OK</b> pour enregistrer le nouveau profil et revenir à la liste des profils.</li>
+                </ol>
+                <p>Pour formuler une exception, renseignez également les champs suivants&#160;avant de valider la création du profil :</p>
+                <ul>
+                    <li class="PuceNiv2"><b>Agence donneur d'ordre</b> : l'agence fonctionne différemment de celles de la règle générique.<MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">,</MadCap:conditionalText></li>
+                    <li class="PuceNiv2"><b>Donneur d'ordre</b> : vous souhaitez indiquer un donneur d'ordre spécifique.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Modifier une règle de constitution</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">Sélectionnez l'option <b>Eléments de paiement</b> dans le dossier <MadCap:variable name="Localization.SXTSetupFolder" style="font-weight: bold;" /> du module <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" />. La page de configuration des éléments de paiement s'affiche. Cliquez sur le lien <b>Règles de constitution</b>.</li>
+                    <li class="PuceNumNiv1">Sélectionnez la règle à modifier dans la liste.</li>
+                    <li class="PuceNumNiv1">Cliquez sur <b>Modifier</b>. La page de détail de la règle sélectionnée s'affiche.</li>
+                    <li class="PuceNumNiv1">Effectuez tous les changements nécessaires, puis cliquez sur <b>OK</b> pour sauvegarder votre opération.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Supprimer une règle de constitution</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">Sélectionnez l'option <b>Eléments de paiement</b> dans le dossier <MadCap:variable name="Localization.SXTSetupFolder" style="font-weight: bold;" /> du module <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" />. La page de configuration des éléments de paiement s'affiche. Cliquez sur le lien <b>Règles de constitution</b></li>
+                    <li class="PuceNumNiv1">Sélectionnez la règle à supprimer dans la liste.</li>
+                    <li class="PuceNumNiv1">Cliquez sur <b>Supprimer</b> pour supprimer la règle sélectionnée.</li>
+                    <li class="PuceNumNiv1">Confirmez votre opération en cliquant sur <b>Oui</b> dans la boîte de message qui s'affiche.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1">
+                        <img src="../../Resources/Images/Assets/oh-Note.png" />
+                    </td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">Il est conseillé de créer une règle de constitution par type de virement : virement domestique, virement commercial, virement international et virement de trésorerie.</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

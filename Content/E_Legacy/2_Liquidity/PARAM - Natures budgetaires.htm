@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1100" MadCap:lastWidth="740">
+    <head><title></title>
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1 class="LegacySXT">
+            <MadCap:keyword term="Nature budgétaire, paramétrage" />Codification des natures budgétaires</h1>
+        <p>Le paramétrage des natures budgétaires permet d'effectuer des saisies dans les budgets par nature. A chaque nature budgétaire est affecté un code unique.</p>
+        <p>Le paramétrage d'un code vous permet de créer une règle de gestion qui spécifie des relations logiques entre natures budgétaires du budget opérationnel ou du budget de trésorerie.</p>
+        <p class="SautLigne">Vous pouvez ensuite inclure cette nature budgétaire dans une structure de feuille budgétaire puis, dans la construction de feuille budgétaire, vous pouvez choisir, parmi les règles de gestion paramétrées pour la nature budgétaire sélectionnée, celle à appliquer.</p>
+        <p class="SautLigne">Les natures budgétaires sont classées par catégorie&#160;:
+</p>
+        <ul>
+            <li class="PuceNiv1">recettes d'exploitation et dépenses d'exploitation,</li>
+            <li class="PuceNiv1">recettes hors exploitation et dépenses hors exploitation,</li>
+            <li class="PuceNiv1">financements ou placements.</li>
+        </ul>
+        <p class="SautLigne">Il existe deux types de natures budgétaires&#160;:</p>
+        <ul>
+            <li class="PuceNiv1">
+                <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">les <a href="PARAM - Natures budgetaires standard.htm">natures budgétaires standard</a>,</MadCap:conditionalText>
+                
+            </li>
+            <li class="PuceNiv1">
+                <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">les <a href="PARAM - Natures budgetaires systeme.htm">natures budgétaires système</a>,</MadCap:conditionalText>
+                 non incluses dans les soldes, utilisées pour les soldes d'ouverture et de clôture ainsi que pour les sous-totaux et la TVA.</li>
+        </ul>
+        <p class="SautLigne">Les natures budgétaires peuvent différer entre le budget opérationnel et le budget de trésorerie&#160;: le budget de trésorerie comporte des natures budgétaires spécifiques, comme les natures liées à la TVA ou aux investissements et aux opérations financières.</p>
+        <p class="SautLigneAvantEtAprès">De ce fait, certaines natures budgétaires système existent dans le budget de trésorerie et non dans le budget opérationnel.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Natures budgétaires relatives à la TVA</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Certaines natures budgétaires relatives à la TVA n'entrent pas dans le calcul des soldes&#160;du budget. C'est le cas de la TVA&#160;collectée sur les ventes et de la TVA&#160;payée sur les achats. Ces natures budgétaires sont définies en tant que natures budgétaires système et ne sont donc pas prises en compte dans le calcul des soldes. La plupart de ces natures budgétaires sont livrées par défaut avec l'application.</p>
+                <p class="SautLigneAvantEtAprès">Le tableau ci-dessous présente les natures budgétaires usuelles relatives à la TVA.</p>
+                <table class="TableStyle-Tableau_standard" cellspacing="0" MadCap:targetName="Tableau : codes budgétaires liés TVA" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');">
+                    <col class="TableStyle-Tableau_standard-Column-Column1" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Tableau_standard-Head-Header1">
+                            <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Type de TVA</th>
+                            <th class="TableStyle-Tableau_standard-HeadF-Column2-Header1">Type de code</th>
+                            <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Existant&#160;/ A créer</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">TVA collectée</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Système</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Livré par défaut<br />Code&#160;: VATCOLL<br /></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">TVA récupérable</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Système</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Livré par défaut<br />Code&#160;: VATRETR</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">TVA non récupérable</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Système</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Livré par défaut<br />Code&#160;: VATNRETR</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Crédit de TVA</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Système</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Livré par défaut<br />Code&#160;: VATCREDIT</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Crédit cumulé de TVA</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Système</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Livré par défaut<br />Code&#160;: VATCUMUL</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">TVA à payer au&#160;Trésor public</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Standard</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">A créer</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">TVA remboursée&#160;par le Trésor public</td>
+                            <td class="TableStyle-Tableau_standard-BodyC-Column2-Body1">Standard</td>
+                            <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">A créer</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

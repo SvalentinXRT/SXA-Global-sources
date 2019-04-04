@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="854" MadCap:lastWidth="751">
+    <head>
+        <link href="../../TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p MadCap:conditions="">Cette fonction vous permet de répartir un montant sur plusieurs périodes consécutives.</p>
+        <p class="SautLigne">Pour y accéder&#160;:</p>
+        <ul style="list-style-type: square;">
+            <li class="PuceNiv1">si vous êtes dans la page de l'Assistant Règle de gestion, sélectionnez l'option <b>Répartition périodique</b> dans la liste déroulante de la zone <b>Sélection de la fonction</b>.</li>
+            <li class="PuceNiv1">si vous êtes dans la page de saisie de budget&#160;:</li>
+            <li class="PuceNiv2">sélectionnez une cellule, cliquez sur le bouton <b>Répartitions </b>dans la barre d'actions, puis, dans le menu contextuel qui s'affiche, sélectionnez l'option <b>Répartition périodique</b>,</li>
+            <li class="PuceNiv2">ou cliquez avec le bouton droit de la souris sur une cellule et sélectionnez l'option <b>Répartition périodique</b>.</li>
+        </ul>
+        <p class="SautLigne">La page de saisie des paramètres de la fonction s'affiche.</p>
+        <p MadCap:targetName="Capture Repartition periodique">
+            <img src="../../Images/L_Liquidity/Assistant de macro Repartition periodique 1.jpg" class="SAGE_screenshot" />
+        </p>
+        <ol MadCap:continue="false">
+            <li class="PuceNumNiv1">Le champ <b>Date de début</b>, est défini par défaut sur <span class="TexteSaisi">DATE</span>. Vous pouvez modifier cette valeur au besoin (ce cas de figure n'est pas commun).</li>
+        </ol>
+        <p class="IndentPuceNiv1">Utilisez le bouton <img src="../../Images/L_Liquidity/Bouton Points de suspension.JPG" style="width: 15px;height: 15px;" /> pour sélectionner successivement des dates, des opérateurs logiques et des périodes. Vous pouvez multiplier les périodes au clavier après avoir placé le curseur juste avant le mot-clé de la période.</p>
+        <p class="IndentPuceNiv1SautLigne"><i>Exemples de dates</i>
+        </p>
+        <ul style="list-style-type: square;">
+            <li class="PuceNiv2">Date de&#160;la transaction: <span class="TexteSaisi">DATE</span></li>
+            <li class="PuceNiv2">Date de la transaction plus un mois&#160;: <span class="TexteSaisi">DATE+1M</span></li>
+        </ul>
+        <ol start="2">
+            <li class="PuceNumNiv1">Dans la première ligne du tableau qui suit, saisissez une valeur de période dans la colonne <b>Période </b>et une valeur de pourcentage dans la colonne <b>Pourcentage</b>.</li>
+        </ol>
+        <p class="IndentPuceNiv1">Par exemple, si vous saisissez  «&#160;1M&#160;» dans la colonne <b>Période </b>et  «&#160;60&#160;» dans la colonne <b>Pourcentage</b>, 60%&#160;du montant sera décalé au mois suivant.</p>
+        <p class="IndentPuceNiv1SautLigne">Pour plus d'informations sur la définition d'une période, <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><a href="../../../E_Legacy/2_Liquidity/ContextualTopics/Definir une date.htm" target="_popup" class="Popup">cliquez ici</a>.</MadCap:conditionalText></p>
+        <ol MadCap:continue="true">
+            <li class="PuceNumNiv1">Cliquez sur le bouton <img src="../../Images/L_Liquidity/Bouton signe plus.JPG"></img> pour ajouter une ligne au tableau.</li>
+            <li class="PuceNumNiv1">Dans la ligne qui suit, saisissez une autre valeur de période et une autre valeur de pourcentage.</li>
+            <li class="PuceNumNiv1">Répétez les étapes&#160;3 et&#160;4 autant de fois que nécessaire pour ajouter d'autres périodes à la répartition.</li>
+        </ol>
+        <table style="mc-table-style: url('../../TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1">
+                        <img src="../../Images/Assets/oh-Note.png" />
+                    </td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">Vous pouvez éclater moins de 100% du montant au total.</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
