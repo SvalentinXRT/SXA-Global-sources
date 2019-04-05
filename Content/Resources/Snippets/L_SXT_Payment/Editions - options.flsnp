@@ -5,8 +5,8 @@
         <p class="SautLigne">Pour des informations sur&#160;:</p>
         <ul style="list-style-type: square;">
             <li class="PuceNiv1">la gestion des filtres d'édition, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref target="" title="" alt="" class="XrefSansTexte">Filtres</MadCap:xref>,</MadCap:conditionalText></li>
-            <li class="PuceNiv1">les fonctionnalités de consultation et de navigation, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Legacy/3_Payment/EDITION - Consultation.htm" target="" title="" alt="" class="XrefSansTexte">Consultation des éditions</MadCap:xref>,</MadCap:conditionalText></li>
-            <li class="PuceNiv1">l'enregistrement et la diffusion des éditions, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Legacy/3_Payment/EDITION - Diffusion.htm" target="" title="" alt="" class="XrefSansTexte">Enregistrement, diffusion, impression</MadCap:xref>.</MadCap:conditionalText></li>
+            <li class="PuceNiv1">les fonctionnalités de consultation et de navigation, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Sxt/3_Payment/EDITION - Consultation.htm" target="" title="" alt="" class="XrefSansTexte">Consultation des éditions</MadCap:xref>,</MadCap:conditionalText></li>
+            <li class="PuceNiv1">l'enregistrement et la diffusion des éditions, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Sxt/3_Payment/EDITION - Diffusion.htm" target="" title="" alt="" class="XrefSansTexte">Enregistrement, diffusion, impression</MadCap:xref>.</MadCap:conditionalText></li>
         </ul>
     </body>
 </html>

@@ -30,7 +30,7 @@
             <li class="PuceNumNiv1">Dans la première ligne du tableau qui suit, saisissez une valeur de période dans la colonne <b>Période </b>et une valeur de pourcentage dans la colonne <b>Pourcentage</b>.</li>
         </ol>
         <p class="IndentPuceNiv1">Par exemple, si vous saisissez  «&#160;1M&#160;» dans la colonne <b>Période </b>et  «&#160;60&#160;» dans la colonne <b>Pourcentage</b>, 60%&#160;du montant sera décalé au mois suivant.</p>
-        <p class="IndentPuceNiv1SautLigne">Pour plus d'informations sur la définition d'une période, <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><a href="../../../E_Legacy/2_Liquidity/ContextualTopics/Definir une date.htm" target="_popup" class="Popup">cliquez ici</a>.</MadCap:conditionalText></p>
+        <p class="IndentPuceNiv1SautLigne">Pour plus d'informations sur la définition d'une période, <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><a href="../../../E_Sxt/2_Liquidity/ContextualTopics/Definir une date.htm" target="_popup" class="Popup">cliquez ici</a>.</MadCap:conditionalText></p>
         <ol MadCap:continue="true">
             <li class="PuceNumNiv1">Cliquez sur le bouton <img src="../../Images/L_Liquidity/Bouton signe plus.JPG"></img> pour ajouter une ligne au tableau.</li>
             <li class="PuceNumNiv1">Dans la ligne qui suit, saisissez une autre valeur de période et une autre valeur de pourcentage.</li>

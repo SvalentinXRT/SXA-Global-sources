@@ -28,7 +28,7 @@
     GenerateGlossaryProxy="true" />
   <Destinations>
     <Destination
-      Link="/Project/Destinations/Github.fldes"
+      Link="/Project/Destinations/srv-xrthelp.fldes"
       Publish="true" />
   </Destinations>
   <Variables></Variables>

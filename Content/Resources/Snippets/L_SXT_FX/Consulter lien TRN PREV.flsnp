@@ -9,7 +9,7 @@
         <ul>
             <li class="PuceNiv1">Vous pouvez afficher les transactions de change liées à l'opération commerciale sélectionnée.</li>
         </ul>
-        <p class="IndentPuceNiv1">Cette fonctionnalité est accessible à partir du lien <b>Afficher le détail</b> disponible dans la page de gestion des opérations commerciales. Pour plus d'informations, <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><a href="../../../E_Legacy/5_FX/SUIVCOMM - Suivi des previsions commerciales.htm#vue_couvertures">cliquez ici</a>.</MadCap:conditionalText></p>
+        <p class="IndentPuceNiv1">Cette fonctionnalité est accessible à partir du lien <b>Afficher le détail</b> disponible dans la page de gestion des opérations commerciales. Pour plus d'informations, <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><a href="../../../E_Sxt/5_FX/SUIVCOMM - Suivi des previsions commerciales.htm#vue_couvertures">cliquez ici</a>.</MadCap:conditionalText></p>
         <ul>
             <li class="PuceNiv1">Vous pouvez afficher les opérations commerciales liées à la transaction de change sélectionnée.</li>
         </ul>
@@ -22,7 +22,7 @@
                     <td class="TableStyle-Note-BodyB-Column1-Body1">
                         <img src="../../Images/Assets/oh-Note.png" />
                     </td>
-                    <td class="TableStyle-Note-BodyA-Column2-Body1">La procédure suivante décrit uniquement la consultation du détail des transactions de change et des prévisions commerciales pour un montant dans la fiche de position FX. Pour une description complète de la fiche de position FX, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Legacy/5_FX/EDITION - Fiche position FX.htm" target="" title="" alt="" class="XrefSansTexte">Fiche de position FX</MadCap:xref>.</MadCap:conditionalText></td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">La procédure suivante décrit uniquement la consultation du détail des transactions de change et des prévisions commerciales pour un montant dans la fiche de position FX. Pour une description complète de la fiche de position FX, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Sxt/5_FX/EDITION - Fiche position FX.htm" target="" title="" alt="" class="XrefSansTexte">Fiche de position FX</MadCap:xref>.</MadCap:conditionalText></td>
                 </tr>
             </tbody>
         </table>
@@ -42,7 +42,7 @@
                     <td class="TableStyle-Note-BodyB-Column1-Body1">
                         <img src="../../Images/Assets/oh-Note.png" />
                     </td>
-                    <td class="TableStyle-Note-BodyA-Column2-Body1">Pour une description des champs de cette page, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">procédure de <MadCap:xref href="../../../E_Legacy/5_FX/EDITION - Fiche position FX.htm" target="" title="" alt="" />création de filtre pour la fiche de position <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> dans la rubrique <MadCap:xref href="../../../E_Legacy/5_FX/EDITION - Fiche position FX.htm" target="" title="" alt="" class="XrefSansTexte">Fiche de position FX</MadCap:xref></MadCap:conditionalText>.</td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">Pour une description des champs de cette page, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">procédure de <MadCap:xref href="../../../E_Sxt/5_FX/EDITION - Fiche position FX.htm" target="" title="" alt="" />création de filtre pour la fiche de position <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> dans la rubrique <MadCap:xref href="../../../E_Sxt/5_FX/EDITION - Fiche position FX.htm" target="" title="" alt="" class="XrefSansTexte">Fiche de position FX</MadCap:xref></MadCap:conditionalText>.</td>
                 </tr>
             </tbody>
         </table>
@@ -53,7 +53,7 @@
         <p MadCap:targetName="Capture fiche position FX">
             <img src="../../Images/L_FX/Fiche position FX 2.png" class="SAGE_screenshot" />
         </p>
-        <p class="IndentPuceNiv1">Pour une description complète des champs de cette page, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Legacy/5_FX/EDITION - Fiche position FX.htm" target="" title="" alt="" class="XrefSansTexte">Fiche de position FX</MadCap:xref>.</MadCap:conditionalText></p>
+        <p class="IndentPuceNiv1">Pour une description complète des champs de cette page, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Sxt/5_FX/EDITION - Fiche position FX.htm" target="" title="" alt="" class="XrefSansTexte">Fiche de position FX</MadCap:xref>.</MadCap:conditionalText></p>
         <ol MadCap:continue="true">
             <li class="PuceNumNiv1">Double-cliquez sur un montant dans la colonne <b>Montant de consolidation</b> pour en consulter le détail.</li>
         </ol>

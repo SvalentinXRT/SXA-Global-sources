@@ -3,23 +3,23 @@
   Version="1">
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/E_Legacy/2_Liquidity/INTRO - Budget de tresorerie.htm">
+    Link="/Content/E_Sxt/2_Liquidity/INTRO - Budget de tresorerie.htm">
     <TocEntry
       Title="Principes fonctionnels"
-      Link="/Content/E_Legacy/2_Liquidity/INTRO - Principes fonctionnels.htm"
+      Link="/Content/E_Sxt/2_Liquidity/INTRO - Principes fonctionnels.htm"
       conditions="Default.ScreenOnly"
       Class="SAGE" />
     <TocEntry
       Title="Accès au module"
-      Link="/Content/E_Legacy/2_Liquidity/INTRO - Acces appli.htm"
+      Link="/Content/E_Sxt/2_Liquidity/INTRO - Acces appli.htm"
       conditions="Default.ScreenOnly"
       Class="SAGE" />
     <TocEntry
       Title="Budget"
-      Link="/Content/E_Legacy/2_Liquidity/PARAM - Parametrage du budget.htm">
+      Link="/Content/E_Sxt/2_Liquidity/PARAM - Parametrage du budget.htm">
       <TocEntry
         Title="Paramétrage du budget"
-        Link="/Content/E_Legacy/2_Liquidity/PARAM - Parametrage du budget.htm"
+        Link="/Content/E_Sxt/2_Liquidity/PARAM - Parametrage du budget.htm"
         StartSection="true"
         MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
         PageNumber="1"
@@ -31,102 +31,102 @@
         Class="SAGE">
         <TocEntry
           Title="Données économiques"
-          Link="/Content/E_Legacy/2_Liquidity/PARAM - Donnees economiques.htm"
+          Link="/Content/E_Sxt/2_Liquidity/PARAM - Donnees economiques.htm"
           Class="SAGE">
           <TocEntry
             Title="TVA"
-            Link="/Content/E_Legacy/2_Liquidity/PARAM - TVA.htm"
+            Link="/Content/E_Sxt/2_Liquidity/PARAM - TVA.htm"
             Class="SAGE" />
           <TocEntry
             Title="Devise &amp; cours"
-            Link="/Content/E_Legacy/2_Liquidity/PARAM - Devise et cours budget.htm"
+            Link="/Content/E_Sxt/2_Liquidity/PARAM - Devise et cours budget.htm"
             Class="SAGE" />
         </TocEntry>
         <TocEntry
           Title="Structure organisationnelle"
-          Link="/Content/E_Legacy/2_Liquidity/PARAM - Structure organisationnelle.htm"
+          Link="/Content/E_Sxt/2_Liquidity/PARAM - Structure organisationnelle.htm"
           Class="SAGE">
           <TocEntry
             Title="Entité"
-            Link="/Content/E_Legacy/2_Liquidity/PARAM - Entite.htm"
+            Link="/Content/E_Sxt/2_Liquidity/PARAM - Entite.htm"
             Class="SAGE"></TocEntry>
           <TocEntry
             Title="Groupe d'entités"
-            Link="/Content/E_Legacy/2_Liquidity/PARAM - Groupe entites.htm"
+            Link="/Content/E_Sxt/2_Liquidity/PARAM - Groupe entites.htm"
             Class="SAGE" />
           <TocEntry
             Title="Unité"
-            Link="/Content/E_Legacy/2_Liquidity/PARAM - Unite.htm"
+            Link="/Content/E_Sxt/2_Liquidity/PARAM - Unite.htm"
             Class="SAGE"></TocEntry>
         </TocEntry>
         <TocEntry
           Title="Natures budgétaires &amp; règles"
-          Link="/Content/E_Legacy/2_Liquidity/PARAM - Natures budgetaires et regles.htm"
+          Link="/Content/E_Sxt/2_Liquidity/PARAM - Natures budgetaires et regles.htm"
           VolumeNumberReset="same"
           Class="SAGE">
           <TocEntry
             Title="Nature budgétaire"
-            Link="/Content/E_Legacy/2_Liquidity/PARAM - Natures budgetaires.htm"
+            Link="/Content/E_Sxt/2_Liquidity/PARAM - Natures budgetaires.htm"
             Class="SAGE">
             <TocEntry
               Title="Nature standard"
-              Link="/Content/E_Legacy/2_Liquidity/PARAM - Natures budgetaires standard.htm"
+              Link="/Content/E_Sxt/2_Liquidity/PARAM - Natures budgetaires standard.htm"
               VolumeNumberReset="same"
               Class="SAGE" />
             <TocEntry
               Title="Nature système"
-              Link="/Content/E_Legacy/2_Liquidity/PARAM - Natures budgetaires systeme.htm"
+              Link="/Content/E_Sxt/2_Liquidity/PARAM - Natures budgetaires systeme.htm"
               Class="SAGE" />
           </TocEntry>
           <TocEntry
             Title="Règle de gestion"
-            Link="/Content/E_Legacy/2_Liquidity/PARAM - Regles de gestion.htm"
+            Link="/Content/E_Sxt/2_Liquidity/PARAM - Regles de gestion.htm"
             VolumeNumberReset="same"
             Class="SAGE">
             <TocEntry
               Title="Assistant"
-              Link="/Content/E_Legacy/2_Liquidity/PARAM - Assistant de regle de gestion.htm"
+              Link="/Content/E_Sxt/2_Liquidity/PARAM - Assistant de regle de gestion.htm"
               Class="SAGE" />
             <TocEntry
               Title="Exemples"
-              Link="/Content/E_Legacy/2_Liquidity/PARAM - Exemples de regles.htm"
+              Link="/Content/E_Sxt/2_Liquidity/PARAM - Exemples de regles.htm"
               Class="SAGE" />
           </TocEntry>
         </TocEntry>
         <TocEntry
           Title="Feuille de budget"
-          Link="/Content/E_Legacy/2_Liquidity/PARAM - Feuille budgetaire.htm"
+          Link="/Content/E_Sxt/2_Liquidity/PARAM - Feuille budgetaire.htm"
           Class="SAGE">
           <TocEntry
             Title="Structure"
-            Link="/Content/E_Legacy/2_Liquidity/PARAM - Structure budgetaire.htm"
+            Link="/Content/E_Sxt/2_Liquidity/PARAM - Structure budgetaire.htm"
             Class="SAGE" />
           <TocEntry
             Title="Construction"
-            Link="/Content/E_Legacy/2_Liquidity/PARAM - Construction de feuille budgetaire.htm"
+            Link="/Content/E_Sxt/2_Liquidity/PARAM - Construction de feuille budgetaire.htm"
             Class="SAGE" />
         </TocEntry>
         <TocEntry
           Title="Exercice"
-          Link="/Content/E_Legacy/2_Liquidity/PARAM - Exercices.htm"
+          Link="/Content/E_Sxt/2_Liquidity/PARAM - Exercices.htm"
           Class="SAGE">
           <TocEntry
             Title="Période"
-            Link="/Content/E_Legacy/2_Liquidity/PARAM - Periodes exercice.htm"
+            Link="/Content/E_Sxt/2_Liquidity/PARAM - Periodes exercice.htm"
             Class="SAGE" />
           <TocEntry
             Title="Tables de répartition"
-            Link="/Content/E_Legacy/2_Liquidity/PARAM - Tables de repartition.htm"
+            Link="/Content/E_Sxt/2_Liquidity/PARAM - Tables de repartition.htm"
             Class="SAGE" />
           <TocEntry
             Title="Exercice budgétaire"
-            Link="/Content/E_Legacy/2_Liquidity/PARAM - Exercice budgetaire.htm"
+            Link="/Content/E_Sxt/2_Liquidity/PARAM - Exercice budgetaire.htm"
             Class="SAGE" />
         </TocEntry>
       </TocEntry>
       <TocEntry
         Title="Importation de données comptables"
-        Link="/Content/E_Legacy/2_Liquidity/IMPORT - Intro.htm"
+        Link="/Content/E_Sxt/2_Liquidity/IMPORT - Intro.htm"
         StartSection="true"
         MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
         StartChapter="true"
@@ -134,29 +134,29 @@
         Class="SAGE">
         <TocEntry
           Title="Configuration"
-          Link="/Content/E_Legacy/2_Liquidity/IMPORT - Configuration.htm"
+          Link="/Content/E_Sxt/2_Liquidity/IMPORT - Configuration.htm"
           Class="SAGE">
           <TocEntry
             Title="Structure du fichier"
-            Link="/Content/E_Legacy/2_Liquidity/IMPORT - Structure.htm"
+            Link="/Content/E_Sxt/2_Liquidity/IMPORT - Structure.htm"
             Class="SAGE" />
           <TocEntry
             Title="Modalités"
-            Link="/Content/E_Legacy/2_Liquidity/IMPORT - Modalites d importation.htm"
+            Link="/Content/E_Sxt/2_Liquidity/IMPORT - Modalites d importation.htm"
             Class="SAGE" />
         </TocEntry>
         <TocEntry
           Title="Lancement"
-          Link="/Content/E_Legacy/2_Liquidity/IMPORT - Importation.htm"
+          Link="/Content/E_Sxt/2_Liquidity/IMPORT - Importation.htm"
           Class="SAGE" />
         <TocEntry
           Title="Rejets"
-          Link="/Content/E_Legacy/2_Liquidity/IMPORT - Rejets.htm"
+          Link="/Content/E_Sxt/2_Liquidity/IMPORT - Rejets.htm"
           Class="SAGE"></TocEntry>
       </TocEntry>
       <TocEntry
         Title="Saisie et analyse du budget"
-        Link="/Content/E_Legacy/2_Liquidity/SAISIE - Saisie des feuilles budgetaires.htm"
+        Link="/Content/E_Sxt/2_Liquidity/SAISIE - Saisie des feuilles budgetaires.htm"
         StartSection="true"
         MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
         StartChapter="true"
@@ -164,82 +164,82 @@
         Class="SAGE">
         <TocEntry
           Title="Configuration de l'affichage"
-          Link="/Content/E_Legacy/2_Liquidity/SAISIE - Configuration affichage.htm"
+          Link="/Content/E_Sxt/2_Liquidity/SAISIE - Configuration affichage.htm"
           Class="SAGE">
           <TocEntry
             Title="Volets"
-            Link="/Content/E_Legacy/2_Liquidity/SAISIE - Volets.htm"
+            Link="/Content/E_Sxt/2_Liquidity/SAISIE - Volets.htm"
             Class="SAGE" />
           <TocEntry
             Title="Filtres"
-            Link="/Content/E_Legacy/2_Liquidity/SAISIE - Filtres affichage.htm"
+            Link="/Content/E_Sxt/2_Liquidity/SAISIE - Filtres affichage.htm"
             Class="SAGE"></TocEntry>
           <TocEntry
             Title="Préférences"
-            Link="/Content/E_Legacy/2_Liquidity/SAISIE - Preferences affichage.htm"
+            Link="/Content/E_Sxt/2_Liquidity/SAISIE - Preferences affichage.htm"
             Class="SAGE"></TocEntry>
           <TocEntry
             Title="Niveau de détail"
-            Link="/Content/E_Legacy/2_Liquidity/SAISIE - Niveau de detail.htm"
+            Link="/Content/E_Sxt/2_Liquidity/SAISIE - Niveau de detail.htm"
             Class="SAGE">
             <TocEntry
               Title="Consolidation"
-              Link="/Content/E_Legacy/2_Liquidity/SAISIE - Vue consolidee.htm"
+              Link="/Content/E_Sxt/2_Liquidity/SAISIE - Vue consolidee.htm"
               VolumeNumberReset="same"
               Class="SAGE"></TocEntry>
             <TocEntry
               Title="Budget d'une unité"
-              Link="/Content/E_Legacy/2_Liquidity/SAISIE - Affichage au niveau unite.htm"
+              Link="/Content/E_Sxt/2_Liquidity/SAISIE - Affichage au niveau unite.htm"
               Class="SAGE" />
           </TocEntry>
         </TocEntry>
         <TocEntry
           Title="Prévisions budgétaires"
-          Link="/Content/E_Legacy/2_Liquidity/SAISIE - Mode prevision.htm"
+          Link="/Content/E_Sxt/2_Liquidity/SAISIE - Mode prevision.htm"
           Class="SAGE">
           <TocEntry
             Title="Règle de gestion"
-            Link="/Content/E_Legacy/2_Liquidity/SAISIE - Regles de gestion.htm"
+            Link="/Content/E_Sxt/2_Liquidity/SAISIE - Regles de gestion.htm"
             Class="SAGE" />
           <TocEntry
             Title="Fonctions de calcul"
-            Link="/Content/E_Legacy/2_Liquidity/SAISIE - Fonctions logiques.htm"
+            Link="/Content/E_Sxt/2_Liquidity/SAISIE - Fonctions logiques.htm"
             Class="SAGE" />
           <TocEntry
             Title="Révision"
-            Link="/Content/E_Legacy/2_Liquidity/SAISIE - Revision de budget.htm"
+            Link="/Content/E_Sxt/2_Liquidity/SAISIE - Revision de budget.htm"
             Class="SAGE" />
         </TocEntry>
         <TocEntry
           Title="Analyse du budget"
-          Link="/Content/E_Legacy/2_Liquidity/SAISIE - Mode analyse.htm"
+          Link="/Content/E_Sxt/2_Liquidity/SAISIE - Mode analyse.htm"
           Class="SAGE">
           <TocEntry
             Title="Report prévisions non réalisées"
-            Link="/Content/E_Legacy/2_Liquidity/SAISIE - Report previsions.htm"
+            Link="/Content/E_Sxt/2_Liquidity/SAISIE - Report previsions.htm"
             Class="SAGE" />
         </TocEntry>
         <TocEntry
           Title="Détail des cellules"
-          Link="/Content/E_Legacy/2_Liquidity/SAISIE - Affichage detaille.htm"
+          Link="/Content/E_Sxt/2_Liquidity/SAISIE - Affichage detaille.htm"
           Class="SAGE">
           <TocEntry
             Title="Détail du montant"
-            Link="/Content/E_Legacy/2_Liquidity/SAISIE - Details montant transaction.htm"
+            Link="/Content/E_Sxt/2_Liquidity/SAISIE - Details montant transaction.htm"
             Class="SAGE" />
           <TocEntry
             Title="Dépendances"
-            Link="/Content/E_Legacy/2_Liquidity/SAISIE - Dependances entre transactions.htm"
+            Link="/Content/E_Sxt/2_Liquidity/SAISIE - Dependances entre transactions.htm"
             Class="SAGE" />
         </TocEntry>
         <TocEntry
           Title="Exportation vers Excel"
-          Link="/Content/E_Legacy/2_Liquidity/SAISIE - Exportation vers Excel.htm"
+          Link="/Content/E_Sxt/2_Liquidity/SAISIE - Exportation vers Excel.htm"
           Class="SAGE" />
       </TocEntry>
       <TocEntry
         Title="Comparaison des exercices"
-        Link="/Content/E_Legacy/2_Liquidity/COMP - ComparaisonExercices.htm"
+        Link="/Content/E_Sxt/2_Liquidity/COMP - ComparaisonExercices.htm"
         StartChapter="true"
         PageNumber="1"
         StartSection="true"
@@ -247,15 +247,15 @@
         Class="SAGE">
         <TocEntry
           Title="Filtre de la feuille de comparaison d'exercices"
-          Link="/Content/E_Legacy/2_Liquidity/COMP - filtre.htm" />
+          Link="/Content/E_Sxt/2_Liquidity/COMP - filtre.htm" />
         <TocEntry
           Title="Sélection des natures budgétaires"
-          Link="/Content/E_Legacy/2_Liquidity/COMP - SelectionNaturesBudgetaires.htm"></TocEntry>
+          Link="/Content/E_Sxt/2_Liquidity/COMP - SelectionNaturesBudgetaires.htm"></TocEntry>
       </TocEntry>
     </TocEntry>
     <TocEntry
       Title="Flux de trésorerie"
-      Link="/Content/E_Legacy/2_Liquidity/POST - Postage dans Cash.htm"
+      Link="/Content/E_Sxt/2_Liquidity/POST - Postage dans Cash.htm"
       StartChapter="true"
       PageNumber="1"
       StartSection="true"
@@ -263,12 +263,12 @@
       Class="SAGE">
       <TocEntry
         Title="Journal de trésorerie"
-        Link="/Content/E_Legacy/2_Liquidity/POST - Journal de treso.htm"
+        Link="/Content/E_Sxt/2_Liquidity/POST - Journal de treso.htm"
         Class="SAGE"></TocEntry>
     </TocEntry>
     <TocEntry
       Title="Editions"
-      Link="/Content/E_Legacy/2_Liquidity/EDITION - Editions.htm"
+      Link="/Content/E_Sxt/2_Liquidity/EDITION - Editions.htm"
       SectionNumberReset="continue"
       StartSection="true"
       StartChapter="true"
@@ -278,39 +278,39 @@
       Class="SAGE">
       <TocEntry
         Title="Filtres"
-        Link="/Content/E_Legacy/2_Liquidity/EDITION - Filtres edition.htm"
+        Link="/Content/E_Sxt/2_Liquidity/EDITION - Filtres edition.htm"
         Class="SAGE" />
       <TocEntry
         Title="Consultation"
-        Link="/Content/E_Legacy/2_Liquidity/EDITION - Consultation.htm"
+        Link="/Content/E_Sxt/2_Liquidity/EDITION - Consultation.htm"
         Class="SAGE">
         <TocEntry
           Title="Journal des écritures"
-          Link="/Content/E_Legacy/2_Liquidity/EDITION - Journal des ecritures.htm"
+          Link="/Content/E_Sxt/2_Liquidity/EDITION - Journal des ecritures.htm"
           Class="SAGE" />
         <TocEntry
           Title="Feuille de budget"
-          Link="/Content/E_Legacy/2_Liquidity/EDITION - Feuille budgetaire.htm"
+          Link="/Content/E_Sxt/2_Liquidity/EDITION - Feuille budgetaire.htm"
           Class="SAGE" />
         <TocEntry
           Title="Comparaison des exercices"
-          Link="/Content/E_Legacy/2_Liquidity/EDITION - Comparaison des exercices.htm"
+          Link="/Content/E_Sxt/2_Liquidity/EDITION - Comparaison des exercices.htm"
           Class="SAGE" />
       </TocEntry>
       <TocEntry
         Title="Impression et diffusion"
-        Link="/Content/E_Legacy/2_Liquidity/EDITION - Diffusion.htm"
+        Link="/Content/E_Sxt/2_Liquidity/EDITION - Diffusion.htm"
         Class="SAGE" />
     </TocEntry>
     <TocEntry
       Title="Règles de gestion"
-      Link="/Content/E_Legacy/2_Liquidity/ANNEXE - Regles de gestion.htm">
+      Link="/Content/E_Sxt/2_Liquidity/ANNEXE - Regles de gestion.htm">
       <TocEntry
         Title="Opérateurs et signes"
-        Link="/Content/E_Legacy/2_Liquidity/ANNEXE - Regles de gestion - Operateurs.htm" />
+        Link="/Content/E_Sxt/2_Liquidity/ANNEXE - Regles de gestion - Operateurs.htm" />
       <TocEntry
         Title="Dates et périodes"
-        Link="/Content/E_Legacy/2_Liquidity/ANNEXE - Regles de gestion - Etapes.htm"></TocEntry>
+        Link="/Content/E_Sxt/2_Liquidity/ANNEXE - Regles de gestion - Etapes.htm"></TocEntry>
     </TocEntry>
   </TocEntry>
 </CatapultToc>

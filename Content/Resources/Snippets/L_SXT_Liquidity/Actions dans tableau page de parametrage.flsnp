@@ -4,11 +4,11 @@
     <body>
         <p class="SautLigne">Pour des informations sur&#160;:</p>
         <ul>
-            <li class="PuceNiv1" style="margin-top: 12pt;" MadCap:conditions="Default.ScreenOnly"><b>la réorganisation de l'affichage des lignes</b> du tableau, <a href="../../../E_Legacy/2_Liquidity/ANNEXE - GUI - Tableau reorg.htm" target="_popup" class="Popup">cliquez ici</a>,</li>
-            <li MadCap:conditions="Default.ScreenOnly" class="PuceNiv1"><b>la recherche de texte</b> dans le tableau, <a href="../../../E_Legacy/2_Liquidity/ContextualTopics/Rechercher texte dans tableau parametrage.htm" target="_popup" class="Popup">cliquez ici</a>.</li>
+            <li class="PuceNiv1" style="margin-top: 12pt;" MadCap:conditions="Default.ScreenOnly"><b>la réorganisation de l'affichage des lignes</b> du tableau, <a href="../../../E_Sxt/2_Liquidity/ANNEXE - GUI - Tableau reorg.htm" target="_popup" class="Popup">cliquez ici</a>,</li>
+            <li MadCap:conditions="Default.ScreenOnly" class="PuceNiv1"><b>la recherche de texte</b> dans le tableau, <a href="../../../E_Sxt/2_Liquidity/ContextualTopics/Rechercher texte dans tableau parametrage.htm" target="_popup" class="Popup">cliquez ici</a>.</li>
             <li MadCap:conditions="" class="PuceNiv1"><b>la création d'une ligne</b>, consultez la<MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"> rubrique</MadCap:conditionalText> ci-après.</li>
-            <li MadCap:conditions="Default.ScreenOnly" class="PuceNiv1"><b>la modification d'une ligne</b> dans le tableau, <a href="../../../E_Legacy/2_Liquidity/ContextualTopics/Modifier element dans tableau parametrage.htm" target="_popup" class="Popup">cliquez ici</a>.</li>
-            <li MadCap:conditions="Default.ScreenOnly" class="PuceNiv1"><b>la suppression d'une ligne</b> dans le tableau, <a href="../../../E_Legacy/2_Liquidity/ContextualTopics/Supprimer element dans tableau page parametrage.htm" target="_popup" class="Popup">cliquez ici</a>.</li>
+            <li MadCap:conditions="Default.ScreenOnly" class="PuceNiv1"><b>la modification d'une ligne</b> dans le tableau, <a href="../../../E_Sxt/2_Liquidity/ContextualTopics/Modifier element dans tableau parametrage.htm" target="_popup" class="Popup">cliquez ici</a>.</li>
+            <li MadCap:conditions="Default.ScreenOnly" class="PuceNiv1"><b>la suppression d'une ligne</b> dans le tableau, <a href="../../../E_Sxt/2_Liquidity/ContextualTopics/Supprimer element dans tableau page parametrage.htm" target="_popup" class="Popup">cliquez ici</a>.</li>
         </ul>
     </body>
 </html>

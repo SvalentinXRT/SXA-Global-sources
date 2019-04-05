@@ -3,24 +3,24 @@
   Version="1">
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/E_Legacy/5_FX/INTRO - Perimetre fonctionnel.htm">
+    Link="/Content/E_Sxt/5_FX/INTRO - Perimetre fonctionnel.htm">
     <TocEntry
       Title="Gestion du risque de change"
-      Link="/Content/E_Legacy/5_FX/INTRO - Gestion risque change.htm"
+      Link="/Content/E_Sxt/5_FX/INTRO - Gestion risque change.htm"
       Class="SAGE" />
     <TocEntry
       Title="Principes fonctionnels"
-      Link="/Content/E_Legacy/5_FX/INTRO - Principes fonctionnels.htm"
+      Link="/Content/E_Sxt/5_FX/INTRO - Principes fonctionnels.htm"
       Class="SAGE" />
     <TocEntry
       Title="Accès au module"
-      Link="/Content/E_Legacy/5_FX/INTRO - Acces appli.htm"
+      Link="/Content/E_Sxt/5_FX/INTRO - Acces appli.htm"
       Skin="/Project/Skins/Sage HTML5.flskn"
       Class="SAGE"
       ReplaceMergeNode="false" />
     <TocEntry
       Title="Paramétrage"
-      Link="/Content/E_Legacy/5_FX/PARAM - Intro.htm"
+      Link="/Content/E_Sxt/5_FX/PARAM - Intro.htm"
       StartSection="true"
       MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
       PageNumber="1"
@@ -34,18 +34,18 @@
       ReplaceMergeNode="false">
       <TocEntry
         Title="Module Paramétrage"
-        Link="/Content/E_Legacy/5_FX/PARAM - Parametrage.htm"
+        Link="/Content/E_Sxt/5_FX/PARAM - Parametrage.htm"
         StartSection="true"
         MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
         PageNumber="1"
         Class="SAGE"></TocEntry>
       <TocEntry
         Title="Module Données de Marché"
-        Link="/Content/E_Legacy/5_FX/PARAM - Donnees Marche.htm"
+        Link="/Content/E_Sxt/5_FX/PARAM - Donnees Marche.htm"
         Class="SAGE" />
       <TocEntry
         Title="Configuration spécifique"
-        Link="/Content/E_Legacy/5_FX/PARAM - Configuration FX.htm"
+        Link="/Content/E_Sxt/5_FX/PARAM - Configuration FX.htm"
         StartSection="true"
         PageNumber="1"
         MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
@@ -53,25 +53,25 @@
         Class="SAGE" />
       <TocEntry
         Title="Editions automatiques"
-        Link="/Content/E_Legacy/5_FX/PARAM - Editions auto.htm"
+        Link="/Content/E_Sxt/5_FX/PARAM - Editions auto.htm"
         StartSection="true"
         MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
         PageNumber="1"
         Class="SAGE" />
       <TocEntry
         Title="Structure des fichiers échangés"
-        Link="/Content/E_Legacy/5_FX/PARAM - Structures de fichier.htm"
+        Link="/Content/E_Sxt/5_FX/PARAM - Structures de fichier.htm"
         StartSection="true"
         MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
         PageNumber="1"
         Class="SAGE">
         <TocEntry
           Title="Prévisions commerciales"
-          Link="/Content/E_Legacy/5_FX/PARAM - Structure importation previsions commerciales.htm"
+          Link="/Content/E_Sxt/5_FX/PARAM - Structure importation previsions commerciales.htm"
           Class="SAGE" />
         <TocEntry
           Title="Transactions de change à terme"
-          Link="/Content/E_Legacy/5_FX/PARAM - Structure exportation changes a terme.htm"
+          Link="/Content/E_Sxt/5_FX/PARAM - Structure exportation changes a terme.htm"
           StartSection="true"
           MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
           PageNumber="1"
@@ -80,7 +80,7 @@
     </TocEntry>
     <TocEntry
       Title="Intégration"
-      Link="/Content/E_Legacy/5_FX/INTEGRATION - Intro.htm"
+      Link="/Content/E_Sxt/5_FX/INTEGRATION - Intro.htm"
       StartSection="true"
       MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
       StartChapter="true"
@@ -90,14 +90,14 @@
       ReplaceMergeNode="false">
       <TocEntry
         Title="Importation prévisions commerciales"
-        Link="/Content/E_Legacy/5_FX/INTEGRATION - Importation previsions commerciales.htm"
+        Link="/Content/E_Sxt/5_FX/INTEGRATION - Importation previsions commerciales.htm"
         StartSection="true"
         PageNumber="1"
         MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
         Class="SAGE" />
       <TocEntry
         Title="Rejet des prévisions commerciales"
-        Link="/Content/E_Legacy/5_FX/INTEGRATION - Rejets previsions commerciales.htm"
+        Link="/Content/E_Sxt/5_FX/INTEGRATION - Rejets previsions commerciales.htm"
         StartSection="true"
         MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
         PageNumber="1"
@@ -105,7 +105,7 @@
     </TocEntry>
     <TocEntry
       Title="Gestion"
-      Link="/Content/E_Legacy/5_FX/TRAITEMENT - Intro.htm"
+      Link="/Content/E_Sxt/5_FX/TRAITEMENT - Intro.htm"
       StartChapter="true"
       StartSection="true"
       MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
@@ -115,7 +115,7 @@
       ReplaceMergeNode="false">
       <TocEntry
         Title="Opérations commerciales"
-        Link="/Content/E_Legacy/5_FX/TRAITCOMM - Operations commerciales.htm"
+        Link="/Content/E_Sxt/5_FX/TRAITCOMM - Operations commerciales.htm"
         StartSection="false"
         MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
         PageNumber="1"
@@ -123,94 +123,94 @@
         Class="SAGE"></TocEntry>
       <TocEntry
         Title="Transactions de change"
-        Link="/Content/E_Legacy/5_FX/TRAITFINAN - Transactions de change.htm"
+        Link="/Content/E_Sxt/5_FX/TRAITFINAN - Transactions de change.htm"
         StartSection="true"
         MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
         PageNumber="1"
         Class="SAGE">
         <TocEntry
           Title="Création et modification"
-          Link="/Content/E_Legacy/5_FX/TRAITFINAN - Creation.htm"
+          Link="/Content/E_Sxt/5_FX/TRAITFINAN - Creation.htm"
           StartSection="true"
           MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
           PageNumber="1"
           Class="SAGE">
           <TocEntry
             Title="Change au comptant"
-            Link="/Content/E_Legacy/5_FX/TRAITFINAN - Change au comptant.htm"
+            Link="/Content/E_Sxt/5_FX/TRAITFINAN - Change au comptant.htm"
             StartSection="true"
             MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
             PageNumber="1"
             Class="SAGE" />
           <TocEntry
             Title="Change à terme"
-            Link="/Content/E_Legacy/5_FX/TRAITFINAN - Change a terme.htm"
+            Link="/Content/E_Sxt/5_FX/TRAITFINAN - Change a terme.htm"
             StartSection="true"
             MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
             PageNumber="1"
             Class="SAGE" />
           <TocEntry
             Title="Swap"
-            Link="/Content/E_Legacy/5_FX/TRAITFINAN - Swap.htm"
+            Link="/Content/E_Sxt/5_FX/TRAITFINAN - Swap.htm"
             Class="SAGE">
             <TocEntry
               Title="comptant terme contre terme"
-              Link="/Content/E_Legacy/5_FX/TRAITFINAN - Swap comptant contre terme.htm"
+              Link="/Content/E_Sxt/5_FX/TRAITFINAN - Swap comptant contre terme.htm"
               StartSection="true"
               MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
               PageNumber="1"
               Class="SAGE" />
             <TocEntry
               Title="terme contre terme"
-              Link="/Content/E_Legacy/5_FX/TRAITFINAN - Swap terme contre terme.htm"
+              Link="/Content/E_Sxt/5_FX/TRAITFINAN - Swap terme contre terme.htm"
               Class="SAGE" />
           </TocEntry>
         </TocEntry>
         <TocEntry
           Title="Liaison prévisions commerciales"
-          Link="/Content/E_Legacy/5_FX/TRAITFINAN - Liaison avec previsions.htm"
+          Link="/Content/E_Sxt/5_FX/TRAITFINAN - Liaison avec previsions.htm"
           StartSection="true"
           MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
           PageNumber="1"
           Class="SAGE" />
         <TocEntry
           Title="Conversion des montants"
-          Link="/Content/E_Legacy/5_FX/TRAITFINAN - Conversion des montants.htm"
+          Link="/Content/E_Sxt/5_FX/TRAITFINAN - Conversion des montants.htm"
           StartSection="true"
           MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
           PageNumber="1"
           Class="SAGE" />
         <TocEntry
           Title="Documents liés"
-          Link="/Content/E_Legacy/5_FX/TRAITFINAN - Documents lies aux transactions.htm"
+          Link="/Content/E_Sxt/5_FX/TRAITFINAN - Documents lies aux transactions.htm"
           StartSection="true"
           MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
           PageNumber="1"
           Class="SAGE">
           <TocEntry
             Title="Ticket d'opération"
-            Link="/Content/E_Legacy/5_FX/TRAITFINAN - Docs - Ticket operation.htm"
+            Link="/Content/E_Sxt/5_FX/TRAITFINAN - Docs - Ticket operation.htm"
             StartSection="true"
             MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
             PageNumber="1"
             Class="SAGE" />
           <TocEntry
             Title="Lettre de confirmation"
-            Link="/Content/E_Legacy/5_FX/TRAITFINAN - Docs - Lettre confirmation.htm"
+            Link="/Content/E_Sxt/5_FX/TRAITFINAN - Docs - Lettre confirmation.htm"
             StartSection="true"
             MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
             PageNumber="1"
             Class="SAGE"></TocEntry>
           <TocEntry
             Title="Ordre de paiement"
-            Link="/Content/E_Legacy/5_FX/TRAITFINAN - Docs - Ordre paiement.htm"
+            Link="/Content/E_Sxt/5_FX/TRAITFINAN - Docs - Ordre paiement.htm"
             StartSection="true"
             MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
             PageNumber="1"
             Class="SAGE" />
           <TocEntry
             Title="Modification des modèles"
-            Link="/Content/E_Legacy/5_FX/TRAITFINAN - Modification modeles doc.htm"
+            Link="/Content/E_Sxt/5_FX/TRAITFINAN - Modification modeles doc.htm"
             StartSection="true"
             MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
             PageNumber="1"
@@ -218,28 +218,28 @@
         </TocEntry>
         <TocEntry
           Title="Traitement back office"
-          Link="/Content/E_Legacy/5_FX/TRAITFINAN - Traitement Back Office.htm"
+          Link="/Content/E_Sxt/5_FX/TRAITFINAN - Traitement Back Office.htm"
           StartSection="true"
           PageNumber="1"
           MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
           Class="SAGE">
           <TocEntry
             Title="Configuration du verrouillage"
-            Link="/Content/E_Legacy/5_FX/TRAITFINAN - Verrouillage Back Office.htm"
+            Link="/Content/E_Sxt/5_FX/TRAITFINAN - Verrouillage Back Office.htm"
             StartSection="true"
             MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
             PageNumber="1"
             Class="SAGE" />
           <TocEntry
             Title="Validation"
-            Link="/Content/E_Legacy/5_FX/TRAITFINAN - Validation Back Office.htm"
+            Link="/Content/E_Sxt/5_FX/TRAITFINAN - Validation Back Office.htm"
             StartSection="true"
             MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
             PageNumber="1"
             Class="SAGE" />
           <TocEntry
             Title="Annulation de la validation"
-            Link="/Content/E_Legacy/5_FX/TRAITFINAN - Annulation BO.htm"
+            Link="/Content/E_Sxt/5_FX/TRAITFINAN - Annulation BO.htm"
             StartSection="true"
             MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
             PageNumber="1"
@@ -247,35 +247,35 @@
         </TocEntry>
         <TocEntry
           Title="Journal de trésorerie"
-          Link="/Content/E_Legacy/5_FX/TRAITFINAN - Journal de treso.htm"
+          Link="/Content/E_Sxt/5_FX/TRAITFINAN - Journal de treso.htm"
           StartSection="true"
           PageNumber="1"
           MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
           Class="SAGE" />
         <TocEntry
           Title="Suivi des transactions"
-          Link="/Content/E_Legacy/5_FX/TRAITFINAN - Suivi.htm"
+          Link="/Content/E_Sxt/5_FX/TRAITFINAN - Suivi.htm"
           StartSection="true"
           MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
           PageNumber="1"
           Class="SAGE">
           <TocEntry
             Title="Dénouement"
-            Link="/Content/E_Legacy/5_FX/TRAITFINAN - Denouement.htm"
+            Link="/Content/E_Sxt/5_FX/TRAITFINAN - Denouement.htm"
             StartSection="false"
             PageNumber="1"
             MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
             Class="SAGE" />
           <TocEntry
             Title="Levée anticipée"
-            Link="/Content/E_Legacy/5_FX/TRAITFINAN - Levee anticipee.htm"
+            Link="/Content/E_Sxt/5_FX/TRAITFINAN - Levee anticipee.htm"
             StartSection="true"
             PageNumber="1"
             MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
             Class="SAGE" />
           <TocEntry
             Title="Prorogation"
-            Link="/Content/E_Legacy/5_FX/TRAITFINAN - Prorogation.htm"
+            Link="/Content/E_Sxt/5_FX/TRAITFINAN - Prorogation.htm"
             StartSection="true"
             PageNumber="1"
             MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
@@ -284,35 +284,35 @@
       </TocEntry>
       <TocEntry
         Title="Emprunts et prêts en devise"
-        Link="/Content/E_Legacy/5_FX/TRAITPRET - Emprunts prets devise.htm"
+        Link="/Content/E_Sxt/5_FX/TRAITPRET - Emprunts prets devise.htm"
         StartSection="true"
         PageNumber="1"
         MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
         Class="SAGE" />
       <TocEntry
         Title="Suivi des prévisions commerciales"
-        Link="/Content/E_Legacy/5_FX/SUIVCOMM - Suivi des previsions commerciales.htm"
+        Link="/Content/E_Sxt/5_FX/SUIVCOMM - Suivi des previsions commerciales.htm"
         StartSection="true"
         MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
         PageNumber="1"
         Class="SAGE">
         <TocEntry
           Title="Apuration"
-          Link="/Content/E_Legacy/5_FX/SUIVCOMM - Apuration.htm"
+          Link="/Content/E_Sxt/5_FX/SUIVCOMM - Apuration.htm"
           StartSection="true"
           MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
           PageNumber="1"
           Class="SAGE">
           <TocEntry
             Title="Apuration automatique"
-            Link="/Content/E_Legacy/5_FX/SUIVCOMM - Apuration auto.htm"
+            Link="/Content/E_Sxt/5_FX/SUIVCOMM - Apuration auto.htm"
             StartSection="true"
             MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
             PageNumber="1"
             Class="SAGE" />
           <TocEntry
             Title="Apuration manuelle"
-            Link="/Content/E_Legacy/5_FX/SUIVCOMM - Apuration manuelle.htm"
+            Link="/Content/E_Sxt/5_FX/SUIVCOMM - Apuration manuelle.htm"
             StartSection="true"
             MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
             PageNumber="1"
@@ -321,7 +321,7 @@
       </TocEntry>
       <TocEntry
         Title="Précisions fonctionnelles"
-        Link="/Content/E_Legacy/5_FX/ANNEXE - Precisions fonctionnelles.htm"
+        Link="/Content/E_Sxt/5_FX/ANNEXE - Precisions fonctionnelles.htm"
         StartSection="true"
         MasterPage="/Content/Resources/MasterPages/Print - Annexe.flmsp"
         PageNumber="1"
@@ -335,14 +335,14 @@
         ReplaceMergeNode="false">
         <TocEntry
           Title="Natures de transactions de change"
-          Link="/Content/E_Legacy/5_FX/ANNEXE - Natures de transaction.htm"
+          Link="/Content/E_Sxt/5_FX/ANNEXE - Natures de transaction.htm"
           SectionNumberReset="same"
           VolumeNumberReset="same"
           ChapterNumberReset="same"
           Class="SAGE"></TocEntry>
         <TocEntry
           Title="Verrouillage Back Office"
-          Link="/Content/E_Legacy/5_FX/ANNEXE - Verrouillage Back Office.htm"
+          Link="/Content/E_Sxt/5_FX/ANNEXE - Verrouillage Back Office.htm"
           StartSection="true"
           MasterPage="/Content/Resources/MasterPages/Print - Annexe.flmsp"
           PageNumber="1"
@@ -353,7 +353,7 @@
           Class="SAGE"></TocEntry>
         <TocEntry
           Title="Gestion opérations commerciales"
-          Link="/Content/E_Legacy/5_FX/ANNEXE - Gestion des op comm.htm"
+          Link="/Content/E_Sxt/5_FX/ANNEXE - Gestion des op comm.htm"
           StartSection="true"
           MasterPage="/Content/Resources/MasterPages/Print - Annexe.flmsp"
           PageNumber="1"
@@ -364,18 +364,18 @@
           Class="SAGE">
           <TocEntry
             Title="Décrémentation FIFO"
-            Link="/Content/E_Legacy/5_FX/ANNEXE - Decrementation FIFO.htm"
+            Link="/Content/E_Sxt/5_FX/ANNEXE - Decrementation FIFO.htm"
             Class="SAGE" />
           <TocEntry
             Title="Rapprochement détaillé"
-            Link="/Content/E_Legacy/5_FX/ANNEXE - Rapprochement detaille.htm"
+            Link="/Content/E_Sxt/5_FX/ANNEXE - Rapprochement detaille.htm"
             Class="SAGE" />
         </TocEntry>
       </TocEntry>
     </TocEntry>
     <TocEntry
       Title="Exportation"
-      Link="/Content/E_Legacy/5_FX/EXPORT - Intro.htm"
+      Link="/Content/E_Sxt/5_FX/EXPORT - Intro.htm"
       StartSection="true"
       StartChapter="true"
       MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
@@ -385,12 +385,12 @@
       ReplaceMergeNode="false">
       <TocEntry
         Title="Transactions de change"
-        Link="/Content/E_Legacy/5_FX/EXPORT - Exportation transactions de change.htm"
+        Link="/Content/E_Sxt/5_FX/EXPORT - Exportation transactions de change.htm"
         Class="SAGE" />
     </TocEntry>
     <TocEntry
       Title="Editions"
-      Link="/Content/E_Legacy/5_FX/EDITION - Intro.htm"
+      Link="/Content/E_Sxt/5_FX/EDITION - Intro.htm"
       SectionNumberReset="continue"
       StartSection="true"
       StartChapter="true"
@@ -403,21 +403,21 @@
       ReplaceMergeNode="false">
       <TocEntry
         Title="Consultation"
-        Link="/Content/E_Legacy/5_FX/EDITION - Consultation.htm"
+        Link="/Content/E_Sxt/5_FX/EDITION - Consultation.htm"
         StartSection="true"
         MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
         PageNumber="1"
         Class="SAGE">
         <TocEntry
           Title="Journal transactions de change"
-          Link="/Content/E_Legacy/5_FX/EDITION - Journal TRN change.htm"
+          Link="/Content/E_Sxt/5_FX/EDITION - Journal TRN change.htm"
           StartSection="true"
           MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
           PageNumber="1"
           Class="SAGE"></TocEntry>
         <TocEntry
           Title="Journal opérations commerciales"
-          Link="/Content/E_Legacy/5_FX/EDITION - Journal operations commerciales.htm"
+          Link="/Content/E_Sxt/5_FX/EDITION - Journal operations commerciales.htm"
           StartSection="true"
           MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
           PageNumber="1"
@@ -425,14 +425,14 @@
           Class="SAGE"></TocEntry>
         <TocEntry
           Title="Journal emprunts/prêts en devises"
-          Link="/Content/E_Legacy/5_FX/EDITION - Journal emprunts prets devises.htm"
+          Link="/Content/E_Sxt/5_FX/EDITION - Journal emprunts prets devises.htm"
           StartSection="true"
           MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
           PageNumber="1"
           Class="SAGE"></TocEntry>
         <TocEntry
           Title="Journal toutes transactions"
-          Link="/Content/E_Legacy/5_FX/EDITION - Journal toutes TRN.htm"
+          Link="/Content/E_Sxt/5_FX/EDITION - Journal toutes TRN.htm"
           StartSection="true"
           MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
           PageNumber="1"
@@ -440,19 +440,19 @@
           Class="SAGE" />
         <TocEntry
           Title="Fiche de position FX"
-          Link="/Content/E_Legacy/5_FX/EDITION - Fiche position FX.htm"
+          Link="/Content/E_Sxt/5_FX/EDITION - Fiche position FX.htm"
           StartSection="true"
           MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
           PageNumber="1"
           Class="SAGE">
           <TocEntry
             Title="Configuration du cube"
-            Link="/Content/E_Legacy/5_FX/EDITION - Fiche position FX - cube.htm"
+            Link="/Content/E_Sxt/5_FX/EDITION - Fiche position FX - cube.htm"
             Class="SAGE" />
         </TocEntry>
         <TocEntry
           Title="Résultat consolidé/position ouverte"
-          Link="/Content/E_Legacy/5_FX/EDITION - Resultat consolide sur position ouverte.htm"
+          Link="/Content/E_Sxt/5_FX/EDITION - Resultat consolide sur position ouverte.htm"
           StartSection="true"
           MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
           PageNumber="1"
@@ -461,7 +461,7 @@
       </TocEntry>
       <TocEntry
         Title="Impression et diffusion"
-        Link="/Content/E_Legacy/5_FX/EDITION - Diffusion.htm"
+        Link="/Content/E_Sxt/5_FX/EDITION - Diffusion.htm"
         StartSection="true"
         MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
         PageNumber="1"

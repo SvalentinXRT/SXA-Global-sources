@@ -63,7 +63,7 @@
                     <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Conversion</td>
                     <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
                         <p class="tableau">Cette fonction vous permet de consulter le détail de la conversion de valeurs si la devise du compte crédité diffère de la devise principale de la transaction ou si la devise du compte débité diffère de la devise secondaire de la transaction.</p>
-                        <p class="tableau">Pour plus d'informations sur cette fonction, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Legacy/3_Payment/TRAITFINAN - Modele - Creation.htm" target="" title="" alt="" class="XrefSansTexte">Conversion des montants</MadCap:xref>.</MadCap:conditionalText></p>
+                        <p class="tableau">Pour plus d'informations sur cette fonction, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Sxt/3_Payment/TRAITFINAN - Modele - Creation.htm" target="" title="" alt="" class="XrefSansTexte">Conversion des montants</MadCap:xref>.</MadCap:conditionalText></p>
                     </td>
                     <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
                 </tr>

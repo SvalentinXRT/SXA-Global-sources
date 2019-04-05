@@ -28,7 +28,7 @@
     GenerateGlossaryProxy="true" />
   <Destinations>
     <Destination
-      Link="/Project/Destinations/NewDestination.fldes" />
+      Link="/Project/Destinations/srv-xrthelp.fldes" />
   </Destinations>
   <Variables></Variables>
 </CatapultTarget>

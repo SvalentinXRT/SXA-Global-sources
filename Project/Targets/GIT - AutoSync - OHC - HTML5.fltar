@@ -20,7 +20,8 @@
   SearchEngine="MadCapSearch"
   CentralLinkIds=""
   TargetLanguage="fr"
-  TabletBreakpoint="1150">
+  TabletBreakpoint="1150"
+  PreCompileScaledImages="true">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
@@ -28,9 +29,10 @@
     GenerateGlossaryProxy="true" />
   <Destinations>
     <Destination
-      Link="/Project/Destinations/Github.fldes"
+      Link="/Project/Destinations/sageascotsoh-sxa.fldes"
       Publish="true" />
   </Destinations>
   <Variables></Variables>
-  <PostBuild>copy C:\__OHC MADCAP\Sage XRT Advanced\FR\Global\env "$(OutputDirectory)"</PostBuild>
+  <PostBuild>copy "C:\__OHC MADCAP\Sage XRT Advanced\FR\Global\env" "$(OutputDirectory)"
+copy "$(OutputDirectory)\Default.htm" "$(OutputDirectory)\index.htm"</PostBuild>
 </CatapultTarget>

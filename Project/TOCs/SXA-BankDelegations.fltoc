@@ -3,61 +3,61 @@
   Version="1">
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/B_HelpTopics/1_BankDelegations/ParamIntro.htm">
+    Link="/Content/B_Sxa/1_BankDelegations/ParamIntro.htm">
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/B_HelpTopics/1_BankDelegations/Parametrage.htm"></TocEntry>
+      Link="/Content/B_Sxa/1_BankDelegations/Parametrage.htm"></TocEntry>
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/B_HelpTopics/1_BankDelegations/ParamComplementaire.htm" />
+      Link="/Content/B_Sxa/1_BankDelegations/ParamComplementaire.htm" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/B_HelpTopics/1_BankDelegations/CreationIntro.htm">
+      Link="/Content/B_Sxa/1_BankDelegations/CreationIntro.htm">
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/B_HelpTopics/1_BankDelegations/CreationDelegation.htm">
+        Link="/Content/B_Sxa/1_BankDelegations/CreationDelegation.htm">
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/B_HelpTopics/1_BankDelegations/CreationUnitaire.htm" />
+          Link="/Content/B_Sxa/1_BankDelegations/CreationUnitaire.htm" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/B_HelpTopics/1_BankDelegations/CreationMasse.htm"></TocEntry>
+          Link="/Content/B_Sxa/1_BankDelegations/CreationMasse.htm"></TocEntry>
       </TocEntry>
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/B_HelpTopics/1_BankDelegations/PreparationLettre.htm">
+        Link="/Content/B_Sxa/1_BankDelegations/PreparationLettre.htm">
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/B_HelpTopics/1_BankDelegations/ReglesGeneration.htm" />
+          Link="/Content/B_Sxa/1_BankDelegations/ReglesGeneration.htm" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/B_HelpTopics/1_BankDelegations/Modele lettre.htm" />
+          Link="/Content/B_Sxa/1_BankDelegations/Modele lettre.htm" />
       </TocEntry>
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/B_HelpTopics/1_BankDelegations/Filtres.htm" />
+        Link="/Content/B_Sxa/1_BankDelegations/Filtres.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/B_HelpTopics/1_BankDelegations/SecuriteDonnees.htm" />
+        Link="/Content/B_Sxa/1_BankDelegations/SecuriteDonnees.htm" />
     </TocEntry>
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/B_HelpTopics/1_BankDelegations/V3_NouvelleInterface.htm">
+      Link="/Content/B_Sxa/1_BankDelegations/V3_NouvelleInterface.htm">
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/B_HelpTopics/1_BankDelegations/V3_NouvelleInterface.htm" />
+        Link="/Content/B_Sxa/1_BankDelegations/V3_NouvelleInterface.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/B_HelpTopics/1_BankDelegations/V3_EditionReglesGeneration.htm" />
+        Link="/Content/B_Sxa/1_BankDelegations/V3_EditionReglesGeneration.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/B_HelpTopics/1_BankDelegations/V3_CreationCircuitValidation.htm">
+        Link="/Content/B_Sxa/1_BankDelegations/V3_CreationCircuitValidation.htm">
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/B_HelpTopics/1_BankDelegations/V3_CreationCircuitValidation_Notification.htm" />
+          Link="/Content/B_Sxa/1_BankDelegations/V3_CreationCircuitValidation_Notification.htm" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/B_HelpTopics/1_BankDelegations/V3_CreationCircuitValidation_SuiviRequetes.htm" />
+          Link="/Content/B_Sxa/1_BankDelegations/V3_CreationCircuitValidation_SuiviRequetes.htm" />
       </TocEntry>
     </TocEntry>
   </TocEntry>

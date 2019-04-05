@@ -4,7 +4,7 @@
     <body>
         <p class="IndentPuceNiv1">Si vous souhaitez copier les paramètres d'un filtre existant, cliquez sur le bouton <b>Copier</b> dans la barre d'actions. </p>
         <p class="IndentPuceNiv1">
-            <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><a href="../../../E_Legacy/2_Liquidity/ANNEXE - GUI - Copier les parametres d un filtre.htm" target="_popup" class="Popup">Cliquez ici</a>
+            <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><a href="../../../E_Sxt/2_Liquidity/ANNEXE - GUI - Copier les parametres d un filtre.htm" target="_popup" class="Popup">Cliquez ici</a>
             </MadCap:conditionalText> pour plus d'informations.</p>
     </body>
 </html>
