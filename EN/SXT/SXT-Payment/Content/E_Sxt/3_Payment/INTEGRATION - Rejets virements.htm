@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:lastBlockDepth="9" MadCap:lastHeight="2342" MadCap:lastWidth="563">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="LegacySXT"><MadCap:keyword term="Transfer rejects;Import:transfers:reject;Transfers:reject during import" />Transfer Rejects:</h1>
+        <p>This function enables you to view the history of the payments rejected during the import of the file from the external system.</p>
+        <p class="SautLigne">The rejected payments are not integrated like the others, but stored in the history with their reject reasons which specify the missing information or the information inconsistent with <MadCap:variable name="Localization.SXT" style="font-weight: bold;" /> data repository.</p>
+        <p class="SautLigne">Different kinds of error can generate rejects: data that are mandatory but missing or that do not have their equivalences in the database (which is the case for the information referenced in the repository such as Currency Codes, Company Codes...).</p>
+        <p class="SautLigne">The reject history includes all information on the rejected payments, including reasons for reject. You can view this history, correct errors and re-import the rejected payments.</p>
+        <p class="SautLigneAvantEtAprès">Before correcting manually the rejected payments, make sure that the file structure is properly set up. For more information, see the <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">section <MadCap:xref target="" title="" alt="" class="XrefDocSansTexte" href="PARAM - Structures de fichier.htm">Exchanged Files Structure, from page 1</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref target="" title="" alt="" class="XrefSansTexte" href="PARAM - Structures de fichier.htm">Exchanged Files Structure</MadCap:xref> topic.</MadCap:conditionalText></p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot><MadCap:keyword term="Transfer Rejects: access page" />Accessing Management Page for Rejects</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In the <b><MadCap:variable name="Localization.SXTModulesTasks" /></b> pane, select the <b>Payment Type Rejects</b> option from the <b><MadCap:variable name="Localization.SXTImportFolder" /></b> folder of the <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> module.</p>
+                <p>The management page for Rejects is displayed with the list of the rejected payments in a table.</p>
+                <p class="SautLigne">This table presents the reject reasons and information on the payments.</p>
+                <p MadCap:targetName="Capture importation 1"><img src="../../Resources/Images/L_Payment/Tableau rejets.png" class="SAGE_screenshot" /></p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">All payments are selected by default. If you want to cancel this selection and select a specific line, deselect the first option of the table and select the option on the relevant line.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot><MadCap:keyword term="Transfer Rejects:Viewing" />Viewing Details of Rejected Payments</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In the management page for Rejects, select the line(s) to view and click the <b>View</b> button.</p>
+                <p class="SautLigne">The detailed information on the first selected payment and the reasons for reject are displayed on a new page.</p>
+                <p MadCap:targetName="Capture Visualiser transactions rejetees"><img src="../../Resources/Images/L_Payment/Rejet Vdom consultation.png" class="SAGE_screenshot" /></p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv1">If you selected several payments to view, click the <b>Next Entry</b> button to view the following payment.</li>
+                    <li class="PuceNiv1">If, for the selected payment, there are other error messages that are not displayed on the current page, use the <b>Previous Error Message</b> and <b>Next Error Message</b> buttons to display the corresponding pages.</li>
+                    <li class="PuceNiv1">To go back to the management page for Rejects, click the <b>Cancel</b> button.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead><MadCap:keyword term="Payment Rejects:Correction;Transfers:Reject Correction" /><MadCap:dropDownHotspot>Correcting Manually Rejected Transactions</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">In the management page for Rejects, select one or several payments and click <b>Change</b> in the actions toolbar at the top of the page.</li>
+                </ol>
+                <p class="IndentPuceNiv1SautLigne">The detailed information on the first selected payment and the reasons for reject are displayed on a new page.</p>
+                <p MadCap:conditions="" MadCap:targetName="Capture Modifier transactions rejetees"><img src="../../Resources/Images/L_Payment/VDOM rejeté.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">For each error message, an entry field enables you to correct the faulty value.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Correct each incorrect data by entering a new value in the entry field, or by using the button <img src="../../Resources/Images/L_Payment/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> to select a value in the list.</li>
+                </ol>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">If, for the selected payment, there are other error messages that are not displayed on the current page, use the <b>Previous Error Message</b> and <b>Next Error Message</b> buttons to display the corresponding pages.</li>
+                    <li class="PuceNumNiv1">If you selected several payments to correct, click the <b>Next Entry</b> button to view the following payment.</li>
+                    <li class="PuceNumNiv1">Once the correction is completed, click the <b>OK</b> button to save your modifications or <b>Cancel</b> to cancel them.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The management page for Rejects appears.</p>
+                <p class="SautLigneAvantEtAprès">Now that your payments are corrected, you can relaunch an import task for them.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead><MadCap:keyword term="Payment Reject:Purge;Purge of Import Rejects of Transfers;Transfers:Purge of Import Rejects" /><MadCap:dropDownHotspot>Purging Payments</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In the actions toolbar of the management page for Rejects, click the <b>Purge</b> button, then <b>OK</b> in the dialog box of purge confirmation.</p>
+                <p>The history of rejected payments is purged.</p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">This is an irreversible action. Before purging the history of rejected payments, make sure that this information will not be needed later on.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead><MadCap:keyword term="Payments:Re-import;Transfer Rejects:Re-import" /><MadCap:dropDownHotspot>Relaunching Payments Import</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">In the actions toolbar of the management page for Rejects, click <b>Process</b>, then <b>Import</b>.</li>
+                </ol>
+                <p class="IndentPuceNiv1SautLigne">The import is launched and a new page is displayed showing the task progress.</p>
+                <p MadCap:targetName="Capture importation 4"><img src="../../Resources/Images/L_Payment/Progression importation VDOM1.png" class="SAGE_screenshot" /></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Once the task is completed, click the <b>Close</b> button at the bottom of the page.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The management page for Rejects appears. The list of the payments with errors, is updated since the last import.</p>
+                <p class="SautLigne">The corrected payments that were re-imported properly into <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> module, are deleted from the list.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

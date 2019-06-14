@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="false"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/B_Sxa/Home_HelpTopics.htm" />
+    <Link
+      Url="Project/TOCs/SXA-Platform.fltoc" />
+    <Link
+      Url="Project/TOCs/SXA-BankDelegations.fltoc" />
+    <Link
+      Url="Project/TOCs/SXA-Reconciliation.fltoc" />
+    <Link
+      Url="Project/TOCs/SXA-Cash.fltoc" />
+    <Link
+      Url="Content/E_Sxt/Home_Legacy.htm" />
+    <Link
+      Url="Project/TOCs/SXT-Cash.fltoc" />
+    <Link
+      Url="Project/TOCs/SXT-Liquidity.fltoc" />
+    <Link
+      Url="Project/TOCs/SXT-Payment.fltoc" />
+    <Link
+      Url="Project/TOCs/SXT-Netting.fltoc" />
+    <Link
+      Url="Project/TOCs/SXT-FX.fltoc" />
+    <Link
+      Url="Project/TOCs/SXT-SEI.fltoc" />
+    <Link
+      Url="Content/A_Documents/Home_PDF.htm" />
+    <Link
+      Url="Content/A_Documents/PDF_Sxa.htm" />
+    <Link
+      Url="Content/A_Documents/PDF_Sxt.htm" />
+    <Link
+      Url="Content/A_Documents/PDF_Fiches.htm" />
+    <Link
+      Url="Content/C_Videos/Home_Videos.htm" />
+  </Links>
+  <LongLinks />
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

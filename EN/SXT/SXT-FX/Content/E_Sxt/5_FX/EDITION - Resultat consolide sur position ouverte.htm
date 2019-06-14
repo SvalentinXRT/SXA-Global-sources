@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:lastBlockDepth="9" MadCap:lastHeight="6854" MadCap:lastWidth="570">
+    <head>
+        <link href="../../Resources/TableStyles/Warning.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT"><MadCap:keyword term="Consolidated results on open position;Reports:consolidated results on open position ledger;Ledger:consolidated results on open position" />Consolidated Results on Open Positions</h1>
+        <p>The consolidated results on open position enable you to compare the exposure (Commercial Transactions in forecast mode) with the actual financial hedging (Spot, Forward Exchanges and Swaps). This comparison enables you to calculate the global result, to identify the existence of over and underhedgings, to determine the efficiency of the risk hedging strategy set up by the treasurer and to value the open position.</p>
+        <p class="SautLigneAvantEtAprès">The valuation of the exposures and hedging is made on the basis of the market rates, according to the <i>mark-to-market</i> method, by comparing the transaction rate with the revaluation rate, in order to calculate the actual and potential results. You can recognize the imported amounts from the exported amounts for the transactions expressed in the company currency (for the analysis of a single company result) or in the consolidation currency (for multiple company selections).</p>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">The results on Cash Transactions (currency borrowings and loans) are not integrated into the consolidated results as they do not use the same approach of performance (acquired result) and hedging analyses.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="SautLigne">To customize results, the <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> module proposes to revalue commercial transactions on the basis of the three following exchange rates:</p>
+        <ul>
+            <li class="PuceNiv1">the budget rate, determined during the analysis,</li>
+            <li class="PuceNiv1">the opportunity rate (forward rate at transaction date),</li>
+            <li class="PuceNiv1">the settlement rate (spot rate at delivery date).</li>
+        </ul>
+        <p class="SautLigne">The average rate for Commercial Transactions is then compared with the average rate of the actual FX transactions, which enables the calculation of an actual and potential result with the distinction between import and export.</p>
+        <p class="SautLigne">The open position equals the financial position minus the commercial position. It is revalued (in forecasted result) according to one of the three following exchange rates chosen by the treasurer:</p>
+        <ul>
+            <li class="PuceNiv1">a spot rate at a determined date,</li>
+            <li class="PuceNiv1">the forward rate calculated according to the average maturity, with a monthly step, of the open position,</li>
+            <li class="PuceNiv1">a simulated rate, determined by the treasurer.</li>
+        </ul>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">FX Transactions are valued at the initial rate assigned at the time of their entries, and expressed in the company currency.</td>
+                </tr>
+            </tbody>
+        </table>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Example</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>For an exposure of USD 1,000, 800 are hedged for the maturity. The open position amounts to USD 200 with 100 within 3 months and 100 within 9 months. The calculated average maturity equals 6 months. A theoretical forward rate is also proposed.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead style="margin-top: 18pt;">
+                <MadCap:dropDownHotspot>Accessing Consolidated Results on Open Position</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">From the <MadCap:variable name="Localization.SXTModulesTasks" style="font-weight: bold;" /> pane, select the <b>Consolidated Results on Open Positions</b> option in the <MadCap:variable name="Localization.SXTReportsFolder" style="font-weight: bold;" /> folder of the <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> module.</li>
+                </ol>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2">If no filter has been set up for this report, the creation page for filters is displayed. You first need to create a filter.</li>
+                </ul>
+                <p class="IndentPuceNiv2">This filter enables you to select the commercial transactions and the FX transactions to display according to your criteria.</p>
+                <p class="IndentPuceNiv2">View the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">topic</MadCap:conditionalText> below for more information on the creation of selection filters for Commercial and FX Transactions.</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2">If a filter has already been set up, the modification page for filters appears with the default filter settings.</li>
+                </ul>
+                <p MadCap:targetName="Capture Creer feuille de budget"><img src="../../Resources/Images/L_FX/Filtre Journal consolide 1.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">If you need to modify the filter settings, see below the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">topic</MadCap:conditionalText> regarding filters creation.</p>
+                <ol start="2">
+                    <li class="PuceNumNiv1">Click <b>OK</b> to view the report with the filter settings.</li>
+                </ol>
+                <p MadCap:targetName="Capture edition"><img src="../../Resources/Images/L_FX/Resultats consolides sur porsition ouverte.png" class="SAGE_screenshot" /></p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead MadCap:conditions="">
+                        <MadCap:dropDownHotspot>View Report Description</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p class="IndentPuceNiv1">The header displays the report name, as well as the filtering criteria defined in the report filter (see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">topic</MadCap:conditionalText> below for more information on this type of filter).</p>
+                        <p class="IndentPuceNiv1SautLigne">The body of the report presents a table with the details of the consolidated results on open position.</p>
+                        <p class="IndentPuceNiv1SautLigne">Commercial Transactions and the actual FX transactions (spot, forward exchanges and swaps) are sorted by company, by currency and then, according to your filtering criteria, by export and/or import risk.</p>
+                        <p class="IndentPuceNiv1">The total actual result on Commercial Transactions is calculated, for the import and/or export, with the details of the amount in position and of the remaining amount. You can directly compare the rates of your risks with the set up actual hedging, in order to obtain the actual result, the forecasted result and the potential result which all correspond to the hedging that can be set up for the open position.</p>
+                        <p class="IndentPuceNiv1">This is an analysis of the global performance.</p>
+                        <p class="IndentPuceNiv1SautLigne">The total absolute performance of the actual hedging is also calculated. There is a distinction between the amount of the settled hedging and the amount of the hedging in position for the import and/or export sections.</p>
+                        <p class="IndentPuceNiv1SautLigne">The open position is the difference between the commercial position and the financial position. The treasurer chooses to revalue it at the spot or forward rate adjusted on the average maturity of the position.</p>
+                        <p class="IndentPuceNiv1">A negative open position corresponds to a net over-hedging. A positive open position corresponds to a net under-hedging.</p>
+                        <p class="IndentPuceNiv1SautLigne">The relative performance in rate and percentage is calculated in rate and percentage. It enables the comparison of the hedging result with the company&apos;s objectives.</p>
+                        <p class="IndentPuceNiv1SautLigne">For hedging, there are three different levels of results:</p>
+                        <ul>
+                            <li class="PuceNiv2">the actual result (on settled transactions),</li>
+                            <li class="PuceNiv2">the forecasted result on the transactions in position (actual hedging),</li>
+                            <li class="PuceNiv2">the potential result on open position (risks to be hedged).</li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead><MadCap:keyword term="Ledger:consolidated on open position:filter;Filter:Consolidated Result on Open Position" /><MadCap:dropDownHotspot>Creating Display Filters for Consolidated Result on Open Position</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">To access the creation page for filters from the report page of the consolidated Results on Open Position, click the <b>Actions</b> dropdown menu in the filters toolbar, and the <b>Add</b> option in the menu.</li>
+                </ol>
+                <p class="IndentPuceNiv1SautLigne">The creation page for filters is displayed.</p>
+                <p MadCap:targetName="Capture creer filtre 1"><img src="../../Resources/Images/L_FX/Filtre Journal consolide 0.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This page enables the definition of unique identification information for the filter.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Enter a code and a description for the filter in the <b>Code</b> and <b>Description</b> fields.</li>
+                    <li class="PuceNumNiv1">If you want this filter to be applied by default when you access the report page, enable the <b>Template Default Filter</b> option.</li>
+                    <li class="PuceNumNiv1">If you want this filter to be exclusively accessed by yourself, select the <b>Private</b> option.<span style="background-color: #ffff00;"></span></li>
+                    <li class="PuceNumNiv1">You may add a comment in the <b>Text</b> area.</li>
+                    <li class="PuceNumNiv1">Click the <b>Configure</b> button to set up the filter settings.</li>
+                </ol>
+                <p class="IndentPuceNiv1SautLigne">The configuration page for filter settings is displayed.</p>
+                <p MadCap:targetName="Capture creer filtre 2"><img src="../../Resources/Images/L_FX/Filtre Journal consolide 1.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">
+                    <MadCap:snippetText src="../../Resources/Snippets/L_SXT_FX/Bouton Copier filtre.flsnp">
+                    </MadCap:snippetText>
+                </p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">If you do not specify any filtering criterion for the transactions in the different tabs of this page, the report will include all the existing FX transactions.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="IndentPuceNiv1SautLigne">The <b>General</b> tab enables you to specify filtering criteria on the transaction and delivery dates of the transactions to include in the report, as well as filtering criteria on Commercial Transactions.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">To define a filtering process on the transaction date:</li>
+                </ol>
+                <ol>
+                    <li class="PuceNumNiv2">Enable the option <b>TRX Date</b>.</li>
+                </ol>
+                <p class="IndentPuceNiv2">The fields next to the option are enabled.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv2">In these fields, specify the start and end date of the period, between which must fall the transaction date of the transactions to include in the report, by going through the following process:</li>
+                </ol>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv3">In the entry field, select the value to modify and enter a date with the format dd.mm.yyyy.</li>
+                </ul>
+                <p class="IndentPuceNiv3">- or -</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv3">Click the <img src="../../Resources/Images/L_FX/Bouton fleche bas.jpg"></img> button to display the calendar.</li>
+                </ul>
+                <p class="IndentPuceNiv3">A contextual window displays the calendar.</p>
+                <p class="IndentPuceNiv3SautLigne">
+                    <MadCap:toggler targets="Capture calendrier" class="IndentPuceNiv3SautLigne">View Calendar</MadCap:toggler>
+                </p>
+                <p class="IndentPuceNiv3" MadCap:targetName="Capture calendrier"><img src="../../Resources/Images/L_FX/Pop-up calendrier.jpg" class="SAGE_screenshot"></img></p>
+                <p class="IndentPuceNiv3SautLigne">Use the arrows <img src="../../Resources/Images/L_FX/Bouton calendrier fleche droite.jpg" style="width: 8px;height: 12px;"></img> and <img src="../../Resources/Images/L_FX/Bouton calendrier fleche gauche.jpg"></img> to select the month, year and day.</p>
+                <p class="IndentPuceNiv3">- or -</p>
+                <p class="IndentPuceNiv3">To set the start date to today&apos;s date, click the button <b>Today</b>.</p>
+                <ol start="8">
+                    <li class="PuceNumNiv1">To specify a filtering process on the delivery date, enable the <b>Delivery Date</b> option, then go through the same process as above, to define the start and end dates of the period, between which must fall the delivery date for the transactions to include in the report.</li>
+                    <li class="PuceNumNiv1">In the <b>Commercial TRX Type</b> dropdown list, select the direction of the commercial transactions to integrate into the result calculation:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>All</b> to cancel any filter at the level of the direction of Commercial Transactions,</li>
+                    <li class="PuceNiv2"><b>Export Receipts</b> to include only the commercial transactions with the receipts (export) type and the FX transactions with the sell type,</li>
+                    <li class="PuceNiv2"><b>Import Disbursements</b> to include only the commercial transactions with the disbursements (import) type and the FX transactions with the sell buy.</li>
+                </ul>
+                <ol start="10">
+                    <li class="PuceNumNiv1">In the <b>Hedging Status</b> dropdown list, select the following option:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Hedged &amp; Non-Hedged</b> to disable the filtering process on the commercial transactions hedging.</li>
+                    <li class="PuceNiv2"><b>Hedged</b> to include the hedged commercial transactions only,</li>
+                    <li class="PuceNiv2"><b>Non Hedged</b> to include the non-hedged commercial transactions only,</li>
+                </ul>
+                <ol start="11">
+                    <li class="PuceNumNiv1">In the <b>BO Validation</b> dropdown list, select one filtering criterion on the <i>back-office</i> validation of the transactions:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>BO Validated and Non BO Validated</b> to disable any filtering process on the <i>back-office</i> validation,</li>
+                    <li class="PuceNiv2"><b>Non B.O. Validated</b> to select the non-<i>BO</i>-validated transactions only,</li>
+                    <li class="PuceNiv2"><b>B.O. Validated </b>to select the <i>BO</i>-validated transactions only.</li>
+                </ul>
+                <ol start="12">
+                    <li class="PuceNumNiv1">Click the <b>Transactions</b> tab.</li>
+                </ol>
+                <p MadCap:targetName="Capture onglet Transactions"><img src="../../Resources/Images/L_FX/Filtre Journal consolide 2.png" class="SAGE_screenshot"></img></p>
+                <p class="IndentPuceNiv1">This tab enables you to specify filtering criteria on the type of the FX transactions to include in the report.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Select</b> area, enable the following option:</li>
+                </ol>
+                <ol>
+                    <li class="PuceNumNiv2"><b>All</b> not to apply any filtering on the transaction types,</li>
+                    <li class="PuceNumNiv2"><b>Single</b> to include only the FX transactions with the type selected in the area below,</li>
+                    <li class="PuceNumNiv2"><b>Multiple</b> to include the FX transactions with one of the types selected in the area on the right.</li>
+                </ol>
+                <ol start="14">
+                    <li class="PuceNumNiv1">In the <b>Select</b> area , if you selected the following option:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Single</b>, select a transaction type by clicking the button <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> in the area below, then, in the contextual window, double-click your transaction type;</li>
+                    <li class="PuceNiv2"><b>Multiple</b>, select several transaction types as described below.</li>
+                </ul>
+                <ol>
+                    <li class="PuceNumNiv3">On the right of the <b>Select</b> area, click the <b>Select</b> button.</li>
+                    <li class="PuceNumNiv3">In the contextual window, enable the options in front of the transaction types to select, and click the <img src="../../Resources/Images/L_FX/Bouton coche bleue.JPG" /> button at the top of the window.</li>
+                </ol>
+                <p class="IndentPuceNiv3">The codes and descriptions for the selected transaction types are displayed in the table of the area.</p>
+                <p class="IndentPuceNiv1SautLigne">The <b>Main CCY</b> and <b>Company</b> tabs look like the <b>Transaction</b> tab. Go through the same process as for the filtering on the main currencies and the associated companies in the previous tab.</p>
+                <ol start="15">
+                    <li class="PuceNumNiv1">Click on the <b>Results</b> tab.</li>
+                </ol>
+                <p MadCap:targetName="Capture onglet periode"><img src="../../Resources/Images/L_FX/Filtre Journal consolide 5.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This tab enables you to configure the settings for the result validation: result type (actual and/or forecasted) and rate to keep for Commercial Transactions and the open position.</p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">FX Transactions are validated at the transaction rate.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol start="8" MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Result Type</b> dropdown list, select one of the options below, which enables you to determine the type of the validation rate.</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Actual</b>: The actual result is calculated on the basis of the commercial and FX transactions revaluation, according to the contractual rate in effect at the payment date.</li>
+                    <li class="PuceNiv2"><b>Forecasted</b>: The forecasted result is calculated on the basis of the potential revaluation of transactions, according to the forward market rate. This valuation corresponds to the valuation at the historical cost, based on the <i>mark-to-market</i> principle.</li>
+                    <li class="PuceNiv2"><b>Actual and Forecasted</b>: The forecasted result and the actual result are automatically calculated.</li>
+                </ul>
+                <ol start="17">
+                    <li class="PuceNumNiv1">In the <b>Maturity TRX Revaluation Rate</b> area, enable the option corresponding to the revaluation basis for Commercial Transactions.</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Budget Rate</b>: This is the monthly budget rate of the commercial transactions currencies, which may have been modified. This option is selected by default.</li>
+                    <li class="PuceNiv2"><b>Opportunity Rate</b>: This is the forward market rate at which the transaction would be actual if it was hedged at the transaction date.</li>
+                    <li class="PuceNiv2"><b>Settlement Rate</b>: This is the spot market rate at the settlement date, it is determined on the delivery day of the currencies — the rate at which the position without hedging would have been settled.</li>
+                </ul>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">You cannot select the spot rate at the settlement date if you selected the <b>Forecast</b> option in the <b>Result Type</b> dropdown list.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol start="18">
+                    <li class="PuceNumNiv1">In the <b>Validation Rate of the Open Position</b> area, enable one of the following options which enables the determination of the rate type used for the revaluation of the open position.</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Spot Rate at Date</b>: The spot rate on the specified date is used.</li>
+                </ul>
+                <p class="IndentPuceNiv2">If you enable this option, select a date in the adjacent field by entering a dd/mm/yyyy or by using the calendar which can be accessed from the <img src="../../Resources/Images/L_FX/Bouton fleche bas.jpg"></img> button, as explained previously.</p>
+                <ul>
+                    <li class="PuceNiv2"><b>Forward Rate</b>: The forward rate is used. Its calculation is based on the average maturity of the open position. This average maturity corresponds to the average duration of the monthly net position weighted by the volumes. The forward rate enables the determination of the average rate resulting from actual market data, in order to hedge the non-hedged part (open position) or to rebuy the over-hedged part (over-hedged position).</li>
+                </ul>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>E.g.: Forward Rate</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p class="IndentPuceNiv1">With an exposure by USD 100,000, USD 80,000 are hedged forward. The open position amounts to USD 20,000. For these USD 20,000 to be hedged, <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> identifies the average maturity (USD 10,000 within 3 months, USD 10,000 within 9 months) which corresponds to 6 months, and proposes a theoretical forward rate which enables the calculation of the potential result.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <ol start="19">
+                    <li class="PuceNumNiv1">Click on the <b>Advanced</b> tab.</li>
+                </ol>
+                <p MadCap:targetName="Capture onglet avance"><img src="../../Resources/Images/L_FX/Filtre Journal consolide 6.png" class="SAGE_screenshot"></img></p>
+                <p class="IndentPuceNiv1">This tab enables you to specify filtering criteria on the order numbers, the external reference and the link numbers of the transactions to include in the report.</p>
+                <ol start="8" MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Number</b> field of the <b>Transactions</b> area, enter a range of order numbers for Commercial and FX Transactions.</li>
+                </ol>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Warning.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Warning" cellspacing="0">
+                    <col class="TableStyle-Warning-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Warning-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Warning-Body-Body1">
+                            <td class="TableStyle-Warning-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Warning.png" /></td>
+                            <td class="TableStyle-Warning-BodyA-Column2-Body1">They are not the complete numbers of transactions, but the numbers of the creation order, they can be found on the right of transactions numbers. The transaction number consists of the company code, the transaction type code and the <b>transaction order number</b>.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol start="8" MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Link</b> field, enter a range of link numbers for FX and Commercial Transactions, or select a range using the button <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" /> as explained previously.</li>
+                    <li class="PuceNumNiv1">In the <b>Reference</b> field, enter the external reference number for FX and Commercial Transactions.</li>
+                    <li class="PuceNumNiv1">Click on the <b>Presentation</b> tab.</li>
+                </ol>
+                <p MadCap:targetName="Capture onglet Date"><img src="../../Resources/Images/L_FX/Filtre Journal consolide 7.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This tab enables you to specify the output formats for the report.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Complete the fields described in the table below.</li>
+                </ol>
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_FX/Options Format Filtre edition.flsnp">
+                </MadCap:snippetBlock>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Currency</b> field, select the currency for the amounts consolidation in the report using the button <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" />.</li>
+                    <li class="PuceNumNiv1">Click <b>OK</b> to confirm the filter creation and view the report with the new filter settings.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

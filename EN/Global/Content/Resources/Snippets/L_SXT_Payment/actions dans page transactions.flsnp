@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>&#160;</head>
+    <body>
+        <p class="SautLigne">Pour des informations sur&#160;:</p>
+        <ul>
+            <li class="PuceNiv1" style="margin-top: 12pt;" MadCap:conditions="Default.ScreenOnly"><b>la réorganisation de l'affichage des lignes</b> du tableau, <a href="../../../E_Sxt/3_Payment/Content/ANNEXE - GUI - Tableau reorg.htm" target="_popup" class="Popup">cliquez ici</a>,</li>
+            <li MadCap:conditions="Default.ScreenOnly" class="PuceNiv1"><b>la recherche de texte</b> dans le tableau, <a href="../../../E_Sxt/3_Payment/ContextualTopics/Rechercher texte dans tableau page.htm" target="_popup" class="Popup">cliquez ici</a>,</li>
+            <li MadCap:conditions="" class="PuceNiv1"><b>la création d'une transaction</b>, consultez la<MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"> rubrique</MadCap:conditionalText> ci-après,</li>
+            <li MadCap:conditions="Default.ScreenOnly" class="PuceNiv1"><b>la modification d'une transaction</b>, <a href="../../../E_Sxt/3_Payment/ContextualTopics/Modifier element dans tableau page.htm" target="_popup" class="Popup">cliquez ici</a>,</li>
+            <li MadCap:conditions="Default.ScreenOnly" class="PuceNiv1"><b>la suppression d'une transaction</b>, <a href="../../../E_Sxt/3_Payment/ContextualTopics/Supprimer element dans tableau page.htm" target="_popup" class="Popup">cliquez ici,</a></li>
+            <li MadCap:conditions="Default.ScreenOnly" class="PuceNiv1"><b>la duplication d'une transaction</b>, <a href="../../../E_Sxt/3_Payment/ContextualTopics/Dupliquer element dans tableau page.htm" target="_popup" class="Popup">cliquez ici,</a></li>
+            <li MadCap:conditions="" class="PuceNiv1"><b>la validation </b><i style="font-weight: bold;">back office</i> des transactions, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Sxt/3_Payment/TRAITFINAN - Constitution des remises.htm" target="" title="" alt="" class="XrefSansTexte">Traitement back office</MadCap:xref>,</MadCap:conditionalText></li>
+            <li MadCap:conditions="" class="PuceNiv1"><b>l'édition des documents liés</b> aux transactions, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Sxt/3_Payment/TRAITFINAN - Suivi des virements.htm" target="" title="" alt="" class="XrefSansTexte">Documents liés aux transactions</MadCap:xref>,</MadCap:conditionalText></li>
+            <li MadCap:conditions="" class="PuceNiv1"><b>l'affichage des flux de trésorerie</b> associés à une transaction dans le journal de trésorerie, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Sxt/3_Payment/TRAITFINAN - Journal de treso.htm" target="" title="" alt="" class="XrefSansTexte">Journal de trésorerie</MadCap:xref>.</MadCap:conditionalText></li>
+        </ul>
+    </body>
+</html>

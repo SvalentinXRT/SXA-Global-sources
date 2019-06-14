@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileClass="home-page"
+  FileTitle="Videos"
+  FileSearchable="true"
+  MasterPage="file:///C:/__OHC MADCAP/Sage XRT Advanced/EN/Global/Content/Resources/MasterPages/HomePage.flmsp"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/MasterPages/HomePage.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/StylesForHomePage.css" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Sage/blue_videos.svg" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/C_Videos/SXA.Platform.PrésentationPlateforme2.3.htm" />
+    <Link
+      Url="Content/Resources/Images/VideoThumbnails/thumb_SXA.Platform.PrésentationPlateforme2.3.png" />
+    <Link
+      Url="Content/C_Videos/SXA.BankDelegations.Interface.htm" />
+    <Link
+      Url="Content/Resources/Images/VideoThumbnails/thumb_SXA.BankDelegations.Interface.png" />
+    <Link
+      Url="Content/C_Videos/SXA.BankDelegations.Dashboards.htm" />
+    <Link
+      Url="Content/Resources/Images/VideoThumbnails/thumb_SXA.BankDelegations.Dashboards.png" />
+    <Link
+      Url="Content/C_Videos/SXA.BankDelegations.CreerDelegation.htm" />
+    <Link
+      Url="Content/Resources/Images/VideoThumbnails/thumb_SXA.BankDelegations.CreerDelegations.png" />
+    <Link
+      Url="Content/C_Videos/SXA.BankDelegations.CreerModeleDelegation.htm" />
+    <Link
+      Url="Content/Resources/Images/VideoThumbnails/thumb_SXA.BankDelegations.CreerModeleDelegation.png" />
+    <Link
+      Url="Content/C_Videos/SXA.BankDelegations.Filtres.htm" />
+    <Link
+      Url="Content/Resources/Images/VideoThumbnails/thumb_SXA.BankDelegations.Filtres.png" />
+    <Link
+      Url="Content/C_Videos/SXA.BankDelegations.ReglesGeneration.htm" />
+    <Link
+      Url="Content/Resources/Images/VideoThumbnails/thumb_SXA.BankDelegations.ReglesGeneration.png" />
+    <Link
+      Url="Content/C_Videos/SXT.Netting.ConventionCompensation.htm" />
+    <Link
+      Url="Content/Resources/Images/VideoThumbnails/thumb_SXT.Netting.ConventionCompensation.png" />
+    <Link
+      Url="Content/C_Videos/SXT.Netting.CoursCompensation.htm" />
+    <Link
+      Url="Content/Resources/Images/VideoThumbnails/thumb_SXT.Netting.CoursCompensation.png" />
+    <Link
+      Url="Content/C_Videos/SXT.Netting.CyclesCompensation.htm" />
+    <Link
+      Url="Content/Resources/Images/VideoThumbnails/thumb_SXT.Netting.CyclesCompensation.png" />
+    <Link
+      Url="Content/C_Videos/SXT.Netting.PosterFlux.htm" />
+    <Link
+      Url="Content/Resources/Images/VideoThumbnails/thumb_SXT.Netting.PosterFlux.png" />
+    <Link
+      Url="Content/C_Videos/SXT.Netting.SaisieFacture.htm" />
+    <Link
+      Url="Content/Resources/Images/VideoThumbnails/thumb_SXT.Netting.SaisieFacture.png" />
+    <Link
+      Url="Content/C_Videos/SXT.Netting.StructureCycle.htm" />
+    <Link
+      Url="Content/Resources/Images/VideoThumbnails/thumb_SXT.Netting.StructureCycle.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/MasterPages/HomePage.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/StylesForHomePage.css" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Sage/blue_videos.svg" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/C_Videos/SXA.Platform.PrésentationPlateforme2.3.htm" />
+    <Link
+      Url="Content/Resources/Images/VideoThumbnails/thumb_SXA.Platform.PrésentationPlateforme2.3.png" />
+    <Link
+      Url="Content/C_Videos/SXA.BankDelegations.Interface.htm" />
+    <Link
+      Url="Content/Resources/Images/VideoThumbnails/thumb_SXA.BankDelegations.Interface.png" />
+    <Link
+      Url="Content/C_Videos/SXA.BankDelegations.Dashboards.htm" />
+    <Link
+      Url="Content/Resources/Images/VideoThumbnails/thumb_SXA.BankDelegations.Dashboards.png" />
+    <Link
+      Url="Content/C_Videos/SXA.BankDelegations.CreerDelegation.htm" />
+    <Link
+      Url="Content/Resources/Images/VideoThumbnails/thumb_SXA.BankDelegations.CreerDelegations.png" />
+    <Link
+      Url="Content/C_Videos/SXA.BankDelegations.CreerModeleDelegation.htm" />
+    <Link
+      Url="Content/Resources/Images/VideoThumbnails/thumb_SXA.BankDelegations.CreerModeleDelegation.png" />
+    <Link
+      Url="Content/C_Videos/SXA.BankDelegations.Filtres.htm" />
+    <Link
+      Url="Content/Resources/Images/VideoThumbnails/thumb_SXA.BankDelegations.Filtres.png" />
+    <Link
+      Url="Content/C_Videos/SXA.BankDelegations.ReglesGeneration.htm" />
+    <Link
+      Url="Content/Resources/Images/VideoThumbnails/thumb_SXA.BankDelegations.ReglesGeneration.png" />
+    <Link
+      Url="Content/C_Videos/SXT.Netting.ConventionCompensation.htm" />
+    <Link
+      Url="Content/Resources/Images/VideoThumbnails/thumb_SXT.Netting.ConventionCompensation.png" />
+    <Link
+      Url="Content/C_Videos/SXT.Netting.CoursCompensation.htm" />
+    <Link
+      Url="Content/Resources/Images/VideoThumbnails/thumb_SXT.Netting.CoursCompensation.png" />
+    <Link
+      Url="Content/C_Videos/SXT.Netting.CyclesCompensation.htm" />
+    <Link
+      Url="Content/Resources/Images/VideoThumbnails/thumb_SXT.Netting.CyclesCompensation.png" />
+    <Link
+      Url="Content/C_Videos/SXT.Netting.PosterFlux.htm" />
+    <Link
+      Url="Content/Resources/Images/VideoThumbnails/thumb_SXT.Netting.PosterFlux.png" />
+    <Link
+      Url="Content/C_Videos/SXT.Netting.SaisieFacture.htm" />
+    <Link
+      Url="Content/Resources/Images/VideoThumbnails/thumb_SXT.Netting.SaisieFacture.png" />
+    <Link
+      Url="Content/C_Videos/SXT.Netting.StructureCycle.htm" />
+    <Link
+      Url="Content/Resources/Images/VideoThumbnails/thumb_SXT.Netting.StructureCycle.png" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="Videos" />
+  </Anchors>
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXA_Platform" />
+    <Variable
+      Name="Localization.SXA_BankDelegations" />
+    <Variable
+      Name="Localization.SXT_Netting" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/StylesForHomePage.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="812" MadCap:lastWidth="513">
+    <head>&#160;</head>
+    <body>
+        <p>Cliquez sur le bouton&#160;<img src="../../Images/L_Payment/Bouton fleche bas.jpg"></img>.&#160;</p>
+        <p>La fenêtre contextuelle de calcul s'affiche.</p>
+        <p MadCap:targetName="Capture popup calculatrice">
+            <img src="../../Images/L_Payment/Calculatrice.jpg" class="SAGE_screenshot">
+            </img>
+        </p>
+        <p class="SautLigneAvantEtAprès">Les boutons de fonction sont décrits ci-après.</p>
+        <table class="indent_p" cellspacing="0">
+            <col>
+            </col>
+            <col>
+            </col>
+            <thead>
+                <tr>
+                    <th class="TableStyle_Tableau_standard_Head_0_0_RowSep_ColSep">Bouton</th>
+                    <th class="TableStyle_Tableau_standard_Head_0_1_RowSep_ColEnd">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep">Retour</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Annulation du dernier chiffre du nombre affiché</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep">CE</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Effacement du nombre affiché</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep">C</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Abandon du calcul en cours</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep">MC</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Réinitialisation de la mémoire</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep">MR</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Appel du nombre mis en mémoire</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep">MS</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Mise en mémoire du nombre affiché avec effacement du nombre actuellement en mémoire</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep">M+</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Mise en mémoire du nombre affiché additionné au nombre actuellement en mémoire</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep">+/-</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Changement du signe du nombre affiché (positif ou négatif)</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep">,</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Insertion d'un séparateur décimal pour un nombre non entier</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep">/</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Division</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep">*</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Multiplication</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep">-</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Soustraction</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep">+</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Addition</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep">sqrt</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Racine carrée</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep">%</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">
+                        <p class="tableau">Affichage du résultat d'une multiplication sous forme de pourcentage</p>
+                        <p class="tableau">Ou</p>
+                        <p class="tableau">Intégration d'un pourcentage dans une opération </p>
+                        <p class="tableau">Ex.&#160;: 200 + 50% [de 200] = 300</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep">1/x</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Calcul de l'inverse du nombre affiché</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowSep_ColSep">=</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowSep_ColEnd">Calcul de la formule et affichage du résultat final<br></br>Répétition de la dernière opération si la fonction est utilisée deux fois de suite</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Tableau_standard_Body_0_0_RowEnd_ColSep">X</td>
+                    <td class="TableStyle_Tableau_standard_Body_0_1_RowEnd_ColEnd">Fermeture de la fenêtre (bouton en bas à gauche de la calculatrice)</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Précisions fonctionnelles"
+    Link="/Content/Topics/ANNEXE - Precisions fonctionnelles.htm"
+    StartSection="true"
+    MasterPage="/Content/Resources/MasterPages/Print - Annexe.flmsp"
+    PageNumber="1"
+    StartChapter="false"
+    SectionNumberReset="reset"
+    SectionNumberFormat="upper-alpha"
+    SectionNumber="A"
+    VolumeNumberReset="same"
+    ChapterNumberReset="same"
+    Class="SAGE"
+    ReplaceMergeNode="false"></TocEntry>
+  <TocEntry
+    Title="Natures de transactions de change"
+    Link="/Content/Topics/ANNEXE - Natures de transaction.htm"
+    SectionNumberReset="same"
+    VolumeNumberReset="same"
+    ChapterNumberReset="same"
+    Class="SAGE"></TocEntry>
+  <TocEntry
+    Title="Verrouillage Back Office"
+    Link="/Content/Topics/ANNEXE - Verrouillage Back Office.htm"
+    StartSection="true"
+    MasterPage="/Content/Resources/MasterPages/Print - Annexe.flmsp"
+    PageNumber="1"
+    SectionNumberReset="same"
+    VolumeNumberReset="same"
+    ChapterNumberReset="same"
+    PageNumberReset="reset"
+    Class="SAGE"></TocEntry>
+  <TocEntry
+    Title="Gestion opérations commerciales"
+    Link="/Content/Topics/ANNEXE - Gestion des op comm.htm"
+    StartSection="true"
+    MasterPage="/Content/Resources/MasterPages/Print - Annexe.flmsp"
+    PageNumber="1"
+    PageNumberReset="reset"
+    SectionNumberReset="same"
+    VolumeNumberReset="same"
+    ChapterNumberReset="same"
+    Class="SAGE">
+    <TocEntry
+      Title="Décrémentation FIFO"
+      Link="/Content/Topics/ANNEXE - Decrementation FIFO.htm"
+      Class="SAGE" />
+    <TocEntry
+      Title="Rapprochement détaillé"
+      Link="/Content/Topics/ANNEXE - Rapprochement detaille.htm"
+      Class="SAGE" />
+  </TocEntry>
+</CatapultToc>

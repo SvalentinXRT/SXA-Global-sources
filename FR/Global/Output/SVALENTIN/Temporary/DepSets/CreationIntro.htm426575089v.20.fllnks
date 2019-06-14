@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/HT_BankDelegations/Scope Pouvoirs Bancaires V1.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/B_HelpTopics/1_BankDelegations/Parametrage.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/HT_BankDelegations/Scope Pouvoirs Bancaires V1.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/B_HelpTopics/1_BankDelegations/Parametrage.htm" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXA_BankDelegations" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Note.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:lastBlockDepth="6" MadCap:lastHeight="1205" MadCap:lastWidth="609">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT">
+            <MadCap:keyword term="FIFO, méthode de décrémentation;Décrémentation méthode FIFO" />Décrémentation selon la méthode FIFO</h1>
+        <p>En mode décrémentation et en mode décrémentation budgétaire, les prévisions commerciales sont gérées globalement et non écriture par écriture. Les paiements du module <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> décrémentent les prévisions enregistrées dans le module <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" />, sans qu’il y ait une correspondance exacte entre chacune des prévisions et des réalisations. Ainsi, la position mensuelle est diminuée graduellement jusqu’à être soldée complètement.</p>
+        <p class="SautLigneAvantEtAprès">En mode décrémentation, le module <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> procède à une décrémentation des soldes par société, type de flux, devise de transaction et date. Il n’y a pas de report ou de déport des réalisations. Le mode décrémentation budgétaire y ajoute un quatrième critère&#160;: le code budgétaire.
+</p>
+        <ul>
+            <li class="PuceNiv1"><b>Premier cas</b>
+            </li>
+        </ul>
+        <p>Lorsque le montant des paiements dans le module <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> dépasse le montant mensuel des prévisions dans le module <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" />, le solde (montant restant) passe automatiquement à zéro.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Exemple</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="IndentPuceNiv1">Prévision de décaissement du mois M&#160;: 250</p>
+                <p class="IndentPuceNiv1">Montant des paiements du mois M&#160;: 280</p>
+                <p class="IndentPuceNiv1">Position de prévision de décaissement&#160;: 0</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p class="SautLigneAvantEtAprès">Lorsque le montant mensuel des prévisions dépasse le montant des paiements dans le module <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" />,
+le solde (montant restant) dans le module <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> doit être annulé (il passe à zéro). Lorsqu'un nouveau paiement arrive dans le module <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" />, le montant en position est automatiquement mis à jour (il passe à zéro), la transaction prévisionnelle est dénouée et disparaît de la fiche en valeur.</p>
+        <ul>
+            <li class="PuceNiv1"><b>Deuxième cas</b>
+            </li>
+        </ul>
+        <p>Lorsque le montant des paiements dans le module <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> est inférieur au montant mensuel des prévisions dans le module <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" />, le solde (montant restant) est automatiquement décrémenté.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Exemple</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="IndentPuceNiv1">Prévision de recette du mois M&#160;: 100</p>
+                <p class="IndentPuceNiv1">Montant des paiements du mois M&#160;: 20</p>
+                <p class="IndentPuceNiv1">Position de prévision de recette&#160;: 80</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <ul>
+            <li class="PuceNiv1"><b>Troisième cas</b>
+            </li>
+        </ul>
+        <p>Dans le cas où le paiement dans le module <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> représente plusieurs prévisions mensuelles, la décrémentation suit le principe FIFO. La décrémentation part des montants saisis aux plus anciennes dates.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Exemple</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="IndentPuceNiv1">Prévision de recette du mois M&#160;: 70</p>
+                <p class="IndentPuceNiv1">Composée de 3 prévisions&#160;:</p>
+                <ul>
+                    <li class="PuceNiv2">30, le 12 du mois M</li>
+                    <li class="PuceNiv2">10, le 17 du mois M</li>
+                    <li class="PuceNiv2">30, le 25 du mois M</li>
+                </ul>
+                <p class="IndentPuceNiv1">Paiements reçus&#160;:</p>
+                <ul>
+                    <li class="PuceNiv2">31, le 25 du mois M</li>
+                    <li class="PuceNiv2">10, le 17 du mois M</li>
+                </ul>
+                <p class="IndentPuceNiv1">Nouvelle position de prévisions&#160;: 29</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p class="SautLigne">En mode FIFO, le premier montant 31 décrémente la prévision 30 au 12 du mois M puis décrémente 1 de la prévision 10 du 17 du mois M.</p>
+        <p>Le deuxième montant de 10 décrémente les 9 restant et 1 sur la prévision 30 du 25 du mois M.</p>
+    </body>
+</html>

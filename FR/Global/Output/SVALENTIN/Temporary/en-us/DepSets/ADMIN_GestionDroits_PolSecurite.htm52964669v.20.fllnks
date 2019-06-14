@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/HT_Platform/ADMIN_GestionDroits_PolSecurite01.png" />
+    <Link
+      Url="Content/Resources/Images/HT_Platform/ADMIN_GestionDroits_PolSecurite02.png" />
+    <Link
+      Url="Content/Resources/Images/HT_Platform/ADMIN_GestionDroits_PolSecurite03.png" />
+    <Link
+      Url="Content/Resources/Images/HT_Platform/ADMIN_GestionDroits_PolSecurite04.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/HT_Platform/ADMIN_GestionDroits_PolSecurite01.png" />
+    <Link
+      Url="Content/Resources/Images/HT_Platform/ADMIN_GestionDroits_PolSecurite02.png" />
+    <Link
+      Url="Content/Resources/Images/HT_Platform/ADMIN_GestionDroits_PolSecurite03.png" />
+    <Link
+      Url="Content/Resources/Images/HT_Platform/ADMIN_GestionDroits_PolSecurite04.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXA_Administration" />
+    <Variable
+      Name="Localization.SXA" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

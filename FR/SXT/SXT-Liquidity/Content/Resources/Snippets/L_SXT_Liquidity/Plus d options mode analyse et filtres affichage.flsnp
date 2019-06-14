@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="161" MadCap:lastWidth="865">
+    <head>&#160;</head>
+    <body>
+        <p class="SautLigne">Pour plus d'informations sur&#160;:</p>
+        <ul style="list-style-type: square;">
+            <li class="PuceNiv1">les options de configuration du mode analyse (présentation du budget et de l'écart avec les flux du module <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" />), consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Sxt/2_Liquidity/SAISIE - Saisie des feuilles budgetaires.htm#Analyse" target="" title="" alt="" class="XrefSansTexte">Activer le mode analyse</MadCap:xref>,</MadCap:conditionalText></li>
+            <li class="PuceNiv1">les options des filtres d'affichage (entités, découpage périodique, etc.), consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Sxt/2_Liquidity/SAISIE - Filtres affichage.htm#Configur2" target="" title="" alt="" class="XrefSansTexte">Filtre avancé</MadCap:xref>.</MadCap:conditionalText></li>
+        </ul>
+    </body>
+</html>

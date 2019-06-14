@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileClass=""
+  FileTitle=""
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Ordre de paiement.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Ordre de paiement.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="Payment order"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="5" />
+    <IndexCacheEntry
+      Term="Documents:payment order"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="5" />
+    <IndexCacheEntry
+      Term="FX transaction:payment order"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="5" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions>
+    <Condition
+      Tag="Default.3Revised" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.3Revised" />
+  </AllConditions>
+  <Stylesheets />
+</CatapultFileLinkSet>

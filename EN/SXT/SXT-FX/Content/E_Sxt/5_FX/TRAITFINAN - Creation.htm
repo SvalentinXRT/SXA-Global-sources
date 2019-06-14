@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:lastBlockDepth="7" MadCap:lastHeight="788" MadCap:lastWidth="596">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT">Creation and Modification</h1>
+        <p>The following <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">topics</MadCap:conditionalText> detail the creation and modification procedures for FX Transactions, as well as the setup of the filtering criteria in the relevant pages of the application.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Spot and Forward Exchange Transactions</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>For each spot and forward buy/sell transaction, two flows are generated in the Treasury.</p>
+                <p style="margin-top: 6pt;font-style: normal;"><i>Example:</i> A company buys USD 10.000 for which it will have to pay the counterparty in euros, its local currency. Settlement accounts are entered.</p>
+                <p style="margin-top: 6pt;">Two cash flows are assigned to this transaction type:</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv1">a receipt flow in the main currency (dollars purchase),</li>
+                    <li class="PuceNiv1">a disbursement flow in the countervalue currency (sale of euros in exchange for dollars).</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Swap</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Swaps are combinations of two transactions with opposite directions: a spot or forward exchange transaction (first leg) with a forward exchange transaction (second leg). For each currency swap, four flows are generated in the Treasury.</p>
+                <p class="SautLigne" style="font-style: italic;">First leg (buy)</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv1">A receipt flow in the main currency (dollars purchase)</li>
+                    <li class="PuceNiv1">A disbursement flow in the countervalue currency (sale of euros in exchange for dollars)</li>
+                </ul>
+                <p class="SautLigne" style="font-style: italic;">Second leg (sell)</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv1">A disbursement flow in the main currency (dollars purchase)</li>
+                    <li class="PuceNiv1">A receipt flow in the countervalue currency (sale of euros in exchange for dollars)</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">The deletion of an FX transaction involves the automatic deletion of the associated cash flows.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>FX Transactions can have two statuses: open and closed (when they are settled).</p>
+        <p>When creating transactions, remember that in <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" />, a purchase of currency corresponds to a receipt in the transaction main currency (foreign currency) and to a disbursement in the countervalue currency (local currency).</p>
+    </body>
+</html>

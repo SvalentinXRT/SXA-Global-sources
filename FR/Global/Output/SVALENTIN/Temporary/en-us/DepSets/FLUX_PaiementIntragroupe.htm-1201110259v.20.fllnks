@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/code_transaction_PI_1.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/code_transaction_PI_2.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/banques_intragroupe_synthèse.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/agences_intragroupes_synthèse.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/comptes_intragroupes_synthèse.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/organigramme_détail_1.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/organigramme_détail_2.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/organigramme_synthèse.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/code_transaction_PI_1.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/code_transaction_PI_2.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/banques_intragroupe_synthèse.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/agences_intragroupes_synthèse.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/comptes_intragroupes_synthèse.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/organigramme_détail_1.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/organigramme_détail_2.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/organigramme_synthèse.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Note.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

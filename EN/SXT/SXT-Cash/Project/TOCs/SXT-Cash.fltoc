@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/E_Sxt/1_Cash/DASHB_Presentation.htm">
+    <TocEntry
+      Title="Flows"
+      Link="/Content/E_Sxt/1_Cash/FLUX_GestionMouvements.htm">
+      <TocEntry
+        Title="Transactions Management"
+        Link="/Content/E_Sxt/1_Cash/FLUX_GestionMouvements.htm">
+        <TocEntry
+          Title="Direct Entry of Forecasts"
+          Link="/Content/E_Sxt/1_Cash/FLUX_GestionMouvements_SaisieDirecte.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Intercompany Relationships"
+        Link="/Content/E_Sxt/1_Cash/FLUX_Intragroupe.htm" />
+      <TocEntry
+        Title="Intercompany Payments"
+        Link="/Content/E_Sxt/1_Cash/FLUX_PaiementIntragroupe.htm" />
+      <TocEntry
+        Title="Interest Rate Swaps"
+        Link="/Content/E_Sxt/1_Cash/FLUX_SwapsIntro.htm">
+        <TocEntry
+          Title="Principles"
+          Link="/Content/E_Sxt/1_Cash/FLUX_SwapsPrincipes.htm" />
+        <TocEntry
+          Title="Setup"
+          Link="/Content/E_Sxt/1_Cash/FLUX_SwapsParametrage.htm" />
+        <TocEntry
+          Title="Transaction Input"
+          Link="/Content/E_Sxt/1_Cash/FLUX_SwapsSaisieOperations.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Balancing"
+      Link="/Content/E_Sxt/1_Cash/EQUIL_PrincipesEquilibrage.htm">
+      <TocEntry
+        Title="Balancing Principles"
+        Link="/Content/E_Sxt/1_Cash/EQUIL_PrincipesEquilibrage.htm" />
+      <TocEntry
+        Title="ZBA"
+        Link="/Content/E_Sxt/1_Cash/EQUIL_Zba.htm" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="10238" MadCap:lastWidth="714">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT"><MadCap:keyword term="Reports:filters;Filters:reports" />Report Filters</h1>
+        <p>The Display Filters for the reports enable you to define the display settings of your budget forecasts.</p>
+        <ul style="list-style-type: square;">
+            <li class="PuceNiv1">The display filters for the <b>Budget Entries Ledger</b> enable you to define the companies, the transaction settings (dates, statuses, budget versions, entered or calculated amounts) and the budget types to include or exclude.</li>
+            <li class="PuceNiv1">The display filters for the <b>Budget Sheet</b> report enable you to define in addition to the layout (precision levels, periodic divisions, amounts, data from the Operational Budget or from the Treasury Budget, discrepancy, etc.), selection criteria on the companies, exercise periods, budget exercises and their versions, etc.</li>
+            <li class="PuceNiv1"><span>The display filters for the </span><b>Compare Exercises</b><span> report enable you to select the budget exercises and codes to be compared, the design associated with the report (it specifies the budget codes and the associated rules), as well as various display settings.</span></li>
+        </ul>
+        <p class="SautLigne">At least one report filter must be set up for each report type, i.e.:</p>
+        <ul style="list-style-type: square;">
+            <li class="PuceNiv1">one report filter for <b>Budget Entries Ledger</b></li>
+            <li class="PuceNiv1">one report filter for <b>Budget Sheet</b></li>
+            <li class="PuceNiv1"><span>one report filter for <b>Compare Exercises</b></span></li>
+        </ul>
+        <p class="SautLigneAvantEtAprès">For more information on the application, modification and deletion of filters, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref target="" title="" alt="" href="ANNEXE - GUI - Filtres.htm" class="XrefSansTexte">Filters</MadCap:xref> topic.</MadCap:conditionalText></p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead><MadCap:keyword term="Budget Entries Ledger:filters;Filters:reports:Budget Entries Ledger" /><MadCap:dropDownHotspot>Creating Filters for Budget Entries Ledger</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">In the <b>Filters</b> toolbar of the report page, click the <b>Actions</b> button, then select the <b>Add</b> option.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The creation page for report filters is displayed.</p>
+                <p MadCap:targetName="Capture creer filtre 1a" class="IndentPuceNiv1"><img src="../../Resources/Images/L_Liquidity/Creer filtre edition 1.jpg" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This page enables the definition of unique identification information for the filter.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Enter a code and a description for the filter in the <b>Code</b> and <b>Description</b> fields.</li>
+                    <li class="PuceNumNiv1">Enable the <b>Template Default Filter</b> option, if you want this filter to be applied by default when accessing this report.</li>
+                    <li class="PuceNumNiv1">If you want this filter to be exclusively accessed by yourself, select the <b>Private</b> option.</li>
+                    <li class="PuceNumNiv1">You may add comments in the <b>Text</b> field (optional).</li>
+                    <li class="PuceNumNiv1">Click the <b>Configure</b> button to set up the filter settings.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The configuration page for filter settings is displayed.</p>
+                <p class="IndentPuceNiv1" MadCap:targetName="Capture creer filtre 2a"><img src="../../Resources/Images/L_Liquidity/Creer filtre edition 2a.jpg" class="SAGE_screenshot" /></p>
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_Liquidity/Bouton Copier filtre.flsnp" />
+                <p class="IndentPuceNiv1SautLigne">The <b>Companies</b> tab enables the definition of the companies for which the transactions have to be included in the report.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Select by</b> area, select one of these options:</li>
+                </ol>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2"><b>All</b> to display the transactions of all companies</li>
+                </ul>
+                <p class="IndentPuceNiv2">All the set up budget exercises will be displayed in the report.</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2"><b>Companies</b> to filter the companies</li>
+                </ul>
+                <p class="IndentPuceNiv2">The <b>Select</b> button is enabled in the <b>Companies</b> area. Click this button to display the list of the set up companies. In the contextual window, enable the options corresponding to the companies that you want to select. Click the button <img src="../../Resources/Images/L_Liquidity/Bouton coche bleue.JPG" /> to validate your selection.</p>
+                <p class="IndentPuceNiv2">The selected companies are displayed in the <b>Companies</b> area.</p>
+                <ol start="8">
+                    <li class="PuceNumNiv1">Go to the <b>Currencies</b> tab.</li>
+                </ol>
+                <p class="IndentPuceNiv1">This tab enables you to select the currencies to include. For example, if you are dealing with a budget in both euros and dollars, you can choose to view exercises in euros only.</p>
+                <p class="IndentPuceNiv1" MadCap:targetName="2ab"><img src="../../Resources/Images/L_Liquidity/Creer filtre edition 2ab.jpg" class="SAGE_screenshot"></img></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Select by</b> area, select your option:</li>
+                </ol>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2" style="font-weight: normal;"><b>All</b> to cancel filtering at this level</li>
+                </ul>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2"><b>Multiple</b> to enable filtering at this level</li>
+                </ul>
+                <p class="IndentPuceNiv2">If you selected <b>Multiple</b>, the <b>Currencies</b> area is activated. In this area, click <b>Select</b> to display the set currencies, and in the new contextual window, select the options corresponding to the currencies to be included. Click the button <img src="../../Resources/Images/L_Liquidity/Bouton coche bleue.JPG" /> to validate your selection.</p>
+                <p class="IndentPuceNiv2">The selected currencies are displayed in the <b>Currencies</b> area.</p>
+                <ol start="10">
+                    <li class="PuceNumNiv1">Click the <b>Transactions</b> tab.</li>
+                </ol>
+                <p MadCap:targetName="Capture creer filtre 3a" class="IndentPuceNiv1"><img src="../../Resources/Images/L_Liquidity/Creer filtre edition 3a.jpg" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This tab enables you to define the selection criteria for the transactions to include in the report. You can expand or restrict the selection according to the exercise version, a period of time, the transaction status or origin.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Exercise status</b> area, select the exercise versions for which you want to display the transactions: initial version, revisions, final version.</li>
+                    <li class="PuceNumNiv1">In the <b>Dates</b> area, specify the start and end dates of the period for the transactions to include into the report, by direct input or using the calendar. <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><a href="ContextualTopics/Calendrier.htm" target="_popup" class="Popup">Click here</a> for more information on how to use the calendar.</MadCap:conditionalText></li>
+                </ol>
+                <ol start="11" MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Transaction status</b> area, specify the status of the transactions to include in the report. Enable the option:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>All</b> to include the enabled transactions as well as the disabled ones in the report</li>
+                    <li class="PuceNiv2"><b>Enable</b> to include only the enabled transactions in the report</li>
+                    <li class="PuceNiv2"><b>Disable</b> to include only the disabled transactions in the report</li>
+                </ul>
+                <ol start="14">
+                    <li class="PuceNumNiv1">In the <b>Origin</b> area, specify the origin of the transactions to include. Enable the option:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>All</b> to include the entered amounts as well as the calculated ones in the report</li>
+                    <li class="PuceNiv2"><b>Set up</b> to include only the calculated amounts in the report</li>
+                    <li class="PuceNiv2"><b>Budget Sheet</b> to include only the entered amounts in the report</li>
+                </ul>
+                <ol start="15">
+                    <li class="PuceNumNiv1">In the <b>Categories</b> area, select your option:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>OBS</b> to include OBS transactions</li>
+                    <li class="PuceNiv2"><b>TBS</b> to include TBS transactions</li>
+                </ul>
+                <ol start="16">
+                    <li class="PuceNumNiv1">Click the <b>Budget Codes</b> tab.</li>
+                </ol>
+                <p MadCap:targetName="Capture creer filtre 4a" class="IndentPuceNiv1"><img src="../../Resources/Images/L_Liquidity/Creer filtre edition 4a.jpg" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This tab enables you to expand or restrict the selection of the transactions to include in the report according to their budget codes.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Budget Types</b> area, enable the options according to the budget types for which you want to display the transactions in the report.</li>
+                    <li class="PuceNumNiv1">In the <b>Budget Codes</b> area, click the <b>Select</b> button.</li>
+                </ol>
+                <p class="IndentPuceNiv1">A contextual window displays the list of the budget codes corresponding to the selected categories.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Enable the options according to the budget codes that you want to include in the report, then click the button <img src="../../Resources/Images/L_Liquidity/Bouton coche bleue.JPG" /> to validate your selection.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The codes and descriptions of the selected budget codes are displayed in the <b>Budget Codes</b> area.</p>
+                <ol start="13" MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click the <b>Format</b> tab.</li>
+                </ol>
+                <p MadCap:targetName="Capture creer filtre 5a" class="IndentPuceNiv1"><img src="../../Resources/Images/L_Liquidity/Creer filtre edition 5a.jpg" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This tab enables you to predefine the output formats for the automatic launch of the report.</p>
+                <p class="IndentPuceNiv1SautLigne">This page enables you to save the report in a specific format (such as e-mails) from time to time, but here you can also set up automatic actions launched when you access this report.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Complete the fields described in the table below.</li>
+                </ol>
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_Liquidity/Options Format Filtre edition.flsnp" />
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click the following buttons, as needed:</li>
+                </ol>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2"><b>OK</b> to save the setup and display again the report Budget Entries Ledger</li>
+                    <li class="PuceNiv2"><b>Cancel</b> to display again the Budget Entries Ledger report without saving the setup</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead><MadCap:keyword term="Filters:reports:budget sheet;Budget sheet:report:filter;Reports:budget sheet:filter" /><MadCap:dropDownHotspot>Creating Filters for the Report Budget Sheet</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">In the <b>Filters</b> toolbar of the report page, click the <b>Actions</b> button, then select the <b>Add</b> option.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The creation page for report filters is displayed.</p>
+                <p MadCap:targetName="Capture creer filtre 1" class="IndentPuceNiv1"><img src="../../Resources/Images/L_Liquidity/Creer filtre edition FB.jpg" class="SAGE_screenshot"></img></p>
+                <p class="IndentPuceNiv1">This page enables the definition of unique identification information for the filter.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Enter a code and a description for the filter in the <b>Code</b> and <b>Description</b> fields.</li>
+                    <li class="PuceNumNiv1">Enable the <b>Template Default Filter</b> option, if you want this filter to be applied by default when accessing this report.</li>
+                    <li class="PuceNumNiv1">If you want this filter to be exclusively accessed by yourself, select the <b>Private</b> option.</li>
+                    <li class="PuceNumNiv1">You may add comments in the <b>Text</b> field (optional).</li>
+                    <li class="PuceNumNiv1">Click the <b>Configure</b> button to set up the filter settings.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The configuration page for filter settings is displayed.</p>
+                <p class="IndentPuceNiv1" MadCap:targetName="Capture creer filtre 2"><img src="../../Resources/Images/L_Liquidity/Creer filtre edition 2b.jpg" class="SAGE_screenshot"></img></p>
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_Liquidity/Bouton Copier filtre.flsnp" />
+                <p class="IndentPuceNiv1SautLigne">The <b>Companies</b> tab enables the definition of the companies and the company groupings for which the transactions have to be included in the report.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Select by</b> area, select one of these options:</li>
+                </ol>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2"><b>All</b> to display the transactions of all companies</li>
+                </ul>
+                <p class="IndentPuceNiv2">All the set up budget exercises will be displayed in the report.</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2"><b>Companies</b> to filter the companies</li>
+                </ul>
+                <p class="IndentPuceNiv2">The <b>Select</b> button is enabled in the <b>Companies</b> area. Click this button to display the list of the set up companies. In the contextual window, enable the options corresponding to the companies that you want to select. Click the button <img src="../../Resources/Images/L_Liquidity/Bouton coche bleue.JPG" /> to validate your selection.</p>
+                <p class="IndentPuceNiv2">The selected companies are displayed in the <b>Companies</b> area.</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2">To filter company groupings, select the <b>Company Groupings</b> option.</li>
+                </ul>
+                <p class="IndentPuceNiv2">The <b>Select</b> button is enabled in the <b>Companies</b> area. Click this button to display the list of the set up company groupings. In the contextual window, enable the options corresponding to the companies groupings that you want to select, then click the button <img src="../../Resources/Images/L_Liquidity/Bouton coche bleue.JPG" /> to validate your selection.</p>
+                <p class="IndentPuceNiv2">The company groupings are displayed in the <b>Companies</b> area.</p>
+                <ol start="8">
+                    <li class="PuceNumNiv1">In the <b>Designer</b> area, click the button <img src="../../Resources/Images/L_Liquidity/Bouton Points de suspension.JPG" /> to display the list of the set up designers. In the contextual window, double-click the line to select it.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The codes and descriptions of the selected designer are displayed in the <b>Designer</b> area.</p>
+                <p class="IndentPuceNiv1">The <b>Consolidation</b> tab is enabled.</p>
+                <ol start="8" MadCap:continue="true">
+                    <li class="PuceNumNiv1">Go to the <b>Currencies</b> tab.</li>
+                </ol>
+                <p class="IndentPuceNiv1SautLigne">This tab enables you to select the currencies to include. For example, if you are dealing with a budget in both euros and dollars, you can choose to view exercises in euros only.</p>
+                <p class="IndentPuceNiv1" MadCap:targetName="2b"><img src="../../Resources/Images/L_Liquidity/Creer filtre edition 2c.jpg" class="SAGE_screenshot"></img></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Select by</b> area, select your option:</li>
+                </ol>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2" style="font-weight: normal;"><b>All</b> to cancel filtering at this level</li>
+                </ul>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2"><b>Multiple</b> to enable filtering at this level</li>
+                </ul>
+                <p class="IndentPuceNiv2">If you selected <b>Multiple</b>, the <b>Currencies</b> area is activated. In this area, click <b>Select</b> to display the set currencies, and in the new contextual window, select the options corresponding to the currencies to be included. Click the button <img src="../../Resources/Images/L_Liquidity/Bouton coche bleue.JPG" /> to validate your selection.</p>
+                <p class="IndentPuceNiv2">The selected currencies are displayed in the <b>Currencies</b> area.</p>
+                <ol start="11">
+                    <li class="PuceNumNiv1">Click the <b>Period</b> tab.</li>
+                </ol>
+                <p MadCap:targetName="Capture creer filtre 3" class="IndentPuceNiv1"><img src="../../Resources/Images/L_Liquidity/Creer filtre edition 3.jpg" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This tab enables you to select the exercise periods to include in the report and to define the division into periods for the layout.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Period STEP</b> area, select the division type for the report.</li>
+                </ol>
+                <p class="IndentPuceNiv1">This option is defined as default for the grouping by month of the amounts in the report.</p>
+                <p class="IndentPuceNiv1">The report will display one column by period, according to the selected division type. For example, it will display one column by month for a monthly division.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Period Codes</b> area, click the <b>Select</b> button to display the set up periods. In the contextual window, enable the options corresponding to the exercise periods that you want to select. Click the button <img src="../../Resources/Images/L_Liquidity/Bouton coche bleue.JPG" /> to validate your selection.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The selected exercise periods are displayed in the <b>Period Codes</b> area.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1"><a name="onglet_affichage"></a>Click the <b>View</b> tab.</li>
+                </ol>
+                <p class="IndentPuceNiv1" MadCap:targetName="Capture creer filtre 4"><img src="../../Resources/Images/L_Liquidity/Creer filtre edition 4.jpg" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This tab enables you:</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2">To expand or restrict the selection of the transactions to include in the report according to the exercise version</li>
+                    <li class="PuceNiv2">To define the display settings of the Treasury Budget transactions, the flows saved in <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> and the discrepancies</li>
+                </ul>
+                <ol start="15">
+                    <li class="PuceNumNiv1">In the <b>Exercise Status</b> area, select the exercise versions to display: the initial version, the intermediary revised versions and the final version (last revision with exercise closure).</li>
+                    <li class="PuceNumNiv1">In the <b>Display version of exercises</b> area, select your option:</li>
+                </ol>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2"><b>All versions</b> to display the editable and non-editable versions (previous versions before the last saved version)</li>
+                    <li class="PuceNiv2"><b>Only editable versions</b> to only display the versions in which you can still enter data</li>
+                </ul>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">The area <b>Display version of exercises</b> is deactivated, if you chose to display the final version (<b>Final</b> option selected in the <b>Exercise status</b> area).</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol start="17">
+                    <li class="PuceNumNiv1">From the dropdown list, select:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>All</b> if you want to display all the exercise versions</li>
+                    <li class="PuceNiv2">Or a specific exercise version if you want to limit the display</li>
+                </ul>
+                <p class="IndentPuceNiv1">If you selected an exercise version from the dropdown list:</p>
+                <ul>
+                    <li class="PuceNiv2">The <b>Dates</b> area facing it, is accessible</li>
+                    <li class="PuceNiv2">The <b>Consolidation</b> tab is not accessible</li>
+                </ul>
+                <p class="IndentPuceNiv1">The <b>Dates</b> area enables you to limit the display period of the exercise version (for example one quarter of the exercise). The start and end dates of the version are the default values.</p>
+                <ol start="18">
+                    <li class="PuceNumNiv1">In the <b>Dates</b> area, when accessible, specify a start and end date, by direct input or using the calendar. <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><a href="ContextualTopics/Calendrier.htm" target="_popup" class="Popup">Click here</a> for more information on how to use the calendar.</MadCap:conditionalText></li>
+                    <li class="PuceNumNiv1">In the <b>BS Views</b> area, select the option:</li>
+                </ol>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2"><b>Budget planning</b> to display the Treasury Budget in forecast mode</li>
+                    <li class="PuceNiv2"><b>Budget Analysis</b> to display the Treasury Budget in analysis mode</li>
+                </ul>
+                <p class="IndentPuceNiv1">Enable the <b>Totals Only</b> option to display only the subtotals, the totals of the category, the opening balance, etc.</p>
+                <ol start="20">
+                    <li class="PuceNumNiv1">If you chose the analysis mode, complete the fields below which are specific to this mode, and are enabled only when it is selected.</li>
+                </ol>
+                <p MadCap:conditions="Default.ScreenOnly" class="IndentPuceNiv1SautLigne">
+                    <MadCap:toggler targets="Tableau champs analyse">View Fields Description</MadCap:toggler>
+                </p>
+                <table class="TableStyle-Tableau_standard" cellspacing="0" MadCap:targetName="Tableau champs analyse" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');">
+                    <col class="TableStyle-Tableau_standard-Column-Column1" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Tableau_standard-Head-Header1">
+                            <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Field</th>
+                            <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" style="font-weight: normal;background-color: #f5f5f5;" colspan="2"><b>Date Type</b> area</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Transaction Date</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Enable this option to launch the analysis from the <u>Flows transaction date</u> saved in the <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> module.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Value Date</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Enable this option to launch the analysis from the <u>Flows value date</u> saved in the <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> module.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" style="font-weight: normal;background-color: #f5f5f5;" colspan="2"><b>Type of analysis</b> area</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Budget + Treasury</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Enable this option to display amounts from the Treasury Budget and the amounts of the flows saved in the <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> module in front of the discrepancy.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Budget</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Enable this option button to display only amounts from the Treasury Budget in front of the discrepancy.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Cash</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Enable this option button to display only the amounts of the flows saved in the <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> module in front of the discrepancy.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Discrepancy</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Enable this option to display the discrepancy only.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" style="font-weight: normal;background-color: #f5f5f5;" colspan="2"><b>Display Flows from Treasury </b> area</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Actual</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Enable this option to include the flows with the &quot;Actual&quot; status in the <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> module.<br />This option is the only one to be enabled by default. This is is the most common configuration.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Forecast</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Enable this option to include the flows with the &quot;Confirmed Forecast&quot; status in the <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> module.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Origin</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Enable this option to include the flows with the &quot;Initial Forecast&quot; status in the <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> module.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" style="font-weight: normal;background-color: #f5f5f5;" colspan="2"><b>Display Discrepancy</b> area</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Not show</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Enable this option <u>not to display the discrepancy between the Treasury Budget and the flows</u> saved in the <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> module.<br />You cannot enable this option if you chose to display the discrepancy only, i.e. that the <b>Discrepancy</b> option is enabled in the <b>Type of analysis</b> area.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Amount</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Enable this option to display the <u>discrepancy amount</u> between the Treasury Budget and the flows saved in the <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> module.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Percentage</td>
+                            <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">Enable this option to display the <u>discrepancy percentage</u> between the Treasury Budget and the flows saved in the <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> module.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="IndentPuceNiv1" MadCap:conditions="" MadCap:targetName="Exemple edition"><img src="../../Resources/Images/L_Liquidity/Creer filtre edition exemple ecart.jpg" class="SAGE_screenshot" /></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click the <b>Format</b> tab.</li>
+                </ol>
+                <p class="IndentPuceNiv1" MadCap:targetName="Capture creer filtre 5"><img src="../../Resources/Images/L_Liquidity/Creer filtre edition 5.jpg" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This tab enables you to specify the format settings for the report: display currency, display unit for amounts, budget type, final format of the generated file.</p>
+                <p class="IndentPuceNiv1">This page enables you to save the report in a specific format (such as e-mails) from time to time, but here you can also set up automatic actions launched when you access this report.</p>
+                <ol start="14" MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Conversion currency</b> area, select the conversion currency of the amounts in the report.</li>
+                </ol>
+                <p class="IndentPuceNiv1">Click the button <img src="../../Resources/Images/L_Liquidity/Bouton Points de suspension.JPG" /> to display the list of the set up currencies. In the contextual window, double-click the line to select it.</p>
+                <p class="IndentPuceNiv1">The codes and descriptions of the selected currency are displayed in the <b>Conversion Currency</b> area.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">The <b>Display BS grids</b> area is enabled if you chose the Budget Planning mode in the <b>View</b> tab. If this area is enabled, select the budget types to display: Operational Budget and/or Treasury Budget.</li>
+                    <li class="PuceNumNiv1">In the <b>Output</b> area, complete the fields described in the table below.</li>
+                </ol>
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_Liquidity/Options Format Filtre edition.flsnp" />
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Row Headers</b> area, select your option:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Budget Descriptions</b> if you want to display the descriptions of budget codes at the beginning of each line</li>
+                    <li class="PuceNiv2"><b>Budget Codes</b> if you want to display the budget codes at the beginning of each line</li>
+                </ul>
+                <p class="IndentPuceNiv1">The <b>Consolidation</b> tab is only accessible if you selected a designer for your budget sheet in the <b>Entities</b> tab and the display of all versions (<b>All</b> option selected from the dropdown list in the <b>Display Versions of Exercise</b> area in the<b>Display</b> tab).</p>
+                <ol start="26">
+                    <li class="PuceNumNiv1"><a name="onglet_consolidation"></a>Click the <b>Consolidation</b> tab if it is accessible.</li>
+                </ol>
+                <p class="IndentPuceNiv1" MadCap:targetName="Capture creer filtre 6"><img src="../../Resources/Images/L_Liquidity/Creer filtre edition 6.jpg" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This tab enables you to set up a report which groups budgets at the level of the companies groupings on several exercises.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Exercises</b> area, click the <b>Select</b> button to display the list of the existing exercises for the selected companies and periods. In the contextual window, enable the options according to the exercises to display in the report, then click the button <img src="../../Resources/Images/L_Liquidity/Bouton coche bleue.JPG" />.</li>
+                </ol>
+                <p class="IndentPuceNiv1SautLigne">The codes of the selected exercises are displayed:</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2">in the <b>Exercises</b> area with the designer code linked to the exercise,</li>
+                    <li class="PuceNiv2">in the <b>Revision</b> area before the name of the last available version (initial, revised, or final versions). You can select an older version than the last one.</li>
+                </ul>
+                <ol start="28">
+                    <li class="PuceNumNiv1">To display the list of the existing versions and select a previous one, click the revision code. In the contextual window, double-click a line to select it.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The selected version is displayed in the <b>Revision</b> column.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Dates</b> area, specify the start and end dates for the display of the selected exercises, by direct input or using the calendar. <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><a href="ContextualTopics/Calendrier.htm" target="_popup" class="Popup">Click here</a> for more information on how to use the calendar.</MadCap:conditionalText></li>
+                </ol>
+                <p class="IndentPuceNiv1SautLigne">You can access the <b>Category</b> tab only if you selected Budget Analysis as the display mode (<b>Budget Analysis</b> option selected from the <b>Display Mode</b> area in the <b>Display</b> tab).</p>
+                <ol start="13" MadCap:continue="true">
+                    <li class="PuceNumNiv1">If you selected Budget Analysis as the display mode, click the <b>Category</b> tab.</li>
+                </ol>
+                <p class="IndentPuceNiv1SautLigne">This tab enables you to select the budget code categories to be displayed in the budget sheet report.</p>
+                <p class="IndentPuceNiv1" MadCap:targetName="Capture onglet Catégorie FFB"><img src="../../Resources/Images/L_Liquidity/Creer filtre edition FB 7.png" class="SAGE_screenshot" /></p>
+                <ol start="9" MadCap:continue="true">
+                    <li class="PuceNumNiv1">Select the check boxes in front of the budget code categories to be displayed in the budget sheet.</li>
+                    <li class="PuceNumNiv1">Click the following buttons, as needed:</li>
+                </ol>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2"><b>Save</b> to save the setup without leaving the current page</li>
+                    <li class="PuceNiv2"><b>OK </b>to save the setup and display again the report Budget Sheet</li>
+                    <li class="PuceNiv2"><b>Cancel</b> to display again the report Budget Sheet without saving the setup</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead><MadCap:keyword term="Exercises Comparison:report:filter;Filters:reports:exercises comparison;Reports:exercises comparison:filter" /><MadCap:dropDownHotspot>Creating Filters for Exercises Comparison Report</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">In the <b>Filters</b> toolbar on the report page for exercises comparison, click the <b>Actions</b> button, then select the <b>Add</b> option.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The creation page for exercises comparison filters is displayed.</p>
+                <p MadCap:targetName="Capture creer filtre 1b" class="IndentPuceNiv1"><img src="../../Resources/Images/L_Liquidity/Creer filtre compar exo 1.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This page enables the definition of unique identification information for the filter.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Enter a code and a description for the filter in the <b>Code</b> and <b>Description</b> fields.</li>
+                    <li class="PuceNumNiv1">Select the <b>Template Default Filter</b> option, if you want this filter to be applied by default when accessing the setup page for exercises comparison.</li>
+                    <li class="PuceNumNiv1">If you want this filter to be only accessible by yourself, select the <b>Private</b> option.</li>
+                    <li class="PuceNumNiv1">You may add comments in the <b>Text</b> field (optional).</li>
+                    <li class="PuceNumNiv1">Click the <b>Configure</b> button to set up the filter settings.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The configuration page for filter settings is displayed.</p>
+                <p class="IndentPuceNiv1" MadCap:targetName="Capture creer filtre 2b"><img src="../../Resources/Images/L_Liquidity/Creer filtre compar exo 2.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1SautLigne">
+                    <MadCap:snippetText src="../../Resources/Snippets/L_SXT_Liquidity/Bouton Copier filtre.flsnp">
+                    </MadCap:snippetText>
+                </p>
+                <p class="IndentPuceNiv1SautLigne">The <b>Entities</b>, <b>Currencies, Period</b> and <b>Entities to compare</b> tabs are the same ones for the exercises comparison sheet.</p>
+                <p class="IndentPuceNiv1">The <b>Display</b> tab is the same one as for  for the exercises comparison sheet except for the <b>Analysis Mode</b> and <b>Discrepancy for double grid</b> areas which are not accessible.</p>
+                <p class="IndentPuceNiv1"><MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><a href="COMP - ComparaisonExercices.htm#creer_filtre">Click here</a></MadCap:conditionalText> for more information on the setup of these tabs.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click the <b>Format</b> tab.</li>
+                </ol>
+                <p class="IndentPuceNiv1">This tab enables you to define the format information: display currency, display unit of the amounts and budget type.</p>
+                <p class="IndentPuceNiv1" MadCap:targetName="Capture creer filtre 5b"><img src="../../Resources/Images/L_Liquidity/Creer filtre compar exo 6.png" class="SAGE_screenshot"></img></p>
+                <ol start="17" MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Conversion Currency</b> area, select the conversion currency of the amounts.</li>
+                </ol>
+                <p class="IndentPuceNiv1">Click the button <img src="../../Resources/Images/L_Liquidity/Bouton Points de suspension.JPG"></img> to display the list of the set up currencies. In the contextual window, double-click the line to select it.</p>
+                <p class="IndentPuceNiv1">The codes and descriptions of the selected currency are displayed in the <b>Conversion Currency</b> area.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Display BS Grids</b> area, select your option:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>OBS</b> to display the comparison <u>on the Operational Budget</u></li>
+                    <li class="PuceNiv2"><b>TBS</b> to display the comparison <u>on the Treasury Budget</u></li>
+                </ul>
+                <ol start="10">
+                    <li class="PuceNumNiv1">In the <b>Output</b> area, complete the fields described in the table below.</li>
+                </ol>
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_Liquidity/Options Format Filtre edition.flsnp" />
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Row Headers</b> area, select your option:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Budget Descriptions</b> if you want to display the descriptions of budget codes at the beginning of each line</li>
+                    <li class="PuceNiv2"><b>Budget Codes</b> if you want to display the budget codes at the beginning of each line</li>
+                </ul>
+                <p class="IndentPuceNiv1">The <b>Category</b> tab is the same one as for the exercises comparison sheet.</p>
+                <p class="IndentPuceNiv1SautLigne"><MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><a href="COMP - ComparaisonExercices.htm#creer_filtre">Click here</a></MadCap:conditionalText> for more information on the setup of this tab.</p>
+                <ol start="12">
+                    <li class="PuceNumNiv1">Click the following buttons, as needed:</li>
+                </ol>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2"><b>OK</b> to display the exercises comparison report applying the filter settings</li>
+                    <li class="PuceNiv2"><b>Cancel</b> to display the exercises comparison report without applying the filter settings</li>
+                </ul>
+                <p class="SautLigneAvantEtAprès">For more information on the application, modification and deletion of filters, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref target="" title="" alt="" href="ANNEXE - GUI - Filtres.htm" class="XrefSansTexte">Filters</MadCap:xref> topic.</MadCap:conditionalText></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

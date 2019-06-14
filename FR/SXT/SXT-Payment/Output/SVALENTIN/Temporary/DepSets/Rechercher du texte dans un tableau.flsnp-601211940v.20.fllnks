@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/BarredoutilsRecherche.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Historique Recherche.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Filtre de recherche.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Editeur de filtre 2.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Menu contxt rechch 1.PNG" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/BarredoutilsRecherche.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Historique Recherche.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Filtre de recherche.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Editeur de filtre 2.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Menu contxt rechch 1.PNG" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Tableau standard.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

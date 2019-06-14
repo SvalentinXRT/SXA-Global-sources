@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/E_Sxt/5_FX/TRAITCOMM - Operations commerciales.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/E_Sxt/5_FX/TRAITCOMM - Operations commerciales.htm" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="Importation"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="5" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXT_FX" />
+  </Variables>
+  <FileConditions>
+    <Condition
+      Tag="Default.3Revised" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.3Revised" />
+    <Condition
+      Tag="Default.ScreenOnly" />
+  </AllConditions>
+  <Stylesheets />
+</CatapultFileLinkSet>

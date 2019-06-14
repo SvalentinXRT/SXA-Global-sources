@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/E_Sxt/2_Liquidity/SAISIE - Filtres affichage.htm" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Editer la feuille budgetaire 1.jpg" />
+    <Link
+      Url="Content/E_Sxt/2_Liquidity/SAISIE - Preferences affichage.htm" />
+    <Link
+      Url="Content/E_Sxt/2_Liquidity/SAISIE - Volets.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/E_Sxt/2_Liquidity/SAISIE - Filtres affichage.htm" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Editer la feuille budgetaire 1.jpg" />
+    <Link
+      Url="Content/E_Sxt/2_Liquidity/SAISIE - Filtres affichage.htm#Configur" />
+    <Link
+      Url="Content/E_Sxt/2_Liquidity/SAISIE - Filtres affichage.htm#Configur2" />
+    <Link
+      Url="Content/E_Sxt/2_Liquidity/SAISIE - Preferences affichage.htm" />
+    <Link
+      Url="Content/E_Sxt/2_Liquidity/SAISIE - Volets.htm" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXTModulesTasks" />
+    <Variable
+      Name="Localization.SXTManagementFolder" />
+    <Variable
+      Name="Localization.SXT_Liquidity" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.ScreenOnly" />
+  </AllConditions>
+  <Stylesheets />
+</CatapultFileLinkSet>

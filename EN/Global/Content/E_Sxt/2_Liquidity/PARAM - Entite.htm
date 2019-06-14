@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" MadCap:lastBlockDepth="9" MadCap:lastHeight="2624" MadCap:lastWidth="714">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1 class="LegacySXT"><MadCap:keyword term="Company:setup" />Company</h1>
+        <p>A company represents a unit of the budget evolution. Depending on your organization, a company can be a whole company, a department or a particular activity in your company.</p>
+        <p class="SautLigne">For the setup of companies the following step is required: setting up the automated VAT calculation.</p>
+        <p class="SautLigneAvantEtAprès">The company is defined in <MadCap:variable name="Localization.SXT" /> data repository. You can set them up via the <b><MadCap:variable name="Localization.SXT_Setup" /></b> module.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Accessing Setup Page for Companies</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">In the <b><MadCap:variable name="Localization.SXTModulesTasks" /></b> pane, select the <b><MadCap:variable name="Localization.SXT_Setup" /></b> module from the accordion menu.<br />The tasks of the module are displayed in this pane.</li>
+                    <li class="PuceNumNiv1">Select the <b>Companies</b> option in the <b><MadCap:variable name="Localization.SXTSetupFolder" /></b> folder of this module.<br />The setup page for companies is displayed with the list of the existing companies in a table.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The company&apos;s code is displayed in the second column of the table.</p>
+                <p class="IndentPuceNiv1" MadCap:conditions=""><img src="../../Resources/Images/L_Liquidity/Entite1.JPG" MadCap:targetName="Capture Page accueil Entités" class="SAGE_screenshot" /></p>
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_Liquidity/Actions dans tableau page de parametrage.flsnp" />
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_Liquidity/Ref croisee Reorg tableau.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Creating Companies</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_Liquidity/Pertinence champs.flsnp" />
+                <ol MadCap:continue="false">
+                    <li class="PuceNumNiv1">In the setup page for companies, click the <b>Create</b> button.<br />The <b>Identification</b> is displayed on the creation page. This tab enables you to save the standard information used for the unique identification of the company.</li>
+                </ol>
+                <p class="IndentPuceNiv1" MadCap:conditions=""><img src="../../Resources/Images/L_Liquidity/Entite2.JPG" MadCap:targetName="Capture entité onglet Identification" class="SAGE_screenshot"></img></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In this tab, enter the code and description of the company.</li>
+                </ol>
+                <p class="IndentPuceNiv1SautLigne" MadCap:conditions="Default.ScreenOnly">
+                    <MadCap:toggler targets="Tableau Entité onglet Identification">View Fields Description</MadCap:toggler>
+                </p>
+                <table class="TableStyle-Tableau_standard" cellspacing="0" MadCap:targetName="Tableau Entité onglet Identification" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');">
+                    <col class="TableStyle-Tableau_standard-Column-Column1" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Tableau_standard-Head-Header1">
+                            <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Field</th>
+                            <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Code</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Enter a unique code identifying the company.<br />It cannot be modified later.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Short Code</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">This code is automatically completed from the defined standard code. If needed, it can be edited at creation time.<br />This code must be unique and cannot be changed later on.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Description</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Enter a description for the company</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Additional</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">You can add another description for your company</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Currency</td>
+                            <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">Click the button <img src="../../Resources/Images/L_Liquidity/Bouton Points de suspension.JPG" /> to display the list of the set up currencies. In the contextual window, double-click the line to select it. The code and description of the selected currency are displayed in the <b>Currency</b> field.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click the <b>Address</b> tab.</li>
+                </ol>
+                <p class="IndentPuceNiv1" MadCap:conditions=""><img src="../../Resources/Images/L_Liquidity/Entite3.JPG" MadCap:targetName="Capture Entité onglet Coordonnées" class="SAGE_screenshot"></img></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Country</b> area, follow the process below to select the country of the company:</li>
+                </ol>
+                <ol>
+                    <li class="PuceNumNiv2">Click the button <img src="../../Resources/Images/L_Liquidity/Bouton Points de suspension.JPG" /> to display the list of the set up countries.</li>
+                    <li class="PuceNumNiv2">In the contextual window, double-click the line to select it.<br />The code and name of the selected country are displayed in the <b>Address</b> tab.<br /></li>
+                </ol>
+                <ol start="5">
+                    <li class="PuceNumNiv1">Click the <b>Misc.</b> tab.</li>
+                </ol>
+                <p class="IndentPuceNiv1">This tab enables you to enter the settings for the automatic VAT calculation.</p>
+                <p class="IndentPuceNiv1" MadCap:conditions=""><img src="../../Resources/Images/L_Liquidity/Entite4.JPG" MadCap:targetName="Capture Entité onglet Divers" class="SAGE_screenshot"></img></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <MadCap:variable name="Localization.SXT_Liquidity" style="font-weight: bold;" /> section, complete the <b>VAT Calculation</b>, <b>Direction</b> and <b>Priority</b> areas.</li>
+                </ol>
+                <p MadCap:conditions="Default.ScreenOnly" class="IndentPuceNiv1">
+                    <MadCap:toggler targets="Tableau Entité onglet Divers">View Fields Description</MadCap:toggler>
+                </p>
+                <table cellspacing="0" MadCap:targetName="Tableau Entité onglet Divers" class="TableStyle-Tableau_standard" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');">
+                    <col class="TableStyle-Tableau_standard-Column-Column1" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Tableau_standard-Head-Header1">
+                            <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Field</th>
+                            <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td colspan="2" class="TableStyle-Tableau_standard-BodyD-Column1-Body1" style="font-weight: normal;"><b>VAT Calculation</b> area</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">VAT Calculation Flag</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Select this option to enable the automatic VAT calculation in the Treasury Budget.<br />VAT is calculated with a default one-month rolling. In the Treasury Budget Sheet, the calculated VAT is displayed on two specific lines: the collected VAT for receipts (<span class="TexteSaisi">VATCOLL</span> system code) and the retrievable VAT for disbursements (<span class="TexteSaisi">VATRETR</span> system code).<br />If this option is not selected, VAT is not calculated in the Treasury Budget.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Prorate</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">In this field, you can enter the percentage of retrievable VAT for paid VAT in case of expenses.<br />The default value for this field is 100%.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td colspan="2" class="TableStyle-Tableau_standard-BodyD-Column1-Body1" style="background-color: #f5f5f5;font-weight: normal;"><b>Priority</b> area</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Company</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Select this option so that the setup of the <b>Direction</b> field performed <u>at the level of the company</u> prevails over the setup performed at the level of the budget code.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Budget Code</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Select this option so that the setup of the <b>Direction</b> field performed <u>at the level of the budget code</u> prevails over the setup performed at the level of the company.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="2" style="background-color: #f5f5f5;font-weight: normal;"><b>Direction</b> area</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Collection</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Select this option so that the transaction amount and date saved in the Treasury Budget are used as a basis for VAT calculation.<br />This option is mostly used by service providers.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Debit</td>
+                            <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">Select this option so that the transaction amount and date saved in the Operational Budget are used as a basis for VAT calculation.<br />The <b>Debit</b> option is selected by default.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="IndentPuceNiv1SautLigne" MadCap:conditions="Default.ScreenOnly">To view examples of VAT calculation according to the direction, <a href="ContextualTopics/Exemples sens TVA.htm" target="_popup" class="Popup">click here</a>.</p>
+                <p class="IndentPuceNiv1">The other fields of this page are not relevant concerning the budget management.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click the following buttons, as needed:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Apply</b> to save the setup of the company and create another one</li>
+                    <li class="PuceNiv2"><b>OK</b> to save the setup of the company and redisplay the list of the set up companies</li>
+                </ul>
+                <ul MadCap:continue="false">
+                    <li class="PuceNiv2"><b>Cancel</b> to cancel the setup of the company</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

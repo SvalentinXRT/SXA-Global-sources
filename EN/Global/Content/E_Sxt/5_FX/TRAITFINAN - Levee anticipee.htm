@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:lastBlockDepth="9" MadCap:lastHeight="5897" MadCap:lastWidth="606">
+    <head>
+        <link href="../../Resources/TableStyles/Warning.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT"><MadCap:keyword term="Early settlement;Settlement:early" />Early Settlement</h1>
+        <p>During the management of your transactions, the delivery of currencies may, in some cases, take place before the transaction maturity. In these cases, you need to perform the early settlement of the transaction.</p>
+        <p>Basically, the early settlement consists in creating a spot/forward swap in which the spot leg has the same direction as the original transaction, and the forward leg has the opposite direction. The <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> module enables you to enter partial early settlements and total early settlements.</p>
+        <p>The type of the generated spot leg is &quot;Exercising&quot;, the type of the forward leg is &quot;Exercise&quot; and the type of the initial transaction (the transaction subject to the early settlement) is &quot;Exercised&quot;.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Basic Principles of Early Settlements</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The management of early settlements takes place within a well-defined context, for which market principles organize the limits. The <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> module complies with these requirements through the following operating rules:</p>
+                <ul>
+                    <li class="PuceNiv1">Early settlements are only possible for Forward Outright Transactions. You cannot exercise early settlements for loans, borrowings or swap forward legs.</li>
+                    <li class="PuceNiv1">The <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> module meets the requirements specific to early settlements of transactions. So, the action is only authorized if the maturity date is passed, if the <i>back-office</i> validation was effective and if the transaction is settled.</li>
+                    <li class="PuceNiv1">Early settlement is not authorized if the transaction has already been totally carried forward. The initial transaction was actually settled when carried forward.</li>
+                </ul>
+                <p class="IndentPuceNiv1">When it is a partial carry forward, the non-carried forward part of the initial transaction can be early settled, up to the amount that was not carried forward. The transaction can be subject to multiple early settlements, up to the amount of the initial transaction. Moreover, the transaction resulting from a carry forward, cannot be early settled. In this case, you need to create a swap transaction.</p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">You cannot early settle, nor carry forward the forward leg of an early settlement, but you can settle it.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>The following diagram shows the spreads between the amount of an early settlement at the current rate and the amount of an early settlement at the historical exchange rate.</p>
+        <p MadCap:targetName="schema"><img src="../../Resources/Images/L_FX/leveeanticipee.png" class="SAGE_screenshot" /></p>
+        <p><b>Types of Early Settlement</b></p>
+        <ul>
+            <li class="PuceNiv1">When you exercise a total early settlement, the initial transaction is completely cleared. You cannot perform actions on this transaction anymore.</li>
+            <li class="PuceNiv1">When you exercise a partial early settlement, the initial contract is still applied for the remainder, like it was a forward contract. You can exercise other partial early settlements, carry forward the balance or settle the contract. However, you cannot modify the initial transaction, as opposed to a forward contract that was not carried forward.</li>
+        </ul>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead style="margin-top: 18pt;"><MadCap:keyword term="FX transaction:early settlement" /><MadCap:dropDownHotspot>Exercising Early Settlements on FX Transactions</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In the management page for Forward Exchange Transactions, double-click the line corresponding to the transaction to select.</p>
+                <p>For more information on how to access the management page for Forward Exchange Transactions, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="TRAITFINAN - Change a terme.htm" target="" title="" alt="" class="XrefSansTexte">Forward Exchange</MadCap:xref> topic.</MadCap:conditionalText></p>
+                <p MadCap:targetName="Capture 2"><img src="../../Resources/Images/L_FX/Change a terme 1.png" class="SAGE_screenshot" /></p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Warning.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Warning" cellspacing="0">
+                    <col class="TableStyle-Warning-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Warning-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Warning-Body-Body1">
+                            <td class="TableStyle-Warning-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Warning.png" /></td>
+                            <td class="TableStyle-Warning-BodyA-Column2-Body1">You can only select the transactions with the &quot;Initial&quot; type.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p MadCap:conditions="">The transaction cannot be early settled in the following situations (an error message appears):</p>
+                <ul>
+                    <li MadCap:conditions="" class="PuceNiv1">The accounts to debit and to credit for the transaction settlement have not been entered.</li>
+                </ul>
+                <p MadCap:conditions="" class="IndentPuceNiv1">You need to enter these elements. They are available in the <b>Settlement</b> tab of the management page for Forward Exchange Transactions. For more information about this tab, <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><a href="TRAITFINAN - Change a terme.htm#onglet_denouement">click here</a>.</MadCap:conditionalText></p>
+                <ul>
+                    <li class="PuceNiv1">The transaction was not <i>back-office</i> validated.</li>
+                </ul>
+                <p class="IndentPuceNiv1">For more information on how to cancel the <i>back-office</i> validation, see the<MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"> <MadCap:xref href="TRAITFINAN - Validation Back Office.htm" target="" title="" alt="" class="XrefSansTexte">Canceling the Back-Office Validation</MadCap:xref> topic.</MadCap:conditionalText></p>
+                <ul>
+                    <li class="PuceNiv1">The maturity date of the transaction is passed. In this case, you need to use the function of manual settlement.</li>
+                </ul>
+                <p>If the transaction can be early settled, the page for the early settlement of the transaction opens up.</p>
+                <p MadCap:targetName="Capture 3"><img src="../../Resources/Images/L_FX/levee anticipee 1.png" class="SAGE_screenshot" /></p>
+                <p>The <b>Characteristics</b> tab enables you to enter information on the early settlement: total or partial, amount of the settlement in case of partial early settlement, transaction dates.</p>
+                <p>The following table describes the elements of the header and the <b>Characteristics</b> tab.</p>
+                <p>The crosses in the E column indicate that the fields are editable.</p>
+                <p>
+                    <MadCap:toggler targets="Tableau entete">View Table</MadCap:toggler>
+                </p>
+                <table class="TableStyle-Tableau_standard" cellspacing="0" MadCap:targetName="Tableau entete" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');">
+                    <col class="TableStyle-Tableau_standard-Column-Column1" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Tableau_standard-Head-Header1">
+                            <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Field</th>
+                            <th class="TableStyle-Tableau_standard-HeadF-Column2-Header1">Description</th>
+                            <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">E</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td colspan="3" class="TableStyle-Tableau_standard-BodyD-Column1-Body1">Header</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Buy/Sell</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Direction of the forward leg for the early settlement</p>
+                                <p class="tableau">This field cannot be edited.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Transaction</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">This field enables you to select a transaction type for the forward leg of the early settlement, depending on the defined direction of the leg.</p>
+                                <p class="tableau">Click the button <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> to view the list of the existing transaction types then, in the contextual window, double-click a line to select it.</p>
+                                <p class="tableau">The code and description of the selected transaction type, are displayed in the <b>Transaction</b> field.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" /></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">No.</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Transaction Identifier</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Link No.</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">This optional field enables the grouping of commercial transactions and FX transactions together, under a common link number. This number shows the assigned category (activity type, geographical area, project, etc.). It can then be used as a criterion of accounting or filtering processes, depending on your hedging strategy (micro-hedging or macro-hedging). For more information on link numbers, see the <MadCap:variable name="Localization.SXT_Setup" style="font-weight: bold;"></MadCap:variable> documentation.</p>
+                                <p class="tableau">To select a link number, use the <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;"></img> button as explained previously. The link number is assigned to the spot leg and to the forward leg of the early settlement.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" /></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Type</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Type of the forward leg for the early settlement</p>
+                                <p class="tableau">This type is always &quot;Initial&quot; for early settlements.</p>
+                                <p class="tableau">For more information on the FX transaction types, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="ANNEXE - Natures de transaction.htm" target="" title="" alt="" class="XrefSansTexte">FX Transaction Types</MadCap:xref> topic.</MadCap:conditionalText></p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="3"><b>Analysis</b> area</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Folder</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Number of the file</p>
+                                <p class="tableau">For more information on folders, see the  <MadCap:variable name="Localization.SXT_Setup" style="font-weight: bold;"></MadCap:variable> documentation.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Portfolio</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">To select a portfolio number, use the button <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> as explained previously.</p>
+                                <p class="tableau">For more information on portfolios, see <MadCap:variable name="Localization.SXT_Setup" style="font-weight: bold;" /> documentation.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" /></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="3"><b>Participants</b> area</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Company</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Applicant (Company)</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Counterparty</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Counterparty with which the transaction is concluded</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Contact</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Enter the name of the contact for the counterparty. If you defined a name when setting up counterparties, this field is automatically completed. However, you can change the name which will be used in the confirmation letter.</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" /></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="3"><b>General</b> area</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">CTRV Modes</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Mode of entry and calculation for the amounts and the rate</p>
+                                <p class="tableau">The default and non-editable value for Early Settlements, is <b>Enter Rate</b>. In case of partial early settlements, you can edit the transaction amount in the main currency and the currency rate. The countervalue is automatically calculated.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Partial Early Settlement</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Enable this option in case of partial and non-total early settlement.</p>
+                                <p class="tableau">If you enable this option, and depending on the selected entry mode (as described previously), the <b>Settlement Amount</b> field is enabled.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" /></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Settlement Amount</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">These fields display the main currency and the early settlement amount in the main currency.</p>
+                                <p class="tableau">The main currency cannot be modified.</p>
+                                <p class="tableau">If you enabled the <b>Partial Early Settlement</b> option, you can lower the displayed amount by entering a value or using the calculator.<MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"> For more information on how to use the calculator, <a href="ContextualTopics/Calculatrice.htm" target="_popup" class="Popup">click here</a>.</MadCap:conditionalText></p>
+                                <p class="tableau">When you modify this amount, the amounts in the <b>Settlement Countervalue</b>, <b>Remaining Amount</b> and <b>Remaining Countervalue</b> fields are automatically calculated.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" /></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Settlement Countervalue</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Countervalue currency and amount of the early settlement expressed in the countervalue currency</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Remaining Amount</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Amount of the initial transaction remaining after the deduction of the early settled amount</p>
+                                <p class="tableau">This amount is null in case of total early settlement.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Remaining Countervalue</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Amount of the countervalue remaining after the deduction of the early settled amount</p>
+                                <p class="tableau">This amount is null in case of total early settlement.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Settlement TRX Date</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Date on which the early settlement is set up</p>
+                                <p class="tableau">This date will also be used as the transaction date of the spot and forward legs.</p>
+                                <p class="tableau">The default value for this field is today&apos;s date. You can replace this date by the next day, either by entering the date directly in the field, or by using the calendar. <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">For more information on how to use the calendar, <a href="ContextualTopics/Calendrier.htm" target="_popup" class="Popup">click here</a>.</MadCap:conditionalText></p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" /></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Settlement Value Date</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Delivery date for the spot leg of the early settlement</p>
+                                <p class="tableau">This field will not be used for the spot leg of the early settlement.</p>
+                                <p class="tableau">It is the date on which the exercised currencies are actually delivered. It falls two days after the date of the early settlement. You can replace it by the early settlement date or by a later date.</p>
+                                <p class="tableau">To change this value, enter a date in the field or use the calendar.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" /></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Settlement Maturity Date</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Maturity date of the forward leg for the early settlement</p>
+                                <p class="tableau">This field will not be used for the spot leg of the early settlement.</p>
+                                <p class="tableau">It cannot be modified. This date is automatically completed based on the delivery date of the initial transaction.</p>
+                                <p class="tableau">If you replace the delivery date of the spot leg by a later date, this date is updated and corresponds to the delivery date of the spot leg.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Settlement Delivery Date</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Delivery date of the spot leg and the forward leg of the early settlement</p>
+                                <p class="tableau">This field cannot be edited.</p>
+                                <p class="tableau">The default date is the delivery date of the initial transaction. It is recalculated at the same time as the maturity date of the forward leg and set two days after the latter.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="3">
+                                <p colspan="4" class="tableau"><b>Rate</b> area</p>
+                                <p colspan="4" class="tableau" style="font-style: normal;">This area displays information on foreign exchange rates.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Rate</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">In this field, select the type of exchange rate to apply to the forward leg created to cancel the initial transaction.</p>
+                                <p class="tableau"><b>Market Rate</b>: the default rate is the current spot rate.</p>
+                                <p class="tableau"><b>Historical Rate</b>: the reference spot rate displayed for a carry forward is the forward rate of the initial transaction.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" /></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Spot Leg Rate</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Exchange rate of currencies for the spot leg of the early settlement</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" /></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Forward Leg Spot Rate</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Spot exchange rate of currencies for the forward leg of the early settlement</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" /></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Swap Points</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Difference in points between the forward exchange rate and the spot exchange rate for the forward leg of the early settlement</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" /></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Forward Rate</td>
+                            <td class="TableStyle-Tableau_standard-BodyC-Column2-Body1">Forward exchange rate of the currencies for the forward leg of the early settlement</td>
+                            <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" /></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>The <b>Cross Rates</b>, <b>Settlement</b>, <b>Back Office</b> and <b>User Field</b> tabs are the same as for Forward Exchange Transactions. For more information about the tabs, <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><a href="TRAITFINAN - Change a terme.htm#onglet_ccroise">click here</a>.</MadCap:conditionalText></p>
+                <p>In these tabs, the following elements can be edited: bank details of the settlement, information on G/L assignment and notes. The default values are those defined for the original transaction.</p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">If you enabled the automatic reporting of dealing tickets and payment orders, these documents are automatically edited when you validate the early settlement. The payment order concerns the spot leg of the early settlement. For more information on the setup of automatic reports, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="PARAM - Editions auto.htm" target="" title="" alt="" class="XrefSansTexte">Automatic Reports</MadCap:xref> topic</MadCap:conditionalText>.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>TRX Balance</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>To know the balance of a transaction which was subject to an early settlement, refer to the transaction amount in position in the Exchange Ledger. For more information on this report, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="EDITION - Journal TRN change.htm" target="" title="" alt="" class="XrefSansTexte">FX Transactions Ledger</MadCap:xref> topic</MadCap:conditionalText>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Modifying Transactions</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The initial transaction and the spot leg of the early settlement cannot be modified after the early settlement.</p>
+                <p>As long as the leg is not settled, the following elements concerning the forward leg of the early settlement, can be modified:</p>
+                <ul>
+                    <li class="PuceNiv1">link number,</li>
+                    <li class="PuceNiv1">portfolio number,</li>
+                    <li class="PuceNiv1">name of the counterparty&apos;s contact,</li>
+                    <li class="PuceNiv1">bank accounts and value dates of the settlement,</li>
+                    <li class="PuceNiv1">reference,</li>
+                    <li class="PuceNiv1">information on the G/L allocation,</li>
+                    <li class="PuceNiv1">notes.</li>
+                </ul>
+                <p>For more information on these fields, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="TRAITFINAN - Change a terme.htm#top" target="" title="" alt="" class="XrefSansTexte">Forward Exchange</MadCap:xref> topic</MadCap:conditionalText>.</p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">If one of the main information elements of the early settlement (for example, the amount) contains an error, the early settlement must be deleted, and properly re-entered.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Example</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>Given a forward buy at November, 30th. On September, 30th, you exercise an early settlement on this transaction. You perform a spot buy with a value date at September, 30th, then you close a forward sell at November, 30th to reverse your initial forward buy.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Deleting Transactions and Cancelling Early Settlement</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The initial transaction cannot be deleted after the early settlement.</p>
+                <p>You can delete the spot leg or the forward leg of the early settlement: deleting one of the two legs involves the automatic deletion of the other one, while the original transaction takes the &quot;Initial&quot; status instead of the &quot;Exercised&quot; status. The early settlement is now cancelled.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

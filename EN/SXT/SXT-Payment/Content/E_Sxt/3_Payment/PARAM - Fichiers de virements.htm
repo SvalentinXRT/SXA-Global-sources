@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="2759" MadCap:lastWidth="608">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Warning.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="LegacySXT"><MadCap:keyword term="Transfer Files: structure" />Transfer Files</h1>
+        <p>The integration of your payment requests and/or orders originating from your G/L system is a precious and time-saving tool.</p>
+        <p>This function enables you to define the file structure for the transfer files generated from an external system and imported in the <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> module.</p>
+        <p class="SautLigneAvantEtAprès">You must complete this step before exporting files, in order to ensure the smooth integration of the file data into the database. It enables the definition of the type and location of data and potentially, conversion rules.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Accessing the Setup Page for File Structures of Transfer Files</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>To access this function, in the <b><MadCap:variable name="Localization.SXTDashboardsTasks" /></b> pane, select the <b>Payment Elements</b> option in the <MadCap:variable name="Localization.SXTSetupFolder" style="font-weight: bold;" /> folder of the <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> module.</p>
+                <p>The setup page for Receipts Elements is displayed. For example, click the <b>Domestic Transfers Import Structure</b> link.</p>
+                <p class="SautLigne">The setup page for Domestic Transfers Import Structure is displayed with the list of set up structures in the form of a table.</p>
+                <p MadCap:conditions="" MadCap:targetName="Capture 1"><img src="../../Resources/Images/L_Payment/Liste structures export.png" class="SAGE_screenshot" /></p>
+                <p>The table shows the code and description of each structure, as well as the relevant function type, the expected date format, the standard length of records in characters and the presence and absence of value equivalences in a correspondence table.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot><MadCap:keyword term="Transfer files: creating a structure" />Creating a Transfer File Structure</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">In the setup page for Domestic Transfers Import Structure, click the <b>Create</b> button.<br></br>The first page of the Structure Wizard opens up.</li>
+                </ol>
+                <p MadCap:targetName="Capture 2"><img src="../../Resources/Images/L_Payment/Assistant création structures.png" class="SAGE_screenshot" /></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Enter the structure&apos;s basic information<MadCap:conditionalText MadCap:conditions="Default.PrintOnly">, as described below</MadCap:conditionalText>.</li>
+                </ol>
+                <p class="IndentPuceNiv1SautLigne">
+                    <MadCap:toggler targets="Tableau structure importation 2">View Fields Description</MadCap:toggler>
+                </p>
+                <table class="TableStyle-Tableau_standard" cellspacing="0" MadCap:targetName="Tableau structure importation 2" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');">
+                    <col class="TableStyle-Tableau_standard-Column-Column1" style="width: 135px;">
+                    </col>
+                    <col class="TableStyle-Tableau_standard-Column-Column2" style="width: 473px;">
+                    </col>
+                    <thead>
+                        <tr class="TableStyle-Tableau_standard-Head-Header1">
+                            <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Field</th>
+                            <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Description</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Enter a description for the new structure.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Type</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">The &quot;Import&quot; function is selected. No action can be performed on this field.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Length</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Specify the length of a record in characters including spaces. A record of the file consists of a string of characters containing the information of a single line.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Line Feed</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Enable this option if the entries in the file are separated by a line feed.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Date Format</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Select the expected date format for the transaction dates.<br></br><i>dd</i> for day, <i>MM</i> for month and <i>yyyy</i> for year.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Separator</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Select the separator type between day, month and year of the record date.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Decimal Symbol</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Select the decimal separator for the amounts.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Nb of digits after decimal</td>
+                            <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">Select the number of digits after decimal.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click the <img src="../../Resources/Images/L_Payment/Bouton STR fleche drte.JPG"></img> <b>Set up the elements of the structure</b> button to complete the file structure setup.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The setup page for the fields of each record, opens up.</p>
+                <p MadCap:targetName="Capture 3"><img src="../../Resources/Images/L_Payment/Elements de structure.png" class="SAGE_screenshot" /></p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">If you click the<b> Cancel</b> button <img src="../../Resources/Images/L_Payment/Bouton STR croix rouge.JPG" />, the current setup is canceled and the list of the set up file structures is displayed again.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="IndentPuceNiv1">This page enables you to set up several fields for each record, corresponding to the same number of information types.</p>
+                <p class="IndentPuceNiv1">Now the setup is completed, you can import the domestic transfers files.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot><MadCap:keyword term="Transfer files: duplicating a structure" />Duplicating File Structures</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>You can create structures using the copy function on an existing structure.</p>
+                <ol>
+                    <li class="PuceNumNiv1">In the setup page for Structures, select the structure to duplicate and click the <b>Duplicate</b> button in the actions toolbar.</li>
+                </ol>
+                <p class="IndentPuceNiv1">A dialog box opens up, suggesting you modify the duplicate.</p>
+                <p MadCap:conditions="" MadCap:targetName="Capture Duplication structure 1"><img src="../../Resources/Images/L_Payment/Message duplication.png" class="SAGE_screenshot" /></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click <b>Yes</b> to modify the duplicate.</li>
+                    <li class="PuceNumNiv1">The creation page for the structure completed with the settings of the duplicated structure, opens up. An identifying number is automatically created for the structure by incrementation.</li>
+                </ol>
+                <ol start="2" MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Description</b> area, enter the description for the new structure.</li>
+                </ol>
+                <p class="IndentPuceNiv1">You can modify the settings of the duplicated structure.</p>
+                <p class="IndentPuceNiv1SautLigne">For more information on the setup pages for File Structures, see the previous <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">section</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">topic</MadCap:conditionalText>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot><MadCap:keyword term="Transfer files: modifying value correspondences" />Modifying value correspondences between Files and Database</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>You can enrich or modify the correspondences of values between file and database at any time.</p>
+                <ol>
+                    <li class="PuceNumNiv1">In the setup page for Structures, select the structure to modify and click the <b>Modify the Equivalences</b> button in the actions toolbar.</li>
+                    <li class="PuceNumNiv1">The definition page for Correspondence Tables opens up, with the set up correspondences for the selected structure.</li>
+                </ol>
+                <p MadCap:targetName="Capture 4"><img src="../../Resources/Images/L_Payment/Param tables correspondances.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1SautLigne">For more information on these fields, see the <MadCap:conditionalText MadCap:conditions="Default.PrintOnly">section</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">topic</MadCap:conditionalText> which describes the creation process for the structure of files to import.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Warning.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Warning" cellspacing="0">
+            <col class="TableStyle-Warning-Column-Column1" />
+            <col class="TableStyle-Warning-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Warning-Body-Body1">
+                    <td class="TableStyle-Warning-BodyB-Column1-Body1" style="text-align: left;"><img src="../../Resources/Images/Assets/oh-Warning.png" /></td>
+                    <td class="TableStyle-Warning-BodyA-Column2-Body1">The transaction codes mentioned in the files must appear in the files integrated into <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" />. All the records for which the transaction code is not known, are rejected. This rule is applied on every parameterizable element in the product and in the relevant <MadCap:variable name="Localization.SXT" style="font-weight: bold;" /> modules (Account Codes, Account IDs, Payor Code, Payee Codes, Branch Code...).</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

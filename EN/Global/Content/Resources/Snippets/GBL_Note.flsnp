@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="100" MadCap:lastWidth="711" MadCap:fileTags="OHCGlobal.GBL" MadCap:conditions="General.ImportFromGBL,General.ImportFromFR">
+    <head><link href="../TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" /> <link href="" rel="stylesheet" type="text/css" /></head>
+    <body class="NoteWarning">
+        <table style="mc-table-style: url('../TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1">
+                        <img src="../Images/Assets/oh-Note.png" />
+                    </td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">(right-click, convert to text and enter your note...)</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

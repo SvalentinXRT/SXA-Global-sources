@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Intégration de données"
+    Link="/Content/Topics/INTEGRATION - Intro.htm"
+    StartSection="true"
+    MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
+    StartChapter="true"
+    PageNumber="1"
+    Class="SAGE"
+    Skin="/Project/Skins/Sage HTML5.flskn"
+    ReplaceMergeNode="false"></TocEntry>
+  <TocEntry
+    Title="Importation prévisions commerciales"
+    Link="/Content/Topics/INTEGRATION - Importation previsions commerciales.htm"
+    StartSection="true"
+    PageNumber="1"
+    MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
+    Class="SAGE" />
+  <TocEntry
+    Title="Rejet des prévisions commerciales"
+    Link="/Content/Topics/INTEGRATION - Rejets previsions commerciales.htm"
+    StartSection="true"
+    MasterPage="/Content/Resources/MasterPages/Print - Chapitre.flmsp"
+    PageNumber="1"
+    Class="SAGE" />
+</CatapultToc>

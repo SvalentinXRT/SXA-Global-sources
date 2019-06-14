@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:lastBlockDepth="11" MadCap:lastHeight="2960" MadCap:lastWidth="544">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT"><MadCap:keyword term="Back-office validation;Back office:validation" /><i>Back-office</i> Validation</h1>
+        <p>The <i>back-office</i> validation of a transaction can be automatic or manual.</p>
+        <p>It is automatic when the cash flow associated with the FX transaction gets the &quot;Actual&quot; status.</p>
+        <p>The <i>back-office</i> validation of transactions can be manual either transaction by transaction, or by transaction batch. A <i>BO</i>-validated transaction cannot be deleted.</p>
+        <p>A transaction must be <i>BO</i>-validated before being carried forward, early exercised or settled. Every entered financial transaction can be validated twice:</p>
+        <ul>
+            <li class="PuceNiv1">The first validation occurs when, after the transaction entry, you use the <b>OK</b> or <b>Apply</b> button. This validation is usually performed by the user who entered the transaction. It corresponds to a <i>front-office</i> validation.</li>
+            <li class="PuceNiv1">The second validation is the <i>back-office</i> validation. It takes place during the reconciliation between the dealing ticket edited in <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> and the written or phone confirmation from the counterparty. To ensure maximum security, this validation is supposed to be performed by members of the <i>back-office</i> department, in order to separate the <i>front-office</i> and <i>back-office</i> functions.</li>
+        </ul>
+        <p>The date and time of the <i>back-office</i> validation are displayed in the <b>Validation</b> area of the <b>Back-Office</b> tab in the management pages for transactions.</p>
+        <p MadCap:targetName="exemple"><img src="../../Resources/Images/L_FX/exemple onglet back office.png" class="SAGE_screenshot" /></p>
+        <p>If the automatic reporting of confirmation letters was enabled, a confirmation is automatically edited after the <i>back-office</i> validation. For more information on the setup of automatic reports, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="PARAM - Editions auto.htm" target="" title="" alt="" class="XrefSansTexte">Automatic Reports</MadCap:xref> topic</MadCap:conditionalText>.</p>
+        <ul>
+            <li class="PuceNiv1"><b>Validation of Transaction Pairs </b></li>
+        </ul>
+        <p class="IndentPuceNiv1">The <i>back-office</i> validation of one leg for a settled or carried forward transaction or one leg of a swap transaction involves the automatic <i>back-office</i> validation of the other transaction leg.</p>
+        <ul>
+            <li class="PuceNiv1"><b>Back-Office Validation of Swap Transactions</b></li>
+        </ul>
+        <p class="IndentPuceNiv1">You can <i>back-office</i> validate Swap Transactions through the management pages for Swap Transactions or Spot and Forward Exchange Transactions. After the <i>back-office</i> validation, the swap transaction can be modified only in the Swap management pages. After the <i>back-office</i> validation, both swap legs must be separately modified through the management pages for FX Transactions.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot><MadCap:keyword term="Back office:validation:individual;Back-office validation:individual" />Validating Transactions</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Two options are available to validate a transaction individually:</p>
+                <ul>
+                    <li class="PuceNiv1">to enable the corresponding option in the <b>Process</b> menu of the transaction management pages,</li>
+                    <li class="PuceNiv1">to enable the corresponding option in the <b>Back office</b> tab of the detailed page for the transaction.</li>
+                </ul>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Validating Transactions from Transaction Management Page</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                            <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                            <col class="TableStyle-Note-Column-Column2" />
+                            <tbody>
+                                <tr class="TableStyle-Note-Body-Body1">
+                                    <td class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                                    <td class="TableStyle-Note-BodyA-Column2-Body1">The screenshots show the procedure for Spot Exchange Transactions.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <ol>
+                            <li class="PuceNumNiv1">In the management page for FX Transactions (forward, spot exchange or swap), for Currency Borrowings or for Currency Loans, enable the option corresponding to the transaction to select.</li>
+                        </ol>
+                        <p MadCap:targetName="Capture 1"><img src="../../Resources/Images/L_FX/Change au comptant 1.png" class="SAGE_screenshot" /></p>
+                        <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_FX/Acces pages gestion transactions.flsnp" />
+                        <ol start="2">
+                            <li class="PuceNumNiv1">In the actions toolbar, click on the <b>Process</b> menu, then the <b>BO Validate</b> option.</li>
+                            <li class="PuceNumNiv1">In the dialog box, click <b>OK</b> to confirm your action.</li>
+                        </ol>
+                        <p class="IndentPuceNiv1SautLigne">The selected transaction is validated.</p>
+                        <p class="IndentPuceNiv1">The transactions table is updated, a tick in the <b>BOV</b> column indicates that the transaction of the selected line is validated.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Validating Transactions from Back Office Tab in the Detailed Page</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                            <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                            <col class="TableStyle-Note-Column-Column2" />
+                            <tbody>
+                                <tr class="TableStyle-Note-Body-Body1">
+                                    <td class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                                    <td class="TableStyle-Note-BodyA-Column2-Body1">The screenshots show the procedure for Swap Spot/Forward Transactions.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <ol>
+                            <li class="PuceNumNiv1">In the management page for FX Transactions (forward, spot exchange or swap), for Currency Borrowings or for Currency Loans, double-click the line corresponding to the transaction to select.</li>
+                        </ol>
+                        <p MadCap:targetName="Capture 2"><img src="../../Resources/Images/L_FX/Swap comptant contre terme 1.png" class="SAGE_screenshot" /></p>
+                        <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_FX/Acces pages gestion transactions.flsnp" />
+                        <p class="IndentPuceNiv1SautLigne">The modification page for the transaction is displayed.</p>
+                        <ol start="2">
+                            <li class="PuceNumNiv1">Click on the <b>Back Office</b> tab.</li>
+                        </ol>
+                        <p MadCap:targetName="Capture 3"><img src="../../Resources/Images/L_FX/Swap comptant contre terme 6.png" class="SAGE_screenshot" /></p>
+                        <ol start="2" MadCap:continue="true">
+                            <li class="PuceNumNiv1">In the <b>Back Office</b> area, enable the <b>BO Validate...</b> option.</li>
+                            <li class="PuceNumNiv1">In the actions toolbar at the top of the page, click the <b>OK</b> button to save the action.</li>
+                        </ol>
+                        <p class="IndentPuceNiv1SautLigne">The selected transaction is <i>back-office</i> validated.</p>
+                        <p class="IndentPuceNiv1">The transactions table is updated, a tick in the <b>BOV</b> column indicates that the transaction of the selected line is <i>BO</i>-validated.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot><MadCap:keyword term="Back-office Validation:by batch;Back office:validation:by batch" />Validate by Batch</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>This function enables you to perform a simultaneous <i>back-office</i> validation for a selection of transactions.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Validating Several Transactions Simultaneously</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                            <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                            <col class="TableStyle-Note-Column-Column2" />
+                            <tbody>
+                                <tr class="TableStyle-Note-Body-Body1">
+                                    <td class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                                    <td class="TableStyle-Note-BodyA-Column2-Body1">The screenshots show the procedure for Spot Exchange Transactions.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <ol>
+                            <li class="PuceNumNiv1">In the management page for FX Transactions (forward, spot exchange or swap), for Currency Borrowings or for Currency Loans, enable the options corresponding to the transactions to select.</li>
+                        </ol>
+                        <p MadCap:targetName="Capture 1"><img src="../../Resources/Images/L_FX/Change au comptant 1.png" class="SAGE_screenshot" /></p>
+                        <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_FX/Acces pages gestion transactions.flsnp" />
+                        <ol start="2">
+                            <li class="PuceNumNiv1">In the actions toolbar, click on the <b>Process</b> menu, then the <b>BO validate by batch</b> option.</li>
+                        </ol>
+                        <p class="IndentPuceNiv1SautLigne">The selected transactions are validated.</p>
+                        <p class="IndentPuceNiv1">The transactions table is updated, a tick in the <b>BOV</b> column indicates that the transactions of the selected lines are validated.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

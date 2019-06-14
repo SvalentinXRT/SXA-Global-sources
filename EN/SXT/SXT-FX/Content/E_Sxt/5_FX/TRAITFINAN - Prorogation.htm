@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:lastBlockDepth="9" MadCap:lastHeight="6859" MadCap:lastWidth="758">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT"><MadCap:keyword term="Carry Forward" />Carry Forward</h1>
+        <p>When an FX transaction comes to the initial maturity, carrying forward the transaction is necessary to defer the delivery dates of the currencies.</p>
+        <p>A carried forward FX contract may be seen as a spot/forward swap transaction, for which the second leg (forward exchange) has the same direction as the initial transaction, and for which the first leg (spot exchange) has the opposite direction.</p>
+        <p>Regarding the carry forward process, the <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> module offers this double advantage:</p>
+        <ul>
+            <li class="PuceNiv1">avoiding the double-entry of information on your transactions already in the module,</li>
+            <li class="PuceNiv1">maintaining a link between the initial contract and the transactions set up during the carry forward.</li>
+        </ul>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Carry Forward Requirements</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The management of Carry Forwards is based on the following operating principles.</p>
+                <ul>
+                    <li class="PuceNiv1">You can carry forward a transaction only after its <i>back-office</i> validation.</li>
+                    <li class="PuceNiv1">You cannot carry forward a transaction resulting from an early settlement. In the same way, you cannot early settle a transaction resulting from a carry forward process.</li>
+                    <li class="PuceNiv1">You can perform multiple partial carry forwards for Forward Transactions. Then, you get partial carry forwards performed from a single initial transaction. But you are not authorized to perform &quot;consecutive&quot; partial carry forwards. Actually, you can carry forward a same transaction only once.</li>
+                    <li class="PuceNiv1">At the carry forward maturity, you need to settle the transaction in order to put an end to it and to update consequently the position.</li>
+                </ul>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">You must carry forward a transaction at the maturity date of the initial transaction. This date is automatically used as the transaction date of the generated spot exchange.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p><b>Carry Forward Impact</b></p>
+        <p>Carrying forward a transaction modifies its status, but also the way it will be managed later. The paragraph below sums up the modifications applied to the carried forward transactions.</p>
+        <p>Two transactions are automatically created: a spot exchange transaction (with the opposite direction compared with the direction of the initial contract and with the &quot;Deferment&quot; status) and a forward exchange transaction (with the same direction as the original transaction and with the &quot;Deferring&quot; status). The status of the carried forward transaction is updated to the &quot;Deferred&quot; status.</p>
+        <p>The following diagram shows the spreads between the amount of a carry forward at the current rate and the amount of a carry forward at the historical exchange rate.</p>
+        <p MadCap:targetName="schema"><img src="../../Resources/Images/L_FX/prorogation.png" class="SAGE_screenshot" /></p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Total and Partial Carry Forwards</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li class="PuceNiv1">When the carry forward is total, the initial transaction is settled. You cannot modify it anymore. However, you can view it and re-edit its mails or its ticket. This principle is common to Loans, Borrowings and FX Transactions. It is automatically applied: you do not need to use the manual settlement function to complete the initial contract.</li>
+                    <li class="PuceNiv1">When the carry forward is partial, two cases are possible.</li>
+                </ul>
+                <ul>
+                    <li class="PuceNiv2">The carry forward concerns only a part of the contract and must be followed by the balance settlement: the <b>With Settlement</b> option must be enabled in the <b>Characteristics</b> tab of the transaction carry forward. This option is similar to the <b>Settle</b> option used to complete the original transaction.</li>
+                    <li class="PuceNiv2">The carry forward groups several partial carry forwards at different maturities and the settlement of the initial transaction should not be performed yet: the intial transaction is automatically settled if, during the entry of the last partial carry forward, its amount is null. In other words, the totality of the original transaction was carried forward several times. If there is a remaining balance on the initial transaction, the settlement is effective if, and only if, the <b>With Settlement</b> option was enabled during the entry of the last partial carry forward, or if the settlement was explicitly required on the original transaction through the <b>Settle</b> option.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead><MadCap:keyword term="Carry forward:forward exchange;Forward exchange:carry forward;FX transaction:carry forward" /><MadCap:dropDownHotspot>Carrying forward Forward Exchange Transactions</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">In the management page for Forward Exchange Transactions, enable the option next to the line to select.</li>
+                    <li class="PuceNumNiv1">In the <b>Process</b> menu of the actions toolbar, click the <b>Carry Forward</b> option.</li>
+                    <li class="PuceNumNiv1">In the dialog box, click <b>yes</b> to confirm the current action.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The window for the carry forward of the forward exchange transaction, opens up.</p>
+                <p MadCap:targetName="Capture prorogation 1"><img src="../../Resources/Images/L_FX/Prorogation 1.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">The <b>Characteristics</b> tab enables you to enter information on the carry forward: total or partial carry forward, amount of the carry forward in case of partial carry forward, transaction dates of the carry forward.</p>
+                <p class="IndentPuceNiv1SautLigne">The following table describes the elements of the header and the <b>Characteristics</b> tab.</p>
+                <p class="IndentPuceNiv1">The crosses in the E column indicate that the fields are editable.</p>
+                <p class="IndentPuceNiv1SautLigne">
+                    <MadCap:toggler targets="Tableau entete">View Table</MadCap:toggler> </p>
+                <table class="TableStyle-Tableau_standard" cellspacing="0" MadCap:targetName="Tableau entete" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');">
+                    <col class="TableStyle-Tableau_standard-Column-Column1">
+                    </col>
+                    <col class="TableStyle-Tableau_standard-Column-Column2">
+                    </col>
+                    <col class="TableStyle-Tableau_standard-Column-Column2">
+                    </col>
+                    <thead>
+                        <tr class="TableStyle-Tableau_standard-Head-Header1">
+                            <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Field</th>
+                            <th class="TableStyle-Tableau_standard-HeadF-Column2-Header1">Description</th>
+                            <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">E</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td colspan="3" class="TableStyle-Tableau_standard-BodyD-Column1-Body1">Header</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Buy/Sell</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Direction of the forward leg for the carry forward</p>
+                                <p class="tableau">This field cannot be edited.</p>
+                                <p class="tableau"><b></b></p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Transaction</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">This field enables you to select a transaction type for the forward leg of the carry forward, depending on the defined direction of the leg.</p>
+                                <p class="tableau">Click the <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> button to view the list of existing transaction types for this leg direction, then, in the contextual window, double-click a line to select it.</p>
+                                <p class="tableau">The code and description of the selected transaction type, are displayed in the <b>Transaction</b> field.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;"></img></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">No.</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Transaction Identifier</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Link No.</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">This optional field enables the grouping of commercial transactions and FX transactions together, under a common link number. This number shows the assigned category (activity type, geographical area, project, etc.). It can then be used as a criterion of accounting or filtering processes, depending on your hedging strategy (micro-hedging or macro-hedging). For more information on link numbers, see the <MadCap:variable name="Localization.SXT_Setup" style="font-weight: bold;"></MadCap:variable> documentation.</p>
+                                <p class="tableau">To select a link number, use the <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> button as explained previously. The link number is assigned to the spot leg and to the forward leg of the carry forward.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;"></img></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Type</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Type of the forward leg for the carry forward</p>
+                                <p class="tableau">For carry forwards, this is the &quot;Deferment&quot; type of the carry forward spot leg.</p>
+                                <p class="tableau">For more information on the FX transaction types, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="ANNEXE - Natures de transaction.htm" target="" title="" alt="" class="XrefSansTexte">FX Transaction Types</MadCap:xref> topic.</MadCap:conditionalText></p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="3"><b>Analysis</b> area</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Folder</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Number of the file</p>
+                                <p class="tableau">For more information on folders, see the  <MadCap:variable name="Localization.SXT_Setup" style="font-weight: bold;"></MadCap:variable> documentation.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Portfolio</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">To select a portfolio number, use the <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;"></img> button as explained previously.</p>
+                                <p class="tableau">For more information on portfolios, see the <MadCap:variable name="Localization.SXT_Setup" style="font-weight: bold;"></MadCap:variable> documentation.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;"></img></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="3"><b>Participants</b> area</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Company</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Applicant (Company)</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Counterparty</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Counterparty with which the transaction is concluded</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Contact</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Enter the name of the contact for the counterparty. If you defined a name when setting up counterparties, this field is automatically completed. However, you can change the name which will be used in the confirmation letter.</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;"></img></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="3"><b>General</b> area</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">CTRV Modes</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Mode of entry and calculation for the amounts and the rate</p>
+                                <p class="tableau">The default and non-editable value for Carry Forwards, is <b>Enter Rate</b>. In case of a partial carry forward, you can edit the transaction amount in the main currency and the currency rate. The countervalue is automatically calculated.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Partial Carry Forwards</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Enable this option in case of partial and non-total carry forward.</p>
+                                <p class="tableau">If you enable this option, and depending on the selected entry mode (as described previously), the <b>Settlement Amount</b> field is enabled.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;"></img></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">With Settlement</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">In case of a partial carry forward, enable the option to settle automatically the balance remaining on the original transaction. Disable this option when partial (multiple) carry forwards must take place at different maturities.</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;"></img></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Carry Forward Amount</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">These fields display the main currency and the amount of the carry forward in the main currency.</p>
+                                <p class="tableau">The main currency cannot be modified.</p>
+                                <p class="tableau">The default value for the amount is the transaction balance. If you enabled the <b>Partial Carry Forward</b> option, you can lower the displayed amount by entering a value or using the calculator.<MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"> For more information on how to use the calculator, <a href="ContextualTopics/Calculatrice.htm" target="_popup" class="Popup">click here</a>.</MadCap:conditionalText></p>
+                                <p class="tableau">When you modify this amount, the value in the <b>Carry Forward Countervalue</b> field is automatically recalculated.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;"></img></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Carry Forward Countervalue</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Countervalue currency and amount of the carry forward expressed in the countervalue currency</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Carry Fwd TRX Date</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Date on which the carry forward is set up</p>
+                                <p class="tableau">This date will also be used as the transaction date of the spot and forward legs.</p>
+                                <p class="tableau">The default value for this field is the maturity date of the carried forward transaction. This field cannot be edited.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Carry Fwd Value Date</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Delivery date of the spot leg for the carry forward and the value date of the forward leg for the carry forward</p>
+                                <p class="tableau">It falls two days after the date of the carry forward. This field cannot be edited.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Carry Fwd Maturity Date</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Maturity date of the forward leg for the carry forward</p>
+                                <p class="tableau">This field will not be used for the spot leg of the carry forward.</p>
+                                <p class="tableau">This field cannot be edited. The default date is the delivery date of the initial transaction.</p>
+                                <p class="tableau">If you defer the delivery date, this date is replaced by the delivery date minus two days.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Carry Fwd Delivery Date</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Delivery date of the forward leg for the carry forward</p>
+                                <p class="tableau">This field will not be used for the spot leg of the carry forward.</p>
+                                <p class="tableau">It is the date on which the carried forward currencies are actually delivered.</p>
+                                <p class="tableau">The default date is the maturity date plus two days. You can replace this date by a later day, either by entering the date directly in the field, or by using the calendar.<MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"> For more information on how to use the calendar, <a href="ContextualTopics/Calendrier.htm" target="_popup" class="Popup">click here</a>.</MadCap:conditionalText></p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;"></img></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="3">
+                                <p colspan="4" class="tableau"><b>Rate</b> area</p>
+                                <p colspan="4" class="tableau" style="font-style: normal;">This area displays information on foreign exchange rates.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Rate</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">In this field, select the type of exchange rate to apply to the spot leg created to cancel the initial transaction.</p>
+                                <p class="tableau"><b>Market Rates</b>: the default rate is the spot rate at the carried forward transaction date.</p>
+                                <p class="tableau"><b>Historical Rate</b>: the reference spot rate is the forward rate of the initial transaction.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;"></img></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Spot Leg Rate</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Exchange rate of currencies for the spot leg of the carry forward</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;"></img></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Forward Leg Spot Rate</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Spot exchange rate of currencies for the forward leg of the carry forward</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;"></img></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Spot Differential</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Difference between the spot rate of the carry forward and the forward rate of the original transaction</p>
+                                <p class="tableau">In case of a carry forward at the historical rate, the value of the spot differential must be zero.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Amount Differential</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">This amount corresponds to the difference between the countervalue of the carried forward amount (calculated on the basis of the carry forward spot rate) and the countervalue of the carried forward amount (calculated on the basis of the initial contract forward rate). Its formula is the following: <i>Carried Forward Amount * Spot Differential</i></p>
+                                <p class="tableau">In case of a carry forward at the historical rate, the value of the amount differential must be zero.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Swap Points</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Difference in points between the forward exchange rate and the spot exchange rate for the forward leg of the carry forward</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;"></img></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Forward Rate</td>
+                            <td class="TableStyle-Tableau_standard-BodyC-Column2-Body1">Forward exchange rate of the currencies for the forward leg of the carry forward</td>
+                            <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;"></img></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="IndentPuceNiv1SautLigne">The <b>Cross Rates</b>, <b>Settlement</b>, <b>Back Office</b> and <b>User Field</b> tabs are the same as for Forward Exchange Transactions. For more information about the tabs, <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><a href="TRAITFINAN - Change a terme.htm#onglet_ccroise">click here</a>.</MadCap:conditionalText></p>
+                <p class="IndentPuceNiv1SautLigne">In these tabs, the following elements can be edited: bank details of the settlement, information on G/L assignment and notes. The default values are those defined for the original transaction.</p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">If you enabled the automatic reporting of payment orders, a payment order is automatically edited when you validate the total carry forward. The payment order concerns the initial transaction that is settled during the carry forward. For more information on the setup of automatic reports, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="PARAM - Editions auto.htm" target="" title="" alt="" class="XrefSansTexte">Automatic Reports</MadCap:xref> topic</MadCap:conditionalText>.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>TRX Balance</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>To know the balance of a transaction which was subject to carry forward, refer to the transaction amount in position in the Exchange Ledger. For more information on this report, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="EDITION - Journal TRN change.htm" target="" title="" alt="" class="XrefSansTexte">FX Transactions Ledger</MadCap:xref> topic</MadCap:conditionalText>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Modifying Transactions</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The initial transaction and the spot leg of the carry forward cannot be modified after the carry forward.</p>
+                <p>As long as the leg is not settled, the following elements concerning the forward leg of the carry forward, can still be modified:</p>
+                <ul>
+                    <li class="PuceNiv1">link number,</li>
+                    <li class="PuceNiv1">portfolio number,</li>
+                    <li class="PuceNiv1">name of the counterparty&apos;s contact,</li>
+                    <li class="PuceNiv1">bank accounts and value dates of the settlement,</li>
+                    <li class="PuceNiv1">reference,</li>
+                    <li class="PuceNiv1">information on the G/L allocation,</li>
+                    <li class="PuceNiv1">notes.</li>
+                </ul>
+                <p>For more information on these fields, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="TRAITFINAN - Change a terme.htm#top" target="" title="" alt="" class="XrefSansTexte">Forward Exchange</MadCap:xref> topic</MadCap:conditionalText>.</p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">If you enabled the automatic reporting of payment orders, a payment order is automatically edited when you validate the total carry forward. The payment order concerns the initial transaction that is settled during the carry forward. For more information on the setup of automatic reports, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="PARAM - Editions auto.htm" target="" title="" alt="" class="XrefSansTexte">Automatic Reports</MadCap:xref> topic</MadCap:conditionalText>.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Deleting Transactions and Cancelling Carry Forwards</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The initial transaction cannot be deleted after the carry forward.</p>
+                <p>You can delete the spot leg or the forward leg of the carry forward: deleting one of the two legs involves the automatic deletion of the other one while the original transaction takes the &quot;Initial&quot; status instead of the &quot;Deferred&quot; status. The carry forward is now cancelled.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

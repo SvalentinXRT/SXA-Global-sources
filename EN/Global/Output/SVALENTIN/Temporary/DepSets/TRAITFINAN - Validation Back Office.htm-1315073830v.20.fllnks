@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_FX/exemple onglet back office.png" />
+    <Link
+      Url="Content/E_Legacy/5_FX/PARAM - Editions auto.htm" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Change au comptant 1.png" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Acces pages gestion transactions.flsnp" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Swap comptant contre terme 1.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Swap comptant contre terme 6.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_FX/exemple onglet back office.png" />
+    <Link
+      Url="Content/E_Legacy/5_FX/PARAM - Editions auto.htm" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Change au comptant 1.png" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Acces pages gestion transactions.flsnp" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Swap comptant contre terme 1.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Swap comptant contre terme 6.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="Back-office validation"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="8" />
+    <IndexCacheEntry
+      Term="Back office:validation"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="8" />
+    <IndexCacheEntry
+      Term="Back office:validation:individual"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="55" />
+    <IndexCacheEntry
+      Term="Back-office validation:individual"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="55" />
+    <IndexCacheEntry
+      Term="Back-office Validation:by batch"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="126" />
+    <IndexCacheEntry
+      Term="Back office:validation:by batch"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="126" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXT_FX" />
+  </Variables>
+  <FileConditions>
+    <Condition
+      Tag="Default.3Revised" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.3Revised" />
+    <Condition
+      Tag="Default.ScreenOnly" />
+  </AllConditions>
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Note.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

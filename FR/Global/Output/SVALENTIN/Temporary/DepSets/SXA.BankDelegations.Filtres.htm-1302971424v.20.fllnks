@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileClass=""
+  FileTitle="SXA - Pouvoirs Bancaires - Filtres"
+  FileSearchable="true"
+  MasterPage="file:///C:/__OHC MADCAP/Sage XRT Advanced/FR/Global/Content/Resources/MasterPages/VideoPlayer.flmsp"
+  OnlyLocalStylesheets="true"
+  FileTimeEstimate="0"
+  FilePriority="0"
+  FileDescription="Créer et utiliser des filtres dans le module Pouvoirs Bancaires.">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Content/Resources/MasterPages/VideoPlayer.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/Video_MainStyles.css" />
+    <Link
+      Url="Content/Resources/Multimedia/HT_BankDelegations/SBD_Filtres.mp4" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Content/Resources/MasterPages/VideoPlayer.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/Video_MainStyles.css" />
+    <Link
+      Url="Content/Resources/Multimedia/HT_BankDelegations/SBD_Filtres.mp4" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts>
+    <ConceptCacheEntry
+      Term="Video"
+      Conditions="General.ImportFromFR"
+      LocalConditions=""
+      Position="6" />
+  </Concepts>
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions>
+    <Condition
+      Tag="General.ImportFromFR" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="General.ImportFromFR" />
+  </AllConditions>
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/Video_MainStyles.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

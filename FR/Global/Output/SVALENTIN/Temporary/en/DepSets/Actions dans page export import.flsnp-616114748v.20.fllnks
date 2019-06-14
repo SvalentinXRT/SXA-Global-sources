@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/E_Sxt/5_FX/ANNEXE - GUI - Tableau reorg.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/ContextualTopics/Rechercher texte dans tableau page.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/ContextualTopics/Modifier element dans tableau page.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/ContextualTopics/Supprimer element dans tableau page.htm" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/E_Sxt/5_FX/ANNEXE - GUI - Barre outils actions.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/E_Sxt/5_FX/ANNEXE - GUI - Tableau reorg.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/ContextualTopics/Rechercher texte dans tableau page.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/ContextualTopics/Modifier element dans tableau page.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/ContextualTopics/Supprimer element dans tableau page.htm" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/E_Sxt/5_FX/ANNEXE - GUI - Barre outils actions.htm#Actions" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXT_FX" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.ScreenOnly" />
+  </AllConditions>
+  <Stylesheets />
+</CatapultFileLinkSet>

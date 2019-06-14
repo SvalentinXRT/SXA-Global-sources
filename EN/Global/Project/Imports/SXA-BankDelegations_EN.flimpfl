@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultProjectImport
+  AutoSync="true"
+  DeleteStale="true"
+  ConditionTagExpression="exclude[General.ImportFromGBL] "
+  IncludePattern="*.htm;*.html;*.png;*.bmp;*.jpg;*.jpeg;*.tif;*.tiff;*.gif;*.swd;*.emf;*.wmf;*.xaml;*.xps;*.exps;*.hdp;*.wdp;*.dib;*.svg;*.ps;*.eps;*.pdf;*.flsnp;*.asf;*.wm;*.wma;*.wmv;*.asx;*.wax;*.wvx;*.wmx;*.mid;*.midi;*.mpeg;*.mpg;*.mpa;*.mpe;*.wav;*.au;*.mp3;*.avi;*.swf;*.mov;*.qt;*.mp4;*.webm;*.ogg;*.ogv;*.oga;*.ogx;*.spx;*.opus;*.m4v;*.u3d;*.fltoc"
+  LastImport="2019-02-07T15:40:09.3846827+01:00">
+  <Files>
+    <Url
+      Source="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/SXA-BankDelegations_EN.flprj"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/SXA-BankDelegations_EN.flprj" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles>
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/BankDelegations.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/BankDelegations.htm" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/CreationDelegation.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/CreationDelegation.htm" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/CreationIntro.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/CreationIntro.htm" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/CreationMasse.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/CreationMasse.htm" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/CreationUnitaire.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/CreationUnitaire.htm" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/Filtres.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/Filtres.htm" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/Modele lettre.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/Modele lettre.htm" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/ParamComplementaire.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/ParamComplementaire.htm" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/Parametrage.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/Parametrage.htm" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/ParamIntro.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/ParamIntro.htm" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/PreparationLettre.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/PreparationLettre.htm" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/ReglesGeneration.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/ReglesGeneration.htm" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/SecuriteDonnees.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/SecuriteDonnees.htm" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/V3_CreationCircuitValidation.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/V3_CreationCircuitValidation.htm" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/V3_CreationCircuitValidation_Notification.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/V3_CreationCircuitValidation_Notification.htm" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/V3_CreationCircuitValidation_SuiviRequetes.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/V3_CreationCircuitValidation_SuiviRequetes.htm" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/V3_EditionReglesGeneration.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/V3_EditionReglesGeneration.htm" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/V3_NouvelleInterface.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/B_HelpTopics/1_BankDelegations/V3_NouvelleInterface.htm" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/10_SelectionValidator.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/10_SelectionValidator.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/11_SelectionUtilisateurs.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/11_SelectionUtilisateurs.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/12_RequetesDeValidation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/12_RequetesDeValidation.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/13_MesRequetesDeValidation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/13_MesRequetesDeValidation.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/3_CreationRegleValidation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/3_CreationRegleValidation.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/4_Rubrique1Validation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/4_Rubrique1Validation.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/5_Rubrique2Validation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/5_Rubrique2Validation.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/6_ValidationSelectionSocietes1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/6_ValidationSelectionSocietes1.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/7_ValidationSelectionSocietes2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/7_ValidationSelectionSocietes2.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/8_Rubrique3Validation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/8_Rubrique3Validation.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/9_RequetesObsoletes.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/9_RequetesObsoletes.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Collaborateur.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Collaborateur.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Compte.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Compte.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/ConfigurerFiltre.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/ConfigurerFiltre.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/CreationUnitaire.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/CreationUnitaire.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/CreerModeleDeuxSignatures.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/CreerModeleDeuxSignatures.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/CreerModeleDeuxSignatures02.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/CreerModeleDeuxSignatures02.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/CreerModeleUneSignature.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/CreerModeleUneSignature.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/CreerModeleUneSignature02.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/CreerModeleUneSignature02.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/DesignerLettres.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/DesignerLettres.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/DesignerVariables.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/DesignerVariables.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/FiltreRapide.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/FiltreRapide.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/FlowChart General.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/FlowChart General.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/GenererLettresParRegles.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/GenererLettresParRegles.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/GroupeCollaborateurs.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/GroupeCollaborateurs.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/MenuCreerModele1Signature.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/MenuCreerModele1Signature.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/MenuCreerModele2Signatures.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/MenuCreerModele2Signatures.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/ModeleDelegation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/ModeleDelegation.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/ModeVisualisation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/ModeVisualisation.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/RegleGenerationLettre.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/RegleGenerationLettre.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Scope Pouvoirs Bancaires V1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Scope Pouvoirs Bancaires V1.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Slide 2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Slide 2.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Slide 3.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Slide 3.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Slide 4.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Slide 4.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Slide 5.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Slide 5.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Slide1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Slide1.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/TypeOperation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/TypeOperation.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/TypeSignature.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/TypeSignature.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/V3_EditionReglesGeneration.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/V3_EditionReglesGeneration.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/WorkflowLettre.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/WorkflowLettre.png" />
+  </CollectedSourceFiles>
+  <SkippedSourceFiles>
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/SearchResults.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/SearchResults.htm" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/2_ModelesLettres.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/2_ModelesLettres.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/bg.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/bg.jpg" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/circle_green.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/circle_green.gif" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/circle_green.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/circle_green.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Creation masse - modele 1 signature.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Creation masse - modele 1 signature.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Creation masse - modele 2 signatures.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Creation masse - modele 2 signatures.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Creation unitaire.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Creation unitaire.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/CreerModeleDelegation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/CreerModeleDelegation.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/DEFVIEW.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/DEFVIEW.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Delegants.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Delegants.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Designer 4.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Designer 4.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Designer 5.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Designer 5.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Designer 6.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Designer 6.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Designer1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Designer1.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Designer2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Designer2.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Designer3.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Designer3.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/filtre 1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/filtre 1.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Filtre 2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Filtre 2.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Filtre 3.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Filtre 3.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Filtre 4.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Filtre 4.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/fullscreen.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/fullscreen.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Lettre brouillon.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Lettre brouillon.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Lettres Brouillon.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Lettres Brouillon.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Modele lettres Affichage.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Modele lettres Affichage.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/oh-Note.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/oh-Note.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/oh-Warning.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/oh-Warning.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Prep lettre - delegation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Prep lettre - delegation.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Prep lettre - regle generation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Prep lettre - regle generation.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Quick Default Filter.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Quick Default Filter.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Regles de generation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Images/HT_BankDelegations/Regles de generation.png" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Multimedia/NewVideo.mp4"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Multimedia/NewVideo.mp4" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Multimedia/HT_BankDelegations/SageBankDelegations.v3.NewInterface_FR.mp4"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Multimedia/HT_BankDelegations/SageBankDelegations.v3.NewInterface_FR.mp4" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Multimedia/HT_BankDelegations/SBD_CreationDelegations.mp4"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Multimedia/HT_BankDelegations/SBD_CreationDelegations.mp4" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Multimedia/HT_BankDelegations/SBD_Dashboards.mp4"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Multimedia/HT_BankDelegations/SBD_Dashboards.mp4" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Multimedia/HT_BankDelegations/SBD_Filtres.mp4"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Multimedia/HT_BankDelegations/SBD_Filtres.mp4" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Multimedia/HT_BankDelegations/SBD_ModelesDelegations.mp4"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Multimedia/HT_BankDelegations/SBD_ModelesDelegations.mp4" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Content/Resources/Multimedia/HT_BankDelegations/SBD_RegleGeneration.mp4"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Content/Resources/Multimedia/HT_BankDelegations/SBD_RegleGeneration.mp4" />
+    <Url
+      Source="../../../SXA/SXA-BankDelegations/Project/TOCs/SXA-BankDelegations.fltoc"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Project/TOCs/SXA-BankDelegations.fltoc" />
+  </SkippedSourceFiles>
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/B_HelpTopics/1_BankDelegations/BankDelegations.htm"
+      TimeStamp="09/02/2018 17:33:47" />
+    <Url
+      Source="../../Content/B_HelpTopics/1_BankDelegations/CreationDelegation.htm"
+      TimeStamp="09/02/2018 17:33:47" />
+    <Url
+      Source="../../Content/B_HelpTopics/1_BankDelegations/CreationIntro.htm"
+      TimeStamp="09/02/2018 17:33:47" />
+    <Url
+      Source="../../Content/B_HelpTopics/1_BankDelegations/CreationMasse.htm"
+      TimeStamp="09/02/2018 17:33:47" />
+    <Url
+      Source="../../Content/B_HelpTopics/1_BankDelegations/CreationUnitaire.htm"
+      TimeStamp="09/02/2018 17:33:47" />
+    <Url
+      Source="../../Content/B_HelpTopics/1_BankDelegations/Filtres.htm"
+      TimeStamp="09/02/2018 17:33:47" />
+    <Url
+      Source="../../Content/B_HelpTopics/1_BankDelegations/Modele lettre.htm"
+      TimeStamp="09/02/2018 17:33:47" />
+    <Url
+      Source="../../Content/B_HelpTopics/1_BankDelegations/ParamComplementaire.htm"
+      TimeStamp="09/02/2018 17:33:47" />
+    <Url
+      Source="../../Content/B_HelpTopics/1_BankDelegations/Parametrage.htm"
+      TimeStamp="09/02/2018 17:33:47" />
+    <Url
+      Source="../../Content/B_HelpTopics/1_BankDelegations/ParamIntro.htm"
+      TimeStamp="09/02/2018 17:33:47" />
+    <Url
+      Source="../../Content/B_HelpTopics/1_BankDelegations/PreparationLettre.htm"
+      TimeStamp="09/02/2018 17:33:47" />
+    <Url
+      Source="../../Content/B_HelpTopics/1_BankDelegations/ReglesGeneration.htm"
+      TimeStamp="09/02/2018 17:33:47" />
+    <Url
+      Source="../../Content/B_HelpTopics/1_BankDelegations/SecuriteDonnees.htm"
+      TimeStamp="09/02/2018 17:33:47" />
+    <Url
+      Source="../../Content/B_HelpTopics/1_BankDelegations/V3_CreationCircuitValidation.htm"
+      TimeStamp="09/02/2018 17:33:47" />
+    <Url
+      Source="../../Content/B_HelpTopics/1_BankDelegations/V3_CreationCircuitValidation_Notification.htm"
+      TimeStamp="09/02/2018 17:33:47" />
+    <Url
+      Source="../../Content/B_HelpTopics/1_BankDelegations/V3_CreationCircuitValidation_SuiviRequetes.htm"
+      TimeStamp="09/02/2018 17:33:47" />
+    <Url
+      Source="../../Content/B_HelpTopics/1_BankDelegations/V3_EditionReglesGeneration.htm"
+      TimeStamp="09/02/2018 17:33:47" />
+    <Url
+      Source="../../Content/B_HelpTopics/1_BankDelegations/V3_NouvelleInterface.htm"
+      TimeStamp="09/02/2018 17:33:47" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/10_SelectionValidator.png"
+      TimeStamp="30/11/2015 16:38:57" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/11_SelectionUtilisateurs.png"
+      TimeStamp="04/12/2015 11:53:52" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/12_RequetesDeValidation.png"
+      TimeStamp="30/11/2015 16:38:57" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/13_MesRequetesDeValidation.png"
+      TimeStamp="30/11/2015 16:38:57" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/3_CreationRegleValidation.png"
+      TimeStamp="30/11/2015 16:38:57" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/4_Rubrique1Validation.png"
+      TimeStamp="04/12/2015 14:19:50" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/5_Rubrique2Validation.png"
+      TimeStamp="04/12/2015 14:20:49" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/6_ValidationSelectionSocietes1.png"
+      TimeStamp="04/12/2015 14:22:07" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/7_ValidationSelectionSocietes2.png"
+      TimeStamp="30/11/2015 16:38:57" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/8_Rubrique3Validation.png"
+      TimeStamp="04/12/2015 14:23:15" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/9_RequetesObsoletes.png"
+      TimeStamp="04/12/2015 11:41:07" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/Collaborateur.png"
+      TimeStamp="04/12/2015 14:24:32" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/Compte.png"
+      TimeStamp="04/12/2015 14:25:12" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/ConfigurerFiltre.png"
+      TimeStamp="30/11/2015 16:38:57" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/CreationUnitaire.png"
+      TimeStamp="30/11/2015 16:38:57" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/CreerModeleDeuxSignatures.png"
+      TimeStamp="30/11/2015 16:38:57" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/CreerModeleDeuxSignatures02.png"
+      TimeStamp="30/11/2015 16:38:57" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/CreerModeleUneSignature.png"
+      TimeStamp="30/11/2015 16:38:57" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/CreerModeleUneSignature02.png"
+      TimeStamp="30/11/2015 16:38:57" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/DesignerLettres.png"
+      TimeStamp="04/12/2015 11:25:27" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/DesignerVariables.png"
+      TimeStamp="30/11/2015 16:38:57" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/FiltreRapide.png"
+      TimeStamp="30/11/2015 16:38:57" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/FlowChart General.png"
+      TimeStamp="21/05/2014 18:19:57" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/GenererLettresParRegles.png"
+      TimeStamp="04/12/2015 11:21:15" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/GroupeCollaborateurs.png"
+      TimeStamp="30/11/2015 16:38:57" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/MenuCreerModele1Signature.png"
+      TimeStamp="04/12/2015 11:12:47" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/MenuCreerModele2Signatures.png"
+      TimeStamp="04/12/2015 11:09:36" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/ModeleDelegation.png"
+      TimeStamp="30/11/2015 16:38:57" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/ModeVisualisation.png"
+      TimeStamp="30/11/2015 16:38:57" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/RegleGenerationLettre.png"
+      TimeStamp="30/11/2015 16:38:57" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/Scope Pouvoirs Bancaires V1.png"
+      TimeStamp="04/12/2015 10:54:36" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/Slide 2.png"
+      TimeStamp="04/12/2015 14:17:40" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/Slide 3.png"
+      TimeStamp="04/12/2015 14:18:06" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/Slide 4.png"
+      TimeStamp="04/12/2015 14:18:26" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/Slide 5.png"
+      TimeStamp="04/12/2015 14:18:46" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/Slide1.png"
+      TimeStamp="04/12/2015 14:17:14" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/TypeOperation.png"
+      TimeStamp="04/12/2015 14:26:28" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/TypeSignature.png"
+      TimeStamp="04/12/2015 14:27:10" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/V3_EditionReglesGeneration.png"
+      TimeStamp="04/12/2015 11:31:43" />
+    <Url
+      Source="../../Content/Resources/Images/HT_BankDelegations/WorkflowLettre.png"
+      TimeStamp="04/12/2015 10:56:17" />
+  </GeneratedFiles>
+</CatapultProjectImport>

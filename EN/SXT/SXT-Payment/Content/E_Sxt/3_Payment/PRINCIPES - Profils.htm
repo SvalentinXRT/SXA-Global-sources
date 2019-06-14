@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="669" MadCap:lastWidth="615">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="LegacySXT"><a name="Profiles"></a>Profiles</h1>
+        <p>Profiles specify to the <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> module the formats, subformats and protocols used by the various banks working with you, by transaction type.</p>
+        <p class="SautLigne">For example, you can specify that all Domestic and International Transfers are performed with the MT101 format, the EBICS protocol and the standard subformat. The characteristics of this format are integrated into the application; hence, when you create an international transfer, it cannot be validated unless all the data required by the format are entered. The system automatically notifies you whether there are missing or invalid data.</p>
+        <p class="SautLigne">Likewise, the first characteristics of Remittances are defined by the association of the format, the subformat and the protocol. For instance, the MT101 format does not accept the multi-date remittances.</p>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">The definition of Profiles is a cascading process: the higher the specificity level of a profile is (for a given country, a given bank, etc.), the greater the number of fields to complete is.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Profiles are generally defined once and for all by the user declared as the <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> administrator in the <i>Profiles</i> submenu of the <i>Payment Elements</i> menu.</p>
+        <p class="SautLigne">Profiles enable user-friendly data entry, as the specification of the standard and the protocol for each payment order is not required: they are linked to the basic information (Transaction Type, Payor, etc.) previously set up.</p>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">
+                        <p>To set up Profiles, you need to start with the general rules and end with the exceptions. For instance, you create a profile that specifies that all International Transfers, whatever their applicants, are managed by the AFB320 format.</p>
+                        <p>If an applicant does not work with the same format, you need to create a specific profile. As a result, all International Transfers must comply with the AFB320 format, <u>except</u> those created by an applicant with a specific format.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

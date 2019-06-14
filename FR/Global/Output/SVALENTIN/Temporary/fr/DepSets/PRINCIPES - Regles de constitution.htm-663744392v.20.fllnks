@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileClass=""
+  FileTitle="Règles de constitution"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/Warning.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Warning.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/Warning.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Warning.png" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="Règles de consitution" />
+  </Anchors>
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXT_Payment" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Warning.css" />
+    <Url
+      Source="Content/Resources/Stylesheets/MainStyles.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

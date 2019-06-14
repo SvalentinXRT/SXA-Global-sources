@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="669" MadCap:lastWidth="615">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="LegacySXT"><a name="Profils"></a>Profils</h1>
+        <p>Les profils permettent d'indiquer au module <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> les formats, sous-formats et protocoles (appelés régimes) utilisés par les différentes banques avec lesquelles vous travaillez, par type de transaction.</p>
+        <p class="SautLigne">Par exemple, vous pouvez indiquer que tous les virements domestiques et internationaux sont effectués au format MT101, avec le protocole EBICS, au régime standard. Les caractéristiques de ce format étant intégrées en standard dans le progiciel, lorsque vous créez un virement international, il ne peut être validé que si toutes les informations requises par le format sont renseignées. L'application vous indique automatiquement en fonction du format les éléments obligatoires manquants ou incorrects.</p>
+        <p class="SautLigne">De la même façon, les premières caractéristiques des remises sont déterminées par l'association format, régime, protocole. Par exemple, le format MT101 n'autorise pas les remises multi-dates.</p>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1">
+                        <img src="../../Resources/Images/Assets/oh-Note.png" />
+                    </td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">La définition des profils suit un processus "en cascade": plus un profil est spécifique (pour un pays donné, une banque donnée, etc.), plus il faut renseigner de champs.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Les profils sont généralement définis une seule fois par l'utilisateur déclaré comme administrateur du module <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> dans le sous-menu <i>Profils</i> du menu <i>Eléments de Paiement</i>.</p>
+        <p class="SautLigne">Les profils permettent aux utilisateurs de bénéficier d'une saisie simplifiée, car l'indication de la norme et du protocole utilisés pour chaque ordre de paiement lui sont dispensés : ils sont induits par les informations de base (type de transaction, payeur, etc.) renseignées auparavant.</p>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1">
+                        <img src="../../Resources/Images/Assets/oh-Note.png" />
+                    </td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">
+                        <p>Le paramétrage des profils doit commencer par les règles générales pour terminer par les exceptions. Vous établissez par exemple un profil déterminant que tous les virements internationaux, tous donneurs d'ordre confondus, sont gérés par le format AFB320.</p>
+                        <p>Si un donneur d'ordre ne travaille pas avec le même format, vous créez alors un profil qui lui est propre. Par conséquent, tous les virements internationaux créés doivent répondre au format AFB320, <u>sauf</u> ceux émis par un donneur d'ordre pour lequel le format spécifique est paramétré.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

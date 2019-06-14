@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" MadCap:lastBlockDepth="5" MadCap:lastHeight="447" MadCap:lastWidth="641">
+    <head>
+        <link href="../../Resources/TableStyles/Warning.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Customization</title>
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="LegacySXT">Customization</h1>
+        <p>You can edit the content of dealing tickets, confirmation letters and payment orders.</p>
+        <p class="SautLigneAvantEtAprès">The files that correspond to templates are stored in the <b>EDI</b> folder of the installation directory for <MadCap:variable name="Localization.SXT" style="font-weight: bold;" />, which is usually located in:</p>
+        <p class="IndentPuceNiv1"><b>C:\Program Files\Sage\XRT\Treasury\edi</b></p>
+        <p class="SautLigneAvantEtAprès">The files with the extension EDI can be modified with a text editor and the files with the extension RTF can be modified with a word processing tool.</p>
+        <p>All files exist in two copies : one with the EDI extension (editable with a text editor such as EDIT ou NOTEPAD), the other with the RTF extension (editable with Word).</p>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Warning.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Warning" cellspacing="0">
+            <col class="TableStyle-Warning-Column-Column1" />
+            <col class="TableStyle-Warning-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Warning-Body-Body1">
+                    <td class="TableStyle-Warning-BodyB-Column1-Body1" style="text-align: left;"><img src="../../Resources/Images/Assets/oh-Warning.png" /></td>
+                    <td class="TableStyle-Warning-BodyA-Column2-Body1">During modifications, please pay attention to character strings ended by the &quot;$&quot; sign. These are variables for which the transaction record is searched to find data. For example, the &quot;$50&quot; field corresponds to the transaction reference.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>The files from the <b>EDI</b> folder are shared by all the modules of the <MadCap:variable name="Localization.SXT" style="font-weight: bold;" /> platform. The files that correspond to the <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> module start with the letters PM.</p>
+    </body>
+</html>

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0"
+  FileDescription="">
+  <Links>
+    <Link
+      Url="Content/Resources/Stylesheets/StylesForHomePage.css" />
+    <Link
+      Url="Project/Skins/LangPicker.flskn" />
+    <Link
+      Url="Content/Home_WhatsNew.htm" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Project/Skins/SearchHome.flskn" />
+    <Link
+      Url="Content/Resources/Snippets/GBL_Home.InfoSection.flsnp" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/SocialMedia/AddSM-gray.png" />
+    <Link
+      Url="https://www.facebook.com/SageFrance" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/SocialMedia/FB-gray.png" />
+    <Link
+      Url="https://twitter.com/sagefrance" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/SocialMedia/Twitter-gray.png" />
+    <Link
+      Url="https://www.instagram.com/sageofficial" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/SocialMedia/Insta-gray.png" />
+    <Link
+      Url="https://www.linkedin.com/company/sage-software" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/SocialMedia/LI-gray.png" />
+    <Link
+      Url="https://www.sage.com/" />
+    <Link
+      Url="Content/Resources/Images/Assets/PlaceholderLogo/Logo_55pxl.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/MainIcons/Contact-gray.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Stylesheets/StylesForHomePage.css" />
+    <Link
+      Url="Project/Skins/LangPicker.flskn" />
+    <Link
+      Url="Content/Home_WhatsNew.htm#WhatsNewSlide" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Project/Skins/SearchHome.flskn" />
+    <Link
+      Url="Content/Resources/Snippets/GBL_Home.InfoSection.flsnp" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/SocialMedia/AddSM-gray.png" />
+    <Link
+      Url="https://www.facebook.com/SageFrance" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/SocialMedia/FB-gray.png" />
+    <Link
+      Url="https://twitter.com/sagefrance" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/SocialMedia/Twitter-gray.png" />
+    <Link
+      Url="https://www.instagram.com/sageofficial" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/SocialMedia/Insta-gray.png" />
+    <Link
+      Url="https://www.linkedin.com/company/sage-software" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/SocialMedia/LI-gray.png" />
+    <Link
+      Url="https://www.sage.com/" />
+    <Link
+      Url="Content/Resources/Images/Assets/PlaceholderLogo/Logo_55pxl.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/MainIcons/Contact-gray.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="General.CallToAction" />
+    <Variable
+      Name="General.Facebook" />
+    <Variable
+      Name="General.Twitter" />
+    <Variable
+      Name="General.Instagram" />
+    <Variable
+      Name="General.LinkedIn" />
+    <Variable
+      Name="General.Email" />
+    <Variable
+      Name="General.PhoneNumber" />
+    <Variable
+      Name="General.StreetAddress" />
+    <Variable
+      Name="General.CityStateZip" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/StylesForHomePage.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Edition enregistrer.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Notifier edition 1.jpg" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Edition enregistrer.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Notifier edition 1.jpg" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="Editions:enregistrement"
+      Conditions=""
+      LocalConditions=""
+      Position="7" />
+    <IndexCacheEntry
+      Term="Exporter édition, bouton"
+      Conditions=""
+      LocalConditions=""
+      Position="7" />
+    <IndexCacheEntry
+      Term="Editions:envoi par courrier électronique"
+      Conditions=""
+      LocalConditions=""
+      Position="22" />
+    <IndexCacheEntry
+      Term="Notifier, bouton"
+      Conditions=""
+      LocalConditions=""
+      Position="22" />
+    <IndexCacheEntry
+      Term="Editions:impression"
+      Conditions=""
+      LocalConditions=""
+      Position="38" />
+    <IndexCacheEntry
+      Term="Impression des éditions"
+      Conditions=""
+      LocalConditions=""
+      Position="38" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXT_Liquidity" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

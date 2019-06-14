@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/Images/L_FX/barre actions.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Modifier ligne dans tableau parametrage.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Supprimer ligne dans tableau parametrage.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Dupliquer ligne dans tableau.flsnp" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Barre outils page importation exportation.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/bdd ligne de commande.jpg" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/Images/L_FX/barre actions.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Modifier ligne dans tableau parametrage.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Supprimer ligne dans tableau parametrage.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Dupliquer ligne dans tableau.flsnp" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Barre outils page importation exportation.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/bdd ligne de commande.jpg" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="Barre d'actions"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="7" />
+    <IndexCacheEntry
+      Term="Actions, barre d'outils"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="7" />
+    <IndexCacheEntry
+      Term="Barre d'actions:standard"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="15" />
+    <IndexCacheEntry
+      Term="Créer, bouton"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="19" />
+    <IndexCacheEntry
+      Term="Modifier:bouton"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="36" />
+    <IndexCacheEntry
+      Term="Supprimer, bouton"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="42" />
+    <IndexCacheEntry
+      Term="Dupliquer, bouton"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="48" />
+    <IndexCacheEntry
+      Term="Actualiser, bouton"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="54" />
+    <IndexCacheEntry
+      Term="Exporter vers Excel, bouton"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="61" />
+    <IndexCacheEntry
+      Term="Imprimer, bouton"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="71" />
+    <IndexCacheEntry
+      Term="Barre d'actions:importation"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="104" />
+    <IndexCacheEntry
+      Term="Barre d'actions:exportation"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="104" />
+    <IndexCacheEntry
+      Term="Importation:barre d'actions"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="104" />
+    <IndexCacheEntry
+      Term="Exportation:barre d'actions"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="104" />
+    <IndexCacheEntry
+      Term="Invite de commande, bouton"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="112" />
+    <IndexCacheEntry
+      Term="Lancer l'importation:en tâche de fond, bouton"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="142" />
+    <IndexCacheEntry
+      Term="Lancer l'exportation:en tâche de fond, bouton"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="142" />
+    <IndexCacheEntry
+      Term="Lancer l'importation:en mode distant, bouton"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="153" />
+    <IndexCacheEntry
+      Term="Lancer l'exportation:en mode distant, bouton"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="153" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXT" />
+  </Variables>
+  <FileConditions>
+    <Condition
+      Tag="Default.3Revised" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.3Revised" />
+  </AllConditions>
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Note.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

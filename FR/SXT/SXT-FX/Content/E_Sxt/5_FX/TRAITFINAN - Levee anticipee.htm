@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:lastBlockDepth="9" MadCap:lastHeight="5897" MadCap:lastWidth="606">
+    <head>
+        <link href="../../Resources/TableStyles/Warning.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT">
+            <MadCap:keyword term="Levée anticipée;Dénouement:anticipé" />Levée anticipée</h1>
+        <p>Lorsque vous gérez vos transactions, il arrive dans certains cas que la livraison des devises intervienne avant l'échéance de la transaction. Vous devez alors procéder à une levée anticipée de la transaction.</p>
+        <p>Dans son principe, la levée d'un contrat par anticipation consiste à mettre en place un swap comptant contre terme dans lequel la jambe au comptant a le même sens que l'opération d'origine et la jambe à terme, le sens inverse. Le module <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> vous permet de saisir des levées anticipées partielles et des levées anticipées totales.</p>
+        <p>La nature de la jambe au comptant générée est «&#160;Exerçant&#160;», celle de la jambe à terme «&#160;Exercice&#160;» et celle de la transaction initiale (celle qui a fait l'objet de la levée anticipée) «&#160;Exercée&#160;».</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Principes généraux des levées anticipées</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>La gestion des levées anticipées intervient dans un contexte bien défini, dont les limites sont fixées par plusieurs principes de marché. Le module <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> respecte ces contraintes, grâce aux règles de fonctionnement suivantes&#160;:</p>
+                <ul>
+                    <li class="PuceNiv1">La levée anticipée n'est possible que pour les transactions de change à terme sec. Vous ne pouvez pas lever des prêts, des emprunts ou des jambes à terme de swaps par anticipation.</li>
+                    <li class="PuceNiv1">Le module <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> respecte les conditions d'astreinte d'une levée anticipée de transaction. Il n'autorise en effet l'opération que si la date d'échéance n'est pas dépassée, si la validation <i>back office</i> a eu lieu et si la transaction n'a pas été dénouée.</li>
+                    <li class="PuceNiv1">La levée anticipée d'une transaction n'est pas autorisée si la transaction a déjà été totalement prorogée. En effet, l'opération initiale a été dénouée lors de la prorogation.</li>
+                </ul>
+                <p class="IndentPuceNiv1">Lorsque la prorogation est partielle, la partie non prorogée de l'opération initiale peut être levée par anticipation, à concurrence du montant non prorogé. Une opération peut donc faire l'objet de levées anticipées multiples jusqu'à concurrence du montant de l'opération initiale. Par ailleurs, la transaction résultant d'une prorogation ne peut être levée par anticipation. Dans ce cas, vous devez réaliser une opération de swap.</p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td class="TableStyle-Note-BodyB-Column1-Body1">
+                                <img src="../../Resources/Images/Assets/oh-Note.png" />
+                            </td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">Vous ne pouvez pas effectuer de levée anticipée ou de prorogation sur la jambe à terme d'une levée anticipée, mais vous pouvez dénouer cette dernière.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>Le schéma ci-après illustre les différentiels de montant d'une levée anticipée au cours du jour et d'une levée anticipée au cours historique.</p>
+        <p MadCap:targetName="schema">
+            <img src="../../Resources/Images/L_FX/leveeanticipee.png" class="SAGE_screenshot" />
+        </p>
+        <p><b>Types de levée</b>
+        </p>
+        <ul>
+            <li class="PuceNiv1">Lorsque vous procédez à une levée anticipée totale, la transaction initiale est entièrement soldée. Plus aucune action n'est donc possible sur cette transaction.</li>
+            <li class="PuceNiv1">Lorsque vous procédez à une levée anticipée partielle, le contrat initial continue d'être appliqué, pour le montant restant, comme s'il s'agissait d'un contrat de terme. Vous pouvez procéder à d'autres levées partielles, proroger le solde ou dénouer le contrat. Néanmoins, à la différence d'un contrat de terme non prorogé, vous ne pouvez plus modifier l'opération initiale.</li>
+        </ul>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead style="margin-top: 18pt;">
+                <MadCap:keyword term="Transaction de change:levée anticipée" />
+                <MadCap:dropDownHotspot>Lever une transaction de change par anticipation</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Dans la page de gestion des transactions de change à terme, double-cliquez sur la ligne correspondant à la transaction à sélectionner.</p>
+                <p>Pour plus d'informations sur l'accès à la page de gestion des transactions de change à terme, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="TRAITFINAN - Change a terme.htm" target="" title="" alt="" class="XrefSansTexte">Change à terme</MadCap:xref>.</MadCap:conditionalText></p>
+                <p MadCap:targetName="Capture 2">
+                    <img src="../../Resources/Images/L_FX/Change a terme 1.png" class="SAGE_screenshot" />
+                </p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Warning.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Warning" cellspacing="0">
+                    <col class="TableStyle-Warning-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Warning-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Warning-Body-Body1">
+                            <td class="TableStyle-Warning-BodyB-Column1-Body1">
+                                <img src="../../Resources/Images/Assets/oh-Warning.png" />
+                            </td>
+                            <td class="TableStyle-Warning-BodyA-Column2-Body1">Vous pouvez sélectionner uniquement les transactions de nature "Initial".</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p MadCap:conditions="">La transaction ne peut pas être levée par anticipation dans les situations suivantes, auquel cas un message d'erreur s'affiche&#160;:</p>
+                <ul>
+                    <li MadCap:conditions="" class="PuceNiv1">Les comptes à débiter et à créditer pour le dénouement de la transaction ne sont pas renseignés.</li>
+                </ul>
+                <p MadCap:conditions="" class="IndentPuceNiv1">Vous devez renseigner ces informations. Elles sont disponibles dans l'onglet <b>Dénouement</b> de la page de gestion de transaction de change à terme. Pour plus d'informations sur cet onglet, <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><a href="TRAITFINAN - Change a terme.htm#onglet_denouement">cliquez ici</a>.</MadCap:conditionalText></p>
+                <ul>
+                    <li class="PuceNiv1">La transaction n'a pas été validée en <i>back office</i>.</li>
+                </ul>
+                <p class="IndentPuceNiv1">Pour plus d'informations sur la validation <i>back office</i>, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="TRAITFINAN - Validation Back Office.htm" target="" title="" alt="" class="XrefSansTexte">Validation back&#160;office</MadCap:xref>.</MadCap:conditionalText></p>
+                <ul>
+                    <li class="PuceNiv1">La date d'échéance de la transaction est passée. Dans ce cas, vous devez utiliser la fonctionnalité de dénouement manuel simple.</li>
+                </ul>
+                <p>Si la transaction peut être levée par anticipation, la page de levée anticipée de la transaction s'affiche.</p>
+                <p MadCap:targetName="Capture 3">
+                    <img src="../../Resources/Images/L_FX/levee anticipee 1.png" class="SAGE_screenshot" />
+                </p>
+                <p>L'onglet <b>Caractéristiques</b> vous permet de saisir les informations de la levée anticipée&#160;: levée totale ou partielle, montant de la levée en cas de levée partielle, dates de l'opération de levée.</p>
+                <p>Le tableau suivant décrit les informations de l'en-tête et de l'onglet <b>Caractéristiques</b>.</p>
+                <p>Les champs saisissables sont indiqués dans la colonne intitulée M.</p>
+                <p>
+                    <MadCap:toggler targets="Tableau entete">Afficher le tableau</MadCap:toggler>
+                </p>
+                <table class="TableStyle-Tableau_standard" cellspacing="0" MadCap:targetName="Tableau entete" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');">
+                    <col class="TableStyle-Tableau_standard-Column-Column1" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Tableau_standard-Head-Header1">
+                            <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Champ</th>
+                            <th class="TableStyle-Tableau_standard-HeadF-Column2-Header1">Description</th>
+                            <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">M</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td colspan="3" class="TableStyle-Tableau_standard-BodyD-Column1-Body1">En-tête</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Achat/Vente</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Sens de la jambe à terme de la levée anticipée</p>
+                                <p class="tableau">Ce champ n'est pas modifiable.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Transaction</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Ce champ vous permet de sélectionner un type de transaction pour la jambe à terme de la levée anticipée en fonction du sens de la jambe défini.</p>
+                                <p class="tableau">Cliquez sur le bouton <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> pour afficher la liste des types de transaction disponibles puis, dans la fenêtre contextuelle qui s'affiche, double-cliquez sur une ligne pour la sélectionner.</p>
+                                <p class="tableau">Le code et la description du type de transaction sélectionné s'affichent dans le champ <b>Transaction</b>.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" />
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">N°</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Identifiant de la transaction</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">N° rattach.</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Ce champ facultatif vous permet de regrouper des prévisions commerciales et des transactions de change sous un numéro de rattachement commun. Ce numéro vous permet de déterminer l'affectation des couvertures relevant d'un type d'activité, d'une zone géographique, d'un projet, etc. Il peut être utilisé ultérieurement comme critère de traitement comptable ou de filtre selon votre politique de couverture (micro ou macro-couverture). Pour plus d'informations sur les numéros de rattachement, consultez la documentation du module <MadCap:variable name="Localization.SXT_Setup" style="font-weight: bold;"></MadCap:variable>.</p>
+                                <p class="tableau">Pour sélectionner un numéro de rattachement, utilisez le bouton <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;"></img> comme expliqué précédemment. Le numéro de rattachement est affecté à la jambe au comptant et à la jambe à terme de la levée anticipée.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" />
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Nature</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Nature de la jambe à terme de la levée anticipée</p>
+                                <p class="tableau">Dans le cas d'une levée anticipée, la nature est toujours «&#160;Initiale&#160;».</p>
+                                <p class="tableau">Pour plus d'informations sur les natures des transactions de change, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="ANNEXE - Natures de transaction.htm" target="" title="" alt="" class="XrefSansTexte">Natures de transactions de change</MadCap:xref>.</MadCap:conditionalText></p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="3">Zone <b>Analyses FX</b></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Dossier</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Numéro de dossier</p>
+                                <p class="tableau">Pour plus d'informations sur les dossiers, consultez la documentation du module <MadCap:variable name="Localization.SXT_Setup" style="font-weight: bold;"></MadCap:variable>.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Portefeuille</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Sélectionnez un numéro de portefeuille en utilisant le bouton <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> comme expliqué précédemment.</p>
+                                <p class="tableau">Pour plus d'informations sur les portefeuilles, consultez la documentation du module <MadCap:variable name="Localization.SXT_Setup" style="font-weight: bold;" />.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" />
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="3">Zone <b>Intervenants</b></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Société</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Société donneuse d'ordre</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Contrepartie</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Contrepartie avec laquelle la transaction a été conclue</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Contact</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Saisissez le nom du représentant de la contrepartie. Si un nom a été défini lors du paramétrage de la contrepartie, cette zone est automatiquement renseignée. Vous pouvez cependant modifier le nom qui sera repris dans le courrier confirmant la transaction.</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" />
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="3">Zone <b>Général</b></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Mode Saisie</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Mode de saisie et de calcul des montants et du cours</p>
+                                <p class="tableau">La valeur est positionnée par défaut sur <b>Saisir le cours</b> pour la levée anticipée et n'est pas modifiable. En cas de levée anticipée partielle, vous pouvez modifier le montant de la transaction dans la devise principale et le cours de la devise. La contre-valeur est calculée automatiquement.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Levée anticipée partielle</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Activez cette case à cocher en cas de levée anticipée partielle et non totale.</p>
+                                <p class="tableau">Si vous activez cette case à cocher, en fonction du mode de saisie choisi (comme expliqué précédemment), le champ <b>Montant du dénouement</b> est activé.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" />
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Montant du dénouement</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Les deux champs affichent la devise principale et le montant de la levée anticipée exprimé dans la devise principale.</p>
+                                <p class="tableau">La devise principale n'est pas modifiable.</p>
+                                <p class="tableau">Si vous avez activé la case à cocher <b>Levée anticipée partielle</b>, vous pouvez diminuer le montant affiché en saisissant une valeur ou en utilisant la calculatrice.<MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"> Pour plus d'informations sur l'utilisation de la calculatrice, <a href="ContextualTopics/Calculatrice.htm" target="_popup" class="Popup">cliquez ici</a>.</MadCap:conditionalText></p>
+                                <p class="tableau">Lorsque vous modifiez ce montant, les montants indiqués dans les champs <b>Contre-valeur dénouement</b>, <b>Montant restant</b> et <b>Contre-valeur restante</b> sont automatiquement recalculés.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" />
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Contre-valeur dénouement</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Devise de contre-valeur et montant de la levée anticipée exprimé dans la devise de contre-valeur</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Montant restant</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Montant de la transaction initiale restant après déduction du montant levé par anticipation</p>
+                                <p class="tableau">Ce montant est nul en cas de levée anticipée totale.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Contre-valeur restante</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Montant de la contre-valeur restant après déduction du montant levé par anticipation</p>
+                                <p class="tableau">Ce montant est nul en cas de levée anticipée totale.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Date TRN dénouement</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Date de mise en place de la levée anticipée</p>
+                                <p class="tableau">Cette date alimentera la date de transaction de la jambe au comptant et de la jambe à terme.</p>
+                                <p class="tableau">Ce champ est défini par défaut à la date du jour. Vous pouvez remplacer cette date par la date du jour suivant, soit en saisissant la date dans le champ, soit en utilisant le calendrier. <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">Pour plus d'informations sur l'utilisation du calendrier, <a href="ContextualTopics/Calendrier.htm" target="_popup" class="Popup">cliquez ici</a>.</MadCap:conditionalText></p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" />
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Date de valeur dénouement</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Date de livraison de la jambe au comptant de la levée anticipée</p>
+                                <p class="tableau">Ce champ n'alimente pas la jambe au comptant de la levée anticipée.</p>
+                                <p class="tableau">Cette date correspond à la date à laquelle les devises levées sont effectivement livrées. Elle tombe deux jours après la date de la levée anticipée. Vous pouvez la modifier à la date de la levée anticipée ou à une date ultérieure.</p>
+                                <p class="tableau">Pour modifier cette valeur, saisissez une date dans le champ ou utilisez le calendrier.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" />
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Date d'échéance dénouement</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Date d'échéance de la jambe à terme de la levée anticipée</p>
+                                <p class="tableau">Ce champ n'alimente pas la jambe au comptant de la levée anticipée.</p>
+                                <p class="tableau">Il n'est pas modifiable. Cette date est définie par défaut à partir de la date de livraison de la transaction initiale.</p>
+                                <p class="tableau">Si vous modifiez la date de livraison de la jambe au comptant à une date ultérieure, cette date est mise à jour et correspond à la date de livraison de la jambe au comptant.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Date de livraison dénouement</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Date de livraison de la jambe au comptant et de la jambe à terme de la levée anticipée</p>
+                                <p class="tableau">Ce champ n'est pas modifiable.</p>
+                                <p class="tableau">Cette date est définie par défaut à la date de livraison de la transaction initiale. Elle est recalculée en même temps que la date d'échéance de la jambe à terme et positionnée deux jours après cette dernière.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="3">
+                                <p colspan="4" class="tableau">Zone <b>Cours</b></p>
+                                <p colspan="4" class="tableau" style="font-style: normal;">Cette zone affiche les informations des cours de change.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Cours</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Sélectionnez dans ce champ le type de taux de change à appliquer à la jambe à terme créée pour annuler la transaction initiale.</p>
+                                <p class="tableau"><b>Cours marché</b>&#160;: le cours proposé par défaut est celui du cours comptant du jour.</p>
+                                <p class="tableau"><b>Cours historique</b>&#160;: le cours comptant de référence affiché lors d’une prorogation est le cours à terme de la transaction initiale.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" />
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Cours jambe au comptant</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Cours de change des devises pour la jambe au comptant de la levée anticipée</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" />
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Cours au comptant jambe terme</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Cours de change au comptant des devises pour la jambe à terme de la levée anticipée</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" />
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Points de terme</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Différence en points entre le cours de change à terme et le cours de change au comptant pour la jambe à terme de la levée anticipée</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" />
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Cours à terme</td>
+                            <td class="TableStyle-Tableau_standard-BodyC-Column2-Body1">Cours de change à terme des devises pour la jambe à terme de la levée anticipée</td>
+                            <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">
+                                <img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Les onglets <b>Cours croisé</b>, <b>Dénouement</b>, <b>Back Office</b> et <b>Zones utilisateur</b> sont identiques à ceux d'une transaction de change à terme. Pour plus d'informations sur ces onglets, <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><a href="TRAITFINAN - Change a terme.htm#onglet_ccroise">cliquez ici</a>.</MadCap:conditionalText></p>
+                <p>Dans ces onglets, les informations suivantes sont modifiables&#160;: coordonnées bancaires de dénouement, informations d'affectation comptable et remarques. Elles sont alimentées par défaut avec les valeurs définies pour la transaction d'origine.</p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td class="TableStyle-Note-BodyB-Column1-Body1">
+                                <img src="../../Resources/Images/Assets/oh-Note.png" />
+                            </td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">Si vous avez activé l'édition automatique des tickets d'opération et des ordres de paiement, un ticket d'opération et un ordre de paiement sont édités automatiquement lorsque vous validez la levée anticipée. L'ordre de paiement concerne la jambe au comptant de la levée. Pour plus d'informations sur la configuration des éditions automatiques, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="PARAM - Editions auto.htm" target="" title="" alt="" class="XrefSansTexte">Éditions automatiques</MadCap:xref>.</MadCap:conditionalText></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Solde de l'opération</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Pour connaître le solde d'une transaction ayant fait l'objet d'une levée anticipée, consultez le montant en position de la transaction dans le journal des transactions de change. Pour plus d'informations sur cette édition, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="EDITION - Journal TRN change.htm" target="" title="" alt="" class="XrefSansTexte">Journal des transactions de change</MadCap:xref>.</MadCap:conditionalText></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Modification des transactions</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>La transaction initiale et la jambe au comptant de la levée anticipée ne peuvent pas être modifiées après la levée anticipée.</p>
+                <p>Les informations suivantes de la jambe à terme de la levée anticipée sont modifiables&#160;tant que la jambe n'est pas dénouée&#160;:</p>
+                <ul>
+                    <li class="PuceNiv1">le numéro de rattachement,</li>
+                    <li class="PuceNiv1">le numéro de portefeuille,</li>
+                    <li class="PuceNiv1">le nom du contact de la contrepartie,</li>
+                    <li class="PuceNiv1">les comptes bancaires et les dates de valeur de dénouement,</li>
+                    <li class="PuceNiv1">la référence,</li>
+                    <li class="PuceNiv1">les informations d'affectation comptable,</li>
+                    <li class="PuceNiv1">les remarques.</li>
+                </ul>
+                <p>Pour plus d'informations sur ces champs, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="TRAITFINAN - Change a terme.htm#top" target="" title="" alt="" class="XrefSansTexte">Change à terme</MadCap:xref>.</MadCap:conditionalText></p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td class="TableStyle-Note-BodyB-Column1-Body1">
+                                <img src="../../Resources/Images/Assets/oh-Note.png" />
+                            </td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">Si une des informations principales de la levée anticipée (par exemple, le montant) est erronée, la prorogation doit être supprimée, puis correctement ressaisie.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Exemple</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>Soit un achat à terme au 30&#160;novembre. Le 30 septembre, vous levez par anticipation cette opération. Vous procédez donc à un achat au comptant ayant valeur au 30&#160;septembre, puis vous concluez une vente à terme au 30&#160;novembre pour contre-passer votre achat à terme initial.
+</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Suppression des transactions et annulation de la levée anticipée</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>La transaction initiale ne peut pas être supprimée après la levée anticipée.</p>
+                <p>Vous pouvez supprimer la jambe au comptant ou la jambe à terme de la levée anticipée&#160;: la suppression d'une des deux jambes entraîne la suppression automatique de l'autre jambe et la nature de la transaction d'origine passe de «&#160;Exercée&#160;» à «&#160;Initiale&#160;». La levée anticipée est alors annulée.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Multimedia/HT_BankDelegations/SBD_Dashboards.mp4" />
+    <Link
+      Url="Content/Resources/Images/HT_BankDelegations/fullscreen.png" />
+    <Link
+      Url="../videos/fr_FR/SBD_Dashboards/index.html" />
+    <Link
+      Url="Content/Resources/Multimedia/HT_BankDelegations/SageBankDelegations.v3.NewInterface_FR.mp4" />
+    <Link
+      Url="../videos/fr_FR/SBD_NouvelleInterface/nouvelleinterfaceSBD.html" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Multimedia/HT_BankDelegations/SBD_Dashboards.mp4" />
+    <Link
+      Url="Content/Resources/Images/HT_BankDelegations/fullscreen.png" />
+    <Link
+      Url="../videos/fr_FR/SBD_Dashboards/index.html" />
+    <Link
+      Url="Content/Resources/Multimedia/HT_BankDelegations/SageBankDelegations.v3.NewInterface_FR.mp4" />
+    <Link
+      Url="../videos/fr_FR/SBD_NouvelleInterface/nouvelleinterfaceSBD.html" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXA_BankDelegations" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

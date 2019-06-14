@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>&#160;</head>
+    <body>
+        <p>La procédure étant différente pour chaque type de fonction, consultez les <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubriques</MadCap:conditionalText> correspondantes&#160;:</p>
+        <ul>
+            <li class="PuceNiv1" MadCap:conditions="Default.ScreenOnly">Duplication de structure d'importation d'opérations commerciales</li>
+            <li class="PuceNiv1" MadCap:conditions="Default.ScreenOnly">Duplication de structure d'exportation de transactions de change</li>
+            <li class="PuceNiv1" MadCap:conditions="Default.ScreenOnly"><a href="../../../E_Sxt/3_Payment/TRAITFINAN - Modèles de saisie.htm#dupliquer_trn">Duplication de transaction de change au comptant</a>
+            </li>
+            <li class="PuceNiv1" MadCap:conditions="Default.ScreenOnly"><a href="../../../E_Sxt/3_Payment/TRAITFINAN - Selection.htm#dupliquer_trn2">Duplication de transaction de change à terme</a>
+            </li>
+            <li class="PuceNiv1" MadCap:conditions="Default.ScreenOnly"><a href="../../../E_Sxt/3_Payment/TRAITFINAN - Selection des transactions.htm#dupliquer_swp_cptrm">Duplication de transaction de swap comptant contre terme</a>
+            </li>
+            <li class="PuceNiv1" MadCap:conditions="Default.ScreenOnly"><a href="../../../E_Sxt/3_Payment/TRAITFINAN - Selection des transactions.htm#dupliquer_swp_trmtrm">Duplication de transaction de swap terme contre terme</a>
+            </li>
+        </ul>
+    </body>
+</html>

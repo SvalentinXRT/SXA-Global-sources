@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles.css" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Barre outils page.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton Premiere page.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton Page precedente.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton Page suivante.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton Derniere page.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Barre outil Zoom.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton Zoom moins.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton Zoom plus.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/BarredoutilsRecherche2.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Barre outils langues.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Barre outils langues developpee.jpg" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles.css" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Barre outils page.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton Premiere page.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton Page precedente.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton Page suivante.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton Derniere page.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Barre outil Zoom.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton Zoom moins.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton Zoom plus.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/BarredoutilsRecherche2.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Barre outils langues.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Barre outils langues developpee.jpg" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="Editions:consultation"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="6" />
+    <IndexCacheEntry
+      Term="Editions:navigation"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="9" />
+    <IndexCacheEntry
+      Term="Editions:zoom"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="42" />
+    <IndexCacheEntry
+      Term="Recherche textuelle:éditions"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="57" />
+    <IndexCacheEntry
+      Term="Editions:recherche textuelle"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="57" />
+    <IndexCacheEntry
+      Term="Editions:langue"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="83" />
+    <IndexCacheEntry
+      Term="Langue des éditions"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="83" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions>
+    <Condition
+      Tag="Default.3Revised" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.3Revised" />
+  </AllConditions>
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Tableau standard.css" />
+    <Url
+      Source="Content/Resources/Stylesheets/MainStyles.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

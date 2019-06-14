@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="rattach" MadCap:conditions="Default.3Revised" MadCap:lastBlockDepth="6" MadCap:lastHeight="1179" MadCap:lastWidth="609">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT">
+            <MadCap:keyword term="Apuration des prévisions commerciales;Prévision commerciale:apuration;Opération commerciale:apuration" />Apuration</h1>
+        <p>La fonction d'apuration des prévisions diffère selon le mode de mise à jour des opérations commerciales choisi lors du paramétrage. Pour plus d'informations sur la configuration du mode de mise à jour des opérations commerciales, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="TRAITCOMM - Operations commerciales.htm" target="" title="" alt="" class="XrefSansTexte">Opérations commerciales</MadCap:xref>.</MadCap:conditionalText>&#160;</p>
+        <ul>
+            <li class="PuceNiv1">En mode saisie détaillée avec rapprochement, les prévisions sont apurées automatiquement, dès que le rapprochement bancaire est effectué. L'apuration manuelle n'est pas disponible pour ce mode de gestion.</li>
+            <li class="PuceNiv1">En mode saisie globale avec décrémentation ou saisie globale avec décrémentation budgétaire, le processus d'apuration dépend de la disponibilité ou non de comptes en devises. L'apuration peut alors être automatique ou manuelle.</li>
+        </ul>
+        <ul>
+            <li class="PuceNiv2">Lorsqu'il existe des comptes en devises, les opérations commerciales sont apurées automatiquement dès que le rapprochement bancaire est effectué. L'apuration globale manuelle reste cependant disponible.</li>
+            <li class="PuceNiv2">Lorsqu'il n'existe pas de compte en devises, l'apuration manuelle doit être utilisée. En effet, ce cas de figure ne permet pas de rétrograder la position de change par les paiements arrivant sur les comptes en monnaie locale. L'apuration manuelle peut être réalisée selon deux procédures décrites ci-après.</li>
+        </ul>
+        <ul>
+            <li class="PuceNiv3"><b>Apuration globale</b> : elle permet d'apurer en totalité une ou plusieurs prévisions pour l'intégralité de leur montant.</li>
+            <li class="PuceNiv3"><b>Apuration partielle</b> : elle permet d'apurer une partie seulement de la prévision commerciale concernée. Le solde reste alors en position dans le module <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" />.</li>
+        </ul>
+        <p class="SautLigne">	L'apuration manuelle peut être utilisée également lorsqu'il est nécessaire d'apurer une prévision résiduelle. Dans ce cas&#160;:</p>
+        <ul>
+            <li class="PuceNiv1">l'apuration est globale (la totalité de la prévision est apurée),</li>
+            <li class="PuceNiv1">l'apuration doit être effectuée opération par opération, c'est-à-dire qu'elle n'est effective que sur un montant unique et déterminé. Il ne s'agit à aucun moment d'apurer plusieurs opérations commerciales pour un montant total.</li>
+        </ul>
+        <p class="SautLigneAvantEtAprès">Les prévisions sont systématiquement apurées sur la base du cours comptant du jour. Il est donc important que les cours des devises soient tenus à jour afin que les résultats de change sur les opérations commerciales soient correctement calculés.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Consulter la liste des opérations commerciales apurées ou non apurées</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">Dans la page de gestion des opérations commerciales, cliquez sur le bouton <b>Modifier</b> dans la barre d'outils de filtres.</li>
+                </ol>
+                <p class="IndentPuceNiv1">La page de modification du filtre actuel s'affiche.</p>
+                <p MadCap:targetName="Capture_filt1">
+                    <img src="../../Resources/Images/L_FX/Filtre prevision 2.png" class="SAGE_screenshot" />
+                </p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Cliquez sur l'onglet <b>Avancé</b>.</li>
+                </ol>
+                <p MadCap:targetName="Capture_filt2">
+                    <img src="../../Resources/Images/L_FX/Filtre prevision 3.png" class="SAGE_screenshot" />
+                </p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Dans la zone <b>Statut</b>, activez la case à cocher&#160;:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Ouverte</b> pour sélectionner les opérations commerciales non apurées,</li>
+                    <li class="PuceNiv2"><b>Apurée partiellement</b> pour sélectionner les opérations commerciales apurées partiellement,</li>
+                    <li class="PuceNiv2"><b>Fermée</b> pour sélectionner les opérations commerciales apurées en totalité.</li>
+                </ul>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Cliquez sur le bouton <b>OK</b> dans la barre d'actions.</li>
+                </ol>
+                <p class="IndentPuceNiv1SautLigne">La page de gestion des opérations commerciales est réaffichée avec la liste des opérations commerciales actualisée en fonction de vos critères de filtrage sur le statut des opérations commerciales.</p>
+                <p class="IndentPuceNiv1SautLigne">Pour plus d'informations sur la configuration des filtres de sélection des opérations commerciales, <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><a href="TRAITCOMM - Operations commerciales.htm#filtre_opcomm">cliquez ici</a>.</MadCap:conditionalText></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

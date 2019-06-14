@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="785" MadCap:lastWidth="544">
+    <head>
+        <link href="../../TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p MadCap:conditions="">Cette fonction vous permet de répartir un montant sur plusieurs natures budgétaires.</p>
+        <p class="SautLigne">Pour y accéder&#160;:</p>
+        <ul style="list-style-type: square;">
+            <li class="PuceNiv1">si vous êtes dans la page de l'Assistant Règle de gestion, sélectionnez l'option <b>Répartition analytique</b> dans la liste déroulante de la zone <b>Sélection de la fonction</b>.</li>
+            <li class="PuceNiv1">si vous êtes dans la page de saisie de budget&#160;:</li>
+            <li class="PuceNiv2">sélectionnez une cellule, cliquez sur le bouton <b>Répartitions </b>dans la barre d'actions, puis, dans le menu contextuel qui s'affiche, sélectionnez l'option <b>Répartition analytique</b>,</li>
+            <li class="PuceNiv2">ou cliquez avec le bouton droit de la souris sur une cellule et sélectionnez l'option <b>Répartition analytique</b>.</li>
+        </ul>
+        <p class="SautLigne">La page de saisie des paramètres de la fonction s'affiche.</p>
+        <p MadCap:targetName="Capture Repartition analytique">
+            <img src="../../Images/L_Liquidity/Assistant de macro Repartition analytique 1.jpg" class="SAGE_screenshot" />
+        </p>
+        <ol>
+            <li class="PuceNumNiv1">Dans la première ligne du tableau qui suit, saisissez un code de nature budgétaire dans la colonne <b>Code budgétaire</b> et une valeur de pourcentage dans la colonne <b>Pourcentage</b>.<br />Par exemple, si vous saisissez  «&#160;VENA&#160;» dans la colonne <b>Code budgétaire</b> et «&#160;60&#160;» dans la colonne <b>Pourcentage</b>, 60%&#160;du montant sera affecté à la nature budgétaire ayant «&#160;VENA&#160;» pour code.</li>
+        </ol>
+        <p class="IndentPuceNiv1">Pour plus d'informations sur la définition d'une période,<MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><a href="../../../E_Sxt/2_Liquidity/ContextualTopics/Definir une date.htm" target="_popup" class="Popup">cliquez ici</a>.</MadCap:conditionalText></p>
+        <ol MadCap:continue="true">
+            <li class="PuceNumNiv1">Cliquez sur le bouton <img src="../../Images/L_Liquidity/Bouton signe plus.JPG"></img> pour ajouter une ligne au tableau.</li>
+            <li class="PuceNumNiv1">Dans la ligne qui suit, saisissez une autre valeur de période et une autre valeur de pourcentage.</li>
+            <li class="PuceNumNiv1">Répétez les étapes&#160;3 et&#160;4 autant de fois que nécessaire pour ajouter d'autres périodes à la répartition.</li>
+        </ol>
+        <table style="mc-table-style: url('../../TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1">
+                        <img src="../../Images/Assets/oh-Note.png" />
+                    </td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">Vous pouvez éclater moins de 100% du montant au total.</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

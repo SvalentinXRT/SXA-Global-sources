@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlobalImportedFilesCache
+  SavedSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Output/SVALENTIN/Temporary/GlobalImportedFilesSet v.1.xml">
+  <ImportedMap>
+    <Map
+      Local="Content/Resources/Images/10_SelectionValidator.png"
+      Remote="../../Global/Content/Resources/MasterPages/OtherTopics.flmsp" />
+    <Map
+      Local="Content/Resources/Images/11_SelectionUtilisateurs.png"
+      Remote="../../Global/Content/Resources/Snippets/GBL_Home.InfoSection.flsnp" />
+    <Map
+      Local="Content/Resources/Images/12_RequetesDeValidation.png"
+      Remote="../../Global/Content/Resources/Snippets/GBL_Note.flsnp" />
+    <Map
+      Local="Content/Resources/Images/13_MesRequetesDeValidation.png"
+      Remote="../../Global/Content/Resources/Snippets/GBL_Video.flsnp" />
+    <Map
+      Local="Content/Resources/Images/2_ModelesLettres.png"
+      Remote="../../Global/Content/Resources/Snippets/GBL_Warning.flsnp" />
+    <Map
+      Local="Content/Resources/Images/3_CreationRegleValidation.png"
+      Remote="../../Global/Content/Resources/Stylesheets/MainStyles.css" />
+    <Map
+      Local="Content/Resources/Images/4_Rubrique1Validation.png"
+      Remote="../../Global/Content/Resources/TableStyles/Note.css" />
+    <Map
+      Local="Content/Resources/Images/5_Rubrique2Validation.png"
+      Remote="../../Global/Content/Resources/TableStyles/Tableau standard bordures.css" />
+    <Map
+      Local="Content/Resources/Images/6_ValidationSelectionSocietes1.png"
+      Remote="../../Global/Content/Resources/TableStyles/Tableau standard.css" />
+    <Map
+      Local="Content/Resources/Images/7_ValidationSelectionSocietes2.png"
+      Remote="../../Global/Content/Resources/TableStyles/Warning.css" />
+    <Map
+      Local="Content/Resources/Images/8_Rubrique3Validation.png"
+      Remote="../../Global/Project/Skins/HTML5 - Top Navigation.flskn" />
+    <Map
+      Local="Content/Resources/Images/9_RequetesObsoletes.png"
+      Remote="../../Global/Project/Skins/LangPicker.flskn" />
+    <Map
+      Local="Content/Resources/Images/bg.jpg"
+      Remote="../../Global/Project/Skins/SearchHome.flskn" />
+    <Map
+      Local="Content/Resources/Images/circle_green.gif"
+      Remote="../../Global/Project/Skins/SearchResults.flskn" />
+    <Map
+      Local="Content/Resources/Images/circle_green.png"
+      Remote="../../Global/Project/Skins/SearchTopics.flskn" />
+    <Map
+      Local="Content/Resources/Images/Collaborateur.png"
+      Remote="../../Global/Project/Skins/SideMenu.flskn" />
+    <Map
+      Local="Content/Resources/Images/Compte.png"
+      Remote="../../Global/Project/Skins/TopicToolbar.flskn" />
+    <Map
+      Local="Content/Resources/Images/ConfigurerFiltre.png"
+      Remote="../../Global/Project/VariableSets/General.flvar" />
+    <Map
+      Local="Content/Resources/Images/Creation masse - modele 1 signature.png"
+      Remote="../../Global/Project/VariableSets/Localization.flvar" />
+    <Map
+      Local="Content/Resources/Images/Creation masse - modele 2 signatures.png"
+      Remote="../../Global/Content/Resources/Images/Assets/circle_green.gif" />
+    <Map
+      Local="Content/Resources/Images/Creation unitaire.png"
+      Remote="../../Global/Content/Resources/Images/Assets/oh-Note.png" />
+    <Map
+      Local="Content/Resources/Images/CreationUnitaire.png"
+      Remote="../../Global/Content/Resources/Images/Assets/oh-Warning.png" />
+    <Map
+      Local="Content/Resources/Images/CreerModeleDelegation.png"
+      Remote="../../Global/Content/Resources/Images/Assets/HeroImages/HeroImage-1.jpg" />
+    <Map
+      Local="Content/Resources/Images/CreerModeleDeuxSignatures.png"
+      Remote="../../Global/Content/Resources/Images/Assets/HeroImages/HeroImage-2.jpg" />
+    <Map
+      Local="Content/Resources/Images/CreerModeleDeuxSignatures02.png"
+      Remote="../../Global/Content/Resources/Images/Assets/HeroImages/Homepage-Bottom.png" />
+    <Map
+      Local="Content/Resources/Images/CreerModeleUneSignature.png"
+      Remote="../../Global/Content/Resources/Images/Assets/HeroImages/Homepage-Top.png" />
+    <Map
+      Local="Content/Resources/Images/CreerModeleUneSignature02.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-down-black.png" />
+    <Map
+      Local="Content/Resources/Images/DEFVIEW.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-down-gray.png" />
+    <Map
+      Local="Content/Resources/Images/Delegants.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-left-black.png" />
+    <Map
+      Local="Content/Resources/Images/Designer 4.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-left-gray.png" />
+    <Map
+      Local="Content/Resources/Images/Designer 5.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-right-black.png" />
+    <Map
+      Local="Content/Resources/Images/Designer 6.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-right-gray.png" />
+    <Map
+      Local="Content/Resources/Images/Designer1.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-up-black.png" />
+    <Map
+      Local="Content/Resources/Images/Designer2.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-up-gray.png" />
+    <Map
+      Local="Content/Resources/Images/Designer3.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Clients-black.png" />
+    <Map
+      Local="Content/Resources/Images/DesignerLettres.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Clients-gray.png" />
+    <Map
+      Local="Content/Resources/Images/DesignerVariables.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Clients-white.png" />
+    <Map
+      Local="Content/Resources/Images/filtre 1.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Contact-black.png" />
+    <Map
+      Local="Content/Resources/Images/Filtre 2.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Contact-gray.png" />
+    <Map
+      Local="Content/Resources/Images/Filtre 3.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Contact-white.png" />
+    <Map
+      Local="Content/Resources/Images/Filtre 4.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/FAQs-black.png" />
+    <Map
+      Local="Content/Resources/Images/FiltreRapide.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/FAQs-gray.png" />
+    <Map
+      Local="Content/Resources/Images/FlowChart General.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/FAQs-white.png" />
+    <Map
+      Local="Content/Resources/Images/fullscreen.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Hello-black.png" />
+    <Map
+      Local="Content/Resources/Images/GenererLettresParRegles.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Hello-gray.png" />
+    <Map
+      Local="Content/Resources/Images/GroupeCollaborateurs.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Hello-white.png" />
+    <Map
+      Local="Content/Resources/Images/Lettre brouillon.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-black.png" />
+    <Map
+      Local="Content/Resources/Images/Lettres Brouillon.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-gray.png" />
+    <Map
+      Local="Content/Resources/Images/MenuCreerModele1Signature.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-white.png" />
+    <Map
+      Local="Content/Resources/Images/MenuCreerModele2Signatures.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Notes-black.png" />
+    <Map
+      Local="Content/Resources/Images/Modele lettres Affichage.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Notes-gray.png" />
+    <Map
+      Local="Content/Resources/Images/ModeleDelegation.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Notes-white.png" />
+    <Map
+      Local="Content/Resources/Images/ModeVisualisation.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/PDFs-black.png" />
+    <Map
+      Local="Content/Resources/Images/oh-Note.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/PDFs-gray.png" />
+    <Map
+      Local="Content/Resources/Images/oh-Warning.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/PDFs-white.png" />
+    <Map
+      Local="Content/Resources/Images/Prep lettre - delegation.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Search-black.png" />
+    <Map
+      Local="Content/Resources/Images/Prep lettre - regle generation.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Search-gray.png" />
+    <Map
+      Local="Content/Resources/Images/Quick Default Filter.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Search-white.png" />
+    <Map
+      Local="Content/Resources/Images/RegleGenerationLettre.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Services-black.png" />
+    <Map
+      Local="Content/Resources/Images/Regles de generation.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Services-gray.png" />
+    <Map
+      Local="Content/Resources/Images/Scope Pouvoirs Bancaires V1.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Services-white.png" />
+    <Map
+      Local="Content/Resources/Images/Slide 2.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/SharedFiles-black.png" />
+    <Map
+      Local="Content/Resources/Images/Slide 3.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/SharedFiles-gray.png" />
+    <Map
+      Local="Content/Resources/Images/Slide 4.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/SharedFiles-white.png" />
+    <Map
+      Local="Content/Resources/Images/Slide 5.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Solutions-black.png" />
+    <Map
+      Local="Content/Resources/Images/Slide1.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Solutions-gray.png" />
+    <Map
+      Local="Content/Resources/Images/TypeOperation.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Solutions-white.png" />
+    <Map
+      Local="Content/Resources/Images/TypeSignature.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Tips-black.png" />
+    <Map
+      Local="Content/Resources/Images/V3_EditionReglesGeneration.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Tips-gray.png" />
+    <Map
+      Local="Content/Resources/Images/WorkflowLettre.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Tips-white.png" />
+    <Map
+      Local="Content/Resources/Multimedia/NewVideo.mp4"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/VideosImages-black.png" />
+    <Map
+      Local="Content/Resources/Multimedia/SageBankDelegations.v3.NewInterface_FR.mp4"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/VideosImages-gray.png" />
+    <Map
+      Local="Content/Resources/Multimedia/SBD_CreationDelegations.mp4"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/MainIcons/VideosImages-white.png" />
+    <Map
+      Local="Content/Resources/Multimedia/SBD_Dashboards.mp4"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-announcement.png" />
+    <Map
+      Local="Content/Resources/Multimedia/SBD_Filtres.mp4"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-announcement@2x.png" />
+    <Map
+      Local="Content/Resources/Multimedia/SBD_ModelesDelegations.mp4"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-announcement@3x.png" />
+    <Map
+      Local="Content/Resources/Multimedia/SBD_RegleGeneration.mp4"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-announcement@4x.png" />
+    <Map
+      Local="Content/Resources/Snippets/Homepage_Title.flsnp"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-devices@4x.png" />
+    <Map
+      Local="Content/Resources/Snippets/SAGE_Note.flsnp"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-doc-pdf@2x.png" />
+    <Map
+      Local="Content/Resources/Snippets/SAGE_Video.flsnp"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-doc-pdf@3x.png" />
+    <Map
+      Local="Content/Resources/Snippets/SAGE_Warning.flsnp"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-doc-pdf@4x.png" />
+    <Map
+      Local="Content/Resources/Stylesheets/TopNvg_OH5_Styles.css"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-doc-pdf@4x_BrillantGreen.png" />
+    <Map
+      Local="Content/Resources/Stylesheets/fonts/Foco.svg"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-help@4x.png" />
+    <Map
+      Local="Content/TableStyles/Note.css"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@2x.png" />
+    <Map
+      Local="Content/TableStyles/Tableau standard bordures.css"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@3x.png" />
+    <Map
+      Local="Content/TableStyles/Tableau standard.css"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x.png" />
+    <Map
+      Local="Content/TableStyles/Warning.css"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x_AccessibleGreen.png" />
+    <Map
+      Local="Content/Topics/CreationDelegation.htm"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x_BrillantGreen.png" />
+    <Map
+      Local="Content/Topics/CreationIntro.htm"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-logo-youtube@3x.png" />
+    <Map
+      Local="Content/Topics/CreationMasse.htm"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x.png" />
+    <Map
+      Local="Content/Topics/CreationUnitaire.htm"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x_AccessibleGreen.png" />
+    <Map
+      Local="Content/Topics/Filtres.htm"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x_BrillantGreen.png" />
+    <Map
+      Local="Content/Topics/Modele lettre.htm"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-newspaper@2x.png" />
+    <Map
+      Local="Content/Topics/ParamComplementaire.htm"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-newspaper@3x.png" />
+    <Map
+      Local="Content/Topics/Parametrage.htm"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-newspaper@4x.png" />
+    <Map
+      Local="Content/Topics/ParamIntro.htm"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-newspaper@4x_BrillantGreen.png" />
+    <Map
+      Local="Content/Topics/PreparationLettre.htm"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-qna@3x.png" />
+    <Map
+      Local="Content/Topics/ReglesGeneration.htm"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-qna@4x.png" />
+    <Map
+      Local="Content/Topics/SecuriteDonnees.htm"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-qna@4x_BrillantGreen.png" />
+    <Map
+      Local="Content/Topics/V3_CreationCircuitValidation.htm"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-quick-help@2x.png" />
+    <Map
+      Local="Content/Topics/V3_CreationCircuitValidation_Notification.htm"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-quick-help@3x.png" />
+    <Map
+      Local="Content/Topics/V3_CreationCircuitValidation_SuiviRequetes.htm"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-quick-help@4x.png" />
+    <Map
+      Local="Content/Topics/V3_EditionReglesGeneration.htm"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-quick-help@4x_BrillantGreen.png" />
+    <Map
+      Local="Content/Topics/V3_NouvelleInterface.htm"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-announcement.png" />
+    <Map
+      Local="Content/Topics/__OnlineHelp_Empty.htm"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-announcement@2x.png" />
+    <Map
+      Local="Project/VariableSets/MyVariables.flvar"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-announcement@3x.png" />
+    <Map
+      Local="Content/Resources/MasterPages/OtherTopics.flmsp"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-doc-pdf@2x.png" />
+    <Map
+      Local="Content/Resources/Snippets/GBL_Home.InfoSection.flsnp"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-help@2x.png" />
+    <Map
+      Local="Content/Resources/Snippets/GBL_Note.flsnp"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-knowledge-base@2x.png" />
+    <Map
+      Local="Content/Resources/Snippets/GBL_Video.flsnp"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-logo-youtube@2x.png" />
+    <Map
+      Local="Content/Resources/Snippets/GBL_Warning.flsnp"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-newspaper@2x.png" />
+    <Map
+      Local="Content/Resources/Stylesheets/MainStyles.css"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-qna@2x.png" />
+    <Map
+      Local="Content/Resources/TableStyles/Note.css"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/white__icon-announcement@4x.png" />
+    <Map
+      Local="Content/Resources/TableStyles/Tableau standard bordures.css"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage_PDF/PDF1.png" />
+    <Map
+      Local="Content/Resources/TableStyles/Tableau standard.css"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/AddSM-black.png" />
+    <Map
+      Local="Content/Resources/TableStyles/Warning.css"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/AddSM-gray.png" />
+    <Map
+      Local="Project/Skins/HTML5 - Top Navigation.flskn"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/AddSM-white.png" />
+    <Map
+      Local="Project/Skins/LangPicker.flskn"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/FB-black.png" />
+    <Map
+      Local="Project/Skins/SearchHome.flskn"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/FB-gray.png" />
+    <Map
+      Local="Project/Skins/SearchResults.flskn"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/FB-white.png" />
+    <Map
+      Local="Project/Skins/SearchTopics.flskn"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/Insta-black.png" />
+    <Map
+      Local="Project/Skins/SideMenu.flskn"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/Insta-gray.png" />
+    <Map
+      Local="Project/Skins/TopicToolbar.flskn"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/Insta-white.png" />
+    <Map
+      Local="Project/VariableSets/General.flvar"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/LI-black.png" />
+    <Map
+      Local="Project/VariableSets/Localization.flvar"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/LI-gray.png" />
+    <Map
+      Local="Content/Resources/Images/Assets/circle_green.gif"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/LI-white.png" />
+    <Map
+      Local="Content/Resources/Images/Assets/oh-Note.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/Twitter-black.png" />
+    <Map
+      Local="Content/Resources/Images/Assets/oh-Warning.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/Twitter-gray.png" />
+    <Map
+      Local="Content/Resources/Images/Assets/HeroImages/HeroImage-1.jpg"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/Twitter-white.png" />
+    <Map
+      Local="Content/Resources/Images/Assets/HeroImages/HeroImage-2.jpg"
+      Remote="../../Global/Content/Resources/Images/Assets/PlaceholderLogo/Logo_55pxl.png" />
+    <Map
+      Local="Content/Resources/Images/Assets/HeroImages/Homepage-Bottom.png"
+      Remote="../../Global/Content/Resources/Images/Assets/PlaceholderLogo/PlaceholderLogo-gray.png" />
+    <Map
+      Local="Content/Resources/Images/Assets/HeroImages/Homepage-Top.png"
+      Remote="../../Global/Content/Resources/Images/Assets/HeroImages/homebanner.jpg" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/Arrows/arrow-down-black.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/32-FAQ-blue.png" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/Arrows/arrow-down-gray.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/32-FAQ-white.png" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/Arrows/arrow-left-black.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/32-NewFeatures-blue.png" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/Arrows/arrow-left-gray.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/32-NewFeatures-white.png" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/Arrows/arrow-right-black.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/32-PDF-blue.png" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/Arrows/arrow-right-gray.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/32-PDF-white.png" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/Arrows/arrow-up-black.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/32-SXA-blue.png" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/Arrows/arrow-up-gray.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/32-SXA-white.png" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/Clients-black.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/32-SXT-blue.png" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/Clients-gray.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/32-SXT-white.png" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/Clients-white.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/32-Videos-blue.png" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/Contact-black.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/32-Videos-white.png" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/Contact-gray.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/50-FAQ-blue.png" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/Contact-white.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/50-NewFeatures-blue.png" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/FAQs-black.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/50-PDF-blue.png" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/FAQs-gray.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/50-SXA-blue.png" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/FAQs-white.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/50-SXT-blue.png" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/Hello-black.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/50-Videos-blue.png" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/Hello-gray.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/blue_faq.svg" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/Hello-white.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/blue_newfeatures.svg" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-black.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/blue_pdf.svg" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-gray.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/blue_sxa.svg" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-white.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/blue_sxt.svg" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/Notes-black.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/blue_videos.svg" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/Notes-gray.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/white_faq.svg" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/Notes-white.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/White_icon-doc-pdf@3x.png" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/PDFs-black.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/white_newfeatures.svg" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/PDFs-gray.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/white_pdf.svg" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/PDFs-white.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/white_sxa.svg" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/Search-black.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/white_sxt.svg" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/Search-gray.png"
+      Remote="../../Global/Content/Resources/Images/Assets/Icons/Sage/white_videos.svg" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/Search-white.png"
+      Remote="../../Global/Content/Resources/MasterPages/Untranslated_OtherTopics.flmsp" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/Services-black.png"
+      Remote="../../Global/Content/Resources/MasterPages/__backup_OtherTopics.flmsp" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/Services-gray.png"
+      Remote="../../Global/Content/Resources/Snippets/GBL_TopicNotTranslated.flsnp" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/Services-white.png"
+      Remote="../../Global/Content/Resources/Stylesheets/Video_MainStyles.css" />
+    <Map
+      Local="Content/Resources/Images/Assets/Icons/MainIcons/SharedFiles-black.png"
+      Remote="../../Global/Project/Skins/NewFeaturesToolbar.flskn" />
+  </ImportedMap>
+  <SourceUrls>
+    <Url
+      Source="Project/Imports/OHC.Global_FR.flimpfl" />
+  </SourceUrls>
+</CatapultGlobalImportedFilesCache>

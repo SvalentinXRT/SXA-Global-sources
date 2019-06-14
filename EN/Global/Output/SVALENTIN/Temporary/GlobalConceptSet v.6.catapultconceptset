@@ -1,0 +1,3708 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlobalConceptSet
+  SavedSource="file:///C:/__OHC MADCAP/Sage XRT Advanced/EN/Global/Output/SVALENTIN/Temporary/GlobalConceptSet v.6.catapultconceptset">
+  <Concepts>
+    <ConceptEntry
+      Term="New Features">
+      <ConceptLink
+        Link="F_NewFeatures/Home_NewFeatures.htm"
+        UsedConditions=""
+        LocalConditions="" />
+      <ConceptLink
+        Link="F_NewFeatures/SageXRTAdvanced.2.0.htm"
+        UsedConditions=""
+        LocalConditions="" />
+      <ConceptLink
+        Link="F_NewFeatures/SageXRTAdvanced.2.1.htm"
+        UsedConditions=""
+        LocalConditions="" />
+    </ConceptEntry>
+    <ConceptEntry
+      Term="Video">
+      <ConceptLink
+        Link="C_Videos/SXA.BankDelegations.CreerDelegation.htm"
+        UsedConditions="General.ImportFromFR"
+        LocalConditions="" />
+      <ConceptLink
+        Link="C_Videos/SXA.BankDelegations.CreerModeleDelegation.htm"
+        UsedConditions="General.ImportFromFR"
+        LocalConditions="" />
+      <ConceptLink
+        Link="C_Videos/SXA.BankDelegations.Dashboards.htm"
+        UsedConditions="General.ImportFromFR"
+        LocalConditions="" />
+      <ConceptLink
+        Link="C_Videos/SXA.BankDelegations.Filtres.htm"
+        UsedConditions="General.ImportFromFR"
+        LocalConditions="" />
+      <ConceptLink
+        Link="C_Videos/SXA.BankDelegations.Interface.htm"
+        UsedConditions="General.ImportFromFR"
+        LocalConditions="" />
+      <ConceptLink
+        Link="C_Videos/SXA.BankDelegations.ReglesGeneration.htm"
+        UsedConditions="General.ImportFromFR"
+        LocalConditions="" />
+      <ConceptLink
+        Link="C_Videos/SXA.Platform.PrésentationPlateforme2.3.htm"
+        UsedConditions="General.ImportFromFR"
+        LocalConditions="" />
+      <ConceptLink
+        Link="C_Videos/SXT.Netting.ConventionCompensation.htm"
+        UsedConditions="General.ImportFromFR"
+        LocalConditions="" />
+    </ConceptEntry>
+  </Concepts>
+  <SourceUrls>
+    <Url
+      Source="Home.htm" />
+    <Url
+      Source="Home_WhatsNew.htm" />
+    <Url
+      Source="Parallax Reference Document.pdf" />
+    <Url
+      Source="SearchResults.htm" />
+    <Url
+      Source="A_Documents/Copy of Home_PDF.htm" />
+    <Url
+      Source="A_Documents/Copy of PDF_Sxt.htm" />
+    <Url
+      Source="A_Documents/Home_PDF.htm" />
+    <Url
+      Source="A_Documents/PDF_Fiches.htm" />
+    <Url
+      Source="A_Documents/PDF_Sxa.htm" />
+    <Url
+      Source="A_Documents/PDF_Sxt.htm" />
+    <Url
+      Source="B_Sxa/Home_HelpTopics.htm" />
+    <Url
+      Source="B_Sxa/1_BankDelegations/BankDelegations.htm" />
+    <Url
+      Source="B_Sxa/1_BankDelegations/CreationDelegation.htm" />
+    <Url
+      Source="B_Sxa/1_BankDelegations/CreationIntro.htm" />
+    <Url
+      Source="B_Sxa/1_BankDelegations/CreationMasse.htm" />
+    <Url
+      Source="B_Sxa/1_BankDelegations/CreationUnitaire.htm" />
+    <Url
+      Source="B_Sxa/1_BankDelegations/Filtres.htm" />
+    <Url
+      Source="B_Sxa/1_BankDelegations/Modele lettre.htm" />
+    <Url
+      Source="B_Sxa/1_BankDelegations/ParamComplementaire.htm" />
+    <Url
+      Source="B_Sxa/1_BankDelegations/Parametrage.htm" />
+    <Url
+      Source="B_Sxa/1_BankDelegations/ParamIntro.htm" />
+    <Url
+      Source="B_Sxa/1_BankDelegations/PreparationLettre.htm" />
+    <Url
+      Source="B_Sxa/1_BankDelegations/ReglesGeneration.htm" />
+    <Url
+      Source="B_Sxa/1_BankDelegations/SecuriteDonnees.htm" />
+    <Url
+      Source="B_Sxa/1_BankDelegations/V3_CreationCircuitValidation.htm" />
+    <Url
+      Source="B_Sxa/1_BankDelegations/V3_CreationCircuitValidation_Notification.htm" />
+    <Url
+      Source="B_Sxa/1_BankDelegations/V3_CreationCircuitValidation_SuiviRequetes.htm" />
+    <Url
+      Source="B_Sxa/1_BankDelegations/V3_EditionReglesGeneration.htm" />
+    <Url
+      Source="B_Sxa/1_BankDelegations/V3_NouvelleInterface.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/EDIT_EtatsCtrlSoldes.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/EDIT_EtatsRappro.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/EDIT_Intro.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/EDIT_StatsRappro.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/EQUIL_CreationEcritures.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/EQUIL_Derappro.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/EQUIL_Intro.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/Feature1.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/Feature2.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/Feature3.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/IMPORT_Auto.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/IMPORT_AutoBanc.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/IMPORT_AutoCpt.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/IMPORT_CtrlSoldes.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/IMPORT_Intro.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/IMPORT_Manuel.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/IMPORT_ManuelBanc.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/IMPORT_ManuelCpt.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/ITFACE_Intro.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/ITFACE_StructureBancaire.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/ITFACE_StructureComptable.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/ITFACE_TablesEquivalences.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/PARAM_Intro.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/PARAM_ProcessusRappro.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/PARAM_ReglesAnnulation.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/PARAM_ReglesAnnulBancaire.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/PARAM_ReglesAnnulComptable.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/PARAM_ReglesAvancees.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/PARAM_ReglesRappro.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/PARAM_ReglesSimples.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/RAPPRO_Auto.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/RAPPRO_Derap.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/RAPPRO_Intro.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/RAPPRO_Manuel.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/Reconciliation.htm" />
+    <Url
+      Source="B_Sxa/2_Reconciliation/SXAREC_Intro.htm" />
+    <Url
+      Source="B_Sxa/3_Cash/CASH_Atouts.htm" />
+    <Url
+      Source="B_Sxa/3_Cash/CASH_FonctionsCles.htm" />
+    <Url
+      Source="B_Sxa/3_Cash/CASH_Intro.htm" />
+    <Url
+      Source="B_Sxa/4_Platform/ADMIN_GestionDroits.htm" />
+    <Url
+      Source="B_Sxa/4_Platform/ADMIN_GestionDroits_PolSecurite.htm" />
+    <Url
+      Source="B_Sxa/4_Platform/PARAM_Intro.htm" />
+    <Url
+      Source="B_Sxa/4_Platform/PLATF_Intro.htm" />
+    <Url
+      Source="C_Videos/Copy of Home_Videos.htm" />
+    <Url
+      Source="C_Videos/Home_Videos.htm" />
+    <Url
+      Source="C_Videos/SXA.BankDelegations.CreerDelegation.htm" />
+    <Url
+      Source="C_Videos/SXA.BankDelegations.CreerModeleDelegation.htm" />
+    <Url
+      Source="C_Videos/SXA.BankDelegations.Dashboards.htm" />
+    <Url
+      Source="C_Videos/SXA.BankDelegations.Filtres.htm" />
+    <Url
+      Source="C_Videos/SXA.BankDelegations.Interface.htm" />
+    <Url
+      Source="C_Videos/SXA.BankDelegations.ReglesGeneration.htm" />
+    <Url
+      Source="C_Videos/SXA.Platform.PrésentationPlateforme2.3.htm" />
+    <Url
+      Source="C_Videos/SXT.Netting.ConventionCompensation.htm" />
+    <Url
+      Source="C_Videos/SXT.Netting.CoursCompensation.htm" />
+    <Url
+      Source="C_Videos/SXT.Netting.CyclesCompensation.htm" />
+    <Url
+      Source="C_Videos/SXT.Netting.PosterFlux.htm" />
+    <Url
+      Source="C_Videos/SXT.Netting.SaisieFacture.htm" />
+    <Url
+      Source="C_Videos/SXT.Netting.StructureCycle.htm" />
+    <Url
+      Source="D_Faq/Company Information.htm" />
+    <Url
+      Source="D_Faq/FAQs.htm" />
+    <Url
+      Source="E_Sxt/Home_Legacy.htm" />
+    <Url
+      Source="E_Sxt/1_Cash/DASHB_Presentation.htm" />
+    <Url
+      Source="E_Sxt/1_Cash/EQUIL_PrincipesEquilibrage.htm" />
+    <Url
+      Source="E_Sxt/1_Cash/EQUIL_Zba.htm" />
+    <Url
+      Source="E_Sxt/1_Cash/FLUX_GestionMouvements.htm" />
+    <Url
+      Source="E_Sxt/1_Cash/FLUX_GestionMouvements_SaisieDirecte.htm" />
+    <Url
+      Source="E_Sxt/1_Cash/FLUX_Intragroupe.htm" />
+    <Url
+      Source="E_Sxt/1_Cash/FLUX_PaiementIntragroupe.htm" />
+    <Url
+      Source="E_Sxt/1_Cash/FLUX_SwapsIntro.htm" />
+    <Url
+      Source="E_Sxt/1_Cash/FLUX_SwapsParametrage.htm" />
+    <Url
+      Source="E_Sxt/1_Cash/FLUX_SwapsPrincipes.htm" />
+    <Url
+      Source="E_Sxt/1_Cash/FLUX_SwapsSaisieOperations.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ANNEXE - GUI - Actions.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ANNEXE - GUI - Copier les parametres d un filtre.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ANNEXE - GUI - Fenetres contextuelles.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ANNEXE - GUI - Filtres.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ANNEXE - GUI - Recherche.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ANNEXE - GUI - Tableau reorg.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ANNEXE - GUI.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ANNEXE - Regles de gestion - Etapes.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ANNEXE - Regles de gestion - Operateurs.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ANNEXE - Regles de gestion.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/COMP - ComparaisonExercices.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/COMP - filtre.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/COMP - SelectionNaturesBudgetaires.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/EDITION - Comparaison des exercices.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/EDITION - Consultation.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/EDITION - Diffusion.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/EDITION - Editions.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/EDITION - Feuille budgetaire.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/EDITION - Filtres edition.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/EDITION - Journal des ecritures.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/IMPORT - Configuration.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/IMPORT - Importation.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/IMPORT - Intro.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/IMPORT - Modalites d importation.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/IMPORT - Rejets.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/IMPORT - Structure.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/INTRO - Acces appli.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/INTRO - Budget de tresorerie.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/INTRO - Principes fonctionnels.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/PARAM - Assistant de regle de gestion.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/PARAM - Construction de feuille budgetaire.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/PARAM - Devise et cours budget.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/PARAM - Donnees economiques.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/PARAM - Entite.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/PARAM - Exemples de regles.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/PARAM - Exercice budgetaire.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/PARAM - Exercices.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/PARAM - Feuille budgetaire.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/PARAM - Groupe entites.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/PARAM - Natures budgetaires et regles.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/PARAM - Natures budgetaires standard.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/PARAM - Natures budgetaires systeme.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/PARAM - Natures budgetaires.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/PARAM - Parametrage du budget.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/PARAM - Periodes exercice.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/PARAM - Regles de gestion.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/PARAM - Structure budgetaire.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/PARAM - Structure organisationnelle.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/PARAM - Tables de repartition.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/PARAM - TVA.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/PARAM - Unite.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/POST - Capture.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/POST - Journal de treso.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/POST - Postage dans Cash.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/SAISIE - Affichage au niveau unite.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/SAISIE - Affichage detaille.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/SAISIE - Configuration affichage.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/SAISIE - Dependances entre transactions.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/SAISIE - Details montant transaction.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/SAISIE - Exportation vers Excel.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/SAISIE - Filtres affichage.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/SAISIE - Fonctions logiques.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/SAISIE - Mode analyse.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/SAISIE - Mode prevision.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/SAISIE - Niveau de detail.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/SAISIE - Preferences affichage.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/SAISIE - Regles de gestion.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/SAISIE - Report previsions.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/SAISIE - Revision de budget.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/SAISIE - Saisie des feuilles budgetaires.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/SAISIE - Volets.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/SAISIE - Vue consolidee.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ContextualTopics/Acceder page saisie budget.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ContextualTopics/Activer le mode analyse.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ContextualTopics/Activer le mode prevision.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ContextualTopics/Afficher ecart.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ContextualTopics/Calculatrice.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ContextualTopics/Calendrier.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ContextualTopics/Condition logique.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ContextualTopics/Copier les parametres d un filtre.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ContextualTopics/Creer une regle de gestion.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ContextualTopics/Decalage.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ContextualTopics/Definir une date.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ContextualTopics/Exemples sens TVA.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ContextualTopics/Exporter vers Excel.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ContextualTopics/Modifier element dans tableau parametrage.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ContextualTopics/Rechercher texte dans tableau parametrage.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ContextualTopics/Repartition analytique.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ContextualTopics/Repartition periodique.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ContextualTopics/Supprimer element dans tableau page parametrage.htm" />
+    <Url
+      Source="E_Sxt/2_Liquidity/ContextualTopics/Valider une formule et enregistrer.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/EDITION - Bordereau remise.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/EDITION - Capture - Bordereau remise.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/EDITION - Capture - Lettre confirmation.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/EDITION - Capture - Ticket operation.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/EDITION - Consultation.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/EDITION - Diffusion.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/EDITION - Intro.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/EDITION - Lettre confirmation.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/EDITION - Personnalisation.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/EDITION - Ticket operation.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/EXPORT - Exportation virements.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/EXPORT - Intro.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/INTEGRATION - Importation des virements.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/INTEGRATION - Intro.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/INTEGRATION - Rejets virements.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/INTRO - Acces appli.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/INTRO - Gestion virements.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/INTRO - Perimetre fonctionnel.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/INTRO - Principes fonctionnels.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/PARAM - Chemin Fichiers.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/PARAM - Configuration Paiement.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/PARAM - Creation Profils.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/PARAM - Creation Regles Constitution.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/PARAM - Donnees ref.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/PARAM - Fichiers de virements.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/PARAM - Fonctions Commerciales.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/PARAM - Identification Clients.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/PARAM - Intro.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/PARAM - Mode Mise a Jour Cash.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/PARAM - Modeles Virements.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/PARAM - Motifs Economiques.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/PARAM - Options Traitement.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/PARAM - Structures de fichier.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/PARAM - Types Facture.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/PRINCIPES - Impact profils et regles de constitution.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/PRINCIPES - Introduction.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/PRINCIPES - Profils.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/PRINCIPES - Reglements.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/PRINCIPES - Regles de constitution.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/PRINCIPES - Statuts.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/TRAITEMENT - Intro.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/TRAITFINAN - Caracteristiques des remises.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/TRAITFINAN - Caracteristiques.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/TRAITFINAN - Constantes d'utilisation.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/TRAITFINAN - Constitution des remises.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/TRAITFINAN - Evolution des virements.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/TRAITFINAN - Gestion des remises.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/TRAITFINAN - Journal de treso.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/TRAITFINAN - Modele - Creation.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/TRAITFINAN - Modele - Suppression.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/TRAITFINAN - Modification et suppression exceptionnelles.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/TRAITFINAN - Modification et suppression exceptionnelles2.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/TRAITFINAN - Modèles de saisie.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/TRAITFINAN - Selection des remises.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/TRAITFINAN - Selection des transactions.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/TRAITFINAN - Selection.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/TRAITFINAN - Suivi des virements.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/TRAITFINAN - Virements.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/ContextualTopics/Calculatrice.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/ContextualTopics/Calendrier.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/ContextualTopics/Consulter lien TRN PREV.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/ContextualTopics/Copier les parametres d un filtre.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/ContextualTopics/Dupliquer element dans tableau page.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/ContextualTopics/Modifier element dans tableau page.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/ContextualTopics/Rechercher texte dans tableau page.htm" />
+    <Url
+      Source="E_Sxt/3_Payment/ContextualTopics/Supprimer element dans tableau page.htm" />
+    <Url
+      Source="E_Sxt/4_Netting/Balance Compensation.htm" />
+    <Url
+      Source="E_Sxt/4_Netting/ConceptsCles.htm" />
+    <Url
+      Source="E_Sxt/4_Netting/Creation-intro.htm" />
+    <Url
+      Source="E_Sxt/4_Netting/Creation-Simulation.htm" />
+    <Url
+      Source="E_Sxt/4_Netting/Factures-int-ext.htm" />
+    <Url
+      Source="E_Sxt/4_Netting/Fiche de compensation.htm" />
+    <Url
+      Source="E_Sxt/4_Netting/Introduction-Factures.htm" />
+    <Url
+      Source="E_Sxt/4_Netting/Modification-Cycle-Facturation.htm" />
+    <Url
+      Source="E_Sxt/4_Netting/Param-Importation.htm" />
+    <Url
+      Source="E_Sxt/4_Netting/Param_Commun.htm" />
+    <Url
+      Source="E_Sxt/4_Netting/Param_specifique.htm" />
+    <Url
+      Source="E_Sxt/4_Netting/Position_Compensation.htm" />
+    <Url
+      Source="E_Sxt/4_Netting/Postages et exportations.htm" />
+    <Url
+      Source="E_Sxt/4_Netting/PresentationNetting.htm" />
+    <Url
+      Source="E_Sxt/4_Netting/Re-calcul simulation.htm" />
+    <Url
+      Source="E_Sxt/4_Netting/Resultat_Net_Reglement.htm" />
+    <Url
+      Source="E_Sxt/4_Netting/Setup.htm" />
+    <Url
+      Source="E_Sxt/4_Netting/Simulation.htm" />
+    <Url
+      Source="E_Sxt/4_Netting/Traitement-Compensation.htm" />
+    <Url
+      Source="E_Sxt/4_Netting/Transactions-int-ext.htm" />
+    <Url
+      Source="E_Sxt/4_Netting/Transactions.htm" />
+    <Url
+      Source="E_Sxt/4_Netting/Vue generale Compensation.htm" />
+    <Url
+      Source="E_Sxt/5_FX/ANNEXE - Assistance technique.htm" />
+    <Url
+      Source="E_Sxt/5_FX/ANNEXE - Decrementation FIFO.htm" />
+    <Url
+      Source="E_Sxt/5_FX/ANNEXE - Filtres.htm" />
+    <Url
+      Source="E_Sxt/5_FX/ANNEXE - Gestion des op comm.htm" />
+    <Url
+      Source="E_Sxt/5_FX/ANNEXE - GUI - Barre outils actions.htm" />
+    <Url
+      Source="E_Sxt/5_FX/ANNEXE - GUI - Fenetres contextuelles.htm" />
+    <Url
+      Source="E_Sxt/5_FX/ANNEXE - GUI - Recherche.htm" />
+    <Url
+      Source="E_Sxt/5_FX/ANNEXE - GUI - Tableau reorg.htm" />
+    <Url
+      Source="E_Sxt/5_FX/ANNEXE - GUI.htm" />
+    <Url
+      Source="E_Sxt/5_FX/ANNEXE - Natures de transaction.htm" />
+    <Url
+      Source="E_Sxt/5_FX/ANNEXE - Precisions fonctionnelles.htm" />
+    <Url
+      Source="E_Sxt/5_FX/ANNEXE - Rapprochement detaille.htm" />
+    <Url
+      Source="E_Sxt/5_FX/ANNEXE - Verrouillage Back Office.htm" />
+    <Url
+      Source="E_Sxt/5_FX/EDITION - Consultation.htm" />
+    <Url
+      Source="E_Sxt/5_FX/EDITION - Diffusion.htm" />
+    <Url
+      Source="E_Sxt/5_FX/EDITION - Fiche position FX - cube.htm" />
+    <Url
+      Source="E_Sxt/5_FX/EDITION - Fiche position FX.htm" />
+    <Url
+      Source="E_Sxt/5_FX/EDITION - Intro.htm" />
+    <Url
+      Source="E_Sxt/5_FX/EDITION - Journal emprunts prets devises.htm" />
+    <Url
+      Source="E_Sxt/5_FX/EDITION - Journal operations commerciales.htm" />
+    <Url
+      Source="E_Sxt/5_FX/EDITION - Journal toutes TRN.htm" />
+    <Url
+      Source="E_Sxt/5_FX/EDITION - Journal TRN change.htm" />
+    <Url
+      Source="E_Sxt/5_FX/EDITION - Resultat consolide sur position ouverte.htm" />
+    <Url
+      Source="E_Sxt/5_FX/EXPORT - Exportation transactions de change.htm" />
+    <Url
+      Source="E_Sxt/5_FX/EXPORT - Intro.htm" />
+    <Url
+      Source="E_Sxt/5_FX/INTEGRATION - Importation previsions commerciales.htm" />
+    <Url
+      Source="E_Sxt/5_FX/INTEGRATION - Intro.htm" />
+    <Url
+      Source="E_Sxt/5_FX/INTEGRATION - Rejets previsions commerciales.htm" />
+    <Url
+      Source="E_Sxt/5_FX/INTRO - Acces appli.htm" />
+    <Url
+      Source="E_Sxt/5_FX/INTRO - Gestion risque change.htm" />
+    <Url
+      Source="E_Sxt/5_FX/INTRO - Perimetre fonctionnel.htm" />
+    <Url
+      Source="E_Sxt/5_FX/INTRO - Principes fonctionnels.htm" />
+    <Url
+      Source="E_Sxt/5_FX/PARAM - Configuration FX.htm" />
+    <Url
+      Source="E_Sxt/5_FX/PARAM - Donnees Marche.htm" />
+    <Url
+      Source="E_Sxt/5_FX/PARAM - Editions auto.htm" />
+    <Url
+      Source="E_Sxt/5_FX/PARAM - Intro.htm" />
+    <Url
+      Source="E_Sxt/5_FX/PARAM - Parametrage.htm" />
+    <Url
+      Source="E_Sxt/5_FX/PARAM - Structure exportation changes a terme.htm" />
+    <Url
+      Source="E_Sxt/5_FX/PARAM - Structure importation previsions commerciales.htm" />
+    <Url
+      Source="E_Sxt/5_FX/PARAM - Structures de fichier.htm" />
+    <Url
+      Source="E_Sxt/5_FX/SUIVCOMM - Apuration auto.htm" />
+    <Url
+      Source="E_Sxt/5_FX/SUIVCOMM - Apuration manuelle.htm" />
+    <Url
+      Source="E_Sxt/5_FX/SUIVCOMM - Apuration.htm" />
+    <Url
+      Source="E_Sxt/5_FX/SUIVCOMM - Suivi des previsions commerciales.htm" />
+    <Url
+      Source="E_Sxt/5_FX/TRAITCOMM - Operations commerciales.htm" />
+    <Url
+      Source="E_Sxt/5_FX/TRAITEMENT - Intro.htm" />
+    <Url
+      Source="E_Sxt/5_FX/TRAITFINAN - Annulation BO.htm" />
+    <Url
+      Source="E_Sxt/5_FX/TRAITFINAN - Change a terme.htm" />
+    <Url
+      Source="E_Sxt/5_FX/TRAITFINAN - Change au comptant.htm" />
+    <Url
+      Source="E_Sxt/5_FX/TRAITFINAN - Conversion des montants.htm" />
+    <Url
+      Source="E_Sxt/5_FX/TRAITFINAN - Creation.htm" />
+    <Url
+      Source="E_Sxt/5_FX/TRAITFINAN - Denouement.htm" />
+    <Url
+      Source="E_Sxt/5_FX/TRAITFINAN - Docs - Lettre confirmation.htm" />
+    <Url
+      Source="E_Sxt/5_FX/TRAITFINAN - Docs - Ordre paiement.htm" />
+    <Url
+      Source="E_Sxt/5_FX/TRAITFINAN - Docs - Ticket operation.htm" />
+    <Url
+      Source="E_Sxt/5_FX/TRAITFINAN - Documents lies aux transactions.htm" />
+    <Url
+      Source="E_Sxt/5_FX/TRAITFINAN - Journal de treso.htm" />
+    <Url
+      Source="E_Sxt/5_FX/TRAITFINAN - Levee anticipee.htm" />
+    <Url
+      Source="E_Sxt/5_FX/TRAITFINAN - Liaison avec previsions.htm" />
+    <Url
+      Source="E_Sxt/5_FX/TRAITFINAN - Modification modeles doc.htm" />
+    <Url
+      Source="E_Sxt/5_FX/TRAITFINAN - Prorogation.htm" />
+    <Url
+      Source="E_Sxt/5_FX/TRAITFINAN - Suivi.htm" />
+    <Url
+      Source="E_Sxt/5_FX/TRAITFINAN - Swap comptant contre terme.htm" />
+    <Url
+      Source="E_Sxt/5_FX/TRAITFINAN - Swap terme contre terme.htm" />
+    <Url
+      Source="E_Sxt/5_FX/TRAITFINAN - Swap.htm" />
+    <Url
+      Source="E_Sxt/5_FX/TRAITFINAN - Traitement Back Office.htm" />
+    <Url
+      Source="E_Sxt/5_FX/TRAITFINAN - Transactions de change.htm" />
+    <Url
+      Source="E_Sxt/5_FX/TRAITFINAN - Validation Back Office.htm" />
+    <Url
+      Source="E_Sxt/5_FX/TRAITFINAN - Verrouillage Back Office.htm" />
+    <Url
+      Source="E_Sxt/5_FX/TRAITPRET - Emprunts prets devise.htm" />
+    <Url
+      Source="E_Sxt/5_FX/ContextualTopics/Calculatrice.htm" />
+    <Url
+      Source="E_Sxt/5_FX/ContextualTopics/Calendrier.htm" />
+    <Url
+      Source="E_Sxt/5_FX/ContextualTopics/Consulter lien TRN PREV.htm" />
+    <Url
+      Source="E_Sxt/5_FX/ContextualTopics/Copier les parametres d un filtre.htm" />
+    <Url
+      Source="E_Sxt/5_FX/ContextualTopics/Dupliquer element dans tableau page.htm" />
+    <Url
+      Source="E_Sxt/5_FX/ContextualTopics/Modifier element dans tableau page.htm" />
+    <Url
+      Source="E_Sxt/5_FX/ContextualTopics/Rechercher texte dans tableau page.htm" />
+    <Url
+      Source="E_Sxt/5_FX/ContextualTopics/Supprimer element dans tableau page.htm" />
+    <Url
+      Source="E_Sxt/6_SEI/BARR_BarreOutils.htm" />
+    <Url
+      Source="E_Sxt/6_SEI/SEI_Introduction.htm" />
+    <Url
+      Source="E_Sxt/6_SEI/UTIL_BarreReglage.htm" />
+    <Url
+      Source="E_Sxt/6_SEI/UTIL_CentreCommande.htm" />
+    <Url
+      Source="E_Sxt/6_SEI/UTIL_FenetreConnexion.htm" />
+    <Url
+      Source="E_Sxt/6_SEI/UTIL_FenetrePrincipale.htm" />
+    <Url
+      Source="E_Sxt/6_SEI/UTIL_Introduction.htm" />
+    <Url
+      Source="E_Sxt/6_SEI/UTIL_TableauBord.htm" />
+    <Url
+      Source="E_Sxt/6_SEI/VUES_Carte.htm" />
+    <Url
+      Source="E_Sxt/6_SEI/VUES_Chiffrier.htm" />
+    <Url
+      Source="E_Sxt/6_SEI/VUES_Graphique.htm" />
+    <Url
+      Source="E_Sxt/6_SEI/VUES_Intro.htm" />
+    <Url
+      Source="E_Sxt/6_SEI/VUES_Jauge.htm" />
+    <Url
+      Source="E_Sxt/6_SEI/VUES_TableauBord.htm" />
+    <Url
+      Source="F_NewFeatures/Home_NewFeatures.htm" />
+    <Url
+      Source="F_NewFeatures/SageXRTAdvanced.2.0.htm" />
+    <Url
+      Source="F_NewFeatures/SageXRTAdvanced.2.1.htm" />
+    <Url
+      Source="Resources/Images/Assets/circle_green.gif" />
+    <Url
+      Source="Resources/Images/Assets/oh-Note.png" />
+    <Url
+      Source="Resources/Images/Assets/oh-Warning.png" />
+    <Url
+      Source="Resources/Images/Assets/HeroImages/HeroImage-1.jpg" />
+    <Url
+      Source="Resources/Images/Assets/HeroImages/HeroImage-2.jpg" />
+    <Url
+      Source="Resources/Images/Assets/HeroImages/homebanner.jpg" />
+    <Url
+      Source="Resources/Images/Assets/HeroImages/Homepage-Bottom.png" />
+    <Url
+      Source="Resources/Images/Assets/HeroImages/Homepage-Bottom_Dark.jpg" />
+    <Url
+      Source="Resources/Images/Assets/HeroImages/Homepage-Bottom_Dark.png" />
+    <Url
+      Source="Resources/Images/Assets/HeroImages/Homepage-Top.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-down-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-down-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-left-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-left-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-right-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-right-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-up-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-up-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Clients-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Clients-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Clients-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Contact-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Contact-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Contact-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/FAQs-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/FAQs-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/FAQs-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Hello-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Hello-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Hello-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Notes-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Notes-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Notes-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/PDFs-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/PDFs-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/PDFs-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Search-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Search-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Search-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Services-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Services-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Services-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/SharedFiles-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/SharedFiles-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/SharedFiles-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Solutions-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Solutions-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Solutions-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Tips-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Tips-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Tips-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/VideosImages-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/VideosImages-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/VideosImages-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-FAQ-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-FAQ-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-NewFeatures-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-NewFeatures-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-PDF-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-PDF-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-SXA-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-SXA-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-SXT-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-SXT-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-Videos-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-Videos-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/50-FAQ-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/50-NewFeatures-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/50-PDF-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/50-SXA-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/50-SXT-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/50-Videos-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/blue_faq.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/blue_newfeatures.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/blue_pdf.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/blue_sxa.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/blue_sxt.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/blue_videos.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-announcement.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-announcement@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-announcement@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-announcement@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-devices@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-doc-pdf@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-doc-pdf@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-doc-pdf@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-doc-pdf@4x_BrillantGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-help@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-knowledge-base@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-knowledge-base@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x_AccessibleGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x_BrillantGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-logo-youtube@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x_AccessibleGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x_BrillantGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-newspaper@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-newspaper@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-newspaper@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-newspaper@4x_BrillantGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-qna@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-qna@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-qna@4x_BrillantGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-quick-help@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-quick-help@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-quick-help@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-quick-help@4x_BrillantGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_faq.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-announcement.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-announcement@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-announcement@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-doc-pdf@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/White_icon-doc-pdf@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-help@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-knowledge-base@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/White_icon-knowledge-base@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-logo-youtube@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/White_icon-logo-youtube@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-newspaper@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-newspaper@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-qna@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/White_icon-qna@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/White_icon-quick-help@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-quick-help@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_newfeatures.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_pdf.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_sxa.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_sxt.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_videos.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white__icon-announcement@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage_PDF/PDF1.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/AddSM-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/AddSM-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/AddSM-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/FB-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/FB-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/FB-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/Insta-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/Insta-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/Insta-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/LI-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/LI-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/LI-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/Twitter-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/Twitter-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/Twitter-white.png" />
+    <Url
+      Source="Resources/Images/Assets/PlaceholderLogo/Logo_55pxl.png" />
+    <Url
+      Source="Resources/Images/Assets/PlaceholderLogo/PlaceholderLogo-gray.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/10_SelectionValidator.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/11_SelectionUtilisateurs.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/12_RequetesDeValidation.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/13_MesRequetesDeValidation.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/2_ModelesLettres.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/3_CreationRegleValidation.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/4_Rubrique1Validation.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/5_Rubrique2Validation.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/6_ValidationSelectionSocietes1.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/7_ValidationSelectionSocietes2.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/8_Rubrique3Validation.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/9_RequetesObsoletes.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/bg.jpg" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/circle_green.gif" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/circle_green.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Collaborateur.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Compte.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/ConfigurerFiltre.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Creation masse - modele 1 signature.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Creation masse - modele 2 signatures.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Creation unitaire.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/CreationUnitaire.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/CreerModeleDelegation.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/CreerModeleDeuxSignatures.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/CreerModeleDeuxSignatures02.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/CreerModeleUneSignature.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/CreerModeleUneSignature02.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/DEFVIEW.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Delegants.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Designer 4.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Designer 5.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Designer 6.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Designer1.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Designer2.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Designer3.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/DesignerLettres.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/DesignerVariables.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/filtre 1.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Filtre 2.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Filtre 3.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Filtre 4.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/FiltreRapide.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/FlowChart General.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/fullscreen.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/GenererLettresParRegles.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/GroupeCollaborateurs.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Lettre brouillon.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Lettres Brouillon.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/MenuCreerModele1Signature.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/MenuCreerModele2Signatures.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Modele lettres Affichage.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/ModeleDelegation.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/ModeVisualisation.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/oh-Note.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/oh-Warning.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Prep lettre - delegation.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Prep lettre - regle generation.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Quick Default Filter.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/RegleGenerationLettre.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Regles de generation.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Scope Pouvoirs Bancaires V1.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Slide 2.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Slide 3.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Slide 4.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Slide 5.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Slide1.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/TypeOperation.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/TypeSignature.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/V3_EditionReglesGeneration.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/WorkflowLettre.png" />
+    <Url
+      Source="Resources/Images/HT_Cash/CASH_Intro01.png" />
+    <Url
+      Source="Resources/Images/HT_Platform/ADMIN_GestionDroits01.png" />
+    <Url
+      Source="Resources/Images/HT_Platform/ADMIN_GestionDroits_PolSecurite01.png" />
+    <Url
+      Source="Resources/Images/HT_Platform/ADMIN_GestionDroits_PolSecurite02.png" />
+    <Url
+      Source="Resources/Images/HT_Platform/ADMIN_GestionDroits_PolSecurite03.png" />
+    <Url
+      Source="Resources/Images/HT_Platform/ADMIN_GestionDroits_PolSecurite04.png" />
+    <Url
+      Source="Resources/Images/HT_Platform/PLATF_Intro01.png" />
+    <Url
+      Source="Resources/Images/HT_Reconciliation/PARAM_ReglesAvancees01.png" />
+    <Url
+      Source="Resources/Images/HT_Reconciliation/PARAM_ReglesAvancees02.png" />
+    <Url
+      Source="Resources/Images/HT_Reconciliation/PARAM_ReglesAvancees03.png" />
+    <Url
+      Source="Resources/Images/HT_Reconciliation/PARAM_ReglesSimples01.png" />
+    <Url
+      Source="Resources/Images/HT_Reconciliation/PARAM_ReglesSimples02.png" />
+    <Url
+      Source="Resources/Images/HT_Reconciliation/PARAM_ReglesSimples02b.png" />
+    <Url
+      Source="Resources/Images/HT_Reconciliation/PARAM_ReglesSimples03.png" />
+    <Url
+      Source="Resources/Images/HT_Reconciliation/PARAM_ReglesSimples04.png" />
+    <Url
+      Source="Resources/Images/HT_Reconciliation/PARAM_ReglesSimples05.png" />
+    <Url
+      Source="Resources/Images/HT_Reconciliation/PARAM_ReglesSimples06.png" />
+    <Url
+      Source="Resources/Images/HT_Reconciliation/PARAM_ReglesSimples07.png" />
+    <Url
+      Source="Resources/Images/HT_Reconciliation/PARAM_ReglesSimples07b.png" />
+    <Url
+      Source="Resources/Images/HT_Reconciliation/PARAM_ReglesSimples08.png" />
+    <Url
+      Source="Resources/Images/HT_Reconciliation/PARAM_ReglesSimples09.png" />
+    <Url
+      Source="Resources/Images/L_Cash/agences_bancaires_synthèse.png" />
+    <Url
+      Source="Resources/Images/L_Cash/agences_intragroupes_synthèse.png" />
+    <Url
+      Source="Resources/Images/L_Cash/assistant de structure_3.png" />
+    <Url
+      Source="Resources/Images/L_Cash/banques_bancaires_synthèse.png" />
+    <Url
+      Source="Resources/Images/L_Cash/banques_intragroupe_synthèse.png" />
+    <Url
+      Source="Resources/Images/L_Cash/CENTRA_PrincipesEquilibrage01.png" />
+    <Url
+      Source="Resources/Images/L_Cash/CENTRA_PrincipesEquilibrage02.png" />
+    <Url
+      Source="Resources/Images/L_Cash/code_flux_synthèse.png" />
+    <Url
+      Source="Resources/Images/L_Cash/code_transaction_détail_1.png" />
+    <Url
+      Source="Resources/Images/L_Cash/code_transaction_détail_2.png" />
+    <Url
+      Source="Resources/Images/L_Cash/code_transaction_PI_1.png" />
+    <Url
+      Source="Resources/Images/L_Cash/code_transaction_PI_2.png" />
+    <Url
+      Source="Resources/Images/L_Cash/code_transaction_synthèse.png" />
+    <Url
+      Source="Resources/Images/L_Cash/comptes_bancaires_synthèse.png" />
+    <Url
+      Source="Resources/Images/L_Cash/comptes_intragroupes_synthèse.png" />
+    <Url
+      Source="Resources/Images/L_Cash/conditions zba.png" />
+    <Url
+      Source="Resources/Images/L_Cash/conditions_intégration_bancaire_détail_1.png" />
+    <Url
+      Source="Resources/Images/L_Cash/conditions_intégration_bancaire_détail_2.png" />
+    <Url
+      Source="Resources/Images/L_Cash/DASHB_Presentation01.png" />
+    <Url
+      Source="Resources/Images/L_Cash/DASHB_Presentation02.png" />
+    <Url
+      Source="Resources/Images/L_Cash/DASHB_Presentation03.png" />
+    <Url
+      Source="Resources/Images/L_Cash/DASHB_Presentation04.png" />
+    <Url
+      Source="Resources/Images/L_Cash/DASHB_Presentation05.png" />
+    <Url
+      Source="Resources/Images/L_Cash/DASHB_Presentation06.png" />
+    <Url
+      Source="Resources/Images/L_Cash/DASHB_Presentation07.png" />
+    <Url
+      Source="Resources/Images/L_Cash/DASHB_Presentation08.png" />
+    <Url
+      Source="Resources/Images/L_Cash/IRSPORTAIL1.png" />
+    <Url
+      Source="Resources/Images/L_Cash/IRSPORTAIL10.png" />
+    <Url
+      Source="Resources/Images/L_Cash/IRSPORTAIL11.png" />
+    <Url
+      Source="Resources/Images/L_Cash/IRSPORTAIL12.png" />
+    <Url
+      Source="Resources/Images/L_Cash/IRSPORTAIL13.png" />
+    <Url
+      Source="Resources/Images/L_Cash/IRSPORTAIL14.png" />
+    <Url
+      Source="Resources/Images/L_Cash/IRSPORTAIL15.png" />
+    <Url
+      Source="Resources/Images/L_Cash/IRSPORTAIL1et2.png" />
+    <Url
+      Source="Resources/Images/L_Cash/IRSPORTAIL2.png" />
+    <Url
+      Source="Resources/Images/L_Cash/IRSPORTAIL3.png" />
+    <Url
+      Source="Resources/Images/L_Cash/IRSPORTAIL3et4.png" />
+    <Url
+      Source="Resources/Images/L_Cash/IRSPORTAIL4.png" />
+    <Url
+      Source="Resources/Images/L_Cash/IRSPORTAIL5.png" />
+    <Url
+      Source="Resources/Images/L_Cash/IRSPORTAIL6.png" />
+    <Url
+      Source="Resources/Images/L_Cash/IRSPORTAIL7.png" />
+    <Url
+      Source="Resources/Images/L_Cash/IRSPORTAIL8.png" />
+    <Url
+      Source="Resources/Images/L_Cash/IRSPORTAIL9.png" />
+    <Url
+      Source="Resources/Images/L_Cash/organigramme_détail_1.png" />
+    <Url
+      Source="Resources/Images/L_Cash/organigramme_détail_2.png" />
+    <Url
+      Source="Resources/Images/L_Cash/organigramme_synthèse.png" />
+    <Url
+      Source="Resources/Images/L_Cash/sociétés_synthèse.png" />
+    <Url
+      Source="Resources/Images/L_FX/Afficher detail ope comm 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Afficher detail ope comm.png" />
+    <Url
+      Source="Resources/Images/L_FX/Afficher journal de treso 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/Afficher journal de treso 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Ajuster les cours.png" />
+    <Url
+      Source="Resources/Images/L_FX/Annuler validation BO 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/Annuler validation BO 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Annuler validation BO 3.png" />
+    <Url
+      Source="Resources/Images/L_FX/apuration.png" />
+    <Url
+      Source="Resources/Images/L_FX/ascenseur centre.png" />
+    <Url
+      Source="Resources/Images/L_FX/ascenseur droite.png" />
+    <Url
+      Source="Resources/Images/L_FX/ascenseur gauche.png" />
+    <Url
+      Source="Resources/Images/L_FX/Back.gif" />
+    <Url
+      Source="Resources/Images/L_FX/barre actions.png" />
+    <Url
+      Source="Resources/Images/L_FX/barre outil filtres.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Barre outil Zoom.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Barre outils langues developpee.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Barre outils langues.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Barre outils page importation exportation.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Barre outils page param gen.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Barre outils page.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/BarredoutilsRecherche.JPG" />
+    <Url
+      Source="Resources/Images/L_FX/BarredoutilsRecherche2.JPG" />
+    <Url
+      Source="Resources/Images/L_FX/bdd filtre personnalise.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/bdd ligne de commande.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Bddial Identification.png" />
+    <Url
+      Source="Resources/Images/L_FX/Book.gif" />
+    <Url
+      Source="Resources/Images/L_FX/bouton appel calendrier 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/bouton appel calendrier.png" />
+    <Url
+      Source="Resources/Images/L_FX/Bouton calendrier fleche droite.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Bouton calendrier fleche gauche.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Bouton coche bleue.JPG" />
+    <Url
+      Source="Resources/Images/L_FX/Bouton cours inverse.png" />
+    <Url
+      Source="Resources/Images/L_FX/Bouton Derniere page.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/bouton disquette.png" />
+    <Url
+      Source="Resources/Images/L_FX/Bouton fleche bas gris.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Bouton fleche bas.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/bouton fleche double droite.JPG" />
+    <Url
+      Source="Resources/Images/L_FX/bouton fleche double gauche.JPG" />
+    <Url
+      Source="Resources/Images/L_FX/bouton fleche simple droite.JPG" />
+    <Url
+      Source="Resources/Images/L_FX/bouton fleche simple gauche.JPG" />
+    <Url
+      Source="Resources/Images/L_FX/bouton liste.png" />
+    <Url
+      Source="Resources/Images/L_FX/Bouton Page precedente.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Bouton Page suivante.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Bouton Points de suspension.JPG" />
+    <Url
+      Source="Resources/Images/L_FX/Bouton Premiere page.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Bouton signe plus.JPG" />
+    <Url
+      Source="Resources/Images/L_FX/Bouton STR coche verte.JPG" />
+    <Url
+      Source="Resources/Images/L_FX/Bouton STR croix rouge.JPG" />
+    <Url
+      Source="Resources/Images/L_FX/Bouton STR fleche drte.JPG" />
+    <Url
+      Source="Resources/Images/L_FX/Bouton Zoom moins.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Bouton Zoom plus.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Boutons fleches haut bas.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/BoutonValidationFormule.JPG" />
+    <Url
+      Source="Resources/Images/L_FX/Calculatrice.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Carre1.JPG" />
+    <Url
+      Source="Resources/Images/L_FX/Carre2.JPG" />
+    <Url
+      Source="Resources/Images/L_FX/Carre3.JPG" />
+    <Url
+      Source="Resources/Images/L_FX/Cash treso - filtre.png" />
+    <Url
+      Source="Resources/Images/L_FX/categorie.png" />
+    <Url
+      Source="Resources/Images/L_FX/Change a terme 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/Change a terme 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Change a terme 3.png" />
+    <Url
+      Source="Resources/Images/L_FX/Change a terme 4.png" />
+    <Url
+      Source="Resources/Images/L_FX/Change a terme 5.png" />
+    <Url
+      Source="Resources/Images/L_FX/Change a terme 6.png" />
+    <Url
+      Source="Resources/Images/L_FX/Change au comptant 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/Change au comptant 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Change au comptant 3.png" />
+    <Url
+      Source="Resources/Images/L_FX/Change au comptant 4.png" />
+    <Url
+      Source="Resources/Images/L_FX/Change au comptant 5.png" />
+    <Url
+      Source="Resources/Images/L_FX/Change au comptant 6.png" />
+    <Url
+      Source="Resources/Images/L_FX/Checkmark_L.gif" />
+    <Url
+      Source="Resources/Images/L_FX/Collapse.gif" />
+    <Url
+      Source="Resources/Images/L_FX/Configuration FX 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/Configuration FX 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Conversion 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/Conversion mt ope comm.png" />
+    <Url
+      Source="Resources/Images/L_FX/Copier parametres filtre 1.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Copier parametres filtre 2.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Copier parametres filtre.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/creer prev comm 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/creer prev comm 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Creer Tache exportation TRN terme 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/Creer Tache exportation TRN terme 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Creer Tache exportation TRN terme 3a.png" />
+    <Url
+      Source="Resources/Images/L_FX/Creer Tache exportation TRN terme 3b.png" />
+    <Url
+      Source="Resources/Images/L_FX/Creer Tache exportation TRN terme 3c.png" />
+    <Url
+      Source="Resources/Images/L_FX/Creer Tache exportation TRN terme 3d.png" />
+    <Url
+      Source="Resources/Images/L_FX/Creer Tache exportation TRN terme 3e.png" />
+    <Url
+      Source="Resources/Images/L_FX/Creer Tache exportation TRN terme 3f.png" />
+    <Url
+      Source="Resources/Images/L_FX/Creer Tache exportation TRN terme 4.png" />
+    <Url
+      Source="Resources/Images/L_FX/Creer Tache importation previsions commerciales 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/Creer Tache importation previsions commerciales 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Creer Tache importation previsions commerciales 3.png" />
+    <Url
+      Source="Resources/Images/L_FX/Creer Tache importation previsions commerciales 4.png" />
+    <Url
+      Source="Resources/Images/L_FX/croix.gif" />
+    <Url
+      Source="Resources/Images/L_FX/DashboardFX.png" />
+    <Url
+      Source="Resources/Images/L_FX/devise filtre fiche position.png" />
+    <Url
+      Source="Resources/Images/L_FX/Dimensions.png" />
+    <Url
+      Source="Resources/Images/L_FX/Dupliquer structure exportation transactions change terme 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/Dupliquer structure importation previsions commerciales 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/dupliquer swap cpt trm.png" />
+    <Url
+      Source="Resources/Images/L_FX/dupliquer swap trm trm.png" />
+    <Url
+      Source="Resources/Images/L_FX/Dupliquer trn change.png" />
+    <Url
+      Source="Resources/Images/L_FX/Editeur de filtre 1.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Editeur de filtre 2.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Editeur de filtre 3.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Edition enregistrer.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/edition journal treso.png" />
+    <Url
+      Source="Resources/Images/L_FX/Editions auto.png" />
+    <Url
+      Source="Resources/Images/L_FX/Entite1.JPG" />
+    <Url
+      Source="Resources/Images/L_FX/Entite2.JPG" />
+    <Url
+      Source="Resources/Images/L_FX/Entite3.JPG" />
+    <Url
+      Source="Resources/Images/L_FX/exemple onglet back office.png" />
+    <Url
+      Source="Resources/Images/L_FX/Expand.gif" />
+    <Url
+      Source="Resources/Images/L_FX/ExpandingClosed.gif" />
+    <Url
+      Source="Resources/Images/L_FX/ExpandingOpen.gif" />
+    <Url
+      Source="Resources/Images/L_FX/faits.png" />
+    <Url
+      Source="Resources/Images/L_FX/Fiche position FX 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/Fiche position FX 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Fiche position FX 3.png" />
+    <Url
+      Source="Resources/Images/L_FX/Fiche position FX affichage detaille.png" />
+    <Url
+      Source="Resources/Images/L_FX/Fiche position FX affichage global.png" />
+    <Url
+      Source="Resources/Images/L_FX/Fiche position FX detail.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre change a terme 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre change a terme 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre change a terme 3.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre change au comptant 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre change au comptant 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre change au comptant 2b.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre change au comptant 3.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre de commande 0.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre de commande 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre de recherche.JPG" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre fiche position FX 0.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Fiche position FX 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Fiche position FX 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Fiche position FX 3.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Fiche position FX 4.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Fiche position FX 5.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Fiche position FX 6.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Fiche position FX 7.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal consolide 0.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal consolide 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal consolide 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal consolide 5.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal consolide 6.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal consolide 7.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal emprunts prets 0.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal emprunts prets 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal emprunts prets 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal emprunts prets 4.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal emprunts prets 6.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal prev comm 0.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal prev comm 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal prev comm 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal prev comm 3.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal prev comm 4.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal prev comm 5.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal prev comm 6.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal prev comm 7.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal toutes TRN 0.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal toutes TRN 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal TRN change 0.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal TRN change 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal TRN change 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal TRN change 3.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal TRN change 4.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal TRN change 5.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal TRN change 6.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre Journal TRN change 7.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre prevision 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre prevision 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre prevision 3.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre swap comptant contre terme 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre swap comptant contre terme 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtre swap comptant contre terme 3.png" />
+    <Url
+      Source="Resources/Images/L_FX/Filtres de commandes.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Forward.gif" />
+    <Url
+      Source="Resources/Images/L_FX/FVCM.png" />
+    <Url
+      Source="Resources/Images/L_FX/FX-Homepage.png" />
+    <Url
+      Source="Resources/Images/L_FX/GlossaryIcon.gif" />
+    <Url
+      Source="Resources/Images/L_FX/GreenTab.png" />
+    <Url
+      Source="Resources/Images/L_FX/HideNavigation.gif" />
+    <Url
+      Source="Resources/Images/L_FX/Highlight_over.gif" />
+    <Url
+      Source="Resources/Images/L_FX/Historique Recherche.JPG" />
+    <Url
+      Source="Resources/Images/L_FX/Home.gif" />
+    <Url
+      Source="Resources/Images/L_FX/icone croix.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Icone filtre.png" />
+    <Url
+      Source="Resources/Images/L_FX/Icone triangle 1.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Icone triangle 2.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/ImageFRP.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Imprimer la vue.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/IndexIcon.gif" />
+    <Url
+      Source="Resources/Images/L_FX/Journal emprunts prets.png" />
+    <Url
+      Source="Resources/Images/L_FX/Journal prev comm.png" />
+    <Url
+      Source="Resources/Images/L_FX/Journal toutes transactions.png" />
+    <Url
+      Source="Resources/Images/L_FX/Journal transactions change.png" />
+    <Url
+      Source="Resources/Images/L_FX/Lettre de confirmation.png" />
+    <Url
+      Source="Resources/Images/L_FX/levee anticipee 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/leveeanticipee.png" />
+    <Url
+      Source="Resources/Images/L_FX/Menu contxt rechch 1.PNG" />
+    <Url
+      Source="Resources/Images/L_FX/Menu Documents.png" />
+    <Url
+      Source="Resources/Images/L_FX/Mode gestion ope comm.png" />
+    <Url
+      Source="Resources/Images/L_FX/Modifier en rafale.png" />
+    <Url
+      Source="Resources/Images/L_FX/modifier filtre fiche position fx 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/modifier filtre fiche position fx 7.png" />
+    <Url
+      Source="Resources/Images/L_FX/Natures de transaction.png" />
+    <Url
+      Source="Resources/Images/L_FX/Notifier edition 1.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Ordre de paiement.png" />
+    <Url
+      Source="Resources/Images/L_FX/page accueil.png" />
+    <Url
+      Source="Resources/Images/L_FX/Param structure fichier comptable a importer 5.png" />
+    <Url
+      Source="Resources/Images/L_FX/ParametrageTVA1.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Parametrer structure importation Popup.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Pop-up calendrier 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Pop-up calendrier.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Pop-up Entites.JPG" />
+    <Url
+      Source="Resources/Images/L_FX/Pop-up menu tri tableau.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/Pop-up sel fichier.png" />
+    <Url
+      Source="Resources/Images/L_FX/Prevision commerciale 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/Prevision commerciale 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Prevision commerciale 3.png" />
+    <Url
+      Source="Resources/Images/L_FX/Prorogation 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/prorogation.png" />
+    <Url
+      Source="Resources/Images/L_FX/QuickSearch.gif" />
+    <Url
+      Source="Resources/Images/L_FX/Rejets previsions commerciales 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Rejets previsions commerciales 3.png" />
+    <Url
+      Source="Resources/Images/L_FX/Rejets previsions commerciales 4.png" />
+    <Url
+      Source="Resources/Images/L_FX/Rejets previsions commerciales.png" />
+    <Url
+      Source="Resources/Images/L_FX/Resultats consolides sur porsition ouverte.png" />
+    <Url
+      Source="Resources/Images/L_FX/SAGE FRP Treasury.JPG" />
+    <Url
+      Source="Resources/Images/L_FX/Sage-XRT-Treasury.png" />
+    <Url
+      Source="Resources/Images/L_FX/sage.gif" />
+    <Url
+      Source="Resources/Images/L_FX/SearchIcon.gif" />
+    <Url
+      Source="Resources/Images/L_FX/Selectionner TRN comm 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/Selectionner TRN comm 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Selectionner TRN comm 3.png" />
+    <Url
+      Source="Resources/Images/L_FX/Selectionner TRN comm 4.png" />
+    <Url
+      Source="Resources/Images/L_FX/Structure exportation changes a terme 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/Structure exportation changes a terme 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Structure exportation changes a terme 3-5.png" />
+    <Url
+      Source="Resources/Images/L_FX/Structure exportation changes a terme 3.png" />
+    <Url
+      Source="Resources/Images/L_FX/Structure exportation changes a terme 4.png" />
+    <Url
+      Source="Resources/Images/L_FX/Structure exportation changes a terme 4b.png" />
+    <Url
+      Source="Resources/Images/L_FX/Structure importation previsions commerciales 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/Structure importation previsions commerciales 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Structure importation previsions commerciales 3.png" />
+    <Url
+      Source="Resources/Images/L_FX/Structure importation previsions commerciales 4.png" />
+    <Url
+      Source="Resources/Images/L_FX/Structure importation previsions commerciales 5a.png" />
+    <Url
+      Source="Resources/Images/L_FX/Structure importation previsions commerciales 5b.png" />
+    <Url
+      Source="Resources/Images/L_FX/Structure importation previsions commerciales 6.png" />
+    <Url
+      Source="Resources/Images/L_FX/Swap comptant contre terme 1.png" />
+    <Url
+      Source="Resources/Images/L_FX/Swap comptant contre terme 1b.png" />
+    <Url
+      Source="Resources/Images/L_FX/Swap comptant contre terme 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Swap comptant contre terme 3.png" />
+    <Url
+      Source="Resources/Images/L_FX/Swap comptant contre terme 4.png" />
+    <Url
+      Source="Resources/Images/L_FX/Swap comptant contre terme 5.png" />
+    <Url
+      Source="Resources/Images/L_FX/Swap comptant contre terme 6.png" />
+    <Url
+      Source="Resources/Images/L_FX/Swap comptant contre terme 7.png" />
+    <Url
+      Source="Resources/Images/L_FX/Swap comptant contre terme jambe.png" />
+    <Url
+      Source="Resources/Images/L_FX/Swap terme contre terme 2.png" />
+    <Url
+      Source="Resources/Images/L_FX/Swap terme contre terme 3.png" />
+    <Url
+      Source="Resources/Images/L_FX/Swap terme contre terme 4.png" />
+    <Url
+      Source="Resources/Images/L_FX/Swap terme contre terme 5.png" />
+    <Url
+      Source="Resources/Images/L_FX/Swap terme contre terme 6.png" />
+    <Url
+      Source="Resources/Images/L_FX/Swap terme contre terme 7.png" />
+    <Url
+      Source="Resources/Images/L_FX/SXT_LoginScreen.jpg" />
+    <Url
+      Source="Resources/Images/L_FX/SXT_LoginScreen.png" />
+    <Url
+      Source="Resources/Images/L_FX/test str ope comm.png" />
+    <Url
+      Source="Resources/Images/L_FX/Ticket operation.png" />
+    <Url
+      Source="Resources/Images/L_FX/TocIcon.gif" />
+    <Url
+      Source="Resources/Images/L_FX/Topic.gif" />
+    <Url
+      Source="Resources/Images/L_FX/vue ensemble fctnelle.png" />
+    <Url
+      Source="Resources/Images/L_FX/Vue flux treso.png" />
+    <Url
+      Source="Resources/Images/L_FX/WebHelpIconeTermeGlossaire.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Accueil Liquidity.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Actualiser a partir de la periode precedente.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Afficher edition composants 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Afficher edition composants 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Assistant de macro Decalage 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Assistant de macro Logique 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Assistant de macro Repartition analytique 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Assistant de macro Repartition periodique 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Back.gif" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Background.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Barre etat.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/barre outil actions dans saisie budgets.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/barre outil filtres.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Barre outil Zoom.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Barre outils langues developpee.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Barre outils langues.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Barre outils page param gen.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Barre outils page paramétrage générale.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Barre outils page.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/BarredoutilsRecherche.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/BarredoutilsRecherche2.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/bdd filtre erpsonnalise.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/bdd filtre personnalise.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/bdd ligne de commande.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/bg_footer_sep.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Book.gif" />
+    <Url
+      Source="Resources/Images/L_Liquidity/bouton aff tout.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/bouton appel calendrier.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Bouton calendrier fleche droite.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Bouton calendrier fleche gauche.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Bouton calendrier flèche droite.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Bouton calendrier flèche gauche.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Bouton coche bleue.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Bouton Derniere page.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Bouton fleche bas gris.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Bouton fleche bas.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/bouton fleche double droite.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/bouton fleche double gauche.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/bouton fleche simple droite.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/bouton fleche simple gauche.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Bouton flèche bas.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/bouton flèche double droite.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/bouton flèche double gauche.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/bouton flèche simple droite.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/bouton flèche simple gauche.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Bouton Page precedente.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Bouton Page suivante.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Bouton Points de suspension.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Bouton Premiere page.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Bouton signe plus.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Bouton STR coche verte.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Bouton STR croix rouge.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Bouton STR fleche drte.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Bouton Zoom moins.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Bouton Zoom plus.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Boutons fleches haut bas.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Boutons flèches haut bas.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/BoutonValidationFormule.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Calculatrice.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Carre1.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Carre2.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Carre3.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Carres bleus.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Cash treso - filtre.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Cash treso 2.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Checkmark_L.gif" />
+    <Url
+      Source="Resources/Images/L_Liquidity/circle_green.gif" />
+    <Url
+      Source="Resources/Images/L_Liquidity/circle_green.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Cloturer.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Codes utilisateur 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Codes utilisateur 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Collapse.gif" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Compar exo 1.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Consolidation selectionner construction.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Copier parametres filtre.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Cours budget 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Cours budget 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer construction FB.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre compar exo 1.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre compar exo 2.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre compar exo 2b.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre compar exo 3.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre compar exo 4.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre compar exo 5.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre compar exo 6.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre compar exo 7.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre edit compar exo 6.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre edition 1 FB.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre edition 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre edition 2a.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre edition 2ab.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre edition 2b.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre edition 2c.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre edition 3.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre edition 3a.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre edition 4.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre edition 4a.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre edition 5.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre edition 5a.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre edition 6.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre edition exemple ecart.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre edition FB 7.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre edition FB.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre feuille de budget 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre feuille de budget 2b.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre feuille de budget 3.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre feuille de budget 4.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre feuille de budget 5.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre feuille de budget 6.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre feuille de budget.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre regle de gestion 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre regle de gestion 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer filtre regle de gestion 3.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Creer une construction de FB.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Deplacer Nature budgetaire Structure.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Diapositive1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Diapositive2.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Diapositive3.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Diapositive4.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Diapositive5.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Diapositive6.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Diapositive7.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Duplique structure.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Dupliquer construction.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Dupliquer structure importation budget.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Dupliquer structure.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Editer la feuille budgetaire 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Editeur de filtre 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Editeur de filtre 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Editeur de filtre 3.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Edition compar ex.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Edition enregistrer.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Edition Feuille budgetaire.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Edition Journal des ecritures.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Entite1.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Entite2.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Entite3.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Entite4.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Exemple mode analyse.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Exemple mode prevision.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Expand.gif" />
+    <Url
+      Source="Resources/Images/L_Liquidity/ExpandingClosed.gif" />
+    <Url
+      Source="Resources/Images/L_Liquidity/ExpandingOpen.gif" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Export Excel.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/FB apres importation realises.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/FB avant importation realises.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/fenetre liquidity.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Filter edition supprimer 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Filter edition supprimer.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Filter regle de gestion supprimer 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Filter regle de gestion supprimer.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Filtre de commande FB 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Filtre de commande FB 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Filtre de recherche.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Filtre edition compar 1.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Filtre edition compar 2.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Filtre edition compar 3.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Filtre edition compar 4.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Filtre edition compar 5.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Filtre edition compar 6.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Filtre edition compar 7.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Filtre FB 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Filtre FB 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Filtre FB 3.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Filtre FB 3b.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Filtre FB 4.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Filtre rapide 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Filtre rapide 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Filtres 1.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Filtres 2.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Filtres de commandes.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Flux treso 1.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Flux treso 2.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Flux treso 3.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Flux treso 4.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Flux treso 5.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Forfaitisation.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Formulaire detail apres importation realises.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Formulaire detail cellule.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Forward.gif" />
+    <Url
+      Source="Resources/Images/L_Liquidity/FVCM.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/GlossaryIcon.gif" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Grille double Compar ex.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Grille double FB.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Grille double.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Grille simple Compar ex.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Grille simple FB.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Grille simple.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Groupe entites 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Groupe entites 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Groupe entites 3.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/HideNavigation.gif" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Highlight_over.gif" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Historique Recherche.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Home.gif" />
+    <Url
+      Source="Resources/Images/L_Liquidity/icone croix.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Icone entite.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Icone filtre.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Icone groupe entites.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Icone Loupe.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Icone revision.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Icone triangle 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Icone triangle 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Icone unite.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Icone version finale.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Icone version initiale.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/ImageFRP.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Importer les transactions de budget 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Importer les transactions de budget 3.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Importer les transactions de budget 4.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Importer les transactions de budget.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Importer realises 1.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Imprimer la vue.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/IndexIcon.gif" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Infobulle.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Journal treso.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/LiquidityDashboard.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Logo.gif" />
+    <Url
+      Source="Resources/Images/L_Liquidity/LogoIcon.gif" />
+    <Url
+      Source="Resources/Images/L_Liquidity/LogoSage.gif" />
+    <Url
+      Source="Resources/Images/L_Liquidity/LogoSage.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/logo_sage.gif" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Menu contextuel saisie budget.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Menu contxt rechch 1.PNG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Menu principal Taches de module.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Modifier les correspondances.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Notifier edition 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/oh-Note.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/oh-Warning.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Param codes periodes 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Param codes periodes 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Param codes refus 2.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Param construction 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Param devise 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Param devise onglet complements.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Param devise onglet Generalites.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Param exercice 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Param exercice 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Param exercice 3.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Param exercice 4.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Param exercice 5.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Param exercice 5b.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Param exercice 6.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Param exercice 6b.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Param exercice 6c.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Param exercice 6d.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Param exercice 7.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Param exercice 7b.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Param exercice 7c.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Param exercice 7d.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Param structure 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Param structure 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Param structure 3.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Param unites 13.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Param unites 2.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/ParametrageTVA1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/ParametrageTVA2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Parametrer conditions importation 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Parametrer conditions importation 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Parametrer conditions importation 3.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Parametrer les codes budget systeme 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Parametrer les codes budget systeme 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Parametrer les regles de gestion 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Parametrer les regles de gestion 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Parametrer structure importation budget 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Parametrer structure importation budget 3.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Parametrer structure importation budget 4.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Parametrer structure importation budget 5.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Parametrer structure importation budget 5b.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Parametrer structure importation budget 6.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Parametrer structure importation budget.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Paramétrage devise 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Paramétrage devise onglet complements.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Paramétrage devise onglet Generalites.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Paramétrer l'exercice 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Paramétrer l'exercice 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Paramétrer l'exercice 3.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Paramétrer l'exercice 4.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Paramétrer l'exercice 5.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Paramétrer l'exercice 5b.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Paramétrer la construction 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Paramétrer la construction 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Paramétrer la construction 3.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Paramétrer la structure 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Paramétrer la structure 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Paramétrer la structure 3.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Paramétrer les codes periodes 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Paramétrer les codes periodes 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Paramétrer les unites 13.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Paramétrer les unites 2.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Pop-up calendrier 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Pop-up calendrier 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Pop-up calendrier 3.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Pop-up calendrier 4.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Pop-up calendrier.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Pop-up codes budget.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Pop-up Entites.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Pop-up Entités.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Pop-up menu tri tableau.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Pop-up regles de gestion.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Preferences affichage feuille budget 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Preferences affichage feuille budget 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Projet1.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Projet2.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/QuickSearch.gif" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Rectangle bleu 1.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Rectangle bleu 2.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Rectangle bleu 3.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Rectangle1.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Rectangle2.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Rectangle3.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Regle de gestion transaction budget.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Repartition sur 12 mois.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Report ecart 1.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Report ecart 2.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Report par lots 1.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Report par lots 2.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/report prev 1.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Reviser budget 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/SAGE FRP Treasury.JPG" />
+    <Url
+      Source="Resources/Images/L_Liquidity/SAGE FRP Treasury.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Sage-XRT-Treasury.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/sage.gif" />
+    <Url
+      Source="Resources/Images/L_Liquidity/SearchIcon.gif" />
+    <Url
+      Source="Resources/Images/L_Liquidity/SXT_LoginScreen.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/SXT_LoginScreen.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Table repartition 1.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Table repartition 2.png" />
+    <Url
+      Source="Resources/Images/L_Liquidity/TocIcon.gif" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Topic.gif" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Transactions de budget rejetees Modifier.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Transactions de budget rejetees Visualiser.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/Transactions de budget rejetees.jpg" />
+    <Url
+      Source="Resources/Images/L_Liquidity/WebHelpIconeTermeGlossaire.jpg" />
+    <Url
+      Source="Resources/Images/L_Netting/Bouton calendrier fleche droite.jpg" />
+    <Url
+      Source="Resources/Images/L_Netting/Bouton calendrier fleche gauche.jpg" />
+    <Url
+      Source="Resources/Images/L_Netting/Bouton fleche bas.jpg" />
+    <Url
+      Source="Resources/Images/L_Netting/Bouton Points de suspension.JPG" />
+    <Url
+      Source="Resources/Images/L_Netting/Bouton STR coche verte.JPG" />
+    <Url
+      Source="Resources/Images/L_Netting/Bouton STR croix rouge.JPG" />
+    <Url
+      Source="Resources/Images/L_Netting/Bouton STR fleche drte.JPG" />
+    <Url
+      Source="Resources/Images/L_Netting/Codes TRN.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Condition de postage des flux.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Configuration Netting - onglet factures.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Confirguration Netting - onglet processus netting.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Convention - onglet Dev Fact.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Convention - onglet entites externes.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Convention - onglet entités internes.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Convention - onglet general.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Convention - onglet TRN Compensation.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Creer Tache exportation TRN terme 1.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Creer Tache exportation TRN terme 2.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Creer Tache exportation TRN terme 3a.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Creer Tache exportation TRN terme 3b.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Creer Tache exportation TRN terme 3c.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Creer Tache exportation TRN terme 3d.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Creer Tache exportation TRN terme 3e.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Creer Tache exportation TRN terme 3f.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Creer Tache exportation TRN terme 4.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Creer Tache importation previsions commerciales 1.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Creer Tache importation previsions commerciales 2.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Creer Tache importation previsions commerciales 3.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Creer Tache importation previsions commerciales 4.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Cycle compensation2.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Cycles compensation.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Dupliquer structure exportation transactions change terme 1.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Dupliquer structure importation previsions commerciales 1.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Edition Balance de Compensation.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Edition Resultat Net Reglement.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Encart Taches de modules.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Fiche Compensation 2.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Fiche Compensation.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Org_multi_avec_netting_bilateral.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Org_multi_avec_netting_Sage.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Org_multi_sans_netting.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Parametrer structure importation Popup.jpg" />
+    <Url
+      Source="Resources/Images/L_Netting/point_d_interrogation_entoure.gif" />
+    <Url
+      Source="Resources/Images/L_Netting/Pop-up calendrier.jpg" />
+    <Url
+      Source="Resources/Images/L_Netting/Postage.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Processus Simulation.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Schema vue ensemble compensation.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Traitement compensation - conversion.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Transaction interne.png" />
+    <Url
+      Source="Resources/Images/L_Payment/19501.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Afficher journal de treso 1.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Afficher journal de treso 2.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Archivage remise.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Assistant création structures.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Assistant exportation.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Assistant importation.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Back.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/barre actions.png" />
+    <Url
+      Source="Resources/Images/L_Payment/barre outil filtres.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Barre outil Zoom.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Barre outils langues developpee.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Barre outils langues.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Barre outils page importation exportation.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Barre outils page param gen.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Barre outils page.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/BarredoutilsRecherche.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/BarredoutilsRecherche2.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Bddial Identification.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Book.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/Bordereau remise.png" />
+    <Url
+      Source="Resources/Images/L_Payment/bouton appel calendrier 2.png" />
+    <Url
+      Source="Resources/Images/L_Payment/bouton appel calendrier.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton calendrier fleche droite.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton calendrier fleche gauche.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton coche bleue.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton cours inverse.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Créer.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Derniere page.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/bouton disquette.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton fleche bas gris.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton fleche bas.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/bouton fleche double droite.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/bouton fleche double gauche.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/bouton fleche simple droite.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/bouton fleche simple gauche.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/bouton liste.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Modifier remise.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Modifier selection remise.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Modifier selection.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Page precedente.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Page suivante.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Points de suspension.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Premiere page.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Process.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton signe plus.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton sommaire.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton STR coche verte.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton STR croix rouge.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton STR fleche drte.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Supprimer Remise.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Supprimer.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Zoom moins.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Zoom plus.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Boutons fleches haut bas.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/BoutonValidationFormule.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Calculatrice.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Carre1.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Carre2.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Carre3.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Checkmark_L.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/Chemin des fichiers.png" />
+    <Url
+      Source="Resources/Images/L_Payment/circle_green.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/circle_green.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Collapse.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/Confirmation Fonction Commerciales.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Confirmation procedure exceptionnelle.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Confirmation purge.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Confirmation remise.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Copier parametres filtre 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Copier parametres filtre 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Copier parametres filtre.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Creation avec modele.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Creation identifiant crediteur.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Creation mandat.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Creation Modele.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Creation Prlvt SEPA.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Creation Profils - Encaissement.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Creation sans modele.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Creation VCOM.png" />
+    <Url
+      Source="Resources/Images/L_Payment/creation VDOM.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Creation VINTL.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Creation VTS avec modele.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Creation VTS.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Creation VTSI.png" />
+    <Url
+      Source="Resources/Images/L_Payment/croix.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/Crreation regle constitution - encaissement.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Detail remise.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Editeur de filtre 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Edition enregistrer.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/edition journal treso.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Editions auto.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Elements de structure.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Enregistrer comme modele.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Entite1.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Entite2.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Entite3.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Expand.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/ExpandingClosed.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/ExpandingOpen.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/Explorateur Payment.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Exportation VDOM.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Fiche position FX 2.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Fiche position FX detail.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Filtre de recherche.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Filtre Fiche position FX 2.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Fonction commerciale.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Fonctions commerciales - Création.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Fonctions commerciales - initialisation auto.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Forward.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/FVCM.png" />
+    <Url
+      Source="Resources/Images/L_Payment/GlossaryIcon.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/HideNavigation.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/Highlight_over.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/Historique Recherche.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Home.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/icone croix.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Icone filtre.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Icone triangle 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Icone triangle 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Identification client - creation - PRLVT.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Identification client - création.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Identification client - PRLVT.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Identification client.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Identification créditeur.png" />
+    <Url
+      Source="Resources/Images/L_Payment/ImageFRP.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Importation VDOM.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Imprimer la vue.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/IndexIcon.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/Interaction mandat transaction.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Journal toutes transactions.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Journal VDOM-selection.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Journal VDOM.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Lettre confirmation.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Lettre de confirmation.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Liste fichiers export.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Liste id client.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Liste mandats.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Liste Prlvt SEPA.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Liste regles constitution - encaissement.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Liste remises selectionnees.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Liste structures export.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Liste transactions a purger.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Liste VCOM.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Liste VDOM.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Liste VINTL.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Liste VTS.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Liste VTSI.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Logo.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/LogoIcon.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/LogoSage.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/LogoSage.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/logo_sage.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/Mandat - visualiser.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Menu contxt rechch 1.PNG" />
+    <Url
+      Source="Resources/Images/L_Payment/Menu Documents.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Message duplication.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Message erreur vdom non conforme.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Mode gestion ope comm.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Modele de virement.png" />
+    <Url
+      Source="Resources/Images/L_Payment/ModeMAJCash.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Modif VDOM.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Modif-Pays-zoneSEPA.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Motif économique - Creation.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Motifs economiques.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Notifier edition 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/oh-Note.png" />
+    <Url
+      Source="Resources/Images/L_Payment/oh-Warning.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Onglet Back Office.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Onglet Transactions.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Option de traitement.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Ordre de paiement.png" />
+    <Url
+      Source="Resources/Images/L_Payment/page accueil.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Page demandes de paiements.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Page import VDOM.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Page selection-2.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Page Selection.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Page valider en rafale.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Param option export.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Param option import.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Param Profils.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Param structure fichier comptable a importer 5.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Param tables correspondances.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Param zone SEPA.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Param-zoneSEPA.png" />
+    <Url
+      Source="Resources/Images/L_Payment/PaymentDashboard.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Pays en zone SEPA.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Pays zoneSEPA - selection.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Pop-up calendrier 2.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Pop-up calendrier.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Pop-up Entites.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Pop-up menu tri tableau.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Pop-up sel fichier.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Procedure exceptionnelle.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Profil-Creation.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Profils encaissement.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Profils_Créer.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Progression exportation.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Progression importation VDOM.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Progression importation VDOM1.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Proposition Remise 2.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Proposition remise.png" />
+    <Url
+      Source="Resources/Images/L_Payment/PropRemise.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Purge effectuee.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Purge virements.png" />
+    <Url
+      Source="Resources/Images/L_Payment/QuickSearch.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/Rapport importation.png" />
+    <Url
+      Source="Resources/Images/L_Payment/RegleConstitution-Creation-2.png" />
+    <Url
+      Source="Resources/Images/L_Payment/RegleConstitution-Creation.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Reglement-TreeView.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Regles_liste.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Rejet Vdom consultation.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Remise archivee.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Remise domestiques - liste.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Remise multiple.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Remise PRLVT.PNG" />
+    <Url
+      Source="Resources/Images/L_Payment/Remise.PNG" />
+    <Url
+      Source="Resources/Images/L_Payment/Remises dom generees.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Remplacer modele.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Règles de consititution et remises.PNG" />
+    <Url
+      Source="Resources/Images/L_Payment/SAGE FRP Treasury.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Sage-XRT-Treasury.png" />
+    <Url
+      Source="Resources/Images/L_Payment/sage.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/SearchIcon.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/Selection des remises.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Selection fichier export.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Suppression Modele.png" />
+    <Url
+      Source="Resources/Images/L_Payment/SXT_LoginScreen.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Table Fonctions Commerciales.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Tableau rejets.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Test Structure.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Tests structure2.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Ticket d'operation - PRLVT.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Ticket d'operation.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Ticket operation.png" />
+    <Url
+      Source="Resources/Images/L_Payment/TocIcon.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/Topic.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/Traiter en rafale.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Types de facture - Creation.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Types de facture.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Validation en rafale.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Validation modif.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Validation multiple.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Validation suppr.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Validation VDOM.png" />
+    <Url
+      Source="Resources/Images/L_Payment/VDOM rejeté.png" />
+    <Url
+      Source="Resources/Images/L_Payment/VINTL.png" />
+    <Url
+      Source="Resources/Images/L_Payment/vue ensemble fctnelle.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Vue flux treso.png" />
+    <Url
+      Source="Resources/Images/L_Payment/WebHelpIconeTermeGlossaire.jpg" />
+    <Url
+      Source="Resources/Images/L_SEI/BARROUTILS_Exporter.png" />
+    <Url
+      Source="Resources/Images/L_SEI/BARROUTILS_LienExterneVue.png" />
+    <Url
+      Source="Resources/Images/L_SEI/BARROUTILS_LienExterneVueWeb.png" />
+    <Url
+      Source="Resources/Images/L_SEI/BARROUTILS_RechercheVue.png" />
+    <Url
+      Source="Resources/Images/L_SEI/BARROUTILS_SelectionEnvironnement.png" />
+    <Url
+      Source="Resources/Images/L_SEI/UTIL_BarreReglage.png" />
+    <Url
+      Source="Resources/Images/L_SEI/UTIL_BarreReglage_Bouton.png" />
+    <Url
+      Source="Resources/Images/L_SEI/UTIL_CentreCommande.png" />
+    <Url
+      Source="Resources/Images/L_SEI/UTIL_CentreCommande_Carte.png" />
+    <Url
+      Source="Resources/Images/L_SEI/UTIL_CentreCommande_Chiffrier.png" />
+    <Url
+      Source="Resources/Images/L_SEI/UTIL_CentreCommande_Dossier.png" />
+    <Url
+      Source="Resources/Images/L_SEI/UTIL_CentreCommande_Etiquette.png" />
+    <Url
+      Source="Resources/Images/L_SEI/UTIL_CentreCommande_Filtre.png" />
+    <Url
+      Source="Resources/Images/L_SEI/UTIL_CentreCommande_Graphique.png" />
+    <Url
+      Source="Resources/Images/L_SEI/UTIL_CentreCommande_Jauge.png" />
+    <Url
+      Source="Resources/Images/L_SEI/UTIL_CentreCommande_Processus.png" />
+    <Url
+      Source="Resources/Images/L_SEI/UTIL_CentreCommande_TableauBord.png" />
+    <Url
+      Source="Resources/Images/L_SEI/UTIL_Favoris.png" />
+    <Url
+      Source="Resources/Images/L_SEI/UTIL_FenetreConnexion.png" />
+    <Url
+      Source="Resources/Images/L_SEI/UTIL_FenetreConnexion_BoutonCentralPoint.png" />
+    <Url
+      Source="Resources/Images/L_SEI/UTIL_FenetrePrincipale.png" />
+    <Url
+      Source="Resources/Images/L_SEI/UTIL_TableauBord.png" />
+    <Url
+      Source="Resources/Images/L_SEI/VUES_Cartes.png" />
+    <Url
+      Source="Resources/Images/L_SEI/VUES_Chiffrier.png" />
+    <Url
+      Source="Resources/Images/L_SEI/VUES_Chiffrier_ChangerGroupes.png" />
+    <Url
+      Source="Resources/Images/L_SEI/VUES_Chiffrier_ChangerGroupes02.png" />
+    <Url
+      Source="Resources/Images/L_SEI/VUES_Chiffrier_ForageAvant.png" />
+    <Url
+      Source="Resources/Images/L_SEI/VUES_Chiffrier_ForageAvant02.png" />
+    <Url
+      Source="Resources/Images/L_SEI/VUES_Graphique.png" />
+    <Url
+      Source="Resources/Images/L_SEI/VUES_Graphique_ChangerGroupes.png" />
+    <Url
+      Source="Resources/Images/L_SEI/VUES_Graphique_ChangerGroupes02.png" />
+    <Url
+      Source="Resources/Images/L_SEI/VUES_Graphique_ChangerType.png" />
+    <Url
+      Source="Resources/Images/L_SEI/VUES_Graphique_ChangerType02.png" />
+    <Url
+      Source="Resources/Images/L_SEI/VUES_Graphique_ForageAvant.png" />
+    <Url
+      Source="Resources/Images/L_SEI/VUES_InformationsDetaillees.png" />
+    <Url
+      Source="Resources/Images/L_SEI/VUES_Jauge.png" />
+    <Url
+      Source="Resources/Images/L_SEI/VUES_TableauBord.png" />
+    <Url
+      Source="Resources/Images/L_SEI/VUES_TableauBord_Filtrer.png" />
+    <Url
+      Source="Resources/Images/L_SEI/VUES_TableauBord_ForageAvant.png" />
+    <Url
+      Source="Resources/Images/L_SEI/VUES_TableauBord_ForageAvant02.png" />
+    <Url
+      Source="Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.AddCommentAction.png" />
+    <Url
+      Source="Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.BankArea.png" />
+    <Url
+      Source="Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.BankDelegationsDashboard.png" />
+    <Url
+      Source="Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.DashboardConfig.png" />
+    <Url
+      Source="Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.GridColumns.png" />
+    <Url
+      Source="Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.GridFormatAmountFilters.png" />
+    <Url
+      Source="Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.GridScrollList.png" />
+    <Url
+      Source="Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.ReconciliationDashboard.png" />
+    <Url
+      Source="Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.RejectsManagement.png" />
+    <Url
+      Source="Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.SetupDashboard.png" />
+    <Url
+      Source="Resources/Images/NewFeatures/SXA.2.0/SXA.2.0.AjoutCommentaire.png" />
+    <Url
+      Source="Resources/Images/NewFeatures/SXA.2.0/SXA.2.0.Dashboards.png" />
+    <Url
+      Source="Resources/Images/NewFeatures/SXA.2.0/SXA.2.0.EditeurDashboard.png" />
+    <Url
+      Source="Resources/Images/NewFeatures/SXA.2.0/SXA.2.0.EspaceBancaire.png" />
+    <Url
+      Source="Resources/Images/NewFeatures/SXA.2.0/SXA.2.0.Grille.png" />
+    <Url
+      Source="Resources/Images/NewFeatures/SXA.2.0/SXA.2.0.Rejets.png" />
+    <Url
+      Source="Resources/Images/NewFeatures/SXA.2.0/Thmb_SXA.2.0.EspaceBancaire.png" />
+    <Url
+      Source="Resources/Images/NewFeatures/SXA.2.1/NewFeatures.SXA.2.1.BankDelegationsLetterInformation.png" />
+    <Url
+      Source="Resources/Images/NewFeatures/SXA.2.1/NewFeatures.SXA.2.1.BatchImport.png" />
+    <Url
+      Source="Resources/Images/NewFeatures/SXA.2.1/NewFeatures.SXA.2.1.Calendars.png" />
+    <Url
+      Source="Resources/Images/NewFeatures/SXA.2.1/NewFeatures.SXA.2.1.IBANValidation.png" />
+    <Url
+      Source="Resources/Images/NewFeatures/SXA.2.1/NewFeatures.SXA.2.1.SelectedEdition.png" />
+    <Url
+      Source="Resources/Images/NewFeatures/SXA.2.1/NewFeatures.SXA.2.1.SubAccounts.png" />
+    <Url
+      Source="Resources/Images/VideoThumbnails/thumb_SXA.BankDelegations.CreerDelegations.png" />
+    <Url
+      Source="Resources/Images/VideoThumbnails/thumb_SXA.BankDelegations.CreerModeleDelegation.png" />
+    <Url
+      Source="Resources/Images/VideoThumbnails/thumb_SXA.BankDelegations.Dashboards.png" />
+    <Url
+      Source="Resources/Images/VideoThumbnails/thumb_SXA.BankDelegations.Filtres.png" />
+    <Url
+      Source="Resources/Images/VideoThumbnails/thumb_SXA.BankDelegations.Interface.png" />
+    <Url
+      Source="Resources/Images/VideoThumbnails/thumb_SXA.BankDelegations.ReglesGeneration.png" />
+    <Url
+      Source="Resources/Images/VideoThumbnails/thumb_SXA.Platform.PrésentationPlateforme2.3.png" />
+    <Url
+      Source="Resources/Images/VideoThumbnails/thumb_SXT.Netting.ConventionCompensation.png" />
+    <Url
+      Source="Resources/Images/VideoThumbnails/thumb_SXT.Netting.CoursCompensation.png" />
+    <Url
+      Source="Resources/Images/VideoThumbnails/thumb_SXT.Netting.CyclesCompensation.png" />
+    <Url
+      Source="Resources/Images/VideoThumbnails/thumb_SXT.Netting.PosterFlux.png" />
+    <Url
+      Source="Resources/Images/VideoThumbnails/thumb_SXT.Netting.SaisieFacture.png" />
+    <Url
+      Source="Resources/Images/VideoThumbnails/thumb_SXT.Netting.StructureCycle.png" />
+    <Url
+      Source="Resources/Images/WhatsNew/5E3A3059.jpg" />
+    <Url
+      Source="Resources/Images/WhatsNew/5E3A8189.jpg" />
+    <Url
+      Source="Resources/Images/WhatsNew/SAGE-P-203.jpg" />
+    <Url
+      Source="Resources/Images/WhatsNew/sage_atlanta_office_0011-1_23055768166_o.png" />
+    <Url
+      Source="Resources/Images/WhatsNew/sage_atlanta_office_0025-1_23093029661_o.png" />
+    <Url
+      Source="Resources/Images/WhatsNew/SAGE_JUPITERMARKETING_BB_0173.jpg" />
+    <Url
+      Source="Resources/Images/WhatsNew/WhatsNew_Cashmodule.png" />
+    <Url
+      Source="Resources/Images/WhatsNew/WhatsNew_Platform.png" />
+    <Url
+      Source="Resources/Images/WhatsNew/WhatsNew_VideoSXA.2.3.png" />
+    <Url
+      Source="Resources/Images/WhatsNew/_DSC1865.png" />
+    <Url
+      Source="Resources/MasterPages/HomePage.flmsp" />
+    <Url
+      Source="Resources/MasterPages/NewFeatures.flmsp" />
+    <Url
+      Source="Resources/MasterPages/OtherTopics.flmsp" />
+    <Url
+      Source="Resources/MasterPages/Untranslated_NewFeatures.flmsp" />
+    <Url
+      Source="Resources/MasterPages/Untranslated_OtherTopics.flmsp" />
+    <Url
+      Source="Resources/MasterPages/VideoPlayer.flmsp" />
+    <Url
+      Source="Resources/MasterPages/__backup_OtherTopics.flmsp" />
+    <Url
+      Source="Resources/Multimedia/NewVideo.mp4" />
+    <Url
+      Source="Resources/Multimedia/HT_BankDelegations/SageBankDelegations.v3.NewInterface_FR.mp4" />
+    <Url
+      Source="Resources/Multimedia/HT_BankDelegations/SBD_CreationDelegations.mp4" />
+    <Url
+      Source="Resources/Multimedia/HT_BankDelegations/SBD_Dashboards.mp4" />
+    <Url
+      Source="Resources/Multimedia/HT_BankDelegations/SBD_Filtres.mp4" />
+    <Url
+      Source="Resources/Multimedia/HT_BankDelegations/SBD_ModelesDelegations.mp4" />
+    <Url
+      Source="Resources/Multimedia/HT_BankDelegations/SBD_RegleGeneration.mp4" />
+    <Url
+      Source="Resources/Multimedia/HT_Platform/SXA.Platform.PrésentationPlateforme2.3.mp4" />
+    <Url
+      Source="Resources/Multimedia/L_Netting/Convention de compensation.mp4" />
+    <Url
+      Source="Resources/Multimedia/L_Netting/Cours de compensation.mp4" />
+    <Url
+      Source="Resources/Multimedia/L_Netting/Cycle de compensation.mp4" />
+    <Url
+      Source="Resources/Multimedia/L_Netting/Postage de flux.mp4" />
+    <Url
+      Source="Resources/Multimedia/L_Netting/Saisir une facture.mp4" />
+    <Url
+      Source="Resources/Multimedia/L_Netting/Structure de cycle.mp4" />
+    <Url
+      Source="Resources/PDF/Sheets/FICHES_SageXRTAdvanced.BankDelegations.pdf" />
+    <Url
+      Source="Resources/PDF/Sheets/FICHES_SageXRTAdvanced.Cash.pdf" />
+    <Url
+      Source="Resources/PDF/Sheets/FICHES_SageXRTAdvanced.pdf" />
+    <Url
+      Source="Resources/PDF/Sheets/FICHES_SageXRTAdvanced.Reconciliation.pdf" />
+    <Url
+      Source="Resources/PDF/SXA/SXA.2.0.NewFeatures_FR.pdf" />
+    <Url
+      Source="Resources/PDF/SXA/SXA.2.0.SetupGuide_FR.pdf" />
+    <Url
+      Source="Resources/PDF/SXA/SXA.2.0.TechnicalGuidelines_FR.pdf" />
+    <Url
+      Source="Resources/PDF/SXA/SXA.2.1.NewFeatures_FR.pdf" />
+    <Url
+      Source="Resources/PDF/SXA/SXA.2.1.SetupGuide_FR.pdf" />
+    <Url
+      Source="Resources/PDF/SXA/SXA.2.1.TechnicalGuidelines_FR.pdf" />
+    <Url
+      Source="Resources/PDF/SXA/SXA.2.2.SetupGuide_FR.pdf" />
+    <Url
+      Source="Resources/PDF/SXA/SXA.2.2.TechnicalGuidelines_FR.pdf" />
+    <Url
+      Source="Resources/PDF/SXT/SXT.4.0.600.SetupGuide_FR.pdf" />
+    <Url
+      Source="Resources/PDF/SXT/SXT.4.0.600.UpdateGuide_FR.pdf" />
+    <Url
+      Source="Resources/PDF/SXT/SXT.4.0.600_SXCS.4.0.400.TechnicalGuidelines_FR.pdf" />
+    <Url
+      Source="Resources/PDF/SXT/SXT.4.0.700_SXCS.4.0.500.TechnicalGuidelines_FR.pdf" />
+    <Url
+      Source="Resources/PDF/SXT/SXT.4.0.800.NewFeatures_FR.pdf" />
+    <Url
+      Source="Resources/PDF/SXT/SXT.4.0.800.SetupGuide_FR.pdf" />
+    <Url
+      Source="Resources/PDF/SXT/SXT.4.0.800_SXCS.4.0.500.TechnicalGuidelines_FR.pdf" />
+    <Url
+      Source="Resources/PDF/SXT/SXT.4.0.900.NewFeatures_FR.pdf" />
+    <Url
+      Source="Resources/PDF/SXT/SXT.4.0.900.SetupGuide_FR.pdf" />
+    <Url
+      Source="Resources/PDF/SXT/SXT.4.0.900_SXCS.4.0.500.TechnicalGuidelines_FR.pdf" />
+    <Url
+      Source="Resources/Snippets/GBL_Home.InfoSection.flsnp" />
+    <Url
+      Source="Resources/Snippets/GBL_Note.flsnp" />
+    <Url
+      Source="Resources/Snippets/GBL_TopicNotTranslated.flsnp" />
+    <Url
+      Source="Resources/Snippets/GBL_Video.flsnp" />
+    <Url
+      Source="Resources/Snippets/GBL_Warning.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/Acces pages gestion transactions.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/Actions dans page export import.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/actions dans page transactions.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/Actions dans tableau page de parametrage.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/Bouton Copier filtre.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/Calculatrice.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/Calendrier.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/Champ prev comm.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/consulter detail jambe swap.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/Consulter lien TRN PREV.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/Copier un filtre de commandes.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/Dupliquer ligne dans tableau.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/Editions - options.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/Enregistrer params filtre.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/Intro onglet Back Office.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/Modifier ligne dans tableau parametrage.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/Numero ordre transaction.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/OK rafraichir annuler.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/Onglet Back Office.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/Onglet Denouement.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/Options Format Filtre edition.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/Pertinence champs.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/Rechercher du texte dans un tableau.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/Ref croisee Reorg tableau.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/Sous rubriques.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/Supprimer ligne dans tableau parametrage.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/Tableau verr BO.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_FX/Valider enregistrer annuler.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Acceder page saisie budget.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Actions dans tableau page de parametrage.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Activer le mode analyse.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Activer le mode prevision.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Afficher ecart.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Bouton Copier filtre.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Calculatrice.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Calendrier.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Condition logique IF.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Copier un filtre de commandes.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Creer une regle de gestion.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Decalage.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Definir une date.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Editions - options analyse budget.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Editions - options.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Enregistrer params filtre.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Etapes de periode.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Exemples sens TVA.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Exporter vers Excel.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Mode analyse - champs.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Modifier ligne dans tableau parametrage.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/OK rafraichir annuler.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Operateurs logiques.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Options Format Filtre edition.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Pertinence champs.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Plus d options mode analyse et filtres affichage.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Rechercher du texte dans un tableau.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Ref croisee Reorg tableau.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Repartition analytique.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Repartition periodique.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Repartition sur 12 mois.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Sommation sur un montant.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Sous rubriques.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Supprimer ligne dans tableau parametrage.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Valider enregistrer annuler.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Liquidity/Valider une formule et enregistrer.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Acces pages gestion transactions.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Actions dans page export import.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/actions dans page transactions.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Actions dans tableau page de parametrage.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Bouton Copier filtre.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Calculatrice.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Calendrier.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Champ prev comm.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/consulter detail jambe swap.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Consulter lien TRN PREV.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Copier un filtre de commandes.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Dupliquer ligne dans tableau.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Editions - options.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Enregistrer params filtre.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Intro onglet Back Office.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Modifier ligne dans tableau parametrage.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Numero ordre transaction.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/OK rafraichir annuler.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Onglet Back Office.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Onglet Denouement.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Options Format Filtre edition.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Pertinence champs.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Rechercher du texte dans un tableau.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Ref croisee Reorg tableau.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Sous rubriques.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Supprimer ligne dans tableau parametrage.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Tableau verr BO.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Valider enregistrer annuler.flsnp" />
+    <Url
+      Source="Resources/Stylesheets/MainStyles.css" />
+    <Url
+      Source="Resources/Stylesheets/StylesForHomePage.css" />
+    <Url
+      Source="Resources/Stylesheets/Video_MainStyles.css" />
+    <Url
+      Source="Resources/TableStyles/Note.css" />
+    <Url
+      Source="Resources/TableStyles/Tableau standard bordures.css" />
+    <Url
+      Source="Resources/TableStyles/Tableau standard.css" />
+    <Url
+      Source="Resources/TableStyles/Warning.css" />
+  </SourceUrls>
+  <UsedUrls>
+    <Url
+      Source="C_Videos/SXA.BankDelegations.CreerDelegation.htm"
+      Terms="Video | General.ImportFromFR |  [6]" />
+    <Url
+      Source="C_Videos/SXA.BankDelegations.CreerModeleDelegation.htm"
+      Terms="Video | General.ImportFromFR |  [6]" />
+    <Url
+      Source="C_Videos/SXA.BankDelegations.Dashboards.htm"
+      Terms="Video | General.ImportFromFR |  [6]" />
+    <Url
+      Source="C_Videos/SXA.BankDelegations.Filtres.htm"
+      Terms="Video | General.ImportFromFR |  [6]" />
+    <Url
+      Source="C_Videos/SXA.BankDelegations.Interface.htm"
+      Terms="Video | General.ImportFromFR |  [4]" />
+    <Url
+      Source="C_Videos/SXA.BankDelegations.ReglesGeneration.htm"
+      Terms="Video | General.ImportFromFR |  [6]" />
+    <Url
+      Source="C_Videos/SXA.Platform.PrésentationPlateforme2.3.htm"
+      Terms="Video | General.ImportFromFR |  [6]" />
+    <Url
+      Source="C_Videos/SXT.Netting.ConventionCompensation.htm"
+      Terms="Video | General.ImportFromFR |  [4]" />
+    <Url
+      Source="F_NewFeatures/Home_NewFeatures.htm"
+      Terms="New Features" />
+    <Url
+      Source="F_NewFeatures/SageXRTAdvanced.2.0.htm"
+      Terms="New Features" />
+    <Url
+      Source="F_NewFeatures/SageXRTAdvanced.2.1.htm"
+      Terms="New Features" />
+  </UsedUrls>
+  <UsedConceptControlUrls />
+</CatapultGlobalConceptSet>

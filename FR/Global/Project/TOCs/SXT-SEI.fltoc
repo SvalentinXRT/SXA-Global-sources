@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/E_Sxt/6_SEI/SEI_Introduction.htm">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/E_Sxt/6_SEI/UTIL_Introduction.htm">
+      <TocEntry
+        Title="Fenêtre de connexion"
+        Link="/Content/E_Sxt/6_SEI/UTIL_FenetreConnexion.htm" />
+      <TocEntry
+        Title="Fenêtre principale"
+        Link="/Content/E_Sxt/6_SEI/UTIL_FenetrePrincipale.htm" />
+      <TocEntry
+        Title="Centre de commande"
+        Link="/Content/E_Sxt/6_SEI/UTIL_CentreCommande.htm"></TocEntry>
+      <TocEntry
+        Title="Barre de réglage"
+        Link="/Content/E_Sxt/6_SEI/UTIL_BarreReglage.htm" />
+      <TocEntry
+        Title="Tableau de bord"
+        Link="/Content/E_Sxt/6_SEI/UTIL_TableauBord.htm" />
+      <TocEntry
+        Title="Vues"
+        Link="/Content/E_Sxt/6_SEI/VUES_Intro.htm">
+        <TocEntry
+          Title="Chiffrier"
+          Link="/Content/E_Sxt/6_SEI/VUES_Chiffrier.htm" />
+        <TocEntry
+          Title="Graphique"
+          Link="/Content/E_Sxt/6_SEI/VUES_Graphique.htm" />
+        <TocEntry
+          Title="Jauge"
+          Link="/Content/E_Sxt/6_SEI/VUES_Jauge.htm"></TocEntry>
+        <TocEntry
+          Title="Carte"
+          Link="/Content/E_Sxt/6_SEI/VUES_Carte.htm" />
+        <TocEntry
+          Title="Tableau de bord"
+          Link="/Content/E_Sxt/6_SEI/VUES_TableauBord.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Barre d'outils"
+        Link="/Content/E_Sxt/6_SEI/BARR_BarreOutils.htm" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

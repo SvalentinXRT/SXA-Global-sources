@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>&#160;</head>
+    <body>
+        <p class="IndentPuceNiv1SautLigne">Pour plus d'informations sur l'accès à&#160;:</p>
+        <ul>
+            <li class="PuceNiv2">la page de gestion des transactions de change au comptant, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Sxt/5_FX/TRAITFINAN - Change au comptant.htm" target="" title="" alt="" class="XrefSansTexte">Change au comptant</MadCap:xref>,</MadCap:conditionalText></li>
+            <li class="PuceNiv2">la page de gestion des transactions de change à terme, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Sxt/5_FX/TRAITFINAN - Change a terme.htm" target="" title="" alt="" class="XrefSansTexte">Change à terme</MadCap:xref>,</MadCap:conditionalText></li>
+            <li class="PuceNiv2">la page de gestion des transactions de swap, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Sxt/5_FX/TRAITFINAN - Swap.htm" target="" title="" alt="" class="XrefSansTexte">Swap</MadCap:xref>.</MadCap:conditionalText></li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="false"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/E_Sxt/3_Payment/INTRO - Perimetre fonctionnel.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/INTRO - Gestion virements.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/INTRO - Principes fonctionnels.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/INTRO - Acces appli.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/PRINCIPES - Introduction.htm" />
+    <Link
+      Url="Content/Resources/MasterPages/Print - Chapitre.flmsp" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/PRINCIPES - Reglements.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/PRINCIPES - Statuts.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/PRINCIPES - Profils.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/PRINCIPES - Regles de constitution.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/PRINCIPES - Impact profils et regles de constitution.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/PARAM - Intro.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/PARAM - Donnees ref.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/PARAM - Configuration Paiement.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/PARAM - Creation Profils.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/PARAM - Creation Regles Constitution.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/PARAM - Identification Clients.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/PARAM - Chemin Fichiers.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/PARAM - Motifs Economiques.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/PARAM - Modeles Virements.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/PARAM - Fonctions Commerciales.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/PARAM - Types Facture.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/PARAM - Options Traitement.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/PARAM - Mode Mise a Jour Cash.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/PARAM - Structures de fichier.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/PARAM - Fichiers de virements.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/INTEGRATION - Intro.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/INTEGRATION - Importation des virements.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/INTEGRATION - Rejets virements.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/TRAITEMENT - Intro.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/TRAITFINAN - Virements.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/TRAITFINAN - Constantes d'utilisation.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/TRAITFINAN - Modèles de saisie.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/TRAITFINAN - Modele - Creation.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/TRAITFINAN - Modele - Suppression.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/TRAITFINAN - Selection.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/TRAITFINAN - Selection des transactions.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/TRAITFINAN - Selection des remises.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/TRAITFINAN - Suivi des virements.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/TRAITFINAN - Caracteristiques.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/TRAITFINAN - Evolution des virements.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/TRAITFINAN - Modification et suppression exceptionnelles.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/TRAITFINAN - Constitution des remises.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/TRAITFINAN - Caracteristiques des remises.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/TRAITFINAN - Gestion des remises.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/TRAITFINAN - Modification et suppression exceptionnelles2.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/TRAITFINAN - Journal de treso.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/EXPORT - Intro.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/EXPORT - Exportation virements.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/EDITION - Intro.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/EDITION - Consultation.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/EDITION - Ticket operation.htm" />
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/EDITION - Capture - Ticket operation.htm" />
+    <Link
+      Url="Content/Resources/MasterPages/Print - Chapitre - Landscape.flmsp" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/EDITION - Lettre confirmation.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/EDITION - Capture - Lettre confirmation.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/EDITION - Bordereau remise.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/EDITION - Capture - Bordereau remise.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/EDITION - Personnalisation.htm" />
+    <Link
+      Url="Content/E_Sxt/3_Payment/EDITION - Diffusion.htm" />
+  </Links>
+  <LongLinks />
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.PrintOnly" />
+  </AllConditions>
+  <Stylesheets />
+</CatapultFileLinkSet>

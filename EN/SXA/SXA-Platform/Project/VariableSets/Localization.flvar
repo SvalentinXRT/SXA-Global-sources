@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet
+  conditions="General.ImportFromGBL"
+  fileTags="OHCGlobal.GBL">
+  <Variable
+    Comment=""
+    Name="CompanyName">Sage</Variable>
+  <Variable
+    Comment=""
+    Name="Running H/F 6">&lt;$paratext[h6]&gt;</Variable>
+  <Variable
+    Comment=""
+    Name="Running H/F 5">&lt;$paratext[h5]&gt;</Variable>
+  <Variable
+    Comment=""
+    Name="Running H/F 4">&lt;$paratext[h4]&gt;</Variable>
+  <Variable
+    Comment=""
+    Name="Running H/F 3">&lt;$paratext[h3]&gt;</Variable>
+  <Variable
+    Comment=""
+    Name="Running H/F 2">&lt;$paratext[h2]&gt;</Variable>
+  <Variable
+    Comment=""
+    Name="Running H/F A"
+    EvaluatedDefinition="&lt;$paratext[h1]NonNumm&gt;">&lt;$paratext[h1]NonNumm&gt;</Variable>
+  <Variable
+    Name="SXT_Liquidity"
+    Comment=""
+    EvaluatedDefinition="Budget de Trésorerie">Budget de Trésorerie</Variable>
+  <Variable
+    Name="SXT_Cash"
+    Comment=""
+    EvaluatedDefinition="Trésorerie">Trésorerie</Variable>
+  <Variable
+    Name="SXT"
+    Comment=""
+    EvaluatedDefinition="Sage XRT Treasury">Sage XRT Treasury</Variable>
+  <Variable
+    Name="SXTModulesTasks"
+    Comment=""
+    Definition="Some text"
+    EvaluatedDefinition="Tâches de Modules">Tâches de Modules</Variable>
+  <Variable
+    Name="SXTSetupFolder"
+    Comment=""
+    Definition="Some text"
+    EvaluatedDefinition="Paramétrage">Paramétrage</Variable>
+  <Variable
+    Name="SXTManagementFolder"
+    Comment=""
+    Definition="Some text"
+    EvaluatedDefinition="Gestion">Gestion</Variable>
+  <Variable
+    Name="SXTReportsFolder"
+    Comment=""
+    Definition="Some text"
+    EvaluatedDefinition="Édition">Édition</Variable>
+  <Variable
+    Name="SXTImportFolder"
+    Comment=""
+    Definition="Some text"
+    EvaluatedDefinition="Importer / Exporter">Importer / Exporter</Variable>
+  <Variable
+    Name="SXT_Setup"
+    Comment=""
+    Definition="Some text"
+    EvaluatedDefinition="Paramétrage">Paramétrage</Variable>
+  <Variable
+    Name="SXT_MarketData"
+    Comment=""
+    Definition="Some text"
+    EvaluatedDefinition="Données de Marché">Données de Marché</Variable>
+  <Variable
+    Name="SXT_Administration"
+    Comment=""
+    Definition="Some text"
+    EvaluatedDefinition="Administration">Administration</Variable>
+  <Variable
+    Name="SXComm"
+    Comment=""
+    EvaluatedDefinition="Sage XRT Communication">Sage XRT Communication</Variable>
+  <Variable
+    Name="SXT_Payment"
+    Comment=""
+    EvaluatedDefinition="Paiement">Paiement</Variable>
+  <Variable
+    Name="SXSign"
+    Comment="">Sage XRT Signature</Variable>
+  <Variable
+    Name="SXTDashboardsTasks"
+    Comment=""
+    Definition="Some text"
+    EvaluatedDefinition="Tâches de Dashboards">Tâches de Dashboards</Variable>
+  <Variable
+    Name="SXTPaymentElements"
+    Comment=""
+    Definition="Some text"
+    EvaluatedDefinition="Eléments de Paiement">Eléments de Paiement</Variable>
+  <Variable
+    Name="SXTCommonElements"
+    Comment=""
+    Definition="Some text"
+    EvaluatedDefinition="Eléments Communs">Eléments Communs</Variable>
+  <Variable
+    Name="SXT_Netting"
+    Comment=""
+    EvaluatedDefinition="Netting">Netting</Variable>
+  <Variable
+    Name="SXT_FX"
+    Comment=""
+    EvaluatedDefinition="FX">FX</Variable>
+  <Variable
+    Name="SXT_FinTrans"
+    Comment=""
+    EvaluatedDefinition="Opérations Financières">Opérations Financières</Variable>
+  <Variable
+    Name="SXA_BankDelegations"
+    Comment=""
+    EvaluatedDefinition="Pouvoirs Bancaires">Pouvoirs Bancaires</Variable>
+  <Variable
+    Name="SXA"
+    Comment=""
+    EvaluatedDefinition="Sage XRT Advanced">Sage XRT Advanced</Variable>
+  <Variable
+    Name="SXA_Bank"
+    Comment=""
+    EvaluatedDefinition="Espace Bancaire">Espace Bancaire</Variable>
+  <Variable
+    Name="SXA_Cash"
+    Comment=""
+    EvaluatedDefinition="Trésorerie">Trésorerie</Variable>
+  <Variable
+    Name="SXA_Reconciliation"
+    Comment=""
+    EvaluatedDefinition="Rapprochement">Rapprochement</Variable>
+  <Variable
+    Name="SXA_MarketData"
+    Comment=""
+    EvaluatedDefinition="Données de Marché">Données de Marché</Variable>
+  <Variable
+    Name="SXA_Setup"
+    Comment=""
+    EvaluatedDefinition="Paramétrage">Paramétrage</Variable>
+  <Variable
+    Name="SXA_Administration"
+    Comment=""
+    EvaluatedDefinition="Administration">Administration</Variable>
+  <Variable
+    Name="SXT_SEI"
+    Comment=""
+    EvaluatedDefinition="Sage Enterprise Intelligence">Sage Enterprise Intelligence</Variable>
+  <Variable
+    Name="SXT_SEIShort"
+    Comment=""
+    EvaluatedDefinition="SEI">SEI</Variable>
+  <Variable
+    Name="SXT_SEIMobile"
+    Comment=""
+    EvaluatedDefinition="Sage Enterprise Intelligence Mobile">Sage Enterprise Intelligence Mobile</Variable>
+  <Variable
+    Name="SXT_SEIMobileShort"
+    Comment=""
+    EvaluatedDefinition="SEI Mobile">SEI Mobile</Variable>
+  <Variable
+    Name="SCS_CommonServices"
+    Comment=""
+    EvaluatedDefinition="Sage XRT Common Services">Sage XRT Common Services</Variable>
+  <Variable
+    Name="SXA_Platform"
+    Comment=""
+    EvaluatedDefinition="Plate-forme">Plate-forme</Variable>
+</CatapultVariableSet>

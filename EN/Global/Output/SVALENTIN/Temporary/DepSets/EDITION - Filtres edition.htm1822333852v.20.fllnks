@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/ANNEXE - GUI - Filtres.htm" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition 1.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition 2a.jpg" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_Liquidity/Bouton Copier filtre.flsnp" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Bouton coche bleue.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition 2ab.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition 3a.jpg" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/ContextualTopics/Calendrier.htm" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition 4a.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition 5a.jpg" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_Liquidity/Options Format Filtre edition.flsnp" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition FB.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition 2b.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Bouton Points de suspension.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition 2c.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition 3.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition 4.jpg" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition exemple ecart.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition 5.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition 6.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition FB 7.png" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre compar exo 1.png" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre compar exo 2.png" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/COMP - ComparaisonExercices.htm" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre compar exo 6.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/ANNEXE - GUI - Filtres.htm" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition 1.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition 2a.jpg" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_Liquidity/Bouton Copier filtre.flsnp" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Bouton coche bleue.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition 2ab.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition 3a.jpg" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/ContextualTopics/Calendrier.htm" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition 4a.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition 5a.jpg" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_Liquidity/Options Format Filtre edition.flsnp" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition FB.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition 2b.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Bouton Points de suspension.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition 2c.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition 3.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition 4.jpg" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition exemple ecart.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition 5.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition 6.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre edition FB 7.png" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre compar exo 1.png" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre compar exo 2.png" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/COMP - ComparaisonExercices.htm#creer_filtre" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Creer filtre compar exo 6.png" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="onglet_affichage" />
+    <Anchor
+      Name="onglet_consolidation" />
+  </Anchors>
+  <Keywords>
+    <IndexCacheEntry
+      Term="Reports:filters"
+      Conditions=""
+      LocalConditions=""
+      Position="7" />
+    <IndexCacheEntry
+      Term="Filters:reports"
+      Conditions=""
+      LocalConditions=""
+      Position="7" />
+    <IndexCacheEntry
+      Term="Budget Entries Ledger:filters"
+      Conditions=""
+      LocalConditions=""
+      Position="32" />
+    <IndexCacheEntry
+      Term="Filters:reports:Budget Entries Ledger"
+      Conditions=""
+      LocalConditions=""
+      Position="32" />
+    <IndexCacheEntry
+      Term="Filters:reports:budget sheet"
+      Conditions=""
+      LocalConditions=""
+      Position="178" />
+    <IndexCacheEntry
+      Term="Budget sheet:report:filter"
+      Conditions=""
+      LocalConditions=""
+      Position="178" />
+    <IndexCacheEntry
+      Term="Reports:budget sheet:filter"
+      Conditions=""
+      LocalConditions=""
+      Position="178" />
+    <IndexCacheEntry
+      Term="Exercises Comparison:report:filter"
+      Conditions=""
+      LocalConditions=""
+      Position="507" />
+    <IndexCacheEntry
+      Term="Filters:reports:exercises comparison"
+      Conditions=""
+      LocalConditions=""
+      Position="507" />
+    <IndexCacheEntry
+      Term="Reports:exercises comparison:filter"
+      Conditions=""
+      LocalConditions=""
+      Position="507" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXT_Cash" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.ScreenOnly" />
+  </AllConditions>
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Note.css" />
+    <Url
+      Source="Content/Resources/TableStyles/Tableau standard.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

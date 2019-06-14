@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="182" MadCap:lastWidth="500">
+    <head>
+        <link href="../../TableStyles/Warning.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table style="mc-table-style: url('../../TableStyles/Warning.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Warning" cellspacing="0">
+            <col class="TableStyle-Warning-Column-Column1" />
+            <col class="TableStyle-Warning-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Warning-Body-Body1">
+                    <td class="TableStyle-Warning-BodyB-Column1-Body1" style="text-align: left;">
+                        <img src="../../Images/Assets/oh-Warning.png" />
+                    </td>
+                    <td class="TableStyle-Warning-BodyA-Column2-Body1">Il ne s'agit pas du numéro complet des transactions, mais du numéro d'ordre de création des transactions qui figure à droite dans le numéro de la transaction. Le numéro de transaction est composé du code de la société, du code du type de transaction et du <b>numéro d'ordre de la transaction</b>.</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

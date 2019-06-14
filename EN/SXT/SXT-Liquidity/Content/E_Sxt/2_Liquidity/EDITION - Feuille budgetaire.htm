@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="3497" MadCap:lastWidth="714">
+    <head>
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT"><MadCap:keyword term="Reports:budget sheet;Budget sheet:report" />Budget Sheet Report</h1>
+        <p>This report enables you to generate a sheet presenting your budget according to customized criteria.</p>
+        <p class="SautLigneAvantEtAprès">You can set up the layout and the selection criteria using the report filters.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Accessing Report Page of the Budget Sheet</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p><span>In the <b><MadCap:variable name="Localization.SXTModulesTasks" /></b> pane, select the <b>Budget sheet</b> option in the <b><MadCap:variable name="Localization.SXTReportsFolder" /></b> folder of the <MadCap:variable name="Localization.SXT_Liquidity" style="font-weight: bold;" /> module.</span></p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv1">If no filter has been set up for this report, the filter configuration page is displayed. See the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="EDITION - Filtres edition.htm" target="" title="" alt="" class="XrefSansTexte">Report Filters</MadCap:xref> topic</MadCap:conditionalText> for more information on setting up filters for this report.</li>
+                    <li class="PuceNiv1">If a filter has already been set up for this report, the report page opens up, presenting the budget sheet generated with the default filter.</li>
+                </ul>
+                <p class="IndentPuceNiv1" MadCap:targetName="Capture edition"><img src="../../Resources/Images/L_Liquidity/Edition Feuille budgetaire.jpg" class="SAGE_screenshot" /></p>
+                <p>The layout of the report table depends on the settings of the default filter.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead MadCap:conditions="">
+                        <MadCap:dropDownHotspot>View Report Description</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>The <u>body of the report</u> shows one after the other the revisions that you have selected in the filter, with, for each revision:</p>
+                        <ul style="list-style-type: square;">
+                            <li class="PuceNiv1">a one-line title displaying the revision identifier, as well as the codes for the company, exercise period, type of budget sheet (operational or treasury), exercise status and revision.</li>
+                            <li class="PuceNiv1">the revision budget in a table.</li>
+                        </ul>
+                        <p class="SautLigne">The <u>budget table</u> and the entry budget sheet are similar.</p>
+                        <ul style="list-style-type: square;">
+                            <li class="PuceNiv1">Amounts are grouped by budget code and period.</li>
+                            <li class="PuceNiv1">The table lines group transaction amounts by budget code. Budget codes are classified by category. Category totals are also presented for each category.</li>
+                            <li class="PuceNiv1">The table columns group transaction amounts by period. Periods are determined by the standard length of a period defined in the report filter: day, week, month, etc.</li>
+                        </ul>
+                        <p class="IndentPuceNiv1">For each period, depending on the settings defined in the filter, three columns can be displayed: they specify the amount saved in the treasury budget, the amount saved in the <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> module and the discrepancy between both amounts, in amount or percentage according to the configuration of the report filter.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot><MadCap:keyword term="Consolidation:setup" />Displaying the consolidated view of Budgets for a Company Grouping</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The report filters enable you to set up a consolidated view of budgets for a company belonging to a same grouping.</p>
+                <p class="SautLigne">The followig process describes the selection of a budget sheet designer in the report filter and the settings for the consolidated view.</p>
+                <p class="SautLigneAvantEtAprès">See the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="EDITION - Filtres edition.htm" target="" title="" alt="" class="XrefSansTexte">Report Filters</MadCap:xref> topic</MadCap:conditionalText> for more information on the filter configuration for this report.</p>
+                <ol>
+                    <li class="PuceNumNiv1">In the <b>Filters</b> toolbar of the report page, click the <b>Modify</b> option.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The modification page for the report filter settings, is displayed.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the setup page for the report filter, select a budget sheet designer as follows:</li>
+                </ol>
+                <p class="IndentPuceNiv1">In the <b>Designer</b> area of the <b>Companies</b> tab, click the button <img src="../../Resources/Images/L_Liquidity/Bouton Points de suspension.JPG" /> to display the list of the set up designers. In the contextual window, double-click the line to select it.</p>
+                <p class="IndentPuceNiv1">The code and description of the selected designer are displayed in the <b>Designer</b> area of the <b>Companies</b> tab.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click on the <b>Consolidation</b> tab.</li>
+                </ol>
+                <p class="IndentPuceNiv1" MadCap:targetName="Capture creer filtre 6x"><img src="../../Resources/Images/L_Liquidity/Creer filtre edition 6.jpg" class="SAGE_screenshot"></img></p>
+                <p class="IndentPuceNiv1">This tab enables you to set up a report which groups budgets at the level of the companies groupings on several exercises.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Exercises</b> area, click the <b>Select</b> button to display the list of the existing exercises for the selected companies and periods. In the contextual window, enable the options in front of the exercises to display in the report, then click the button <img src="../../Resources/Images/L_Liquidity/Bouton coche bleue.JPG" />.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The codes of the selected exercises are displayed:</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2">in the <b>Exercises</b> area with the designer code associated with the exercise,</li>
+                    <li class="PuceNiv2">in the <b>Revision</b> area before the name of the last available version (initial, revised, or final versions). You can select an older version than the last one.</li>
+                </ul>
+                <ol start="5">
+                    <li class="PuceNumNiv1">To select a previous version, click the revision code and the line, in the contextual window, to select it.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The selected version is displayed in the <b>Revision</b> column.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click the following buttons, as needed:</li>
+                </ol>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2"><b>Save</b> to save the setup without leaving the current page</li>
+                    <li class="PuceNiv2"><b>OK</b> to save the setup and display again the report Budget Sheet</li>
+                    <li class="PuceNiv2"><b>Cancel</b> to display again the report Budget Sheet without saving the setup</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot><MadCap:keyword term="Reports: forecasts" />Showing Forecasts only</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The following process describes the setup for the forecasts display in the report filter.</p>
+                <p class="SautLigneAvantEtAprès">See the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="EDITION - Filtres edition.htm" target="" title="" alt="" class="XrefSansTexte">Report Filters</MadCap:xref> topic</MadCap:conditionalText> for more information on the filter configuration for this report.</p>
+                <ol>
+                    <li class="PuceNumNiv1">In the <b>Filters</b> toolbar of the report page, click the <b>Modify</b> option.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The modification page for the report filter settings, is displayed.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the setup page for the report filter, click the <b>View</b> tab.</li>
+                </ol>
+                <p class="IndentPuceNiv1" MadCap:targetName="Capture activer mode prevision"><img src="../../Resources/Images/L_Liquidity/Creer filtre edition 4.jpg" class="SAGE_screenshot" /></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>BS views</b> area, select the <b>Budget Planning</b> option.</li>
+                </ol>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click <b>OK </b>to save the setting and display again the Budget Sheet report.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead><MadCap:keyword term="Discrepancies:display in reports;Reports:discrepancies" /><MadCap:keyword term="Reports: actual" /><MadCap:dropDownHotspot>Viewing Forecasts, Actual and Discrepancy</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The following process describes the setup for the forecasts analysis, for the flows of the <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> module and for the discrepancies in the report filters.</p>
+                <p class="SautLigneAvantEtAprès">See the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="EDITION - Filtres edition.htm" target="" title="" alt="" class="XrefSansTexte">Report Filters</MadCap:xref> topic</MadCap:conditionalText> for more information on the filter configuration for this report.</p>
+                <ol>
+                    <li class="PuceNumNiv1">In the <b>Filters</b> toolbar of the report page, click the <b>Modify</b> option. </li>
+                </ol>
+                <p class="IndentPuceNiv1">The modification page for the report filter settings, is displayed.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the setup page for the report filter, click the <b>View</b> tab.</li>
+                </ol>
+                <p class="IndentPuceNiv1" MadCap:targetName="Capture activer mode analyse"><img src="../../Resources/Images/L_Liquidity/Creer filtre edition 4.jpg" class="SAGE_screenshot"></img></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>BS views</b> area, select the <b>Budget Analysis</b> option.</li>
+                </ol>
+                <p class="IndentPuceNiv1">Enable the <b>Totals Only</b> option to display only the subtotals, the totals of the category, the opening balance, etc.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1" style="margin-bottom: 12pt;">Set up the display options of the analysis as decsribed in the table below.</li>
+                </ol>
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_Liquidity/Editions - options analyse budget.flsnp" />
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click <b>OK </b>to save the setting and display again the Budget Sheet report.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_Liquidity/Editions - options.flsnp" />
+    </body>
+</html>

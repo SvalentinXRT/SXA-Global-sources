@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="Command Center"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles.css" />
+    <Link
+      Url="Content/Resources/Images/L_SEI/UTIL_CentreCommande.png" />
+    <Link
+      Url="Content/Resources/Images/L_SEI/UTIL_CentreCommande_Dossier.png" />
+    <Link
+      Url="Content/Resources/Images/L_SEI/UTIL_CentreCommande_Processus.png" />
+    <Link
+      Url="Content/Resources/Images/L_SEI/UTIL_CentreCommande_Chiffrier.png" />
+    <Link
+      Url="Content/Resources/Images/L_SEI/UTIL_CentreCommande_Graphique.png" />
+    <Link
+      Url="Content/Resources/Images/L_SEI/UTIL_CentreCommande_Jauge.png" />
+    <Link
+      Url="Content/Resources/Images/L_SEI/UTIL_CentreCommande_Carte.png" />
+    <Link
+      Url="Content/Resources/Images/L_SEI/UTIL_CentreCommande_TableauBord.png" />
+    <Link
+      Url="Content/Resources/Images/L_SEI/UTIL_CentreCommande_Filtre.png" />
+    <Link
+      Url="Content/Resources/Images/L_SEI/UTIL_CentreCommande_Etiquette.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles.css" />
+    <Link
+      Url="Content/Resources/Images/L_SEI/UTIL_CentreCommande.png" />
+    <Link
+      Url="Content/Resources/Images/L_SEI/UTIL_CentreCommande_Dossier.png" />
+    <Link
+      Url="Content/Resources/Images/L_SEI/UTIL_CentreCommande_Processus.png" />
+    <Link
+      Url="Content/Resources/Images/L_SEI/UTIL_CentreCommande_Chiffrier.png" />
+    <Link
+      Url="Content/Resources/Images/L_SEI/UTIL_CentreCommande_Graphique.png" />
+    <Link
+      Url="Content/Resources/Images/L_SEI/UTIL_CentreCommande_Jauge.png" />
+    <Link
+      Url="Content/Resources/Images/L_SEI/UTIL_CentreCommande_Carte.png" />
+    <Link
+      Url="Content/Resources/Images/L_SEI/UTIL_CentreCommande_TableauBord.png" />
+    <Link
+      Url="Content/Resources/Images/L_SEI/UTIL_CentreCommande_Filtre.png" />
+    <Link
+      Url="Content/Resources/Images/L_SEI/UTIL_CentreCommande_Etiquette.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Note.css" />
+    <Url
+      Source="Content/Resources/TableStyles/Tableau standard.css" />
+    <Url
+      Source="Content/Resources/Stylesheets/MainStyles.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

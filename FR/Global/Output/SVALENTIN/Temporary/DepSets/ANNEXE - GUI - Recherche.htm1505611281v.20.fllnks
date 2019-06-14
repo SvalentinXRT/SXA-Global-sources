@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Rechercher du texte dans un tableau.flsnp" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Rechercher du texte dans un tableau.flsnp" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="Recherch" />
+  </Anchors>
+  <Keywords>
+    <IndexCacheEntry
+      Term="Recherche textuelle"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="7" />
+    <IndexCacheEntry
+      Term="Texte, recherche"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="7" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions>
+    <Condition
+      Tag="Default.3Revised" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.3Revised" />
+  </AllConditions>
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Tableau standard.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

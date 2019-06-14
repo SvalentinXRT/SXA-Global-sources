@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="1816" MadCap:lastWidth="714">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT"><MadCap:keyword term="Company grouping:setup;Company:group, setup" />Company Grouping</h1>
+        <p>Setting up a company grouping enables you to display later (when entering your budget) a consolidated view of the budgets of its companies. This consolidated view is the total of Operational Budgets and Treasury Budgets of companies within a same grouping.</p>
+        <p class="SautLigne">Company groupings are elements of <MadCap:variable name="Localization.SXT" /> data repository. You can set them up via the <b><MadCap:variable name="Localization.SXT_Setup" /></b> module.</p>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">You can set up company groupings only for companies that are already set up.</td>
+                </tr>
+            </tbody>
+        </table>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Accessing Setup Page for Company Groupings</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">In the <b><MadCap:variable name="Localization.SXTModulesTasks" /></b> pane, select the <b><MadCap:variable name="Localization.SXT_Setup" /></b> module from the accordion menu.<br />The tasks of the module are displayed in this pane.</li>
+                    <li class="PuceNumNiv1">Select the <b>Company groupings</b> option in the <b><MadCap:variable name="Localization.SXTSetupFolder" /></b> folder.<br />The setup page for company groupings is displayed with the list of the existing company groupings in a table.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The table shows the code and description of the company grouping in the first columns.</p>
+                <p class="IndentPuceNiv1" MadCap:conditions=""><img src="../../Resources/Images/L_Liquidity/Groupe entites 1.jpg" MadCap:targetName="Capture Paramétrage groupe entités" class="SAGE_screenshot" /></p>
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_Liquidity/Actions dans tableau page de parametrage.flsnp" />
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_Liquidity/Ref croisee Reorg tableau.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Creating Company Groupings</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>To create a company grouping, you need to have already set up two companies. </p>
+                <p><MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">For more information on creating companies, see the <MadCap:xref href="PARAM - Entite.htm" class="XrefSansTexte">Company</MadCap:xref> topic.</MadCap:conditionalText></p>
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_Liquidity/Pertinence champs.flsnp" />
+                <ol MadCap:continue="false">
+                    <li class="PuceNumNiv1">In the setup page for company groupings, click the <b>Create</b> button.<br />The <b>General</b> tab is displayed on the creation page. This tab enables you to save the standard information used for the unique identification of the company grouping.</li>
+                </ol>
+                <p class="IndentPuceNiv1" MadCap:conditions=""><img src="../../Resources/Images/L_Liquidity/Groupe entites 2.jpg" MadCap:targetName="Capture Groupe onglet Généralités" class="SAGE_screenshot" /></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Enter a code and a description for the company grouping in the <b>Code</b> and <b>Description 1</b> fields.</li>
+                </ol>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Leading Entity</b> field, select the main company:</li>
+                </ol>
+                <ol>
+                    <li class="PuceNumNiv2">Click the button <img src="../../Resources/Images/L_Liquidity/Bouton Points de suspension.JPG" /> to display the list of the set up companies.</li>
+                    <li class="PuceNumNiv2">In the contextual window, double-click the line to select it.<br />The code and name of the selected company are displayed in the General tab.</li>
+                </ol>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">The selection of the leading entity does not influence the consolidation.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol start="4">
+                    <li class="PuceNumNiv1">Click the <b>Distribution</b> tab. This tab enables the association of companies with the grouping.</li>
+                </ol>
+                <p class="IndentPuceNiv1" MadCap:conditions=""><img src="../../Resources/Images/L_Liquidity/Groupe entites 3.jpg" MadCap:targetName="Capture Groupe onglet Répartition" class="SAGE_screenshot" /></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click the <b>Contents</b> button to select companies.<br />A contextual window displays the list of the existing companies.</li>
+                </ol>
+                <p MadCap:targetName="Capture pop-up Entités" class="IndentPuceNiv1"><img src="../../Resources/Images/L_Liquidity/Pop-up Entites.JPG" class="SAGE_screenshot" /></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click a line to select it or to cancel its selection.<br />The check mark on the left indicates that the line is selected.</li>
+                    <li class="PuceNumNiv1">Click the button <img src="../../Resources/Images/L_Liquidity/Bouton coche bleue.JPG" /> to validate your selection.<br />This selection is displayed in the <b>General</b> tab.</li>
+                    <li class="PuceNumNiv1">For each selected company, enter a weighting percentage in the <b>Weighting</b> column.</li>
+                    <li class="PuceNumNiv1">The value for the total weighting percentage of the companies must be 100%.</li>
+                </ol>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">Weighting does not influence the consolidation.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click the following buttons, as needed:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Apply</b> to save the setup of the grouping and create another one,</li>
+                    <li class="PuceNiv2"><b>OK</b> to save the setup of the grouping and go back to the list of the set up company groupings,</li>
+                </ul>
+                <ul>
+                    <li class="PuceNiv2"><b>Cancel</b> to cancel the setup of the grouping.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

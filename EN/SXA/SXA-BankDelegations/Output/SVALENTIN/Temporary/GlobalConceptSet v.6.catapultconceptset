@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlobalConceptSet
+  SavedSource="file:///C:/__OHC MADCAP/EN/SXA/SXA-BankDelegations/Output/SVALENTIN/Temporary/GlobalConceptSet v.6.catapultconceptset">
+  <Concepts />
+  <SourceUrls>
+    <Url
+      Source="SearchResults.htm" />
+    <Url
+      Source="B_HelpTopics/1_BankDelegations/BankDelegations.htm" />
+    <Url
+      Source="B_HelpTopics/1_BankDelegations/CreationDelegation.htm" />
+    <Url
+      Source="B_HelpTopics/1_BankDelegations/CreationIntro.htm" />
+    <Url
+      Source="B_HelpTopics/1_BankDelegations/CreationMasse.htm" />
+    <Url
+      Source="B_HelpTopics/1_BankDelegations/CreationUnitaire.htm" />
+    <Url
+      Source="B_HelpTopics/1_BankDelegations/Filtres.htm" />
+    <Url
+      Source="B_HelpTopics/1_BankDelegations/Modele lettre.htm" />
+    <Url
+      Source="B_HelpTopics/1_BankDelegations/ParamComplementaire.htm" />
+    <Url
+      Source="B_HelpTopics/1_BankDelegations/Parametrage.htm" />
+    <Url
+      Source="B_HelpTopics/1_BankDelegations/ParamIntro.htm" />
+    <Url
+      Source="B_HelpTopics/1_BankDelegations/PreparationLettre.htm" />
+    <Url
+      Source="B_HelpTopics/1_BankDelegations/ReglesGeneration.htm" />
+    <Url
+      Source="B_HelpTopics/1_BankDelegations/SecuriteDonnees.htm" />
+    <Url
+      Source="B_HelpTopics/1_BankDelegations/V3_CreationCircuitValidation.htm" />
+    <Url
+      Source="B_HelpTopics/1_BankDelegations/V3_CreationCircuitValidation_Notification.htm" />
+    <Url
+      Source="B_HelpTopics/1_BankDelegations/V3_CreationCircuitValidation_SuiviRequetes.htm" />
+    <Url
+      Source="B_HelpTopics/1_BankDelegations/V3_EditionReglesGeneration.htm" />
+    <Url
+      Source="B_HelpTopics/1_BankDelegations/V3_NouvelleInterface.htm" />
+    <Url
+      Source="Resources/Images/Assets/circle_green.gif" />
+    <Url
+      Source="Resources/Images/Assets/oh-Note.png" />
+    <Url
+      Source="Resources/Images/Assets/oh-Warning.png" />
+    <Url
+      Source="Resources/Images/Assets/HeroImages/HeroImage-1.jpg" />
+    <Url
+      Source="Resources/Images/Assets/HeroImages/HeroImage-2.jpg" />
+    <Url
+      Source="Resources/Images/Assets/HeroImages/homebanner.jpg" />
+    <Url
+      Source="Resources/Images/Assets/HeroImages/Homepage-Bottom.png" />
+    <Url
+      Source="Resources/Images/Assets/HeroImages/Homepage-Top.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-down-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-down-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-left-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-left-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-right-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-right-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-up-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-up-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Clients-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Clients-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Clients-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Contact-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Contact-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Contact-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/FAQs-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/FAQs-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/FAQs-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Hello-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Hello-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Hello-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Notes-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Notes-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Notes-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/PDFs-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/PDFs-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/PDFs-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Search-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Search-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Search-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Services-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Services-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Services-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/SharedFiles-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/SharedFiles-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/SharedFiles-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Solutions-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Solutions-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Solutions-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Tips-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Tips-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Tips-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/VideosImages-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/VideosImages-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/VideosImages-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-FAQ-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-FAQ-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-NewFeatures-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-NewFeatures-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-PDF-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-PDF-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-SXA-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-SXA-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-SXT-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-SXT-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-Videos-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-Videos-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/50-FAQ-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/50-NewFeatures-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/50-PDF-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/50-SXA-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/50-SXT-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/50-Videos-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/blue_faq.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/blue_newfeatures.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/blue_pdf.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/blue_sxa.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/blue_sxt.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/blue_videos.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-announcement.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-announcement@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-announcement@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-announcement@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-devices@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-doc-pdf@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-doc-pdf@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-doc-pdf@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-doc-pdf@4x_BrillantGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-help@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-knowledge-base@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-knowledge-base@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x_AccessibleGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x_BrillantGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-logo-youtube@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x_AccessibleGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x_BrillantGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-newspaper@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-newspaper@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-newspaper@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-newspaper@4x_BrillantGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-qna@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-qna@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-qna@4x_BrillantGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-quick-help@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-quick-help@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-quick-help@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-quick-help@4x_BrillantGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_faq.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-announcement.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-announcement@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-announcement@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-doc-pdf@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/White_icon-doc-pdf@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-help@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-knowledge-base@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-logo-youtube@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-newspaper@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-qna@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_newfeatures.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_pdf.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_sxa.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_sxt.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_videos.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white__icon-announcement@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage_PDF/PDF1.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/AddSM-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/AddSM-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/AddSM-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/FB-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/FB-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/FB-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/Insta-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/Insta-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/Insta-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/LI-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/LI-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/LI-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/Twitter-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/Twitter-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/Twitter-white.png" />
+    <Url
+      Source="Resources/Images/Assets/PlaceholderLogo/Logo_55pxl.png" />
+    <Url
+      Source="Resources/Images/Assets/PlaceholderLogo/PlaceholderLogo-gray.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/10_SelectionValidator.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/11_SelectionUtilisateurs.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/12_RequetesDeValidation.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/13_MesRequetesDeValidation.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/2_ModelesLettres.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/3_CreationRegleValidation.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/4_Rubrique1Validation.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/5_Rubrique2Validation.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/6_ValidationSelectionSocietes1.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/7_ValidationSelectionSocietes2.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/8_Rubrique3Validation.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/9_RequetesObsoletes.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/bg.jpg" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/circle_green.gif" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/circle_green.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Collaborateur.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Compte.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/ConfigurerFiltre.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Creation masse - modele 1 signature.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Creation masse - modele 2 signatures.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Creation unitaire.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/CreationUnitaire.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/CreerModeleDelegation.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/CreerModeleDeuxSignatures.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/CreerModeleDeuxSignatures02.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/CreerModeleUneSignature.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/CreerModeleUneSignature02.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/DEFVIEW.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Delegants.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Designer 4.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Designer 5.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Designer 6.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Designer1.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Designer2.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Designer3.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/DesignerLettres.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/DesignerVariables.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/filtre 1.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Filtre 2.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Filtre 3.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Filtre 4.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/FiltreRapide.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/FlowChart General.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/fullscreen.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/GenererLettresParRegles.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/GroupeCollaborateurs.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Lettre brouillon.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Lettres Brouillon.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/MenuCreerModele1Signature.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/MenuCreerModele2Signatures.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Modele lettres Affichage.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/ModeleDelegation.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/ModeVisualisation.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/oh-Note.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/oh-Warning.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Prep lettre - delegation.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Prep lettre - regle generation.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Quick Default Filter.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/RegleGenerationLettre.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Regles de generation.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Scope Pouvoirs Bancaires V1.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Slide 2.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Slide 3.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Slide 4.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Slide 5.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/Slide1.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/TypeOperation.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/TypeSignature.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/V3_EditionReglesGeneration.png" />
+    <Url
+      Source="Resources/Images/HT_BankDelegations/WorkflowLettre.png" />
+    <Url
+      Source="Resources/MasterPages/Copy of HomePage.flmsp" />
+    <Url
+      Source="Resources/MasterPages/HomePage.flmsp" />
+    <Url
+      Source="Resources/MasterPages/OtherTopics.flmsp" />
+    <Url
+      Source="Resources/MasterPages/Untranslated_OtherTopics.flmsp" />
+    <Url
+      Source="Resources/MasterPages/__backup_OtherTopics.flmsp" />
+    <Url
+      Source="Resources/Multimedia/NewVideo.mp4" />
+    <Url
+      Source="Resources/Multimedia/HT_BankDelegations/SageBankDelegations.v3.NewInterface_FR.mp4" />
+    <Url
+      Source="Resources/Multimedia/HT_BankDelegations/SBD_CreationDelegations.mp4" />
+    <Url
+      Source="Resources/Multimedia/HT_BankDelegations/SBD_Dashboards.mp4" />
+    <Url
+      Source="Resources/Multimedia/HT_BankDelegations/SBD_Filtres.mp4" />
+    <Url
+      Source="Resources/Multimedia/HT_BankDelegations/SBD_ModelesDelegations.mp4" />
+    <Url
+      Source="Resources/Multimedia/HT_BankDelegations/SBD_RegleGeneration.mp4" />
+    <Url
+      Source="Resources/Snippets/GBL_Home.InfoSection.flsnp" />
+    <Url
+      Source="Resources/Snippets/GBL_Note.flsnp" />
+    <Url
+      Source="Resources/Snippets/GBL_TopicNotTranslated.flsnp" />
+    <Url
+      Source="Resources/Snippets/GBL_Video.flsnp" />
+    <Url
+      Source="Resources/Snippets/GBL_Warning.flsnp" />
+    <Url
+      Source="Resources/Stylesheets/MainStyles.css" />
+    <Url
+      Source="Resources/Stylesheets/StylesForHomePage.css" />
+    <Url
+      Source="Resources/Stylesheets/Video_MainStyles.css" />
+    <Url
+      Source="Resources/TableStyles/Note.css" />
+    <Url
+      Source="Resources/TableStyles/Tableau standard bordures.css" />
+    <Url
+      Source="Resources/TableStyles/Tableau standard.css" />
+    <Url
+      Source="Resources/TableStyles/Warning.css" />
+  </SourceUrls>
+  <UsedUrls />
+  <UsedConceptControlUrls />
+</CatapultGlobalConceptSet>

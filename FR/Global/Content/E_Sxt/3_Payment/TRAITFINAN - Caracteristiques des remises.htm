@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:lastBlockDepth="7" MadCap:lastHeight="1716" MadCap:lastWidth="589">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="LegacySXT">
+            <MadCap:keyword term="Remise:caractéristiques" />Caractéristiques des remises</h1>
+        <p>Une remise peut être abordée de deux façons :</p>
+        <p>En une seule opération : le lot de virements est constitué et mis au format bancaire.</p>
+        <p>En deux temps : le lot est constitué, puis mis au format ultérieurement. Cette solution est retenue lorsque vous n'êtes pas certain de vouloir envoyer tous les virements sélectionnés ou que vous attendez l'aval d'un tiers pour mettre les fichiers à transmettre à disposition du progiciel de télétransmission <b>Communication</b>.</p>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1">
+                        <img src="../../Resources/Images/Assets/oh-Note.png" />
+                    </td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">Tant que la mise au format n'a pas été effectuée, la remise peut être modifiée.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Le lien <b>Traiter en rafale</b> du menu <b>Validation</b> affiche dans un premier temps la page <b>Sélection</b> pour vous permettre de sélectionner les critères d'affichage de votre choix pour les transactions à inclure dans la remise.</p>
+        <p MadCap:targetName="Capture 1">
+            <img src="../../Resources/Images/L_Payment/Page Selection.png" class="SAGE_screenshot" />
+        </p>
+        <p>Après validation des critères par un clic sur le bouton <b>OK</b>, la page <b>Traiter en rafale</b> s'affiche. Elle affiche tous les virements validés et autorisés répondant aux critères que vous avez éventuellement définis.</p>
+        <p MadCap:targetName="Capture 2">
+            <img src="../../Resources/Images/L_Payment/Traiter en rafale.png" class="SAGE_screenshot" />
+        </p>
+        <p>Une coche dans la case de sélection d'un virement indique qu'il va être traité. Par défaut, tous les virements sont ainsi marqués.</p>
+        <p class="SautLigne">Un clic sur le bouton <b>Traitement</b> permet d'afficher la page de la remise proposée. Elle regroupe les ordres en fonction des donneurs d'ordre, des profils et des règles de constitution que vous avez paramétrées.</p>
+        <p MadCap:targetName="Capture 3">
+            <img src="../../Resources/Images/L_Payment/PropRemise.png" class="SAGE_screenshot" />
+        </p>
+        <p>La page propose trois rubriques&#160;:</p>
+        <ul>
+            <li class="PuceNiv1">La rubrique <b>Remises</b>, qui contient la définition des remises issues des ordres sélectionnés au préalable.<br />Pour chaque remise sont indiqués le donneur d'ordre, l'agence, le nombre d'ordres, le type de date (si la date apparaît, la remise est mono-date), le type de gestion des devises (si la devise est indiquée, la remise n'est pas multi-devises) et le type - ordinaire ou à échéance - spécifique aux virements domestiques, le montant total de la remise.</li>
+            <li class="PuceNiv1">La rubrique <b>Ordres</b>, qui affiche les ordres de la remise sélectionnée dans la rubrique <b>Remises</b>.<br />Pour chaque ordre, le numéro, le payé, la devise du paiement, le montant, la date d'exécution, la référence et la finalité sont indiqués.</li>
+            <li class="PuceNiv1">La rubrique <b>Traitements</b>, qui permet de gagner un temps précieux car elle permet de lancer à la fois la constitution et la génération de la remise, tout en ordonnant l'édition simultanée du bordereau de remise à destination de la banque et de la lettre à destination du bénéficiaire.<br />Par défaut, l'option Génération (constitution du lot + mise au format) est sélectionnée. Lorsque vous souhaitez pourvoir revenir sur la remise, vous devez décocher cette case d'option.</li>
+        </ul>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Créer une remise</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">Dans le menu Validation, cliquez sur le lien <b>Traiter en rafale</b>.</li>
+                </ol>
+                <p class="IndentPuceNiv1">La page de sélection des transactions s'affiche. Pour plus d'informations sur cette page, consultez la rubrique <MadCap:xref href="TRAITFINAN - Selection des transactions.htm" class="XrefSansTexte">Sélection des transactions</MadCap:xref></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Renseignez éventuellement la page en fonction des transactions recherchées, puis cliquez sur <b>OK</b> pour ouvrir la page <b>Traitement en rafale</b> avec la liste des transactions à traiter.</li>
+                    <li class="PuceNumNiv1">Si vous souhaitez remettre tous les ordres validés et/ou autorisés, cliquez sur le bouton <b>Traitement</b>, sinon, décochez la case des virements qui ne vous intéressent pas avant de lancer le traitement en rafale.</li>
+                </ol>
+                <p class="IndentPuceNiv1SautLigne">Une fenêtre contextuelle intitulée <b>Proposition de remise</b> s'affiche. La remise proposée peut être multi-dates, mono-date, mono-devise ou multi-devises, comme dans la capture ci-dessous :</p>
+                <p MadCap:targetName="Capture 4">
+                    <img src="../../Resources/Images/L_Payment/Proposition remise.png" class="SAGE_screenshot" />
+                </p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Cliquez sur <b>OK</b> pour accéder au contenu de la remise proposée.</li>
+                    <li class="PuceNumNiv1">Cliquez sur le bouton <b>OK</b> si vous acceptez la proposition de remise. La page de la proposition se referme et la page <b>Traiter en rafale</b> ne contient plus les ordres remis.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1">
+                        <img src="../../Resources/Images/Assets/oh-Note.png" />
+                    </td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">Une fois la remise générée ou constituée, les ordres ne peuvent plus être modifiés et passent au statut <b>Remis</b> ou <b>Préparé</b>. Par ailleurs, une remise générée ne peut plus être modifiée ; elle peut être consultée uniquement en passant par le menu <b>Remises</b> de la transaction de votre choix.</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,1021 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlobalConceptSet
+  SavedSource="file:///C:/__OHC MADCAP/Sage XRT Advanced/EN/SXT/SXT-Payment/Output/SVALENTIN/Temporary/GlobalConceptSet v.6.catapultconceptset">
+  <Concepts />
+  <SourceUrls>
+    <Url
+      Source="SearchResults.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/EDITION - Bordereau remise.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/EDITION - Capture - Bordereau remise.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/EDITION - Capture - Lettre confirmation.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/EDITION - Capture - Ticket operation.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/EDITION - Consultation.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/EDITION - Diffusion.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/EDITION - Intro.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/EDITION - Lettre confirmation.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/EDITION - Personnalisation.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/EDITION - Ticket operation.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/EXPORT - Exportation virements.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/EXPORT - Intro.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/INTEGRATION - Importation des virements.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/INTEGRATION - Intro.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/INTEGRATION - Rejets virements.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/INTRO - Acces appli.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/INTRO - Gestion virements.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/INTRO - Perimetre fonctionnel.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/INTRO - Principes fonctionnels.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/PARAM - Chemin Fichiers.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/PARAM - Configuration Paiement.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/PARAM - Creation Profils.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/PARAM - Creation Regles Constitution.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/PARAM - Donnees ref.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/PARAM - Fichiers de virements.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/PARAM - Fonctions Commerciales.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/PARAM - Identification Clients.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/PARAM - Intro.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/PARAM - Mode Mise a Jour Cash.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/PARAM - Modeles Virements.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/PARAM - Motifs Economiques.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/PARAM - Options Traitement.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/PARAM - Structures de fichier.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/PARAM - Types Facture.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/PRINCIPES - Impact profils et regles de constitution.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/PRINCIPES - Introduction.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/PRINCIPES - Profils.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/PRINCIPES - Reglements.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/PRINCIPES - Regles de constitution.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/PRINCIPES - Statuts.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/TRAITEMENT - Intro.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/TRAITFINAN - Caracteristiques des remises.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/TRAITFINAN - Caracteristiques.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/TRAITFINAN - Constantes d'utilisation.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/TRAITFINAN - Constitution des remises.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/TRAITFINAN - Evolution des virements.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/TRAITFINAN - Gestion des remises.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/TRAITFINAN - Journal de treso.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/TRAITFINAN - Modele - Creation.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/TRAITFINAN - Modele - Suppression.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/TRAITFINAN - Modification et suppression exceptionnelles.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/TRAITFINAN - Modification et suppression exceptionnelles2.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/TRAITFINAN - Modèles de saisie.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/TRAITFINAN - Selection des remises.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/TRAITFINAN - Selection des transactions.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/TRAITFINAN - Selection.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/TRAITFINAN - Suivi des virements.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/TRAITFINAN - Virements.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/ContextualTopics/Calculatrice.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/ContextualTopics/Calendrier.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/ContextualTopics/Consulter lien TRN PREV.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/ContextualTopics/Copier les parametres d un filtre.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/ContextualTopics/Dupliquer element dans tableau page.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/ContextualTopics/Modifier element dans tableau page.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/ContextualTopics/Rechercher texte dans tableau page.htm" />
+    <Url
+      Source="E_Legacy/3_Payment/ContextualTopics/Supprimer element dans tableau page.htm" />
+    <Url
+      Source="Resources/Images/Assets/circle_green.gif" />
+    <Url
+      Source="Resources/Images/Assets/oh-Note.png" />
+    <Url
+      Source="Resources/Images/Assets/oh-Warning.png" />
+    <Url
+      Source="Resources/Images/Assets/HeroImages/HeroImage-1.jpg" />
+    <Url
+      Source="Resources/Images/Assets/HeroImages/HeroImage-2.jpg" />
+    <Url
+      Source="Resources/Images/Assets/HeroImages/homebanner.jpg" />
+    <Url
+      Source="Resources/Images/Assets/HeroImages/Homepage-Bottom.png" />
+    <Url
+      Source="Resources/Images/Assets/HeroImages/Homepage-Top.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-down-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-down-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-left-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-left-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-right-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-right-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-up-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-up-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Clients-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Clients-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Clients-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Contact-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Contact-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Contact-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/FAQs-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/FAQs-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/FAQs-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Hello-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Hello-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Hello-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Notes-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Notes-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Notes-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/PDFs-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/PDFs-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/PDFs-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Search-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Search-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Search-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Services-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Services-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Services-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/SharedFiles-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/SharedFiles-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/SharedFiles-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Solutions-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Solutions-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Solutions-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Tips-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Tips-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Tips-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/VideosImages-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/VideosImages-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/VideosImages-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-FAQ-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-FAQ-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-NewFeatures-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-NewFeatures-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-PDF-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-PDF-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-SXA-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-SXA-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-SXT-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-SXT-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-Videos-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-Videos-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/50-FAQ-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/50-NewFeatures-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/50-PDF-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/50-SXA-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/50-SXT-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/50-Videos-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/blue_faq.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/blue_newfeatures.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/blue_pdf.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/blue_sxa.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/blue_sxt.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/blue_videos.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-announcement.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-announcement@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-announcement@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-announcement@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-devices@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-doc-pdf@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-doc-pdf@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-doc-pdf@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-doc-pdf@4x_BrillantGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-help@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-knowledge-base@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-knowledge-base@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x_AccessibleGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x_BrillantGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-logo-youtube@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x_AccessibleGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x_BrillantGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-newspaper@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-newspaper@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-newspaper@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-newspaper@4x_BrillantGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-qna@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-qna@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-qna@4x_BrillantGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-quick-help@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-quick-help@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-quick-help@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-quick-help@4x_BrillantGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_faq.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-announcement.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-announcement@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-announcement@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-doc-pdf@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/White_icon-doc-pdf@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-help@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-knowledge-base@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-logo-youtube@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-newspaper@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-qna@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_newfeatures.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_pdf.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_sxa.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_sxt.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_videos.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white__icon-announcement@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage_PDF/PDF1.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/AddSM-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/AddSM-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/AddSM-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/FB-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/FB-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/FB-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/Insta-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/Insta-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/Insta-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/LI-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/LI-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/LI-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/Twitter-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/Twitter-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/Twitter-white.png" />
+    <Url
+      Source="Resources/Images/Assets/PlaceholderLogo/Logo_55pxl.png" />
+    <Url
+      Source="Resources/Images/Assets/PlaceholderLogo/PlaceholderLogo-gray.png" />
+    <Url
+      Source="Resources/Images/L_Payment/19501.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Afficher journal de treso 1.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Afficher journal de treso 2.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Archivage remise.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Assistant création structures.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Assistant exportation.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Assistant importation.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Back.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/barre actions.png" />
+    <Url
+      Source="Resources/Images/L_Payment/barre outil filtres.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Barre outil Zoom.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Barre outils langues developpee.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Barre outils langues.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Barre outils page importation exportation.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Barre outils page param gen.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Barre outils page.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/BarredoutilsRecherche.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/BarredoutilsRecherche2.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Bddial Identification.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Book.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/Bordereau remise.png" />
+    <Url
+      Source="Resources/Images/L_Payment/bouton appel calendrier 2.png" />
+    <Url
+      Source="Resources/Images/L_Payment/bouton appel calendrier.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton calendrier fleche droite.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton calendrier fleche gauche.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton coche bleue.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton cours inverse.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Créer.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Derniere page.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/bouton disquette.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton fleche bas gris.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton fleche bas.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/bouton fleche double droite.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/bouton fleche double gauche.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/bouton fleche simple droite.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/bouton fleche simple gauche.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/bouton liste.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Modifier remise.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Modifier selection remise.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Modifier selection.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Page precedente.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Page suivante.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Points de suspension.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Premiere page.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Process.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton signe plus.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton sommaire.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton STR coche verte.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton STR croix rouge.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton STR fleche drte.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Supprimer Remise.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Supprimer.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Zoom moins.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Bouton Zoom plus.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Boutons fleches haut bas.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/BoutonValidationFormule.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Calculatrice.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Carre1.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Carre2.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Carre3.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Checkmark_L.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/Chemin des fichiers.png" />
+    <Url
+      Source="Resources/Images/L_Payment/circle_green.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/circle_green.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Collapse.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/Confirmation Fonction Commerciales.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Confirmation procedure exceptionnelle.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Confirmation purge.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Confirmation remise.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Copier parametres filtre 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Copier parametres filtre 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Copier parametres filtre.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Creation avec modele.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Creation identifiant crediteur.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Creation mandat.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Creation Modele.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Creation Prlvt SEPA.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Creation Profils - Encaissement.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Creation sans modele.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Creation VCOM.png" />
+    <Url
+      Source="Resources/Images/L_Payment/creation VDOM.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Creation VINTL.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Creation VTS avec modele.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Creation VTS.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Creation VTSI.png" />
+    <Url
+      Source="Resources/Images/L_Payment/croix.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/Crreation regle constitution - encaissement.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Detail remise.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Editeur de filtre 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Edition enregistrer.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/edition journal treso.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Editions auto.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Elements de structure.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Enregistrer comme modele.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Entite1.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Entite2.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Entite3.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Expand.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/ExpandingClosed.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/ExpandingOpen.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/Explorateur Payment.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Exportation VDOM.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Fiche position FX 2.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Fiche position FX detail.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Filtre de recherche.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Filtre Fiche position FX 2.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Fonction commerciale.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Fonctions commerciales - Création.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Fonctions commerciales - initialisation auto.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Forward.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/FVCM.png" />
+    <Url
+      Source="Resources/Images/L_Payment/GlossaryIcon.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/HideNavigation.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/Highlight_over.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/Historique Recherche.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Home.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/icone croix.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Icone filtre.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Icone triangle 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Icone triangle 2.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Identification client - creation - PRLVT.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Identification client - création.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Identification client - PRLVT.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Identification client.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Identification créditeur.png" />
+    <Url
+      Source="Resources/Images/L_Payment/ImageFRP.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Importation VDOM.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Imprimer la vue.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/IndexIcon.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/Interaction mandat transaction.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Journal toutes transactions.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Journal VDOM-selection.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Journal VDOM.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Lettre confirmation.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Lettre de confirmation.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Liste fichiers export.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Liste id client.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Liste mandats.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Liste Prlvt SEPA.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Liste regles constitution - encaissement.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Liste remises selectionnees.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Liste structures export.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Liste transactions a purger.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Liste VCOM.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Liste VDOM.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Liste VINTL.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Liste VTS.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Liste VTSI.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Logo.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/LogoIcon.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/LogoSage.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/LogoSage.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/logo_sage.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/Mandat - visualiser.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Menu contxt rechch 1.PNG" />
+    <Url
+      Source="Resources/Images/L_Payment/Menu Documents.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Message duplication.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Message erreur vdom non conforme.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Mode gestion ope comm.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Modele de virement.png" />
+    <Url
+      Source="Resources/Images/L_Payment/ModeMAJCash.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Modif VDOM.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Modif-Pays-zoneSEPA.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Motif économique - Creation.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Motifs economiques.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Notifier edition 1.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/oh-Note.png" />
+    <Url
+      Source="Resources/Images/L_Payment/oh-Warning.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Onglet Back Office.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Onglet Transactions.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Option de traitement.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Ordre de paiement.png" />
+    <Url
+      Source="Resources/Images/L_Payment/page accueil.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Page demandes de paiements.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Page import VDOM.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Page selection-2.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Page Selection.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Page valider en rafale.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Param option export.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Param option import.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Param Profils.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Param structure fichier comptable a importer 5.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Param tables correspondances.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Param zone SEPA.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Param-zoneSEPA.png" />
+    <Url
+      Source="Resources/Images/L_Payment/PaymentDashboard.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Pays en zone SEPA.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Pays zoneSEPA - selection.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Pop-up calendrier 2.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Pop-up calendrier.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Pop-up Entites.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Pop-up menu tri tableau.jpg" />
+    <Url
+      Source="Resources/Images/L_Payment/Pop-up sel fichier.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Procedure exceptionnelle.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Profil-Creation.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Profils encaissement.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Profils_Créer.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Progression exportation.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Progression importation VDOM.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Progression importation VDOM1.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Proposition Remise 2.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Proposition remise.png" />
+    <Url
+      Source="Resources/Images/L_Payment/PropRemise.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Purge effectuee.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Purge virements.png" />
+    <Url
+      Source="Resources/Images/L_Payment/QuickSearch.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/Rapport importation.png" />
+    <Url
+      Source="Resources/Images/L_Payment/RegleConstitution-Creation-2.png" />
+    <Url
+      Source="Resources/Images/L_Payment/RegleConstitution-Creation.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Reglement-TreeView.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Regles_liste.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Rejet Vdom consultation.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Remise archivee.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Remise domestiques - liste.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Remise multiple.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Remise PRLVT.PNG" />
+    <Url
+      Source="Resources/Images/L_Payment/Remise.PNG" />
+    <Url
+      Source="Resources/Images/L_Payment/Remises dom generees.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Remplacer modele.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Règles de consititution et remises.PNG" />
+    <Url
+      Source="Resources/Images/L_Payment/SAGE FRP Treasury.JPG" />
+    <Url
+      Source="Resources/Images/L_Payment/Sage-XRT-Treasury.png" />
+    <Url
+      Source="Resources/Images/L_Payment/sage.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/SearchIcon.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/Selection des remises.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Selection fichier export.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Suppression Modele.png" />
+    <Url
+      Source="Resources/Images/L_Payment/SXT_LoginScreen.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Table Fonctions Commerciales.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Tableau rejets.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Test Structure.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Tests structure2.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Ticket d'operation - PRLVT.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Ticket d'operation.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Ticket operation.png" />
+    <Url
+      Source="Resources/Images/L_Payment/TocIcon.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/Topic.gif" />
+    <Url
+      Source="Resources/Images/L_Payment/Traiter en rafale.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Types de facture - Creation.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Types de facture.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Validation en rafale.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Validation modif.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Validation multiple.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Validation suppr.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Validation VDOM.png" />
+    <Url
+      Source="Resources/Images/L_Payment/VDOM rejeté.png" />
+    <Url
+      Source="Resources/Images/L_Payment/VINTL.png" />
+    <Url
+      Source="Resources/Images/L_Payment/vue ensemble fctnelle.png" />
+    <Url
+      Source="Resources/Images/L_Payment/Vue flux treso.png" />
+    <Url
+      Source="Resources/Images/L_Payment/WebHelpIconeTermeGlossaire.jpg" />
+    <Url
+      Source="Resources/MasterPages/HomePage.flmsp" />
+    <Url
+      Source="Resources/MasterPages/OtherTopics.flmsp" />
+    <Url
+      Source="Resources/MasterPages/Untranslated_OtherTopics.flmsp" />
+    <Url
+      Source="Resources/MasterPages/__backup_OtherTopics.flmsp" />
+    <Url
+      Source="Resources/Multimedia/NewVideo.mp4" />
+    <Url
+      Source="Resources/Snippets/GBL_Home.InfoSection.flsnp" />
+    <Url
+      Source="Resources/Snippets/GBL_Note.flsnp" />
+    <Url
+      Source="Resources/Snippets/GBL_TopicNotTranslated.flsnp" />
+    <Url
+      Source="Resources/Snippets/GBL_Video.flsnp" />
+    <Url
+      Source="Resources/Snippets/GBL_Warning.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Acces pages gestion transactions.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Actions dans page export import.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/actions dans page transactions.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Actions dans tableau page de parametrage.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Bouton Copier filtre.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Calculatrice.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Calendrier.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Champ prev comm.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/consulter detail jambe swap.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Consulter lien TRN PREV.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Copier un filtre de commandes.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Dupliquer ligne dans tableau.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Editions - options.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Enregistrer params filtre.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Intro onglet Back Office.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Modifier ligne dans tableau parametrage.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Numero ordre transaction.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/OK rafraichir annuler.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Onglet Back Office.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Onglet Denouement.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Options Format Filtre edition.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Pertinence champs.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Rechercher du texte dans un tableau.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Ref croisee Reorg tableau.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Sous rubriques.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Supprimer ligne dans tableau parametrage.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Tableau verr BO.flsnp" />
+    <Url
+      Source="Resources/Snippets/L_SXT_Payment/Valider enregistrer annuler.flsnp" />
+    <Url
+      Source="Resources/Stylesheets/MainStyles.css" />
+    <Url
+      Source="Resources/Stylesheets/StylesForHomePage.css" />
+    <Url
+      Source="Resources/Stylesheets/Video_MainStyles.css" />
+    <Url
+      Source="Resources/TableStyles/Note.css" />
+    <Url
+      Source="Resources/TableStyles/Tableau standard bordures.css" />
+    <Url
+      Source="Resources/TableStyles/Tableau standard.css" />
+    <Url
+      Source="Resources/TableStyles/Warning.css" />
+  </SourceUrls>
+  <UsedUrls />
+  <UsedConceptControlUrls />
+</CatapultGlobalConceptSet>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="Fenêtre de connexion"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_SEI/UTIL_FenetreConnexion.png" />
+    <Link
+      Url="Content/Resources/Images/L_SEI/UTIL_FenetreConnexion_BoutonCentralPoint.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/E_Sxt/6_SEI/UTIL_FenetrePrincipale.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_SEI/UTIL_FenetreConnexion.png" />
+    <Link
+      Url="Content/Resources/Images/L_SEI/UTIL_FenetreConnexion_BoutonCentralPoint.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/E_Sxt/6_SEI/UTIL_FenetrePrincipale.htm" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXT_SEIShort" />
+    <Variable
+      Name="Localization.SXT_SEI" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Note.css" />
+    <Url
+      Source="Content/Resources/Stylesheets/MainStyles.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

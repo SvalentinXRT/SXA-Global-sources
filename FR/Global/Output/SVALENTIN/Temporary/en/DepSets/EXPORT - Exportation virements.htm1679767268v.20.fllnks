@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles.css" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Liste fichiers export.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Assistant exportation.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton Points de suspension.JPG" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Selection fichier export.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton coche bleue.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton STR fleche drte.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Param option export.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton STR coche verte.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton STR croix rouge.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Progression exportation.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles.css" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Liste fichiers export.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Assistant exportation.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton Points de suspension.JPG" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Selection fichier export.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton coche bleue.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton STR fleche drte.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Param option export.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton STR coche verte.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton STR croix rouge.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Progression exportation.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="Import:transfers"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="5" />
+    <IndexCacheEntry
+      Term="Transfers:export"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="5" />
+    <IndexCacheEntry
+      Term="Export:access page"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="11" />
+    <IndexCacheEntry
+      Term="Export:creation and launch mode"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="23" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXT_Payment" />
+  </Variables>
+  <FileConditions>
+    <Condition
+      Tag="Default.3Revised" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.3Revised" />
+  </AllConditions>
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/MainStyles.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

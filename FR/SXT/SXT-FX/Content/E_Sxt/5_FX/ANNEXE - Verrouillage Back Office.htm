@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:lastBlockDepth="10" MadCap:lastHeight="2373" MadCap:lastWidth="557">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1 class="LegacySXT">
+            <MadCap:keyword term="Verrouillage back office;Back office:verrouillage" />Verrouillage <i>back office</i></h1>
+        <p>Certains champs liés aux caractéristiques de base des transactions ne peuvent pas être modifiés après la création des transactions, comme par exemple la société donneuse d'ordre, le couple de devises, etc.</p>
+        <p>D'autres champs peuvent en revanche être modifiés, comme le numéro de rattachement, le nom du contact, la date de la transaction, la date de livraison, etc.</p>
+        <p class="SautLigne">La validation <i>back office</i> des transactions permet de restreindre les possibilités de modification sur certains types de transaction lorsque le verrouillage <i>back office</i> est activé.</p>
+        <p>Pour activer ce verrouillage, vous devez activer la case à cocher <b>Verrouillage modification Back Office</b> dans l'onglet <b>Général</b> de la page <b>Configuration FX</b>.</p>
+        <p class="SautLigneAvantEtAprès">Pour plus d'informations sur la procédure de configuration du verrouillage, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="PARAM - Configuration FX.htm" target="" title="" alt="" class="XrefSansTexte">Configuration FX</MadCap:xref>.</MadCap:conditionalText></p>
+        <p MadCap:targetName="Capture Configuration FX">
+            <img src="../../Resources/Images/L_FX/Configuration FX 1.png" class="SAGE_screenshot" />
+        </p>
+        <p class="SautLigneAvantEtAprès">Les possibilités de modification sur une transaction validée en <i>back office</i> dépendent de la nature de la transaction, comme expliqué ci-dessous. Pour plus d'informations sur les natures des transactions de change, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="ANNEXE - Natures de transaction.htm" target="" title="" alt="" class="XrefSansTexte">Natures de transaction de change</MadCap:xref>.</MadCap:conditionalText></p>
+        <ul>
+            <li class="PuceNiv1"><b>Transactions de change initiales</b>
+            </li>
+        </ul>
+        <p class="IndentPuceNiv1">Il s'agit des transactions de change ouvertes ayant la nature «&#160;Initiale&#160;», c'est-à-dire des transactions au comptant et à terme que vous avez créées manuellement.</p>
+        <p class="IndentPuceNiv1">Les possibilités de modification sur ces transactions de change dépendent de la configuration du verrouillage <i>back office</i>, comme décrit dans le tableau ci-après.</p>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td class="TableStyle-Note-BodyB-Column1-Body1">
+                        <img src="../../Resources/Images/Assets/oh-Note.png" />
+                    </td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">Les transactions de change à terme dénouées ne sont pas concernées car elles ne peuvent pas être modifiées.</td>
+                </tr>
+            </tbody>
+        </table>
+        <ul>
+            <li class="PuceNiv1"><b>Autres transactions de change</b>
+            </li>
+        </ul>
+        <p class="IndentPuceNiv1">Il s'agit des transactions de change dont la nature est différente de «&#160;Initiale&#160;», c'est-à-dire&#160;:</p>
+        <ul>
+            <li class="PuceNiv2">modifiées ou créées à la suite d'une prorogation ou d'une levée anticipée,</li>
+            <li class="PuceNiv2">constituant la jambe aller ou retour d'une transaction de swap.</li>
+        </ul>
+        <p class="IndentPuceNiv1">Pour ces transactions, la configuration du verrouillage n'a aucune incidence&#160;: quelle que soit la configuration, les champs verrouillés sont les mêmes que ceux d'une transaction initiale lorsque le verrouillage est activé.</p>
+        <p class="SautLigneAvantEtAprès">Le tableau ci-après répertorie les champs modifiables dans les pages de gestion des transactions de change validées BO&#160;(<i>back office</i>) en fonction de la nature de la transaction et de la configuration du verrouillage <i>back office</i>. Les champs non modifiables ne sont pas répertoriés dans le tableau.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead MadCap:conditions="">
+                <MadCap:dropDownHotspot>Afficher le tableau</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_FX/Tableau verr BO.flsnp" MadCap:targetName="Tableau natures transaction" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

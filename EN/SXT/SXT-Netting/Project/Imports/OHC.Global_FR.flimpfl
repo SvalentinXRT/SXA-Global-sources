@@ -1,0 +1,1704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultProject
+  Version="1"
+  xml:lang="fr"
+  SourceControlBound="false"
+  Comment="This template contains several starter topics and other files intended for online HTML5 output with top navigation like a modern website, instead of the more traditional tripane format. It is a simpler version of the Top Navigation Advanced template. Although it is a basic template, the content and files have been designed to maximize single-sourcing capabilities. This template starts you out with two HTML5 targets. Responsive output is automatically enabled with this type of output. This means the content display changes automatically depending on the width of the screen. You can add other kinds of targets and skins if you like."
+  MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css"
+  MasterStylesheetOverride="True"
+  IncludePattern="*.png;*.bmp;*.jpg;*.jpeg;*.gif;*.svg;;*.css;*.flmsp;*.flvar;*.flskn;*.flsnp"
+  AutoExcludeNonTaggedFiles="true"
+  IncludeLinkedFiles="false"
+  DeleteStale="true"
+  DeleteUnreferenced="false"
+  AutoSync="true"
+  LastImport="2019-02-05T15:13:17.8210115+01:00"
+  MasterToc="/Project/TOCs/SXT-Netting.fltoc"
+  ConditionTagExpression="include[General.ImportFromGBL] ">
+  <Files>
+    <Url
+      Source="file:///C:/__OHC MADCAP/FR/Global/OHC.Global_FR.flprj"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/OHC.Global_FR.flprj" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles>
+    <Url
+      Source="../../../../Global/Content/Resources/MasterPages/OtherTopics.flmsp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/MasterPages/OtherTopics.flmsp" />
+    <Url
+      Source="../../../../Global/Content/Resources/Snippets/GBL_Home.InfoSection.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Snippets/GBL_Home.InfoSection.flsnp" />
+    <Url
+      Source="../../../../Global/Content/Resources/Snippets/GBL_Note.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Snippets/GBL_Note.flsnp" />
+    <Url
+      Source="../../../../Global/Content/Resources/Snippets/GBL_Video.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Snippets/GBL_Video.flsnp" />
+    <Url
+      Source="../../../../Global/Content/Resources/Snippets/GBL_Warning.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Snippets/GBL_Warning.flsnp" />
+    <Url
+      Source="../../../../Global/Content/Resources/Stylesheets/MainStyles.css"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Stylesheets/MainStyles.css" />
+    <Url
+      Source="../../../../Global/Content/Resources/TableStyles/Note.css"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/TableStyles/Note.css" />
+    <Url
+      Source="../../../../Global/Content/Resources/TableStyles/Tableau standard bordures.css"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/TableStyles/Tableau standard bordures.css" />
+    <Url
+      Source="../../../../Global/Content/Resources/TableStyles/Tableau standard.css"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/TableStyles/Tableau standard.css" />
+    <Url
+      Source="../../../../Global/Content/Resources/TableStyles/Warning.css"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/TableStyles/Warning.css" />
+    <Url
+      Source="../../../../Global/Project/Skins/HTML5 - Top Navigation.flskn"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Project/Skins/HTML5 - Top Navigation.flskn" />
+    <Url
+      Source="../../../../Global/Project/Skins/LangPicker.flskn"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Project/Skins/LangPicker.flskn" />
+    <Url
+      Source="../../../../Global/Project/Skins/SearchHome.flskn"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Project/Skins/SearchHome.flskn" />
+    <Url
+      Source="../../../../Global/Project/Skins/SearchResults.flskn"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Project/Skins/SearchResults.flskn" />
+    <Url
+      Source="../../../../Global/Project/Skins/SearchTopics.flskn"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Project/Skins/SearchTopics.flskn" />
+    <Url
+      Source="../../../../Global/Project/Skins/SideMenu.flskn"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Project/Skins/SideMenu.flskn" />
+    <Url
+      Source="../../../../Global/Project/Skins/TopicToolbar.flskn"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Project/Skins/TopicToolbar.flskn" />
+    <Url
+      Source="../../../../Global/Project/VariableSets/General.flvar"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Project/VariableSets/General.flvar" />
+    <Url
+      Source="../../../../Global/Project/VariableSets/Localization.flvar"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Project/VariableSets/Localization.flvar" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/circle_green.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/circle_green.gif" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/oh-Note.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/oh-Note.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/oh-Warning.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/oh-Warning.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/HeroImages/HeroImage-1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/HeroImages/HeroImage-1.jpg" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/HeroImages/HeroImage-2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/HeroImages/HeroImage-2.jpg" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/HeroImages/Homepage-Bottom.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/HeroImages/Homepage-Bottom.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/HeroImages/Homepage-Top.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/HeroImages/Homepage-Top.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-down-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-down-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-down-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-down-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-left-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-left-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-left-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-left-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-right-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-right-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-right-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-right-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-up-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-up-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-up-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-up-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Clients-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Clients-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Clients-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Clients-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Clients-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Clients-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Contact-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Contact-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Contact-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Contact-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Contact-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Contact-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/FAQs-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/FAQs-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/FAQs-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/FAQs-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/FAQs-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/FAQs-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Hello-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Hello-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Hello-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Hello-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Hello-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Hello-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Notes-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Notes-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Notes-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Notes-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Notes-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Notes-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/PDFs-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/PDFs-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/PDFs-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/PDFs-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/PDFs-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/PDFs-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Search-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Search-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Search-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Search-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Search-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Search-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Services-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Services-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Services-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Services-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Services-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Services-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/SharedFiles-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/SharedFiles-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/SharedFiles-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/SharedFiles-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/SharedFiles-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/SharedFiles-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Solutions-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Solutions-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Solutions-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Solutions-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Solutions-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Solutions-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Tips-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Tips-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Tips-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Tips-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Tips-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Tips-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/VideosImages-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/VideosImages-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/VideosImages-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/VideosImages-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/VideosImages-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/VideosImages-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-announcement.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-announcement.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-announcement@2x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-announcement@2x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-announcement@3x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-announcement@3x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-announcement@4x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-announcement@4x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-devices@4x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-devices@4x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-doc-pdf@2x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-doc-pdf@2x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-doc-pdf@3x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-doc-pdf@3x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-doc-pdf@4x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-doc-pdf@4x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-doc-pdf@4x_BrillantGreen.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-doc-pdf@4x_BrillantGreen.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-help@4x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-help@4x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@2x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@2x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@3x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@3x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x_AccessibleGreen.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x_AccessibleGreen.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x_BrillantGreen.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x_BrillantGreen.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-logo-youtube@3x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-logo-youtube@3x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x_AccessibleGreen.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x_AccessibleGreen.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x_BrillantGreen.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x_BrillantGreen.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-newspaper@2x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-newspaper@2x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-newspaper@3x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-newspaper@3x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-newspaper@4x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-newspaper@4x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-newspaper@4x_BrillantGreen.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-newspaper@4x_BrillantGreen.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-qna@3x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-qna@3x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-qna@4x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-qna@4x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-qna@4x_BrillantGreen.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-qna@4x_BrillantGreen.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-quick-help@2x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-quick-help@2x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-quick-help@3x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-quick-help@3x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-quick-help@4x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-quick-help@4x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-quick-help@4x_BrillantGreen.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-quick-help@4x_BrillantGreen.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-announcement.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-announcement.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-announcement@2x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-announcement@2x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-announcement@3x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-announcement@3x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-doc-pdf@2x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-doc-pdf@2x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-help@2x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-help@2x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-knowledge-base@2x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-knowledge-base@2x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-logo-youtube@2x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-logo-youtube@2x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-newspaper@2x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-newspaper@2x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-qna@2x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-qna@2x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/white__icon-announcement@4x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/white__icon-announcement@4x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage_PDF/PDF1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage_PDF/PDF1.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/AddSM-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/AddSM-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/AddSM-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/AddSM-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/AddSM-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/AddSM-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/FB-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/FB-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/FB-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/FB-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/FB-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/FB-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/Insta-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/Insta-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/Insta-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/Insta-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/Insta-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/Insta-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/LI-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/LI-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/LI-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/LI-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/LI-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/LI-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/Twitter-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/Twitter-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/Twitter-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/Twitter-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/Twitter-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/Twitter-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/PlaceholderLogo/Logo_55pxl.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/PlaceholderLogo/Logo_55pxl.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/PlaceholderLogo/PlaceholderLogo-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/PlaceholderLogo/PlaceholderLogo-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/HeroImages/homebanner.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/HeroImages/homebanner.jpg" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/32-FAQ-blue.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/32-FAQ-blue.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/32-FAQ-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/32-FAQ-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/32-NewFeatures-blue.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/32-NewFeatures-blue.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/32-NewFeatures-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/32-NewFeatures-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/32-PDF-blue.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/32-PDF-blue.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/32-PDF-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/32-PDF-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/32-SXA-blue.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/32-SXA-blue.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/32-SXA-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/32-SXA-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/32-SXT-blue.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/32-SXT-blue.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/32-SXT-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/32-SXT-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/32-Videos-blue.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/32-Videos-blue.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/32-Videos-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/32-Videos-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/50-FAQ-blue.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/50-FAQ-blue.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/50-NewFeatures-blue.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/50-NewFeatures-blue.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/50-PDF-blue.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/50-PDF-blue.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/50-SXA-blue.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/50-SXA-blue.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/50-SXT-blue.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/50-SXT-blue.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/50-Videos-blue.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/50-Videos-blue.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/blue_faq.svg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/blue_faq.svg" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/blue_newfeatures.svg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/blue_newfeatures.svg" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/blue_pdf.svg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/blue_pdf.svg" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/blue_sxa.svg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/blue_sxa.svg" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/blue_sxt.svg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/blue_sxt.svg" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/blue_videos.svg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/blue_videos.svg" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/white_faq.svg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/white_faq.svg" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/White_icon-doc-pdf@3x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/White_icon-doc-pdf@3x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/white_newfeatures.svg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/white_newfeatures.svg" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/white_pdf.svg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/white_pdf.svg" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/white_sxa.svg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/white_sxa.svg" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/white_sxt.svg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/white_sxt.svg" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/white_videos.svg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/white_videos.svg" />
+    <Url
+      Source="../../../../Global/Content/Resources/MasterPages/Untranslated_OtherTopics.flmsp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/MasterPages/Untranslated_OtherTopics.flmsp" />
+    <Url
+      Source="../../../../Global/Content/Resources/MasterPages/__backup_OtherTopics.flmsp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/MasterPages/__backup_OtherTopics.flmsp" />
+    <Url
+      Source="../../../../Global/Content/Resources/Snippets/GBL_TopicNotTranslated.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Snippets/GBL_TopicNotTranslated.flsnp" />
+    <Url
+      Source="../../../../Global/Content/Resources/Stylesheets/Video_MainStyles.css"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Stylesheets/Video_MainStyles.css" />
+    <Url
+      Source="../../../../Global/Project/Skins/NewFeaturesToolbar.flskn"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Project/Skins/NewFeaturesToolbar.flskn" />
+  </CollectedSourceFiles>
+  <SkippedSourceFiles>
+    <Url
+      Source="../../../../../../Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/TableStyles/Note.css"
+      AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/TableStyles/Note.css" />
+    <Url
+      Source="../../../../../../Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/TableStyles/Tableau standard.css"
+      AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/TableStyles/Tableau standard.css" />
+    <Url
+      Source="../../../../../../Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/TableStyles/Warning.css"
+      AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/TableStyles/Warning.css" />
+    <Url
+      Source="../../../../../../Users/svalentin/Documents/My Projects/SBD_EN/Project/TOCs/Master.fltoc"
+      AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Project/TOCs/Master.fltoc" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/circle_green.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/circle_green.gif" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/oh-Note.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/oh-Note.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/oh-Warning.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/oh-Warning.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/HeroImages/HeroImage-1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/HeroImages/HeroImage-1.jpg" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/HeroImages/HeroImage-2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/HeroImages/HeroImage-2.jpg" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/HeroImages/Homepage-Bottom.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/HeroImages/Homepage-Bottom.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/HeroImages/Homepage-Top.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/HeroImages/Homepage-Top.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-down-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-down-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-down-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-down-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-left-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-left-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-left-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-left-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-right-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-right-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-right-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-right-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-up-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-up-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-up-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Arrows/arrow-up-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Clients-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Clients-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Clients-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Clients-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Clients-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Clients-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Contact-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Contact-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Contact-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Contact-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Contact-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Contact-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/FAQs-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/FAQs-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/FAQs-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/FAQs-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/FAQs-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/FAQs-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Hello-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Hello-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Hello-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Hello-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Hello-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Hello-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Notes-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Notes-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Notes-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Notes-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Notes-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Notes-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/PDFs-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/PDFs-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/PDFs-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/PDFs-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/PDFs-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/PDFs-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Search-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Search-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Search-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Search-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Search-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Search-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Services-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Services-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Services-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Services-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Services-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Services-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/SharedFiles-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/SharedFiles-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/SharedFiles-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/SharedFiles-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/SharedFiles-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/SharedFiles-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Solutions-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Solutions-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Solutions-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Solutions-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Solutions-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Solutions-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Tips-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Tips-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Tips-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Tips-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/Tips-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/Tips-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/VideosImages-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/VideosImages-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/VideosImages-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/VideosImages-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/MainIcons/VideosImages-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/MainIcons/VideosImages-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-announcement.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-announcement.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-announcement@2x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-announcement@2x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-announcement@3x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-announcement@3x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-announcement@4x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-announcement@4x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-devices@4x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-devices@4x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-doc-pdf@2x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-doc-pdf@2x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-doc-pdf@3x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-doc-pdf@3x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-doc-pdf@4x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-doc-pdf@4x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-doc-pdf@4x_BrillantGreen.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-doc-pdf@4x_BrillantGreen.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-help@4x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-help@4x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@2x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@2x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@3x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@3x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x_AccessibleGreen.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x_AccessibleGreen.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x_BrillantGreen.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x_BrillantGreen.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-logo-youtube@3x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-logo-youtube@3x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x_AccessibleGreen.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x_AccessibleGreen.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x_BrillantGreen.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x_BrillantGreen.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-newspaper@2x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-newspaper@2x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-newspaper@3x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-newspaper@3x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-newspaper@4x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-newspaper@4x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-newspaper@4x_BrillantGreen.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-newspaper@4x_BrillantGreen.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-qna@3x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-qna@3x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-qna@4x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-qna@4x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-qna@4x_BrillantGreen.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-qna@4x_BrillantGreen.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-quick-help@2x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-quick-help@2x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-quick-help@3x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-quick-help@3x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-quick-help@4x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-quick-help@4x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/icon-quick-help@4x_BrillantGreen.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/icon-quick-help@4x_BrillantGreen.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-announcement.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-announcement.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-announcement@2x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-announcement@2x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-announcement@3x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-announcement@3x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-doc-pdf@2x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-doc-pdf@2x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-help@2x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-help@2x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-knowledge-base@2x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-knowledge-base@2x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-logo-youtube@2x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-logo-youtube@2x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-newspaper@2x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-newspaper@2x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-qna@2x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/white_icon-qna@2x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage/white__icon-announcement@4x.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage/white__icon-announcement@4x.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/Sage_PDF/PDF1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/Sage_PDF/PDF1.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/AddSM-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/AddSM-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/AddSM-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/AddSM-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/AddSM-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/AddSM-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/FB-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/FB-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/FB-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/FB-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/FB-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/FB-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/Insta-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/Insta-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/Insta-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/Insta-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/Insta-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/Insta-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/LI-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/LI-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/LI-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/LI-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/LI-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/LI-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/Twitter-black.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/Twitter-black.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/Twitter-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/Twitter-gray.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/Icons/SocialMedia/Twitter-white.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/Icons/SocialMedia/Twitter-white.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/PlaceholderLogo/Logo_55pxl.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/PlaceholderLogo/Logo_55pxl.png" />
+    <Url
+      Source="../../../../Global/Content/Resources/Images/Assets/PlaceholderLogo/PlaceholderLogo-gray.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/FR/Global/Content/Resources/Images/Assets/PlaceholderLogo/PlaceholderLogo-gray.png" />
+  </SkippedSourceFiles>
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/10_SelectionValidator.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/11_SelectionUtilisateurs.png"
+      TimeStamp="04/12/2015 11:53:52" />
+    <Url
+      Source="../../Content/Resources/Images/12_RequetesDeValidation.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/13_MesRequetesDeValidation.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/2_ModelesLettres.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/3_CreationRegleValidation.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/4_Rubrique1Validation.png"
+      TimeStamp="04/12/2015 14:19:50" />
+    <Url
+      Source="../../Content/Resources/Images/5_Rubrique2Validation.png"
+      TimeStamp="04/12/2015 14:20:49" />
+    <Url
+      Source="../../Content/Resources/Images/6_ValidationSelectionSocietes1.png"
+      TimeStamp="04/12/2015 14:22:07" />
+    <Url
+      Source="../../Content/Resources/Images/7_ValidationSelectionSocietes2.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/8_Rubrique3Validation.png"
+      TimeStamp="04/12/2015 14:23:15" />
+    <Url
+      Source="../../Content/Resources/Images/9_RequetesObsoletes.png"
+      TimeStamp="04/12/2015 11:41:07" />
+    <Url
+      Source="../../Content/Resources/Images/bg.jpg"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/circle_green.gif"
+      TimeStamp="11/12/2013 14:52:27" />
+    <Url
+      Source="../../Content/Resources/Images/circle_green.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Collaborateur.png"
+      TimeStamp="04/12/2015 14:24:32" />
+    <Url
+      Source="../../Content/Resources/Images/Compte.png"
+      TimeStamp="04/12/2015 14:25:12" />
+    <Url
+      Source="../../Content/Resources/Images/ConfigurerFiltre.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Creation masse - modele 1 signature.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Creation masse - modele 2 signatures.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Creation unitaire.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/CreationUnitaire.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/CreerModeleDelegation.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/CreerModeleDeuxSignatures.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/CreerModeleDeuxSignatures02.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/CreerModeleUneSignature.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/CreerModeleUneSignature02.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/DEFVIEW.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Delegants.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Designer 4.png"
+      TimeStamp="11/04/2014 10:38:21" />
+    <Url
+      Source="../../Content/Resources/Images/Designer 5.png"
+      TimeStamp="11/04/2014 10:39:40" />
+    <Url
+      Source="../../Content/Resources/Images/Designer 6.png"
+      TimeStamp="11/04/2014 10:40:08" />
+    <Url
+      Source="../../Content/Resources/Images/Designer1.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Designer2.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Designer3.png"
+      TimeStamp="11/04/2014 10:37:43" />
+    <Url
+      Source="../../Content/Resources/Images/DesignerLettres.png"
+      TimeStamp="04/12/2015 11:25:27" />
+    <Url
+      Source="../../Content/Resources/Images/DesignerVariables.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/filtre 1.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Filtre 2.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Filtre 3.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Filtre 4.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/FiltreRapide.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/FlowChart General.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/fullscreen.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/GenererLettresParRegles.png"
+      TimeStamp="04/12/2015 11:21:15" />
+    <Url
+      Source="../../Content/Resources/Images/GroupeCollaborateurs.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Lettre brouillon.png"
+      TimeStamp="10/12/2013 15:55:52" />
+    <Url
+      Source="../../Content/Resources/Images/Lettres Brouillon.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/MenuCreerModele1Signature.png"
+      TimeStamp="04/12/2015 11:12:47" />
+    <Url
+      Source="../../Content/Resources/Images/MenuCreerModele2Signatures.png"
+      TimeStamp="04/12/2015 11:09:36" />
+    <Url
+      Source="../../Content/Resources/Images/Modele lettres Affichage.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/ModeleDelegation.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/ModeVisualisation.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/oh-Note.png"
+      TimeStamp="07/10/2014 14:33:01" />
+    <Url
+      Source="../../Content/Resources/Images/oh-Warning.png"
+      TimeStamp="07/10/2014 14:33:18" />
+    <Url
+      Source="../../Content/Resources/Images/Prep lettre - delegation.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Prep lettre - regle generation.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Quick Default Filter.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/RegleGenerationLettre.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Regles de generation.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Scope Pouvoirs Bancaires V1.png"
+      TimeStamp="04/12/2015 10:54:36" />
+    <Url
+      Source="../../Content/Resources/Images/Slide 2.png"
+      TimeStamp="04/12/2015 14:17:40" />
+    <Url
+      Source="../../Content/Resources/Images/Slide 3.png"
+      TimeStamp="04/12/2015 14:18:06" />
+    <Url
+      Source="../../Content/Resources/Images/Slide 4.png"
+      TimeStamp="04/12/2015 14:18:26" />
+    <Url
+      Source="../../Content/Resources/Images/Slide 5.png"
+      TimeStamp="04/12/2015 14:18:46" />
+    <Url
+      Source="../../Content/Resources/Images/Slide1.png"
+      TimeStamp="04/12/2015 14:17:14" />
+    <Url
+      Source="../../Content/Resources/Images/TypeOperation.png"
+      TimeStamp="04/12/2015 14:26:28" />
+    <Url
+      Source="../../Content/Resources/Images/TypeSignature.png"
+      TimeStamp="04/12/2015 14:27:10" />
+    <Url
+      Source="../../Content/Resources/Images/V3_EditionReglesGeneration.png"
+      TimeStamp="04/12/2015 11:31:43" />
+    <Url
+      Source="../../Content/Resources/Images/WorkflowLettre.png"
+      TimeStamp="04/12/2015 10:56:17" />
+    <Url
+      Source="../../Content/Resources/Multimedia/NewVideo.mp4"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Multimedia/SageBankDelegations.v3.NewInterface_FR.mp4"
+      TimeStamp="10/07/2015 15:56:08" />
+    <Url
+      Source="../../Content/Resources/Multimedia/SBD_CreationDelegations.mp4"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Multimedia/SBD_Dashboards.mp4"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Multimedia/SBD_Filtres.mp4"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Multimedia/SBD_ModelesDelegations.mp4"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Multimedia/SBD_RegleGeneration.mp4"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Snippets/Homepage_Title.flsnp"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Snippets/SAGE_Note.flsnp"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Snippets/SAGE_Video.flsnp"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Snippets/SAGE_Warning.flsnp"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/TopNvg_OH5_Styles.css"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/fonts/Foco.svg"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/TableStyles/Note.css"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/TableStyles/Tableau standard bordures.css"
+      TimeStamp="07/05/2015 10:45:13" />
+    <Url
+      Source="../../Content/TableStyles/Tableau standard.css"
+      TimeStamp="07/10/2014 11:35:03" />
+    <Url
+      Source="../../Content/TableStyles/Warning.css"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Topics/CreationDelegation.htm"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Topics/CreationIntro.htm"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Topics/CreationMasse.htm"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Topics/CreationUnitaire.htm"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Topics/Filtres.htm"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Topics/Modele lettre.htm"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Topics/ParamComplementaire.htm"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Topics/Parametrage.htm"
+      TimeStamp="07/12/2015 16:41:07" />
+    <Url
+      Source="../../Content/Topics/ParamIntro.htm"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Topics/PreparationLettre.htm"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Topics/ReglesGeneration.htm"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Topics/SecuriteDonnees.htm"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Topics/V3_CreationCircuitValidation.htm"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Topics/V3_CreationCircuitValidation_Notification.htm"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Topics/V3_CreationCircuitValidation_SuiviRequetes.htm"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Topics/V3_EditionReglesGeneration.htm"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Topics/V3_NouvelleInterface.htm"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Topics/__OnlineHelp_Empty.htm"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../VariableSets/MyVariables.flvar"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/MasterPages/OtherTopics.flmsp"
+      TimeStamp="02/01/2018 17:38:07" />
+    <Url
+      Source="../../Content/Resources/Snippets/GBL_Home.InfoSection.flsnp"
+      TimeStamp="02/01/2018 17:33:11" />
+    <Url
+      Source="../../Content/Resources/Snippets/GBL_Note.flsnp"
+      TimeStamp="02/01/2018 17:33:11" />
+    <Url
+      Source="../../Content/Resources/Snippets/GBL_Video.flsnp"
+      TimeStamp="02/01/2018 17:33:11" />
+    <Url
+      Source="../../Content/Resources/Snippets/GBL_Warning.flsnp"
+      TimeStamp="02/01/2018 17:33:11" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/MainStyles.css"
+      TimeStamp="02/01/2018 17:37:00" />
+    <Url
+      Source="../../Content/Resources/TableStyles/Note.css"
+      TimeStamp="02/01/2018 17:37:00" />
+    <Url
+      Source="../../Content/Resources/TableStyles/Tableau standard bordures.css"
+      TimeStamp="02/01/2018 17:37:00" />
+    <Url
+      Source="../../Content/Resources/TableStyles/Tableau standard.css"
+      TimeStamp="02/01/2018 17:37:00" />
+    <Url
+      Source="../../Content/Resources/TableStyles/Warning.css"
+      TimeStamp="02/01/2018 17:37:00" />
+    <Url
+      Source="../Skins/HTML5 - Top Navigation.flskn"
+      TimeStamp="02/01/2018 17:42:45" />
+    <Url
+      Source="../Skins/LangPicker.flskn"
+      TimeStamp="02/01/2018 17:42:45" />
+    <Url
+      Source="../Skins/SearchHome.flskn"
+      TimeStamp="02/01/2018 17:42:45" />
+    <Url
+      Source="../Skins/SearchResults.flskn"
+      TimeStamp="02/01/2018 17:42:45" />
+    <Url
+      Source="../Skins/SearchTopics.flskn"
+      TimeStamp="02/01/2018 17:42:45" />
+    <Url
+      Source="../Skins/SideMenu.flskn"
+      TimeStamp="02/01/2018 17:42:45" />
+    <Url
+      Source="../Skins/TopicToolbar.flskn"
+      TimeStamp="02/01/2018 17:42:45" />
+    <Url
+      Source="../VariableSets/General.flvar"
+      TimeStamp="02/01/2018 17:38:35" />
+    <Url
+      Source="../VariableSets/Localization.flvar"
+      TimeStamp="02/01/2018 17:40:47" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/circle_green.gif"
+      TimeStamp="12/11/2013 14:52:27" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/oh-Note.png"
+      TimeStamp="10/07/2014 14:33:01" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/oh-Warning.png"
+      TimeStamp="10/07/2014 14:33:18" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/HeroImages/HeroImage-1.jpg"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/HeroImages/HeroImage-2.jpg"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/HeroImages/Homepage-Bottom.png"
+      TimeStamp="01/09/2018 14:29:31" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/HeroImages/Homepage-Top.png"
+      TimeStamp="01/09/2018 11:52:47" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Arrows/arrow-down-black.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Arrows/arrow-down-gray.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Arrows/arrow-left-black.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Arrows/arrow-left-gray.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Arrows/arrow-right-black.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Arrows/arrow-right-gray.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Arrows/arrow-up-black.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Arrows/arrow-up-gray.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/Clients-black.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/Clients-gray.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/Clients-white.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/Contact-black.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/Contact-gray.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/Contact-white.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/FAQs-black.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/FAQs-gray.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/FAQs-white.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/Hello-black.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/Hello-gray.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/Hello-white.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-black.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-gray.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-white.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/Notes-black.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/Notes-gray.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/Notes-white.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/PDFs-black.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/PDFs-gray.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/PDFs-white.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/Search-black.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/Search-gray.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/Search-white.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/Services-black.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/Services-gray.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/Services-white.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/SharedFiles-black.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/SharedFiles-gray.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/SharedFiles-white.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/Solutions-black.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/Solutions-gray.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/Solutions-white.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/Tips-black.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/Tips-gray.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/Tips-white.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/VideosImages-black.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/VideosImages-gray.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/MainIcons/VideosImages-white.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-announcement.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-announcement@2x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-announcement@3x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-announcement@4x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-devices@4x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-doc-pdf@2x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-doc-pdf@3x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-doc-pdf@4x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-doc-pdf@4x_BrillantGreen.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-help@4x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@2x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@3x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x_AccessibleGreen.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x_BrillantGreen.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-logo-youtube@3x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x_AccessibleGreen.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x_BrillantGreen.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-newspaper@2x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-newspaper@3x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-newspaper@4x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-newspaper@4x_BrillantGreen.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-qna@3x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-qna@4x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-qna@4x_BrillantGreen.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-quick-help@2x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-quick-help@3x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-quick-help@4x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/icon-quick-help@4x_BrillantGreen.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/white_icon-announcement.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/white_icon-announcement@2x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/white_icon-announcement@3x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/white_icon-doc-pdf@2x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/white_icon-help@2x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/white_icon-knowledge-base@2x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/white_icon-logo-youtube@2x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/white_icon-newspaper@2x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/white_icon-qna@2x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/white__icon-announcement@4x.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage_PDF/PDF1.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/SocialMedia/AddSM-black.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/SocialMedia/AddSM-gray.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/SocialMedia/AddSM-white.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/SocialMedia/FB-black.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/SocialMedia/FB-gray.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/SocialMedia/FB-white.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/SocialMedia/Insta-black.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/SocialMedia/Insta-gray.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/SocialMedia/Insta-white.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/SocialMedia/LI-black.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/SocialMedia/LI-gray.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/SocialMedia/LI-white.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/SocialMedia/Twitter-black.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/SocialMedia/Twitter-gray.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/SocialMedia/Twitter-white.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/PlaceholderLogo/Logo_55pxl.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/PlaceholderLogo/PlaceholderLogo-gray.png"
+      TimeStamp="01/01/0001 00:00:00" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/HeroImages/homebanner.jpg"
+      TimeStamp="12/06/2018 16:13:03" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/32-FAQ-blue.png"
+      TimeStamp="01/02/2019 17:08:45" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/32-FAQ-white.png"
+      TimeStamp="01/02/2019 17:09:40" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/32-NewFeatures-blue.png"
+      TimeStamp="01/02/2019 17:12:46" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/32-NewFeatures-white.png"
+      TimeStamp="01/02/2019 17:13:48" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/32-PDF-blue.png"
+      TimeStamp="01/02/2019 16:44:46" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/32-PDF-white.png"
+      TimeStamp="01/02/2019 11:03:57" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/32-SXA-blue.png"
+      TimeStamp="01/02/2019 16:50:34" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/32-SXA-white.png"
+      TimeStamp="01/02/2019 11:09:27" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/32-SXT-blue.png"
+      TimeStamp="01/02/2019 16:51:54" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/32-SXT-white.png"
+      TimeStamp="01/02/2019 11:10:27" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/32-Videos-blue.png"
+      TimeStamp="01/02/2019 16:41:48" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/32-Videos-white.png"
+      TimeStamp="01/02/2019 11:05:23" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/50-FAQ-blue.png"
+      TimeStamp="01/02/2019 17:07:55" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/50-NewFeatures-blue.png"
+      TimeStamp="01/02/2019 17:12:03" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/50-PDF-blue.png"
+      TimeStamp="01/02/2019 15:36:27" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/50-SXA-blue.png"
+      TimeStamp="01/02/2019 16:03:45" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/50-SXT-blue.png"
+      TimeStamp="01/02/2019 16:01:59" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/50-Videos-blue.png"
+      TimeStamp="01/02/2019 15:32:31" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/blue_faq.svg"
+      TimeStamp="04/02/2019 16:58:41" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/blue_newfeatures.svg"
+      TimeStamp="04/02/2019 16:54:51" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/blue_pdf.svg"
+      TimeStamp="04/02/2019 16:57:33" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/blue_sxa.svg"
+      TimeStamp="04/02/2019 16:56:05" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/blue_sxt.svg"
+      TimeStamp="04/02/2019 16:48:55" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/blue_videos.svg"
+      TimeStamp="04/02/2019 16:47:28" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/white_faq.svg"
+      TimeStamp="04/02/2019 14:57:43" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/White_icon-doc-pdf@3x.png"
+      TimeStamp="29/09/2016 17:27:58" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/white_newfeatures.svg"
+      TimeStamp="04/02/2019 14:52:38" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/white_pdf.svg"
+      TimeStamp="04/02/2019 14:56:12" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/white_sxa.svg"
+      TimeStamp="04/02/2019 14:54:32" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/white_sxt.svg"
+      TimeStamp="04/02/2019 14:50:59" />
+    <Url
+      Source="../../Content/Resources/Images/Assets/Icons/Sage/white_videos.svg"
+      TimeStamp="04/02/2019 14:49:25" />
+    <Url
+      Source="../../Content/Resources/MasterPages/Untranslated_OtherTopics.flmsp"
+      TimeStamp="20/02/2018 11:12:44" />
+    <Url
+      Source="../../Content/Resources/MasterPages/__backup_OtherTopics.flmsp"
+      TimeStamp="14/02/2018 17:59:07" />
+    <Url
+      Source="../../Content/Resources/Snippets/GBL_TopicNotTranslated.flsnp"
+      TimeStamp="20/02/2018 11:17:56" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Video_MainStyles.css"
+      TimeStamp="25/01/2019 16:39:46" />
+    <Url
+      Source="../Skins/NewFeaturesToolbar.flskn"
+      TimeStamp="19/02/2018 17:43:38" />
+  </GeneratedFiles>
+</CatapultProject>

@@ -1,0 +1,1664 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultProjectImport
+  AutoSync="true"
+  DeleteStale="true"
+  IncludePattern="*.htm;*.html;*.png;*.bmp;*.jpg;*.jpeg;*.tif;*.tiff;*.gif;*.swd;*.emf;*.wmf;*.xaml;*.xps;*.exps;*.hdp;*.wdp;*.dib;*.svg;*.ps;*.eps;*.pdf;*.flsnp;*.asf;*.wm;*.wma;*.wmv;*.asx;*.wax;*.wvx;*.wmx;*.mid;*.midi;*.mpeg;*.mpg;*.mpa;*.mpe;*.wav;*.au;*.mp3;*.avi;*.swf;*.mov;*.qt;*.mp4;*.webm;*.ogg;*.ogv;*.oga;*.ogx;*.spx;*.opus;*.m4v;*.u3d;*.fltoc"
+  ConditionTagExpression="exclude[General.ImportFromGBL] "
+  LastImport="2019-02-07T16:00:03.7125705+01:00">
+  <Files>
+    <Url
+      Source="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/SXT-Payment_EN.flprj"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/SXT-Payment_EN.flprj" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles>
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/EDITION - Bordereau remise.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/EDITION - Bordereau remise.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/EDITION - Capture - Bordereau remise.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/EDITION - Capture - Bordereau remise.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/EDITION - Capture - Lettre confirmation.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/EDITION - Capture - Lettre confirmation.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/EDITION - Capture - Ticket operation.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/EDITION - Capture - Ticket operation.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/EDITION - Consultation.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/EDITION - Consultation.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/EDITION - Diffusion.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/EDITION - Diffusion.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/EDITION - Intro.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/EDITION - Intro.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/EDITION - Lettre confirmation.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/EDITION - Lettre confirmation.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/EDITION - Personnalisation.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/EDITION - Personnalisation.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/EDITION - Ticket operation.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/EDITION - Ticket operation.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/EXPORT - Exportation virements.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/EXPORT - Exportation virements.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/EXPORT - Intro.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/EXPORT - Intro.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/INTEGRATION - Importation des virements.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/INTEGRATION - Importation des virements.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/INTEGRATION - Intro.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/INTEGRATION - Intro.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/INTEGRATION - Rejets virements.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/INTEGRATION - Rejets virements.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/INTRO - Acces appli.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/INTRO - Acces appli.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/INTRO - Gestion virements.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/INTRO - Gestion virements.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/INTRO - Perimetre fonctionnel.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/INTRO - Perimetre fonctionnel.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/INTRO - Principes fonctionnels.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/INTRO - Principes fonctionnels.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Chemin Fichiers.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Chemin Fichiers.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Configuration Paiement.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Configuration Paiement.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Creation Profils.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Creation Profils.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Creation Regles Constitution.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Creation Regles Constitution.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Donnees ref.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Donnees ref.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Fichiers de virements.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Fichiers de virements.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Fonctions Commerciales.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Fonctions Commerciales.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Identification Clients.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Identification Clients.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Intro.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Intro.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Mode Mise a Jour Cash.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Mode Mise a Jour Cash.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Modeles Virements.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Modeles Virements.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Motifs Economiques.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Motifs Economiques.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Options Traitement.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Options Traitement.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Structures de fichier.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Structures de fichier.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Types Facture.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/PARAM - Types Facture.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/PRINCIPES - Impact profils et regles de constitution.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/PRINCIPES - Impact profils et regles de constitution.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/PRINCIPES - Introduction.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/PRINCIPES - Introduction.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/PRINCIPES - Profils.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/PRINCIPES - Profils.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/PRINCIPES - Reglements.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/PRINCIPES - Reglements.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/PRINCIPES - Regles de constitution.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/PRINCIPES - Regles de constitution.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/PRINCIPES - Statuts.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/PRINCIPES - Statuts.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITEMENT - Intro.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITEMENT - Intro.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Caracteristiques des remises.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Caracteristiques des remises.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Caracteristiques.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Caracteristiques.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Constantes d'utilisation.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Constantes d'utilisation.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Constitution des remises.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Constitution des remises.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Evolution des virements.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Evolution des virements.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Gestion des remises.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Gestion des remises.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Journal de treso.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Journal de treso.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Modele - Creation.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Modele - Creation.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Modele - Suppression.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Modele - Suppression.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Modification et suppression exceptionnelles.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Modification et suppression exceptionnelles.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Modification et suppression exceptionnelles2.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Modification et suppression exceptionnelles2.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Modèles de saisie.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Modèles de saisie.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Selection des remises.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Selection des remises.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Selection des transactions.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Selection des transactions.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Selection.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Selection.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Suivi des virements.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Suivi des virements.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Virements.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/TRAITFINAN - Virements.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/ContextualTopics/Calculatrice.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/ContextualTopics/Calculatrice.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/ContextualTopics/Calendrier.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/ContextualTopics/Calendrier.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/ContextualTopics/Consulter lien TRN PREV.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/ContextualTopics/Consulter lien TRN PREV.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/ContextualTopics/Copier les parametres d un filtre.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/ContextualTopics/Copier les parametres d un filtre.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/ContextualTopics/Dupliquer element dans tableau page.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/ContextualTopics/Dupliquer element dans tableau page.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/ContextualTopics/Modifier element dans tableau page.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/ContextualTopics/Modifier element dans tableau page.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/ContextualTopics/Rechercher texte dans tableau page.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/ContextualTopics/Rechercher texte dans tableau page.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/E_Legacy/3_Payment/ContextualTopics/Supprimer element dans tableau page.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/E_Legacy/3_Payment/ContextualTopics/Supprimer element dans tableau page.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/19501.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/19501.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Archivage remise.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Archivage remise.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Assistant création structures.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Assistant création structures.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Assistant exportation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Assistant exportation.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Assistant importation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Assistant importation.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/barre actions.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/barre actions.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bddial Identification.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bddial Identification.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bordereau remise.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bordereau remise.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Créer.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Créer.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Modifier remise.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Modifier remise.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Modifier selection remise.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Modifier selection remise.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Modifier selection.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Modifier selection.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Supprimer.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Supprimer.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Chemin des fichiers.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Chemin des fichiers.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/circle_green.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/circle_green.gif" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Confirmation Fonction Commerciales.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Confirmation Fonction Commerciales.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Confirmation procedure exceptionnelle.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Confirmation procedure exceptionnelle.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Confirmation purge.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Confirmation purge.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Confirmation remise.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Confirmation remise.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Creation avec modele.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Creation avec modele.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Creation identifiant crediteur.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Creation identifiant crediteur.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Creation mandat.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Creation mandat.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Creation Modele.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Creation Modele.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Creation Prlvt SEPA.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Creation Prlvt SEPA.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Creation Profils - Encaissement.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Creation Profils - Encaissement.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Creation sans modele.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Creation sans modele.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Creation VCOM.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Creation VCOM.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/creation VDOM.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/creation VDOM.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Creation VINTL.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Creation VINTL.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Creation VTS avec modele.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Creation VTS avec modele.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Creation VTS.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Creation VTS.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Crreation regle constitution - encaissement.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Crreation regle constitution - encaissement.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Detail remise.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Detail remise.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Edition enregistrer.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Edition enregistrer.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Elements de structure.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Elements de structure.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Enregistrer comme modele.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Enregistrer comme modele.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Explorateur Payment.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Explorateur Payment.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Fonction commerciale.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Fonction commerciale.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Fonctions commerciales - Création.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Fonctions commerciales - Création.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Fonctions commerciales - initialisation auto.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Fonctions commerciales - initialisation auto.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Identification client - creation - PRLVT.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Identification client - creation - PRLVT.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Identification client - création.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Identification client - création.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Identification client - PRLVT.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Identification client - PRLVT.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Identification client.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Identification client.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Identification créditeur.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Identification créditeur.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Interaction mandat transaction.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Interaction mandat transaction.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Journal VDOM-selection.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Journal VDOM-selection.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Journal VDOM.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Journal VDOM.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Lettre confirmation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Lettre confirmation.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Lettre de confirmation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Lettre de confirmation.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Liste fichiers export.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Liste fichiers export.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Liste id client.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Liste id client.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Liste mandats.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Liste mandats.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Liste Prlvt SEPA.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Liste Prlvt SEPA.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Liste regles constitution - encaissement.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Liste regles constitution - encaissement.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Liste remises selectionnees.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Liste remises selectionnees.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Liste structures export.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Liste structures export.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Liste transactions a purger.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Liste transactions a purger.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Liste VDOM.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Liste VDOM.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Mandat - visualiser.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Mandat - visualiser.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Message duplication.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Message duplication.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Message erreur vdom non conforme.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Message erreur vdom non conforme.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Modele de virement.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Modele de virement.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/ModeMAJCash.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/ModeMAJCash.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Modif VDOM.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Modif VDOM.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Modif-Pays-zoneSEPA.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Modif-Pays-zoneSEPA.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Motif économique - Creation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Motif économique - Creation.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Motifs economiques.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Motifs economiques.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Notifier edition 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Notifier edition 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/oh-Note.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/oh-Note.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/oh-Warning.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/oh-Warning.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Onglet Back Office.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Onglet Back Office.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Onglet Transactions.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Onglet Transactions.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Option de traitement.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Option de traitement.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/page accueil.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/page accueil.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Page demandes de paiements.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Page demandes de paiements.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Page import VDOM.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Page import VDOM.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Page selection-2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Page selection-2.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Page Selection.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Page Selection.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Page valider en rafale.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Page valider en rafale.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Param option export.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Param option export.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Param option import.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Param option import.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Param Profils.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Param Profils.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Param structure fichier comptable a importer 5.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Param structure fichier comptable a importer 5.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Param tables correspondances.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Param tables correspondances.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Param zone SEPA.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Param zone SEPA.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Param-zoneSEPA.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Param-zoneSEPA.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Pays en zone SEPA.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Pays en zone SEPA.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Pays zoneSEPA - selection.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Pays zoneSEPA - selection.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Procedure exceptionnelle.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Procedure exceptionnelle.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Profil-Creation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Profil-Creation.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Profils encaissement.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Profils encaissement.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Profils_Créer.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Profils_Créer.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Progression exportation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Progression exportation.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Progression importation VDOM.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Progression importation VDOM.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Progression importation VDOM1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Progression importation VDOM1.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Proposition Remise 2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Proposition Remise 2.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Proposition remise.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Proposition remise.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/PropRemise.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/PropRemise.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Purge effectuee.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Purge effectuee.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Purge virements.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Purge virements.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Rapport importation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Rapport importation.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/RegleConstitution-Creation-2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/RegleConstitution-Creation-2.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/RegleConstitution-Creation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/RegleConstitution-Creation.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Reglement-TreeView.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Reglement-TreeView.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Regles_liste.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Regles_liste.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Rejet Vdom consultation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Rejet Vdom consultation.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Remise archivee.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Remise archivee.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Remise domestiques - liste.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Remise domestiques - liste.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Remise multiple.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Remise multiple.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Remise PRLVT.PNG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Remise PRLVT.PNG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Remise.PNG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Remise.PNG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Remises dom generees.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Remises dom generees.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Remplacer modele.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Remplacer modele.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Règles de consititution et remises.PNG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Règles de consititution et remises.PNG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Selection des remises.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Selection des remises.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Selection fichier export.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Selection fichier export.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Suppression Modele.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Suppression Modele.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Table Fonctions Commerciales.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Table Fonctions Commerciales.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Tableau rejets.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Tableau rejets.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Test Structure.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Test Structure.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Tests structure2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Tests structure2.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Ticket d'operation - PRLVT.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Ticket d'operation - PRLVT.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Ticket d'operation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Ticket d'operation.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Traiter en rafale.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Traiter en rafale.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Types de facture - Creation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Types de facture - Creation.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Types de facture.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Types de facture.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Validation en rafale.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Validation en rafale.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Validation modif.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Validation modif.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Validation multiple.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Validation multiple.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Validation suppr.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Validation suppr.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Validation VDOM.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Validation VDOM.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/VDOM rejeté.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/VDOM rejeté.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/VINTL.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/VINTL.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Project/TOCs/SXT-Payment.fltoc"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Project/TOCs/SXT-Payment.fltoc" />
+  </CollectedSourceFiles>
+  <SkippedSourceFiles>
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/SearchResults.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/SearchResults.htm" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Afficher journal de treso 1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Afficher journal de treso 1.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Afficher journal de treso 2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Afficher journal de treso 2.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Back.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Back.gif" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/barre outil filtres.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/barre outil filtres.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Barre outil Zoom.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Barre outil Zoom.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Barre outils langues developpee.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Barre outils langues developpee.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Barre outils langues.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Barre outils langues.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Barre outils page importation exportation.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Barre outils page importation exportation.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Barre outils page param gen.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Barre outils page param gen.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Barre outils page.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Barre outils page.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/BarredoutilsRecherche.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/BarredoutilsRecherche.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/BarredoutilsRecherche2.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/BarredoutilsRecherche2.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Book.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Book.gif" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/bouton appel calendrier 2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/bouton appel calendrier 2.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/bouton appel calendrier.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/bouton appel calendrier.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton calendrier fleche droite.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton calendrier fleche droite.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton calendrier fleche gauche.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton calendrier fleche gauche.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton coche bleue.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton coche bleue.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton cours inverse.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton cours inverse.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Derniere page.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Derniere page.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/bouton disquette.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/bouton disquette.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton fleche bas gris.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton fleche bas gris.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton fleche bas.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton fleche bas.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/bouton fleche double droite.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/bouton fleche double droite.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/bouton fleche double gauche.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/bouton fleche double gauche.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/bouton fleche simple droite.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/bouton fleche simple droite.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/bouton fleche simple gauche.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/bouton fleche simple gauche.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/bouton liste.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/bouton liste.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Page precedente.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Page precedente.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Page suivante.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Page suivante.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Points de suspension.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Points de suspension.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Premiere page.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Premiere page.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Process.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Process.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton signe plus.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton signe plus.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton sommaire.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton sommaire.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton STR coche verte.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton STR coche verte.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton STR croix rouge.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton STR croix rouge.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton STR fleche drte.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton STR fleche drte.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Supprimer Remise.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Supprimer Remise.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Zoom moins.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Zoom moins.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Zoom plus.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Bouton Zoom plus.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Boutons fleches haut bas.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Boutons fleches haut bas.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/BoutonValidationFormule.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/BoutonValidationFormule.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Calculatrice.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Calculatrice.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Carre1.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Carre1.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Carre2.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Carre2.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Carre3.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Carre3.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Checkmark_L.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Checkmark_L.gif" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/circle_green.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/circle_green.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Collapse.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Collapse.gif" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Copier parametres filtre 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Copier parametres filtre 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Copier parametres filtre 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Copier parametres filtre 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Copier parametres filtre.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Copier parametres filtre.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Creation VTSI.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Creation VTSI.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/croix.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/croix.gif" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Editeur de filtre 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Editeur de filtre 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/edition journal treso.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/edition journal treso.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Editions auto.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Editions auto.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Entite1.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Entite1.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Entite2.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Entite2.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Entite3.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Entite3.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Expand.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Expand.gif" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/ExpandingClosed.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/ExpandingClosed.gif" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/ExpandingOpen.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/ExpandingOpen.gif" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Exportation VDOM.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Exportation VDOM.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Fiche position FX 2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Fiche position FX 2.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Fiche position FX detail.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Fiche position FX detail.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Filtre de recherche.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Filtre de recherche.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Filtre Fiche position FX 2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Filtre Fiche position FX 2.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Forward.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Forward.gif" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/FVCM.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/FVCM.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/GlossaryIcon.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/GlossaryIcon.gif" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/HideNavigation.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/HideNavigation.gif" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Highlight_over.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Highlight_over.gif" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Historique Recherche.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Historique Recherche.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Home.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Home.gif" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/icone croix.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/icone croix.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Icone filtre.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Icone filtre.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Icone triangle 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Icone triangle 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Icone triangle 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Icone triangle 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/ImageFRP.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/ImageFRP.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Importation VDOM.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Importation VDOM.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Imprimer la vue.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Imprimer la vue.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/IndexIcon.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/IndexIcon.gif" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Journal toutes transactions.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Journal toutes transactions.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Liste VCOM.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Liste VCOM.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Liste VINTL.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Liste VINTL.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Liste VTS.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Liste VTS.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Liste VTSI.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Liste VTSI.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Logo.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Logo.gif" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/LogoIcon.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/LogoIcon.gif" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/LogoSage.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/LogoSage.gif" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/LogoSage.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/LogoSage.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/logo_sage.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/logo_sage.gif" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Menu contxt rechch 1.PNG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Menu contxt rechch 1.PNG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Menu Documents.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Menu Documents.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Mode gestion ope comm.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Mode gestion ope comm.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Ordre de paiement.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Ordre de paiement.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/PaymentDashboard.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/PaymentDashboard.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Pop-up calendrier 2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Pop-up calendrier 2.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Pop-up calendrier.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Pop-up calendrier.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Pop-up Entites.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Pop-up Entites.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Pop-up menu tri tableau.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Pop-up menu tri tableau.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Pop-up sel fichier.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Pop-up sel fichier.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/QuickSearch.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/QuickSearch.gif" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/SAGE FRP Treasury.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/SAGE FRP Treasury.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Sage-XRT-Treasury.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Sage-XRT-Treasury.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/sage.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/sage.gif" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/SearchIcon.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/SearchIcon.gif" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/SXT_LoginScreen.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/SXT_LoginScreen.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Ticket operation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Ticket operation.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/TocIcon.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/TocIcon.gif" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Topic.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Topic.gif" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/vue ensemble fctnelle.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/vue ensemble fctnelle.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/Vue flux treso.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/Vue flux treso.png" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Images/L_Payment/WebHelpIconeTermeGlossaire.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Images/L_Payment/WebHelpIconeTermeGlossaire.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Multimedia/NewVideo.mp4"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Multimedia/NewVideo.mp4" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Acces pages gestion transactions.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Acces pages gestion transactions.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Actions dans page export import.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Actions dans page export import.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/actions dans page transactions.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/actions dans page transactions.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Actions dans tableau page de parametrage.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Actions dans tableau page de parametrage.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Bouton Copier filtre.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Bouton Copier filtre.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Calculatrice.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Calculatrice.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Calendrier.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Calendrier.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Champ prev comm.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Champ prev comm.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/consulter detail jambe swap.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/consulter detail jambe swap.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Consulter lien TRN PREV.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Consulter lien TRN PREV.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Copier un filtre de commandes.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Copier un filtre de commandes.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Dupliquer ligne dans tableau.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Dupliquer ligne dans tableau.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Editions - options.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Editions - options.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Enregistrer params filtre.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Enregistrer params filtre.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Intro onglet Back Office.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Intro onglet Back Office.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Modifier ligne dans tableau parametrage.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Modifier ligne dans tableau parametrage.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Numero ordre transaction.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Numero ordre transaction.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/OK rafraichir annuler.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/OK rafraichir annuler.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Onglet Back Office.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Onglet Back Office.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Onglet Denouement.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Onglet Denouement.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Options Format Filtre edition.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Options Format Filtre edition.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Pertinence champs.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Pertinence champs.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Rechercher du texte dans un tableau.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Rechercher du texte dans un tableau.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Ref croisee Reorg tableau.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Ref croisee Reorg tableau.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Sous rubriques.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Sous rubriques.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Supprimer ligne dans tableau parametrage.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Supprimer ligne dans tableau parametrage.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Tableau verr BO.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Tableau verr BO.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Valider enregistrer annuler.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Payment/Content/Resources/Snippets/L_SXT_Payment/Valider enregistrer annuler.flsnp" />
+  </SkippedSourceFiles>
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/EDITION - Bordereau remise.htm"
+      TimeStamp="09/02/2018 11:15:32" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/EDITION - Capture - Bordereau remise.htm"
+      TimeStamp="09/02/2018 11:15:32" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/EDITION - Capture - Lettre confirmation.htm"
+      TimeStamp="09/02/2018 11:15:32" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/EDITION - Capture - Ticket operation.htm"
+      TimeStamp="09/02/2018 11:15:32" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/EDITION - Consultation.htm"
+      TimeStamp="09/02/2018 11:15:32" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/EDITION - Diffusion.htm"
+      TimeStamp="09/02/2018 11:15:32" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/EDITION - Intro.htm"
+      TimeStamp="09/02/2018 11:15:32" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/EDITION - Lettre confirmation.htm"
+      TimeStamp="09/02/2018 11:15:32" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/EDITION - Personnalisation.htm"
+      TimeStamp="09/02/2018 11:15:32" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/EDITION - Ticket operation.htm"
+      TimeStamp="09/02/2018 11:15:32" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/EXPORT - Exportation virements.htm"
+      TimeStamp="09/02/2018 11:15:32" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/EXPORT - Intro.htm"
+      TimeStamp="09/02/2018 11:15:32" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/INTEGRATION - Importation des virements.htm"
+      TimeStamp="09/02/2018 11:15:32" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/INTEGRATION - Intro.htm"
+      TimeStamp="09/02/2018 11:15:32" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/INTEGRATION - Rejets virements.htm"
+      TimeStamp="09/02/2018 11:15:33" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/INTRO - Acces appli.htm"
+      TimeStamp="09/02/2018 11:15:33" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/INTRO - Gestion virements.htm"
+      TimeStamp="09/02/2018 11:15:33" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/INTRO - Perimetre fonctionnel.htm"
+      TimeStamp="09/02/2018 11:15:33" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/INTRO - Principes fonctionnels.htm"
+      TimeStamp="09/02/2018 11:15:33" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/PARAM - Chemin Fichiers.htm"
+      TimeStamp="09/02/2018 11:15:33" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/PARAM - Configuration Paiement.htm"
+      TimeStamp="09/02/2018 11:15:33" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/PARAM - Creation Profils.htm"
+      TimeStamp="09/02/2018 11:15:33" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/PARAM - Creation Regles Constitution.htm"
+      TimeStamp="09/02/2018 11:15:33" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/PARAM - Donnees ref.htm"
+      TimeStamp="09/02/2018 11:15:33" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/PARAM - Fichiers de virements.htm"
+      TimeStamp="09/02/2018 11:15:33" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/PARAM - Fonctions Commerciales.htm"
+      TimeStamp="09/02/2018 11:15:33" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/PARAM - Identification Clients.htm"
+      TimeStamp="09/02/2018 11:15:33" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/PARAM - Intro.htm"
+      TimeStamp="09/02/2018 11:15:33" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/PARAM - Mode Mise a Jour Cash.htm"
+      TimeStamp="09/02/2018 11:15:33" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/PARAM - Modeles Virements.htm"
+      TimeStamp="09/02/2018 11:15:33" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/PARAM - Motifs Economiques.htm"
+      TimeStamp="09/02/2018 11:15:33" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/PARAM - Options Traitement.htm"
+      TimeStamp="09/02/2018 11:15:33" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/PARAM - Structures de fichier.htm"
+      TimeStamp="09/02/2018 11:15:33" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/PARAM - Types Facture.htm"
+      TimeStamp="09/02/2018 11:15:34" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/PRINCIPES - Impact profils et regles de constitution.htm"
+      TimeStamp="09/02/2018 11:15:34" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/PRINCIPES - Introduction.htm"
+      TimeStamp="09/02/2018 11:15:34" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/PRINCIPES - Profils.htm"
+      TimeStamp="09/02/2018 11:15:34" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/PRINCIPES - Reglements.htm"
+      TimeStamp="09/02/2018 11:15:34" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/PRINCIPES - Regles de constitution.htm"
+      TimeStamp="09/02/2018 11:15:34" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/PRINCIPES - Statuts.htm"
+      TimeStamp="09/02/2018 11:15:34" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/TRAITEMENT - Intro.htm"
+      TimeStamp="09/02/2018 11:15:34" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/TRAITFINAN - Caracteristiques des remises.htm"
+      TimeStamp="09/02/2018 11:15:34" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/TRAITFINAN - Caracteristiques.htm"
+      TimeStamp="09/02/2018 11:15:34" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/TRAITFINAN - Constantes d'utilisation.htm"
+      TimeStamp="09/02/2018 11:15:34" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/TRAITFINAN - Constitution des remises.htm"
+      TimeStamp="09/02/2018 11:15:34" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/TRAITFINAN - Evolution des virements.htm"
+      TimeStamp="09/02/2018 11:15:34" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/TRAITFINAN - Gestion des remises.htm"
+      TimeStamp="09/02/2018 11:15:34" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/TRAITFINAN - Journal de treso.htm"
+      TimeStamp="09/02/2018 11:15:35" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/TRAITFINAN - Modele - Creation.htm"
+      TimeStamp="09/02/2018 11:15:35" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/TRAITFINAN - Modele - Suppression.htm"
+      TimeStamp="09/02/2018 11:15:35" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/TRAITFINAN - Modification et suppression exceptionnelles.htm"
+      TimeStamp="09/02/2018 11:15:35" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/TRAITFINAN - Modification et suppression exceptionnelles2.htm"
+      TimeStamp="09/02/2018 11:15:35" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/TRAITFINAN - Modèles de saisie.htm"
+      TimeStamp="09/02/2018 11:15:35" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/TRAITFINAN - Selection des remises.htm"
+      TimeStamp="09/02/2018 11:15:35" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/TRAITFINAN - Selection des transactions.htm"
+      TimeStamp="09/02/2018 11:15:35" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/TRAITFINAN - Selection.htm"
+      TimeStamp="09/02/2018 11:15:35" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/TRAITFINAN - Suivi des virements.htm"
+      TimeStamp="09/02/2018 11:15:35" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/TRAITFINAN - Virements.htm"
+      TimeStamp="09/02/2018 11:15:35" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/ContextualTopics/Calculatrice.htm"
+      TimeStamp="09/02/2018 11:15:32" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/ContextualTopics/Calendrier.htm"
+      TimeStamp="09/02/2018 11:15:32" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/ContextualTopics/Consulter lien TRN PREV.htm"
+      TimeStamp="09/02/2018 11:15:32" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/ContextualTopics/Copier les parametres d un filtre.htm"
+      TimeStamp="09/02/2018 11:15:32" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/ContextualTopics/Dupliquer element dans tableau page.htm"
+      TimeStamp="09/02/2018 11:15:32" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/ContextualTopics/Modifier element dans tableau page.htm"
+      TimeStamp="09/02/2018 11:15:32" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/ContextualTopics/Rechercher texte dans tableau page.htm"
+      TimeStamp="09/02/2018 11:15:32" />
+    <Url
+      Source="../../Content/E_Legacy/3_Payment/ContextualTopics/Supprimer element dans tableau page.htm"
+      TimeStamp="09/02/2018 11:15:32" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/19501.jpg"
+      TimeStamp="18/06/2014 14:28:36" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Archivage remise.png"
+      TimeStamp="06/12/2010 12:22:09" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Assistant création structures.png"
+      TimeStamp="10/12/2010 11:43:19" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Assistant exportation.png"
+      TimeStamp="03/12/2010 15:15:12" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Assistant importation.png"
+      TimeStamp="03/12/2010 15:10:11" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/barre actions.png"
+      TimeStamp="03/12/2010 15:19:18" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Bddial Identification.png"
+      TimeStamp="22/10/2014 13:12:34" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Bordereau remise.png"
+      TimeStamp="08/12/2010 11:57:42" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Bouton Créer.png"
+      TimeStamp="14/12/2010 16:22:18" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Bouton Modifier remise.png"
+      TimeStamp="03/12/2010 15:58:12" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Bouton Modifier selection remise.png"
+      TimeStamp="14/12/2010 16:20:04" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Bouton Modifier selection.png"
+      TimeStamp="14/12/2010 16:19:50" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Bouton Supprimer.png"
+      TimeStamp="06/12/2010 12:06:20" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Chemin des fichiers.png"
+      TimeStamp="08/12/2010 12:19:10" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/circle_green.gif"
+      TimeStamp="11/12/2013 14:52:27" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Confirmation Fonction Commerciales.png"
+      TimeStamp="13/12/2010 11:48:05" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Confirmation procedure exceptionnelle.png"
+      TimeStamp="10/12/2010 14:55:24" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Confirmation purge.png"
+      TimeStamp="10/12/2010 15:06:02" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Confirmation remise.png"
+      TimeStamp="13/12/2010 15:05:55" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Creation avec modele.png"
+      TimeStamp="03/12/2010 16:59:06" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Creation identifiant crediteur.png"
+      TimeStamp="09/12/2010 16:36:16" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Creation mandat.png"
+      TimeStamp="09/12/2010 16:16:51" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Creation Modele.png"
+      TimeStamp="14/12/2010 16:14:41" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Creation Prlvt SEPA.png"
+      TimeStamp="03/12/2010 16:41:31" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Creation Profils - Encaissement.png"
+      TimeStamp="09/12/2010 16:57:16" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Creation sans modele.png"
+      TimeStamp="14/12/2010 16:16:03" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Creation VCOM.png"
+      TimeStamp="03/12/2010 16:27:08" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/creation VDOM.png"
+      TimeStamp="03/12/2010 16:31:57" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Creation VINTL.png"
+      TimeStamp="03/12/2010 16:34:55" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Creation VTS avec modele.png"
+      TimeStamp="03/12/2010 16:55:59" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Creation VTS.png"
+      TimeStamp="03/12/2010 16:38:28" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Crreation regle constitution - encaissement.png"
+      TimeStamp="30/11/2010 16:34:21" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Detail remise.png"
+      TimeStamp="10/12/2010 14:18:08" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Edition enregistrer.jpg"
+      TimeStamp="10/12/2010 15:25:28" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Elements de structure.png"
+      TimeStamp="13/12/2010 11:06:54" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Enregistrer comme modele.png"
+      TimeStamp="06/12/2010 12:34:23" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Explorateur Payment.png"
+      TimeStamp="10/12/2010 13:55:28" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Fonction commerciale.png"
+      TimeStamp="09/12/2010 16:23:26" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Fonctions commerciales - Création.png"
+      TimeStamp="09/12/2010 16:22:34" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Fonctions commerciales - initialisation auto.png"
+      TimeStamp="14/12/2010 16:01:54" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Identification client - creation - PRLVT.png"
+      TimeStamp="08/12/2010 12:22:20" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Identification client - création.png"
+      TimeStamp="09/12/2010 16:20:10" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Identification client - PRLVT.png"
+      TimeStamp="09/12/2010 16:30:11" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Identification client.png"
+      TimeStamp="10/12/2010 10:27:56" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Identification créditeur.png"
+      TimeStamp="09/12/2010 16:33:49" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Interaction mandat transaction.png"
+      TimeStamp="03/12/2010 12:00:56" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Journal VDOM-selection.png"
+      TimeStamp="06/12/2010 12:39:19" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Journal VDOM.png"
+      TimeStamp="06/12/2010 12:41:51" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Lettre confirmation.png"
+      TimeStamp="08/12/2010 11:54:56" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Lettre de confirmation.png"
+      TimeStamp="08/12/2010 11:55:31" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Liste fichiers export.png"
+      TimeStamp="10/12/2010 11:28:09" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Liste id client.png"
+      TimeStamp="08/12/2010 12:23:38" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Liste mandats.png"
+      TimeStamp="09/12/2010 16:13:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Liste Prlvt SEPA.png"
+      TimeStamp="14/12/2010 16:32:57" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Liste regles constitution - encaissement.png"
+      TimeStamp="09/12/2010 16:50:12" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Liste remises selectionnees.png"
+      TimeStamp="14/12/2010 17:33:37" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Liste structures export.png"
+      TimeStamp="14/12/2010 16:12:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Liste transactions a purger.png"
+      TimeStamp="10/12/2010 15:04:29" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Liste VDOM.png"
+      TimeStamp="14/12/2010 16:24:17" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Mandat - visualiser.png"
+      TimeStamp="09/12/2010 16:42:26" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Message duplication.png"
+      TimeStamp="13/12/2010 11:04:52" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Message erreur vdom non conforme.png"
+      TimeStamp="06/12/2010 12:29:22" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Modele de virement.png"
+      TimeStamp="09/12/2010 17:35:42" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/ModeMAJCash.png"
+      TimeStamp="09/12/2010 16:21:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Modif VDOM.png"
+      TimeStamp="06/12/2010 12:32:30" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Modif-Pays-zoneSEPA.png"
+      TimeStamp="09/12/2010 17:05:39" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Motif économique - Creation.png"
+      TimeStamp="09/12/2010 16:24:49" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Motifs economiques.png"
+      TimeStamp="09/12/2010 16:25:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Notifier edition 1.jpg"
+      TimeStamp="10/12/2010 15:23:40" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/oh-Note.png"
+      TimeStamp="07/10/2014 14:33:01" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/oh-Warning.png"
+      TimeStamp="07/10/2014 14:33:18" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Onglet Back Office.png"
+      TimeStamp="13/12/2010 11:32:42" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Onglet Transactions.png"
+      TimeStamp="13/12/2010 11:36:40" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Option de traitement.png"
+      TimeStamp="09/12/2010 16:37:36" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/page accueil.png"
+      TimeStamp="09/12/2010 17:29:56" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Page demandes de paiements.png"
+      TimeStamp="10/12/2010 11:36:00" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Page import VDOM.png"
+      TimeStamp="10/12/2010 10:41:17" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Page selection-2.png"
+      TimeStamp="06/12/2010 12:02:21" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Page Selection.png"
+      TimeStamp="06/12/2010 11:43:41" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Page valider en rafale.png"
+      TimeStamp="14/12/2010 16:25:50" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Param option export.png"
+      TimeStamp="10/12/2010 11:29:26" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Param option import.png"
+      TimeStamp="10/12/2010 10:51:01" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Param Profils.png"
+      TimeStamp="08/12/2010 12:31:21" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Param structure fichier comptable a importer 5.png"
+      TimeStamp="10/12/2010 11:21:36" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Param tables correspondances.png"
+      TimeStamp="10/12/2010 11:46:09" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Param zone SEPA.png"
+      TimeStamp="09/12/2010 17:04:33" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Param-zoneSEPA.png"
+      TimeStamp="09/12/2010 17:03:33" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Pays en zone SEPA.png"
+      TimeStamp="09/12/2010 17:16:31" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Pays zoneSEPA - selection.png"
+      TimeStamp="09/12/2010 17:10:26" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Procedure exceptionnelle.png"
+      TimeStamp="10/12/2010 14:48:48" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Profil-Creation.png"
+      TimeStamp="30/11/2010 16:28:32" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Profils encaissement.png"
+      TimeStamp="14/12/2010 16:06:37" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Profils_Créer.png"
+      TimeStamp="30/11/2010 16:28:32" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Progression exportation.png"
+      TimeStamp="10/12/2010 11:28:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Progression importation VDOM.png"
+      TimeStamp="10/12/2010 10:56:05" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Progression importation VDOM1.png"
+      TimeStamp="10/12/2010 11:11:03" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Proposition Remise 2.png"
+      TimeStamp="13/12/2010 14:10:40" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Proposition remise.png"
+      TimeStamp="13/12/2010 15:07:04" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/PropRemise.png"
+      TimeStamp="10/12/2010 14:35:28" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Purge effectuee.png"
+      TimeStamp="10/12/2010 15:08:50" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Purge virements.png"
+      TimeStamp="10/12/2010 14:59:04" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Rapport importation.png"
+      TimeStamp="10/12/2010 11:12:20" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/RegleConstitution-Creation-2.png"
+      TimeStamp="09/12/2010 16:51:30" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/RegleConstitution-Creation.png"
+      TimeStamp="09/12/2010 16:51:30" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Reglement-TreeView.png"
+      TimeStamp="09/12/2010 12:02:33" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Regles_liste.png"
+      TimeStamp="30/11/2010 16:31:48" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Rejet Vdom consultation.png"
+      TimeStamp="10/12/2010 11:15:42" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Remise archivee.png"
+      TimeStamp="08/12/2010 12:04:54" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Remise domestiques - liste.png"
+      TimeStamp="08/12/2010 12:03:49" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Remise multiple.png"
+      TimeStamp="13/12/2010 15:07:15" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Remise PRLVT.PNG"
+      TimeStamp="10/12/2010 15:53:04" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Remise.PNG"
+      TimeStamp="10/12/2010 15:43:11" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Remises dom generees.png"
+      TimeStamp="08/12/2010 12:01:14" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Remplacer modele.png"
+      TimeStamp="10/12/2010 15:11:55" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Règles de consititution et remises.PNG"
+      TimeStamp="10/12/2010 11:31:12" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Selection des remises.png"
+      TimeStamp="10/12/2010 14:28:17" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Selection fichier export.png"
+      TimeStamp="10/12/2010 11:30:12" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Suppression Modele.png"
+      TimeStamp="10/12/2010 15:16:20" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Table Fonctions Commerciales.png"
+      TimeStamp="14/12/2010 16:04:16" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Tableau rejets.png"
+      TimeStamp="10/12/2010 11:14:03" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Test Structure.png"
+      TimeStamp="13/12/2010 11:08:20" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Tests structure2.png"
+      TimeStamp="13/12/2010 11:23:19" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Ticket d'operation - PRLVT.png"
+      TimeStamp="08/12/2010 11:50:48" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Ticket d'operation.png"
+      TimeStamp="08/12/2010 10:54:32" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Traiter en rafale.png"
+      TimeStamp="06/12/2010 11:50:48" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Types de facture - Creation.png"
+      TimeStamp="09/12/2010 17:42:03" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Types de facture.png"
+      TimeStamp="09/12/2010 17:41:15" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Validation en rafale.png"
+      TimeStamp="06/12/2010 11:57:05" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Validation modif.png"
+      TimeStamp="10/12/2010 14:14:26" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Validation multiple.png"
+      TimeStamp="08/12/2010 12:16:04" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Validation suppr.png"
+      TimeStamp="08/12/2010 12:12:47" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/Validation VDOM.png"
+      TimeStamp="08/12/2010 12:11:00" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/VDOM rejeté.png"
+      TimeStamp="10/12/2010 11:17:48" />
+    <Url
+      Source="../../Content/Resources/Images/L_Payment/VINTL.png"
+      TimeStamp="03/12/2010 11:15:24" />
+    <Url
+      Source="../TOCs/SXT-Payment.fltoc"
+      TimeStamp="09/02/2018 11:15:36" />
+  </GeneratedFiles>
+</CatapultProjectImport>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:ignoredWords="Back;First;FIFO" MadCap:lastBlockDepth="9" MadCap:lastHeight="1800" MadCap:lastWidth="570">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT"><MadCap:keyword term="FX Configuration;Setup:FX configuration" />FX Configuration</h1>
+        <p>This function enables you to set up your preferences concerning the management of FX Transactions and Commercial Transactions.</p>
+        <p>For Commercial Forecasts, two types are available depending on your needs regarding the management of risks and transactions (macro-hedge policy or micro-hedge policy at a single level).</p>
+        <ul>
+            <li class="PuceNiv1">The <b>Global, Decrementation Mode</b> and the <b>Global, Budget Decrementation Mode</b> enable the mass management of the exchange rate (macro-hedge) with a decrementation based on the FIFO principle (<i>First In, First Out</i>). It particularly suits the management of a lot of transactions with small unit amounts.</li>
+            <li class="PuceNiv1">When fewer transactions with bigger unit amounts must be managed or when a unit management is required, the <b>Detailed, Reconciliation Mode</b> enables the individual management of the foreign exchange risk (micro-hedge), amount by amount.</li>
+        </ul>
+        <p>The schema below summarizes the management types for Commercial Transactions available in <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" />.</p>
+        <p><img src="../../Resources/Images/L_FX/Mode gestion ope comm.png" class="SAGE_screenshot" /></p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Setting up Management Preferences</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">To access this function, in the <MadCap:variable name="Localization.SXTModulesTasks" style="font-weight: bold;" /> pane, select the <b>Configure FX</b> option in the <MadCap:variable name="Localization.SXTSetupFolder" style="font-weight: bold;" /> folder of the <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> module.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The setup page for the management preferences of FX Transactions and Commercial Transactions is displayed.</p>
+                <p MadCap:targetName="Capture onglet 1"><img src="../../Resources/Images/L_FX/Configuration FX 1.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">The <b>General</b> tab enables you to set up your preferences for the entry of FX Transactions. The <b>Commercial Transactions</b> tab enables you to set up your preferences for the entry of Commercial Forecasts.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>General</b> tab, enable the <b>Lock B.O. Change</b> option if you want to restrict the modification options for the <i>B.O</i>-validated FX transactions.</li>
+                </ol>
+                <p class="IndentPuceNiv1">For more information on:</p>
+                <ul>
+                    <li class="PuceNiv2">the editable fields linked to this option, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="ANNEXE - Verrouillage Back Office.htm" target="" title="" alt="" class="XrefSansTexte">Back-Office Locking</MadCap:xref> topic</MadCap:conditionalText>,</li>
+                    <li class="PuceNiv2">the <i>back-office</i> validation and locking, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="TRAITFINAN - Traitement Back Office.htm" target="" title="" alt="" class="XrefSansTexte">Back-Office Processing</MadCap:xref> topic</MadCap:conditionalText>.</li>
+                </ul>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Enable the option <b>Settlements Accounts Mandatory</b> if you want the entry of the settlement accounts to be compulsory at the moment of an FX transaction creation.</li>
+                </ol>
+                <p class="IndentPuceNiv1">If this option is disabled, the entry of the settlements accounts is compulsory only at the moment of the settlement.</p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">This option concerns Swap and Forward Exchange Transactions only. As Spot Exchange Transactions are immediately settled, the entry of the settlement accounts is always compulsory.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click on the <b>Commercial Transactions</b> tab.</li>
+                </ol>
+                <p MadCap:targetName="Capture onglet 2"><img src="../../Resources/Images/L_FX/Configuration FX 2.png" class="SAGE_screenshot" /></p>
+                <ol start="6" MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Update Mode</b> area, select one of the options described below.</li>
+                </ol>
+                <table class="TableStyle-Tableau_standard" cellspacing="0" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');">
+                    <col class="TableStyle-Tableau_standard-Column-Column1" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Tableau_standard-Head-Header1">
+                            <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Option</th>
+                            <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1"><span style="font-weight: bold;">Global - Decrementation Mode</span></td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">When this option is enabled, forecasts are globally managed and there is a decrementation on a FIFO basis (<i>First In First Out</i>).<br />This management mode uses three reconciliation criteria for commercial transactions decrementation: the flow type, the company, the transaction currency and the month.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1"><b style="font-family: Arial; font-weight: bold;">Global - Budget Decrementation Mode</b></td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">This management mode is similar to the <b>Global, Decrementation Mode</b>, with the budget as the additional and mandatory decrementation criterion.<br />This management mode uses four reconciliation criteria for commercial transactions decrementation: the flow type, the company, the transaction currency, the month and the budget code assigned to each forecast.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1"><span style="font-family: Arial; font-weight: bold;">Detailed - Reconciliation Mode</span><![CDATA[
+                            ]]></td>
+                            <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">
+                                <p class="tableau" style="font-family: Arial;">When this option is enabled, forecasts are managed amount by amount and the corresponding flows are generated with the &quot;Confirmed Forecast&quot; status.</p>
+                                <p class="tableau" style="font-family: Arial;">If you enable this option, all the open transactions are settled.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="IndentPuceNiv1SautLigne">For more information on the impact of this setup on Update, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="ANNEXE - Gestion des op comm.htm" target="" title="" alt="" class="XrefSansTexte">Management Modes for Commercial Transactions</MadCap:xref> topic.</MadCap:conditionalText></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click <b>OK</b> to validate the setup or <b>Cancel</b> to delete it.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

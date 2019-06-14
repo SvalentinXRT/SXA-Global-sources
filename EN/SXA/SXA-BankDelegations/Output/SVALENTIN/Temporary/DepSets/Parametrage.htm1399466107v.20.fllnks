@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="Paramétrage des entités spécifiques"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/HT_BankDelegations/Slide1.png" />
+    <Link
+      Url="Content/Resources/Images/HT_BankDelegations/Slide 2.png" />
+    <Link
+      Url="Content/Resources/Images/HT_BankDelegations/Slide 3.png" />
+    <Link
+      Url="Content/Resources/Images/HT_BankDelegations/Slide 4.png" />
+    <Link
+      Url="Content/Resources/Images/HT_BankDelegations/Slide 5.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/HT_BankDelegations/Slide1.png" />
+    <Link
+      Url="Content/Resources/Images/HT_BankDelegations/Slide 2.png" />
+    <Link
+      Url="Content/Resources/Images/HT_BankDelegations/Slide 3.png" />
+    <Link
+      Url="Content/Resources/Images/HT_BankDelegations/Slide 4.png" />
+    <Link
+      Url="Content/Resources/Images/HT_BankDelegations/Slide 5.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXT" />
+    <Variable
+      Name="Localization.SXA_BankDelegations" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Note.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

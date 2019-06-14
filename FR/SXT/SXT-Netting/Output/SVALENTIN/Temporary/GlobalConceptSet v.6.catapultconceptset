@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlobalConceptSet
+  SavedSource="file:///C:/__OHC MADCAP/Sage XRT Advanced/FR/SXT/SXT-Netting/Output/SVALENTIN/Temporary/GlobalConceptSet v.6.catapultconceptset">
+  <Concepts />
+  <SourceUrls>
+    <Url
+      Source="SearchResults.htm" />
+    <Url
+      Source="E_Legacy/4_Netting/Balance Compensation.htm" />
+    <Url
+      Source="E_Legacy/4_Netting/ConceptsCles.htm" />
+    <Url
+      Source="E_Legacy/4_Netting/Creation-intro.htm" />
+    <Url
+      Source="E_Legacy/4_Netting/Creation-Simulation.htm" />
+    <Url
+      Source="E_Legacy/4_Netting/Factures-int-ext.htm" />
+    <Url
+      Source="E_Legacy/4_Netting/Fiche de compensation.htm" />
+    <Url
+      Source="E_Legacy/4_Netting/Introduction-Factures.htm" />
+    <Url
+      Source="E_Legacy/4_Netting/Modification-Cycle-Facturation.htm" />
+    <Url
+      Source="E_Legacy/4_Netting/Param-Importation.htm" />
+    <Url
+      Source="E_Legacy/4_Netting/Param_Commun.htm" />
+    <Url
+      Source="E_Legacy/4_Netting/Param_specifique.htm" />
+    <Url
+      Source="E_Legacy/4_Netting/Position_Compensation.htm" />
+    <Url
+      Source="E_Legacy/4_Netting/Postages et exportations.htm" />
+    <Url
+      Source="E_Legacy/4_Netting/PresentationNetting.htm" />
+    <Url
+      Source="E_Legacy/4_Netting/Re-calcul simulation.htm" />
+    <Url
+      Source="E_Legacy/4_Netting/Resultat_Net_Reglement.htm" />
+    <Url
+      Source="E_Legacy/4_Netting/Setup.htm" />
+    <Url
+      Source="E_Legacy/4_Netting/Simulation.htm" />
+    <Url
+      Source="E_Legacy/4_Netting/Traitement-Compensation.htm" />
+    <Url
+      Source="E_Legacy/4_Netting/Transactions-int-ext.htm" />
+    <Url
+      Source="E_Legacy/4_Netting/Transactions.htm" />
+    <Url
+      Source="E_Legacy/4_Netting/Vue generale Compensation.htm" />
+    <Url
+      Source="Resources/Images/Assets/circle_green.gif" />
+    <Url
+      Source="Resources/Images/Assets/oh-Note.png" />
+    <Url
+      Source="Resources/Images/Assets/oh-Warning.png" />
+    <Url
+      Source="Resources/Images/Assets/HeroImages/HeroImage-1.jpg" />
+    <Url
+      Source="Resources/Images/Assets/HeroImages/HeroImage-2.jpg" />
+    <Url
+      Source="Resources/Images/Assets/HeroImages/homebanner.jpg" />
+    <Url
+      Source="Resources/Images/Assets/HeroImages/Homepage-Bottom.png" />
+    <Url
+      Source="Resources/Images/Assets/HeroImages/Homepage-Top.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-down-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-down-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-left-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-left-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-right-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-right-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-up-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Arrows/arrow-up-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Clients-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Clients-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Clients-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Contact-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Contact-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Contact-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/FAQs-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/FAQs-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/FAQs-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Hello-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Hello-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Hello-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Notes-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Notes-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Notes-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/PDFs-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/PDFs-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/PDFs-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Search-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Search-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Search-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Services-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Services-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Services-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/SharedFiles-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/SharedFiles-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/SharedFiles-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Solutions-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Solutions-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Solutions-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Tips-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Tips-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/Tips-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/VideosImages-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/VideosImages-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/MainIcons/VideosImages-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-FAQ-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-FAQ-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-NewFeatures-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-NewFeatures-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-PDF-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-PDF-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-SXA-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-SXA-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-SXT-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-SXT-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-Videos-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/32-Videos-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/50-FAQ-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/50-NewFeatures-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/50-PDF-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/50-SXA-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/50-SXT-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/50-Videos-blue.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/blue_faq.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/blue_newfeatures.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/blue_pdf.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/blue_sxa.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/blue_sxt.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/blue_videos.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-announcement.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-announcement@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-announcement@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-announcement@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-devices@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-doc-pdf@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-doc-pdf@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-doc-pdf@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-doc-pdf@4x_BrillantGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-help@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-knowledge-base@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-knowledge-base@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x_AccessibleGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-knowledge-base@4x_BrillantGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-logo-youtube@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x_AccessibleGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-logo-youtube@4x_BrillantGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-newspaper@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-newspaper@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-newspaper@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-newspaper@4x_BrillantGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-qna@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-qna@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-qna@4x_BrillantGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-quick-help@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-quick-help@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-quick-help@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/icon-quick-help@4x_BrillantGreen.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_faq.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-announcement.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-announcement@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-announcement@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-doc-pdf@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/White_icon-doc-pdf@3x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-help@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-knowledge-base@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-logo-youtube@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-newspaper@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_icon-qna@2x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_newfeatures.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_pdf.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_sxa.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_sxt.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white_videos.svg" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage/white__icon-announcement@4x.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/Sage_PDF/PDF1.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/AddSM-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/AddSM-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/AddSM-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/FB-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/FB-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/FB-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/Insta-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/Insta-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/Insta-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/LI-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/LI-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/LI-white.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/Twitter-black.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/Twitter-gray.png" />
+    <Url
+      Source="Resources/Images/Assets/Icons/SocialMedia/Twitter-white.png" />
+    <Url
+      Source="Resources/Images/Assets/PlaceholderLogo/Logo_55pxl.png" />
+    <Url
+      Source="Resources/Images/Assets/PlaceholderLogo/PlaceholderLogo-gray.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Bouton calendrier fleche droite.jpg" />
+    <Url
+      Source="Resources/Images/L_Netting/Bouton calendrier fleche gauche.jpg" />
+    <Url
+      Source="Resources/Images/L_Netting/Bouton fleche bas.jpg" />
+    <Url
+      Source="Resources/Images/L_Netting/Bouton Points de suspension.JPG" />
+    <Url
+      Source="Resources/Images/L_Netting/Bouton STR coche verte.JPG" />
+    <Url
+      Source="Resources/Images/L_Netting/Bouton STR croix rouge.JPG" />
+    <Url
+      Source="Resources/Images/L_Netting/Bouton STR fleche drte.JPG" />
+    <Url
+      Source="Resources/Images/L_Netting/Codes TRN.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Condition de postage des flux.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Configuration Netting - onglet factures.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Confirguration Netting - onglet processus netting.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Convention - onglet Dev Fact.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Convention - onglet entites externes.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Convention - onglet entités internes.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Convention - onglet general.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Convention - onglet TRN Compensation.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Creer Tache exportation TRN terme 1.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Creer Tache exportation TRN terme 2.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Creer Tache exportation TRN terme 3a.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Creer Tache exportation TRN terme 3b.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Creer Tache exportation TRN terme 3c.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Creer Tache exportation TRN terme 3d.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Creer Tache exportation TRN terme 3e.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Creer Tache exportation TRN terme 3f.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Creer Tache exportation TRN terme 4.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Creer Tache importation previsions commerciales 1.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Creer Tache importation previsions commerciales 2.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Creer Tache importation previsions commerciales 3.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Creer Tache importation previsions commerciales 4.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Cycle compensation2.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Cycles compensation.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Dupliquer structure exportation transactions change terme 1.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Dupliquer structure importation previsions commerciales 1.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Edition Balance de Compensation.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Edition Resultat Net Reglement.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Encart Taches de modules.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Fiche Compensation 2.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Fiche Compensation.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Org_multi_avec_netting_bilateral.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Org_multi_avec_netting_Sage.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Org_multi_sans_netting.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Parametrer structure importation Popup.jpg" />
+    <Url
+      Source="Resources/Images/L_Netting/point_d_interrogation_entoure.gif" />
+    <Url
+      Source="Resources/Images/L_Netting/Pop-up calendrier.jpg" />
+    <Url
+      Source="Resources/Images/L_Netting/Postage.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Processus Simulation.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Schema vue ensemble compensation.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Traitement compensation - conversion.png" />
+    <Url
+      Source="Resources/Images/L_Netting/Transaction interne.png" />
+    <Url
+      Source="Resources/MasterPages/HomePage.flmsp" />
+    <Url
+      Source="Resources/MasterPages/OtherTopics.flmsp" />
+    <Url
+      Source="Resources/MasterPages/Untranslated_OtherTopics.flmsp" />
+    <Url
+      Source="Resources/MasterPages/__backup_OtherTopics.flmsp" />
+    <Url
+      Source="Resources/Multimedia/NewVideo.mp4" />
+    <Url
+      Source="Resources/Multimedia/L_Netting/Convention de compensation.mp4" />
+    <Url
+      Source="Resources/Multimedia/L_Netting/Cours de compensation.mp4" />
+    <Url
+      Source="Resources/Multimedia/L_Netting/Cycle de compensation.mp4" />
+    <Url
+      Source="Resources/Multimedia/L_Netting/Postage de flux.mp4" />
+    <Url
+      Source="Resources/Multimedia/L_Netting/Saisir une facture.mp4" />
+    <Url
+      Source="Resources/Multimedia/L_Netting/Structure de cycle.mp4" />
+    <Url
+      Source="Resources/Snippets/GBL_Home.InfoSection.flsnp" />
+    <Url
+      Source="Resources/Snippets/GBL_Note.flsnp" />
+    <Url
+      Source="Resources/Snippets/GBL_TopicNotTranslated.flsnp" />
+    <Url
+      Source="Resources/Snippets/GBL_Video.flsnp" />
+    <Url
+      Source="Resources/Snippets/GBL_Warning.flsnp" />
+    <Url
+      Source="Resources/Stylesheets/MainStyles.css" />
+    <Url
+      Source="Resources/Stylesheets/StylesForHomePage.css" />
+    <Url
+      Source="Resources/Stylesheets/Video_MainStyles.css" />
+    <Url
+      Source="Resources/TableStyles/Note.css" />
+    <Url
+      Source="Resources/TableStyles/Tableau standard bordures.css" />
+    <Url
+      Source="Resources/TableStyles/Tableau standard.css" />
+    <Url
+      Source="Resources/TableStyles/Warning.css" />
+  </SourceUrls>
+  <UsedUrls />
+  <UsedConceptControlUrls />
+</CatapultGlobalConceptSet>

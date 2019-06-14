@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:lastBlockDepth="11" MadCap:lastHeight="2960" MadCap:lastWidth="544">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT">
+            <MadCap:keyword term="Validation back office;Back office:validation" />Validation <i>back&#160;office</i></h1>
+        <p>La validation <i>back office</i> d'une transaction peut être automatique ou manuelle.</p>
+        <p>Elle est automatique lorsque le statut d'un flux de trésorerie associé à une transaction de change passe à «&#160;réalisé&#160;».</p>
+        <p>La validation <i>back office</i> manuelle des transactions peut être effectuée soit transaction par transaction, soit par lots de transactions. Une transaction validée en <i>back office</i> ne peut pas être supprimée.</p>
+        <p>Une transaction doit être validée en <i>back office</i> avant de pouvoir être prorogée, levée par anticipation ou dénouée. Toute transaction financière enregistrée peut être validée deux fois&#160;:</p>
+        <ul>
+            <li class="PuceNiv1">La première validation a lieu lorsque, après la saisie de la transaction, le bouton <b>OK</b> ou <b>Appliquer</b> est utilisé. Cette validation est normalement réalisée par l'opérateur qui a saisi l'opération. Elle correspond à une validation <i>front office</i>.</li>
+            <li class="PuceNiv1">La seconde validation est la validation <i>back office</i>. Elle a lieu à l'occasion du rapprochement entre le ticket d'opération édité dans le module <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> et la confirmation écrite ou téléphonique de la contrepartie. Dans le but de renforcer votre sécurité, cette validation a vocation à être effectuée par des membres du service <i>back office</i>, de manière à séparer les fonctions de <i>front office</i> et de <i>back office</i>.</li>
+        </ul>
+        <p>La date et l'heure de validation <i>back office</i> sont affichées dans la zone <b>Validation</b> de l'onglet <b>Back Office</b> des pages de gestion des transactions.</p>
+        <p MadCap:targetName="exemple">
+            <img src="../../Resources/Images/L_FX/exemple onglet back office.png" class="SAGE_screenshot" />
+        </p>
+        <p>Si l'édition automatique des lettres de confirmation a été activée, une lettre de confirmation est éditée automatiquement après la validation <i>back office</i>. Pour plus d'informations sur la configuration des éditions automatiques, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="PARAM - Editions auto.htm" target="" title="" alt="" class="XrefSansTexte">Éditions automatiques</MadCap:xref>.</MadCap:conditionalText></p>
+        <ul>
+            <li class="PuceNiv1"><b>Validation de couples de transactions
+            </b>
+            </li>
+        </ul>
+        <p class="IndentPuceNiv1">La validation <i>back office</i> d'une jambe d'une transaction levée ou prorogée ou d'une jambe d'une transaction de swap entraîne la validation <i>back office</i> automatique de l'autre jambe de la transaction.</p>
+        <ul>
+            <li class="PuceNiv1"><b>Validation </b><i style="font-weight: bold;">back office</i><b> des transactions de swap</b>
+            </li>
+        </ul>
+        <p class="IndentPuceNiv1">Vous pouvez valider des transactions de swap en <i>back office</i> via les pages de gestion des transactions de swap ou des transactions de change au comptant et à terme. Avant la validation <i>back office</i>, la transaction de swap est modifiable uniquement dans les pages de gestion de swap. Après la validation <i>back office</i>, les deux jambes de swap doivent être modifiées séparément, via les pages de gestion des transactions de change.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>
+                    <MadCap:keyword term="Back office:validation:individuelle;Validation back office:individuelle" />Validation d'une transaction</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Pour valider une transaction individuellement, vous avez deux possibilités&#160;:</p>
+                <ul>
+                    <li class="PuceNiv1">activer l'option de menu correspondante du menu <b>Traitement</b> de la page de gestion des transactions,</li>
+                    <li class="PuceNiv1">activer la case à cocher correspondante dans l'onglet <b>Back office</b> de la page de détail de la transaction.</li>
+                </ul>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Valider une transaction depuis la page de gestion des transactions</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                            <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                            <col class="TableStyle-Note-Column-Column2" />
+                            <tbody>
+                                <tr class="TableStyle-Note-Body-Body1">
+                                    <td class="TableStyle-Note-BodyB-Column1-Body1">
+                                        <img src="../../Resources/Images/Assets/oh-Note.png" />
+                                    </td>
+                                    <td class="TableStyle-Note-BodyA-Column2-Body1">Les captures de cette procédure illustrent le cas d'une transaction de change au comptant.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <ol>
+                            <li class="PuceNumNiv1">Dans la page de gestion des transactions de change (à terme, au comptant ou swap) ou des emprunts ou prêts en devises, activez la case à cocher correspondant à la transaction à sélectionner.</li>
+                        </ol>
+                        <p MadCap:targetName="Capture 1">
+                            <img src="../../Resources/Images/L_FX/Change au comptant 1.png" class="SAGE_screenshot" />
+                        </p>
+                        <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_FX/Acces pages gestion transactions.flsnp" />
+                        <ol start="2">
+                            <li class="PuceNumNiv1">Dans la barre d'actions, cliquez sur le menu <b>Traitement</b>, puis sur l'option <b>Valider back office</b>.</li>
+                            <li class="PuceNumNiv1">Dans la boîte de dialogue de confirmation qui s'affiche, cliquez sur le bouton <b>OK</b> pour confirmer l'action.</li>
+                        </ol>
+                        <p class="IndentPuceNiv1SautLigne">La transaction sélectionnée est validée.</p>
+                        <p class="IndentPuceNiv1">Le tableau des transactions est mis à jour avec une marque de coche dans la colonne <b>VBO</b> pour la ligne sélectionnée, indiquant que la transaction correspondante est validée.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Valider une transaction depuis l'onglet Back Office de la page de détail de la transaction</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                            <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                            <col class="TableStyle-Note-Column-Column2" />
+                            <tbody>
+                                <tr class="TableStyle-Note-Body-Body1">
+                                    <td class="TableStyle-Note-BodyB-Column1-Body1">
+                                        <img src="../../Resources/Images/Assets/oh-Note.png" />
+                                    </td>
+                                    <td class="TableStyle-Note-BodyA-Column2-Body1">Les captures de cette procédure illustrent le cas d'une transaction de swap comptant contre terme.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <ol>
+                            <li class="PuceNumNiv1">Dans la page de gestion des transactions de change (à terme, au comptant ou swap) ou des emprunts ou prêts en devises, double-cliquez sur la ligne correspondant à la transaction à sélectionner.</li>
+                        </ol>
+                        <p MadCap:targetName="Capture 2">
+                            <img src="../../Resources/Images/L_FX/Swap comptant contre terme 1.png" class="SAGE_screenshot" />
+                        </p>
+                        <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_FX/Acces pages gestion transactions.flsnp" />
+                        <p class="IndentPuceNiv1SautLigne">La page de modification de la transaction s'affiche.</p>
+                        <ol start="2">
+                            <li class="PuceNumNiv1">Cliquez sur l'onglet <b>Back Office</b>.</li>
+                        </ol>
+                        <p MadCap:targetName="Capture 3">
+                            <img src="../../Resources/Images/L_FX/Swap comptant contre terme 6.png" class="SAGE_screenshot" />
+                        </p>
+                        <ol start="2" MadCap:continue="true">
+                            <li class="PuceNumNiv1">Dans la zone <b>Back Office</b>, activez la case à cocher <b>Valider back&#160;office</b>.</li>
+                            <li class="PuceNumNiv1">Dans la barre d'actions située en haut de page, cliquez sur le bouton <b>OK</b> pour enregistrer l'action.</li>
+                        </ol>
+                        <p class="IndentPuceNiv1SautLigne">La transaction sélectionnée est validée en <i>back office</i>.</p>
+                        <p class="IndentPuceNiv1">Le tableau des transactions est réaffiché et mis à jour avec une marque de coche dans la colonne <b>VBO</b> pour la ligne sélectionnée, indiquant que la transaction correspondante est validée en <i>back office</i>.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>
+                    <MadCap:keyword term="Validation back office:en rafale;Back office:validation:en rafale" />Validation en rafale</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Cette fonctionnalité vous permet de procéder à la validation <i>back office</i> simultanée sur une sélection de transactions.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Valider plusieurs transactions simultanément</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                            <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                            <col class="TableStyle-Note-Column-Column2" />
+                            <tbody>
+                                <tr class="TableStyle-Note-Body-Body1">
+                                    <td class="TableStyle-Note-BodyB-Column1-Body1">
+                                        <img src="../../Resources/Images/Assets/oh-Note.png" />
+                                    </td>
+                                    <td class="TableStyle-Note-BodyA-Column2-Body1">Les captures de cette procédure illustrent le cas d'une transaction de change au comptant.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <ol>
+                            <li class="PuceNumNiv1">Dans la page de gestion des transactions de change (à terme, au comptant ou swap) ou des emprunts ou prêts en devises, activez les cases à cocher correspondant aux transactions à sélectionner.</li>
+                        </ol>
+                        <p MadCap:targetName="Capture 1">
+                            <img src="../../Resources/Images/L_FX/Change au comptant 1.png" class="SAGE_screenshot" />
+                        </p>
+                        <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_FX/Acces pages gestion transactions.flsnp" />
+                        <ol start="2">
+                            <li class="PuceNumNiv1">Dans la barre d'actions, cliquez sur le menu <b>Traitement</b>, puis sur l'option <b>Validation back office en rafale</b>.</li>
+                        </ol>
+                        <p class="IndentPuceNiv1SautLigne">Les transactions sélectionnées sont validées.</p>
+                        <p class="IndentPuceNiv1">Le tableau des transactions est mis à jour avec une marque de coche dans la colonne <b>VBO</b> pour les lignes sélectionnées, indiquant que les transactions correspondantes sont validées.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

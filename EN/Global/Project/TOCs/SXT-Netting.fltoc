@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/E_Sxt/4_Netting/PresentationNetting.htm">
+    <TocEntry
+      Title="Core Concepts"
+      Link="/Content/E_Sxt/4_Netting/ConceptsCles.htm" />
+    <TocEntry
+      Title="Netting Process"
+      Link="/Content/E_Sxt/4_Netting/Vue generale Compensation.htm" />
+    <TocEntry
+      Title="Setup"
+      Link="/Content/E_Sxt/4_Netting/Setup.htm">
+      <TocEntry
+        Title="Common Setup"
+        Link="/Content/E_Sxt/4_Netting/Param_Commun.htm" />
+      <TocEntry
+        Title="Specific Setup"
+        Link="/Content/E_Sxt/4_Netting/Param_specifique.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Importing and Managing Data"
+      Link="/Content/E_Sxt/4_Netting/Creation-intro.htm">
+      <TocEntry
+        Title="Entering and Modifying Invoices"
+        Link="/Content/E_Sxt/4_Netting/Introduction-Factures.htm">
+        <TocEntry
+          Title="Internal and External Invoices"
+          Link="/Content/E_Sxt/4_Netting/Factures-int-ext.htm" />
+        <TocEntry
+          Title="Modifying Invoices Cycles"
+          Link="/Content/E_Sxt/4_Netting/Modification-Cycle-Facturation.htm" />
+        <TocEntry
+          Title="Internal and External Transactions"
+          Link="/Content/E_Sxt/4_Netting/Transactions-int-ext.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Netting Processing"
+        Link="/Content/E_Sxt/4_Netting/Traitement-Compensation.htm">
+        <TocEntry
+          Title="Netting Simulations"
+          Link="/Content/E_Sxt/4_Netting/Simulation.htm" />
+        <TocEntry
+          Title="Creating Simulations"
+          Link="/Content/E_Sxt/4_Netting/Creation-Simulation.htm" />
+        <TocEntry
+          Title="Recalculating Simulations"
+          Link="/Content/E_Sxt/4_Netting/Re-calcul simulation.htm" />
+        <TocEntry
+          Title="Netting Record"
+          Link="/Content/E_Sxt/4_Netting/Fiche de compensation.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Reports"
+        Link="/Content/E_Sxt/4_Netting/Balance Compensation.htm">
+        <TocEntry
+          Title="Netting Balance"
+          Link="/Content/E_Sxt/4_Netting/Balance Compensation.htm" />
+        <TocEntry
+          Title="Net Payment Result"
+          Link="/Content/E_Sxt/4_Netting/Resultat_Net_Reglement.htm" />
+        <TocEntry
+          Title="Netting Position"
+          Link="/Content/E_Sxt/4_Netting/Position_Compensation.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Posting and Exporting"
+        Link="/Content/E_Sxt/4_Netting/Postages et exportations.htm" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

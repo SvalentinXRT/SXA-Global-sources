@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="4019" MadCap:lastWidth="687" MadCap:conditions="General.Writing">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />&#160;</head>
+    <body>
+        <h1 class="HelpTopics">Règles de rapprochement simples</h1>
+        <p>Les règles simples permettent le rapprochement entre une écriture comptable et une écriture bancaire. Pour cela, vous devez établir des correspondances entre les codes d’opérations existant dans votre fichier comptable et les codes d’opération bancaires.</p>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1">
+                        <img src="../../Resources/Images/Assets/oh-Note.png" />
+                    </td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">
+                        <p><u>Exemple</u>&#160;:</p>
+                        <p>Une écriture comptable passée sur le code d’opération <b>Chèques</b> va se rapprocher avec une écriture bancaire passée sur le code bancaire <b>01 chèques payés</b>.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <ol>
+            <li>Dans le menu <b>Rapprochement</b>, sélectionnez <b>Paramétrage</b> puis <b>Règle de Rapprochement</b>.</li>
+        </ol>
+        <p class="IndentPuceNiv1">L'écran <b>Règles de Rapprochement</b> s'affiche.</p>
+        <p>
+            <img src="../../Resources/Images/HT_Reconciliation/PARAM_ReglesSimples01.png" class="SAGE_screenshot" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>Cliquez sur <b>Créer Règle de Rapprochement</b>.</li>
+        </ol>
+        <p class="IndentPuceNiv1">Le formulaire de création de règle de rapprochement s'ouvre sur l'onglet <b>Principal</b>.</p>
+        <p>
+            <img src="../../Resources/Images/HT_Reconciliation/PARAM_ReglesSimples02.png" class="SAGE_screenshot" />
+        </p>
+        <p class="IndentPuceNiv1">Cet onglet se compose de quatre rubriques&#160;:</p>
+        <div class="Indent40px">
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Général</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                        <col class="TableStyle-Note-Column-Column1" />
+                        <col class="TableStyle-Note-Column-Column2" />
+                        <tbody>
+                            <tr class="TableStyle-Note-Body-Body1">
+                                <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1">
+                                    <img src="../../Resources/Images/Assets/oh-Note.png" />
+                                </td>
+                                <td class="TableStyle-Note-BodyA-Column2-Body1">Les options <b>Relevé Bancaire&#160;: Un</b> et <b>Relevé Comptable&#160;: Un</b> sont activées par défaut. Les options <b>Groupe</b> et <b>Exact</b> vous permettent de réer des <a href="PARAM_ReglesAvancees.htm">Règles avancées</a>.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <ol MadCap:continue="true">
+                        <li>Dans la zone <b>Code</b>, saisissez l'identifiant de la règle (format libre).</li>
+                        <li>Dans la zone <b>Libellé</b>, saisissez son intitulé.</li>
+                        <li>Dans la zone <b><MadCap:annotation MadCap:createDate="2018-02-23T18:51:38.5830059+01:00" MadCap:creator="SVALENTIN" MadCap:initials="SV" MadCap:comment="Nom exacte de la fonction ?" MadCap:editor="SVALENTIN" MadCap:editDate="2018-02-23T18:51:50.0700059+01:00">Relation Relevé</MadCap:annotation></b>, sélectionnez une des trois options disponibles&#160;:</li>
+                    </ol>
+                    <div class="Indent40px">
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>Explicite</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <p>Ce type de règle de rapprochement classique, est basé sur la notion de lien Code Interbancaire CIB/Code Nature Comptable et Montant.</p>
+                                <ol>
+                                    <li>Cliquez sur le bouton <b>Sélectionner</b> de gauche, correspondant à la rubrique <b>Relevé Bancaire</b>.</li>
+                                </ol>
+                                <p class="IndentPuceNiv1">Une fenêtre de sélection s'affiche.</p>
+                                <p>
+                                    <img src="../../Resources/Images/HT_Reconciliation/PARAM_ReglesSimples03.png" class="SAGE_screenshot" />
+                                </p>
+                                <ol MadCap:continue="true">
+                                    <li>Sélectionnez la ligne correspondant au Code Interbancaire à associer à votre Règle de Rapprochement, puis cliquez sur <b>Accepter</b>.</li>
+                                    <li>Cliquez sur le bouton <b>Sélectionner</b> de droite, correspondant à la rubrique <b>Relevé Comptable</b>.</li>
+                                </ol>
+                                <p class="IndentPuceNiv1">Une fenêtre de sélection s'affiche.</p>
+                                <p>
+                                    <img src="../../Resources/Images/HT_Reconciliation/PARAM_ReglesSimples04.png" class="SAGE_screenshot" />
+                                </p>
+                                <ol MadCap:continue="true">
+                                    <li>Sélectionnez la ligne correspondant au Code Nature Comptable à associer à votre Règle de Rapprochement, puis cliquez sur <b>Accepter</b>.</li>
+                                </ol>
+                                <p>
+                                    <img src="../../Resources/Images/HT_Reconciliation/PARAM_ReglesSimples05.png" class="SAGE_screenshot" />
+                                </p>
+                                <p>&#160;</p>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                    </div>
+                    <div class="Indent40px">
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>Paramètres</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <p>Définition</p>
+                                <p>&#160;</p>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                    </div>
+                    <div class="Indent40px">
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>Utiliser Paramétrage</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <p>Définition</p>
+                                <p>&#160;</p>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                    </div>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Critères</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>Le paramétrage de critères de rapprochement supplémentaires permet d’optimiser le rapprochement automatique.</p>
+                    <ol>
+                        <li>Pour ajouter des critères de rapprochement, cliquez sur le bouton <b>Ajouter</b>, à gauche pour les critères bancaires et à droite pour les critères comptables.</li>
+                    </ol>
+                    <p>
+                        <img src="../../Resources/Images/HT_Reconciliation/PARAM_ReglesSimples06.png" class="SAGE_screenshot" />
+                    </p>
+                    <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                        <col class="TableStyle-Note-Column-Column1" />
+                        <col class="TableStyle-Note-Column-Column2" />
+                        <tbody>
+                            <tr class="TableStyle-Note-Body-Body1">
+                                <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1">
+                                    <img src="../../Resources/Images/Assets/oh-Note.png" />
+                                </td>
+                                <td class="TableStyle-Note-BodyA-Column2-Body1">Le nombre de critères de rapprochement supplémentaires dans une Règle de rapprochement est illimité.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <ol MadCap:continue="true">
+                        <li>Saisissez l'intitulé du critère dans la zone <b>Nom</b>, puis cliquez sur le bouton de sélection dans la zone <b>Propriété</b>.</li>
+                    </ol>
+                    <p>
+                        <img src="../../Resources/Images/HT_Reconciliation/PARAM_ReglesSimples07.png" class="SAGE_screenshot" />
+                        <img src="../../Resources/Images/HT_Reconciliation/PARAM_ReglesSimples07b.png" class="SAGE_screenshot" />
+                    </p>
+                    <ol MadCap:continue="true">
+                        <li>Cliquez sur une ligne dans la fenêtre de sélection pour ajouter le critère.<br /></li>
+                    </ol>
+                    <p>
+                        <img src="../../Resources/Images/HT_Reconciliation/PARAM_ReglesSimples08.png" class="SAGE_screenshot" />
+                    </p>
+                    <p>
+                        <MadCap:annotation MadCap:createDate="2018-02-26T15:23:55.6508019+01:00" MadCap:creator="SVALENTIN" MadCap:initials="SV" MadCap:comment="Nom dela fonction ??\r\nAjouter Définition + explications" MadCap:editor="SVALENTIN" MadCap:editDate="2018-02-26T15:24:17.3168019+01:00">L'option <b>Fonction</b> vous permet d'affiner le critère de sélection en recherchant une chaîne de caractères spécifique. En cliquant sur le bouton d'activation <b>Non/Oui</b>, une liste déroulante permet de choisir le type de balayage de caractères&#160;:</MadCap:annotation>
+                    </p>
+                    <ul>
+                        <li><b><MadCap:annotation MadCap:createDate="2018-02-26T15:24:35.1628019+01:00" MadCap:creator="SVALENTIN" MadCap:initials="SV" MadCap:comment="Nom de la fonction ?\r\nDéfinition" MadCap:editor="SVALENTIN" MadCap:editDate="2018-02-26T15:24:42.5718019+01:00">Sous-chaîne</MadCap:annotation></b>&#160;: vous devez renseigner la position de départ et la longueur de la chaîne</li>
+                        <li><b><MadCap:annotation MadCap:createDate="2018-02-26T15:24:52.4818019+01:00" MadCap:creator="SVALENTIN" MadCap:initials="SV" MadCap:comment="Nom de la fonction ?\r\ndéfinition" MadCap:editor="SVALENTIN" MadCap:editDate="2018-02-26T15:24:59.3958019+01:00">Troncature</MadCap:annotation></b>&#160;: vous devez sélectionner le symbole et la position de troncature (<b>A gauche</b>, <b>A droite</b>, <b>Les deux</b>).</li>
+                    </ul>
+                    <p class="IndentPuceNiv1">&#160;</p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Dépendances de critères</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>Une fois les critères de rapprochement définis, cette rubrique permet d'ajouter au paramétrage des conditions de critère obligatoire ou optionnel.</p>
+                    <ol>
+                        <li>Cliquez dans la première case du tableau et sélectionnez un des critères <b>bancaires</b> définis dans la rubrique précédente.</li>
+                        <li>Cliquez dans la troisième case et sélectionnez un des critères <b>comptables</b> définis dans la rubrique précédente.</li>
+                        <li>Cliquez dans la deuxième case pour définir l'opérateur de comparaison entre les deux critères&#160;:</li>
+                    </ol>
+                    <ul>
+                        <li class="PuceNumNiv2"><b>=</b>
+                        </li>
+                        <li class="PuceNumNiv2"><b>&gt;</b>
+                        </li>
+                        <li class="PuceNumNiv2"><b>&lt;</b>
+                        </li>
+                        <li class="PuceNumNiv2"><b>&gt;=</b>
+                        </li>
+                        <li class="PuceNumNiv2"><b>&lt;=</b>
+                        </li>
+                    </ul>
+                    <p>
+                        <img src="../../Resources/Images/HT_Reconciliation/PARAM_ReglesSimples09.png" class="SAGE_screenshot">
+                        </img>
+                    </p>
+                    <p class="IndentPuceNiv1">Par défaut, la relation de dépendance entre deux critères est obligatoire. Activez le bouton <b>Facultatif&#160;: Oui</b> pour la rendre optionnelle.</p>
+                    <p class="IndentPuceNiv1">&#160;</p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Filtres</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>Rubrique à compléter</p>
+                    <p>&#160;</p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+        </div>
+        <ol MadCap:continue="true">
+            <li>Cliquez sur <b>Enregistrer</b> pour sauvegarder le paramétrage de votre règle.</li>
+        </ol>
+    </body>
+</html>

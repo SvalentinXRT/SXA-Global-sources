@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_Liquidity/Definir une date.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_Liquidity/Etapes de periode.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_Liquidity/Operateurs logiques.flsnp" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_Liquidity/Definir une date.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_Liquidity/Etapes de periode.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_Liquidity/Operateurs logiques.flsnp" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions>
+    <Condition
+      Tag="Default.ScreenOnly" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.ScreenOnly" />
+  </AllConditions>
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Tableau standard.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="4191" MadCap:lastWidth="664">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT"><MadCap:keyword term="Analysis:budget;Budget:analysis mode;Analysis mode;Budget sheet:analysis mode" />Budget Analysis</h1>
+        <p>The Budget Analysis mode enables you to view and defer the discrepancies between the Treasury Budget and the flows saved in <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" />.</p>
+        <p>Analysis enables you to roll Non-actual Forecasts.</p>
+        <p>The budget sheet is displayed in analysis mode when you select this mode in the budget sheet filter.</p>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">The discrepancy between Forecasts and Actuals is null over the mixed budget period if, since the last actuals import, no cash flow was created nor modified in <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> for the dates, company and budget codes involved in the budget exercise. For more information on the mixed budget, see <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">the <a href="SAISIE - Mode prevision.htm#Import_real">Importing Actuals</a> procedure</MadCap:conditionalText>.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="SautLigne">For more information on:</p>
+        <ul style="list-style-type: square;">
+            <li class="PuceNiv1">the setup options of the Analysis Mode (display of the budget and of the discrepancy with the flows of the <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> module), see <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">the <MadCap:xref href="SAISIE - Saisie des feuilles budgetaires.htm#Analyse" target="" title="" alt="" class="XrefSansTexte">Enabling Analysis Mode</MadCap:xref> topic</MadCap:conditionalText>.</li>
+            <li class="PuceNiv1">the options of the display filters (companies, division into periods, etc.), see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="SAISIE - Filtres affichage.htm#Configur2" target="" title="" alt="" class="XrefSansTexte">Filter Advanced Setup</MadCap:xref> topic</MadCap:conditionalText>,</li>
+            <li class="PuceNiv1">the rolling of non-actual forecasts, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="SAISIE - Report previsions.htm" target="" title="" alt="" class="XrefSansTexte">Rolling Non-Actual Forecasts</MadCap:xref> topic</MadCap:conditionalText>.</li>
+            <li class="PuceNiv1">the activation of the analysis mode, <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><a href="ContextualTopics/Activer le mode analyse.htm" target="_popup" class="Popup">click here</a></MadCap:conditionalText>.</li>
+        </ul>
+        <p class="procedure" MadCap:conditions=""><a name="discrepancy"></a> <MadCap:keyword term="Discrepancies:display in budget sheet" /></p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead MadCap:conditions="Default.ScreenOnly"><MadCap:keyword term="Discrepancies:display in budget sheet" /><MadCap:dropDownHotspot>Showing or Hiding Discrepancies</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_Liquidity/Afficher ecart.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Showing or Hiding Treasury Budget or Flows saved in the Cash Module</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">In the budget sheet, click the <b>Change</b> button in the <b>Filters</b> toolbar.<br />The setup page for the selected filter is displayed.</li>
+                </ol>
+                <p class="IndentPuceNiv1" MadCap:targetName="Capture Filtre 1"><img src="../../Resources/Images/L_Liquidity/Filtre FB 1.jpg" class="SAGE_screenshot" /></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click the <b>View</b> tab.</li>
+                </ol>
+                <p class="IndentPuceNiv1" MadCap:targetName="Capture Filtre 2b"><img src="../../Resources/Images/L_Liquidity/Filtre FB 3.jpg" class="SAGE_screenshot" /></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>BS views</b> area, enable the <b>Budget Analysis</b> option.<br />The fields of the area (specific to the budget analysis) are enabled.</li>
+                    <li class="PuceNumNiv1">In the <b>Type of Analysis</b> area, enable the option:</li>
+                </ol>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2"><b>Budget + Treasury</b> to display the Treasury Budget and the flows saved in the <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> module,</li>
+                    <li class="PuceNiv2"><b>Budget</b> to display only the Treasury Budget,</li>
+                    <li class="PuceNiv2"><b>Treasury</b> to display only the flows saved in the <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> module,</li>
+                    <li class="PuceNiv2"><b>Discrepancy</b> to show only discrepancies and hide the Treasury Budget and the flows saved in the <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> module.</li>
+                </ul>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">If you chose to view the Treasury Budget and the flows saved in the <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> module, enable one of the following options in the <b>Analysis Mode</b> area:</li>
+                </ol>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2"><b>Single Grid</b> to display a single sheet (the Treasury Budget amounts are above the flows saved in the <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> module),</li>
+                    <li class="PuceNiv2"><b>Double Grid</b> to display two sheets with the Treasury Budget and the flows saved in the <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> module in two different sheets.</li>
+                </ul>
+                <p class="IndentPuceNiv2"><a href="../../Resources/Images/L_Liquidity/Grille simple FB.jpg" target="_popup" MadCap:conditions="Default.ScreenOnly" class="Popup">View Example of Single Grid</a></p>
+                <p class="IndentPuceNiv2"><a href="../../Resources/Images/L_Liquidity/Grille double FB.jpg" MadCap:conditions="Default.ScreenOnly" target="_popup" class="Popup">View Example of Double Grid</a></p>
+                <ol start="6">
+                    <li class="PuceNumNiv1">In the <b>Display Discrepancy</b> area, enable the option:</li>
+                </ol>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2"><b>Not show</b> not to display the discrepancy (this option is disabled when the <b>Discrepancy</b> option is not selected in the <b>Type of Analysis</b> area),</li>
+                    <li class="PuceNiv2"><b>Amount</b> to display the discrepancy amount,</li>
+                    <li class="PuceNiv2"><b>Percentage</b> to display the discrepancy percentage.</li>
+                </ul>
+                <ol start="7">
+                    <li class="PuceNumNiv1">If you selected the double grid and the display of the discrepancy (enabled <b>Amount</b> or <b>Percentage</b> options in the <b>Display Discrepancy</b> area), enable one of the following options in the <b>Discrepancy for Double Grid</b> area:</li>
+                </ol>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2"><b>Display in B grid</b> to display the discrepancy in the Treasury Budget,</li>
+                    <li class="PuceNiv2"><b>Display in T grid</b> to display the discrepancy in the sheet of the flows saved in the <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> module.</li>
+                </ul>
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_Liquidity/Valider enregistrer annuler.flsnp" />
+                <p class="SautLigne">For more information on:</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv1">the setup options of the Analysis Mode, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="SAISIE - Saisie des feuilles budgetaires.htm#Analyse" target="" title="" alt="" class="XrefSansTexte">Enabling Analysis Mode</MadCap:xref> topic</MadCap:conditionalText>,</li>
+                    <li class="PuceNiv1">the options of the display filters, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="SAISIE - Filtres affichage.htm#Configur2" target="" title="" alt="" class="XrefSansTexte">Filter Advanced Setup</MadCap:xref> topic</MadCap:conditionalText>.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="3430" MadCap:lastWidth="727">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT"><MadCap:keyword term="Budget Sheet Designers, setup;Budget Sheet:designer, setup;Budget:sheet designer, setup" />Budget Sheet Designers</h1>
+        <p>Before setting up Budget Sheet Designers, you need to define:</p>
+        <ul>
+            <li class="PuceNiv1">Your budget structure</li>
+            <li class="PuceNiv1">The macros that enable the calculation of the budget amounts by budget code</li>
+        </ul>
+        <p class="SautLigne">All these elements are taken into account for the setup of the budget sheet designer.</p>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">Make sure you set up the required macros, particularly the macros related to VAT to avoid skewed final amounts in your Treasury Budget.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>The displayed macros depend on the budget code selected for each of them. This budget code must be selected in the <b>Identification </b>area of the setup page for macros.</p>
+        <p class="SautLigne"><MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">For more information on setting up macros, see the <MadCap:xref href="PARAM - Regles de gestion.htm" target="" title="" alt="" class="XrefSansTexte">Macros</MadCap:xref> topic.</MadCap:conditionalText></p>
+        <p class="SautLigneAvantEtAprès"><MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">For more information on setting up Budget Codes, see the <MadCap:xref href="PARAM - Natures budgetaires.htm" target="" title="" alt="" class="XrefSansTexte">Setting up Budget Codes</MadCap:xref> topic.</MadCap:conditionalText></p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Accessing Setup Page for Budget Sheet Designers</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In the <b><MadCap:variable name="Localization.SXTModulesTasks" /></b> pane, select the <b>Budget Sheet Designer</b> option in the <b><MadCap:variable name="Localization.SXTSetupFolder" /></b> folder of <MadCap:variable name="Localization.SXT_Liquidity" style="font-weight: bold;" />.</p>
+                <p>The setup page for budget sheet designers is displayed with the list of the set up designers in a table.</p>
+                <p class="SautLigne">The table shows the code and description of each designer, as well as the associated structure.</p>
+                <p MadCap:targetName="Capture Paramétrage dessin"><img src="../../Resources/Images/L_Liquidity/Param construction 1.jpg" class="SAGE_screenshot" /></p>
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_Liquidity/Actions dans tableau page de parametrage.flsnp" />
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_Liquidity/Ref croisee Reorg tableau.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Creating Designers</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol MadCap:continue="false">
+                    <li class="PuceNumNiv1">In the setup page for designers, click the <b>Create</b> button.<br />The creation page for budget sheet designers is displayed.<br /></li>
+                </ol>
+                <p class="IndentPuceNiv1" MadCap:conditions="" MadCap:targetName="Capture Création dessin 1"><img src="../../Resources/Images/L_Liquidity/Creer construction FB.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This page consists of two sections:</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNumNiv2">the header which includes the identification information of the designer (codes and descriptions of the designer and structure),</li>
+                    <li class="PuceNumNiv2">the body of the page which enables you to assign macros to budget codes.</li>
+                </ul>
+                <p class="IndentPuceNiv2">Each tab presents in a table the list of the budget codes and of the macros associated with budget codes.</p>
+                <ol start="2">
+                    <li class="PuceNumNiv1">In the <b>Designer code</b> field, enter the designer code and its description.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The designer code is a unique identifier which cannot be modified.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Structure code</b> area, click the <img src="../../Resources/Images/L_Liquidity/Bouton Points de suspension.JPG" /> button to display the list of the set up structures. In the contextual window, double-click the line to select it.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The code and name of the selected structure are displayed in the structure setup page.</p>
+                <p class="IndentPuceNiv1SautLigne">In the body of the page, the table displays:</p>
+                <ul>
+                    <li class="PuceNiv2">in the first column, the list of Budget Codes linked to the selected structure,</li>
+                    <li class="PuceNiv2">in the second column, the default macro linked to each budget code for the operational budget.</li>
+                </ul>
+                <p class="IndentPuceNiv1SautLigne">The fields of the second column are blank if no <u>default</u> macro is defined for the budget code and the operational budget.</p>
+                <p class="IndentPuceNiv1SautLigne">All the fields of the second column are editable, except for specific budget codes: opening and closing balances and totals provided by default with the software installation. The table below lists these budget codes:</p>
+                <table style="margin-left: auto;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');" class="TableStyle-Tableau_standard" cellspacing="0">
+                    <col class="TableStyle-Tableau_standard-Column-Column1" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Tableau_standard-Head-Header1">
+                            <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Code</th>
+                            <th class="TableStyle-Tableau_standard-HeadF-Column2-Header1">Description</th>
+                            <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Type</th>
+                        </tr>
+                    </thead>
+                    <tr class="TableStyle-Tableau_standard-Body-Body1">
+                        <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" style="text-align: left;">BALDECST</td>
+                        <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1" style="text-align: left;">Balance before decision</td>
+                        <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1" style="text-align: left;">Subtotal</td>
+                    </tr>
+                    <tr class="TableStyle-Tableau_standard-Body-Body1">
+                        <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" style="text-align: left;">BRINEXPT</td>
+                        <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1" style="text-align: left;">Total of borrowing and investment expenses</td>
+                        <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1" style="text-align: left;">Category total</td>
+                    </tr>
+                    <tr class="TableStyle-Tableau_standard-Body-Body1">
+                        <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" style="text-align: left;">BRINRECT</td>
+                        <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1" style="text-align: left;">Total of borrowing and investment receipts</td>
+                        <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1" style="text-align: left;">Category total</td>
+                    </tr>
+                    <tr class="TableStyle-Tableau_standard-Body-Body1">
+                        <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" style="text-align: left;">ENDBAL</td>
+                        <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1" style="text-align: left;">Closing balance</td>
+                        <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1" style="text-align: left;">Subtotal</td>
+                    </tr>
+                    <tr class="TableStyle-Tableau_standard-Body-Body1">
+                        <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" style="text-align: left;">NETOPEST</td>
+                        <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1" style="text-align: left;">Operating net total</td>
+                        <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1" style="text-align: left;">Subtotal</td>
+                    </tr>
+                    <tr class="TableStyle-Tableau_standard-Body-Body1">
+                        <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" style="text-align: left;">NOPEXPT</td>
+                        <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1" style="text-align: left;">Total of non-operating expenses</td>
+                        <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1" style="text-align: left;">Category total</td>
+                    </tr>
+                    <tr class="TableStyle-Tableau_standard-Body-Body1">
+                        <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" style="text-align: left;">NOPRECT</td>
+                        <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1" style="text-align: left;"><span class="span_1">Total of non-operating receipts</span></td>
+                        <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1" style="text-align: left;">Category total</td>
+                    </tr>
+                    <tr class="TableStyle-Tableau_standard-Body-Body1">
+                        <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" style="text-align: left;">OPEEXPT</td>
+                        <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Total of operating expenses</td>
+                        <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1" style="text-align: left;">Category total</td>
+                    </tr>
+                    <tr class="TableStyle-Tableau_standard-Body-Body1">
+                        <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" style="text-align: left;">OPERECT</td>
+                        <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1" style="text-align: left;"><span class="span_1">Total of operating receipts</span></td>
+                        <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1" style="text-align: left;">Category total</td>
+                    </tr>
+                    <tr style="height: 3pt;" class="TableStyle-Tableau_standard-Body-Body1">
+                        <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" style="text-align: left;">SPSREQST</td>
+                        <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1" style="text-align: left;">Surpluses</td>
+                        <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1" style="text-align: left;">Subtotal</td>
+                    </tr>
+                    <tr class="TableStyle-Tableau_standard-Body-Body1">
+                        <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" style="text-align: left;">STARTBAL</td>
+                        <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1" style="text-align: left;">Opening balance</td>
+                        <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1" style="text-align: left;">Subtotal</td>
+                    </tr>
+                </table>
+                <p class="IndentPuceNiv1"><MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">For more information on these budget codes, see the <MadCap:xref href="PARAM - Natures budgetaires systeme.htm" target="" title="" alt="" class="XrefSansTexte">Setting up System Budget Codes</MadCap:xref> topic.</MadCap:conditionalText></p>
+                <ol start="4">
+                    <li class="PuceNumNiv1">In the <b>Operational Budget Sheet</b> tab, follow the process below to assign a macro to each budget code for the structure of the Operational Budget Sheet.</li>
+                </ol>
+                <ol>
+                    <li class="PuceNumNiv2">In the <b>Macros Selection</b> column, click the cell in front of the budget code to which you want to assign a macro.</li>
+                </ol>
+                <p class="IndentPuceNiv2">The list of the set up macros for the selected budget code, is displayed in a contextual window with the name and script for each macro.</p>
+                <p class="IndentPuceNiv2"><img src="../../Resources/Images/L_Liquidity/Pop-up regles de gestion.jpg" class="SAGE_screenshot" /></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv2">Click a line to select it.</li>
+                </ol>
+                <p class="IndentPuceNiv2">The script of the selected macro is displayed in the creation page for designers.</p>
+                <ul>
+                    <li class="PuceNiv3">If, for this designer, you do not want to include the amounts with standard budget codes in the balances, select the <b>Ex. Bal.</b> option.</li>
+                </ul>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">This option is only relevant for the standard budget codes, for example, in case of subtotal, to avoid posting the amount twice in the balances. If one budget code must always be excluded from the balances without any exception, you should define this budget code as a system budget code and not as a standard budget code.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ul>
+                    <li class="PuceNiv3">If you want to hide a specific Budget Code and its amounts from the Budget Sheet, select the <b>Hide</b> option.</li>
+                </ul>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Example</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>Budget Codes corresponding to different sale types: <span class="TexteSaisi">VENA</span>, <span class="TexteSaisi">VENB</span>, <span class="TexteSaisi">VENC</span></p>
+                        <p>Sales subtotal  <span class="TexteSaisi">VENT </span>defined as: <span class="TexteSaisi">VENT = VENA + VENB + VENC</span></p>
+                        <p>For example, you may choose to hide in the Treasury Budget the <span class="TexteSaisi">VENA</span>, <span class="TexteSaisi">VENB</span> and <span class="TexteSaisi">VENC</span> budget codes, and to display only the <span class="TexteSaisi">VENT</span> sales subtotal.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <ol start="5">
+                    <li class="PuceNumNiv1">Click the <b>Treasury Budget Sheet</b> tab.</li>
+                </ol>
+                <p class="IndentPuceNiv1">This tab is similar to the <b>Operational Budget Sheet</b> tab.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Like in the <b>Operational Budget Sheet</b> tab, assign a macro to each budget code for the structure of the Operational Budget sheet.</li>
+                </ol>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click the following buttons, as needed:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Apply </b>to save the setup of the designer and create another one,</li>
+                    <li class="PuceNiv2"><b>OK </b>to save the setup of the designer and redisplay the list of the set up designers,</li>
+                </ul>
+                <ul MadCap:continue="false">
+                    <li class="PuceNiv2"><b>Cancel </b>to cancel the setup of the designer.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Duplicating Designers</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>You can create a designer by duplicating the settings of an existing designer.</p>
+                <ol>
+                    <li class="PuceNumNiv1">In the setup page for designers, select the designer to duplicate and click the <b>Copy</b> button in the action toolbar.</li>
+                    <li class="PuceNumNiv1">The creation page for the designer completed with the settings of the duplicated designer, opens up. The code and description of the designer are the only ones not to be completed.<br /></li>
+                </ol>
+                <p class="IndentPuceNiv1"><img src="../../Resources/Images/L_Liquidity/Dupliquer construction.png" class="SAGE_screenshot" /></p>
+                <ol start="2" MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Designer code</b> field, enter the new designer code and its description.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The designer code is a unique identifier which cannot be modified.</p>
+                <p class="IndentPuceNiv1">You can modify the settings of the duplicated designer.</p>
+                <p class="IndentPuceNiv1SautLigne">For more information on these fields, see the previous <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">topic</MadCap:conditionalText>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">Once the structure is associated with a designer, you cannot remove budget codes from this structure. However you can still add budget codes to a budget sheet structure already associated with a designer.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>The setup is completed once you finish the setup of your designer.</p>
+        <p>You can now create your budget sheet, import G/L data and edit reports.</p>
+    </body>
+</html>

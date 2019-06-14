@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Warning.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre Journal TRN change 1.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Journal transactions change.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre Journal TRN change 0.png" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Bouton Copier filtre.flsnp" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton Points de suspension.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton coche bleue.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre Journal TRN change 2.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre Journal TRN change 3.png" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Options Format Filtre edition.flsnp" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre Journal TRN change 4.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton fleche bas.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Pop-up calendrier.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton calendrier fleche droite.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton calendrier fleche gauche.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre Journal TRN change 5.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Warning.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre Journal TRN change 6.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre Journal TRN change 7.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Warning.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre Journal TRN change 1.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Journal transactions change.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre Journal TRN change 0.png" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Bouton Copier filtre.flsnp" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton Points de suspension.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton coche bleue.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre Journal TRN change 2.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre Journal TRN change 3.png" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Options Format Filtre edition.flsnp" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre Journal TRN change 4.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton fleche bas.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Pop-up calendrier.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton calendrier fleche droite.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton calendrier fleche gauche.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre Journal TRN change 5.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Warning.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre Journal TRN change 6.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre Journal TRN change 7.png" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="onglet_devise" />
+    <Anchor
+      Name="onglet_options" />
+    <Anchor
+      Name="onglet_avance" />
+  </Anchors>
+  <Keywords>
+    <IndexCacheEntry
+      Term="Ledger:FX transactions"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="9" />
+    <IndexCacheEntry
+      Term="FX transaction:ledger"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="9" />
+    <IndexCacheEntry
+      Term="Reports:FX transactions"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="9" />
+    <IndexCacheEntry
+      Term="Ledger:FX transactions:filter"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="116" />
+    <IndexCacheEntry
+      Term="Filter:Exchange ledger"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="116" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXT_FX" />
+    <Variable
+      Name="Localization.SXTModulesTasks" />
+    <Variable
+      Name="Localization.SXTReportsFolder" />
+  </Variables>
+  <FileConditions>
+    <Condition
+      Tag="Default.3Revised" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.3Revised" />
+    <Condition
+      Tag="Default.ScreenOnly" />
+  </AllConditions>
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Warning.css" />
+    <Url
+      Source="Content/Resources/TableStyles/Tableau standard.css" />
+    <Url
+      Source="Content/Resources/TableStyles/Note.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

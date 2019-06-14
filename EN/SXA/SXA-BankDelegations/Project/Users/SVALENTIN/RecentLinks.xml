@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RecentLinks>
+    <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog">
+        <Link Value="C:\__OHC MADCAP\FR\Global\Content\E_Legacy\Home_Legacy.htm" />
+    </Dialog>
+    <Dialog Name="B3.XmlMdiEditorKit.ImageGeneralDialogPage">
+        <Link Value="C:\Users\svalentin\Documents\My 2017 Projects\New OHC\TEST_SXA_FR\Content\Resources\Images\WhatsNew\_DSC1865.png" />
+    </Dialog>
+    <Dialog Name="B3.XmlTextKit.MultimediaGeneralDialogPage" />
+    <Dialog Name="B3.CatapultProjectUserInterfaceKit.InsertSnippetDialog">
+        <Link Value="C:\Users\svalentin\Documents\My 2017 Projects\New OHC\SXA\Content\Resources\Snippets\HomePage_Top.flsnp" />
+    </Dialog>
+</RecentLinks>

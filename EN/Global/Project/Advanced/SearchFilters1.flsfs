@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSearchFilterSet>
+  <SearchFilter
+    Name="Videos"
+    Concepts="Video"
+    Order="2"></SearchFilter>
+  <SearchFilter
+    Name="XRT Advanced Help"
+    Comment=""
+    Order="0"
+    Concepts="" />
+  <SearchFilter
+    Name="XRT Treasury Help"
+    Comment=""
+    Order="1" />
+  <SearchFilter
+    Name="New Features"
+    Comment=""
+    Order="3"
+    Concepts="New Features" />
+</CatapultSearchFilterSet>

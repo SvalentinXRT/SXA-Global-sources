@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="false"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Topics/INTRO - Perimetre fonctionnel.htm" />
+    <Link
+      Url="Project/Skins/Sage HTML5.flskn" />
+    <Link
+      Url="Content/Topics/INTRO - Gestion risque change.htm" />
+    <Link
+      Url="Content/Topics/INTRO - Principes fonctionnels.htm" />
+    <Link
+      Url="Content/Topics/INTRO - Acces appli.htm" />
+  </Links>
+  <LongLinks />
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en" xml:lang="en" class="_Skins_HTML5___Top_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="&gt; Sage XRT&#160;Treasury|[%=System.LinkedTitle%]|Budget|Importing G/L Data|Configuration" data-mc-file-tags="OHCGlobal.GBL">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title>Setting up the Import File Structure</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.select-language-button
+{
+	-pie-background: url('../../../Skins/Default/Stylesheets/Images/Toolbar-EN.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.print-button
+{
+	-pie-background: url('../../../Skins/Default/Stylesheets/Images/Toolbar-Print.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.previous-topic-button
+{
+	-pie-background: url('../../../Skins/Default/Stylesheets/Images/Toolbar-LeftArrow.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.next-topic-button
+{
+	-pie-background: url('../../../Skins/Default/Stylesheets/Images/Toolbar-RightArrow.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../../../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" />
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.6.2.3_custom.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-right is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="small" data-mc-ignore="true">
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <button class="menu-icon" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../../Home.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="1" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" placeholder="Search for help or documentation" />
+                                                <div class="search-filter-wrapper">
+                                                    <div class="search-filter">
+                                                        <div class="search-filter-content">
+                                                            <ul>
+                                                                <li>All Files</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <section class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <div class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="body-container" data-mc-content-body="True">
+                                <div class="search-container">
+                                    <form class="search" action="#">
+                                        <div class="search-bar search-bar-container needs-pie _Skins_SearchTopics mc-component">
+                                            <input class="search-field needs-pie" type="search" placeholder="Search for help or documentation" />
+                                            <div class="search-filter-wrapper">
+                                                <div class="search-filter">
+                                                    <div class="search-filter-content">
+                                                        <ul>
+                                                            <li>All Files</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="search-submit-wrapper" dir="ltr">
+                                                <div class="search-submit" title="Search">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="row collapse">
+                                    <div class="top-bar">
+                                        <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolbar mc-component nocontent" style="mc-topic-toolbar-items: ;">
+                                            <div class="button-group-container-left">
+                                                <button class="button needs-pie select-language-button" title="Change language">
+                                                    <img src="../../../Skins/Default/Stylesheets/Images/transparent.gif" alt="select language" />
+                                                </button>
+                                                <button class="button needs-pie print-button" title="Print">
+                                                    <img src="../../../Skins/Default/Stylesheets/Images/transparent.gif" alt="print" />
+                                                </button>
+                                                <button class="button needs-pie previous-topic-button" title="Navigate previous">
+                                                    <img src="../../../Skins/Default/Stylesheets/Images/transparent.gif" alt="previous topic" />
+                                                </button>
+                                                <button class="button needs-pie next-topic-button" title="Navigate next">
+                                                    <img src="../../../Skins/Default/Stylesheets/Images/transparent.gif" alt="next topic" />
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="nocontent">
+                                            <div class="MCBreadcrumbsBox_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Vous êtes ici : </span>
+                                            </div>
+                                        </div> </div>
+                                    <div class="topic-layout">
+                                        <div>
+                                            <div class="side-menu">
+                                                <ul class="nocontent menu _Skins_SideMenu mc-component" data-mc-is-context-sensitive="True" data-mc-linked-toc="Data/Tocs/Master.js" data-mc-side-menu="True" data-mc-max-depth="1" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h1 class="LegacySXT"><a name="kanchor241"></a>Setting up the Import File Structure</h1>
+                                            <p>The setup for the structure of an external file consists in defining:</p>
+                                            <ul style="list-style-type: square;">
+                                                <li class="PuceNiv1" value="1">the type of data in the file,</li>
+                                                <li class="PuceNiv1" value="2">the data location in the file,</li>
+                                                <li class="PuceNiv1" value="3">the correspondence between the data and the database through a correspondence table, when codes are different in the file or in the database.</li>
+                                            </ul>
+                                            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Access Setup Page for File Structures</a></span>
+                                                <div class="MCDropDownBody dropDownBody">
+                                                    <p>In the <b><span class="LocalizationSXTModulesTasks">Modules Tasks</span></b> pane, select the <b>Import Budget Structure</b> option in the <b><span class="LocalizationSXTSetupFolder">Setup</span></b> folder of the <span style="font-weight: bold;" class="LocalizationSXT_Liquidity">Liquidity</span> module.</p>
+                                                    <p class="SautLigne">The setup page for the file structures is displayed with the list of set up structures in a table. The table shows the code and description of each structure, as well as the relevant function type, the expected date format, the standard length of transactions in characters and the presence or absence of value equivalences in a correspondence table.</p>
+                                                    <p data-mc-target-name="Capture structure importation 1"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/L_Liquidity/Parametrer structure importation budget.jpg"><img class="MCPopupThumbnail img imgSAGE_screenshot" data-mc-width="712" data-mc-height="141" src="../../Resources/Images/L_Liquidity/Parametrer structure importation budget_thumb_150_100.jpg" tabindex="" /></a>
+                                                    </p>
+                                                    <p class="SautLigne">For more information on:</p>
+                                                    <ul>
+                                                        <li class="PuceNiv1" style="margin-top: 12pt;" value="1" data-mc-conditions="Default.ScreenOnly"><b>How to reorganize the lines display</b> in the table, <a href="ANNEXE - GUI.htm#top" class="MCTopic MCTopicPopupHotSpot a aPopup" data-mc-width="auto" data-mc-height="auto">click here</a></li>
+                                                        <li class="PuceNiv1" value="2" data-mc-conditions="Default.ScreenOnly"><b>Text search</b> in the table, <a href="ContextualTopics/Rechercher texte dans tableau parametrage.htm" class="MCTopic MCTopicPopupHotSpot a aPopup" data-mc-width="auto" data-mc-height="auto">click here</a></li>
+                                                        <li class="PuceNiv1" value="3" data-mc-conditions=""><b>how to create lines</b>, see the <MadCap:conditionalText data-mc-conditions="Default.ScreenOnly">topic</MadCap:conditionalText> below,</li>
+                                                        <li class="PuceNiv1" value="4" data-mc-conditions=""><b>structure or equivalences modification</b> in the table, click the <b>Modify the structure</b> or <b>Modify the equivalences</b> buttons. You can access the same pages as in creation mode.</li>
+                                                        <li class="PuceNiv1" value="5" data-mc-conditions="Default.ScreenOnly"><b>how to delete lines</b> in the table, <a href="ContextualTopics/Supprimer element dans tableau page parametrage.htm" class="MCTopic MCTopicPopupHotSpot a aPopup" data-mc-width="auto" data-mc-height="auto">click here</a>.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="creer_str_imp"></a><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Create File Structures</a></span>
+                                                <div class="MCDropDownBody dropDownBody">
+                                                    <ol>
+                                                        <li class="PuceNumNiv1" value="1">In the setup page of the file structures, click the <b>Create</b> button.<br />The first page of the Structure Wizard opens up.</li>
+                                                    </ol>
+                                                    <p class="IndentPuceNiv1" data-mc-target-name="Capture structure importation 2" data-mc-conditions=""><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/L_Liquidity/Parametrer structure importation budget 2.jpg"><img class="MCPopupThumbnail img imgSAGE_screenshot" data-mc-width="678" data-mc-height="669" src="../../Resources/Images/L_Liquidity/Parametrer structure importation budget 2_thumb_150_100.jpg" tabindex="" /></a>
+                                                    </p>
+                                                    <ol data-mc-continue="true">
+                                                        <li class="PuceNumNiv1" value="2">Enter the structure's basic information.</li>
+                                                    </ol>
+                                                    <p class="IndentPuceNiv1" data-mc-conditions="Default.ScreenOnly"><a href="javascript:void(0);" class="MCToggler MCTogglerHead MCTogglerHotSpot MCToggler_Open toggler MCTogglerHotSpot_ MCHotSpotImage" data-mc-targets="Tableau structure importation 2"><img class="MCToggler_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />View Fields Description</a>
+                                                    </p>
+                                                    <table class="TableStyle-Tableau_standard" cellspacing="0" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');margin-left: 0;margin-right: auto;display: none;" data-mc-target-name="Tableau structure importation 2">
+                                                        <col class="TableStyle-Tableau_standard-Column-Column1" />
+                                                        <col class="TableStyle-Tableau_standard-Column-Column2" />
+                                                        <thead>
+                                                            <tr class="TableStyle-Tableau_standard-Head-Header1">
+                                                                <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Field</th>
+                                                                <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Description</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                                                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Description</td>
+                                                                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Enter a description for the new structure.</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                                                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Type</td>
+                                                                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">If the field is enabled, select the function type for which the structure is designed.</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                                                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Length</td>
+                                                                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Specify the length of a record in characters including spaces. An entry of the file is a string of characters containing the information of a single transaction.</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                                                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Line Feed</td>
+                                                                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Enable this option if the entries in the file are separated by a line feed.</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                                                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Date Format</td>
+                                                                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Select the expected date format for the transaction dates.<br /><i>dd</i> for day, <i>MM</i> for month and <i>yyyy</i> for year.</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                                                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Separator</td>
+                                                                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Select the separator type among the day, month and year of the transaction date.</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                                                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Decimal Symbol</td>
+                                                                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Select the decimal separator for the amounts.</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                                                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Nb of digits after decimal</td>
+                                                                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Select the number of digits after decimal.</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                                                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Debit Direction</td>
+                                                                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Select the sign specifying the debit amount.<br />This sign is the only indicator of a debit amount.</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                                                <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Credit Direction</td>
+                                                                <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">Select the sign specifying the credit amount.<br />This sign is the only indicator of a credit amount.</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <ol data-mc-continue="true">
+                                                        <li class="PuceNumNiv1" value="3">Click the <img src="../../Resources/Images/L_Liquidity/Bouton STR fleche drte.JPG" /> <b>Set up the elements of the structure</b> button to complete the file structure setup.</li>
+                                                    </ol>
+                                                    <p class="IndentPuceNiv1">The setup page for the fields of each record, opens up.</p>
+                                                    <p class="IndentPuceNiv1" data-mc-target-name="Capture structure importation champs 3"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/L_Liquidity/Parametrer structure importation budget 3.jpg"><img class="MCPopupThumbnail img imgSAGE_screenshot" data-mc-width="687" data-mc-height="530" src="../../Resources/Images/L_Liquidity/Parametrer structure importation budget 3_thumb_150_100.jpg" tabindex="" /></a>
+                                                    </p>
+                                                    <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                                                        <col class="TableStyle-Note-Column-Column1" />
+                                                        <col class="TableStyle-Note-Column-Column2" />
+                                                        <tbody>
+                                                            <tr class="TableStyle-Note-Body-Body1">
+                                                                <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1">
+                                                                    <img src="../../Resources/Images/Assets/oh-Note.png" />
+                                                                </td>
+                                                                <td class="TableStyle-Note-BodyA-Column2-Body1">If you click the <img src="../../Resources/Images/L_Liquidity/Bouton STR croix rouge.JPG" /> <b>Cancel</b> button, the current setup is canceled and the list of set file structures is displayed again.</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <p class="IndentPuceNiv1" style="margin-bottom: 12pt;">This page enables you to set up seven fields for each entry, corresponding to the seven information types on a transaction.</p>
+                                                    <p class="IndentPuceNiv1SautLigne" data-mc-conditions="Default.ScreenOnly"><a href="javascript:void(0);" class="MCToggler MCTogglerHead MCTogglerHotSpot MCToggler_Open toggler MCTogglerHotSpot_ MCHotSpotImage" data-mc-targets="Tableau structure importation champs 3"><img class="MCToggler_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />View Data Description of the File to set up</a>.</p>
+                                                    <table class="TableStyle-Tableau_standard" cellspacing="0" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');margin-left: 0;margin-right: auto;display: none;" data-mc-target-name="Tableau structure importation champs 3">
+                                                        <col class="TableStyle-Tableau_standard-Column-Column1" />
+                                                        <col class="TableStyle-Tableau_standard-Column-Column2" />
+                                                        <thead>
+                                                            <tr class="TableStyle-Tableau_standard-Head-Header1">
+                                                                <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Field</th>
+                                                                <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Description</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                                                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Company</td>
+                                                                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Code which identifies the company to which the transaction is linked<br />If the company has a different code from the one in the <span style="font-weight: bold;" class="LocalizationSXT_Liquidity">Liquidity</span> module, in the next step of the setup, you need to specify the value equivalences in a correspondence table.</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                                                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Budget Code</td>
+                                                                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Code which identifies the Budget Code to which the transaction is linked<br />If the Budget Code has a different code from the one in the <span style="font-weight: bold;" class="LocalizationSXT_Liquidity">Liquidity</span> module, in the next step of the setup, you need to specify the value equivalences in a correspondence table.</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                                                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Transaction Amount</td>
+                                                                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Transaction amount in the specified currency</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                                                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Transaction Direction</td>
+                                                                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Sign which identifies the debit or credit direction of the transaction (direction set up in the previous page of the wizard)<br />Optional field</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                                                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Transaction Currency</td>
+                                                                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Code which identifies the transaction currency<br />Optional field<br />If the currency has a different code from the one in the <span style="font-weight: bold;" class="LocalizationSXT_Liquidity">Liquidity</span> module, in the next step of the setup, you need to specify the value equivalences in a correspondence table.</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                                                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Transaction Date</td>
+                                                                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Transaction date (for which the format was set up in the previous page of the wizard)</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                                                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Description</td>
+                                                                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Text which describes the transaction object</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                                                <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Exercise Currency</td>
+                                                                <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">Currency code for the fiscal year in which the transactions are imported<br />Optional field<br />This field should be enabled if you need to manage one FY per currency.<br /></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <ol data-mc-continue="true">
+                                                        <li class="PuceNumNiv1" value="4">Specify the field settings of each entry in the file.</li>
+                                                    </ol>
+                                                    <p class="IndentPuceNiv1" data-mc-conditions="Default.ScreenOnly"><a href="javascript:void(0);" class="MCToggler MCTogglerHead MCTogglerHotSpot MCToggler_Open toggler MCTogglerHotSpot_ MCHotSpotImage" data-mc-targets="Tableau structure importation champs 3b"><img class="MCToggler_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />View Settings</a>
+                                                    </p>
+                                                    <table class="TableStyle-Tableau_standard" cellspacing="0" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');margin-left: 0;margin-right: auto;display: none;" data-mc-target-name="Tableau structure importation champs 3b">
+                                                        <col class="TableStyle-Tableau_standard-Column-Column1" />
+                                                        <col class="TableStyle-Tableau_standard-Column-Column2" />
+                                                        <thead>
+                                                            <tr class="TableStyle-Tableau_standard-Head-Header1">
+                                                                <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Parameter</th>
+                                                                <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Description</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                                                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Type</td>
+                                                                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">This default field is not editable.<br />It specifies the string type: "AN" for alphanumerical text, "D" for a date and "M" for an amount.</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                                                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Included</td>
+                                                                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Enable this option to import the information value of the file into the database.<br />Disable this option if this element is not in the file or if you do not want to import it.</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                                                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Mandatory</td>
+                                                                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Enable this option to specify that this element must be in the file.<br />The transaction will be rejected if a mandatory element is missing in the file.<br />For more information on rejected transactions, their correction and their re-import, <MadCap:conditionalText data-mc-conditions="Default.ScreenOnly">see the <a href="IMPORT - Rejets.htm" title="" alt="" class="Xref_Help MCXref xref xrefXref_Help">Rejects</a> topic</MadCap:conditionalText>.</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                                                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Position</td>
+                                                                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Specify the position of the first character of the field containing the information in the entry.</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                                                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Length</td>
+                                                                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">If the field containing the information has a fixed length, specify its length here.</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                                                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Var. Length</td>
+                                                                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">If the field containing the information has a variable length, enable this option.</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                                                <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Terminator</td>
+                                                                <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">If the field containing the information has a variable length, specify the character that ends the field here.</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <ol data-mc-continue="true">
+                                                        <li class="PuceNumNiv1" value="5">Click the <img src="../../Resources/Images/L_Liquidity/Bouton STR fleche drte.JPG" />&#160;<b>Set up the correspondence tables</b> button to go on with the setup.</li>
+                                                    </ol>
+                                                    <p class="IndentPuceNiv1">The setup page for the correspondence tables is displayed.</p>
+                                                    <ul style="list-style-type: square;">
+                                                        <li class="PuceNiv2" value="1">If the codes of companies, currencies and budget types are the same as the ones in the database, click the <img src="../../Resources/Images/L_Liquidity/Bouton STR fleche drte.JPG" />&#160;<b>Test the structure</b> button to avoid this step of the setup and go directly to the structure test.<b></b></li>
+                                                        <li class="PuceNiv2" value="2">To avoid the structure test and validate the setup straight away, click the <img src="../../Resources/Images/L_Liquidity/Bouton STR coche verte.JPG" />&#160;<b>Validate</b> button.</li>
+                                                        <li class="PuceNiv2" value="3">To cancel the current setup and redisplay the list of the set up file structures, click the <img src="../../Resources/Images/L_Liquidity/Bouton STR croix rouge.JPG" />&#160;<b>Cancel</b> button.</li>
+                                                    </ul>
+                                                    <p class="IndentPuceNiv1" data-mc-target-name="Capture structure importation 4"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/L_Liquidity/Parametrer structure importation budget 4.jpg"><img class="MCPopupThumbnail img imgSAGE_screenshot" data-mc-width="677" data-mc-height="537" src="../../Resources/Images/L_Liquidity/Parametrer structure importation budget 4_thumb_150_100.jpg" tabindex="" /></a>
+                                                        <br />
+                                                    </p>
+                                                    <p class="IndentPuceNiv1SautLigne">This page consists of three tabs which enable you to set up the relevant correspondence table: <b>Companies</b>, <b>Budget Codes</b> or <b>Currencies</b>.</p>
+                                                    <p class="IndentPuceNiv1SautLigne">Each tab contains a three-column table.</p>
+                                                    <ul>
+                                                        <li class="PuceNiv2" value="1">The first column called <b>N°</b>, shows a number that identifies each correspondence.</li>
+                                                        <li class="PuceNiv2" value="2">The second column called <b>Internal Field</b>, shows the codes saved in the database of <span class="LocalizationSXT">Sage&#160;XRT&#160;Treasury</span>.</li>
+                                                        <li class="PuceNiv2" value="3">The third column called <b>External Field</b>, shows the codes saved in the file.</li>
+                                                    </ul>
+                                                    <ol start="6">
+                                                        <li class="PuceNumNiv1" value="6">Click a tab, and click the <b>Add</b> button to add a line of equivalent values in the tab.</li>
+                                                        <li class="PuceNumNiv1" value="7">In the line displayed in the table, click the button <img src="../../Resources/Images/L_Liquidity/Bouton Points de suspension.JPG" /> in the <b>Internal Field</b> column to select the internal code of the database. In the <b>External Field</b> column, enter the code in the file coming from the external system.</li>
+                                                        <li class="PuceNumNiv1" value="8">Click the <b>Add</b> button to add a new line or the <b>Delete</b> button to delete the selected line.</li>
+                                                    </ol>
+                                                    <p class="IndentPuceNiv1">Re-do steps 7 and 8 as many times as required for the completion of the correspondence table, then follow the same process for the other tabs.</p>
+                                                    <ol start="6" data-mc-continue="true">
+                                                        <li class="PuceNumNiv1" value="9">Click the button <img src="../../Resources/Images/L_Liquidity/Bouton STR fleche drte.JPG" />&#160;<b>Test the structure</b> to test the setup on a file.</li>
+                                                    </ol>
+                                                    <p class="IndentPuceNiv1">The creation page for the structure test is displayed.</p>
+                                                    <p class="IndentPuceNiv1" data-mc-target-name="Capture structure importation 5"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/L_Liquidity/Parametrer structure importation budget 5.jpg"><img class="MCPopupThumbnail img imgSAGE_screenshot" data-mc-width="679" data-mc-height="499" src="../../Resources/Images/L_Liquidity/Parametrer structure importation budget 5_thumb_150_100.jpg" tabindex="" /></a>
+                                                    </p>
+                                                    <ol data-mc-continue="true">
+                                                        <li class="PuceNumNiv1" value="10">In the <b>File</b> field, click the button <img src="../../Resources/Images/L_Liquidity/Bouton Points de suspension.JPG" /> to view the <span style="font-weight: bold;" class="LocalizationSXT_Liquidity">Liquidity</span> browser and select a file to test.</li>
+                                                    </ol>
+                                                    <p class="IndentPuceNiv1">A contextual menu appears.</p>
+                                                    <p class="IndentPuceNiv1" data-mc-target-name="Capture structure importation 5b"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/L_Liquidity/Parametrer structure importation budget 5b.jpg"><img class="MCPopupThumbnail img imgSAGE_screenshot" data-mc-width="457" data-mc-height="635" src="../../Resources/Images/L_Liquidity/Parametrer structure importation budget 5b_thumb_150_100.jpg" tabindex="" /></a>
+                                                    </p>
+                                                    <ol data-mc-continue="true">
+                                                        <li class="PuceNumNiv1" value="11">In the browser, select the directory where the file is located.<br />The path appears in the <b>Selected Path</b> field and the files of the directory are listed in the table at the bottom of the window.</li>
+                                                        <li class="PuceNumNiv1" value="12">Double-click the name of the file or select it and click the <img src="../../Resources/Images/L_Liquidity/Bouton coche bleue.JPG" /> button to validate the selection.</li>
+                                                    </ol>
+                                                    <p class="IndentPuceNiv1">The wizard appears again and you can view the file path in the <b>File</b> field.</p>
+                                                    <ol data-mc-continue="true">
+                                                        <li class="PuceNumNiv1" value="13">Click <b>Test</b>.</li>
+                                                    </ol>
+                                                    <p class="IndentPuceNiv1">The retrieved transactions are displayed in the table with, for each of them, the company code, the budget code, the transaction amount, its currency, the transaction date and the transaction description.</p>
+                                                    <p class="IndentPuceNiv1">At the bottom of the table, the number of retrieved transactions is displayed.</p>
+                                                    <p class="IndentPuceNiv1" data-mc-target-name="Capture test reussi"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/L_Liquidity/Parametrer structure importation budget 6.jpg"><img class="MCPopupThumbnail img imgSAGE_screenshot" data-mc-width="679" data-mc-height="473" src="../../Resources/Images/L_Liquidity/Parametrer structure importation budget 6_thumb_150_100.jpg" tabindex="" /></a>
+                                                    </p>
+                                                    <ol data-mc-continue="true">
+                                                        <li class="PuceNumNiv1" value="14">Check whether the file matches the expected result regarding the transaction and value number in the fields. Correct the structure or the file if required.</li>
+                                                        <li class="PuceNumNiv1" value="15">Once the test provides you with the right results, click the button <img src="../../Resources/Images/L_Liquidity/Bouton STR coche verte.JPG" />&#160;<b>Validate</b> to validate and save the structure.</li>
+                                                    </ol>
+                                                    <p class="IndentPuceNiv1">The setup page for file structures reappears with the newly saved structure at the bottom of the set up structures list.</p>
+                                                    <p class="IndentPuceNiv1SautLigne">You can go to the next step: the setup of the import terms.</p>
+                                                </div>
+                                            </div>
+                                            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Duplicating File Structures</a></span>
+                                                <div class="MCDropDownBody dropDownBody">
+                                                    <p>You can create structures by duplicating the settings of existing structures.</p>
+                                                    <ol>
+                                                        <li class="PuceNumNiv1" value="1">In the setup page for Structures, select the structure to duplicate and click the <b>Duplicate</b> button in the actions bar.</li>
+                                                        <li class="PuceNumNiv1" value="2">The creation page for structures completed with the settings of the duplicated structure, opens up. An identifying number is automatically created for the structure by incrementation.<br /></li>
+                                                        <p data-mc-target-name="Capture Duplication structure" data-mc-conditions=""><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/L_Liquidity/Dupliquer structure importation budget.jpg"><img class="MCPopupThumbnail img imgSAGE_screenshot" data-mc-width="663" data-mc-height="669" src="../../Resources/Images/L_Liquidity/Dupliquer structure importation budget_thumb_150_100.jpg" tabindex="" /></a>
+                                                        </p>
+                                                        <li class="PuceNumNiv1" value="3">In the <b>Description</b> area, enter the description for the new structure.</li>
+                                                    </ol>
+                                                    <p class="IndentPuceNiv1SautLigne">You can modify the settings of the duplicated structure.</p>
+                                                    <p class="IndentPuceNiv1">For more information on these fields, see the previous <MadCap:conditionalText data-mc-conditions="Default.ScreenOnly">topic</MadCap:conditionalText>.</p>
+                                                </div>
+                                            </div>
+                                            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="kanchor242"></a><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Modifying value correspondences between Files and Database</a></span>
+                                                <div class="MCDropDownBody dropDownBody">
+                                                    <p>You can enrich or modify the correspondences of values between file and database at any time.</p>
+                                                    <ol>
+                                                        <li class="PuceNumNiv1" value="1">In the setup page for structures, select the structure to modify and click the <b>Modify the Equivalences</b> button in the actions bar.</li>
+                                                        <li class="PuceNumNiv1" value="2">The definition page for correspondence tables opens up, with the set up correspondences for the selected structure.</li>
+                                                    </ol>
+                                                    <p class="IndentPuceNiv1" data-mc-target-name="Capture Modifier correspondances"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/L_Liquidity/Modifier les correspondances.jpg"><img class="MCPopupThumbnail img imgSAGE_screenshot" data-mc-width="619" data-mc-height="549" src="../../Resources/Images/L_Liquidity/Modifier les correspondances_thumb_150_100.jpg" tabindex="" /></a>
+                                                    </p>
+                                                    <p class="IndentPuceNiv1">For more information on the fields in this page, see the <MadCap:conditionalText data-mc-conditions="Default.ScreenOnly">topic</MadCap:conditionalText> describing the creation process for the import files structure.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section><a data-close="true"></a>
+                </div>
+            </div>
+            <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
+        </div>
+    </body>
+</html>

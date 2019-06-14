@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:lastBlockDepth="7" MadCap:lastHeight="3259" MadCap:lastWidth="596">
+    <head>
+        <link href="../../Resources/TableStyles/Warning.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1 class="LegacySXT"><MadCap:keyword term="Document template:modification;Documents:modify template" />Modification of document templates</h1>
+        <p>You can edit the content of dealing tickets, confirmation letters and payment orders.</p>
+        <p>The files that correspond to templates are stored in the EDI file of the installation directory for <MadCap:variable name="Localization.SXT" style="font-weight: bold;" /> which is usually located in:</p>
+        <p class="IndentPuceNiv1" style="font-weight: bold;">C:\Program Files\Sage\XRT\Treasury\edi</p>
+        <p>The files with the extension EDI can be modified with a text editor and the files with the extension RTF can be modified with a word processing tool.</p>
+        <p>Each file exists in duplicate: with the extension EDI and RTF.</p>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Warning.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Warning" cellspacing="0">
+            <col class="TableStyle-Warning-Column-Column1" style="width: 31px;" />
+            <col class="TableStyle-Warning-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Warning-Body-Body1">
+                    <td class="TableStyle-Warning-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Warning.png" /></td>
+                    <td class="TableStyle-Warning-BodyA-Column2-Body1">During modifications, please pay attention to character strings ended by the &quot;$&quot; sign. These are variables for which the transaction record is searched to find data. For example, the &quot;$50&quot; field corresponds to the transaction reference.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+            <MadCap:toggler targets="tableau">View List of Document Templates</MadCap:toggler>
+        </p>
+        <table class="TableStyle-Tableau_standard" cellspacing="0" MadCap:targetName="tableau" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');">
+            <col class="TableStyle-Tableau_standard-Column-Column1" />
+            <col class="TableStyle-Tableau_standard-Column-Column2" />
+            <col class="TableStyle-Tableau_standard-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-Tableau_standard-Head-Header1">
+                    <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Transaction</th>
+                    <th class="TableStyle-Tableau_standard-HeadF-Column2-Header1">Document</th>
+                    <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">
+                        <p>File</p>
+                    </th>
+                </tr>
+            </thead>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" rowspan="5">
+                    <p class="tableau">Spot Buy</p>
+                </td>
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                    <p class="tableau">Dealing Ticket</p>
+                </td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                    <p class="tableau"><span class="span_1">devtich0_FRA</span></p>
+                </td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Confirmation Letters (banks)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devlech</span><span class="span_2">0</span>_FRA</td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Confirmation Letters (companies and other counterparties)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devlech4_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Payment Orders (banks)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devorba0_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Payment Orders (companies and other counterparties)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devorau0_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" rowspan="5">
+                    <p class="tableau">Spot Sell</p>
+                </td>
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                    <p class="tableau">Dealing Ticket</p>
+                </td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                    <p class="tableau"><span class="span_1">devtich2</span></p>
+                </td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Confirmation Letters (banks)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devlech2_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Confirmation Letters (companies and other counterparties)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devlech6_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Payment Orders (banks)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devorba1_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Payment Orders (companies and other counterparties)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">devorau1_FRA</td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" rowspan="5">
+                    <p class="tableau">Forward Buy</p>
+                </td>
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                    <p class="tableau">Dealing Ticket</p>
+                </td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                    <p class="tableau"><span class="span_1">devtich1</span></p>
+                </td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Confirmation Letters (banks)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devlech1_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Confirmation Letters (companies and other counterparties)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devlech5_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Payment Orders (banks)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">devorba2_FRA</td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Payment Orders (companies and other counterparties)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">devorau2_FRA</td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" rowspan="5">
+                    <p class="tableau">Forward Sell</p>
+                </td>
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                    <p class="tableau">Dealing Ticket</p>
+                </td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                    <p class="tableau"><span class="span_1">devtich3_FRA</span></p>
+                </td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Confirmation Letters (banks)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devlech</span><span class="span_2">3_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Confirmation Letters (companies and other counterparties)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devlech7_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Payment Orders (banks)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devorba</span><span class="span_2">3_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Payment Orders (companies and other counterparties)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">devorau3_FRA</td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" rowspan="5">
+                    <p class="tableau">Carry Forward of Forward Buy</p>
+                </td>
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                    <p class="tableau">Dealing Ticket</p>
+                </td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                    <p class="tableau"><span class="span_1">devtipro_FRA</span></p>
+                </td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Confirmation Letters (banks)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devlepr1_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Confirmation Letters (companies and other counterparties)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">devlepr3_FRA</td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Payment Orders (banks)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">devorba0_FRA</td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Payment Orders (companies and other counterparties)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devorau0_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" rowspan="5">
+                    <p class="tableau">Carry Forward of Forward Sell</p>
+                </td>
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                    <p class="tableau">Dealing Ticket</p>
+                </td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                    <p class="tableau"><span class="span_1">devtipro_FRA</span></p>
+                </td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Confirmation Letters (banks)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devlepr2_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Confirmation Letters (companies and other counterparties)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devlepr4_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Payment Orders (banks)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">devorba1_FRA</td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Payment Orders (companies and other counterparties)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devorau0_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" rowspan="5">
+                    <p class="tableau">Early Settlement of Forward Buy</p>
+                </td>
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                    <p class="tableau">Dealing Ticket</p>
+                </td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                    <p class="tableau"><span class="span_1">devtilev_FRA</span></p>
+                </td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Confirmation Letters (banks)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devlelv1_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Confirmation Letters (companies and other counterparties)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devlelv3_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Payment Orders (banks)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">devorba0_FRA</td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Payment Orders (companies and other counterparties)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devorau0_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" rowspan="5">
+                    <p class="tableau">Early Settlement of Forward Sell</p>
+                </td>
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                    <p class="tableau">Dealing Ticket</p>
+                </td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                    <p class="tableau"><span class="span_1">devtilev_FRA</span></p>
+                </td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Confirmation Letters (banks)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devlelv2_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Confirmation Letters (companies and other counterparties)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devlelv4_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Payment Orders (banks)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">devorba1_FRA</td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Payment Orders (companies and other counterparties)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devorau0_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" rowspan="5">
+                    <p class="tableau">Swap Spot/Forward Buy</p>
+                </td>
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                    <p class="tableau">Dealing Ticket</p>
+                </td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                    <p class="tableau"><span class="span_1">devtiswc_buy_FRA</span></p>
+                </td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Confirmation Letters (banks)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devlesw1_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Confirmation Letters (companies and other counterparties)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">deslesw3_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Payment Orders (banks)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devorsw1_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Payment Orders (companies and other counterparties)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">devorsw3_FRA</td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" rowspan="5">
+                    <p class="tableau">Swap Spot/Forward Sell</p>
+                </td>
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                    <p class="tableau">Dealing Ticket</p>
+                </td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                    <p class="tableau"><span class="span_1">devtiswc_sell_FRA</span></p>
+                </td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Confirmation Letters (banks)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devlesw2_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Confirmation Letters (companies and other counterparties)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devlesw4_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Payment Orders (banks)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devorsw2_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Payment Orders (companies and other counterparties)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">devorsw4_FRA</td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" rowspan="5">
+                    <p class="tableau">Swap Forward/Forward Buy</p>
+                </td>
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                    <p class="tableau">Dealing Ticket</p>
+                </td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                    <p class="tableau"><span class="span_1">devtiswt_buy_FRA</span></p>
+                </td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Confirmation Letters (banks)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devlest1_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Confirmation Letters (companies and other counterparties)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devlest3_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Payment Orders (banks)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">devorst1_FRA</td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Payment Orders (companies and other counterparties)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">devorst3_FRA</td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" rowspan="5">
+                    <p class="tableau">Swap Forward/Forward Sell</p>
+                </td>
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                    <p class="tableau">Dealing Ticket</p>
+                </td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                    <p class="tableau"><span class="span_1">devtiswt_sell_FRA</span></p>
+                </td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Confirmation Letters (banks)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devlest2_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Confirmation Letters (companies and other counterparties)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><span class="span_1">devlest4_FRA</span></td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Payment Orders (banks)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">devorst2_FRA</td>
+            </tr>
+            <tr class="TableStyle-Tableau_standard-Body-Body1">
+                <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Payment Orders (companies and other counterparties)</td>
+                <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">devorst4_FRA</td>
+            </tr>
+        </table>
+        <p>To modify the setup of automatic reports for documents, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="PARAM - Editions auto.htm" target="" title="" alt="" class="XrefSansTexte">Automatic ‏Reports</MadCap:xref> topic</MadCap:conditionalText>.</p>
+    </body>
+</html>

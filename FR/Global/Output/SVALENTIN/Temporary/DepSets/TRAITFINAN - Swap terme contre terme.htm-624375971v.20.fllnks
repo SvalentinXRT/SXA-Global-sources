@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Swap terme contre terme 2.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Checkmark_L.gif" />
+    <Link
+      Url="Content/Resources/Images/L_FX/croix.gif" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton Points de suspension.JPG" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/E_Legacy/5_FX/ContextualTopics/Calculatrice.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/ContextualTopics/Calendrier.htm" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton cours inverse.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Swap terme contre terme 3.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Swap terme contre terme 4.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITFINAN - Denouement.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/PARAM - Configuration FX.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITFINAN - Conversion des montants.htm" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Swap terme contre terme 5.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Swap terme contre terme 6.png" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Intro onglet Back Office.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Onglet Back Office.flsnp" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Swap terme contre terme 7.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/dupliquer swap trm trm.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/bouton liste.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Swap terme contre terme 2.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Checkmark_L.gif" />
+    <Link
+      Url="Content/Resources/Images/L_FX/croix.gif" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton Points de suspension.JPG" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/E_Legacy/5_FX/ContextualTopics/Calculatrice.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/ContextualTopics/Calendrier.htm" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton cours inverse.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Swap terme contre terme 3.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Swap terme contre terme 4.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITFINAN - Denouement.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/PARAM - Configuration FX.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITFINAN - Conversion des montants.htm" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Swap terme contre terme 5.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Swap terme contre terme 6.png" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Intro onglet Back Office.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Onglet Back Office.flsnp" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Swap terme contre terme 7.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/dupliquer swap trm trm.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/bouton liste.png" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="dupliquer_swp_trmtrm" />
+  </Anchors>
+  <Keywords>
+    <IndexCacheEntry
+      Term="Swap:terme contre terme"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="7" />
+    <IndexCacheEntry
+      Term="Swap:terme contre terme:dupliquer"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="532" />
+    <IndexCacheEntry
+      Term="Duplication:swap terme contre terme"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="532" />
+    <IndexCacheEntry
+      Term="Transaction de change:duplication:swap terme contre terme"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="532" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXT_Setup" />
+    <Variable
+      Name="Localization.SXT_FX" />
+    <Variable
+      Name="Localization.SXT_Cash" />
+    <Variable
+      Name="Localization.SXT_MarketData" />
+  </Variables>
+  <FileConditions>
+    <Condition
+      Tag="Default.3Revised" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.3Revised" />
+    <Condition
+      Tag="Default.ScreenOnly" />
+  </AllConditions>
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Tableau standard.css" />
+    <Url
+      Source="Content/Resources/TableStyles/Note.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

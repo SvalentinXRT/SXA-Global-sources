@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="This is my publish destination"
+  Host=""
+  User="MyAccountId"
+  Password=""
+  Directory="C:\Git"
+  Port="22"
+  ViewUrl="https://sageascotsohdemoxrth.cloudstuff.guru"
+  Type="scm"
+  SftpServerValidation="validation-none"
+  SftpAuthentication="authentication-password"
+  ProviderType="Git"
+  Database="C:\Git\.git"
+  DatabaseRoot="C:\Git"
+  PushToRemote="true"
+  RemoteRepository="origin"></CatapultDestination>

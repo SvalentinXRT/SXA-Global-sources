@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Edition enregistrer.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Notifier edition 1.jpg" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Edition enregistrer.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Notifier edition 1.jpg" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="Editions:enregistrement"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="8" />
+    <IndexCacheEntry
+      Term="Editions:envoi électronique"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="22" />
+    <IndexCacheEntry
+      Term="Messagerie électronique, envoi d'édition"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="22" />
+    <IndexCacheEntry
+      Term="Courrier électronique, envoi d'édition"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="22" />
+    <IndexCacheEntry
+      Term="E-mail, envoi d'édition"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="22" />
+    <IndexCacheEntry
+      Term="Editions:impression"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="38" />
+    <IndexCacheEntry
+      Term="Impression des éditions"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="38" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXT_Payment" />
+  </Variables>
+  <FileConditions>
+    <Condition
+      Tag="Default.3Revised" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.3Revised" />
+  </AllConditions>
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/MainStyles.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

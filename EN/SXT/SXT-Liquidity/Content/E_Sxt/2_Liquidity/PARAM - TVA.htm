@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="1280" MadCap:lastWidth="727">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT"><MadCap:keyword term="VAT, rate setup" />VAT Rate</h1>
+        <p>Setting up the VAT rate enables the automatic calculation of VAT elements in the Treasury Budget.</p>
+        <p>You need to define a VAT rate for each budget code.</p>
+        <p class="SautLigne">For example, you can create two VAT rates, one of 5.5%, the other of 19.6%, to apply them to sold or purchased products in compliance with the current law.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Accessing Setup Page for VAT Rates</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">In the <b><MadCap:variable name="Localization.SXTModulesTasks" /></b> pane, select the <b><MadCap:variable name="Localization.SXT_Setup" /></b> module from the accordion menu.<br />The tasks of the module are displayed in this pane.</li>
+                    <li class="PuceNumNiv1">Select the <b>Setup VAT</b> option in the <b><MadCap:variable name="Localization.SXTSetupFolder" /></b> file of this module.<br />The <b>VAT</b> page is displayed with the list of the set up VAT rates in a table. The table specifies the code and description of each VAT rate.</li>
+                </ol>
+                <p class="IndentPuceNiv1"><img src="../../Resources/Images/L_Liquidity/ParametrageTVA1.jpg" MadCap:targetName="Capture paramétrage TVA" class="SAGE_screenshot"></img></p>
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_Liquidity/Actions dans tableau page de parametrage.flsnp" />
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_Liquidity/Ref croisee Reorg tableau.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Creating VAT Rates</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">Click the <b>Create</b> button.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The creation page is displayed.</p>
+                <p class="IndentPuceNiv1" MadCap:conditions=""><img src="../../Resources/Images/L_Liquidity/ParametrageTVA2.jpg" MadCap:targetName="Capture création TVA" class="SAGE_screenshot"></img></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <strong>VAT Code</strong> area, enter a unique code and a description for the VAT rate.</li>
+                    <li class="PuceNumNiv1">In the <strong>VAT Rate</strong> area, click the <strong>Add Rate</strong> button.</li>
+                </ol>
+                <p class="IndentPuceNiv1">A line is automatically added to the list of VAT values with today&apos;s date as the start date.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">If necessary, change the start date of the value application in the <strong>Rate Date</strong> column.</li>
+                    <li class="PuceNumNiv1">Enter a rate value between 0 and 100 in the <strong>Rate Value</strong> column.</li>
+                </ol>
+                <p class="IndentPuceNiv1">For a same VAT rate, you can define different values for different periods: for example, a VAT rate of 19.6% as from 1/1/2010 and a rate of 19.7% as from 12/31/2012.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">To add another rate value, click the <strong>Add Rate</strong> button again and repeat the previous steps.</li>
+                </ol>
+                <p class="IndentPuceNiv1">To delete a rate value, click the <b>Delete</b> button.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click the following buttons, as needed:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Apply </b>to save the setup of the VAT rate and create another one</li>
+                    <li class="PuceNiv2"><b>OK</b> to save the setup of the VAT rate and go back to the list of the set up VAT rates</li>
+                </ul>
+                <ul>
+                    <li class="PuceNiv2"><b>Cancel</b> to cancel the setup of the VAT rate</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

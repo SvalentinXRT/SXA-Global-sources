@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileClass=""
+  FileTitle=""
+  FileSearchable="true"
+  FileConditionTagExpression=""
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="PDISTR"
+      Conditions=""
+      LocalConditions=""
+      Position="19" />
+    <IndexCacheEntry
+      Term="Répartition:périodique"
+      Conditions=""
+      LocalConditions=""
+      Position="19" />
+    <IndexCacheEntry
+      Term="Règle de gestion:répartition périodique"
+      Conditions=""
+      LocalConditions=""
+      Position="19" />
+    <IndexCacheEntry
+      Term="Formule:répartition périodique"
+      Conditions=""
+      LocalConditions=""
+      Position="19" />
+    <IndexCacheEntry
+      Term="ADISTR"
+      Conditions=""
+      LocalConditions=""
+      Position="31" />
+    <IndexCacheEntry
+      Term="Règle de gestion:répartition analytique"
+      Conditions=""
+      LocalConditions=""
+      Position="31" />
+    <IndexCacheEntry
+      Term="Répartition:analytique"
+      Conditions=""
+      LocalConditions=""
+      Position="31" />
+    <IndexCacheEntry
+      Term="Formule:répartition analytique"
+      Conditions=""
+      LocalConditions=""
+      Position="31" />
+    <IndexCacheEntry
+      Term="DISC"
+      Conditions=""
+      LocalConditions=""
+      Position="42" />
+    <IndexCacheEntry
+      Term="Règle de gestion:décalage"
+      Conditions=""
+      LocalConditions=""
+      Position="42" />
+    <IndexCacheEntry
+      Term="Décalage"
+      Conditions=""
+      LocalConditions=""
+      Position="42" />
+    <IndexCacheEntry
+      Term="Formule:décalage"
+      Conditions=""
+      LocalConditions=""
+      Position="42" />
+    <IndexCacheEntry
+      Term="IF"
+      Conditions=""
+      LocalConditions=""
+      Position="53" />
+    <IndexCacheEntry
+      Term="Règle de gestion:IF"
+      Conditions=""
+      LocalConditions=""
+      Position="53" />
+    <IndexCacheEntry
+      Term="Logique IF"
+      Conditions=""
+      LocalConditions=""
+      Position="53" />
+    <IndexCacheEntry
+      Term="Formule:IF"
+      Conditions=""
+      LocalConditions=""
+      Position="53" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Tableau standard.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

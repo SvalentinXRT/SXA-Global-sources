@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet
+  conditions="General.ImportFromGBL,General.ImportFromFR">
+  <ConditionTag
+    Comment=""
+    Name="Writing"
+    BackgroundColor="#f30e0e" />
+  <ConditionTag
+    BackgroundColor="#008080"
+    Name="ImportFromGBL"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ffa07a"
+    Name="ImportFromFR"
+    Comment=""
+    OriginalName="ImportFromFR" />
+</CatapultConditionTagSet>

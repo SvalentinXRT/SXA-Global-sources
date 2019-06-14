@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Journal VDOM-selection.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Journal VDOM.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Journal VDOM-selection.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Journal VDOM.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="Ledger:cash"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="8" />
+    <IndexCacheEntry
+      Term="Cash:ledger"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="8" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXT_Cash" />
+    <Variable
+      Name="Localization.SXT_Payment" />
+    <Variable
+      Name="Localization.SXTModulesTasks" />
+    <Variable
+      Name="Localization.SXTReportsFolder" />
+    <Variable
+      Name="Localization.SXTManagementFolder" />
+  </Variables>
+  <FileConditions>
+    <Condition
+      Tag="Default.3Revised" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.3Revised" />
+    <Condition
+      Tag="Default.ScreenOnly" />
+  </AllConditions>
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Note.css" />
+    <Url
+      Source="Content/Resources/TableStyles/Tableau standard.css" />
+    <Url
+      Source="Content/Resources/Stylesheets/MainStyles.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

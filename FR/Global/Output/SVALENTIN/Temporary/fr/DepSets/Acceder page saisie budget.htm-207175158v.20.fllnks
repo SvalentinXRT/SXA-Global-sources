@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_Liquidity/Acceder page saisie budget.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_Liquidity/Activer le mode prevision.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_Liquidity/Activer le mode analyse.flsnp" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_Liquidity/Acceder page saisie budget.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_Liquidity/Activer le mode prevision.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_Liquidity/Activer le mode analyse.flsnp" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="Acceder page" />
+  </Anchors>
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions>
+    <Condition
+      Tag="Default.ScreenOnly" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.ScreenOnly" />
+  </AllConditions>
+  <Stylesheets />
+</CatapultFileLinkSet>

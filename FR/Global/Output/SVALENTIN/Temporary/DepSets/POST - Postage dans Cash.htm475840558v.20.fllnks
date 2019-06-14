@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/Warning.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/PARAM - Exercice budgetaire.htm" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/PARAM - Tables de repartition.htm" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Flux treso 1.png" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/ANNEXE - GUI - Tableau reorg.htm" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/ContextualTopics/Rechercher texte dans tableau parametrage.htm" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/ContextualTopics/Supprimer element dans tableau page parametrage.htm" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Flux treso 2.png" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Bouton coche bleue.JPG" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Flux treso 3.png" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Flux treso 4.png" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/ContextualTopics/Calendrier.htm" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Flux treso 5.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Warning.png" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/POST - Postage dans Cash.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/Warning.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/PARAM - Exercice budgetaire.htm#onglet_postage1" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/PARAM - Exercice budgetaire.htm#onglet_postage2" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/PARAM - Tables de repartition.htm" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Flux treso 1.png" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/ANNEXE - GUI - Tableau reorg.htm" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/ContextualTopics/Rechercher texte dans tableau parametrage.htm" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/ContextualTopics/Supprimer element dans tableau page parametrage.htm" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Flux treso 2.png" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Bouton coche bleue.JPG" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Flux treso 3.png" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Flux treso 4.png" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/ContextualTopics/Calendrier.htm" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Flux treso 5.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Warning.png" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/POST - Postage dans Cash.htm#page_sel_flux" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="page_sel_flux" />
+  </Anchors>
+  <Keywords>
+    <IndexCacheEntry
+      Term="Flux de trésorerie:création"
+      Conditions=""
+      LocalConditions=""
+      Position="13" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXT_Cash" />
+    <Variable
+      Name="Localization.SXTModulesTasks" />
+    <Variable
+      Name="Localization.SXTManagementFolder" />
+    <Variable
+      Name="Localization.SXT_Liquidity" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.ScreenOnly" />
+  </AllConditions>
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Warning.css" />
+    <Url
+      Source="Content/Resources/TableStyles/Note.css" />
+    <Url
+      Source="Content/Resources/TableStyles/Tableau standard.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

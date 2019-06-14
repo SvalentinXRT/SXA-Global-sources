@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="2006" MadCap:lastWidth="718">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT">Codification of Standard Budget Codes</h1>
+        <p>Standard Budget Codes correspond to the budget codes that can be applied to your activity and that are not subtotals, category totals or VAT codes.</p>
+        <p class="SautLigneAvantEtAprès">They are included in the Operational Budget Balances.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Accessing Setup Page for Standard Budget Codes</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>At the bottom of the <b><MadCap:variable name="Localization.SXTModulesTasks" /></b> pane, select the <b>Setup</b> module, then, at the top of the pane, select the <b>Budget Codes</b> option in the <b><MadCap:variable name="Localization.SXTSetupFolder" /></b> file of this module.</p>
+                <p>The <b>Budget Codes</b> page is displayed with the list of the set up standard budget codes in a table.</p>
+                <p class="SautLigne">This table shows codes, descriptions and categories for Standard Budget Codes, as well as other settings: VAT, Rolling in month, Direction, Prorate.</p>
+                <p MadCap:targetName="Capture parametrage codes utilisateur"><img src="../../Resources/Images/L_Liquidity/Codes utilisateur 1.jpg" class="SAGE_screenshot" /></p>
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_Liquidity/Actions dans tableau page de parametrage.flsnp" />
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_Liquidity/Ref croisee Reorg tableau.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Adding Standard Budget Codes</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol MadCap:continue="false">
+                    <li class="PuceNumNiv1">In the setup page for Standard Budget Codes, click the <b>Create</b> button.<br />The creation page is displayed.</li>
+                </ol>
+                <p class="IndentPuceNiv1" MadCap:conditions="" MadCap:targetName="Capture creer code budget"><img src="../../Resources/Images/L_Liquidity/Codes utilisateur 2.jpg" class="SAGE_screenshot" /></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Enter the identification information of the budget code.</li>
+                </ol>
+                <p MadCap:conditions="Default.ScreenOnly" class="IndentPuceNiv1">
+                    <MadCap:toggler targets="Tableau champs code budget systeme">View Information on the Page</MadCap:toggler>
+                </p>
+                <table class="TableStyle-Tableau_standard" cellspacing="0" MadCap:targetName="Tableau champs code budget systeme" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');">
+                    <col class="TableStyle-Tableau_standard-Column-Column1" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <thead>
+                        <tr MadCap:conditions="" class="TableStyle-Tableau_standard-Head-Header1">
+                            <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Field</th>
+                            <th class="TableStyle-Tableau_standard-HeadF-Column2-Header1">Description</th>
+                            <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Requested</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr MadCap:conditions="" class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="3" style="background-color: #f5f5f5;font-weight: normal;"><b>Identification</b> area</td>
+                        </tr>
+                        <tr MadCap:conditions="" class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Code</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Enter a unique code identifying the budget code between 4 and 10 characters.<br />This code may be modified later in <MadCap:variable name="Localization.SXT_Administration" style="font-weight: bold;" />, through <b>Modify Budget Code</b> function. See the documentation of <MadCap:variable name="Localization.SXT_Administration" style="font-weight: bold;" /> for more information on the modification of Budget Codes.</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_Liquidity/Checkmark_L.gif" style="width: 34px;height: 29px;" /></td>
+                        </tr>
+                        <tr MadCap:conditions="" class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Code category</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Click the icon <img src="../../Resources/Images/L_Liquidity/Bouton Points de suspension.JPG" /> to display the list of budget code categories. Double-click a category to select it.<br />It cannot be modified later.</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_Liquidity/Checkmark_L.gif" style="width: 34px;height: 29px;" /></td>
+                        </tr>
+                        <tr MadCap:conditions="" class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Description</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Enter a describing text.</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr MadCap:conditions="" class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="3" style="font-weight: normal;background-color: #f5f5f5;"><b>Collected VAT</b> area<br /><i>Displayed for </i><i>Operating or Non-Operating Receipts</i><br /><b>Reclaimable VAT</b> area<br /><i>Displayed for </i><i>Operating or Non-Operating Expenses</i></td>
+                        </tr>
+                        <tr MadCap:conditions="" class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Code</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">If you want to enable the automatic VAT calculation for the budget code, click the icon <img src="../../Resources/Images/L_Liquidity/Bouton Points de suspension.JPG" /> to display the list of the set up VAT rates. Double-click a line to select it.</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr MadCap:conditions="" class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Rolling</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Enter the number of month for the deferment of the retrievable or collected VAT.<br />You can also use the buttons <img src="../../Resources/Images/L_Liquidity/Boutons fleches haut bas.jpg" />.<br />The default value is one rolling month.</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr MadCap:conditions="" class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="3" style="background-color: #f5f5f5;font-weight: normal;"><b>VAT</b> area<br /><i>Displayed for </i><i>Operating or Non-Operating Receipts or Expenses</i></td>
+                        </tr>
+                        <tr MadCap:conditions="" class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Direction</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">From the dropdown list, select the option:<br />- <b>Collection</b> so that the transaction amount and date posted in the Treasury Budget are used as a basis for VAT calculation,<br />- <b>Debit</b> so that the transaction amount and date posted in the Operational Budget are used as a basis for VAT calculation.</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr MadCap:conditions="" class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Prorate</td>
+                            <td class="TableStyle-Tableau_standard-BodyC-Column2-Body1">This field is enabled for expenses. Enter the VAT calculation basis.<br />For example, enter 100 so that the VAT is calculated on the basis of 100% of the expense amount excl. tax.</td>
+                            <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1"> </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">In your budget sheet, the VAT setup described above is applied only if you specified that VAT must be calculated at the level of budget codes, and not at the level of companies.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p MadCap:conditions="Default.ScreenOnly" class="IndentPuceNiv1SautLigne">To view examples of VAT calculation according to the direction, <a href="ContextualTopics/Exemples sens TVA.htm" target="_popup" class="Popup">click here</a>.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click the following buttons, as needed:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Apply </b>to save the setup of the budget code and create another one,</li>
+                    <li class="PuceNiv2"><b>OK </b>to save the setup of the budget code and redisplay the list of the set up budget codes,</li>
+                </ul>
+                <ul MadCap:continue="false">
+                    <li class="PuceNiv2"><b>Cancel </b>to cancel the setup of the budget code.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

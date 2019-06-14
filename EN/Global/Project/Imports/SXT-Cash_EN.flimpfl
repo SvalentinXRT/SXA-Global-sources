@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultProjectImport
+  AutoSync="true"
+  DeleteStale="true"
+  IncludePattern="*.htm;*.html;*.png;*.bmp;*.jpg;*.jpeg;*.tif;*.tiff;*.gif;*.swd;*.emf;*.wmf;*.xaml;*.xps;*.exps;*.hdp;*.wdp;*.dib;*.svg;*.ps;*.eps;*.pdf;*.asf;*.wm;*.wma;*.wmv;*.asx;*.wax;*.wvx;*.wmx;*.mid;*.midi;*.mpeg;*.mpg;*.mpa;*.mpe;*.wav;*.au;*.mp3;*.avi;*.swf;*.mov;*.qt;*.mp4;*.webm;*.ogg;*.ogv;*.oga;*.ogx;*.spx;*.opus;*.m4v;*.u3d;*.flsnp;*.fltoc"
+  ConditionTagExpression="exclude[General.ImportFromGBL] "
+  LastImport="2019-02-07T15:47:35.5082827+01:00">
+  <Files>
+    <Url
+      Source="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/SXT-Cash_EN.flprj"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/SXT-Cash_EN.flprj" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles>
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/E_Legacy/1_Cash/DASHB_Presentation.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/E_Legacy/1_Cash/DASHB_Presentation.htm" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/E_Legacy/1_Cash/EQUIL_PrincipesEquilibrage.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/E_Legacy/1_Cash/EQUIL_PrincipesEquilibrage.htm" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/E_Legacy/1_Cash/EQUIL_Zba.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/E_Legacy/1_Cash/EQUIL_Zba.htm" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/E_Legacy/1_Cash/FLUX_GestionMouvements.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/E_Legacy/1_Cash/FLUX_GestionMouvements.htm" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/E_Legacy/1_Cash/FLUX_GestionMouvements_SaisieDirecte.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/E_Legacy/1_Cash/FLUX_GestionMouvements_SaisieDirecte.htm" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/E_Legacy/1_Cash/FLUX_Intragroupe.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/E_Legacy/1_Cash/FLUX_Intragroupe.htm" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/E_Legacy/1_Cash/FLUX_PaiementIntragroupe.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/E_Legacy/1_Cash/FLUX_PaiementIntragroupe.htm" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/E_Legacy/1_Cash/FLUX_SwapsIntro.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/E_Legacy/1_Cash/FLUX_SwapsIntro.htm" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/E_Legacy/1_Cash/FLUX_SwapsParametrage.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/E_Legacy/1_Cash/FLUX_SwapsParametrage.htm" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/E_Legacy/1_Cash/FLUX_SwapsPrincipes.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/E_Legacy/1_Cash/FLUX_SwapsPrincipes.htm" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/E_Legacy/1_Cash/FLUX_SwapsSaisieOperations.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/E_Legacy/1_Cash/FLUX_SwapsSaisieOperations.htm" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/agences_bancaires_synthèse.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/agences_bancaires_synthèse.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/agences_intragroupes_synthèse.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/agences_intragroupes_synthèse.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/banques_bancaires_synthèse.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/banques_bancaires_synthèse.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/banques_intragroupe_synthèse.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/banques_intragroupe_synthèse.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/code_transaction_PI_1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/code_transaction_PI_1.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/comptes_bancaires_synthèse.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/comptes_bancaires_synthèse.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/comptes_intragroupes_synthèse.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/comptes_intragroupes_synthèse.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/DASHB_Presentation01.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/DASHB_Presentation01.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/DASHB_Presentation02.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/DASHB_Presentation02.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/DASHB_Presentation03.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/DASHB_Presentation03.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/DASHB_Presentation04.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/DASHB_Presentation04.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/DASHB_Presentation05.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/DASHB_Presentation05.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/DASHB_Presentation06.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/DASHB_Presentation06.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/DASHB_Presentation07.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/DASHB_Presentation07.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/DASHB_Presentation08.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/DASHB_Presentation08.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL1.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL10.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL10.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL11.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL11.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL12.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL12.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL13.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL13.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL14.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL14.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL15.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL15.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL1et2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL1et2.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL2.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL3.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL3.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL3et4.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL3et4.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL4.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL4.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL5.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL5.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL6.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL6.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL7.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL7.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL8.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL8.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL9.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/IRSPORTAIL9.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/organigramme_détail_1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/organigramme_détail_1.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/organigramme_détail_2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/organigramme_détail_2.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/organigramme_synthèse.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/organigramme_synthèse.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/sociétés_synthèse.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/sociétés_synthèse.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Project/TOCs/SXT-Cash.fltoc"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Project/TOCs/SXT-Cash.fltoc" />
+  </CollectedSourceFiles>
+  <SkippedSourceFiles>
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/SearchResults.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/SearchResults.htm" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/assistant de structure_3.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/assistant de structure_3.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/CENTRA_PrincipesEquilibrage01.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/CENTRA_PrincipesEquilibrage01.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/CENTRA_PrincipesEquilibrage02.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/CENTRA_PrincipesEquilibrage02.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/code_flux_synthèse.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/code_flux_synthèse.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/code_transaction_détail_1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/code_transaction_détail_1.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/code_transaction_détail_2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/code_transaction_détail_2.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/code_transaction_PI_2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/code_transaction_PI_2.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/code_transaction_synthèse.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/code_transaction_synthèse.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/conditions zba.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/conditions zba.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/conditions_intégration_bancaire_détail_1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/conditions_intégration_bancaire_détail_1.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Images/L_Cash/conditions_intégration_bancaire_détail_2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Images/L_Cash/conditions_intégration_bancaire_détail_2.png" />
+    <Url
+      Source="../../../SXT/SXT-Cash/Content/Resources/Multimedia/NewVideo.mp4"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Cash/Content/Resources/Multimedia/NewVideo.mp4" />
+  </SkippedSourceFiles>
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/E_Legacy/1_Cash/DASHB_Presentation.htm"
+      TimeStamp="06/02/2019 18:11:46" />
+    <Url
+      Source="../../Content/E_Legacy/1_Cash/EQUIL_PrincipesEquilibrage.htm"
+      TimeStamp="06/02/2019 18:11:46" />
+    <Url
+      Source="../../Content/E_Legacy/1_Cash/EQUIL_Zba.htm"
+      TimeStamp="06/02/2019 18:11:46" />
+    <Url
+      Source="../../Content/E_Legacy/1_Cash/FLUX_GestionMouvements.htm"
+      TimeStamp="06/02/2019 18:11:46" />
+    <Url
+      Source="../../Content/E_Legacy/1_Cash/FLUX_GestionMouvements_SaisieDirecte.htm"
+      TimeStamp="06/02/2019 18:11:46" />
+    <Url
+      Source="../../Content/E_Legacy/1_Cash/FLUX_Intragroupe.htm"
+      TimeStamp="06/02/2019 18:11:46" />
+    <Url
+      Source="../../Content/E_Legacy/1_Cash/FLUX_PaiementIntragroupe.htm"
+      TimeStamp="06/02/2019 18:11:46" />
+    <Url
+      Source="../../Content/E_Legacy/1_Cash/FLUX_SwapsIntro.htm"
+      TimeStamp="06/02/2019 18:11:46" />
+    <Url
+      Source="../../Content/E_Legacy/1_Cash/FLUX_SwapsParametrage.htm"
+      TimeStamp="06/02/2019 18:11:46" />
+    <Url
+      Source="../../Content/E_Legacy/1_Cash/FLUX_SwapsPrincipes.htm"
+      TimeStamp="06/02/2019 18:11:46" />
+    <Url
+      Source="../../Content/E_Legacy/1_Cash/FLUX_SwapsSaisieOperations.htm"
+      TimeStamp="06/02/2019 18:11:47" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/agences_bancaires_synthèse.png"
+      TimeStamp="15/12/2015 14:43:08" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/agences_intragroupes_synthèse.png"
+      TimeStamp="15/12/2015 14:50:19" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/banques_bancaires_synthèse.png"
+      TimeStamp="15/12/2015 14:41:19" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/banques_intragroupe_synthèse.png"
+      TimeStamp="15/12/2015 14:47:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/code_transaction_PI_1.png"
+      TimeStamp="15/12/2015 17:10:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/comptes_bancaires_synthèse.png"
+      TimeStamp="15/12/2015 14:45:36" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/comptes_intragroupes_synthèse.png"
+      TimeStamp="15/12/2015 14:51:36" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/DASHB_Presentation01.png"
+      TimeStamp="15/12/2015 11:40:25" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/DASHB_Presentation02.png"
+      TimeStamp="15/12/2015 11:43:14" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/DASHB_Presentation03.png"
+      TimeStamp="15/12/2015 11:44:07" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/DASHB_Presentation04.png"
+      TimeStamp="15/12/2015 11:45:29" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/DASHB_Presentation05.png"
+      TimeStamp="15/12/2015 11:46:00" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/DASHB_Presentation06.png"
+      TimeStamp="15/12/2015 11:46:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/DASHB_Presentation07.png"
+      TimeStamp="15/12/2015 11:47:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/DASHB_Presentation08.png"
+      TimeStamp="15/12/2015 11:49:26" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/IRSPORTAIL1.png"
+      TimeStamp="06/10/2017 16:37:07" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/IRSPORTAIL10.png"
+      TimeStamp="06/10/2017 16:37:07" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/IRSPORTAIL11.png"
+      TimeStamp="06/10/2017 16:37:08" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/IRSPORTAIL12.png"
+      TimeStamp="06/10/2017 16:37:08" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/IRSPORTAIL13.png"
+      TimeStamp="06/10/2017 16:37:08" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/IRSPORTAIL14.png"
+      TimeStamp="06/10/2017 16:37:08" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/IRSPORTAIL15.png"
+      TimeStamp="06/10/2017 16:37:08" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/IRSPORTAIL1et2.png"
+      TimeStamp="06/10/2017 16:50:47" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/IRSPORTAIL2.png"
+      TimeStamp="06/10/2017 16:37:07" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/IRSPORTAIL3.png"
+      TimeStamp="06/10/2017 16:37:07" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/IRSPORTAIL3et4.png"
+      TimeStamp="06/10/2017 16:51:49" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/IRSPORTAIL4.png"
+      TimeStamp="06/10/2017 16:37:07" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/IRSPORTAIL5.png"
+      TimeStamp="06/10/2017 16:37:07" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/IRSPORTAIL6.png"
+      TimeStamp="06/10/2017 16:37:07" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/IRSPORTAIL7.png"
+      TimeStamp="06/10/2017 16:37:07" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/IRSPORTAIL8.png"
+      TimeStamp="06/10/2017 16:37:07" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/IRSPORTAIL9.png"
+      TimeStamp="06/10/2017 16:37:07" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/organigramme_détail_1.png"
+      TimeStamp="15/12/2015 14:58:21" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/organigramme_détail_2.png"
+      TimeStamp="15/12/2015 15:03:03" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/organigramme_synthèse.png"
+      TimeStamp="15/12/2015 15:14:24" />
+    <Url
+      Source="../../Content/Resources/Images/L_Cash/sociétés_synthèse.png"
+      TimeStamp="15/12/2015 14:37:07" />
+    <Url
+      Source="../TOCs/SXT-Cash.fltoc"
+      TimeStamp="05/02/2019 15:53:28" />
+  </GeneratedFiles>
+</CatapultProjectImport>

@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileClass=""
+  FileTitle=""
+  FileSearchable="true"
+  FileConditionTagExpression=""
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="PDISTR"
+      Conditions=""
+      LocalConditions=""
+      Position="19" />
+    <IndexCacheEntry
+      Term="Periodic distribution"
+      Conditions=""
+      LocalConditions=""
+      Position="19" />
+    <IndexCacheEntry
+      Term="Macro:periodic distribution"
+      Conditions=""
+      LocalConditions=""
+      Position="19" />
+    <IndexCacheEntry
+      Term="Formula:periodic distribution"
+      Conditions=""
+      LocalConditions=""
+      Position="19" />
+    <IndexCacheEntry
+      Term="ADISTR"
+      Conditions=""
+      LocalConditions=""
+      Position="31" />
+    <IndexCacheEntry
+      Term="Macro:analytical distribution"
+      Conditions=""
+      LocalConditions=""
+      Position="31" />
+    <IndexCacheEntry
+      Term="Analytical distribution"
+      Conditions=""
+      LocalConditions=""
+      Position="31" />
+    <IndexCacheEntry
+      Term="Formula:analytical distribution"
+      Conditions=""
+      LocalConditions=""
+      Position="31" />
+    <IndexCacheEntry
+      Term="DISC"
+      Conditions=""
+      LocalConditions=""
+      Position="42" />
+    <IndexCacheEntry
+      Term="Macro:décalage"
+      Conditions=""
+      LocalConditions=""
+      Position="42" />
+    <IndexCacheEntry
+      Term="Discrepany"
+      Conditions=""
+      LocalConditions=""
+      Position="42" />
+    <IndexCacheEntry
+      Term="Formula:discrepancy"
+      Conditions=""
+      LocalConditions=""
+      Position="42" />
+    <IndexCacheEntry
+      Term="IF"
+      Conditions=""
+      LocalConditions=""
+      Position="53" />
+    <IndexCacheEntry
+      Term="Macro:IF"
+      Conditions=""
+      LocalConditions=""
+      Position="53" />
+    <IndexCacheEntry
+      Term="Logical IF"
+      Conditions=""
+      LocalConditions=""
+      Position="53" />
+    <IndexCacheEntry
+      Term="Script:IF"
+      Conditions=""
+      LocalConditions=""
+      Position="53" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Tableau standard.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

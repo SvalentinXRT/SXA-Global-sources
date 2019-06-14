@@ -1,0 +1,548 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="11" MadCap:lastHeight="9026" MadCap:lastWidth="688">
+    <head>
+        <link href="../../Resources/TableStyles/Warning.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Warning.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT"><MadCap:keyword term="Budget exercise:setup;Budget sheet:exercise, setup;Budget:exercise, setup" />Budget Exercises</h1>
+        <p>Before setting up Budget Exercises, you need to define:</p>
+        <ul>
+            <li class="PuceNiv1">The structure of your organization (companies, groupings and units)</li>
+            <li class="PuceNiv1">One exercise period at least</li>
+            <li class="PuceNiv1">Your budget sheet designer</li>
+            <li class="PuceNiv1">Distribution tables if you are to use your budget as data for <span><MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /></span> and to distribute amounts over various dates according to the monthly calendar of your organization</li>
+        </ul>
+        <p class="SautLigneAvantEtAprès">All these elements are taken into account for the setup of the budget exercise.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Accessing Setup Page for Budget Exercises</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In the <b><MadCap:variable name="Localization.SXTModulesTasks" /></b> pane, click <b>Budget Exercise</b> in the <b><MadCap:variable name="Localization.SXTSetupFolder" /></b> folder of the <MadCap:variable name="Localization.SXT_Liquidity" style="font-weight: bold;" />.</p>
+                <p>The setup page for budget exercises is displayed with the list of set up exercises in a table.</p>
+                <p MadCap:targetName="Capture Paramétrage exercice"><img src="../../Resources/Images/L_Liquidity/Param exercice 1.jpg" class="SAGE_screenshot" /></p>
+                <p MadCap:conditions="Default.ScreenOnly" class="SautLigne">
+                    <MadCap:toggler targets="Tableau Paramétrage exercice">View Table Description</MadCap:toggler>
+                </p>
+                <table MadCap:targetName="Tableau Paramétrage exercice" class="TableStyle-Tableau_standard" cellspacing="0" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');margin-left: 0;margin-right: auto;">
+                    <col style="width: 91px;" class="TableStyle-Tableau_standard-Column-Column1" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Tableau_standard-Head-Header1">
+                            <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Column</th>
+                            <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Company</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Company code selected for the exercise</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Period</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Code of the exercise period selected for the exercise</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Exercise</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Code of the budget exercise consisting of the selected company code and the period code. It is a unique identifier for the exercise.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Designer</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Code of the designer selected for the exercise</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Structure Code</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Code of the structure associated with the designer selected for the exercise</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Currency</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Currency code for the exercise</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Oper. OB</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Opening balance amount for the Operational Budget Sheet expressed in the exercise currency</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Treas. OB</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Opening balance amount for the Treasury Budget Sheet expressed in the exercise currency</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Start Date</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Start date for the selected exercise period</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">End Date</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">End date for the selected exercise period</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Updated</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Date of the last update for the budget sheet corresponding to this exercise</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Status</td>
+                            <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">Status of the budget sheet corresponding to this exercise</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_Liquidity/Actions dans tableau page de parametrage.flsnp" />
+                <p class="IndentPuceNiv1SautLigne">In change mode, the description of an exercise period is the only one that can be modified.</p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">Budget exercises can be deleted provided no &quot;Revised&quot; or &quot;Closed&quot; revision has been saved for them.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_Liquidity/Ref croisee Reorg tableau.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Creating Budget Sheets</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In the <b>Action</b> bar in the setup page for Budget Exercises, click the <b>Create</b> button.</p>
+                <p>The <b>Budget exercise</b> tab of the setup page for exercise creation is displayed.</p>
+                <p>This tab is used to enter the ID specifics of the budget exercise.</p>
+                <p class="SautLigne">In this page, the tabs <b>Select Posting Parameters</b> and <b>Set up Breakdown Rules</b> enable you to define the retrieval options for Cash Flows from <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> for budget analysis.</p>
+                <p class="SautLigne">The tabs <b>Budget Code - Account</b> and <b>Account - Flow Code</b> enable you to define the creation options for Cash Flows in <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> based on the Treasury Budget.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead MadCap:conditions=""><MadCap:keyword term="Budget exercise:tab" /><MadCap:dropDownHotspot>Budget Exercise Tab</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p MadCap:targetName="Capture Création exercice"><img src="../../Resources/Images/L_Liquidity/Param exercice 2.jpg" class="SAGE_screenshot" /></p>
+                        <p>In this tab, you can define the company, the designer and the period used for the budget exercise.</p>
+                        <ol MadCap:continue="true">
+                            <li class="PuceNumNiv1">In the <b>Company</b> field of the <b>Identification</b> area, select a company:</li>
+                        </ol>
+                        <ol>
+                            <li class="PuceNumNiv2">Click the <img src="../../Resources/Images/L_Liquidity/Bouton Points de suspension.JPG"></img> button to display the list of entities.</li>
+                            <li class="PuceNumNiv2">In the contextual window, double-click the line to select it.<br />The code and description of the selected company are displayed in the <b>Company</b> field.<br />The field of the reference currency is automatically completed according to the selected company.</li>
+                        </ol>
+                        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                            <col class="TableStyle-Note-Column-Column1" />
+                            <col class="TableStyle-Note-Column-Column2" />
+                            <tbody>
+                                <tr class="TableStyle-Note-Body-Body1">
+                                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                                    <td class="TableStyle-Note-BodyA-Column2-Body1">If you are planning receipts and expenses in different currencies, you can create one budget exercise per currency. This means you budget planning does not depend on FX fluctuations.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <ol start="2">
+                            <li class="PuceNumNiv1">If you want to modify the reference currency (for example if you manage one budget per currency):</li>
+                        </ol>
+                        <ol>
+                            <li class="PuceNumNiv2">Click the <img src="../../Resources/Images/L_Liquidity/Bouton Points de suspension.JPG" /> button to display the selection window for currencies.</li>
+                            <li class="PuceNumNiv2">In the new contextual window, click <img src="../../Resources/Images/L_Liquidity/bouton aff tout.png" /> to display all the set up currencies, then double-click a currency to select it.<br />The code and description of the selected currency are displayed in the <b>Currency</b> field.</li>
+                        </ol>
+                        <table style="mc-table-style: url('../../Resources/TableStyles/Warning.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Warning" cellspacing="0">
+                            <col class="TableStyle-Warning-Column-Column1" />
+                            <col class="TableStyle-Warning-Column-Column2" />
+                            <tbody>
+                                <tr class="TableStyle-Warning-Body-Body1">
+                                    <td class="TableStyle-Warning-BodyB-Column1-Body1" style="text-align: left;"><img src="../../Resources/Images/Assets/oh-Warning.png" /></td>
+                                    <td class="TableStyle-Warning-BodyA-Column2-Body1">The currency selected in this field has no impact on the accounts selected in the <b>Select Posting Parameters</b> tab.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <ol start="3">
+                            <li class="PuceNumNiv1">In the <b>Designer</b> field, select a budget sheet designer using the button <img src="../../Resources/Images/L_Liquidity/Bouton Points de suspension.JPG" />.</li>
+                            <li class="PuceNumNiv1">In the <b>Period</b> area, select an exercise period using the button <img src="../../Resources/Images/L_Liquidity/Bouton Points de suspension.JPG" />.<br />The fields for start and end dates are automatically completed according to the selected period.</li>
+                        </ol>
+                        <p class="IndentPuceNiv1SautLigne">The budget exercise code is automatically created and displayed in the <b>Exercise code</b> field. It consists of the codes for the selected company, period and currency.</p>
+                        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                            <col class="TableStyle-Note-Column-Column1" />
+                            <col class="TableStyle-Note-Column-Column2" />
+                            <tbody>
+                                <tr class="TableStyle-Note-Body-Body1">
+                                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                                    <td class="TableStyle-Note-BodyA-Column2-Body1">If a budget exercise has already been created for the selected company, the next period is displayed by default. Otherwise this field is blank by default.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <ol start="2" MadCap:continue="true">
+                            <li class="PuceNumNiv1">Click the <b>Set up opening balances</b> tab.</li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead MadCap:conditions=""><MadCap:keyword term="Set up opening balances, tab" /><MadCap:dropDownHotspot>Set up opening balances Tab</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>This tab enables you to define the opening balances for the Operational Budget and the Treasury Budget, as well as the amounts for each unit according to the budget code.</p>
+                        <p class="SautLigne">For example, if you defined, for a given budget code, a weighting of 80% for the A unit and 20% for the B unit, when you enter 100 € into the budget sheet, 80 € are assigned to the A unit and 20 € to the B unit.</p>
+                        <p MadCap:targetName="Capture création exercice 2"><img src="../../Resources/Images/L_Liquidity/Param exercice 3.jpg" class="SAGE_screenshot" /></p>
+                        <ol MadCap:continue="true">
+                            <li class="PuceNumNiv1">In the <b>Operational Budget</b> area, enter an amount for the opening balance of the Operational Budget.</li>
+                        </ol>
+                        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                            <col class="TableStyle-Note-Column-Column1" />
+                            <col class="TableStyle-Note-Column-Column2" />
+                            <tbody>
+                                <tr class="TableStyle-Note-Body-Body1">
+                                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                                    <td class="TableStyle-Note-BodyA-Column2-Body1">You usually enter 0 for this amount.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="IndentPuceNiv1">The currency of this amount on the left is the currency selected for the exercise.</p>
+                        <ol MadCap:continue="true">
+                            <li class="PuceNumNiv1">In the <b>Treasury Budget</b> area, enter an amount for the opening balance of the Treasury Budget.</li>
+                        </ol>
+                        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                            <col class="TableStyle-Note-Column-Column1" />
+                            <col class="TableStyle-Note-Column-Column2" />
+                            <tbody>
+                                <tr class="TableStyle-Note-Body-Body1">
+                                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                                    <td class="TableStyle-Note-BodyA-Column2-Body1">This amount usually equals the sum of the flows recorded in <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> at December, 31st of the previous exercise.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="IndentPuceNiv1">The currency of this amount on the left is the currency selected for the exercise.</p>
+                        <ol MadCap:continue="true">
+                            <li class="PuceNumNiv1">If you set up units for the selected company, you can define the amounts distribution among the units according to the budget code. When an amount is created in the Budget Sheet, it is distributed among the units according to the percentages defined in this tab.</li>
+                        </ol>
+                        <ol>
+                            <li class="PuceNumNiv2">In the <b>Units&apos; Distribution Rules</b> area, click the <b>Add</b> button.<br />A line is added into the table.<br />The first table column displays the unit code.<br /></li>
+                            <li class="PuceNumNiv2">To view the unit list, click the cell of the line in the first column.<br />The contextual window displays the unit list in a table, with their codes and descriptions.</li>
+                            <li class="PuceNumNiv2">Click a line to select the corresponding unit.<br />The selected unit code is displayed in the <b>Units&apos; Distribution Rules</b> area.</li>
+                        </ol>
+                        <p class="IndentPuceNiv2">The first column called <b>STARTBAL</b> corresponds to the opening balance.</p>
+                        <p class="IndentPuceNiv2">Each of the following columns corresponds to a budget code.</p>
+                        <p class="IndentPuceNiv2">These columns enable you to specify the weighting of each unit for the selected budget code.</p>
+                        <ol MadCap:continue="true">
+                            <li class="PuceNumNiv2">Enter a weighting in percentage.</li>
+                        </ol>
+                        <p class="IndentPuceNiv2">When you go to another cell, the weighting total for the selected budget code is updated at the bottom of the entry column. The unit weighting total for each budget code must equal 100%.</p>
+                        <ol start="4">
+                            <li class="PuceNumNiv1">Click the <b>Select posting parameters</b> tab.</li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead MadCap:conditions=""><MadCap:keyword term="Select Posting Parameters, tab" /><MadCap:dropDownHotspot>Select posting parameters Tab</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>This tab enables you to define flows to be retrieved from <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" />, during budget analysis. </p>
+                        <p class="SautLigne">You need to specify the bank accounts involved in the flows, as well as the types of cash flows to take into account. Usually all the flow types must be included, apart from very specific cases.</p>
+                        <p MadCap:targetName="Capture Création exercice 3"><img src="../../Resources/Images/L_Liquidity/Param exercice 4.jpg" class="SAGE_screenshot" /></p>
+                        <ol>
+                            <li class="PuceNumNiv1">In the <b>Bank accounts</b> area, click the button <b>Select</b> to display the list of the set up bank accounts. In the contextual window, enable the options in front of the account codes to select, and click the button <img src="../../Resources/Images/L_Liquidity/Bouton coche bleue.JPG" />.</li>
+                        </ol>
+                        <p class="IndentPuceNiv1">The code and description of the selected bank account are displayed in the <b>Bank accounts</b> area of the <b>Select posting parameters</b> tab.</p>
+                        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                            <col class="TableStyle-Note-Column-Column1" />
+                            <col class="TableStyle-Note-Column-Column2" />
+                            <tbody>
+                                <tr class="TableStyle-Note-Body-Body1">
+                                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                                    <td class="TableStyle-Note-BodyA-Column2-Body1">If the contextual window does not display any bank account, this may mean that no bank account has been defined for the selected company.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <ol MadCap:continue="true">
+                            <li class="PuceNumNiv1">In the <b>Flow codes</b> area, click the button <b>Select</b> to display the list of the set up cash flows. In the contextual window, enable the options in front of the flow codes to select, and click the button <img src="../../Resources/Images/L_Liquidity/Bouton coche bleue.JPG" />.</li>
+                        </ol>
+                        <p class="IndentPuceNiv1">The code and description of the selected cash flows are displayed in the <b><b>Flow codes</b></b> area of the <b>Select posting parameters</b> tab.</p>
+                        <ol MadCap:continue="true">
+                            <li class="PuceNumNiv1">Click the <b>Set up breakdown rules</b> tab.</li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead MadCap:conditions=""><MadCap:keyword term="Set up breakdown rules, tab" /><MadCap:dropDownHotspot>Set up breakdown rules Tab</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>This step is optional.</p>
+                        <p>The flow amounts are assigned to the associated budget codes. However budget codes may not be completed for all flows.</p>
+                        <p>In this tab, you can define associations between budget codes and flow types, as well as breakdown percentages for the amounts, if several budget codes are associated with the same flow type.</p>
+                        <p class="SautLigne">Information from <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> prevails over the breakdown rules.</p>
+                        <p MadCap:targetName="Capture création exercice 4"><img src="../../Resources/Images/L_Liquidity/Param exercice 5.jpg" class="SAGE_screenshot" /></p>
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>Assigning Budget Codes to Flow Types</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <ol>
+                                    <li class="PuceNumNiv1">Click a line to select the corresponding flow.</li>
+                                    <li class="PuceNumNiv1">Click <b>Add</b>.</li>
+                                </ol>
+                                <p class="IndentPuceNiv1">The selected line is expanded. A subtable is displayed, enabling you to assign budget codes to the selected flow type.</p>
+                                <p class="IndentPuceNiv1" MadCap:targetName="Capture affectation natures budgetaires"><img src="../../Resources/Images/L_Liquidity/Param exercice 5b.jpg" class="SAGE_screenshot" /></p>
+                                <ol MadCap:continue="true">
+                                    <li class="PuceNumNiv1">In the <b>Budget code</b> column, click the button <img src="../../Resources/Images/L_Liquidity/Bouton fleche bas gris.jpg" /> to display the list of budget codes of the same kind (collection or disbursement). In the contextual window, double-click a line to select it.</li>
+                                </ol>
+                                <p class="IndentPuceNiv1">The selected budget code is displayed in the table.</p>
+                                <ol MadCap:continue="true">
+                                    <li class="PuceNumNiv1">In the <b>Percentage</b> column, enter the percentage of the flow amount to assign to this budget code.</li>
+                                </ol>
+                                <p class="IndentPuceNiv1">The budget code and the assigned amount are also displayed in the <b>Rule</b> column in the main table.</p>
+                                <p class="IndentPuceNiv1SautLigne">If this amount is less than 100%, you need to add other budget codes by repeating the adding process, until the percentage total reaches 100% for this budget code.</p>
+                                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                                    <col class="TableStyle-Note-Column-Column1" />
+                                    <col class="TableStyle-Note-Column-Column2" />
+                                    <tbody>
+                                        <tr class="TableStyle-Note-Body-Body1">
+                                            <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                                            <td class="TableStyle-Note-BodyA-Column2-Body1">You can work in a dedicated window by clicking <img src="../../Resources/Images/L_Liquidity/Icone Loupe.jpg" />.<br />Click the button <img src="../../Resources/Images/L_Liquidity/icone croix.jpg" /> to redisplay the <b>Set up breakdown rules</b> tab.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p class="IndentPuceNiv1">The <b>Rule</b> column shows the list of budget codes separated by comas, as well as the assigned percentages between brackets.</p>
+                                <p class="IndentPuceNiv1SautLigne"><i>Example:</i> <span class="TexteSaisi">ACHA (80.4%), A196 (19.6%)</span></p>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>Cancelling Assignments of Budget Codes to Flow Types</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <ol>
+                                    <li class="PuceNumNiv1">Click a line corresponding to a budget code to select it.</li>
+                                    <li class="PuceNumNiv1">Click <b>Delete</b>.</li>
+                                </ol>
+                                <p class="IndentPuceNiv1">The line which includes the budget code and the assigned percentage, is deleted.</p>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>Deleting Breakdown Rules of Budget Codes</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <ol>
+                                    <li class="PuceNumNiv1">Click a line corresponding to a flow type to select it.</li>
+                                    <li class="PuceNumNiv1">Click <b>Delete</b>.</li>
+                                </ol>
+                                <p class="IndentPuceNiv1">The line including the flow type and the breakdown rule, is deleted.</p>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead MadCap:conditions=""><MadCap:keyword term="Budget Code - Account, tab" /><a name="onglet_postage1"></a><MadCap:dropDownHotspot>Budget Code - Account tab</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>This tab is used to set up the amounts distribution among the various entity&apos;s bank accounts, for each of the exercise budget code.</p>
+                        <p class="SautLigne">During the creation of Cash Flows in <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" />, amounts are distributed among the various bank accounts according to the weighting percentages defined in this tab.</p>
+                        <table style="mc-table-style: url('../../Resources/TableStyles/Warning.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Warning" cellspacing="0">
+                            <col class="TableStyle-Warning-Column-Column1" />
+                            <col class="TableStyle-Warning-Column-Column2" />
+                            <tbody>
+                                <tr class="TableStyle-Warning-Body-Body1">
+                                    <td class="TableStyle-Warning-BodyB-Column1-Body1" style="text-align: left;"><img src="../../Resources/Images/Assets/oh-Warning.png" /></td>
+                                    <td class="TableStyle-Warning-BodyA-Column2-Body1">Distribution Tables must have been previously created.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p MadCap:targetName="Capture création exercice 5"><img src="../../Resources/Images/L_Liquidity/Param exercice 6.png" class="SAGE_screenshot" /></p>
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>Defining Weights for Bank Accounts by Budget Code</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <ol>
+                                    <li class="PuceNumNiv1">Click a line to select the corresponding budget code.</li>
+                                    <li class="PuceNumNiv1">Assign bank accounts to the selected budget code as follows.</li>
+                                </ol>
+                                <ul>
+                                    <li class="PuceNiv2">To select bank accounts one after the other:</li>
+                                </ul>
+                                <ol>
+                                    <li class="PuceNumNiv3">Click <b>Add</b>.</li>
+                                </ol>
+                                <p class="IndentPuceNiv3">The selected line is expanded. The new subtable displays an empty line. You can assign here bank accounts and a weighting percentage to the selected budget code.</p>
+                                <p class="IndentPuceNiv3" MadCap:targetName="Capture affectation natures budgetaires 2"><img src="../../Resources/Images/L_Liquidity/Param exercice 6b.png" class="SAGE_screenshot" /></p>
+                                <ol MadCap:continue="true">
+                                    <li class="PuceNumNiv3">In the <b>Bank Accounts</b> column, click <img src="../../Resources/Images/L_Liquidity/Bouton fleche bas gris.jpg" /> to display the list of the bank accounts selected in the <b>Select Posting Parameters</b> tab. In the contextual window, double-click a line to select it.</li>
+                                </ol>
+                                <p class="IndentPuceNiv3">The selected bank account code is displayed in the table.</p>
+                                <ul style="list-style-type: square;">
+                                    <li class="PuceNiv2">For an automatic generation of the full list of bank accounts, click <b>Generate</b>.</li>
+                                </ul>
+                                <p class="IndentPuceNiv2">The new subtable displays the list of the bank accounts selected in the <b>Select Posting Parameters</b> tab. You can assign here bank accounts and a weighting percentage to the selected budget code.</p>
+                                <p class="IndentPuceNiv2" MadCap:targetName="Capture affectation natures budgetaires b"><img src="../../Resources/Images/L_Liquidity/Param exercice 6c.png" class="SAGE_screenshot" /></p>
+                                <ol start="3">
+                                    <li class="PuceNumNiv1">In the <b>Percentage</b> column, enter the percentage of the flow amount to assign to each bank account.</li>
+                                </ol>
+                                <p class="IndentPuceNiv1">The budget code and the assigned amount are also displayed in the <b>Rule</b> column in the main table.</p>
+                                <p class="IndentPuceNiv1SautLigne">If this amount is less than 100%, you need to add other budget codes by repeating the adding process, until the percentage total reaches 100% for this budget code.</p>
+                                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                                    <col class="TableStyle-Note-Column-Column1" />
+                                    <col class="TableStyle-Note-Column-Column2" />
+                                    <tbody>
+                                        <tr class="TableStyle-Note-Body-Body1">
+                                            <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                                            <td class="TableStyle-Note-BodyA-Column2-Body1">You can work in a dedicated window by clicking <img src="../../Resources/Images/L_Liquidity/Icone Loupe.jpg" />.<br />Click the button <img src="../../Resources/Images/L_Liquidity/icone croix.jpg" /> to redisplay the <b>Budget Code - Account</b> tab.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p class="IndentPuceNiv1">The <b>Rule</b> column of the main table displays as a macro the list of the bank account codes with their assigned percentages.</p>
+                                <p class="IndentPuceNiv1SautLigne"><i>Example</i>: <span class="TexteSaisi">ACCOUNTA (75%), ACCOUNTB (25%)</span></p>
+                                <p MadCap:targetName="Capture creation exo 6d" class="IndentPuceNiv1"><img src="../../Resources/Images/L_Liquidity/Param exercice 6d.png" class="SAGE_screenshot" /></p>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>Cancelling Assignments of Accounts to Budget Codes</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <ol>
+                                    <li class="PuceNumNiv1">Click a line corresponding to a bank account to select it.</li>
+                                    <li class="PuceNumNiv1">Click <b>Delete</b>.</li>
+                                </ol>
+                                <p class="IndentPuceNiv1">The line which includes the bank account and the weight percentage, is deleted.</p>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>Cancelling All Assignments of Bank Accounts to Budget Codes</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <ol>
+                                    <li class="PuceNumNiv1">Click a line corresponding to a budget code to select it.</li>
+                                    <li class="PuceNumNiv1">Click <b>Delete</b>.</li>
+                                </ol>
+                                <p class="IndentPuceNiv1">All assignments to bank accounts and weighting percentages are removed.</p>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead MadCap:conditions=""><MadCap:keyword term="Account - Flow Code, tab" /><a name="onglet_postage2"></a><MadCap:dropDownHotspot>Account - Flow Code tab</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>This tab enables you to specify for every budget code/bank account pair defined in the previous tab, the distribution of amounts among the various cash flow types.</p>
+                        <p class="SautLigne">During the creation of Cash Flows in <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" />, for every budget code/bank account pair, amounts are distributed among the various flow types according to the weighting percentages defined in this tab.</p>
+                        <p MadCap:targetName="Capture création exercice 6"><img src="../../Resources/Images/L_Liquidity/Param exercice 7.png" class="SAGE_screenshot" /></p>
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>Defining Flow Type Weighting for Budget Code/Bank Account Pairs</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <ol>
+                                    <li class="PuceNumNiv1">Click a line to select a budget code/bank account pair.</li>
+                                    <li class="PuceNumNiv1">Assign flow types to a budget code/bank account pair, as follows.</li>
+                                </ol>
+                                <ul>
+                                    <li class="PuceNiv2">To select flow types one after the other:</li>
+                                </ul>
+                                <ol>
+                                    <li class="PuceNumNiv3">Click <b>Add</b>.</li>
+                                </ol>
+                                <p class="IndentPuceNiv3">The selected line is expanded. The new subtable displays an empty line. You can assign here flow types and a weighting percentage to the selected budget code/bank account pair.</p>
+                                <p class="IndentPuceNiv3" MadCap:targetName="Capture affectation natures budgetaires 2bb"><img src="../../Resources/Images/L_Liquidity/Param exercice 7b.png" class="SAGE_screenshot" /></p>
+                                <ol MadCap:continue="true">
+                                    <li class="PuceNumNiv3">In the <b>Flow Codes</b> column, click <img src="../../Resources/Images/L_Liquidity/Bouton fleche bas gris.jpg" /> to display the list of the  flow types selected in the <b>Select Posting Parameters</b> tab. In the contextual window, double-click a line to select it.</li>
+                                </ol>
+                                <p class="IndentPuceNiv3">The selected flow type is displayed in the table.</p>
+                                <ul style="list-style-type: square;">
+                                    <li class="PuceNiv2">For an automatic generation of the full list of flow types, click <b>Generate</b>.</li>
+                                </ul>
+                                <p class="IndentPuceNiv2">The new subtable displays the list of the flow types selected in the <b>Select Posting Parameters</b> tab. You can assign here flow types and a weighting percentage to the selected budget code/bank account pair.</p>
+                                <p class="IndentPuceNiv2" MadCap:targetName="Capture affectation natures budgetaires b2"><img src="../../Resources/Images/L_Liquidity/Param exercice 7c.png" class="SAGE_screenshot" /></p>
+                                <ol start="3">
+                                    <li class="PuceNumNiv1">If you want to use Distribution Tables to distribute amounts over different dates, click <b>Table</b> of the flow type to distribute, then in the new contextual window, select the distribution table.</li>
+                                </ol>
+                                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                                    <col class="TableStyle-Note-Column-Column1" />
+                                    <col class="TableStyle-Note-Column-Column2" />
+                                    <tbody>
+                                        <tr class="TableStyle-Note-Body-Body1">
+                                            <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                                            <td class="TableStyle-Note-BodyA-Column2-Body1">Distribution Tables must be created prior to the budget exercise. <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">For more information on Distribution Tables and their setup, see the <MadCap:xref href="PARAM - Tables de repartition.htm" target="" title="" alt="" class="Xref_Help">Distribution Tables</MadCap:xref> topic.</MadCap:conditionalText></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <ol start="3" MadCap:continue="true">
+                                    <li class="PuceNumNiv1">In the <b>Percentage</b> column, enter the percentage of the amount to assign to each budget code.</li>
+                                </ol>
+                                <p class="IndentPuceNiv1">The flow type and the assigned amount are also displayed in the <b>Rule</b> column in the main table.</p>
+                                <p class="IndentPuceNiv1SautLigne">If this amount is less than 100%, you need to add other flow type by repeating the adding process, until the percentage total reaches 100% for this budget code.</p>
+                                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                                    <col class="TableStyle-Note-Column-Column1" />
+                                    <col class="TableStyle-Note-Column-Column2" />
+                                    <tbody>
+                                        <tr class="TableStyle-Note-Body-Body1">
+                                            <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                                            <td class="TableStyle-Note-BodyA-Column2-Body1">You can work in a dedicated window by clicking <img src="../../Resources/Images/L_Liquidity/Icone Loupe.jpg" />.<br />Click the button <img src="../../Resources/Images/L_Liquidity/icone croix.jpg" /> to redisplay the <b>Account - Flow Code</b> tab.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p class="IndentPuceNiv1">The <b>Rule</b> column of the main table displays the list of the bank account codes with their assigned percentages.</p>
+                                <p class="IndentPuceNiv1SautLigne"><i>Example</i>: <span class="TexteSaisi">ACCOUNTA (75%), ACCOUNTB (25%)</span></p>
+                                <p MadCap:targetName="Capture creation exo 7d" class="IndentPuceNiv1"><img src="../../Resources/Images/L_Liquidity/Param exercice 7d.png" class="SAGE_screenshot" /></p>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>Cancelling Flow Type Assignments to Budget Code/Bank Account Pairs</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <ol>
+                                    <li class="PuceNumNiv1">Click a line corresponding to a flow type to select it.</li>
+                                    <li class="PuceNumNiv1">Click <b>Delete</b>.</li>
+                                </ol>
+                                <p class="IndentPuceNiv1">The line including the flow type and the weight percentage is deleted.</p>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>Cancelling All Flow Type Assignments to Budget Code/Bank Account Pairs</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <ol>
+                                    <li class="PuceNumNiv1">Click a line corresponding to a budget code to select it.</li>
+                                    <li class="PuceNumNiv1">Click <b>Delete</b>.</li>
+                                </ol>
+                                <p class="IndentPuceNiv1">All associations with flow codes and weighting percentages are deleted for the selected budget code/bank account pair.</p>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <p class="SautLigne">Once you completed the budget exercise setup, click:</p>
+                <ul>
+                    <li class="PuceNiv1"><b>Apply </b>to save the setup of the exercise and create another one,</li>
+                    <li class="PuceNiv1"><b>OK </b>to save the setup of the exercise and redisplay the list of the set up exercises,</li>
+                    <li class="PuceNiv1"><b>Cancel </b>to cancel the setup of the exercise.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Creating automatically Next Budget Exercises</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Select a line in the table and click the <b>Create next</b> button.</p>
+                <p>The new budget exercise has the same characteristics as the previous one (only the period dates are different).</p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">You can use the <b>Create next</b> function only if the next period has been already set up. <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">For more information on setting up periods, see the <MadCap:xref href="PARAM - Periodes exercice.htm" target="" title="" alt="" class="Xref_Help">Periods of Budget Exercise</MadCap:xref> topic.</MadCap:conditionalText></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

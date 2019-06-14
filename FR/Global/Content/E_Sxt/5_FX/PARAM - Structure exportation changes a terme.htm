@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:lastBlockDepth="9" MadCap:lastHeight="6219" MadCap:lastWidth="570">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT">
+            <MadCap:keyword term="Paramétrage:structure d'exportation de transactions de change;Transaction de change:structure, paramétrage;Structure de fichier:exportation des transactions de change:paramétrage" />Structure d'exportation des transactions de change</h1>
+        <p>Cette fonction vous permet de définir la structure des fichiers de transactions de change générés depuis le module <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> et destinés à être importés dans un système externe.</p>
+        <p>Cette étape doit être effectuée avant l'exportation de fichiers afin de permettre la bonne intégration des informations du fichier vers le système externe. Elle permet de définir le type et l'emplacement des informations et éventuellement des règles de conversion.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Accéder à la page de paramétrage des structures de fichier de transactions de change</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Dans le volet <MadCap:variable name="Localization.SXTModulesTasks" style="font-weight: bold;" />, sélectionnez l'option <b>Structure d'exportation des transactions de change </b>dans le dossier <MadCap:variable name="Localization.SXTImportFolder" style="font-weight: bold;" /> du module <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" />.</p>
+                <p>La page de paramétrage des structures de fichiers des transactions de change s'affiche avec la liste des structures paramétrées sous forme de tableau.</p>
+                <p MadCap:targetName="Capture structure importation 1">
+                    <img src="../../Resources/Images/L_FX/Structure exportation changes a terme 1.png" class="SAGE_screenshot" />
+                </p>
+                <p>Le tableau présente le code et le libellé de chaque structure, ainsi que le type de fonction concernée, le format de date attendu, la longueur type d'une écriture en nombre de caractères et l'existence d'équivalences.</p>
+                <p>Pour des informations sur&#160;:</p>
+                <ul>
+                    
+                    <li class="PuceNiv1" style="margin-top: 12pt;" MadCap:conditions="Default.ScreenOnly"><b>la réorganisation de l'affichage des lignes</b> du tableau, <a href="ANNEXE - GUI.htm#top" target="_popup" class="Popup">cliquez ici</a>,</li>
+                    <li MadCap:conditions="Default.ScreenOnly" class="PuceNiv1"><b>la recherche de texte</b> dans le tableau, <a href="ContextualTopics/Rechercher texte dans tableau page.htm" target="_popup" class="Popup">cliquez ici</a>,</li>
+                    
+                    <li MadCap:conditions="" class="PuceNiv1"><b>la création d'une ligne</b>, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique</MadCap:conditionalText> ci-après,</li>
+                    <li MadCap:conditions="Default.ScreenOnly" class="PuceNiv1"><b>la suppression d'une ligne</b> dans le tableau, <a href="ContextualTopics/Supprimer element dans tableau page.htm" target="_popup" class="Popup">cliquez ici</a>,</li>
+                    
+                    <li MadCap:conditions="" class="PuceNiv1"><b>la modification de la structure et des équivalences</b> dans le tableau, cliquez sur le bouton <b>Modifier la structure</b> ou sur le bouton <b>Modifier les correspondances</b>. Vous accédez aux mêmes pages qu'en création.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Créer une structure de fichier de transactions de change</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">Dans la page de paramétrage de structures de fichier de transactions de change, cliquez sur le bouton <b>Créer</b>.<br />La première page de l'Assistant Structures s'affiche.</li>
+                </ol>
+                <p MadCap:conditions="" MadCap:targetName="Capture structure importation 2">
+                    <img src="../../Resources/Images/L_FX/Structure exportation changes a terme 2.png" class="SAGE_screenshot" />
+                </p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Saisissez les informations générales sur la structure.</li>
+                </ol>
+                <p class="IndentPuceNiv1">
+                    <MadCap:toggler targets="Tableau structure importation 2">Afficher la description des champs</MadCap:toggler>
+                </p>
+                <table class="TableStyle-Tableau_standard" cellspacing="0" MadCap:targetName="Tableau structure importation 2" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');">
+                    <col class="TableStyle-Tableau_standard-Column-Column1" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Tableau_standard-Head-Header1">
+                            <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Champ</th>
+                            <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Libellé</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Saisissez un libellé pour la nouvelle structure.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Type</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">La fonction «&#160;Exportation&#160;» est sélectionnée. Aucune action de votre part n'est requise dans ce champ.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Longueur</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Indiquez la longueur en caractères d'un enregistrement, espaces compris. Un enregistrement du fichier est une chaîne de caractères comportant les informations d'une seule écriture.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Retour à la ligne</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Activez cette case à cocher si les enregistrements du fichier sont séparés par un retour à la ligne.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Format de date</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Sélectionnez le format de date attendu pour les dates d'écriture.<br /><i>dd</i> désigne le jour, <i>MM</i> le mois et <i>yyyy</i> l'année.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Séparateur de date</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Sélectionnez le type de séparateur entre le jour, le mois et l'année de la date de l'écriture.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Symbole décimal</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Sélectionnez le séparateur de décimales des montants.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Nombre de chiffres après la virgule</td>
+                            <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">Sélectionnez le nombre de décimales après la virgule des montants.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Cliquez sur le bouton <img src="../../Resources/Images/L_FX/Bouton STR fleche drte.JPG" /><b>&#160;Définir les éléments de la structure</b> pour continuer le paramétrage de la structure de fichier.</li>
+                </ol>
+                <p class="IndentPuceNiv1">La page de paramétrage des champs de chaque enregistrement du fichier s'affiche.</p>
+                <p MadCap:targetName="Capture structure importation champs 3">
+                    <img src="../../Resources/Images/L_FX/Structure exportation changes a terme 3.png" class="SAGE_screenshot" />
+                </p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td class="TableStyle-Note-BodyB-Column1-Body1">
+                                <img src="../../Resources/Images/Assets/oh-Note.png" />
+                            </td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">Si vous cliquez sur le bouton <b><img src="../../Resources/Images/L_FX/Bouton STR croix rouge.JPG" />&#160;Annuler</b>, le paramétrage en cours est annulé et la liste des structures de fichier paramétrées est réaffichée.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="IndentPuceNiv1" style="margin-bottom: 12pt;">Cette page vous permet de paramétrer onze champs pour chaque enregistrement, chaque champ correspondant à un type d'information sur la transaction.</p>
+                <p class="IndentPuceNiv1" style="margin-bottom: 12pt;">Reportez-vous aux paragraphes ci-après pour une description des valeurs codées dans le fichier exporté ainsi que sur les conditions de renseignements particulières de certaines informations.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead MadCap:conditions="">
+                        <MadCap:dropDownHotspot>Afficher la description des informations du fichier exporté</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <table class="TableStyle-Tableau_standard" cellspacing="0" MadCap:targetName="Tableau codes" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');">
+                            <col class="TableStyle-Tableau_standard-Column-Column1" />
+                            <col class="TableStyle-Tableau_standard-Column-Column2" />
+                            <col class="TableStyle-Tableau_standard-Column-Column2" />
+                            <col class="TableStyle-Tableau_standard-Column-Column2" />
+                            <thead>
+                                <tr class="TableStyle-Tableau_standard-Head-Header1">
+                                    <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">N°</th>
+                                    <th class="TableStyle-Tableau_standard-HeadF-Column2-Header1">Nom du champ</th>
+                                    <th class="TableStyle-Tableau_standard-HeadF-Column2-Header1">Valeur</th>
+                                    <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" rowspan="2">4</td>
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1" rowspan="2">Sens</td>
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">0</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Achat</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">1</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Vente</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" rowspan="6">5</td>
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1" rowspan="6">Catégorie</td>
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">0</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Change au comptant</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">1</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Change à terme</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">2</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Jambe aller de swap comptant contre terme</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">3</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Jambe retour de swap comptant contre terme</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">4</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Jambe aller de swap terme contre terme</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">5</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Jambe retour de swap terme contre terme</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" rowspan="3">10</td>
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1" rowspan="3">Type de contrepartie</td>
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">0</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Société</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">1</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Banque</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">2</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Autre contrepartie</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" rowspan="3">17</td>
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1" rowspan="3">Mode de saisie des cours</td>
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">0</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Saisie du cours</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">1</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Saisie de la valeur de change</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">2</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Saisie du cours et de la valeur de change</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" rowspan="2">23</td>
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1" rowspan="2">Sens du cours</td>
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">0</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Devise principale&#160;/ devise de contre-valeur</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">1</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Devise de contre-valeur&#160;/ devise principale</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" rowspan="2">26</td>
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1" rowspan="2">Sens du cours croisé&#160;1</td>
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">0</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Devise principale&#160;/ devise de la société</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">1</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Devise société&#160;/ devise principale</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" rowspan="2">29</td>
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1" rowspan="2">Sens du cours croisé&#160;2</td>
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">0</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Devise de contre-valeur&#160;/&#160;devise de la société</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">1</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Devise de la société&#160;/ devise de contre-valeur</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" rowspan="2">47</td>
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1" rowspan="2">Statut de la transaction</td>
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">0</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Ouvert</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">1</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Dénoué</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" rowspan="2">53</td>
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1" rowspan="2">Validation <i>back office</i></td>
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">0</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Non validé en <i>back office</i></td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">1</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Validé en <i>back office</i></td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1" rowspan="4">62</td>
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1" rowspan="4">Type de transaction</td>
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">0</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Initial</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">1</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Levé</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">2</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Prorogé</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyC-Column2-Body1">3</td>
+                                    <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">Swap</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="IndentPuceNiv1SautLigne">Les informations suivantes ne sont pas renseignées pour les transactions au comptant (Champ numéro&#160;<b>5</b>, <b>Catégories</b>, renseigné à 1 ou 2)&#160;:</p>
+                        <table class="TableStyle-Tableau_standard" cellspacing="0" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');">
+                            <col class="TableStyle-Tableau_standard-Column-Column1" />
+                            <col class="TableStyle-Tableau_standard-Column-Column2" />
+                            <thead>
+                                <tr class="TableStyle-Tableau_standard-Head-Header1">
+                                    <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">N°</th>
+                                    <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Nom du champ</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">20</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Date de valeur spot</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">21</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Date d'échéance</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">25</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Cours à terme</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">28</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Cours croisé&#160;1 à terme</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">31</td>
+                                    <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">Cours croisé&#160;2 à terme</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="IndentPuceNiv1SautLigne">Le numéro de transaction initiale (champ <b>64</b>) est renseigné avec le numéro de transaction pour les levées anticipées et les prorogations.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Spécifiez les paramètres des champs de chaque enregistrement du fichier.</li>
+                </ol>
+                <p class="IndentPuceNiv1">
+                    <MadCap:toggler targets="Tableau structure importation champs 3b">Afficher les paramètres</MadCap:toggler>
+                </p>
+                <table class="TableStyle-Tableau_standard" cellspacing="0" MadCap:targetName="Tableau structure importation champs 3b" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');">
+                    <thead>
+                        <tr class="TableStyle-Tableau_standard-Head-Header1">
+                            <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Paramètre</th>
+                            <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Type</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Ce champ est défini par défaut et non modifiable.<br />Il indique le type de chaîne&#160;: «&#160;AN&#160;» pour du texte alphanumérique, «&#160;D&#160;» pour une date et «&#160;M&#160;» pour un montant.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Inclus</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Activez cette case à cocher pour exporter la valeur de l'information de la base de données dans le fichier.<br />Désactivez cette case à cocher si vous ne souhaitez pas exporter cette information.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Obligatoire</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Activez cette case à cocher pour spécifier que l'information doit être renseignée dans le fichier.<br />La transaction sera ignorée si une information obligatoire n'est pas renseignée.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Position</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Indiquez la position du premier caractère du champ comportant l'information dans l'enregistrement.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Longueur</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Si le champ comportant l'information a une longueur fixe, indiquez ici sa longueur.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Longueur var.</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Si le champ comportant l'information a une longueur variable, activez cette case à cocher.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Caractère de fin</td>
+                            <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">Si le champ comportant l'information a une longueur variable, indiquez ici le caractère délimitant la fin du champ.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Cliquez sur le bouton <img src="../../Resources/Images/L_FX/Bouton STR fleche drte.JPG" />&#160;<b>Paramétrer les tables de correspondance</b> pour continuer le paramétrage.</li>
+                </ol>
+                <p class="IndentPuceNiv1">La page de paramétrage des tables de correspondance s'affiche.</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2">Si les codes contenus dans le fichier sont identiques à ceux de la base de données, cliquez sur le bouton <img src="../../Resources/Images/L_FX/Bouton STR fleche drte.JPG" />&#160;<b>Tester la structure</b> pour sauter cette étape de paramétrage et passer directement au test de la structure.<b></b></li>
+                    <li class="PuceNiv2">Pour sauter l'étape de test de la structure de fichiers et valider directement le paramétrage, cliquez sur le bouton <img src="../../Resources/Images/L_FX/Bouton STR coche verte.JPG" />&#160;<b>Valider</b>.</li>
+                    <li class="PuceNiv2">Pour annuler le paramétrage en cours et réafficher la liste des structures de fichiers paramétrées, cliquez sur le bouton <img src="../../Resources/Images/L_FX/Bouton STR croix rouge.JPG" />&#160;<b>Annuler</b>.</li>
+                </ul>
+                <p MadCap:targetName="Capture structure importation 4">
+                    <img src="../../Resources/Images/L_FX/Structure exportation changes a terme 3-5.png" class="SAGE_screenshot" />
+                    <br />
+                </p>
+                <p class="IndentPuceNiv1">Cette page comporte quatre onglets.</p>
+                <ul>
+                    <li class="PuceNiv2">L'onglet <b>Comptes</b> vous permet d'établir des équivalences entre les codes de comptes bancaires.</li>
+                    <li class="PuceNiv2">L'onglet <b>Transactions</b> vous permet d'établir des équivalences entre les codes de types de transactions.</li>
+                    <li class="PuceNiv2">L'onglet <b>Sociétés </b>vous permet d'établir des équivalences entre les codes de sociétés.</li>
+                    <li class="PuceNiv2">L'onglet <b>Devises</b> vous permet d'établir des équivalences entre les codes de devises.</li>
+                </ul>
+                <p class="IndentPuceNiv1">Dans l'onglet <b>Comptes</b>, activez la case à cocher <b>Utiliser le paramétrage des équivalences pour les comptes bancaires</b> si vous souhaitez utiliser les équivalences définies pour les comptes bancaires.</p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td class="TableStyle-Note-BodyB-Column1-Body1">
+                                <img src="../../Resources/Images/Assets/oh-Note.png" />
+                            </td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">Si vous activez cette case à cocher, les autres champs de l'onglet sont désactivés.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="IndentPuceNiv1">Cet onglet présente un tableau à quatre colonnes.</p>
+                <ul>
+                    <li class="PuceNiv2">La colonne <b>N°</b> comporte un numéro identifiant chaque équivalence.</li>
+                    <li class="PuceNiv2">La colonne <b>Zone interne</b> comporte les codes de comptes bancaires enregistrés dans la base de données.</li>
+                    <li class="PuceNiv2">Les colonnes <b>Externe de </b>et <b>Externe vers</b> comportent les codes de comptes bancaires contenus dans les fichiers qui seront exportés.</li>
+                </ul>
+                <ol start="6">
+                    <li class="PuceNumNiv1">Si vous n'avez pas activé la case à cocher <b>Utiliser le paramétrage des équivalences pour les comptes bancaires</b>, cliquez sur le bouton <b>Ajouter </b>pour créer une équivalence.</li>
+                </ol>
+                <p class="IndentPuceNiv1">Une ligne est ajoutée au tableau.</p>
+                <ol start="6" MadCap:continue="true">
+                    <li class="PuceNumNiv1">Sur cette ligne, cliquez sur le bouton <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" /> dans la colonne <b>Zone interne</b> pour sélectionner le code de compte bancaire existant dans la base de données.</li>
+                </ol>
+                <p class="IndentPuceNiv1">Le code du compte bancaire s'affiche dans la colonne <b>Zone interne</b>.</p>
+                <ol start="6" MadCap:continue="true">
+                    <li class="PuceNumNiv1">Dans la colonne <b>Externe de</b>, saisissez le code du compte bancaire équivalent dans le fichier exporté.</li>
+                    <li class="PuceNumNiv1">Cliquez sur le bouton <b>Ajouter</b> pour ajouter une nouvelle ligne ou sur le bouton <b>Supprimer</b> pour supprimer la ligne sélectionnée.</li>
+                </ol>
+                <p class="IndentPuceNiv1">Répétez les étapes précédentes autant de fois que nécessaire pour compléter la table de correspondance.</p>
+                <p class="IndentPuceNiv1">Les onglets <b>Transactions</b>, <b>Sociétés</b> et <b>Devises</b> se présentent comme l'onglet <b>Comptes</b>.</p>
+                <p class="IndentPuceNiv1">Procédez comme expliqué ci-dessus pour configurer les équivalences de codes de types de transactions, de codes de sociétés et de codes de devises dans ces onglets.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Cliquez sur le bouton <img src="../../Resources/Images/L_FX/Bouton STR coche verte.JPG" />&#160;<b>Valider </b>pour valider et enregistrer la structure.</li>
+                </ol>
+                <p class="IndentPuceNiv1">La page de paramétrage des structures de fichiers est réaffichée avec, en bas de la liste des structures paramétrées, la nouvelle structure enregistrée.</p>
+                <p>Une fois le paramétrage terminé, vous pouvez exporter les transactions de change. Consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="EXPORT - Intro.htm" target="" title="" alt="" class="XrefSansTexte">Exportation de données</MadCap:xref></MadCap:conditionalText> pour plus d'informations.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead><a name="dupliquer_str"></a>
+                <MadCap:keyword term="Structure de fichier:exportation des transactions de change:duplication;Duplication:structure d'exportation;Transaction de change:duplication:structure" />
+                <MadCap:dropDownHotspot>Dupliquer une structure de fichier</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Vous pouvez créer une structure en utilisant la fonctionnalité de copie des informations d'une structure existante.</p>
+                <ol>
+                    <li class="PuceNumNiv1">Dans la page de paramétrage des structures, cliquez sur la structure à dupliquer, puis cliquez sur le bouton <b>Dupliquer</b> dans la barre d'actions.</li>
+                </ol>
+                <p class="IndentPuceNiv1">Une boîte de dialogue s'affiche vous invitant à modifier la copie créée.</p>
+                <p MadCap:conditions="" MadCap:targetName="Capture Duplication structure 1">
+                    <img src="../../Resources/Images/L_FX/Dupliquer structure exportation transactions change terme 1.png" class="SAGE_screenshot" />
+                </p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Cliquez sur <b>Oui</b> pour modifier la copie créée.</li>
+                    <li class="PuceNumNiv1">La page de création de structure s'affiche, avec les paramètres de la structure dupliquée. Un identifiant est créé automatiquement pour la structure, par incrémentation.</li>
+                </ol>
+                <ol start="2" MadCap:continue="true">
+                    <li class="PuceNumNiv1">Dans la zone <b>Libellé</b>, saisissez le libellé de la nouvelle structure.</li>
+                </ol>
+                <p class="IndentPuceNiv1">Vous pouvez modifier les paramètres de la structure dupliquée.</p>
+                <p>Pour plus d'informations sur les pages de paramétrage de la structure de fichier, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique</MadCap:conditionalText> précédente.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:keyword term="Modifier:correspondances, option" />
+                <MadCap:dropDownHotspot>Modifier les correspondances de valeurs entre fichier et base de données</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Vous pouvez enrichir, modifier, ou élaguer en permanence les correspondances de valeurs entre fichier et base de données.</p>
+                <ol>
+                    <li class="PuceNumNiv1">Dans la page de paramétrage des structures, cliquez sur la structure à modifier, puis cliquez sur le bouton <b>Modifier les correspondances</b> dans la barre d'actions.</li>
+                    <li class="PuceNumNiv1">La page de définition des tables de correspondance s'affiche, avec les correspondances paramétrées pour la structure sélectionnée.</li>
+                </ol>
+                <p MadCap:targetName="Capture Modifier correspondances">
+                    <img src="../../Resources/Images/L_FX/Structure exportation changes a terme 4.png" class="SAGE_screenshot" />
+                </p>
+                <p>Pour plus d'informations sur les champs de cette page, consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique</MadCap:conditionalText> décrivant la création de structure de fichier à exporter.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

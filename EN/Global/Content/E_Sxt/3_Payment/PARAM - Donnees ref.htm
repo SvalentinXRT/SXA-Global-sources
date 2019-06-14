@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:lastBlockDepth="8" MadCap:lastHeight="1497" MadCap:lastWidth="663">
+    <head> <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" /></head>
+    <body>
+        <h1 class="LegacySXT"><MadCap:keyword term="Setup:repository;Repository:setup" />Transverse References</h1>
+        <p>You need to set up the elements below via the <MadCap:variable name="Localization.SXT_Setup" style="font-weight: bold;" /> and <MadCap:variable name="Localization.SXT_MarketData" style="font-weight: bold;" /> modules of <MadCap:variable name="Localization.SXT" style="font-weight: bold;" /> application.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot><MadCap:keyword term="Setup:Repository;Common elements:Setup" />Module <MadCap:variable name="Localization.SXT_Setup" /></MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The elements that need to be set up in <MadCap:variable name="Localization.SXT_Setup" style="font-weight: bold;" />, are listed below. For more information on the setup process, see the module documentation.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Market</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ul>
+                            <li class="PuceNiv1"><b>Banks</b> (used for bank account setup)</li>
+                            <li class="PuceNiv1"><b>Branches</b></li>
+                            <li class="PuceNiv1"><b>Country</b> (used for bank account setup)</li>
+                            <li class="PuceNiv1"><b>Currencies</b></li>
+                            <li class="PuceNiv1" style="font-weight: normal;"><b>Calendars</b>: referenced in the currencies setup, this is the broker calendar used for the calculation of the various transaction dates depending on the worked days for the currency quotation.</li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Entities and Bank Accounts</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ul>
+                            <li class="PuceNiv1"><b>Companies</b></li>
+                            <li class="PuceNiv1"><b>Counterparties</b>: banks or companies, bank groups or company groups with which a transaction can be created</li>
+                            <li class="PuceNiv1"><b>Third Parties</b> (if needed): third organizations, used for Transfer Orders</li>
+                            <li class="PuceNiv1"><b>Bank Accounts</b>: bank details of the companies used during transactions settlement</li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Transactions and Flows</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ul>
+                            <li class="PuceNiv1"><b>Transaction Types</b>: coding of transaction types and association with the different types of cash flows. You need to create the following transaction types:</li>
+                        </ul>
+                        <ul>
+                            <li class="PuceNiv2">International Transfers: transfers issued in a country and sent to a recipient in a foreign country</li>
+                            <li class="PuceNiv2">Domestic Transfers: transfers issued in a country and sent to a recipient in the same country</li>
+                            <li class="PuceNiv2">Commercial Transfers: transfers specific to companies, for Maturity Payments</li>
+                            <li class="PuceNiv2">Treasury Transfers: transfers enabling balancing for the bank accounts of the company</li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Grouping Numbers</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ul>
+                            <li class="PuceNiv1"><b>Link Numbers</b>: references enabling the grouping of transactions for common analysis and processing</li>
+                            <li class="PuceNiv1"><b>File Numbers</b> (if needed)</li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot><MadCap:keyword term="Setup:Market Data;Market Data:Setup" />Module <MadCap:variable name="Localization.SXT_MarketData" /></MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>If you use International Transfers, you also need to set up the exchange rates stated below. For more information on the setup process, see the module documentation.</p>
+                <p><b>Market Rate</b>: exchange rates used on the markets</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

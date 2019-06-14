@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Assistant de macro Repartition analytique 1.jpg" />
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/ContextualTopics/Definir une date.htm" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Bouton signe plus.JPG" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Assistant de macro Repartition analytique 1.jpg" />
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/ContextualTopics/Definir une date.htm" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Bouton signe plus.JPG" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.ScreenOnly" />
+  </AllConditions>
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Note.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

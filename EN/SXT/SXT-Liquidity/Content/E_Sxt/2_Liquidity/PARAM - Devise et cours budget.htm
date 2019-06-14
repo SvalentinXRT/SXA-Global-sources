@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="2082" MadCap:lastWidth="701">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT"><MadCap:keyword term="Currency, setup;Budget rate, setup" />Currencies and Budget Rates</h1>
+        <p>There are two different types of currency rates in <MadCap:variable name="Localization.SXT" />:</p>
+        <ul style="list-style-type: square;">
+            <li class="PuceNiv1">the market rate which is the actual currency rate used by the <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> module for flows,</li>
+            <li class="PuceNiv1">the budget rate which is a forecast rate used by the <MadCap:variable name="Localization.SXT_Liquidity" style="font-weight: bold;" /> module for budget transactions.</li>
+        </ul>
+        <p class="SautLigne">There may be a difference between the budget rate and the market rate. You can view this difference in the discrepancies displayed on the entry page for the budget (analysis mode) or in the budget sheet report.</p>
+        <p>The setup of currencies is required before creating budget sheets. When setting up a company <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">(see the <MadCap:xref href="PARAM - Structure organisationnelle.htm" class="XrefSansTexte">Organizational Structure</MadCap:xref> topic)</MadCap:conditionalText>, you need to select a currency.</p>
+        <p>The budget rate must be set up if you work with several currencies. For example, when a group consists of companies for which the budget is in different currencies, the budgets of the companies can be grouped in a consolidated view at the level of the group and in a unique currency.</p>
+        <p>The value for the budget rate is defined on a monthly basis.</p>
+        <p class="SautLigneAvantEtAprès">The currency can be accessed via the <MadCap:variable name="Localization.SXT_Setup" style="font-weight: bold;" /> module and the budget rate via the <b><MadCap:variable name="Localization.SXT_MarketData" /></b> module.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Defining Currencies</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">Accessing Setup Page for Currencies:</li>
+                    <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_Liquidity/Pertinence champs.flsnp" />
+                    <ol>
+                        <li class="PuceNumNiv2">In the <b><MadCap:variable name="Localization.SXTModulesTasks" /></b> pane, select the <b><MadCap:variable name="Localization.SXT_Setup" /></b> module from the accordion menu.<br />The tasks of the module are displayed in this pane.</li>
+                        <li class="PuceNumNiv2">Select the <b>Currencies</b> option in the <b><MadCap:variable name="Localization.SXTSetupFolder" /></b> folder of this module.</li>
+                    </ol>
+                    <p class="IndentPuceNiv2">The setup page for currencies is displayed with the list of currencies in a table.</p>
+                    <p class="IndentPuceNiv2">The table shows the code and description of each currency in the second and third columns.</p>
+                    <p MadCap:targetName="Capture Devise 1" class="IndentPuceNiv2"><img src="../../Resources/Images/L_Liquidity/Param devise 1.jpg" class="SAGE_screenshot" /></p>
+                    <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_Liquidity/Actions dans tableau page de parametrage.flsnp" />
+                    <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_Liquidity/Ref croisee Reorg tableau.flsnp" />
+                    <li class="PuceNumNiv1">Creating Currencies:</li>
+                </ol>
+                <ol>
+                    <li class="PuceNumNiv2">Click the <b>Create</b> button.<br />The <b>General</b> tab of the creation page for currencies is displayed.</li>
+                </ol>
+                <p MadCap:targetName="Capture Devise 2" class="CaptureIndent"><img src="../../Resources/Images/L_Liquidity/Param devise onglet Generalites.jpg" class="SAGE_screenshot" /></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv2">Select a code in the <b>Code</b> dropdown list of the <b>Identification</b> area.</li>
+                </ol>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv2">Click the following buttons, as needed:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv3"><b>Apply</b> to save the setup of the currency and create another one,</li>
+                    <li class="PuceNiv3"><b>OK</b> to save the setup of the currency and display again the list of set currencies,</li>
+                </ul>
+                <ul>
+                    <li class="PuceNiv3"><b>Cancel</b> to cancel the setup of the currency.</li>
+                </ul>
+                <p>The next step, which is decribed below, consists in defining the budget rate between the new currency and the reference currency.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Defining Budget Rates</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">In the <b>Modules Tasks</b> pane, select the <b><MadCap:variable name="Localization.SXT_MarketData" /></b> module from the accordion menu. The tasks of the module are displayed in this pane.</li>
+                    <li class="PuceNumNiv1">Select the <b>Budget Rate</b> option in the <MadCap:variable name="Localization.SXTManagementFolder" style="font-weight: bold;" /> file.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The setup page for budget rates is displayed with the list of the set up forecast rates in a table.</p>
+                <p class="IndentPuceNiv1">The codes and currency pairs are displayed, along with their forecast values for each month of the current year.</p>
+                <p MadCap:targetName="Capture Cours budget 1" class="IndentPuceNiv1"><img src="../../Resources/Images/L_Liquidity/Cours budget 1.jpg" class="SAGE_screenshot" /></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">To select a currency pair, enable the option on the left of a line and click the <b>Change</b> button.<br />The detail form of the budget rate is displayed.</li>
+                </ol>
+                <p MadCap:targetName="Capture cours budget 2" class="IndentPuceNiv1"><img src="../../Resources/Images/L_Liquidity/Cours budget 2.jpg" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">The <b>Identification</b> area displays the identification information of the currency for which you want to define the rate against the reference currency. It cannot be modified.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Years</b> area at the bottom right, select the year to set up.<br />The budget rates for each month of the selected year are displayed in the <b>Yearly Rate</b> area.</li>
+                    <li class="PuceNumNiv1">Enter the values of the budget rate for each month.</li>
+                </ol>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">If you want to copy the value of a month in the following months of the year, place the cursor in the cell of the value to copy, and click <b>Copy</b>.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The values of the following months are overwritten and updated with the copied value.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Once you defined the budget rate for the selected currency pair, click <b>OK</b> to save your entry or <b>Cancel</b> to cancel the current setup.<br /></li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

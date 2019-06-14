@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Warning.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre change a terme 2.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Change a terme 1.png" />
+    <Link
+      Url="Content/E_Sxt/5_FX/ANNEXE - GUI - Tableau reorg.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/ContextualTopics/Rechercher texte dans tableau page.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/ContextualTopics/Modifier element dans tableau page.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/ContextualTopics/Supprimer element dans tableau page.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/TRAITFINAN - Liaison avec previsions.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/TRAITFINAN - Traitement Back Office.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/TRAITFINAN - Suivi.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/TRAITFINAN - Documents lies aux transactions.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/TRAITFINAN - Journal de treso.htm" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Ref croisee Reorg tableau.flsnp" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Change a terme 2.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Checkmark_L.gif" />
+    <Link
+      Url="Content/Resources/Images/L_FX/croix.gif" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton Points de suspension.JPG" />
+    <Link
+      Url="Content/E_Sxt/5_FX/ANNEXE - Natures de transaction.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/ContextualTopics/Calculatrice.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/ContextualTopics/Calendrier.htm" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton cours inverse.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Change a terme 3.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Change a terme 4.png" />
+    <Link
+      Url="Content/E_Sxt/5_FX/TRAITFINAN - Denouement.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/PARAM - Configuration FX.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/TRAITFINAN - Conversion des montants.htm" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Change a terme 5.png" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Intro onglet Back Office.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Onglet Back Office.flsnp" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Change a terme 6.png" />
+    <Link
+      Url="Content/E_Sxt/5_FX/TRAITFINAN - Change au comptant.htm" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre change a terme 1.png" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Bouton Copier filtre.flsnp" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton fleche bas.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Pop-up calendrier.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton calendrier fleche droite.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton calendrier fleche gauche.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre change a terme 3.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Warning.png" />
+    <Link
+      Url="Content/E_Sxt/5_FX/ANNEXE - Filtres.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Warning.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre change a terme 2.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Change a terme 1.png" />
+    <Link
+      Url="Content/E_Sxt/5_FX/ANNEXE - GUI - Tableau reorg.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/ContextualTopics/Rechercher texte dans tableau page.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/ContextualTopics/Modifier element dans tableau page.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/ContextualTopics/Supprimer element dans tableau page.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/TRAITFINAN - Liaison avec previsions.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/TRAITFINAN - Traitement Back Office.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/TRAITFINAN - Suivi.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/TRAITFINAN - Documents lies aux transactions.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/TRAITFINAN - Journal de treso.htm" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Ref croisee Reorg tableau.flsnp" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Change a terme 2.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Checkmark_L.gif" />
+    <Link
+      Url="Content/Resources/Images/L_FX/croix.gif" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton Points de suspension.JPG" />
+    <Link
+      Url="Content/E_Sxt/5_FX/ANNEXE - Natures de transaction.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/ContextualTopics/Calculatrice.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/ContextualTopics/Calendrier.htm" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton cours inverse.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Change a terme 3.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Change a terme 4.png" />
+    <Link
+      Url="Content/E_Sxt/5_FX/TRAITFINAN - Denouement.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/PARAM - Configuration FX.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/TRAITFINAN - Conversion des montants.htm" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Change a terme 5.png" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Intro onglet Back Office.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Onglet Back Office.flsnp" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Change a terme 6.png" />
+    <Link
+      Url="Content/E_Sxt/5_FX/TRAITFINAN - Change au comptant.htm#dupliquer_trn" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre change a terme 1.png" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Bouton Copier filtre.flsnp" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton fleche bas.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Pop-up calendrier.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton calendrier fleche droite.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton calendrier fleche gauche.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre change a terme 3.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Warning.png" />
+    <Link
+      Url="Content/E_Sxt/5_FX/ANNEXE - Filtres.htm" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="top" />
+    <Anchor
+      Name="onglet_ccroise" />
+    <Anchor
+      Name="onglet_denouement" />
+    <Anchor
+      Name="dupliquer_trn2" />
+    <Anchor
+      Name="filtre_trn" />
+  </Anchors>
+  <Keywords>
+    <IndexCacheEntry
+      Term="Transaction de change:à terme"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="15" />
+    <IndexCacheEntry
+      Term="Change à terme"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="15" />
+    <IndexCacheEntry
+      Term="Change à terme:dupliquer"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="563" />
+    <IndexCacheEntry
+      Term="Duplication:change à terme"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="563" />
+    <IndexCacheEntry
+      Term="Transaction de change:à terme:dupliquer"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="563" />
+    <IndexCacheEntry
+      Term="Transaction de change:à terme:filtre"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="586" />
+    <IndexCacheEntry
+      Term="Change à terme:filtre"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="586" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXTModulesTasks" />
+    <Variable
+      Name="Localization.SXTManagementFolder" />
+    <Variable
+      Name="Localization.SXT_FX" />
+    <Variable
+      Name="Localization.SXT_Setup" />
+    <Variable
+      Name="Localization.SXT_Cash" />
+    <Variable
+      Name="Localization.SXT_MarketData" />
+  </Variables>
+  <FileConditions>
+    <Condition
+      Tag="Default.3Revised" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.3Revised" />
+    <Condition
+      Tag="Default.ScreenOnly" />
+  </AllConditions>
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Warning.css" />
+    <Url
+      Source="Content/Resources/TableStyles/Note.css" />
+    <Url
+      Source="Content/Resources/TableStyles/Tableau standard.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

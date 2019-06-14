@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Pop-up menu tri tableau.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Icone triangle 1.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Icone triangle 2.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Icone filtre.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/bdd filtre personnalise.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Editeur de filtre 1.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Editeur de filtre 2.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Editeur de filtre 3.jpg" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Pop-up menu tri tableau.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Icone triangle 1.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Icone triangle 2.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Icone filtre.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/bdd filtre personnalise.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Editeur de filtre 1.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Editeur de filtre 2.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Editeur de filtre 3.jpg" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="Trier par, option"
+      Conditions=""
+      LocalConditions=""
+      Position="30" />
+    <IndexCacheEntry
+      Term="Grouper par, option"
+      Conditions=""
+      LocalConditions=""
+      Position="52" />
+    <IndexCacheEntry
+      Term="Éditeur de filtre, option"
+      Conditions=""
+      LocalConditions=""
+      Position="122" />
+    <IndexCacheEntry
+      Term="Ajuster (toutes les colonnes), option"
+      Conditions=""
+      LocalConditions=""
+      Position="317" />
+    <IndexCacheEntry
+      Term="Sélection de colonne, option"
+      Conditions=""
+      LocalConditions=""
+      Position="335" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Tableau standard.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

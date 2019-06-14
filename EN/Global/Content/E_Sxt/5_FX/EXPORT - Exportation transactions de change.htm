@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:lastBlockDepth="9" MadCap:lastHeight="5636" MadCap:lastWidth="570">
+    <head>
+        <link href="../../Resources/TableStyles/Warning.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT"><MadCap:keyword term="Export:FX Transactions;FX Transaction:export" />Export of FX Transactions</h1>
+        <p>Exporting FX Transactions consists in creating an FX transaction file that you will be able to import into an external system.</p>
+        <p>Before the export, make sure you set up the corresponding file structure. This structure must be the file format expected by the external system.</p>
+        <p class="SautLigneAvantEtAprès">See the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="PARAM - Structure exportation changes a terme.htm" target="" title="" alt="" class="XrefSansTexte">Export Structure for Forward Exchange Transactions</MadCap:xref> topic</MadCap:conditionalText> for more information.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Accessing Setup Page for Export Tasks of FX Transactions</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>From the <MadCap:variable name="Localization.SXTModulesTasks" style="font-weight: bold;" /> pane, select the <b>Export of Exchange Transactions</b> option in the <MadCap:variable name="Localization.SXTImportFolder" style="font-weight: bold;" /> folder of the <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> module.<br />The page of file export tasks is displayed with the list of the tasks stored in a table.</p>
+                <p MadCap:targetName="Capture importation 1"><img src="../../Resources/Images/L_FX/Creer Tache exportation TRN terme 1.png" class="SAGE_screenshot" /></p>
+                <p>The table shows the task number and description, the file location and the associated file structure.</p>
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_FX/Actions dans page export import.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Creating and Activating Export Tasks</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">In the setup page for Export Tasks, click the <b>Create</b> button.<br />The first page of the Export wizard opens up.</li>
+                </ol>
+                <p MadCap:conditions="" MadCap:targetName="Capture importation 2"><img src="../../Resources/Images/L_FX/Creer Tache exportation TRN terme 2.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">A sequential number is automatically created for the export task and displayed in the field <b>You are going to create the task number</b>.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Enter a description for the export task in the <b>Description</b> field.</li>
+                    <li class="PuceNumNiv1">In the <b>File</b> field, click the button <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" /> to view the <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> browser and select a file to test.</li>
+                </ol>
+                <p class="IndentPuceNiv1SautLigne">A contextual menu appears.</p>
+                <p MadCap:targetName="Capture structure importation 5b"><img src="../../Resources/Images/L_FX/Parametrer structure importation Popup.jpg" class="SAGE_screenshot" /></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the browser, select the directory where the file is located.<br />The path appears in the <b>Selected Path</b> field and the files of the directory are listed in the table at the bottom of the window.</li>
+                    <li class="PuceNumNiv1">Double-click the name of the file to select it, or click the <img src="../../Resources/Images/L_FX/Bouton coche bleue.JPG" style="width: 12px;height: 12px;" /> button to validate the selection.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The wizard appears again and you can view the file path in the <b>File</b> field.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Structure</b> area, click the <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" /> button to display the list of set structures. In the contextual window, double-click the line to select it.</li>
+                    <li class="PuceNumNiv1">Click the button <img src="../../Resources/Images/L_FX/Bouton STR fleche drte.JPG" /> <b>Setting up the export options</b> to go on with the setup.</li>
+                </ol>
+                <p class="IndentPuceNiv1SautLigne">The setup page for options is displayed.</p>
+                <p MadCap:targetName="Capture importation 3"><img src="../../Resources/Images/L_FX/Creer Tache exportation TRN terme 3a.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">If you want to:</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2">go to the next step and save the task just as it is, without launching it, click the <img src="../../Resources/Images/L_FX/Bouton STR coche verte.JPG" style="width: 17px;height: 17px;" /> <b>Validate</b> button,</li>
+                    <li class="PuceNiv2">cancel the current setup and redisplay the list of the export tasks, click the <img src="../../Resources/Images/L_FX/Bouton STR croix rouge.JPG" style="width: 17px;height: 17px;" /> <b>Cancel</b> button.</li>
+                </ul>
+                <p class="IndentPuceNiv1SautLigne">The different tabs of this page enable you to define the filtering criteria if you do not want to export all the FX transactions.</p>
+                <p class="IndentPuceNiv1SautLigne">The definition of these filtering criteria for the transactions export is optional. If you want to export all the FX transactions, <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><a href="#bouton_exporter">click here</a> to go directly to the export step, without going through the steps of the filtering criteria definition.</MadCap:conditionalText></p>
+                <p class="IndentPuceNiv1SautLigne">The <b>Entities</b> tab enables you to specify filtering criteria on the applicant companies of the FX transactions to export.</p>
+                <ol start="8">
+                    <li class="PuceNumNiv1">In the <b>Select</b> area, enable the following option:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>All</b> not to apply any filter on the companies,</li>
+                    <li class="PuceNiv2"><b>Single</b> to select a single applicant company (selection in the area below),</li>
+                    <li class="PuceNiv2"><b>Multiple</b> to select several applicant companies (selection in the area on the right).</li>
+                </ul>
+                <ol start="9">
+                    <li class="PuceNumNiv1">In the <b>Select</b> area , if you selected the following option:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Single</b>, select a company by clicking the button <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> in the area below, then, in the contextual window, double-click your company;</li>
+                    <li class="PuceNiv2"><b>Multiple</b>, select several companies as described below.</li>
+                </ul>
+                <ol>
+                    <li class="PuceNumNiv3">On the right of the <b>Select</b> area, click the <b>Select</b> button.</li>
+                    <li class="PuceNumNiv3">In the contextual window, enable the options in front of the codes for the companies to select, and click the <img src="../../Resources/Images/L_FX/Bouton coche bleue.JPG" /> button at the top of the window.</li>
+                </ol>
+                <p class="IndentPuceNiv3">The codes and descriptions for the selected companies are displayed in the table of the area.</p>
+                <ol start="10">
+                    <li class="PuceNumNiv1">In the <b>Additional Criteria</b> area, you can add other filtering criteria on the countervalue currency of the transactions, using the <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> button.</li>
+                    <li class="PuceNumNiv1">Click on the <b>Main Currencies</b> tab.</li>
+                </ol>
+                <p MadCap:targetName="Onglet devises"><img src="../../Resources/Images/L_FX/Creer Tache exportation TRN terme 3b.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This tab enables you to specify filtering criteria on the main currencies of the FX transactions to export.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Select</b> area, enable the following option:</li>
+                </ol>
+                <ol>
+                    <li class="PuceNumNiv2"><b>All</b> not to apply any filter on the main currencies,</li>
+                    <li class="PuceNumNiv2"><b>Single</b>, to include only the FX transactions which use the selected currency as main currency (in the area below),</li>
+                    <li class="PuceNumNiv2"><b>Multiple</b> to include the FX transactions which use one of the selected currencies as main currency (in the area on the right).</li>
+                </ol>
+                <ol start="13">
+                    <li class="PuceNumNiv1">Go through the same process as in the <b>Entities</b> tab, to select one or several main currencies.</li>
+                    <li class="PuceNumNiv1">Click the <b>Period</b> tab.</li>
+                </ol>
+                <p MadCap:targetName="Onglet Période"><img src="../../Resources/Images/L_FX/Creer Tache exportation TRN terme 3c.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This tab enables you to specify filtering criteria on the transaction and delivery dates of the FX transactions to export.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">To define a filtering process on the transaction date:</li>
+                </ol>
+                <ol>
+                    <li class="PuceNumNiv2">Enable the option <b>TRX Date</b>.</li>
+                </ol>
+                <p class="IndentPuceNiv2">The fields next to the option are enabled.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv2">In these fileds, specify the start and end date of the period, between which must fall the transaction date of the transactions to export, by going through the following process:</li>
+                </ol>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv3">In the entry field, select the value to modify and enter a date with the format dd.mm.yyyy.</li>
+                </ul>
+                <p class="IndentPuceNiv3">- or -</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv3">Click the <img src="../../Resources/Images/L_FX/Bouton fleche bas.jpg"></img> button to display the calendar.</li>
+                </ul>
+                <p class="IndentPuceNiv3">A contextual window displays the calendar.</p>
+                <p class="IndentPuceNiv3SautLigne">
+                    <MadCap:toggler targets="Capture calendrier" class="IndentPuceNiv3SautLigne">View Calendar</MadCap:toggler>
+                </p>
+                <p class="IndentPuceNiv3" MadCap:targetName="Capture calendrier"><img src="../../Resources/Images/L_FX/Pop-up calendrier.jpg" class="SAGE_screenshot"></img></p>
+                <p class="IndentPuceNiv3SautLigne">Use the arrows <img src="../../Resources/Images/L_FX/Bouton calendrier fleche droite.jpg" style="width: 8px;height: 12px;"></img> and <img src="../../Resources/Images/L_FX/Bouton calendrier fleche gauche.jpg"></img> to select the month, year and day.</p>
+                <p class="IndentPuceNiv3">- or -</p>
+                <p class="IndentPuceNiv3">To set the start date to today&apos;s date, click the button <b>Today</b>.</p>
+                <ol start="16">
+                    <li class="PuceNumNiv1">To specify a filtering process on the delivery date, enable the <b>Delivery Date</b> option, then go through the same process as above, to define the start and end dates of the period, between which must fall the delivery date for the transactions to export.</li>
+                    <li class="PuceNumNiv1">Click the <b>Options</b> tab.</li>
+                </ol>
+                <p MadCap:targetName="onglet Options"><img src="../../Resources/Images/L_FX/Creer Tache exportation TRN terme 3d.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This tab enables you to specify filtering criteria on the <i>back office</i> validation and settlement direction of the transaction.</p>
+                <p class="IndentPuceNiv1">It also enables you to add an indicator on the exported transactions. This indicator helps you not to export a same transaction twice.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Back-office Validation</b> dropdown list of the <b>Transaction Status</b> area, select a filtering criterion on the <i>back-office</i> validation of transactions:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Non B.O. Validated</b> to select the non-<i>BO</i>-validated transactions only,</li>
+                    <li class="PuceNiv2"><b>B.O. Validated </b>to select the <i>BO</i>-validated transactions only,</li>
+                    <li class="PuceNiv2"><b>B.O. Validated and Non B.O. Validated</b> to disable any filtering process on the <i>back-office</i> validation.</li>
+                </ul>
+                <ol start="19">
+                    <li class="PuceNumNiv1">In the <b>Transaction Direction</b> dropdown list, select a filtering criterion for the direction of the transaction:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Buy</b> to select the buy transactions only,</li>
+                    <li class="PuceNiv2"><b>Sell</b> to select the sell transactions only,</li>
+                    <li class="PuceNiv2"><b>Buy &amp; Sell</b> to disable any filtering process on the transaction direction.</li>
+                </ul>
+                <ol start="20">
+                    <li class="PuceNumNiv1">In the <b>Mark the exported FX entries</b> area, enable the <b>Yes</b> option if you want to add an indicator on the exported transactions. This will avoid double export during a later export process.</li>
+                    <li class="PuceNumNiv1">In the <b>Export FX Entries</b> area, enable the option:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Not exported</b> if you want only the transactions that have not been exported yet, to be exported (the transactions with the export indicator are excluded),</li>
+                    <li class="PuceNiv2"><b>Exported</b> if you want only the transactions that have already been exported, to be exported (i.e. the transactions marked with the export indicator),</li>
+                    <li class="PuceNiv2"><b>All</b> if you want to cancel any filter on the export indicator.</li>
+                </ul>
+                <ol start="22">
+                    <li class="PuceNumNiv1">Click the <b>Transactions</b> tab.</li>
+                </ol>
+                <p MadCap:targetName="onglet Transactions"><img src="../../Resources/Images/L_FX/Creer Tache exportation TRN terme 3e.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This tab enables you to specify filtering criteria on the type of the FX transactions to export.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Select</b> area, enable the following option:</li>
+                </ol>
+                <ol>
+                    <li class="PuceNumNiv2"><b>All</b> not to cancel any filter on transaction types,</li>
+                    <li class="PuceNumNiv2"><b>Single</b> to include only the FX transactions with the selected type (in the area below),</li>
+                    <li class="PuceNumNiv2"><b>Multiple</b> to include the FX transactions with one of the selected types (in the area on the right).</li>
+                </ol>
+                <ol start="24">
+                    <li class="PuceNumNiv1">Go through the same process as in the <b>Entities</b> tab, to select one or several transaction types.</li>
+                    <li class="PuceNumNiv1">Click on the <b>Advanced</b> tab.</li>
+                </ol>
+                <p MadCap:targetName="onglet Avancé"><img src="../../Resources/Images/L_FX/Creer Tache exportation TRN terme 3f.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This tab enables you to specify filtering criteria on the different charcateristics of FX transactions, such as the order number, the external reference, the file number or the portfolio number, the type or the status of the transaction.</p>
+                <ol start="8" MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Number</b> field of the <b>Transaction</b> area, enter a range of order numbers for transactions.</li>
+                </ol>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Warning.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Warning" cellspacing="0">
+                    <col class="TableStyle-Warning-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Warning-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Warning-Body-Body1">
+                            <td class="TableStyle-Warning-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Warning.png" /></td>
+                            <td class="TableStyle-Warning-BodyA-Column2-Body1">They are not the complete numbers of transactions, but the numbers of the creation order, they can be found on the right of transactions numbers. The transaction number consists of the company code, the transaction type code and the <b>transaction order number</b>.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol start="8" MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Link</b> field, enter a range of link numbers for transactions, or select a range using the button <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" /> as explained previously.</li>
+                    <li class="PuceNumNiv1">In the <b>Reference</b> field, enter the external reference number for transactions.</li>
+                    <li class="PuceNumNiv1">In the <b>File</b> field, enter the file number of the transactions, or select the file using the button <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" />.</li>
+                    <li class="PuceNumNiv1">In the <b>Portfolio</b> field, enter the portfolio number of transactions, or select the portfolio using the <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> button.</li>
+                    <li class="PuceNumNiv1">In the <b>Nature</b> area, enable the options corresponding to the transaction statuses that you want to view:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Initial</b> to select the initial transactions (manual creations),</li>
+                    <li class="PuceNiv2"><b>Exercising</b> to select the forward exchange transactions created after the early exercise,</li>
+                    <li class="PuceNiv2"><b>Deferring</b> to select the forward exchange transactions created after a deferment,</li>
+                    <li class="PuceNiv2"><b>Swap</b> to select the swap transactions,</li>
+                    <li class="PuceNiv2"><b>Exercised</b> to select the forward exchange transactions which have been early exercised,</li>
+                    <li class="PuceNiv2"><b>Deferred</b> to select the forward exchange transactions which have been deferred.</li>
+                </ul>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">For more information on the FX transaction types, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="ANNEXE - Natures de transaction.htm" target="" title="" alt="" class="XrefSansTexte">FX Transaction Types</MadCap:xref> topic.</MadCap:conditionalText></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol start="32">
+                    <li class="PuceNumNiv1">In the <b>Status</b> area, select the option:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Opened</b> to select the non-settled transactions only,</li>
+                    <li class="PuceNiv2"><b>Closed</b> to select the settled transactions only.</li>
+                </ul>
+                <p class="IndentPuceNiv1SautLigne">If you want to:</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2">save the task just as it is, without launching it, click the <img src="../../Resources/Images/L_FX/Bouton STR coche verte.JPG"></img> <b>Validate</b> button.</li>
+                    <li class="PuceNiv2">cancel the current setup and redisplay the list of the export tasks, click the <img src="../../Resources/Images/L_FX/Bouton STR croix rouge.JPG" style="width: 17px;height: 17px;"></img> <b>Cancel</b> button.</li>
+                </ul>
+                <ol start="33">
+                    <li class="PuceNumNiv1"><a name="bouton_exporter"></a>Click the <img src="../../Resources/Images/L_FX/Bouton STR fleche drte.JPG" /> <b>Export</b> button to launch the export task.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The export is launched and a new page is displayed showing the task progress.</p>
+                <p MadCap:targetName="Capture importation 4"><img src="../../Resources/Images/L_FX/Creer Tache exportation TRN terme 4.png" class="SAGE_screenshot" /></p>
+                <ol start="10" MadCap:continue="true">
+                    <li class="PuceNumNiv1">If you want to stop the task, click the <b>Cancel</b> button at the bottom of the page.</li>
+                    <li class="PuceNumNiv1">Once the task is completed, click the <b>Close</b> button at the bottom of the page.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The previous page is redisplayed.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click the <img src="../../Resources/Images/L_FX/Bouton STR coche verte.JPG"></img> <b>Validate</b> button to validate and save the task.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The setup page for export tasks re-appears with the new task at the bottom of the list.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

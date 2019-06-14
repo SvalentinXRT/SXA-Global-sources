@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="562" MadCap:lastWidth="839">
+    <head>&#160;</head>
+    <body>
+        <ol>
+            <li class="PuceNumNiv1">Dans la feuille budgétaire, cliquez sur le bouton <b>Modifier </b>dans la barre d'outils <b>Filtres</b>.<br />La page de paramétrage du filtre sélectionné s'affiche.</li>
+        </ol>
+        <p class="IndentPuceNiv1" MadCap:targetName="Capture Filtre 1">
+            <img src="../../Images/L_Liquidity/Filtre FB 1.jpg" class="SAGE_screenshot" />
+        </p>
+        <ol MadCap:continue="true">
+            <li class="PuceNumNiv1">Cliquez sur l'onglet <b>Affichage</b>.</li>
+        </ol>
+        <p class="IndentPuceNiv1" MadCap:targetName="Capture Filtre 2">
+            <img src="../../Images/L_Liquidity/Filtre FB 3b.jpg" class="SAGE_screenshot" />
+        </p>
+        <ol MadCap:continue="true">
+            <li class="PuceNumNiv1">Dans la zone <b>Affichage FB</b>, activez la case d'option  <b>Prévision de budget</b>.</li>
+        </ol>
+        <MadCap:snippetBlock src="Valider enregistrer annuler.flsnp" />
+        <p>&#160;</p>
+    </body>
+</html>

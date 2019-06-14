@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" class="" MadCap:lastBlockDepth="11" MadCap:lastHeight="12198" MadCap:lastWidth="563">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Warning.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="LegacySXT"><a name="Characteristics"></a> <MadCap:keyword term="Payments: characteristics;Documents:payment order;FX transaction:payment order" />Payment Characteristics</h1>
+        <p>As specified in the <MadCap:xref href="PRINCIPES - Reglements.htm" target="" title="" alt="" class="XrefSansTexte">Payments</MadCap:xref> topic, the term Payment refers to the payment requests plus the various transfer types.</p>
+        <p>Remember that any payment that is not a <b>Payment Request</b> is necessarily a Transfer.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Payment Requests</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Any incomplete order (missing elements compared with the requirements of each transfer type) is a Payment Request.</p>
+                <p>All the payment requests already entered or integrated are grouped in the <b>Payment Requests</b> link of the <b>Transactions</b> menu.</p>
+                <p MadCap:targetName="Capture 1"><img src="../../Resources/Images/L_Payment/Page demandes de paiements.png" class="SAGE_screenshot" /></p>
+                <p>The <b>Payment Requests</b> link provides different functions enabling you to:</p>
+                <ul>
+                    <li class="PuceNiv1">create, modify, delete or view Payment Requests,</li>
+                    <li class="PuceNiv1">validate, authorize or assign <b>To Change</b> or <b>To Delete</b> statuses, once Payment Requests do not bear the <b>To Complete</b> status any longer.</li>
+                    <li class="PuceNiv1">get reports on the payment characteristics via the <b>Documents</b> button and selecting the <b>Ticket</b> command.</li>
+                </ul>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">The <b>Validate</b>, <b>Authorize</b>, <b>Modification Request</b> and <b>Deletion Request</b> options of the <b>Process</b> button do not work for Payment Requests, since their status is <b>To Complete</b>.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="SautLigneAvantEtAprès">When a payment request has not been integrated, you need to create it in the <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> module, through the <b>Payment Requests</b> link of the <b>Transactions</b> menu.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Entering Payment Requests</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li class="PuceNumNiv1">From the homepage of the <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> module, click the <b>Payment Requests</b> link of the <b>Transactions</b> menu.</li>
+                        </ol>
+                        <p class="IndentPuceNiv1">The list of the Payment Requests already integrated to the module, is displayed.</p>
+                        <ol>
+                            <li class="PuceNumNiv1" value="2">Click the <img src="../../Resources/Images/L_Payment/Bouton Créer.png" /> button.</li>
+                            <li class="PuceNumNiv1">Select your creation mode for the new payment request: from an existing template or not, then click <b>OK</b>.</li>
+                        </ol>
+                        <p class="IndentPuceNiv1">For more information on how to create Transactions from an existing template, see the <MadCap:xref href="TRAITFINAN - Modele - Creation.htm#Création transaction avec modele" class="XrefSansTexte">Creating Templates</MadCap:xref> topic.</p>
+                        <ol>
+                            <li class="PuceNumNiv1" value="4">In the Payment Request - Create page, enter the following mandatory elements:</li>
+                        </ol>
+                        <ul>
+                            <li class="PuceNiv2">Transaction Code</li>
+                            <li class="PuceNiv2">Payor (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Payee (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Account ID to debit (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Transaction Curreny (<b>Definition</b> tab)</li>
+                            <li class="PuceNiv2">Transaction Amount (<b>Definition</b> tab)</li>
+                        </ul>
+                        <ol>
+                            <li class="PuceNumNiv1" value="5">Click <b>OK</b> to validate this payment request creation and go back to the list of the integrated payment requests, or click <b>Apply</b> to validate and create another one.</li>
+                        </ol>
+                        <p class="SautLigne">Payment Requests can be modified for two main reasons:</p>
+                        <ul>
+                            <li class="PuceNiv1">To complete some missing information or correct errors in this information.</li>
+                            <li class="PuceNiv1">To turn the status into <b>To Validate</b>, by completing the mandatory information specific to the transfer selected during creation.</li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Modifying Payment Requests</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li class="PuceNumNiv1">From the homepage of the <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> module, click the <b>Payment Requests</b> link of the <b>Transactions</b> menu.</li>
+                        </ol>
+                        <p class="IndentPuceNiv1">The list of the Payment Requests already integrated to the module, is displayed.</p>
+                        <ol>
+                            <li class="PuceNumNiv1" value="2">Select the payment request that you want to edit, then click <b>Change</b> to open the <b>Payment Requests - Change</b> page.</li>
+                            <li class="PuceNumNiv1">Edit the relevant elements, then click <b>OK</b> to save your actions and go back to the Payment Requests list.</li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Deleting Payment Requests</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li class="PuceNumNiv1">Select the requests that you want to delete from the payment request list.</li>
+                            <li class="PuceNumNiv1">Click <img src="../../Resources/Images/L_Payment/Bouton Supprimer.png" /> or press the <b>Delete</b> key.</li>
+                            <li class="PuceNumNiv1">Confirm your action by clicking <b>Yes</b> in the confirmation dialog box.</li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Domestic Transfers</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Domestic transfers are defined as national funds transfers made in the national currency.</p>
+                <p class="SautLigne">The <b>Domestic Transfers</b> link in the <b>Transactions</b> menu displays the list of the integrated domestic transfers.</p>
+                <p MadCap:targetName="Capture 2"><img src="../../Resources/Images/L_Payment/Liste VDOM.png" class="SAGE_screenshot" /></p>
+                <p>Most of the main information on transfers can be viewed from this page.</p>
+                <p class="SautLigne">The <b>Create</b> button in the <b>Domestic Transfers</b> contextual menu triggers the <b>Domestic Transfers - Create</b>, after the potential selection of a template.</p>
+                <p MadCap:targetName="Capture 3"><img src="../../Resources/Images/L_Payment/creation VDOM.png" class="SAGE_screenshot" /></p>
+                <p><a name="Transfers Creation Description Page"></a>The upper part of the page includes four mandatory elements:</p>
+                <ul>
+                    <li class="PuceNiv1">Transaction Code: This code is mandatory for domestic transfers.</li>
+                    <li class="PuceNiv1">The Transaction Reference. It is required for the order to be validated.</li>
+                    <li class="PuceNiv1">The Transaction Number. This number is automatically generated, using the following formula: company code (3 characters) + transaction code (4 characters) + counter (6 positions).</li>
+                    <li class="PuceNiv1">The Transaction Status. The default status is &quot;To Complete&quot;, until the order is fully completed.</li>
+                </ul>
+                <p class="SautLigne">The lower part consists of four entry or selection tabs plus one follow-up tab:</p>
+                <ul>
+                    <li class="PuceNiv1">The <b>Participants</b> tab deals with the transfer issuer and beneficiary.</li>
+                    <li class="PuceNiv1">The <b>Definition</b> tab enables the specification of the transaction.</li>
+                    <li class="PuceNiv1">The <b>Instructions</b> tab contains information on how to process the transaction.</li>
+                    <li class="PuceNiv1">The <b>Back-office</b> tab recaps the life cycle of the payment order. It is automatically completed.</li>
+                    <li class="PuceNiv1">The <b>Declaration</b> tab is designed to complete the declaration required by the national Central Bank.</li>
+                </ul>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Creating a Domestic Transfer</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li class="PuceNumNiv1">From the homepage of the <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> module, click the <b>Domestic Transfers</b> link of the <b>Transactions</b> menu.</li>
+                        </ol>
+                        <p class="IndentPuceNiv1">The list of the domestic transfers already integrated to the module, is displayed.</p>
+                        <ol>
+                            <li class="PuceNumNiv1" value="2">Click the <img src="../../Resources/Images/L_Payment/Bouton Créer.png" /> button.</li>
+                            <li class="PuceNumNiv1">Select the creation mode to use for the new domestic transfer: from an existing template or not, then click <b>OK</b>.</li>
+                        </ol>
+                        <p class="IndentPuceNiv1">For more information on how to create Transactions from an existing template, see the <MadCap:xref href="TRAITFINAN - Modele - Creation.htm#Création transaction avec modele" class="XrefSansTexte">Creating Templates</MadCap:xref> topic.</p>
+                        <ol>
+                            <li class="PuceNumNiv1" value="4">Complete the fields with the information in your possession, i.e. :</li>
+                        </ol>
+                        <ul>
+                            <li class="PuceNiv2">Applicant (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Transaction Code</li>
+                            <li class="PuceNiv2">Reference</li>
+                            <li class="PuceNiv2">Payor (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Payee (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Account ID to debit (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Currency (<b>Definition</b> tab)</li>
+                            <li class="PuceNiv2">Amount (<b>Definition</b> tab)</li>
+                        </ul>
+                        <ol>
+                            <li class="PuceNumNiv1" value="5">When the characteristics of the transfer are completed, and if you want to re-use this information for other transfers, click <b>Save As Template...</b> and enter a code and a description in the displayed <b>Save As Template...</b> page.</li>
+                            <li class="PuceNumNiv1">Click <b>Apply</b> to save your entries and go on with the creation of other transfers, or <b>OK</b> to save your entries and go back to the list of the integrated transfers.</li>
+                        </ol>
+                        <p class="SautLigne">If some elements required for proper transfers are missing – according o the format – a dialog box is displayed.</p>
+                        <p class="SautLigne">It specifies the missing parts. You have two options:</p>
+                        <ul>
+                            <li class="PuceNiv1">Click <b>Yes</b> to create the order notwithstanding the warning, and accepting the <b>To Complete</b> status.</li>
+                            <li class="PuceNiv1">Click <b>No</b> to complete the entry form so that the order can take the <b>To Validate</b> status.</li>
+                        </ul>
+                        <p class="SautLigne">The dialog box continues to appear, after you save the order, until the mandatory elements of this order are all gathered.</p>
+                        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                            <col class="TableStyle-Note-Column-Column1" />
+                            <col class="TableStyle-Note-Column-Column2" />
+                            <tbody>
+                                <tr class="TableStyle-Note-Body-Body1">
+                                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                                    <td class="TableStyle-Note-BodyA-Column2-Body1">Whatever their types, transfers can be modified, provided they have not yet been validated. Afterwards, they can still be viewed, unless a user assigned them the <b>To Change</b> status. In this case, the transfer characteristics can be modified.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Modifying a Domestic Transfer</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li class="PuceNumNiv1">From the homepage of the <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> module, click the <b>Domestic Transfers</b> link of the <b>Transactions</b> menu.</li>
+                        </ol>
+                        <p class="IndentPuceNiv1">The list of the domestic transfers already integrated to the module, is displayed.</p>
+                        <ol>
+                            <li class="PuceNumNiv1" value="2">Select the transfer that you want to edit, then click <b>Change</b> to open the <b>Domestic Transfers - Change</b> page.</li>
+                            <li class="PuceNumNiv1">Edit the relevant elements, then click <b>OK</b> to save your actions and go back to the domestic transfer list.</li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Deleting a Domestic Transfer</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li class="PuceNumNiv1">Select the debit that you want to delete from the integrated domestic transfer list.</li>
+                            <li class="PuceNumNiv1">Click <img src="../../Resources/Images/L_Payment/Bouton Supprimer.png" /> or press the <b>Delete</b> key.</li>
+                            <li>Confirm your action by clicking <b>Yes</b> in the confirmation dialog box.</li>
+                        </ol>
+                        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                            <col class="TableStyle-Note-Column-Column1" />
+                            <col class="TableStyle-Note-Column-Column2" />
+                            <tbody>
+                                <tr class="TableStyle-Note-Body-Body1">
+                                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                                    <td class="TableStyle-Note-BodyA-Column2-Body1">Important  Only the transfers bearing the To Complete, To Change and To Delete statuses can be deleted.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>International Transfers</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>International transfers are defined as cross-borders funds transfers.</p>
+                <p MadCap:targetName="Schéma 1"><img src="../../Resources/Images/L_Payment/VINTL.png" class="SAGE_screenshot" /></p>
+                <p>The <b>International Transfers</b> link in the <b>Transactions</b> menu displays the list of international transfers, either imported or manually entered.</p>
+                <p><img src="../../Resources/Images/L_Payment/Liste VINTL.png" class="SAGE_screenshot" /></p>
+                <p>Most of the main information on transfers can be viewed from this page.</p>
+                <p class="SautLigne">The <b>Create</b> button in the <b>International Transfers</b> contextual menu triggers the <b>International Transfers - Create</b> page, after the potential selection of a template.</p>
+                <p MadCap:targetName="Capture 5"><img src="../../Resources/Images/L_Payment/Creation VINTL.png" class="SAGE_screenshot" /></p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Creating an International Transfer</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li class="PuceNumNiv1">From the homepage of the <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> module, click <b>International Transfers</b> in the <b>Transactions</b> menu.</li>
+                        </ol>
+                        <p class="IndentPuceNiv1">The list of imported international transfers is displayed.</p>
+                        <ol>
+                            <li class="PuceNumNiv1" value="2">Click the <img src="../../Resources/Images/L_Payment/Bouton Créer.png" /> button.</li>
+                            <li class="PuceNumNiv1">Select the creation mode to use for the new international transfer: from an existing template or not, then click <b>OK</b>.</li>
+                        </ol>
+                        <p class="IndentPuceNiv1SautLigne">For more information on how to create Transactions from an existing template, see the <MadCap:xref href="TRAITFINAN - Modele - Creation.htm#Création transaction avec modele" class="XrefSansTexte">Creating Templates</MadCap:xref> topic.</p>
+                        <ol>
+                            <li class="PuceNumNiv1" value="4">Complete the fields with the information in your possession, i.e. :</li>
+                        </ol>
+                        <ul>
+                            <li class="PuceNiv2">Transaction Code</li>
+                            <li class="PuceNiv2">Reference</li>
+                            <li class="PuceNiv2">Applicant (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Payor (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Payee (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Account ID to debit (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Currency (<b>Definition</b> tab)</li>
+                            <li class="PuceNiv2">Amount (<b>Definition</b> tab)</li>
+                            <li class="PuceNiv2">Reason (<b>Definition</b> tab)</li>
+                            <li class="PuceNiv2">Country (<b>Declaration</b> tab)</li>
+                            <li class="PuceNiv2">Economic Type if needed (<b>Declaration</b> tab)</li>
+                        </ul>
+                        <ol>
+                            <li class="PuceNumNiv1" value="5">When the characteristics of the transfer are completed, and if you want to re-use this information for other transfers, click <b>Save As Template...</b> and enter a code and a description in the displayed <b>Save As Template...</b> page.</li>
+                            <li class="PuceNumNiv1">Click <b>Apply</b> to save your entries and go on with the creation of other transfers, or <b>OK</b> to save your entries and go back to the list of imported international transfers.</li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Modifying an International Transfer</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li class="PuceNumNiv1">From the homepage of the <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> module, click <b>International Transfers</b> in the <b>Transactions</b> menu.</li>
+                        </ol>
+                        <p class="IndentPuceNiv1">The list of imported international transfers is displayed.</p>
+                        <ol>
+                            <li class="PuceNumNiv1" value="2">Select the transfer that you want to edit, then click <b>Change</b> to open the <b>International Transfers - Change</b> page.</li>
+                            <li class="PuceNumNiv1">Edit the relevant elements, then click <b>OK</b> to save your actions and go back to the international transfers list.</li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Deleting an International Transfer</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li class="PuceNumNiv1">Select the transfer that you want to delete from the list of imported international transfers.</li>
+                            <li class="PuceNumNiv1">Click <img src="../../Resources/Images/L_Payment/Bouton Supprimer.png" /> or press the <b>Delete</b> key.</li>
+                            <li class="PuceNumNiv1">Confirm your action by clicking <b>Yes</b> in the confirmation dialog box.</li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Commercial Transfers</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Commercial transfers are encashable domestic transfers. The client&apos;s bank offers the provider either payments at maturity or payments in advance with interests.</p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Warning.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Warning" cellspacing="0">
+                    <col class="TableStyle-Warning-Column-Column1" />
+                    <col class="TableStyle-Warning-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Warning-Body-Body1">
+                            <td class="TableStyle-Warning-BodyB-Column1-Body1" style="text-align: left;"><img src="../../Resources/Images/Assets/oh-Warning.png" /></td>
+                            <td class="TableStyle-Warning-BodyA-Column2-Body1">Commercial transfers are carried out in Euros only.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Two formats are available:</p>
+                <ul>
+                    <li class="PuceNiv1">EDIFACT (international standard)</li>
+                    <li class="PuceNiv1">VCOM400 (French standard)</li>
+                </ul>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">The <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> module enables you to import commercial payments, invoice lines included. To be imported, transfer files must comply to the file structure defined for <MadCap:variable name="Localization.SXT" style="font-weight: bold;" />, and transaction codes, accounts, applicants, third parties, etc. need to be previously set up.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>The <b>Commercial Transfers</b> link in the <b>Transactions</b> menu displays the list of commercial transfers, either imported or manually entered.</p>
+                <p MadCap:targetName="Capture 6"><img src="../../Resources/Images/L_Payment/Liste VCOM.png" class="SAGE_screenshot" /></p>
+                <p>Most of the main information on transfers can be viewed from this page. </p>
+                <p class="SautLigne">The <b>Create</b> button in the <b>Commercial Transfers</b> contextual menu triggers the <b>Commercial Transfers - Create</b> page, after the potential selection of a template.</p>
+                <p MadCap:targetName="Capture 7"><img src="../../Resources/Images/L_Payment/Creation VCOM.png" class="SAGE_screenshot" /></p>
+                <p class="SautLigneAvantEtAprès">The <b>Invoices</b> tab enables to enter and manage the invoice lines required to complete commercial transfers.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Creating a Commercial Transfer</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li class="PuceNumNiv1">From the homepage of the <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> module, click <b>Commercial Transfers</b> in the <b>Transactions</b> menu.</li>
+                        </ol>
+                        <p class="IndentPuceNiv1">The list of imported commercial transfers is displayed.</p>
+                        <ol>
+                            <li class="PuceNumNiv1" value="2">Click the <img src="../../Resources/Images/L_Payment/Bouton Créer.png" /> button.</li>
+                            <li class="PuceNumNiv1">Select the creation mode to use for the new commercial transfer: from an existing template or not, then click <b>OK</b>.</li>
+                        </ol>
+                        <p class="IndentPuceNiv1SautLigne">For more information on how to create Transactions from an existing template, see the <MadCap:xref href="TRAITFINAN - Modele - Creation.htm#Création transaction avec modele" class="XrefSansTexte">Creating Templates</MadCap:xref> topic.</p>
+                        <ol>
+                            <li class="PuceNumNiv1" value="4">Complete the fields with the information in your possession, i.e.:</li>
+                        </ol>
+                        <ul>
+                            <li class="PuceNiv2">Transaction Code</li>
+                            <li class="PuceNiv2">Reference</li>
+                            <li class="PuceNiv2">Applicant (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Payor (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Payee (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Account ID to debit (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Beneficiary (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Allocation of Charges (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Currency (<b>Definition</b> tab)</li>
+                            <li class="PuceNiv2">Amount (<b>Definition</b> tab)</li>
+                        </ul>
+                        <ol>
+                            <li class="PuceNumNiv1" value="5">When the characteristics of the transfer are completed, and if you want to re-use this information for other transfers, click <b>Save As Template...</b> and enter a code and a description in the displayed <b>Save As Template...</b> page.</li>
+                            <li class="PuceNumNiv1">Click <b>Apply</b> to save your entries and go on with the creation of other transfers, or <b>OK</b> to save your entries and go back to the list of imported commercial transfers.</li>
+                        </ol>
+                        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                            <col class="TableStyle-Note-Column-Column1" />
+                            <col class="TableStyle-Note-Column-Column2" />
+                            <tbody>
+                                <tr class="TableStyle-Note-Body-Body1">
+                                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                                    <td class="TableStyle-Note-BodyA-Column2-Body1">A Commercial Transfer remains with the status <b>To Complete</b> until an invoice line is linked to the transfer. If trying to fill in the <b>Amount</b> field without any invoice line previously imported through the Invoice tab, an error message will be displayed, specifying that the indicated amount is incorrect.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Entering an Invoice Line</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li class="PuceNumNiv1">Click the <b>Invoices</b> tab from a selected commercial transfer or a commercial transfer being created.</li>
+                            <li class="PuceNumNiv1">Click <b>Create</b> to open the creation page for Invoice Lines.</li>
+                            <li class="PuceNumNiv1">The <b>Expenses</b> option is automatically selected. If your invoice includes a credit note, select the <b>Receipt</b> option.</li>
+                            <li>Select an invoice type.</li>
+                            <li class="PuceNumNiv1">Assign it an internal reference as well as a reference to the Beneficiary.</li>
+                            <li class="PuceNumNiv1">In the second group box, enter the amount in the <b>Amount Paid</b> field. The invoiced amount is automatically calculated.</li>
+                            <li class="PuceNumNiv1">Click <b>Apply</b> to save the invoice line and enter another one or <b>OK</b> to save the invoice line and go back to the <b>Invoices</b> tab of the commercial transfer.</li>
+                        </ol>
+                        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                            <col class="TableStyle-Note-Column-Column1" />
+                            <col class="TableStyle-Note-Column-Column2" />
+                            <tbody>
+                                <tr class="TableStyle-Note-Body-Body1">
+                                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                                    <td class="TableStyle-Note-BodyA-Column2-Body1">Before creating an invoice line, you need to define the transaction currency in the <b>Definition</b> tab.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Modifying an Invoice Line</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li class="PuceNumNiv1">Click the <b>Invoices</b> tab from a selected commercial transfer or a commercial transfer being created.</li>
+                            <li class="PuceNumNiv1">Select the invoice line to edit and click <b>Change</b>.</li>
+                            <li class="PuceNumNiv1">Enter the modifications.</li>
+                            <li class="PuceNumNiv1">Click <b>OK</b> to save your entry.</li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Deleting an Invoice Line</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li class="PuceNumNiv1">Click the <b>Invoices</b> tab from a selected commercial transfer or a commercial transfer being created.</li>
+                            <li class="PuceNumNiv1">Select the invoice line to edit and click <b>Delete</b>.</li>
+                            <li class="PuceNumNiv1">Click <b>Yes</b> in the dialog box to confirm the deletion.</li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Modifying a Commercial Transfer</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li class="PuceNumNiv1">From the homepage of the <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> module, click <b>Commercial Transfers</b> in the <b>Transactions</b> menu.</li>
+                        </ol>
+                        <p class="IndentPuceNiv1">The list of imported commercial transfers is displayed.</p>
+                        <ol>
+                            <li class="PuceNumNiv1" value="2">Select the transfer that you want to edit, then click <b>Change</b> to open the <b>Commercial Transfers - Change</b> page.</li>
+                            <li class="PuceNumNiv1">Edit the relevant elements, then click <b>OK</b> to save your actions and go back to the commercial transfers list.</li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Deleting a Commercial Transfer</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li class="PuceNumNiv1">Select the transfer that you want to delete from the list of imported commercial transfers.</li>
+                            <li class="PuceNumNiv1">Click <img src="../../Resources/Images/L_Payment/Bouton Supprimer.png" /> or press the <b>Delete</b> key.</li>
+                            <li class="PuceNumNiv1">Confirm the deletion of the commercial transfer by clicking <b>Yes</b> in the dialog box.</li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Treasury Transfers</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Treasury Transfers are business-to-business cash transactions, particularly intercompany transactions.</p>
+                <p class="SautLigne">The <b>Treasury Transfers</b> link in the <b>Transactions</b> menu displays the list of treasury transfers, either imported or manually entered.</p>
+                <p MadCap:targetName="Capture 8"><img src="../../Resources/Images/L_Payment/Liste VTS.png" class="SAGE_screenshot" /></p>
+                <p>Most of the main information on transfers can be viewed from this page. </p>
+                <p class="SautLigne">The <b>Create</b> button in the <b>Treasury Transfers</b> contextual menu triggers the <b>Treasury Transfers - Create</b> page, after the potential selection of a template.</p>
+                <p MadCap:targetName="Capture 9"><img src="../../Resources/Images/L_Payment/Creation VTS.png" class="SAGE_screenshot" /></p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Creating a Treasury Transfer</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li class="PuceNumNiv1">From the homepage of the <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> module, click <b>Treasury Transfers</b> in the <b>Transactions</b> menu.</li>
+                        </ol>
+                        <p class="IndentPuceNiv1">The list of imported treasury transfers is displayed.</p>
+                        <ol>
+                            <li class="PuceNumNiv1" value="2">Click the <img src="../../Resources/Images/L_Payment/Bouton Créer.png" /> button.</li>
+                            <li class="PuceNumNiv1">Select the creation mode to use for the new treasury transfer: from an existing template or not, then click <b>OK</b>.</li>
+                        </ol>
+                        <p class="IndentPuceNiv1SautLigne">For more information on how to create Transactions from an existing template, see the <MadCap:xref href="TRAITFINAN - Modele - Creation.htm#Création transaction avec modele" class="XrefSansTexte">Creating Templates</MadCap:xref> topic.</p>
+                        <ol>
+                            <li class="PuceNumNiv1" value="4">Complete the fields with the information in your possession, i.e.:</li>
+                        </ol>
+                        <ul>
+                            <li class="PuceNiv2">Transaction Code</li>
+                            <li class="PuceNiv2">Reference</li>
+                            <li class="PuceNiv2">Applicant (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Payor (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Payee (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Account ID to debit (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Beneficiary (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Account ID to credit (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Currency (<b>Definition</b> tab)</li>
+                            <li class="PuceNiv2">Amount (<b>Definition</b> tab)</li>
+                        </ul>
+                        <ol>
+                            <li class="PuceNumNiv1" value="5">When the characteristics of the transfer are completed, and if you want to re-use this information for other transfers, click <b>Save As Template...</b> and enter a code and a description in the displayed <b>Save As Template...</b> page.</li>
+                            <li class="PuceNumNiv1">Click <b>Apply</b> to save your entries and go on with the creation of other transfers, or <b>OK</b> to save your entries and go back to the list of imported treasury transfers.</li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Modifying a Treasury Transfer</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li class="PuceNumNiv1">From the homepage of the <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> module, click <b>Treasury Transfers</b> in the <b>Transactions</b> menu.</li>
+                        </ol>
+                        <p class="IndentPuceNiv1">The list of imported treasury transfers is displayed.</p>
+                        <ol>
+                            <li class="PuceNumNiv1" value="2">Select the transfer that you want to edit, then click <b>Change</b> to open the <b>treasury Transfers - Change</b> page.</li>
+                            <li class="PuceNumNiv1">Edit the relevant elements, then click <b>OK</b> to save your actions and go back to the treasury transfers list.</li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Deleting a Treasury Transfer</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li class="PuceNumNiv1">Select the transfer that you want to delete from the list of imported treasury transfers.</li>
+                            <li class="PuceNumNiv1">Click <img src="../../Resources/Images/L_Payment/Bouton Supprimer.png" /> or press the <b>Delete</b> key.</li>
+                            <li class="PuceNumNiv1">Confirm the deletion of the treasury transfer by clicking <b>Yes</b> in the dialog box.</li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>International Treasury Transfers</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>International Treasury Transfers are business-to-business cash transactions, particularly intercompany transactions. Moreover, the funds transfers are across countries.</p>
+                <p class="SautLigne">The <b>International Treasury Transfers</b> link in the <b>Transactions</b> menu displays the list of international treasury transfers, either imported or manually entered.</p>
+                <p MadCap:targetName="Capture 10"><img src="../../Resources/Images/L_Payment/Liste VTSI.png" class="SAGE_screenshot" /></p>
+                <p>Most of the main information on transfers can be viewed from this page.</p>
+                <p class="SautLigne">The <b>Create</b> button in the <b>International Treasury Transfers</b> contextual menu triggers the <b>International Treasury Transfers - Create</b> page, after the potential selection of a template.</p>
+                <p MadCap:targetName="Capture 11"><img src="../../Resources/Images/L_Payment/Creation VTSI.png" class="SAGE_screenshot" /></p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Creating an International Treasury Transfer</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li class="PuceNumNiv1">From the homepage of the <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> module, click <b>International Treasury Transfers</b> in the <b>Transactions</b> menu.</li>
+                        </ol>
+                        <p class="IndentPuceNiv1">The list of imported international treasury transfers is displayed.</p>
+                        <ol>
+                            <li class="PuceNumNiv1" value="2">Click the <img src="../../Resources/Images/L_Payment/Bouton Créer.png" /> button.</li>
+                            <li class="PuceNumNiv1">Select the creation mode to use for the new international treasury transfer: from an existing template or not, then click <b>OK</b>.</li>
+                        </ol>
+                        <p class="IndentPuceNiv1SautLigne">For more information on how to create Transactions from an existing template, see the <MadCap:xref href="TRAITFINAN - Modele - Creation.htm" class="XrefSansTexte">Creating Templates</MadCap:xref> topic.</p>
+                        <ol>
+                            <li class="PuceNumNiv1" value="4">Complete the fields with the information in your possession, i.e.:</li>
+                        </ol>
+                        <ul>
+                            <li class="PuceNiv2">Transaction Code</li>
+                            <li class="PuceNiv2">Reference</li>
+                            <li class="PuceNiv2">Applicant (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Payor (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Payee (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Account ID to debit (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Beneficiary (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Account ID to credit (<b>Participants</b> tab)</li>
+                            <li class="PuceNiv2">Currency (<b>Definition</b> tab)</li>
+                            <li class="PuceNiv2">Amount (<b>Definition</b> tab)</li>
+                        </ul>
+                        <ol>
+                            <li class="PuceNumNiv1" value="5">When the characteristics of the transfer are completed, and if you want to re-use this information for other transfers, click <b>Save As Template...</b> and enter a code and a description in the displayed <b>Save As Template...</b> page.</li>
+                            <li class="PuceNumNiv1">Click <b>Apply</b> to save your entries and go on with the creation of other transfers, or <b>OK</b> to save your entries and go back to the list of imported treasury transfers.</li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Modifying an International Treasury Transfer</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li class="PuceNumNiv1">From the homepage of the <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> module, click <b>International Treasury Transfers</b> in the <b>Transactions</b> menu.</li>
+                        </ol>
+                        <p class="IndentPuceNiv1">The list of imported treasury transfers is displayed.</p>
+                        <ol>
+                            <li class="PuceNumNiv1" value="2">Select the transfer that you want to edit, then click <b>Change</b> to open the <b>International Treasury Transfers - Change</b> page.</li>
+                            <li class="PuceNumNiv1">Edit the relevant elements, then click <b>OK</b> to save your actions and go back to the international treasury transfers list.</li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Deleting an International Treasury Transfer</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li class="PuceNumNiv1">Select the transfer that you want to delete from the list of imported international treasury transfers.</li>
+                            <li class="PuceNumNiv1">Click <img src="../../Resources/Images/L_Payment/Bouton Supprimer.png" /> or press the <b>Delete</b> key.</li>
+                            <li>Confirm the deletion of the international treasury transfer by clicking <b>Yes</b> in the dialog box.</li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

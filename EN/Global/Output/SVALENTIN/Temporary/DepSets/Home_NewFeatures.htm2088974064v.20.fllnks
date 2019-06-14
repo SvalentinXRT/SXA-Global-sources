@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileClass="home-page"
+  FileTitle="New Features"
+  FileSearchable="true"
+  MasterPage="file:///C:/__OHC MADCAP/Sage XRT Advanced/EN/Global/Content/Resources/MasterPages/HomePage.flmsp"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0"
+  FileDescription="">
+  <Links>
+    <Link
+      Url="Content/Resources/MasterPages/HomePage.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/StylesForHomePage.css" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Sage/blue_newfeatures.svg" />
+    <Link
+      Url="Content/F_NewFeatures/SageXRTAdvanced.2.1.htm" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.1/NewFeatures.SXA.2.1.IBANValidation.png" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.1/NewFeatures.SXA.2.1.SubAccounts.png" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.1/NewFeatures.SXA.2.1.Calendars.png" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.1/NewFeatures.SXA.2.1.BatchImport.png" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.1/NewFeatures.SXA.2.1.SelectedEdition.png" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.1/NewFeatures.SXA.2.1.BankDelegationsLetterInformation.png" />
+    <Link
+      Url="Content/F_NewFeatures/SageXRTAdvanced.2.0.htm" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/SXA.2.0.EspaceBancaire.png" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/SXA.2.0.AjoutCommentaire.png" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/SXA.2.0.Dashboards.png" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/SXA.2.0.EditeurDashboard.png" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/SXA.2.0.Grille.png" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/SXA.2.0.Rejets.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/MasterPages/HomePage.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/StylesForHomePage.css" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/Sage/blue_newfeatures.svg" />
+    <Link
+      Url="Content/F_NewFeatures/SageXRTAdvanced.2.1.htm#SXA.2.1.ValidationBICIBBAN" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.1/NewFeatures.SXA.2.1.IBANValidation.png" />
+    <Link
+      Url="Content/F_NewFeatures/SageXRTAdvanced.2.1.htm#SXA.2.1.RIBAccreditifs" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.1/NewFeatures.SXA.2.1.SubAccounts.png" />
+    <Link
+      Url="Content/F_NewFeatures/SageXRTAdvanced.2.1.htm#SXA.2.1.Calendriers" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.1/NewFeatures.SXA.2.1.Calendars.png" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/F_NewFeatures/SageXRTAdvanced.2.1.htm#SXA.2.1.ImportationMasse" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.1/NewFeatures.SXA.2.1.BatchImport.png" />
+    <Link
+      Url="Content/F_NewFeatures/SageXRTAdvanced.2.1.htm#SXA.2.1.EditionSelection" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.1/NewFeatures.SXA.2.1.SelectedEdition.png" />
+    <Link
+      Url="Content/F_NewFeatures/SageXRTAdvanced.2.1.htm#SXA.2.1.PouvoirsBancaires" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.1/NewFeatures.SXA.2.1.BankDelegationsLetterInformation.png" />
+    <Link
+      Url="Content/F_NewFeatures/SageXRTAdvanced.2.0.htm#SXA.2.0.EspaceBancaire" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/SXA.2.0.EspaceBancaire.png" />
+    <Link
+      Url="Content/F_NewFeatures/SageXRTAdvanced.2.0.htm#SXA2.0.AjoutCommentaire" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/SXA.2.0.AjoutCommentaire.png" />
+    <Link
+      Url="Content/F_NewFeatures/SageXRTAdvanced.2.0.htm#SXA2.0..Dashboards" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/SXA.2.0.Dashboards.png" />
+    <Link
+      Url="Content/F_NewFeatures/SageXRTAdvanced.2.0.htm#SXA2.0.EditeurDashboard" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/SXA.2.0.EditeurDashboard.png" />
+    <Link
+      Url="Content/F_NewFeatures/SageXRTAdvanced.2.0.htm#SXA2.0.Grille" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/SXA.2.0.Grille.png" />
+    <Link
+      Url="Content/F_NewFeatures/SageXRTAdvanced.2.0.htm#SXA2.0.GestionRejets" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/SXA.2.0.Rejets.png" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="NewFeaturesSlide" />
+  </Anchors>
+  <Keywords />
+  <Concepts>
+    <ConceptCacheEntry
+      Term="New Features"
+      Conditions=""
+      LocalConditions=""
+      Position="6" />
+  </Concepts>
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXA_Setup" />
+    <Variable
+      Name="Localization.SXA_Administration" />
+    <Variable
+      Name="Localization.SXA_BankDelegations" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/StylesForHomePage.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

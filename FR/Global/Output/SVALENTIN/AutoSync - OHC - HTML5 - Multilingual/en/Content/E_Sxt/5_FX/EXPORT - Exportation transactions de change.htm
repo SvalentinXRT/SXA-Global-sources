@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en" xml:lang="en" class="_Skins_HTML5___Top_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="&gt; Sage XRT&#160;Treasury|[%=System.LinkedTitle%]|Export" data-mc-conditions="Default.3Revised" data-mc-file-tags="OHCGlobal.GBL">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title>Export of FX Transactions</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.select-language-button
+{
+	-pie-background: url('../../../Skins/Default/Stylesheets/Images/Toolbar-EN.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.print-button
+{
+	-pie-background: url('../../../Skins/Default/Stylesheets/Images/Toolbar-Print.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.previous-topic-button
+{
+	-pie-background: url('../../../Skins/Default/Stylesheets/Images/Toolbar-LeftArrow.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.next-topic-button
+{
+	-pie-background: url('../../../Skins/Default/Stylesheets/Images/Toolbar-RightArrow.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../../../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <link href="../../Resources/TableStyles/Warning.css" rel="stylesheet" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.6.2.3_custom.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-right is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="small" data-mc-ignore="true">
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <button class="menu-icon" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../../Home.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="1" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" placeholder="Search for help or documentation" />
+                                                <div class="search-filter-wrapper">
+                                                    <div class="search-filter">
+                                                        <div class="search-filter-content">
+                                                            <ul>
+                                                                <li>All Files</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <section class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <div class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="body-container" data-mc-content-body="True">
+                                <div class="search-container">
+                                    <form class="search" action="#">
+                                        <div class="search-bar search-bar-container needs-pie _Skins_SearchTopics mc-component">
+                                            <input class="search-field needs-pie" type="search" placeholder="Search for help or documentation" />
+                                            <div class="search-filter-wrapper">
+                                                <div class="search-filter">
+                                                    <div class="search-filter-content">
+                                                        <ul>
+                                                            <li>All Files</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="search-submit-wrapper" dir="ltr">
+                                                <div class="search-submit" title="Search">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="row collapse">
+                                    <div class="top-bar">
+                                        <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolbar mc-component nocontent" style="mc-topic-toolbar-items: ;">
+                                            <div class="button-group-container-left">
+                                                <button class="button needs-pie select-language-button" title="Change language">
+                                                    <img src="../../../Skins/Default/Stylesheets/Images/transparent.gif" alt="select language" />
+                                                </button>
+                                                <button class="button needs-pie print-button" title="Print">
+                                                    <img src="../../../Skins/Default/Stylesheets/Images/transparent.gif" alt="print" />
+                                                </button>
+                                                <button class="button needs-pie previous-topic-button" title="Navigate previous">
+                                                    <img src="../../../Skins/Default/Stylesheets/Images/transparent.gif" alt="previous topic" />
+                                                </button>
+                                                <button class="button needs-pie next-topic-button" title="Navigate next">
+                                                    <img src="../../../Skins/Default/Stylesheets/Images/transparent.gif" alt="next topic" />
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="nocontent">
+                                            <div class="MCBreadcrumbsBox_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Vous êtes ici : </span>
+                                            </div>
+                                        </div> </div>
+                                    <div class="topic-layout">
+                                        <div>
+                                            <div class="side-menu">
+                                                <ul class="nocontent menu _Skins_SideMenu mc-component" data-mc-is-context-sensitive="True" data-mc-linked-toc="Data/Tocs/Master.js" data-mc-side-menu="True" data-mc-max-depth="1" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h1 class="LegacySXT"><a name="kanchor22"></a>Export of FX Transactions</h1>
+                                            <p>Exporting FX Transactions consists in creating an FX transaction file that you will be able to import into an external system.</p>
+                                            <p>Before the export, make sure you set up the corresponding file structure. This structure must be the file format expected by the external system.</p>
+                                            <p class="SautLigneAvantEtAprès">See the <MadCap:conditionalText data-mc-conditions="Default.ScreenOnly"><a href="PARAM - Structure exportation changes a terme.htm" title="" alt="" class="XrefSansTexte MCXref xref xrefXrefSansTexte">Export structure for FX transactions</a> topic</MadCap:conditionalText> for more information.</p>
+                                            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Accessing Setup Page for Export Tasks of FX Transactions</a></span>
+                                                <div class="MCDropDownBody dropDownBody">
+                                                    <p>From the <span style="font-weight: bold;" class="LocalizationSXTModulesTasks">Modules Tasks</span> pane, select the <b>Export of Exchange Transactions</b> option in the <span style="font-weight: bold;" class="LocalizationSXTImportFolder">Import/Export</span> folder of the <span style="font-weight: bold;" class="LocalizationSXT_FX">FX</span> module.<br />The page of file export tasks is displayed with the list of the tasks stored in a table.</p>
+                                                    <p data-mc-target-name="Capture importation 1"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/L_FX/Creer Tache exportation TRN terme 1.png"><img class="MCPopupThumbnail img imgSAGE_screenshot" data-mc-width="676" data-mc-height="144" src="../../Resources/Images/L_FX/Creer Tache exportation TRN terme 1_thumb_150_100.png" tabindex="" /></a>
+                                                    </p>
+                                                    <p>The table shows the task number and description, the file location and the associated file structure.</p>
+                                                    <ul>
+                                                        <li class="PuceNiv1" style="margin-top: 12pt;" value="1" data-mc-conditions="Default.ScreenOnly"><b>la réorganisation de l'affichage des lignes</b> du tableau, <a href="ANNEXE - GUI - Tableau reorg.htm" class="MCTopic MCTopicPopupHotSpot a aPopup" data-mc-width="auto" data-mc-height="auto">cliquez ici</a>,</li>
+                                                        <li class="PuceNiv1" value="2" data-mc-conditions="Default.ScreenOnly"><b>la recherche de texte</b> dans le tableau, <a href="ContextualTopics/Rechercher texte dans tableau page.htm" class="MCTopic MCTopicPopupHotSpot a aPopup" data-mc-width="auto" data-mc-height="auto">cliquez ici</a>,</li>
+                                                        <li class="PuceNiv1" value="3" data-mc-conditions=""><b>la création d'une ligne</b>, consultez la <MadCap:conditionalText data-mc-conditions="Default.ScreenOnly">rubrique</MadCap:conditionalText> ci-après,</li>
+                                                        <li class="PuceNiv1" value="4" data-mc-conditions="Default.ScreenOnly"><b>la modification d'une ligne</b> dans le tableau, <a href="ContextualTopics/Modifier element dans tableau page.htm" class="MCTopic MCTopicPopupHotSpot a aPopup" data-mc-width="auto" data-mc-height="auto">cliquez ici</a>,</li>
+                                                        <li class="PuceNiv1" value="5" data-mc-conditions="Default.ScreenOnly"><b>la suppression d'une ligne</b> dans le tableau, <a href="ContextualTopics/Supprimer element dans tableau page.htm" class="MCTopic MCTopicPopupHotSpot a aPopup" data-mc-width="auto" data-mc-height="auto">cliquez ici,</a></li>
+                                                        <li class="PuceNiv1" value="6"><b>le lancement d'une tâche</b> via l'interface du module <span style="font-weight: bold;" class="LocalizationSXT_FX">FX</span>, en tâche de fond, en mode distant ou en ligne de commande, consultez la <MadCap:conditionalText data-mc-conditions="Default.ScreenOnly">rubrique <a title="" alt="" class="XrefSansTexte MCXref xref xrefXrefSansTexte" href="ANNEXE - GUI - Barre outils actions.htm#Actions">Actions Toolbar</a>.</MadCap:conditionalText></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Creating and Activating Export Tasks</a></span>
+                                                <div class="MCDropDownBody dropDownBody">
+                                                    <ol>
+                                                        <li class="PuceNumNiv1" value="1">In the setup page for Export Tasks, click the <b>Create</b> button.<br />The first page of the Export wizard opens up.</li>
+                                                    </ol>
+                                                    <p data-mc-target-name="Capture importation 2" data-mc-conditions=""><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/L_FX/Creer Tache exportation TRN terme 2.png"><img class="MCPopupThumbnail img imgSAGE_screenshot" data-mc-width="702" data-mc-height="693" src="../../Resources/Images/L_FX/Creer Tache exportation TRN terme 2_thumb_150_100.png" tabindex="" /></a>
+                                                    </p>
+                                                    <p class="IndentPuceNiv1">A sequential number is automatically created for the export task and displayed in the field <b>You are going to create the task number</b>.</p>
+                                                    <ol data-mc-continue="true">
+                                                        <li class="PuceNumNiv1" value="2">Enter a description for the export task in the <b>Description</b> field.</li>
+                                                        <li class="PuceNumNiv1" value="3">In the <b>File</b> field, click the button <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" /> to view the <span style="font-weight: bold;" class="LocalizationSXT_FX">FX</span> browser and select a file to test.</li>
+                                                    </ol>
+                                                    <p class="IndentPuceNiv1SautLigne">A contextual menu appears.</p>
+                                                    <p data-mc-target-name="Capture structure importation 5b"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/L_FX/Parametrer structure importation Popup.jpg"><img class="MCPopupThumbnail img imgSAGE_screenshot" data-mc-width="431" data-mc-height="451" src="../../Resources/Images/L_FX/Parametrer structure importation Popup_thumb_150_100.jpg" tabindex="" /></a>
+                                                    </p>
+                                                    <ol data-mc-continue="true">
+                                                        <li class="PuceNumNiv1" value="4">In the browser, select the directory where the file is located.<br />The path appears in the <b>Selected Path</b> field and the files of the directory are listed in the table at the bottom of the window.</li>
+                                                        <li class="PuceNumNiv1" value="5">Double-click the name of the file to select it, or click the <img src="../../Resources/Images/L_FX/Bouton coche bleue.JPG" style="width: 12px;height: 12px;" /> button to validate the selection.</li>
+                                                    </ol>
+                                                    <p class="IndentPuceNiv1">The wizard appears again and you can view the file path in the <b>File</b> field.</p>
+                                                    <ol data-mc-continue="true">
+                                                        <li class="PuceNumNiv1" value="6">In the <b>Structure</b> area, click the <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" /> button to display the list of set structures. In the contextual window, double-click the line to select it.</li>
+                                                        <li class="PuceNumNiv1" value="7">Click the button <img src="../../Resources/Images/L_FX/Bouton STR fleche drte.JPG" />&#160;<b>Setting up the export options</b> to go on with the setup.</li>
+                                                    </ol>
+                                                    <p class="IndentPuceNiv1SautLigne">The setup page for options is displayed.</p>
+                                                    <p data-mc-target-name="Capture importation 3"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/L_FX/Creer Tache exportation TRN terme 3a.png"><img class="MCPopupThumbnail img imgSAGE_screenshot" data-mc-width="702" data-mc-height="691" src="../../Resources/Images/L_FX/Creer Tache exportation TRN terme 3a_thumb_150_100.png" tabindex="" /></a>
+                                                    </p>
+                                                    <p class="IndentPuceNiv1">If you want to:</p>
+                                                    <ul style="list-style-type: square;">
+                                                        <li class="PuceNiv2" value="1">go to the next step and save the task just as it is, without launching it, click the <img src="../../Resources/Images/L_FX/Bouton STR coche verte.JPG" style="width: 17px;height: 17px;" /> <b>Validate</b> button,</li>
+                                                        <li class="PuceNiv2" value="2">cancel the current setup and redisplay the list of the export tasks, click the <img src="../../Resources/Images/L_FX/Bouton STR croix rouge.JPG" style="width: 17px;height: 17px;" /> <b>Cancel</b> button.</li>
+                                                    </ul>
+                                                    <p class="IndentPuceNiv1SautLigne">The different tabs of this page enable you to define the filtering criteria if you do not want to export all the FX transactions.</p>
+                                                    <p class="IndentPuceNiv1SautLigne">The definition of these filtering criteria for the transactions export is optional. If you want to export all the FX transactions, <MadCap:conditionalText data-mc-conditions="Default.ScreenOnly"><a href="#bouton_exporter">click here</a> to go directly to the export step, without going through the steps of the filtering criteria definition.</MadCap:conditionalText></p>
+                                                    <p class="IndentPuceNiv1SautLigne">The <b>Entities</b> tab enables you to specify filtering criteria on the applicant companies of the FX transactions to export.</p>
+                                                    <ol start="8">
+                                                        <li class="PuceNumNiv1" value="8">In the <b>Select</b> area, enable the following option:</li>
+                                                    </ol>
+                                                    <ul>
+                                                        <li class="PuceNiv2" value="1"><b>All</b> not to apply any filter on the companies,</li>
+                                                        <li class="PuceNiv2" value="2"><b>Single</b> to select a single applicant company (selection in the area below),</li>
+                                                        <li class="PuceNiv2" value="3"><b>Multiple</b> to select several applicant companies (selection in the area on the right).</li>
+                                                    </ul>
+                                                    <ol start="9">
+                                                        <li class="PuceNumNiv1" value="9">In the <b>Select</b> area , if you selected the following option:</li>
+                                                    </ol>
+                                                    <ul>
+                                                        <li class="PuceNiv2" value="1"><b>Single</b>, select a company by clicking the button <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> in the area below, then, in the contextual window, double-click your company;</li>
+                                                        <li class="PuceNiv2" value="2"><b>Multiple</b>, select several companies as described below.</li>
+                                                    </ul>
+                                                    <ol>
+                                                        <li class="PuceNumNiv3" value="1">On the right of the <b>Select</b> area, click the <b>Select</b> button.</li>
+                                                        <li class="PuceNumNiv3" value="2">In the contextual window, enable the options in front of the codes for the companies to select, and click the <img src="../../Resources/Images/L_FX/Bouton coche bleue.JPG" /> button at the top of the window.</li>
+                                                    </ol>
+                                                    <p class="IndentPuceNiv3">The codes and descriptions for the selected companies are displayed in the table of the area.</p>
+                                                    <ol start="10">
+                                                        <li class="PuceNumNiv1" value="10">In the <b>Additional Criteria</b> area, you can add other filtering criteria on the countervalue currency of the transactions, using the <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> button.</li>
+                                                        <li class="PuceNumNiv1" value="11">Click on the <b>Main Currencies</b> tab.</li>
+                                                    </ol>
+                                                    <p data-mc-target-name="Onglet devises"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/L_FX/Creer Tache exportation TRN terme 3b.png"><img class="MCPopupThumbnail img imgSAGE_screenshot" data-mc-width="702" data-mc-height="689" src="../../Resources/Images/L_FX/Creer Tache exportation TRN terme 3b_thumb_150_100.png" tabindex="" /></a>
+                                                    </p>
+                                                    <p class="IndentPuceNiv1">This tab enables you to specify filtering criteria on the main currencies of the FX transactions to export.</p>
+                                                    <ol data-mc-continue="true">
+                                                        <li class="PuceNumNiv1" value="12">In the <b>Select</b> area, enable the following option:</li>
+                                                    </ol>
+                                                    <ol>
+                                                        <li class="PuceNumNiv2" value="1"><b>All</b> not to apply any filter on the main currencies,</li>
+                                                        <li class="PuceNumNiv2" value="2"><b>Single</b>, to include only the FX transactions which use the selected currency as main currency (in the area below),</li>
+                                                        <li class="PuceNumNiv2" value="3"><b>Multiple</b> to include the FX transactions which use one of the selected currencies as main currency (in the area on the right).</li>
+                                                    </ol>
+                                                    <ol start="13">
+                                                        <li class="PuceNumNiv1" value="13">Go through the same process as in the <b>Entities</b> tab, to select one or several main currencies.</li>
+                                                        <li class="PuceNumNiv1" value="14">Click the <b>Period</b> tab.</li>
+                                                    </ol>
+                                                    <p data-mc-target-name="Onglet Période"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/L_FX/Creer Tache exportation TRN terme 3c.png"><img class="MCPopupThumbnail img imgSAGE_screenshot" data-mc-width="702" data-mc-height="391" src="../../Resources/Images/L_FX/Creer Tache exportation TRN terme 3c_thumb_150_100.png" tabindex="" /></a>
+                                                    </p>
+                                                    <p class="IndentPuceNiv1">This tab enables you to specify filtering criteria on the transaction and delivery dates of the FX transactions to export.</p>
+                                                    <ol data-mc-continue="true">
+                                                        <li class="PuceNumNiv1" value="15">To define a filtering process on the transaction date:</li>
+                                                    </ol>
+                                                    <ol>
+                                                        <li class="PuceNumNiv2" value="1">Enable the option <b>TRX Date</b>.</li>
+                                                    </ol>
+                                                    <p class="IndentPuceNiv2">The fields next to the option are enabled.</p>
+                                                    <ol data-mc-continue="true">
+                                                        <li class="PuceNumNiv2" value="2">In these fileds, specify the start and end date of the period, between which must fall the transaction date of the transactions to export, by going through the following process:</li>
+                                                    </ol>
+                                                    <ul style="list-style-type: square;">
+                                                        <li class="PuceNiv3" value="1">In the entry field, select the value to modify and enter a date with the format dd.mm.yyyy.</li>
+                                                    </ul>
+                                                    <p class="IndentPuceNiv3">- or -</p>
+                                                    <ul style="list-style-type: square;">
+                                                        <li class="PuceNiv3" value="1">Click the <img src="../../Resources/Images/L_FX/Bouton fleche bas.jpg" /> button to display the calendar.</li>
+                                                    </ul>
+                                                    <p class="IndentPuceNiv3">A contextual window displays the calendar.</p>
+                                                    <p class="IndentPuceNiv3SautLigne"><a href="javascript:void(0);" class="MCToggler MCTogglerHead MCTogglerHotSpot MCToggler_Open toggler togglerIndentPuceNiv3SautLigne MCTogglerHotSpot_ MCTogglerHotSpot_IndentPuceNiv3SautLigne MCHotSpotImage" data-mc-targets="Capture calendrier"><img class="MCToggler_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />View Calendar</a>
+                                                    </p>
+                                                    <p class="IndentPuceNiv3" style="display: none;" data-mc-target-name="Capture calendrier"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/L_FX/Pop-up calendrier.jpg"><img class="MCPopupThumbnail img imgSAGE_screenshot" data-mc-width="168" data-mc-height="163" src="../../Resources/Images/L_FX/Pop-up calendrier_thumb_150_100.jpg" tabindex="" /></a>
+                                                    </p>
+                                                    <p class="IndentPuceNiv3SautLigne">Use the arrows <img src="../../Resources/Images/L_FX/Bouton calendrier fleche droite.jpg" style="width: 8px;height: 12px;" /> and <img src="../../Resources/Images/L_FX/Bouton calendrier fleche gauche.jpg" /> to select the month, year and day.</p>
+                                                    <p class="IndentPuceNiv3">- or -</p>
+                                                    <p class="IndentPuceNiv3">To set the start date to today's date, click the button <b>Today</b>.</p>
+                                                    <ol start="16">
+                                                        <li class="PuceNumNiv1" value="16">To specify a filtering process on the delivery date, enable the <b>Delivery Date</b> option, then go through the same process as above, to define the start and end dates of the period, between which must fall the delivery date for the transactions to export.</li>
+                                                        <li class="PuceNumNiv1" value="17">Click the <b>Options</b> tab.</li>
+                                                    </ol>
+                                                    <p data-mc-target-name="onglet Options"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/L_FX/Creer Tache exportation TRN terme 3d.png"><img class="MCPopupThumbnail img imgSAGE_screenshot" data-mc-width="722" data-mc-height="482" src="../../Resources/Images/L_FX/Creer Tache exportation TRN terme 3d_thumb_150_100.png" tabindex="" /></a>
+                                                    </p>
+                                                    <p class="IndentPuceNiv1">This tab enables you to specify filtering criteria on the <i>back office</i> validation and settlement direction of the transaction.</p>
+                                                    <p class="IndentPuceNiv1">It also enables you to add an indicator on the exported transactions. This indicator helps you not to export a same transaction twice.</p>
+                                                    <ol data-mc-continue="true">
+                                                        <li class="PuceNumNiv1" value="18">In the <b>Back-office Validation</b> dropdown list of the <b>Transaction Status</b> area, select a filtering criterion on the <i>back-office</i> validation of transactions:</li>
+                                                    </ol>
+                                                    <ul>
+                                                        <li class="PuceNiv2" value="1"><b>Non B.O. Validated</b> to select the non-<i>BO</i>-validated transactions only,</li>
+                                                        <li class="PuceNiv2" value="2"><b>B.O. Validated </b>to select the <i>BO</i>-validated transactions only,</li>
+                                                        <li class="PuceNiv2" value="3"><b>B.O. Validated and Non B.O. Validated</b> to disable any filtering process on the <i>back-office</i> validation.</li>
+                                                    </ul>
+                                                    <ol start="19">
+                                                        <li class="PuceNumNiv1" value="19">In the <b>Transaction Direction</b> dropdown list, select a filtering criterion for the direction of the transaction:</li>
+                                                    </ol>
+                                                    <ul>
+                                                        <li class="PuceNiv2" value="1"><b>Buy</b> to select the buy transactions only,</li>
+                                                        <li class="PuceNiv2" value="2"><b>Sell</b> to select the sell transactions only,</li>
+                                                        <li class="PuceNiv2" value="3"><b>Buy &amp; Sell</b> to disable any filtering process on the transaction direction.</li>
+                                                    </ul>
+                                                    <ol start="20">
+                                                        <li class="PuceNumNiv1" value="20">In the <b>Mark the exported FX entries</b> area, enable the <b>Yes</b> option if you want to add an indicator on the exported transactions. This will avoid double export during a later export process.</li>
+                                                        <li class="PuceNumNiv1" value="21">In the <b>Export FX Entries</b> area, enable the option:</li>
+                                                    </ol>
+                                                    <ul>
+                                                        <li class="PuceNiv2" value="1"><b>Not exported</b> if you want only the transactions that have not been exported yet, to be exported (the transactions with the export indicator are excluded),</li>
+                                                        <li class="PuceNiv2" value="2"><b>Exported</b> if you want only the transactions that have already been exported, to be exported (i.e. the transactions marked with the export indicator),</li>
+                                                        <li class="PuceNiv2" value="3"><b>All</b> if you want to cancel any filter on the export indicator.</li>
+                                                    </ul>
+                                                    <ol start="22">
+                                                        <li class="PuceNumNiv1" value="22">Click the <b>Transactions</b> tab.</li>
+                                                    </ol>
+                                                    <p data-mc-target-name="onglet Transactions"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/L_FX/Creer Tache exportation TRN terme 3e.png"><img class="MCPopupThumbnail img imgSAGE_screenshot" data-mc-width="656" data-mc-height="694" src="../../Resources/Images/L_FX/Creer Tache exportation TRN terme 3e_thumb_150_100.png" tabindex="" /></a>
+                                                    </p>
+                                                    <p class="IndentPuceNiv1">This tab enables you to specify filtering criteria on the type of the FX transactions to export.</p>
+                                                    <ol data-mc-continue="true">
+                                                        <li class="PuceNumNiv1" value="23">In the <b>Select</b> area, enable the following option:</li>
+                                                    </ol>
+                                                    <ol>
+                                                        <li class="PuceNumNiv2" value="1"><b>All</b> not to cancel any filter on transaction types,</li>
+                                                        <li class="PuceNumNiv2" value="2"><b>Single</b> to include only the FX transactions with the selected type (in the area below),</li>
+                                                        <li class="PuceNumNiv2" value="3"><b>Multiple</b> to include the FX transactions with one of the selected types (in the area on the right).</li>
+                                                    </ol>
+                                                    <ol start="24">
+                                                        <li class="PuceNumNiv1" value="24">Go through the same process as in the <b>Entities</b> tab, to select one or several transaction types.</li>
+                                                        <li class="PuceNumNiv1" value="25">Click on the <b>Advanced</b> tab.</li>
+                                                    </ol>
+                                                    <p data-mc-target-name="onglet Avancé"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/L_FX/Creer Tache exportation TRN terme 3f.png"><img class="MCPopupThumbnail img imgSAGE_screenshot" data-mc-width="656" data-mc-height="692" src="../../Resources/Images/L_FX/Creer Tache exportation TRN terme 3f_thumb_150_100.png" tabindex="" /></a>
+                                                    </p>
+                                                    <p class="IndentPuceNiv1">This tab enables you to specify filtering criteria on the different charcateristics of FX transactions, such as the order number, the external reference, the file number or the portfolio number, the type or the status of the transaction.</p>
+                                                    <ol start="8" data-mc-continue="true">
+                                                        <li class="PuceNumNiv1" value="26">In the <b>Number</b> field of the <b>Transaction</b> area, enter a range of order numbers for transactions.</li>
+                                                    </ol>
+                                                    <table style="mc-table-style: url('../../Resources/TableStyles/Warning.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Warning" cellspacing="0">
+                                                        <col class="TableStyle-Warning-Column-Column1" style="width: 31px;" />
+                                                        <col class="TableStyle-Warning-Column-Column2" />
+                                                        <tbody>
+                                                            <tr class="TableStyle-Warning-Body-Body1">
+                                                                <td class="TableStyle-Warning-BodyB-Column1-Body1">
+                                                                    <img src="../../Resources/Images/Assets/oh-Warning.png" />
+                                                                </td>
+                                                                <td class="TableStyle-Warning-BodyA-Column2-Body1">They are not the complete numbers of transactions, but the numbers of the creation order, they can be found on the right of transactions numbers. The transaction number consists of the company code, the transaction type code and the <b>transaction order number</b>.</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <ol start="8" data-mc-continue="true">
+                                                        <li class="PuceNumNiv1" value="27">In the <b>Link</b> field, enter a range of link numbers for transactions, or select a range using the button <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" /> as explained previously.</li>
+                                                        <li class="PuceNumNiv1" value="28">In the <b>Reference</b> field, enter the external reference number for transactions.</li>
+                                                        <li class="PuceNumNiv1" value="29">In the <b>File</b> field, enter the file number of the transactions, or select the file using the button <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" />.</li>
+                                                        <li class="PuceNumNiv1" value="30">In the <b>Portfolio</b> field, enter the portfolio number of transactions, or select the portfolio using the <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> button.</li>
+                                                        <li class="PuceNumNiv1" value="31">In the <b>Nature</b> area, enable the options corresponding to the transaction statuses that you want to view:</li>
+                                                    </ol>
+                                                    <ul>
+                                                        <li class="PuceNiv2" value="1"><b>Initial</b> to select the initial transactions (manual creations),</li>
+                                                        <li class="PuceNiv2" value="2"><b>Exercising</b> to select the forward exchange transactions created after the early exercise,</li>
+                                                        <li class="PuceNiv2" value="3"><b>Deferring</b> to select the forward exchange transactions created after a deferment,</li>
+                                                        <li class="PuceNiv2" value="4"><b>Swap</b> to select the swap transactions,</li>
+                                                        <li class="PuceNiv2" value="5"><b>Exercised</b> to select the forward exchange transactions which have been early exercised,</li>
+                                                        <li class="PuceNiv2" value="6"><b>Deferred</b> to select the forward exchange transactions which have been deferred.</li>
+                                                    </ul>
+                                                    <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                                                        <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                                                        <col class="TableStyle-Note-Column-Column2" />
+                                                        <tbody>
+                                                            <tr class="TableStyle-Note-Body-Body1">
+                                                                <td class="TableStyle-Note-BodyB-Column1-Body1">
+                                                                    <img src="../../Resources/Images/Assets/oh-Note.png" />
+                                                                </td>
+                                                                <td class="TableStyle-Note-BodyA-Column2-Body1">For more information on the FX transaction types, see the <MadCap:conditionalText data-mc-conditions="Default.ScreenOnly"><a href="ANNEXE - Natures de transaction.htm" title="" alt="" class="XrefSansTexte MCXref xref xrefXrefSansTexte">FX Transaction Types</a> topic.</MadCap:conditionalText></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <ol start="32">
+                                                        <li class="PuceNumNiv1" value="32">In the <b>Status</b> area, select the option:</li>
+                                                    </ol>
+                                                    <ul>
+                                                        <li class="PuceNiv2" value="1"><b>Opened</b> to select the non-settled transactions only,</li>
+                                                        <li class="PuceNiv2" value="2"><b>Closed</b> to select the settled transactions only.</li>
+                                                    </ul>
+                                                    <p class="IndentPuceNiv1SautLigne">If you want to:</p>
+                                                    <ul style="list-style-type: square;">
+                                                        <li class="PuceNiv2" value="1">save the task just as it is, without launching it, click the <img src="../../Resources/Images/L_FX/Bouton STR coche verte.JPG" />&#160;<b>Validate</b> button.</li>
+                                                        <li class="PuceNiv2" value="2">cancel the current setup and redisplay the list of the export tasks, click the <img src="../../Resources/Images/L_FX/Bouton STR croix rouge.JPG" style="width: 17px;height: 17px;" /> <b>Cancel</b> button.</li>
+                                                    </ul>
+                                                    <ol start="33">
+                                                        <li class="PuceNumNiv1" value="33"><a name="bouton_exporter"></a>Click the <img src="../../Resources/Images/L_FX/Bouton STR fleche drte.JPG" /> <b>Export</b> button to launch the export task.</li>
+                                                    </ol>
+                                                    <p class="IndentPuceNiv1">The export is launched and a new page is displayed showing the task progress.</p>
+                                                    <p data-mc-target-name="Capture importation 4"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/L_FX/Creer Tache exportation TRN terme 4.png"><img class="MCPopupThumbnail img imgSAGE_screenshot" data-mc-width="715" data-mc-height="422" src="../../Resources/Images/L_FX/Creer Tache exportation TRN terme 4_thumb_150_100.png" tabindex="" /></a>
+                                                    </p>
+                                                    <ol start="10" data-mc-continue="true">
+                                                        <li class="PuceNumNiv1" value="34">If you want to stop the task, click the <b>Cancel</b> button at the bottom of the page.</li>
+                                                        <li class="PuceNumNiv1" value="35">Once the task is completed, click the <b>Close</b> button at the bottom of the page.</li>
+                                                    </ol>
+                                                    <p class="IndentPuceNiv1">The previous page is redisplayed.</p>
+                                                    <ol data-mc-continue="true">
+                                                        <li class="PuceNumNiv1" value="36">Click the <img src="../../Resources/Images/L_FX/Bouton STR coche verte.JPG" />&#160;<b>Validate</b> button to validate and save the task.</li>
+                                                    </ol>
+                                                    <p class="IndentPuceNiv1">The setup page for export tasks re-appears with the new task at the bottom of the list.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section><a data-close="true"></a>
+                </div>
+            </div>
+            <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
+        </div>
+    </body>
+</html>

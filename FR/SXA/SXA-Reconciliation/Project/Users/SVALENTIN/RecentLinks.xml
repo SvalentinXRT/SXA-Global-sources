@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RecentLinks>
+    <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog">
+        <Link Value="C:\__OHC MADCAP\FR\SXA\SXA-Reconciliation\Content\B_HelpTopics\2_Reconciliation\PARAM_Intro.htm" />
+    </Dialog>
+    <Dialog Name="B3.XmlMdiEditorKit.ImageGeneralDialogPage">
+        <Link Value="C:\__OHC MADCAP\FR\SXA\SXA-Reconciliation\Content\Resources\Images\HT_Reconciliation\PARAM_ReglesAvancees03.png" />
+    </Dialog>
+    <Dialog Name="B3.XmlTextKit.MultimediaGeneralDialogPage" />
+    <Dialog Name="B3.CatapultProjectUserInterfaceKit.InsertSnippetDialog">
+        <Link Value="C:\__OHC MADCAP\FR\SXA\SXA-Reconciliation\Content\Resources\Snippets\GBL_Note.flsnp" />
+    </Dialog>
+</RecentLinks>

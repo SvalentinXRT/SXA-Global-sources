@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/code_flux_synthèse.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/code_transaction_synthèse.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/code_transaction_détail_1.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/code_transaction_détail_2.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/conditions_intégration_bancaire_détail_1.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/conditions_intégration_bancaire_détail_2.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/assistant de structure_3.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/conditions zba.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/code_flux_synthèse.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/code_transaction_synthèse.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/code_transaction_détail_1.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/code_transaction_détail_2.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/conditions_intégration_bancaire_détail_1.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/conditions_intégration_bancaire_détail_2.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/assistant de structure_3.png" />
+    <Link
+      Url="Content/Resources/Images/L_Cash/conditions zba.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Note.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

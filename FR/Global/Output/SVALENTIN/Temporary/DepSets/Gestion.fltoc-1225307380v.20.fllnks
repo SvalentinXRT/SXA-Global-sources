@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="false"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Topics/TRAITEMENT - Intro.htm" />
+    <Link
+      Url="Project/Skins/Sage HTML5.flskn" />
+    <Link
+      Url="Content/Resources/MasterPages/Print - Chapitre.flmsp" />
+    <Link
+      Url="Content/Topics/TRAITCOMM - Operations commerciales.htm" />
+    <Link
+      Url="Content/Topics/TRAITFINAN - Transactions de change.htm" />
+    <Link
+      Url="Content/Topics/TRAITFINAN - Creation.htm" />
+    <Link
+      Url="Content/Topics/TRAITFINAN - Change au comptant.htm" />
+    <Link
+      Url="Content/Topics/TRAITFINAN - Change a terme.htm" />
+    <Link
+      Url="Content/Topics/TRAITFINAN - Swap.htm" />
+    <Link
+      Url="Content/Topics/TRAITFINAN - Swap comptant contre terme.htm" />
+    <Link
+      Url="Content/Topics/TRAITFINAN - Swap terme contre terme.htm" />
+    <Link
+      Url="Content/Topics/TRAITFINAN - Liaison avec previsions.htm" />
+    <Link
+      Url="Content/Topics/TRAITFINAN - Conversion des montants.htm" />
+    <Link
+      Url="Content/Topics/TRAITFINAN - Documents lies aux transactions.htm" />
+    <Link
+      Url="Content/Topics/TRAITFINAN - Docs - Ticket operation.htm" />
+    <Link
+      Url="Content/Topics/TRAITFINAN - Docs - Lettre confirmation.htm" />
+    <Link
+      Url="Content/Topics/TRAITFINAN - Docs - Ordre paiement.htm" />
+    <Link
+      Url="Content/Topics/TRAITFINAN - Modification modeles doc.htm" />
+    <Link
+      Url="Content/Topics/TRAITFINAN - Traitement Back Office.htm" />
+    <Link
+      Url="Content/Topics/TRAITFINAN - Verrouillage Back Office.htm" />
+    <Link
+      Url="Content/Topics/TRAITFINAN - Validation Back Office.htm" />
+    <Link
+      Url="Content/Topics/TRAITFINAN - Annulation BO.htm" />
+    <Link
+      Url="Content/Topics/TRAITFINAN - Journal de treso.htm" />
+    <Link
+      Url="Content/Topics/TRAITFINAN - Suivi.htm" />
+    <Link
+      Url="Content/Topics/TRAITFINAN - Denouement.htm" />
+    <Link
+      Url="Content/Topics/TRAITFINAN - Levee anticipee.htm" />
+    <Link
+      Url="Content/Topics/TRAITFINAN - Prorogation.htm" />
+    <Link
+      Url="Content/Topics/TRAITPRET - Emprunts prets devise.htm" />
+    <Link
+      Url="Content/Topics/SUIVCOMM - Suivi des previsions commerciales.htm" />
+    <Link
+      Url="Content/Topics/SUIVCOMM - Apuration.htm" />
+    <Link
+      Url="Content/Topics/SUIVCOMM - Apuration auto.htm" />
+    <Link
+      Url="Content/Topics/SUIVCOMM - Apuration manuelle.htm" />
+  </Links>
+  <LongLinks />
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

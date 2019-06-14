@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITFINAN - Change au comptant.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITFINAN - Change a terme.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITFINAN - Swap.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITCOMM - Operations commerciales.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/EDITION - Fiche position FX.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/EDITION - Journal toutes TRN.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/EDITION - Journal emprunts prets devises.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/EDITION - Journal operations commerciales.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/EDITION - Journal TRN change.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/EDITION - Resultat consolide sur position ouverte.htm" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Copier un filtre de commandes.flsnp" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre de commande 0.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre de commande 2.png" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Enregistrer params filtre.flsnp" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITFINAN - Change au comptant.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITFINAN - Change a terme.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITFINAN - Swap.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITCOMM - Operations commerciales.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/EDITION - Fiche position FX.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/EDITION - Journal toutes TRN.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/EDITION - Journal emprunts prets devises.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/EDITION - Journal operations commerciales.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/EDITION - Journal TRN change.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/EDITION - Resultat consolide sur position ouverte.htm" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Copier un filtre de commandes.flsnp" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre de commande 0.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre de commande 2.png" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Enregistrer params filtre.flsnp" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="Filtre"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="6" />
+    <IndexCacheEntry
+      Term="Editions:filtres"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="6" />
+    <IndexCacheEntry
+      Term="Filtre:copie des paramètres"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="36" />
+    <IndexCacheEntry
+      Term="Filtre:modification"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="42" />
+    <IndexCacheEntry
+      Term="Filtre:suppression"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="66" />
+    <IndexCacheEntry
+      Term="Filtre:application"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="101" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXT_FX" />
+    <Variable
+      Name="Localization.SXT" />
+    <Variable
+      Name="Localization.SXTModulesTasks" />
+    <Variable
+      Name="Localization.SXTSetupFolder" />
+  </Variables>
+  <FileConditions>
+    <Condition
+      Tag="Default.3Revised" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.3Revised" />
+    <Condition
+      Tag="Default.ScreenOnly" />
+  </AllConditions>
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Note.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

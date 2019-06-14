@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RecentLinks>
+    <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog">
+        <Link Value="C:\__OHC MADCAP\FR\Global\Content\A_Documents\PDF_Fiches.htm" />
+    </Dialog>
+    <Dialog Name="B3.XmlMdiEditorKit.ImageGeneralDialogPage">
+        <Link Value="C:\__OHC MADCAP\FR\Global\Content\Resources\Images\Assets\Icons\Sage\blue_sxa.svg" />
+    </Dialog>
+    <Dialog Name="B3.XmlTextKit.MultimediaGeneralDialogPage">
+        <Link Value="C:\__OHC MADCAP\FR\Global\Content\Resources\Multimedia\HT_BankDelegations\SageBankDelegations.v3.NewInterface_FR.mp4" />
+    </Dialog>
+    <Dialog Name="B3.CatapultProjectUserInterfaceKit.InsertSnippetDialog">
+        <Link Value="C:\__OHC MADCAP\FR\Global\Content\Resources\Snippets\TopicNotTranslated.flsnp" />
+    </Dialog>
+</RecentLinks>

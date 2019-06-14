@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:lastBlockDepth="10" MadCap:lastHeight="2373" MadCap:lastWidth="557">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1 class="LegacySXT"><MadCap:keyword term="Lock back-office;Back office:lock" /><i>Back-office</i> Locking</h1>
+        <p>Some of the fields linked to the basic characteristics of transactions cannot be modified after the transactions creation, such as the applicant, the currency pair, etc.</p>
+        <p>But other fields can be modified such as the link number, the contact name, the transaction date, the delivery date, etc.</p>
+        <p class="SautLigne">The <i>back-office</i> validation of transactions enables you to restrict modification options on some transaction types when the <i>back-office</i> lock is enabled.</p>
+        <p>To enable this locking, you need to select the <b>Lock B.O. Change</b> option in the <b>General</b> tab of the <b>FX Configuration </b> page.</p>
+        <p class="SautLigneAvantEtAprès">For more information on the Locking configuration procedure, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="PARAM - Configuration FX.htm" target="" title="" alt="" class="XrefSansTexte">FX Configuration</MadCap:xref> topic.</MadCap:conditionalText></p>
+        <p MadCap:targetName="Capture Configuration FX"><img src="../../Resources/Images/L_FX/Configuration FX 1.png" class="SAGE_screenshot" /></p>
+        <p class="SautLigneAvantEtAprès">The modification options for a <i>B.O</i>-validated transaction depend on the transaction type as explained below. For more information on the transaction types, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="ANNEXE - Natures de transaction.htm" target="" title="" alt="" class="XrefSansTexte">FX Transaction Types</MadCap:xref> topic.</MadCap:conditionalText></p>
+        <ul>
+            <li class="PuceNiv1"><b>Initial FX Transactions</b></li>
+        </ul>
+        <p class="IndentPuceNiv1">These are open FX transactions with the &quot;Initial&quot; type, i.e. Spot and Forward Exchange transactions that you created manually.</p>
+        <p class="IndentPuceNiv1">The modification options for these FX transactions depend on the setup of the <i>back office</i> locking process, they are described in the table below.</p>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">This does not concern the settled forward exchange transactions, since they cannot be modified.</td>
+                </tr>
+            </tbody>
+        </table>
+        <ul>
+            <li class="PuceNiv1"><b>Other FX Transactions</b></li>
+        </ul>
+        <p class="IndentPuceNiv1">These are the FX transactions with a different type from the &quot;Initial&quot; type, i.e.:</p>
+        <ul>
+            <li class="PuceNiv2">modified or created after a carry forward or an early settlement,</li>
+            <li class="PuceNiv2">forming the first or second leg of a swap transaction.</li>
+        </ul>
+        <p class="IndentPuceNiv1">The setup of the locking process has no impact on these transactions: whatever the setup, the locked fields are the same as those of an initial transaction when the locking is enabled.</p>
+        <p class="SautLigneAvantEtAprès">The table below lists the editable fields in the management pages for the BO-validated (<i>back office</i>) FX transactions, according to the transaction type and to the setup of the <i>back-office</i> locking process. The non-editable fields do not appear in this table.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead MadCap:conditions="">
+                <MadCap:dropDownHotspot>View Table</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_FX/Tableau verr BO.flsnp" MadCap:targetName="Tableau natures transaction" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

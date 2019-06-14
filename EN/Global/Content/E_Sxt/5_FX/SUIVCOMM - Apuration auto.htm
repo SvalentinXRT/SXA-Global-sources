@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="rattach" MadCap:conditions="Default.3Revised" MadCap:lastBlockDepth="6" MadCap:lastHeight="918" MadCap:lastWidth="609">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT"><MadCap:keyword term="Commercial forecast update:automatic;Commercial transaction:update:automatic;Commercial forecast:update:automatic" />Automatic Update</h1>
+        <p>Automatic Update is performed according to the management mode selected for Commercial Transactions. For more information on the impact of this setup on Update, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="ANNEXE - Gestion des op comm.htm" target="" title="" alt="" class="XrefSansTexte">Management Methods for Commercial Transactions</MadCap:xref> topic.</MadCap:conditionalText></p>
+        <p class="SautLigne">To enable the automatic update, Commercial Transactions must meet the following requirements.</p>
+        <ul>
+            <li class="PuceNiv1">The type of the actual flow in the Treasury must be export receipt or import disbursement.</li>
+            <li class="PuceNiv1">With the Global, Decrementation Mode, the transaction currency of the forecast must be the same as the transaction currency of the bank actual, otherwise the update is automatic.</li>
+            <li class="PuceNiv1">With the Global, Budget Decrementation Mode, the budget code of the forecast must be the same as for the bank actual.</li>
+            <li class="PuceNiv1">The company for the forecast must be the same as for the bank actual.</li>
+            <li class="PuceNiv1">The status of the commercial transaction must be different from the &quot;Settled&quot; status.</li>
+        </ul>
+        <p>The forecasts which were not automatically updated, must be manually updated or manually deleted.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Automatic Update in Global, Decrementation Mode or Global, Budget Decrementation Mode</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li class="PuceNiv1">Commercial Transactions are managed globally during the bank reconcilation.</li>
+                    <li class="PuceNiv1">The decrementation is based on the FIFO concept: the non-updated transactions and the oldest ones in the month corresponding to the delivery date are updated first with the actual flows from the <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;"></MadCap:variable> module.</li>
+                    <li class="PuceNiv1">The actual flows with the Export Receipt type enable the update of the Receipt Forecasts whereas the actual flows with the Import Disbursement type enable the update of the Disbursement Forecasts.</li>
+                    <li class="PuceNiv1">Here are the criteria used for Reconciliation: flow type, company, transaction currency, month of the delivery date for the commercial forecast, month of the transaction date for the actual flow, budget code.</li>
+                    <li class="PuceNiv1">Once Reconciliation is completed, the amount in position for Commercial Transactions is updated according to the reconciled amount, and the transaction status reaches &quot;Settled&quot; or &quot;Updated&quot; depending on whether the amount in position is null or not.</li>
+                </ul>
+                <p>The forecasts which were not automatically updated, must be manually updated.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Automatic Update in Detailed, Reconciliation Mode</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li class="PuceNiv1">Commercial Transactions are managed individually during Reconciliation, transaction by transaction and amount by amount.</li>
+                    <li class="PuceNiv1">Once Reconciliation is completed, the commercial transactions amount is set to zero and the transaction reaches the &quot;Settled&quot; status.</li>
+                </ul>
+                <p>The forecasts which were not automatically updated, must be manually deleted.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

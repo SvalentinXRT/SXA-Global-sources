@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:lastBlockDepth="9" MadCap:lastHeight="8914" MadCap:lastWidth="705">
+    <head>
+        <link href="../../Resources/TableStyles/Warning.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT"><a name="Transaction"></a> <MadCap:keyword term="Commercial Transaction" />Commercial Transactions</h1>
+        <p>This <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">topic</MadCap:conditionalText> deals with the management of Commercial Transactions. Commercial Transactions are processed according to the defined management mode. For more information on the configuration of the management mode for Commercial Transactions, see <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">the <MadCap:xref href="PARAM - Configuration FX.htm" target="" title="" alt="" class="XrefSansTexte">FX Configuration</MadCap:xref> topic</MadCap:conditionalText>.</p>
+        <p>Commercial transactions are identified by a progress status. When thay are not actuals, they have the status of Forecasts. They can be created through file import or manual entry in the <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> module.</p>
+        <ul>
+            <li class="PuceNiv1">Transactions are imported through a flat file generated from an external system and which contains all the information concerning the commercial transactions (for more information, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="INTEGRATION - Importation previsions commerciales.htm" target="" title="" alt="" class="XrefSansTexte">Importing Commercial Forecasts</MadCap:xref> topic</MadCap:conditionalText>).</li>
+            <li class="PuceNiv1">See the following procedures for more information on the manual entry of transactions.</li>
+        </ul>
+        <p>In Detailed, Reconciliation Mode, the corresponding flows are posted in the Treasury with the &quot;Confirmed Forecast&quot; status, as soon as a commercial forecast is created or modified.</p>
+        <p>For more information on the Detailed, Reconciliation Mode, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="ANNEXE - Gestion des op comm.htm" target="" title="" alt="" class="XrefSansTexte">Management Modes for Commercial Transactions</MadCap:xref> topic</MadCap:conditionalText>.</p>
+        <p>Commercial Transactions have the receipt direction for export and the disbursement direction for import.</p>
+        <p>Commercial Forecasts must be created before FX Transactions. Once you created the FX transactions, you can link them to the corresponding commercial forecasts.</p>
+        <p>Commercial Transactions can have three different statuses: open, updated (transaction with partial payments) and closed (transaction totally updated).</p>
+        <p>For more information on the processing of commercial transactions, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="PARAM - Configuration FX.htm" target="" title="" alt="" class="XrefSansTexte">FX Configuration</MadCap:xref> topic</MadCap:conditionalText>.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Accessing Management Page for Commercial Transactions</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">In the <MadCap:variable name="Localization.SXTModulesTasks" style="font-weight: bold;" /> pane, select the Forecasts option in the <MadCap:variable name="Localization.SXTManagementFolder" style="font-weight: bold;" /> folder of the <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> module.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The modification page of the default filter for this function, is displayed.</p>
+                <p MadCap:targetName="Capture gestion acces filtre"><img src="../../Resources/Images/L_FX/Filtre prevision 2.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This page enables you to define filtering criteria restricting or enlarging the selection of transactions to display in the page for Commercial Transactions. If no filter is defined here, all the existing commercial transactions are displayed on the page. If the number of transactions is too large, restricting the selection improves the legibility.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Set up the filter, then click <b>OK</b>.</li>
+                </ol>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">For the description of this page&apos;s fields, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">topic</MadCap:conditionalText> below explaining filters creation.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="IndentPuceNiv1">The management page for Commercial Transactions is displayed with the list of the created transactions in a table.<br /></p>
+                <p MadCap:conditions=""><img src="../../Resources/Images/L_FX/Prevision commerciale 1.png" MadCap:targetName="Capture Page accueil Entités" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This table displays the list of the commercial transactions as well as their types, their numbers, the transaction and delivery dates, their companies, their amounts, their countervalues, the non-hedged amounts, the indicators for hedging modification, the budget and market exchange rates, the budget codes, the related bank accounts, the third parties, the transaction statuses (open, settled, updated), their origins (internal or external), the reference numbers and the link numbers if any, as well as potential notes.</p>
+                <p class="IndentPuceNiv1">For more information on:</p>
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_FX/Actions dans tableau page de parametrage.flsnp" class="indente" />
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_FX/Ref croisee Reorg tableau.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Creating Commercial Transactions</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">In the management page for Commercial Transactions, click the <b>Create</b> button.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The creation page is displayed.</p>
+                <p MadCap:targetName="Capture creation 1"><img src="../../Resources/Images/L_FX/creer prev comm 1.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">The header presents the basic information of the transaction.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Complete the fields of the header.</li>
+                </ol>
+                <p class="IndentPuceNiv1">In the following table, the green ticks in the M column indicate that the fields are mandatory.</p>
+                <p class="IndentPuceNiv1">The red crosses in the E column indicate the fields that cannot be modified after the transaction record.</p>
+                <p class="IndentPuceNiv1" MadCap:conditions="">
+                    <MadCap:toggler targets="Tableau entete">View Header Description</MadCap:toggler>
+                </p>
+                <table class="TableStyle-Tableau_standard" cellspacing="0" MadCap:targetName="Tableau entete" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');">
+                    <col class="TableStyle-Tableau_standard-Column-Column1" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Tableau_standard-Head-Header1">
+                            <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Field</th>
+                            <th class="TableStyle-Tableau_standard-HeadF-Column2-Header1">Description</th>
+                            <th class="TableStyle-Tableau_standard-HeadF-Column2-Header1">M</th>
+                            <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">E</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Receipt/Disbursement</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">Define the direction of your transaction by enabling the <b>Receipt</b> or the <b>Disbursement</b> options.</p>
+                                <p class="tableau"><b>Note:</b> The transaction direction is the direction of the currency next to the <b>Amount</b> field against the local currency (company currency).</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1"><img src="../../Resources/Images/L_FX/Checkmark_L.gif" style="width: 23px;height: 19px;" /></td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" /></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Transaction</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">This field enables you to select a type of transaction according to the defined transaction direction.</p>
+                                <p class="tableau">Click the button <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> to view the list of the existing transaction types then, in the contextual window, double-click a line to select it.</p>
+                                <p class="tableau">The code and description of the selected transaction type, are displayed in the <b>Transaction</b> field.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1"><img src="../../Resources/Images/L_FX/Checkmark_L.gif" style="width: 23px;height: 19px;" /></td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" /></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">No.</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">This non-editable field displays the transaction identifier.</p>
+                                <p class="tableau">You cannot enter any information in this field.</p>
+                                <p class="tableau">It is blank during the creation and then automatically completed when the transaction is saved.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1"> </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Link No.</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">This optional field enables the grouping of commercial transactions and FX transactions together, under a common link number. This number shows the assigned category (activity type, geographical area, project, etc.). It can then be used as a criterion of accounting or filtering processing. For more information on link numbers, see <MadCap:variable name="Localization.SXT_Setup" style="font-weight: bold;" /> documentation.</p>
+                                <p class="tableau">To select a link number, use the <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> button as explained previously.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1"> </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Status</td>
+                            <td class="TableStyle-Tableau_standard-BodyC-Column2-Body1">
+                                <p class="tableau">This non-editable field shows the transaction settlement status: open or closed.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyC-Column2-Body1"> </td>
+                            <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1"> </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="IndentPuceNiv1">The <b>Characteristics</b> tab enables you to define the main information on the transaction to create.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Complete the fields of the tab.</li>
+                </ol>
+                <p class="IndentPuceNiv1">In the following table, the green ticks in the M column indicate that the fields are mandatory.</p>
+                <p class="IndentPuceNiv1">The red crosses in the E column indicate the fields that cannot be modified once the transaction is saved.</p>
+                <p class="IndentPuceNiv1" MadCap:conditions="">
+                    <MadCap:toggler targets="Tableau onglet 1">View Fields Description</MadCap:toggler>
+                </p>
+                <table class="TableStyle-Tableau_standard" cellspacing="0" MadCap:targetName="Tableau onglet 1" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');">
+                    <col class="TableStyle-Tableau_standard-Column-Column1" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Tableau_standard-Head-Header1">
+                            <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Field</th>
+                            <th class="TableStyle-Tableau_standard-HeadF-Column2-Header1">Description</th>
+                            <th class="TableStyle-Tableau_standard-HeadF-Column2-Header1">M</th>
+                            <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">E</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="4"><b>General</b> area</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Company</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">This field enables you to select the company associated with the transaction.<br />To select a company, use the button <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> as described previously.</p>
+                                <p class="tableau">The fields for the Countervalue Currency, the Budget and Opportunity Rates are automatically completed on the basis of the selected company.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1"><img src="../../Resources/Images/L_FX/Checkmark_L.gif" style="width: 23px;height: 19px;" /></td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" /></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Amount</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">These fields display the main currency and the transaction amount expressed in the main currency.</p>
+                                <p class="tableau">Select the main currency using the button <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> as described previously. The currency code is displayed in the first field.</p>
+                                <p class="tableau">In the adjacent field, enter the transaction amount expressed in the main currency or calculate this amount using the calculator.<MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"> For more information on how to use the calculator, <a href="ContextualTopics/Calculatrice.htm" target="_popup" class="Popup">click here</a>.</MadCap:conditionalText></p>
+                                <p class="tableau">Once the transaction amount and main currency are completed, the amount in position and the countervalue amount are automatically calculated and displayed.</p>
+                                <p class="tableau">If the company was also entered, the values for the budget and opportunity rates are then automatically completed based on the transaction currency and the company.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1"><img src="../../Resources/Images/L_FX/Checkmark_L.gif" style="width: 23px;height: 19px;" /></td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" /></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">In position</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">This field shows the position of the transaction balance after partial or total update.</p>
+                                <p class="tableau">This area which is automatically completed on the basis of the transaction amount, cannot be modified. For each partial update, the amount paid is deducted from the position.</p>
+                                <p class="tableau">For more information on the Update, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="SUIVCOMM - Apuration.htm" target="" title="" alt="" class="XrefSansTexte">Updating</MadCap:xref> topic</MadCap:conditionalText>.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1"> </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Countervalue</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">These fields show the countervalue currency and the transaction amount expressed in the countervalue currency.</p>
+                                <p class="tableau">The countervalue amount is automatically completed on the basis of the budget exchange rate and the transaction amount.</p>
+                                <p class="tableau">The default countervalue currency corresponds to the local currency of the company associated with the transaction.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1"> </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><img src="../../Resources/Images/L_FX/croix.gif" style="width: 14px;height: 14px;" /><span style="font-size: 8pt;"> (currency)</span></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">TRX Date</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">This field displays the date when the commercial transaction is performed. The default value for this field is today&apos;s date.</p>
+                                <p class="tableau">To change this date, enter a date in the field or use the calendar.<MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"> For more information on how to use the calendar, <a href="ContextualTopics/Calendrier.htm" target="_popup" class="Popup">click here</a>.</MadCap:conditionalText></p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1"><img src="../../Resources/Images/L_FX/Checkmark_L.gif" style="width: 23px;height: 19px;" /></td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Delivery Date</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">This field displays the maturity date of the commercial transaction. The default value for this field is today&apos;s date.</p>
+                                <p class="tableau">It can be replaced by an identical date or a date falling after the transaction date.</p>
+                                <p class="tableau"><b></b></p>
+                                <p class="tableau">To change this value, enter a date in the field or use the calendar.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1"><img src="../../Resources/Images/L_FX/Checkmark_L.gif" style="width: 23px;height: 19px;" /></td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="4">
+                                <p colspan="4" class="tableau"><b>Rate</b> area</p>
+                                <p colspan="4" class="tableau" style="font-style: normal;">This area displays the values of the budget and opportunity rates.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Budget Rate</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">This field displays the budget exchange rate for the currencies of the transaction. This field enables the budgeting of commercial transactions.</p>
+                                <p class="tableau">Once the company and transaction currencies are entered, this field is completed based on the setup defined in <MadCap:variable name="Localization.SXT_MarketData" style="font-weight: bold;" />. This value can be modified. This field displays the budget rate valid on the delivery month, as opposed to the rate of the transaction date month.</p>
+                                <p>
+                                </p>
+                                <p class="tableau">If you did not define any budget rate for the selected currency pair and period, you now need to enter a value in this field, so that the countervalue amount can be calculated.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1"> </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Opportunity Rate</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">This field displays the market exchange rate for the commercial transaction currencies. It enables the comparison between the performance of a hedging stategy and the performance of a non-hedging strategy.</p>
+                                <p class="tableau">This field is completed on the basis of the setup defined in <MadCap:variable name="Localization.SXT_MarketData" style="font-weight: bold;" />. It can be modified.</p>
+                                <p class="tableau">This is the forward exchange rate at maturity of the transaction, as on the transaction date.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1"> </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Account</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">This field displays the bank account associated with the commercial transaction.</p>
+                                <p class="tableau">This field only appears in the Detailed, Reconciliation Mode.</p>
+                                <p class="tableau">The <b>Accounts</b> and <b>Flow Code</b> areas indicate that the commercial transactions entered in <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> are considered in <MadCap:variable name="Localization.SXT_Cash" style="font-weight: bold;" /> as forecasts on these accounts with the same codes.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1"><img src="../../Resources/Images/L_FX/Checkmark_L.gif" style="width: 23px;height: 19px;" /></td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Flow Code</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">This field displays the type of cash flow linked to the transaction.</p>
+                                <p class="tableau">This field only appears in the Detailed, Reconciliation Mode.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1"><img src="../../Resources/Images/L_FX/Checkmark_L.gif" style="width: 23px;height: 19px;" /></td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Conversion</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">This function enables you to calculate the countervalue of the transaction amount expressed in the bank account currency.</p>
+                                <p class="tableau">This button only appears in the Detailed, Reconciliation Mode.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1"> </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Conversion Amount</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">This field displays the countervalue of the transaction amount expressed in the bank account currency.</p>
+                                <p class="tableau">This field only appears in the Detailed, Reconciliation Mode.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1"> </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Budget Code</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">
+                                <p class="tableau">This field displays the budget code associated with the commercial transaction.</p>
+                                <p class="tableau">If the Global, Budget Decrementation Mode was selected, this element is mandatory as it also is a reconciliation criterion.</p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1"> </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"> </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Third Party</td>
+                            <td class="TableStyle-Tableau_standard-BodyC-Column2-Body1">This field enables you to select the third party associated with the transaction.</td>
+                            <td class="TableStyle-Tableau_standard-BodyC-Column2-Body1"> </td>
+                            <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1"> </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="IndentPuceNiv1">Click the button <img src="../../Resources/Images/L_FX/Bouton cours inverse.png" /> to change the direction of the rate expression for the values of the <b>Rate</b> area (budget exchange rate, opportunity exchange rate). The displayed values correspond to the direction of countervalue currency against main currency, but the direction of the transaction does not change.</p>
+                <p class="IndentPuceNiv1">Click again the button <img src="../../Resources/Images/L_FX/Bouton cours inverse.png" /> to redisplay the values with the direction of the transaction.</p>
+                <ol start="4">
+                    <li class="PuceNumNiv1">Click on the <b>User Fields</b> tab.</li>
+                </ol>
+                <p MadCap:targetName="capture creation 5"><img src="../../Resources/Images/L_FX/creer prev comm 2.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This tab enables you to define additional information on the transaction in a small text.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the first field, enter the notes that you want to include in the ledger.</li>
+                    <li class="PuceNumNiv1">In the <b>Reference</b> field, enter the external reference number for the commercial transaction if any. This number is also a search and selection criterion.</li>
+                    <li class="PuceNumNiv1">Click <b>OK</b> to validate the creation or <b>Cancel</b> to cancel it.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead><a name="filtre_opcomm"></a> <MadCap:keyword term="Commercial Transaction:filter" /><MadCap:dropDownHotspot>Creating Selection Filters for Commercial Transactions</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>To access the creation page for filters from the management page of the Commercial Transactions, click the <b>Actions</b> dropdown menu in the filters toolbar, and select <b>Add</b> in the menu.</p>
+                <p>The creation page for filters is displayed.</p>
+                <p MadCap:targetName="Capture creer filtre 1"><img src="../../Resources/Images/L_FX/Filtre prevision 1.png" class="SAGE_screenshot" /></p>
+                <p>This page enables the definition of unique identification information for the filter.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Enter a code and a description for the filter in the <b>Code</b> and <b>Description</b> fields.</li>
+                    <li class="PuceNumNiv1">If you want this filter to be applied by default when you access the management page of Forward Exchange Transactions, enable the <b>Template Default Filter</b> option.</li>
+                    <li class="PuceNumNiv1">If you want this filter to be exclusively accessed by yourself, select the <b>Private</b> option.<span style="background-color: #ffff00;"></span></li>
+                    <li class="PuceNumNiv1">You may add a comment in the <b>Text</b> area.</li>
+                    <li class="PuceNumNiv1">Click the <b>Configure</b> button to set up the filter settings.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The configuration page for filter settings is displayed.</p>
+                <p MadCap:targetName="Capture creer filtre 2"><img src="../../Resources/Images/L_FX/Filtre prevision 2.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">
+                    <MadCap:snippetText src="../../Resources/Snippets/L_SXT_FX/Bouton Copier filtre.flsnp">
+                    </MadCap:snippetText>
+                </p>
+                <p class="IndentPuceNiv1">The filter settings are all optional: complete the ones for which you want to apply filtering criteria.</p>
+                <p class="IndentPuceNiv1">The <b>General</b> tab enables you to specify a filtering process on different elements: transaction date, delivery date, company, currency, direction and type, budget code, third party, bank account, flow type.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Period</b> area, if you want to specify a filtering process on the transaction date, go through the following process.</li>
+                </ol>
+                <ol>
+                    <li class="PuceNumNiv2">Enable the option <b>TRX Date</b>.</li>
+                </ol>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">Disable this option if you want to disable the filtering process on the transaction date.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="IndentPuceNiv2">The <b>From</b> and <b>To</b> fields of the area are enabled.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv2">In these fields, specify the start and end date of the period, between which must fall the transaction date to display, by going through the following process:</li>
+                </ol>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv3">In the entry field, select the value to modify and enter a date with the format dd.mm.yyyy.</li>
+                </ul>
+                <p class="IndentPuceNiv3">- or -</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv3">Click the <img src="../../Resources/Images/L_FX/Bouton fleche bas.jpg" /> button to display the calendar.</li>
+                </ul>
+                <p class="IndentPuceNiv3">A contextual window displays the calendar.</p>
+                <p class="IndentPuceNiv3SautLigne">
+                    <MadCap:toggler targets="Capture calendrier" class="IndentPuceNiv3SautLigne">View Calendar</MadCap:toggler>
+                </p>
+                <p class="IndentPuceNiv3" MadCap:targetName="Capture calendrier"><img src="../../Resources/Images/L_FX/Pop-up calendrier.jpg" class="SAGE_screenshot"></img></p>
+                <p class="IndentPuceNiv3SautLigne">Use the arrows <img src="../../Resources/Images/L_FX/Bouton calendrier fleche droite.jpg" style="width: 8px;height: 12px;"></img> and <img src="../../Resources/Images/L_FX/Bouton calendrier fleche gauche.jpg"></img> to select the month, year and day.</p>
+                <p class="IndentPuceNiv3">- or -</p>
+                <p class="IndentPuceNiv3">To set the start date to today&apos;s date, click the button <b>Today</b>.</p>
+                <ol start="7">
+                    <li class="PuceNumNiv1">To specify a filtering process on the delivery date, enable the <b>Delivery Date</b> option, then go through the same process as above, to define the start and end dates of the period, between which must fall the delivery date for the commercial transactions to display.</li>
+                </ol>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">Disable this option if you want to disable the filtering process on the delivery date.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol start="8">
+                    <li class="PuceNumNiv1">In the <b>General</b> area, to filter on one of the following elements, use the button <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> as explained previously:</li>
+                </ol>
+                <table class="TableStyle-Tableau_standard" cellspacing="0" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');">
+                    <col class="TableStyle-Tableau_standard-Column-Column1" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Tableau_standard-Head-Header1">
+                            <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Field</th>
+                            <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Company</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Company associated with the commercial transaction</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Currency</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Main currency of the commercial transaction</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Transaction</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Transaction Type</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Budget Code</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Budget type of the transaction</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Third Party</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">A third organization affected by the transaction</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Account</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Bank account affected by the flow</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Flow Code</td>
+                            <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">Cash flow type</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol start="8" MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Receipt/Disbursement</b> dropdown list, select a filtering criterion for the direction of the transaction:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Export</b> to select receipts only,</li>
+                    <li class="PuceNiv2"><b>Import</b> to select disbursements only,</li>
+                    <li class="PuceNiv2"><b>Export Receipt and Import Disbursement</b> to disable any filter on the transaction direction.</li>
+                </ul>
+                <ol start="10">
+                    <li class="PuceNumNiv1">Click on the <b>Advanced</b> tab.</li>
+                </ol>
+                <p MadCap:targetName="Capture creer filtre 3"><img src="../../Resources/Images/L_FX/Filtre prevision 3.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This tab enables you to define the filtering criteria on commercial transaction numbers, reference numbers, link numbers, statuses and origins of commercial transactions.</p>
+                <ol start="8" MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Number</b> field of the <b>Transaction</b> area, enter a range of order numbers for the commercial transaction.</li>
+                </ol>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Warning.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Warning" cellspacing="0">
+                    <col class="TableStyle-Warning-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Warning-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Warning-Body-Body1">
+                            <td class="TableStyle-Warning-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Warning.png" /></td>
+                            <td class="TableStyle-Warning-BodyA-Column2-Body1">They are not the complete numbers of the transaction, but the numbers of the creation order, they can be found on the right of the transactions numbers. The transaction number consists of the company code, the transaction type code and the <b>transaction order number</b>.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol start="8" MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Reference</b> field, enter the external reference number for the transaction.</li>
+                    <li class="PuceNumNiv1">In the <b>Link</b> field, enter a range of link numbers for commercial transactions.</li>
+                    <li class="PuceNumNiv1">In the <b>Status</b> area, select the option:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Opened</b> to select the non-settled transactions only,</li>
+                    <li class="PuceNiv2"><b>Updated</b> to select the partially updated commercial transactions only,</li>
+                    <li class="PuceNiv2"><b>Closed</b> to select the settled transactions only.</li>
+                </ul>
+                <ol start="15">
+                    <li class="PuceNumNiv1">In the <b>Source</b> area, select the option:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Imported</b> to select only the transactions created by file import,</li>
+                    <li class="PuceNiv2"><b>Manual</b> to select the transactions created manually,</li>
+                </ul>
+                <ol start="16">
+                    <li class="PuceNumNiv1">Click the following buttons, as needed:</li>
+                </ol>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2"><b>OK</b> to validate the setup and go back to the management page for Commercial Transactions,</li>
+                    <li class="PuceNiv2"><b>Cancel</b> to go back to the management page for Commercial Transactions without saving this setup.</li>
+                </ul>
+                <p>For more information on the application, modification and deletion of filters, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref target="" title="" alt="" class="XrefSansTexte" href="ANNEXE - Filtres.htm">Filters</MadCap:xref> topic.</MadCap:conditionalText></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead><a name="Conversion"></a><MadCap:dropDownHotspot>Converting Amounts into Account Currency</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The conversion page for amounts is displayed when you click the <b>Conversion</b> button located in the <b>Characterics</b> tab in the detailed page of a commercial transaction.</p>
+                <p MadCap:targetName="Capture Conversion"><img src="../../Resources/Images/L_FX/Conversion mt ope comm.png" class="SAGE_screenshot" /></p>
+                <p>The transaction amount expressed in the transaction currency is displayed in the <b>Amount</b> field.</p>
+                <p>The <b>Rate</b> field shows the exchange rate of the bank account currency against the transaction currency. The currency pair is indicated before the value of the exchange rate.</p>
+                <p>The bank account currency is displayed in the <b>Countervalue</b> field.</p>
+                <p>The transaction currency is displayed in the <b>Amount</b> field.</p>
+                <p>Enter the value of the exchange rate for this currency pair in the <b>Rate</b> field.</p>
+                <p>The countervalue amount is automatically calculated and displayed in the <b>Countervalue</b> field.</p>
+                <p>Click <b>OK</b> to validate this calculation.</p>
+                <p>The detailed page of the commercial transaction is redisplayed with the calculated countervalue amount.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

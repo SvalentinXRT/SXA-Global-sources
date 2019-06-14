@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="false"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Topics/EDITION - Intro.htm" />
+    <Link
+      Url="Project/Skins/Sage HTML5.flskn" />
+    <Link
+      Url="Content/Resources/MasterPages/Print - Chapitre.flmsp" />
+    <Link
+      Url="Content/Topics/EDITION - Consultation.htm" />
+    <Link
+      Url="Content/Topics/EDITION - Journal TRN change.htm" />
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Topics/EDITION - Capture - Journal TRN change.htm" />
+    <Link
+      Url="Content/Resources/MasterPages/Print - Chapitre - Landscape.flmsp" />
+    <Link
+      Url="Content/Topics/EDITION - Journal operations commerciales.htm" />
+    <Link
+      Url="Content/Topics/EDITION - Capture - Journal ope comm.htm" />
+    <Link
+      Url="Content/Topics/EDITION - Journal emprunts prets devises.htm" />
+    <Link
+      Url="Content/Topics/EDITION - Capture - Journal emprunts prets.htm" />
+    <Link
+      Url="Content/Topics/EDITION - Journal toutes TRN.htm" />
+    <Link
+      Url="Content/Topics/EDITION - Capture - Journal toutes TRN.htm" />
+    <Link
+      Url="Content/Topics/EDITION - Fiche position FX.htm" />
+    <Link
+      Url="Content/Topics/EDITION - Fiche position FX - cube.htm" />
+    <Link
+      Url="Content/Topics/EDITION - Resultat consolide sur position ouverte.htm" />
+    <Link
+      Url="Content/Topics/EDITION - Capture - Resultats consolides.htm" />
+    <Link
+      Url="Content/Topics/EDITION - Diffusion.htm" />
+  </Links>
+  <LongLinks />
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.PrintOnly" />
+  </AllConditions>
+  <Stylesheets />
+</CatapultFileLinkSet>

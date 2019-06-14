@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:lastBlockDepth="8" MadCap:lastHeight="2280" MadCap:lastWidth="745" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT">Principes</h1>
+        <p>L’utilité d’un swap réside dans la transformation de la structure de taux d’intérêt d’un endettement ou d’un placement, existant ou à venir.</p>
+        <p>Il est principalement utilisé pour gérer l’exposition au risque de taux, par exemple en transformant un crédit à taux variable en un crédit à taux fixe, ou inversement.</p>
+        <p>De même, dans le cadre de la gestion actif-passif, le swap de taux permet d’équilibrer les structures entre emplois et ressources de capitaux.</p>
+        <p class="SautLigne">Les capitaux nominaux identiques ne sont pas échangés (cela reviendrait à payer et à recevoir simultanément le même montant).</p>
+        <p>Les flux d’intérêts qui eux diffèrent sont échangés.</p>
+        <p class="SautLigne">Tout au long de la durée du swap, chaque contrepartie doit&#160;:</p>
+        <ul>
+            <li>verser périodiquement les intérêts pour la jambe où elle est emprunteuse,</li>
+            <li>recevoir en échange les intérêts pour celle où elle est prêteuse.</li>
+        </ul>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1">
+            </col>
+            <col class="TableStyle-Note-Column-Column2">
+            </col>
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1">
+                        <img src="../../Resources/Images/Assets/oh-Note.png">
+                        </img>
+                    </td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">
+                        <p>Il existe des types de swaps pour lesquels l’échange des nominaux a bien lieu&#160;: c'est le cas d'un swap de devises où les nominaux sont libellés dans deux devises différentes, et qui ne sont donc pas équivalents.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Le swap de taux est associé à un sous-jacent.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Taux échangés</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Le taux fixe&#160;: Il est déterminé à la conclusion de l’opération, en fonction des conditions de marché et des caractéristiques du sous-jacent que l’on souhaite couvrir (durée, dates de paiement, montant notionnel) et de la base de calcul des intérêts.</p>
+                <p>Le taux variable&#160;: Il est constaté périodiquement, et constitue la base de calcul des intérêts.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Nominal et devise</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Le nominal est le montant sur lequel portent les intérêts. Il peut varier au cours de la durée de vie de l’opération selon un schéma prédéterminé, c’est le cas des swaps amortissables.</p>
+                <p>Dans un swap de taux mono-devise, où les deux jambes portent sur le même nominal et sont dans la même devise, il n’y a pas de versement du nominal ni au début ni à la fin du swap.</p>
+                <p>Dans le cas d’un swap de devises géré dans le module <b class="SAGE_Bold">FX</b>, il y a un échange du nominal au début et à la fin de l’opération.</p>
+                <p>La devise dans laquelle est libellé le swap est celle dans laquelle sont effectués les paiements.</p>
+                <p>Les swaps vanille sont mono-devises.</p>
+                <p>Il existe également des swaps multi-devises, c’est le cas des swaps quanto.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Durée et échéancier</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Le swap peut avoir une durée de 1 mois à 20 ans.</p>
+                <p>Il peut être résilié à tout moment, dès la conclusion de l’opération&#160;:</p>
+                <ul>
+                    <li>si les deux parties en conviennent,</li>
+                    <li>et moyennant le paiement d’une soulte correspond à la valeur de remplacement du swap aux conditions de marché, par l’une des parties à l’autre.</li>
+                </ul>
+                <p class="SautLigne">Les éléments suivants sont déterminés précisément lors de la conclusion du contrat de swap&#160;:</p>
+                <ul>
+                    <li>date de conclusion</li>
+                    <li>date de valeur</li>
+                    <li>périodicité (mensuelle, trimestrielle, semestrielle ou annuelle)</li>
+                    <li>dates de constatation du taux variable</li>
+                    <li>dates de paiement</li>
+                    <li>date d’échéance</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Quelques types de swap</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Les swaps marqués d'un astérisque sont gérés par l'application.</p>
+                <table style="width: 100%;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #696969;caption-side: bottom;mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');" class="TableStyle-Tableau_standard" cellspacing="0">
+                    <caption>
+                        <p>&#160;</p>
+                    </caption>
+                    <col style="width: 230px;" class="TableStyle-Tableau_standard-Column-Column1" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Tableau_standard-Head-Header1">
+                            <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Type</th>
+                            <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">
+                                <p>Définition</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Classique ou vanille*	</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <p>Échange des flux d’intérêts à taux fixe contre des flux d’intérêts à taux variable.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Base*</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <p>	Échange des flux d’intérêts à taux variable portant sur deux indices de taux différents.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1"><i>Forward</i> ou à départ différé</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <p>	Swap dont le départ se situe à une date future.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Amortissable	</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <p>Swap dont le nominal s’amortit avec le temps comme son sous-jacent.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Zéro-coupon</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <p>	Échange de flux fixe contre variable ou fixe contre fixe. Les flux relatifs au taux fixe sont générés en une seule fois au début ou à la fin.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">D'actif ou <i>Asset Swap</i><![CDATA[	]]></td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <p>Transformation des flux payés par un actif que l’une des deux parties du swap a en portefeuille.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Quanto ou de différentiel</td>
+                            <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">
+                                <p>Échange de flux d'intérêts à taux variable contre des flux d'intérêts à taux variable exprimés dans la même devise, alors que les références de taux sont issues de 2 devises différentes.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+    </body>
+</html>

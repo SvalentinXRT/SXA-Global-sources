@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Warning.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/E_Legacy/3_Payment/PARAM - Structures de fichier.htm" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Warning.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Page import VDOM.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Assistant importation.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton Points de suspension.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Selection fichier export.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton coche bleue.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton STR fleche drte.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Param option import.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton STR coche verte.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton STR croix rouge.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Progression importation VDOM.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Rapport importation.png" />
+    <Link
+      Url="Content/E_Legacy/3_Payment/INTEGRATION - Rejets virements.htm" />
+    <Link
+      Url="Content/E_Legacy/3_Payment/TRAITFINAN - Suivi des virements.htm" />
+    <Link
+      Url="Content/E_Legacy/3_Payment/TRAITFINAN - Constitution des remises.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Warning.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/E_Legacy/3_Payment/PARAM - Structures de fichier.htm" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Warning.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Page import VDOM.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Assistant importation.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton Points de suspension.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Selection fichier export.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton coche bleue.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton STR fleche drte.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Param option import.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton STR coche verte.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton STR croix rouge.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Progression importation VDOM.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Rapport importation.png" />
+    <Link
+      Url="Content/E_Legacy/3_Payment/INTEGRATION - Rejets virements.htm" />
+    <Link
+      Url="Content/E_Legacy/3_Payment/TRAITFINAN - Suivi des virements.htm" />
+    <Link
+      Url="Content/E_Legacy/3_Payment/TRAITFINAN - Constitution des remises.htm" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="Import:transfers"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="6" />
+    <IndexCacheEntry
+      Term="Transfers:import"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="6" />
+    <IndexCacheEntry
+      Term="Import:Access Page"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="25" />
+    <IndexCacheEntry
+      Term="Import:Creation and Launch Mode"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="51" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXT_Payment" />
+    <Variable
+      Name="Localization.SXTModulesTasks" />
+    <Variable
+      Name="Localization.SXTImportFolder" />
+  </Variables>
+  <FileConditions>
+    <Condition
+      Tag="Default.3Revised" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.3Revised" />
+    <Condition
+      Tag="Default.PrintOnly" />
+    <Condition
+      Tag="Default.ScreenOnly" />
+  </AllConditions>
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Warning.css" />
+    <Url
+      Source="Content/Resources/Stylesheets/MainStyles.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

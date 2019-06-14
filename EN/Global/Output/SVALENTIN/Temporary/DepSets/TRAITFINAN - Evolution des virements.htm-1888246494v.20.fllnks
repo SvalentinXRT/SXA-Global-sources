@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles.css" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Message erreur vdom non conforme.png" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton Modifier remise.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Modif VDOM.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Validation VDOM.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Validation en rafale.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Validation multiple.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Remise multiple.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Proposition Remise 2.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Validation modif.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Validation suppr.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Page valider en rafale.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Remise domestiques - liste.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Confirmation remise.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Remises dom generees.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Onglet Back Office.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles.css" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Message erreur vdom non conforme.png" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Bouton Modifier remise.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Modif VDOM.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Validation VDOM.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Validation en rafale.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Validation multiple.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Remise multiple.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Proposition Remise 2.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Validation modif.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Validation suppr.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Page valider en rafale.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Remise domestiques - liste.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Confirmation remise.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Remises dom generees.png" />
+    <Link
+      Url="Content/Resources/Images/L_Payment/Onglet Back Office.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="Transfers:Life Cycle"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="10" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXT_Payment" />
+  </Variables>
+  <FileConditions>
+    <Condition
+      Tag="Default.3Revised" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.3Revised" />
+  </AllConditions>
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Note.css" />
+    <Url
+      Source="Content/Resources/Stylesheets/MainStyles.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

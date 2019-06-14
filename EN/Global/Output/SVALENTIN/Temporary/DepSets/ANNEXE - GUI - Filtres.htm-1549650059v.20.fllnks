@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/PARAM - Regles de gestion.htm" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/SAISIE - Filtres affichage.htm" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/COMP - ComparaisonExercices.htm" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/POST - Postage dans Cash.htm" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/EDITION - Filtres edition.htm" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_Liquidity/Copier un filtre de commandes.flsnp" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Filtres 1.png" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Filtres 2.png" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_Liquidity/Enregistrer params filtre.flsnp" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/PARAM - Regles de gestion.htm" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/SAISIE - Filtres affichage.htm" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/COMP - ComparaisonExercices.htm" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/POST - Postage dans Cash.htm" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/EDITION - Filtres edition.htm" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_Liquidity/Copier un filtre de commandes.flsnp" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Filtres 1.png" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Filtres 2.png" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_Liquidity/Enregistrer params filtre.flsnp" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="Filter"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="6" />
+    <IndexCacheEntry
+      Term="Reports:filters"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="6" />
+    <IndexCacheEntry
+      Term="Filter:settings copy"
+      Conditions="Default.ScreenOnly,Default.3Revised"
+      LocalConditions=""
+      Position="25" />
+    <IndexCacheEntry
+      Term="Filter:modification"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="31" />
+    <IndexCacheEntry
+      Term="Filter:deletion"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="55" />
+    <IndexCacheEntry
+      Term="Filter:application"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="88" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXT_Liquidity" />
+    <Variable
+      Name="Localization.SXT" />
+    <Variable
+      Name="Localization.SXTModulesTasks" />
+    <Variable
+      Name="Localization.SXTSetupFolder" />
+  </Variables>
+  <FileConditions>
+    <Condition
+      Tag="Default.3Revised" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.3Revised" />
+    <Condition
+      Tag="Default.ScreenOnly" />
+  </AllConditions>
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Note.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="1557" MadCap:lastWidth="621" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>&#160;</head>
+    <body>
+        <p>Cliquez sur le bouton&#160;<img src="../../Images/L_Liquidity/bouton appel calendrier.png" /> en regard du champ de saisie de date.</p>
+        <p class="SautLigne">Le calendrier contextuel s'affiche.</p>
+        <p MadCap:targetName="Capture popup calendrier">
+            <img src="../../Images/L_Liquidity/Pop-up calendrier 1.jpg" class="SAGE_screenshot">
+            </img>
+        </p>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead MadCap:conditions="">
+                <MadCap:dropDownHotspot>Afficher la description du calendrier</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li class="PuceNiv1">Dans cette fenêtre, la première ligne affiche la date actuellement sélectionnée (renseignée à la date du jour par défaut). Vous ne pouvez pas sélectionner cette ligne.</li>
+                    <li class="PuceNiv1">La deuxième ligne affiche le mois et l'année de la date sélectionnée.</li>
+                    <li class="PuceNiv1">Le tableau affiche les jours du mois.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Modifier l'année</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">Cliquez sur la deuxième ligne indiquant le mois et l'année («&#160;janvier&#160;2010&#160;» dans la capture ci-dessus).</li>
+                </ol>
+                <p class="IndentPuceNiv1SautLigne">La sélection s'élargit et la deuxième ligne affiche l'année en cours.</p>
+                <p class="IndentPuceNiv1">
+                    <img src="../../Images/L_Liquidity/Pop-up calendrier 2.jpg" class="SAGE_screenshot" />
+                </p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Cliquez de nouveau sur la deuxième ligne.</li>
+                </ol>
+                <p class="IndentPuceNiv1SautLigne">La sélection s'élargit de nouveau et la deuxième ligne affiche la décennie en cours.</p>
+                <p class="IndentPuceNiv1">
+                    <img src="../../Images/L_Liquidity/Pop-up calendrier 3.jpg" class="SAGE_screenshot" />
+                </p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Pour sélectionner une année dans la décennie en cours, cliquez sur une année dans le tableau.</li>
+                </ol>
+                <p class="IndentPuceNiv1">Sinon, pour sélectionner une autre année&#160;:</p>
+                <ol>
+                    <li class="PuceNumNiv2">Cliquez de nouveau sur la deuxième ligne de la fenêtre pour élargir encore la sélection.</li>
+                </ol>
+                <p class="IndentPuceNiv2">La deuxième ligne affiche alors le siècle en cours.</p>
+                <p class="IndentPuceNiv2">
+                    <img src="../../Images/L_Liquidity/Pop-up calendrier 4.jpg" class="SAGE_screenshot" />
+                </p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv2">Dans le tableau, cliquez successivement sur la décennie souhaitée, puis sur l'année souhaitée.</li>
+                </ol>
+                <p class="SautLigneAvantEtAprès">Consultez la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique</MadCap:conditionalText> ci-dessous pour sélectionner un mois.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Modifier le mois</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Une fois l'année sélectionnée, sélectionnez un mois en utilisant les boutons <img src="../../Images/L_Liquidity/Bouton calendrier fleche gauche.jpg" /> et <img src="../../Images/L_Liquidity/Bouton calendrier fleche droite.jpg" /> en haut de la fenêtre.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Sélectionner un jour dans le mois</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Une fois l'année et le mois sélectionnés, vous pouvez sélectionner un jour.</p>
+                <p>Dans le tableau, cliquez sur le jour souhaité.</p>
+                <p class="SautLigne">La fenêtre contextuelle se ferme.</p>
+                <p class="PuceNumNiv1">La date sélectionnée est affichée dans le champ de saisie de date.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

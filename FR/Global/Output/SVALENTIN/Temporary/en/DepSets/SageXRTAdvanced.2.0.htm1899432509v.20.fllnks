@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="Sage XRT Advanced 2.0 - New Features"
+  FileSearchable="true"
+  MasterPage="file:///C:/__OHC MADCAP/Sage XRT Advanced/EN/Global/Content/Resources/MasterPages/NewFeatures.flmsp"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0"
+  FileDescription="">
+  <Links>
+    <Link
+      Url="Content/Resources/MasterPages/NewFeatures.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.BankArea.png" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.AddCommentAction.png" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.ReconciliationDashboard.png" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.SetupDashboard.png" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.BankDelegationsDashboard.png" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.DashboardConfig.png" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.GridScrollList.png" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.GridColumns.png" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.GridFormatAmountFilters.png" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.RejectsManagement.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/MasterPages/NewFeatures.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.BankArea.png" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.AddCommentAction.png" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.ReconciliationDashboard.png" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.SetupDashboard.png" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.BankDelegationsDashboard.png" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.DashboardConfig.png" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.GridScrollList.png" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.GridColumns.png" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.GridFormatAmountFilters.png" />
+    <Link
+      Url="Content/Resources/Images/NewFeatures/SXA.2.0/NewFeatures.SXA.2.0.RejectsManagement.png" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="SXA.2.0.EspaceBancaire" />
+    <Anchor
+      Name="SXA2.0.AjoutCommentaire" />
+    <Anchor
+      Name="SXA2.0..Dashboards" />
+    <Anchor
+      Name="SXA2.0.EditeurDashboard" />
+    <Anchor
+      Name="SXA2.0.Grille" />
+    <Anchor
+      Name="SXA2.0.GestionRejets" />
+  </Anchors>
+  <Keywords />
+  <Concepts>
+    <ConceptCacheEntry
+      Term="New Features"
+      Conditions=""
+      LocalConditions=""
+      Position="6" />
+  </Concepts>
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXA" />
+    <Variable
+      Name="Localization.SXA_Bank" />
+    <Variable
+      Name="Localization.SXA_Cash" />
+    <Variable
+      Name="Localization.SXA_Reconciliation" />
+    <Variable
+      Name="Localization.SXA_MarketData" />
+    <Variable
+      Name="Localization.SXA_Setup" />
+    <Variable
+      Name="Localization.SXA_BankDelegations" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/MainStyles.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

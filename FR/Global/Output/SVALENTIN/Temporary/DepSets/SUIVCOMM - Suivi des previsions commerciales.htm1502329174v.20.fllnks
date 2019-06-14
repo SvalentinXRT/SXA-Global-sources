@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Warning.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Content/E_Legacy/5_FX/SUIVCOMM - Apuration.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITFINAN - Liaison avec previsions.htm" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Afficher detail ope comm.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Vue flux treso.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Warning.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton fleche bas gris.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton Points de suspension.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Afficher detail ope comm 2.png" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITCOMM - Operations commerciales.htm" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Modifier en rafale.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Warning.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Content/E_Legacy/5_FX/SUIVCOMM - Apuration.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITFINAN - Liaison avec previsions.htm" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Afficher detail ope comm.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Vue flux treso.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Warning.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton fleche bas gris.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton Points de suspension.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Afficher detail ope comm 2.png" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITCOMM - Operations commerciales.htm" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Modifier en rafale.png" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="affich_rglmts" />
+    <Anchor
+      Name="vue_couvertures" />
+  </Anchors>
+  <Keywords>
+    <IndexCacheEntry
+      Term="Opération commerciale:suivi"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="8" />
+    <IndexCacheEntry
+      Term="Afficher le détail, lien"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="113" />
+    <IndexCacheEntry
+      Term="Opération commerciale:détail des flux"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="113" />
+    <IndexCacheEntry
+      Term="Opération commerciale:détail de la couverture"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="203" />
+    <IndexCacheEntry
+      Term="Modifier:en rafale, bouton"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="232" />
+    <IndexCacheEntry
+      Term="Opération commerciale:modification par lots"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="232" />
+    <IndexCacheEntry
+      Term="Actualiser rattachement, bouton"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="270" />
+    <IndexCacheEntry
+      Term="Opération commerciale:mise à jour du lien de couverture"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="270" />
+    <IndexCacheEntry
+      Term="Lien de couverture, mettre à jour"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="270" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions>
+    <Condition
+      Tag="Default.3Revised" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.3Revised" />
+    <Condition
+      Tag="Default.ScreenOnly" />
+  </AllConditions>
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Warning.css" />
+    <Url
+      Source="Content/Resources/TableStyles/Tableau standard.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

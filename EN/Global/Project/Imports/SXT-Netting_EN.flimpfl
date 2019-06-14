@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultProjectImport
+  AutoSync="true"
+  DeleteStale="true"
+  IncludePattern="*.htm;*.html;*.png;*.bmp;*.jpg;*.jpeg;*.tif;*.tiff;*.gif;*.swd;*.emf;*.wmf;*.xaml;*.xps;*.exps;*.hdp;*.wdp;*.dib;*.svg;*.ps;*.eps;*.pdf;*.asf;*.wm;*.wma;*.wmv;*.asx;*.wax;*.wvx;*.wmx;*.mid;*.midi;*.mpeg;*.mpg;*.mpa;*.mpe;*.wav;*.au;*.mp3;*.avi;*.swf;*.mov;*.qt;*.mp4;*.webm;*.ogg;*.ogv;*.oga;*.ogx;*.spx;*.opus;*.m4v;*.u3d;*.flsnp;*.fltoc"
+  ConditionTagExpression="exclude[General.ImportFromGBL] "
+  LastImport="2019-02-07T15:58:45.7893705+01:00">
+  <Files>
+    <Url
+      Source="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/SXT-Netting_EN.flprj"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/SXT-Netting_EN.flprj" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles>
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/E_Legacy/4_Netting/Balance Compensation.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/E_Legacy/4_Netting/Balance Compensation.htm" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/E_Legacy/4_Netting/ConceptsCles.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/E_Legacy/4_Netting/ConceptsCles.htm" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/E_Legacy/4_Netting/Creation-intro.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/E_Legacy/4_Netting/Creation-intro.htm" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/E_Legacy/4_Netting/Creation-Simulation.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/E_Legacy/4_Netting/Creation-Simulation.htm" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/E_Legacy/4_Netting/Factures-int-ext.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/E_Legacy/4_Netting/Factures-int-ext.htm" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/E_Legacy/4_Netting/Fiche de compensation.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/E_Legacy/4_Netting/Fiche de compensation.htm" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/E_Legacy/4_Netting/Introduction-Factures.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/E_Legacy/4_Netting/Introduction-Factures.htm" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/E_Legacy/4_Netting/Modification-Cycle-Facturation.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/E_Legacy/4_Netting/Modification-Cycle-Facturation.htm" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/E_Legacy/4_Netting/Param-Importation.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/E_Legacy/4_Netting/Param-Importation.htm" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/E_Legacy/4_Netting/Param_Commun.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/E_Legacy/4_Netting/Param_Commun.htm" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/E_Legacy/4_Netting/Param_specifique.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/E_Legacy/4_Netting/Param_specifique.htm" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/E_Legacy/4_Netting/Position_Compensation.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/E_Legacy/4_Netting/Position_Compensation.htm" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/E_Legacy/4_Netting/Postages et exportations.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/E_Legacy/4_Netting/Postages et exportations.htm" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/E_Legacy/4_Netting/PresentationNetting.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/E_Legacy/4_Netting/PresentationNetting.htm" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/E_Legacy/4_Netting/Re-calcul simulation.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/E_Legacy/4_Netting/Re-calcul simulation.htm" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/E_Legacy/4_Netting/Resultat_Net_Reglement.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/E_Legacy/4_Netting/Resultat_Net_Reglement.htm" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/E_Legacy/4_Netting/Setup.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/E_Legacy/4_Netting/Setup.htm" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/E_Legacy/4_Netting/Simulation.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/E_Legacy/4_Netting/Simulation.htm" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/E_Legacy/4_Netting/Traitement-Compensation.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/E_Legacy/4_Netting/Traitement-Compensation.htm" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/E_Legacy/4_Netting/Transactions-int-ext.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/E_Legacy/4_Netting/Transactions-int-ext.htm" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/E_Legacy/4_Netting/Transactions.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/E_Legacy/4_Netting/Transactions.htm" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/E_Legacy/4_Netting/Vue generale Compensation.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/E_Legacy/4_Netting/Vue generale Compensation.htm" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Project/TOCs/SXT-Netting.fltoc"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Project/TOCs/SXT-Netting.fltoc" />
+  </CollectedSourceFiles>
+  <SkippedSourceFiles>
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/SearchResults.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/SearchResults.htm" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Bouton calendrier fleche droite.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Bouton calendrier fleche droite.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Bouton calendrier fleche gauche.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Bouton calendrier fleche gauche.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Bouton fleche bas.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Bouton fleche bas.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Bouton Points de suspension.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Bouton Points de suspension.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Bouton STR coche verte.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Bouton STR coche verte.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Bouton STR croix rouge.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Bouton STR croix rouge.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Bouton STR fleche drte.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Bouton STR fleche drte.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Codes TRN.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Codes TRN.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Condition de postage des flux.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Condition de postage des flux.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Configuration Netting - onglet factures.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Configuration Netting - onglet factures.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Confirguration Netting - onglet processus netting.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Confirguration Netting - onglet processus netting.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Convention - onglet Dev Fact.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Convention - onglet Dev Fact.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Convention - onglet entites externes.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Convention - onglet entites externes.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Convention - onglet entités internes.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Convention - onglet entités internes.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Convention - onglet general.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Convention - onglet general.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Convention - onglet TRN Compensation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Convention - onglet TRN Compensation.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Creer Tache exportation TRN terme 1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Creer Tache exportation TRN terme 1.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Creer Tache exportation TRN terme 2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Creer Tache exportation TRN terme 2.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Creer Tache exportation TRN terme 3a.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Creer Tache exportation TRN terme 3a.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Creer Tache exportation TRN terme 3b.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Creer Tache exportation TRN terme 3b.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Creer Tache exportation TRN terme 3c.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Creer Tache exportation TRN terme 3c.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Creer Tache exportation TRN terme 3d.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Creer Tache exportation TRN terme 3d.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Creer Tache exportation TRN terme 3e.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Creer Tache exportation TRN terme 3e.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Creer Tache exportation TRN terme 3f.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Creer Tache exportation TRN terme 3f.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Creer Tache exportation TRN terme 4.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Creer Tache exportation TRN terme 4.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Creer Tache importation previsions commerciales 1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Creer Tache importation previsions commerciales 1.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Creer Tache importation previsions commerciales 2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Creer Tache importation previsions commerciales 2.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Creer Tache importation previsions commerciales 3.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Creer Tache importation previsions commerciales 3.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Creer Tache importation previsions commerciales 4.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Creer Tache importation previsions commerciales 4.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Cycle compensation2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Cycle compensation2.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Cycles compensation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Cycles compensation.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Dupliquer structure exportation transactions change terme 1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Dupliquer structure exportation transactions change terme 1.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Dupliquer structure importation previsions commerciales 1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Dupliquer structure importation previsions commerciales 1.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Edition Balance de Compensation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Edition Balance de Compensation.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Edition Resultat Net Reglement.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Edition Resultat Net Reglement.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Encart Taches de modules.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Encart Taches de modules.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Fiche Compensation 2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Fiche Compensation 2.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Fiche Compensation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Fiche Compensation.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Org_multi_avec_netting_bilateral.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Org_multi_avec_netting_bilateral.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Org_multi_avec_netting_Sage.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Org_multi_avec_netting_Sage.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Org_multi_sans_netting.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Org_multi_sans_netting.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Parametrer structure importation Popup.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Parametrer structure importation Popup.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/point_d_interrogation_entoure.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/point_d_interrogation_entoure.gif" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Pop-up calendrier.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Pop-up calendrier.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Postage.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Postage.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Processus Simulation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Processus Simulation.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Schema vue ensemble compensation.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Schema vue ensemble compensation.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Traitement compensation - conversion.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Traitement compensation - conversion.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Images/L_Netting/Transaction interne.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Images/L_Netting/Transaction interne.png" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Multimedia/NewVideo.mp4"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Multimedia/NewVideo.mp4" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Multimedia/L_Netting/Convention de compensation.mp4"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Multimedia/L_Netting/Convention de compensation.mp4" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Multimedia/L_Netting/Cours de compensation.mp4"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Multimedia/L_Netting/Cours de compensation.mp4" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Multimedia/L_Netting/Cycle de compensation.mp4"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Multimedia/L_Netting/Cycle de compensation.mp4" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Multimedia/L_Netting/Postage de flux.mp4"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Multimedia/L_Netting/Postage de flux.mp4" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Multimedia/L_Netting/Saisir une facture.mp4"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Multimedia/L_Netting/Saisir une facture.mp4" />
+    <Url
+      Source="../../../SXT/SXT-Netting/Content/Resources/Multimedia/L_Netting/Structure de cycle.mp4"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Netting/Content/Resources/Multimedia/L_Netting/Structure de cycle.mp4" />
+  </SkippedSourceFiles>
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/E_Legacy/4_Netting/Balance Compensation.htm"
+      TimeStamp="08/02/2018 14:26:38" />
+    <Url
+      Source="../../Content/E_Legacy/4_Netting/ConceptsCles.htm"
+      TimeStamp="08/02/2018 14:26:38" />
+    <Url
+      Source="../../Content/E_Legacy/4_Netting/Creation-intro.htm"
+      TimeStamp="08/02/2018 14:26:38" />
+    <Url
+      Source="../../Content/E_Legacy/4_Netting/Creation-Simulation.htm"
+      TimeStamp="08/02/2018 14:26:38" />
+    <Url
+      Source="../../Content/E_Legacy/4_Netting/Factures-int-ext.htm"
+      TimeStamp="08/02/2018 14:26:38" />
+    <Url
+      Source="../../Content/E_Legacy/4_Netting/Fiche de compensation.htm"
+      TimeStamp="08/02/2018 14:26:38" />
+    <Url
+      Source="../../Content/E_Legacy/4_Netting/Introduction-Factures.htm"
+      TimeStamp="08/02/2018 14:26:38" />
+    <Url
+      Source="../../Content/E_Legacy/4_Netting/Modification-Cycle-Facturation.htm"
+      TimeStamp="08/02/2018 14:26:38" />
+    <Url
+      Source="../../Content/E_Legacy/4_Netting/Param-Importation.htm"
+      TimeStamp="08/02/2018 14:26:38" />
+    <Url
+      Source="../../Content/E_Legacy/4_Netting/Param_Commun.htm"
+      TimeStamp="08/02/2018 14:26:38" />
+    <Url
+      Source="../../Content/E_Legacy/4_Netting/Param_specifique.htm"
+      TimeStamp="08/02/2018 14:26:38" />
+    <Url
+      Source="../../Content/E_Legacy/4_Netting/Position_Compensation.htm"
+      TimeStamp="08/02/2018 14:26:38" />
+    <Url
+      Source="../../Content/E_Legacy/4_Netting/Postages et exportations.htm"
+      TimeStamp="08/02/2018 14:26:38" />
+    <Url
+      Source="../../Content/E_Legacy/4_Netting/PresentationNetting.htm"
+      TimeStamp="08/02/2018 14:26:38" />
+    <Url
+      Source="../../Content/E_Legacy/4_Netting/Re-calcul simulation.htm"
+      TimeStamp="08/02/2018 14:26:38" />
+    <Url
+      Source="../../Content/E_Legacy/4_Netting/Resultat_Net_Reglement.htm"
+      TimeStamp="08/02/2018 14:26:38" />
+    <Url
+      Source="../../Content/E_Legacy/4_Netting/Setup.htm"
+      TimeStamp="08/02/2018 14:26:38" />
+    <Url
+      Source="../../Content/E_Legacy/4_Netting/Simulation.htm"
+      TimeStamp="08/02/2018 14:26:38" />
+    <Url
+      Source="../../Content/E_Legacy/4_Netting/Traitement-Compensation.htm"
+      TimeStamp="08/02/2018 14:26:38" />
+    <Url
+      Source="../../Content/E_Legacy/4_Netting/Transactions-int-ext.htm"
+      TimeStamp="08/02/2018 14:26:39" />
+    <Url
+      Source="../../Content/E_Legacy/4_Netting/Transactions.htm"
+      TimeStamp="08/02/2018 14:26:39" />
+    <Url
+      Source="../../Content/E_Legacy/4_Netting/Vue generale Compensation.htm"
+      TimeStamp="08/02/2018 14:26:39" />
+    <Url
+      Source="../TOCs/SXT-Netting.fltoc"
+      TimeStamp="08/02/2018 14:26:39" />
+  </GeneratedFiles>
+</CatapultProjectImport>

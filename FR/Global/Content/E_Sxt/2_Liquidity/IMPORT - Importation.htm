@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="4531" MadCap:lastWidth="714">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1 class="LegacySXT">
+            <MadCap:keyword term="Importation de données comptables:exécution" />Lancement</h1>
+        <p>Avant de procéder à l'importation, assurez-vous d'avoir effectué le paramétrage préalable au lancement de l'importation&#160;:</p>
+        <ul style="list-style-type: square;">
+            <li class="PuceNiv1">la configuration de la structure du fichier à importer (que vous aurez de préférence testée),</li>
+            <li class="PuceNiv1">les modalités d'importation.</li>
+        </ul>
+        <p class="SautLigne">L'importation des transactions budgétaires comporte deux étapes qui peuvent être réalisées de manière contiguë ou non, en fonction de vos besoins&#160;:</p>
+        <ul>
+            <li class="PuceNiv1">la création et l'enregistrement de la tâche d'importation,</li>
+            <li class="PuceNiv1">le lancement de la tâche.</li>
+        </ul>
+        <p class="SautLigneAvantEtAprès">Consultez les<MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"> rubriques</MadCap:conditionalText> précédentes pour plus d'informations sur ces procédures.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Accéder à la page de paramétrage des tâches d'importation</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Dans le volet <b><MadCap:variable name="Localization.SXTModulesTasks" /></b>, sélectionnez l'option <b>Importer les transactions de budget</b> dans le dossier <b><MadCap:variable name="Localization.SXTImportFolder" /></b> du module <MadCap:variable name="Localization.SXT_Liquidity" style="font-weight: bold;" />.</p>
+                <p>La page des tâches d'importation de fichiers s'affiche avec la liste des tâches d'importation enregistrées sous forme de tableau. Le tableau présente le libellé de la tâche, la localisation du fichier et la structure de fichier associée.</p>
+                <p MadCap:targetName="Capture importation 1">
+                    <img src="../../Resources/Images/L_Liquidity/Importer les transactions de budget.jpg" class="SAGE_screenshot" />
+                </p>
+                <p class="SautLigne">Pour des informations sur&#160;:</p>
+                <ul>
+                    
+                    <li class="PuceNiv1" style="margin-top: 12pt;" MadCap:conditions="Default.ScreenOnly"><b>la réorganisation de l'affichage des lignes</b> du tableau, <a href="ANNEXE - GUI.htm#top" target="_popup" class="Popup">cliquez ici</a>,</li>
+                    <li MadCap:conditions="Default.ScreenOnly" class="PuceNiv1"><b>la recherche de texte</b> dans le tableau, <a href="ContextualTopics/Rechercher texte dans tableau parametrage.htm" target="_popup" class="Popup">cliquez ici</a>,</li>
+                    
+                    <li MadCap:conditions="" class="PuceNiv1"><b>la création d'une ligne</b>, consultez la<MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"> rubrique</MadCap:conditionalText> ci-après,</li>
+                    <li MadCap:conditions="" class="PuceNiv1"><b>la modification de la structure et des équivalences</b> dans le tableau, cliquez sur le bouton <b>Modifier la structure</b> ou <b>Modifier les équivalences</b> (vous accédez aux mêmes pages qu'en création, dont la procédure est décrite dans la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique</MadCap:conditionalText> ci-après),</li>
+                    <li MadCap:conditions="Default.ScreenOnly" class="PuceNiv1"><b>la suppression d'une ligne</b> dans le tableau, <a href="ContextualTopics/Supprimer element dans tableau page parametrage.htm" target="_popup" class="Popup">cliquez ici</a>.</li>
+                    
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Créer et lancer une tâche d'importation</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">Dans la page de paramétrage des tâches d'importation, cliquez sur le bouton <b>Créer</b>.<br />La page de l'Assistant tâches d'importation s'affiche.</li>
+                </ol>
+                <p class="IndentPuceNiv1" MadCap:conditions="" MadCap:targetName="Capture importation 2">
+                    <img src="../../Resources/Images/L_Liquidity/Importer les transactions de budget 2.jpg" class="SAGE_screenshot" />
+                </p>
+                <p class="IndentPuceNiv1">Un numéro séquentiel de tâche d'importation est créé automatiquement et affiché dans le champ <b>Vous êtes en train de créer la tâche N°</b>.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Saisissez un libellé pour la tâche d'importation dans le champ <b>Libellé</b>.</li>
+                    <li class="PuceNumNiv1">Dans le champ <b>Fichier</b>, cliquez sur le bouton <img src="../../Resources/Images/L_Liquidity/Bouton Points de suspension.JPG" /> pour afficher l'explorateur du module <MadCap:variable name="Localization.SXT_Liquidity" style="font-weight: bold;" /> et sélectionner un fichier à tester.</li>
+                </ol>
+                <p class="IndentPuceNiv1">Une fenêtre contextuelle s'affiche.</p>
+                <p MadCap:targetName="Capture structure importation 5b" class="IndentPuceNiv1">
+                    <img src="../../Resources/Images/L_Liquidity/Parametrer structure importation budget 5b.jpg" class="SAGE_screenshot" />
+                </p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Dans l'explorateur, sélectionnez le dossier où se trouve le fichier.<br />Le chemin s'affiche dans la zone <b>Chemin sélectionné</b> et les fichiers contenus dans le dossier sont répertoriés dans le tableau en bas de la fenêtre.</li>
+                    <li class="PuceNumNiv1">Double-cliquez sur un nom de fichier pour le sélectionner ou cliquez sur le nom de fichier, puis sur le bouton <img src="../../Resources/Images/L_Liquidity/Bouton coche bleue.JPG" /> pour valider votre sélection.</li>
+                </ol>
+                <p class="IndentPuceNiv1">La page de l'Assistant est réaffichée et le chemin du fichier est affiché dans le champ <b>Fichier</b>.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Dans la zone <b>Structure</b>, cliquez sur le bouton <img src="../../Resources/Images/L_Liquidity/Bouton Points de suspension.JPG" /> pour afficher la liste des structures paramétrées. Dans la fenêtre contextuelle qui s'affiche, double-cliquez sur une ligne pour la sélectionner.</li>
+                    <li class="PuceNumNiv1">Cliquez sur le bouton <img src="../../Resources/Images/L_Liquidity/Bouton STR fleche drte.JPG" />&#160;<b>Paramétrage des options d'importation</b> pour continuer le paramétrage.</li>
+                </ol>
+                <p class="IndentPuceNiv1">La page de paramétrage des options s'affiche.</p>
+                <p class="IndentPuceNiv1" MadCap:targetName="Capture importation 3">
+                    <img src="../../Resources/Images/L_Liquidity/Importer les transactions de budget 3.jpg" class="SAGE_screenshot" />
+                </p>
+                <p class="IndentPuceNiv1">Cette page vous permet, entre autres, de définir&#160;:</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2">si les transactions importées seront créées dans le budget opérationnel ou dans le budget de trésorerie,</li>
+                    <li class="PuceNiv2">si, pour la période d'importation, les transactions déjà enregistrées dans le budget seront conservées, écrasées en totalité ou remplacées par les transactions importées sous certaines conditions (même nature budgétaire et même date d'opération).</li>
+                </ul>
+                <ol start="8">
+                    <li class="PuceNumNiv1">Si vous souhaitez&#160;:</li>
+                </ol>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2">passer l'étape suivante et enregistrer la tâche telle quelle sans la lancer, cliquez sur le bouton <img src="../../Resources/Images/L_Liquidity/Bouton STR coche verte.JPG" />&#160;<b>Valider</b>,</li>
+                    <li class="PuceNiv2">annuler le paramétrage en cours et réafficher la liste des tâches d'importation, cliquez sur le bouton <img src="../../Resources/Images/L_Liquidity/Bouton STR croix rouge.JPG" />&#160;<b>Annuler</b>.</li>
+                </ul>
+                <table class="TableStyle-Tableau_standard" cellspacing="0" MadCap:targetName="Tableau structure importation 2" style="caption-side: top;mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');">
+                    <col style="width: 114px;" class="TableStyle-Tableau_standard-Column-Column1" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Tableau_standard-Head-Header1">
+                            <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Champ</th>
+                            <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">
+                                <p class="tableau"><b>Supprimer le fichier après l'importation</b>
+                                </p>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Activez cette case à cocher si vous ne souhaitez pas conserver le fichier de données lorsque la tâche est terminée.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td colspan="2" class="TableStyle-Tableau_standard-BodyD-Column1-Body1" style="background-color: #f5f5f5;"><span style="font-weight: normal;">Zone </span>Statut des écritures du fichier</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Considérer les données du fichier comme des écritures budgétaires</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <p class="tableau">Activez ce bouton d'option pour définir les transactions créées en tant que transactions budgétaires.</p>
+                                <p class="tableau">Le champ <b>Origine</b> des transactions créées sera défini sur «&#160;Budget&#160;».</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Considérer les données du fichier comme des écritures de trésorerie</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <p class="tableau">Activez ce bouton d'option pour définir les transactions créées en tant que transactions réalisées.</p>
+                                <p class="tableau">Le champ <b>Origine</b> des transactions créées sera défini sur «&#160;Trésorerie&#160;».</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td colspan="2" class="TableStyle-Tableau_standard-BodyD-Column1-Body1" style="background-color: #f5f5f5;"><span style="font-weight: normal;">Zone </span>Mode import</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Ajouter</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Activez cette option pour ajouter les transactions du fichier à celles déjà enregistrées dans la base de données.<br></br>Notez que si une transaction existe à la fois dans la base de données et dans le fichier pour la même date, la même nature budgétaire, la même entité et le même montant, celle-ci sera comptabilisée deux fois.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Remplacer et ajouter</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Activez cette option pour remplacer, dans la base de données, les montants saisis par ceux du fichier lorsque les transactions présentent la même date, la même nature budgétaire et la même entité (quel que soit le montant).<br />Notez que ce mode permet d'écraser les montants saisis uniquement. Les montants calculés au moyen d'une formule sont conservés.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Remplacer tous</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Activez cette option pour écraser, dans la base de données, toutes les transactions enregistrées dans une période de temps spécifiée (que vous définissez) puis créer les transactions provenant du fichier.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="2" style="font-weight: normal;background-color: #f5f5f5;">Zone <b>Destination</b></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Feuille budgétaire opérationnelle (FBO)</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Activez ce bouton d'option pour que les transactions soient importées dans le budget opérationnel.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Feuille budgétaire de trésorerie (FBT)</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Activez ce bouton d'option pour que les transactions soient importées dans le budget de trésorerie.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" colspan="2" style="font-weight: normal;background-color: #f5f5f5;">
+                                <p colspan="2" class="tableau">Zone <b>Dates</b></p>
+                                <p colspan="2" class="tableau"><i>Cette zone est activée uniquement si vous avez activé l'option </i><b style="font-style: italic;">Remplacer tous</b><i>.</i>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Date début</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Saisissez une date de début pour la période d'importation dans le champ de saisie ou utilisez le calendrier.<MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><a href="ContextualTopics/Calendrier.htm">Cliquez ici</a> pour plus d'informations sur l'utilisation du calendrier.</MadCap:conditionalText></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Date exacte</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <p class="tableau">Activez ce bouton d'option si vous connaissez la date de fin exacte de la période d'importation.</p>
+                                <p class="tableau">Vous définissez ensuite la date de fin dans le champ <b>Date fin</b>.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Date fin</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <p class="tableau">Ce champ est activé si vous avez sélectionné l'option <b>Date exacte</b>.</p>
+                                <p class="tableau">Saisissez une date de fin pour la période d'importation dans le champ de saisie ou utilisez le calendrier.<MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><a href="ContextualTopics/Calendrier.htm">Cliquez ici</a> pour plus d'informations sur l'utilisation du calendrier.</MadCap:conditionalText></p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Date glissante</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <p class="tableau">Activez ce bouton d'option pour calculer la date de fin de la période à partir d'une formule de calcul.</p>
+                                <p class="tableau">Vous saisissez ensuite la formule dans le champ de saisie situé en regard de cette option.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1"><span style="font-weight: normal;font-style: italic;">Champ de saisie</span>
+                            </td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                <p class="tableau">Ce champ est activé si vous avez sélectionné l'option <b>Date glissante</b>.</p>
+                                <p class="tableau">Il est défini par défaut sur «&#160;Date&#160;».</p>
+                                <p class="tableau">Saisissez une formule de calcul dans ce champ comme décrit dans la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="ANNEXE - Regles de gestion - Etapes.htm" target="" title="" alt="" class="Xref_Help">Dates et périodes</MadCap:xref></MadCap:conditionalText>.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyD-Column1-Body1" style="background-color: #f5f5f5;font-weight: normal;" colspan="2">Zone <b>Impact sur les exercices</b><br />Si vous gérez un exercice par devise, le paramétrage de cette zone est déterminant.<br /></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Impacter l'exercice en devise</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Si vous gérez un exercice par devise et que vous souhaitez importer les transactions dans un seul exercice ou bien si toutes les devises sont gérées dans un même exercice, activez cette case d'option et sélectionnez la devise de l'exercice cible en utilisant le bouton <img src="../../Resources/Images/L_Liquidity/Bouton Points de suspension.JPG" />.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Impacter tous les exercices disponibles</td>
+                            <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">Si vous gérez un exercice par devise et que vous souhaitez importer les transactions dans tous les exercices disponibles, activez cette case d'option.<br />Dans ce cas, la devise de l'exercice est une information obligatoire et déterminante pour l'importation et vous devez paramétrer celle-ci en tant que champ obligatoire dans la structure d'importation. Pour plus d'informations sur le paramétrage de cette option, <a href="IMPORT - Structure.htm" target="_blank" class="Popup" MadCap:conditions="Default.ScreenOnly">cliquez ici</a>.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol start="9">
+                    <li class="PuceNumNiv1">Cliquez sur le bouton <img src="../../Resources/Images/L_Liquidity/Bouton STR fleche drte.JPG" />&#160;<b>Importer</b> pour lancer la tâche d'importation.</li>
+                </ol>
+                <p class="IndentPuceNiv1SautLigne">Si vous souhaitez&#160;:</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2">enregistrer la tâche telle quelle sans la lancer, cliquez sur le bouton <img src="../../Resources/Images/L_Liquidity/Bouton STR coche verte.JPG" />&#160;<b>Valider</b>.</li>
+                    <li class="PuceNiv2">annuler le paramétrage en cours et réafficher la liste des tâches d'importation, cliquez sur le bouton <img src="../../Resources/Images/L_Liquidity/Bouton STR croix rouge.JPG" />&#160;<b>Annuler</b>.</li>
+                </ul>
+                <p class="IndentPuceNiv1">L'importation est lancée et une nouvelle page s'affiche, indiquant la progression de la tâche.</p>
+                <p class="IndentPuceNiv1" MadCap:targetName="Capture importation 4">
+                    <img src="../../Resources/Images/L_Liquidity/Importer les transactions de budget 4.jpg" class="SAGE_screenshot">
+                    </img>
+                </p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1">
+                                <img src="../../Resources/Images/Assets/oh-Note.png" />
+                            </td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">Le champ <b>Totalisé</b> indique le nombre de transactions ayant fait l'objet de totalisations, en fonction des critères définis dans la zone <b>Seuil de totalisation</b> de la page de définition des modalités d'importation.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol start="10">
+                    <li class="PuceNumNiv1">Si vous souhaitez interrompre la tâche en cours, cliquez sur le bouton <b>Annuler</b> en bas de la page.</li>
+                    <li class="PuceNumNiv1">Une fois la tâche terminée, notez le nombre de rejets, puis cliquez sur le bouton <b>Fermer</b> en bas de la page.</li>
+                </ol>
+                <p class="IndentPuceNiv1">La page précédente est réaffichée.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Cliquez sur le bouton <img src="../../Resources/Images/L_Liquidity/Bouton STR coche verte.JPG"></img>&#160;<b>Valider </b>pour valider et enregistrer la tâche.</li>
+                </ol>
+                <p class="IndentPuceNiv1">La page de paramétrage des tâches d'importation de fichiers est réaffichée avec, en bas de la liste, la nouvelle tâche enregistrée.</p>
+                <p class="SautLigne">Si le lancement de la tâche a généré des rejets, consultez la<MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"> rubrique</MadCap:conditionalText> <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="IMPORT - Rejets.htm" target="" title="" alt="" class="XrefSansTexte">Rejets</MadCap:xref>.</MadCap:conditionalText></p>
+                <p class="SautLigne">Vous pouvez consulter les transactions importées avec succès dans votre feuille budgétaire.</p>
+                <p>Pour plus d'informations sur l'utilisation des feuilles budgétaires, consultez <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">la rubrique <MadCap:xref href="SAISIE - Saisie des feuilles budgetaires.htm" target="" title="" alt="" class="XrefSansTexte">Saisie et analyse du budget</MadCap:xref></MadCap:conditionalText>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:keyword term="Invite de commande, option (importation)" />
+                <MadCap:dropDownHotspot>Lancer une tâche d'importation en ligne de commande</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Vous avez la possibilité de relancer, en ligne de commande, une tâche d'importation existante.</p>
+                <ol>
+                    <li class="PuceNumNiv1">Pour connaître la commande à utiliser, dans la page des tâches d'importation, cliquez sur une ligne pour sélectionner la tâche correspondante, puis, dans la barre d'actions, cliquez sur le bouton <b>Invite de commande</b>.</li>
+                </ol>
+                <p class="IndentPuceNiv1">La boîte de dialogue <b>Ligne de commande</b> s'affiche et présente la commande avec tous les paramètres nécessaires&#160;: chemin du fichier exécutable, base de données, nom d'utilisateur et mot de passe, numéro d'identification de la tâche et fichier journal en sortie.</p>
+                <p class="IndentPuceNiv1" MadCap:targetName="Capture Ligne de commande">
+                    <img src="../../Resources/Images/L_Liquidity/bdd ligne de commande.jpg" class="SAGE_screenshot" />
+                </p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Cliquez sur le bouton <b>Copier vers le porte-documents</b>, puis sur le bouton <b>Fermer</b>.</li>
+                    <li class="PuceNumNiv1">Dans un éditeur de texte, collez le texte et remplacez les paramètres suivants&#160;:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><i>your.login</i> par votre nom d'utilisateur,</li>
+                    <li class="PuceNiv2"><i>your.password</i> par le mot de passe associé à votre nom d'utilisateur,</li>
+                    <li class="PuceNiv2"><i>log.txt</i> par le nom souhaité pour le fichier journal de l'opération généré en sortie.</li>
+                </ul>
+                <p class="IndentPuceNiv1">Ne modifiez pas le chemin du fichier exécutable et le numéro d'identification de la tâche.</p>
+                <ol start="4">
+                    <li class="PuceNumNiv1">Lancez l'invite de commandes.</li>
+                    <li class="PuceNumNiv1">Dans l'invite de commandes, cliquez avec le bouton droit de la souris, puis, dans le menu contextuel qui s'affiche, cliquez sur l'option <b>Coller</b> et appuyez sur la touche Entrée.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

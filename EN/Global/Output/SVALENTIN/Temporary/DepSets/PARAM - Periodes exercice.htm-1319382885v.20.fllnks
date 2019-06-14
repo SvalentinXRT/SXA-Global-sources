@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Param codes periodes 1.jpg" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_Liquidity/Actions dans tableau page de parametrage.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_Liquidity/Ref croisee Reorg tableau.flsnp" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Param codes periodes 2.jpg" />
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/ContextualTopics/Calendrier.htm" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Boutons fleches haut bas.jpg" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Param codes periodes 1.jpg" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_Liquidity/Actions dans tableau page de parametrage.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_Liquidity/Ref croisee Reorg tableau.flsnp" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Param codes periodes 2.jpg" />
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/E_Legacy/2_Liquidity/ContextualTopics/Calendrier.htm" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Boutons fleches haut bas.jpg" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="Exercise period, code setup"
+      Conditions=""
+      LocalConditions=""
+      Position="5" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXTModulesTasks" />
+    <Variable
+      Name="Localization.SXTSetupFolder" />
+    <Variable
+      Name="Localization.SXT_Liquidity" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.ScreenOnly" />
+  </AllConditions>
+  <Stylesheets />
+</CatapultFileLinkSet>

@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:lastBlockDepth="10" MadCap:lastHeight="7063" MadCap:lastWidth="557">
+    <head>
+        <link href="../../Resources/TableStyles/Warning.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Warning.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT"><MadCap:keyword term="Ledger:FX transactions;FX transaction:ledger;Reports:FX transactions" />FX Transactions Ledger</h1>
+        <p>This report enables you to view the details of Forward, Spot and Swap Exchange Transactions stored in the <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;"></MadCap:variable> module.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Accessing Exchange Ledger</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">From the <MadCap:variable name="Localization.SXTModulesTasks" style="font-weight: bold;" /> pane, select the <b>Exchange Ledger</b> option in the <MadCap:variable name="Localization.SXTReportsFolder" style="font-weight: bold;" /> folder of the <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> module.</li>
+                </ol>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2">If no filter has been set up for this report, the creation page for filters is displayed. You first need to create a filter.</li>
+                </ul>
+                <p class="IndentPuceNiv2">This filter enables you to select the FX transactions to display according to your criteria.</p>
+                <p class="IndentPuceNiv2">See the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">topic</MadCap:conditionalText> below for more information on the creation of selection filters for FX Transactions.</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2">If a filter has already been set up, the modification page for filters appears with the default filter settings.</li>
+                </ul>
+                <p MadCap:targetName="Capture Creer feuille de budget"><img src="../../Resources/Images/L_FX/Filtre Journal TRN change 1.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">If you need to modify the filter settings, see below the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">topic</MadCap:conditionalText> regarding filters creation.</p>
+                <ol start="2">
+                    <li class="PuceNumNiv1">Click <b>OK</b> to view the report with the filter settings.</li>
+                </ol>
+                <p MadCap:targetName="Capture edition"><img src="../../Resources/Images/L_FX/Journal transactions change.png" class="SAGE_screenshot" /></p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead MadCap:conditions="">
+                        <MadCap:dropDownHotspot>View Report Description</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p class="IndentPuceNiv1">The header displays the report name, as well as the filtering criteria defined in the report filter (see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">topic</MadCap:conditionalText> below for more information on this type of filter).</p>
+                        <p class="IndentPuceNiv1SautLigne">The body of the report presents a table with the details of FX Transactions.</p>
+                        <table class="TableStyle-Tableau_standard" cellspacing="0" MadCap:targetName="Tableau colonnes edition" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');">
+                            <col class="TableStyle-Tableau_standard-Column-Column1" />
+                            <col class="TableStyle-Tableau_standard-Column-Column2" />
+                            <thead>
+                                <tr class="TableStyle-Tableau_standard-Head-Header1">
+                                    <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Column</th>
+                                    <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">TRX Code<br />Transaction description</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Code and description of the transaction type</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">TRX No.<br />Linked TRX</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                        <p class="tableau">Transaction Identifier</p>
+                                        <p class="tableau">Identifier of the linked transaction when carried out or early settled</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Company<br />CTPY</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Applicant Code<br />Code of the counterparty company</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Main Account<br />CTRV Account</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Number of the bank account associated with the main currency<br />Number of the bank account associated with the countervalue currency</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">TRX Date</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Date of the transaction</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Maturity Date</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Maturity date of the transaction</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Delivery Date</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Delivery date of the transaction</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Main CCY</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Main currency code of the transaction</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Main Amount</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                        <p class="tableau">Amount of the transaction expressed in the main currency</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">CCY CTRV</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Countervalue currency</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">CTRV Amount</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Amount of the transaction expressed in the countervalue currency</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Amount In Position</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Position of the transaction balance</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">TRX Rate</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">
+                                        <p class="tableau">Exchange rate of the transaction:</p>
+                                        <p class="tableau">- Forward rate for Forward Exchange Transactions</p>
+                                        <p class="tableau">- Spot rate for Spot Exchange Transactions</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">BOV</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1"><i>Back office</i> validation indicator</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Settled</td>
+                                    <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Settlement indicator</td>
+                                </tr>
+                                <tr class="TableStyle-Tableau_standard-Body-Body1">
+                                    <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Renegotiated</td>
+                                    <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">Renegotiation indicator</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead><MadCap:keyword term="Ledger:FX transactions:filter;Filter:Exchange ledger" /><MadCap:dropDownHotspot>Creating Display Filters for Exchange Ledger</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">To access the creation page for filters from the report page of the Exchange Ledger, click the <b>Actions</b> dropdown menu in the filters toolbar, and the <b>Add</b> option in the menu.</li>
+                </ol>
+                <p class="IndentPuceNiv1SautLigne">The creation page for filters is displayed.</p>
+                <p MadCap:targetName="Capture creer filtre 1"><img src="../../Resources/Images/L_FX/Filtre Journal TRN change 0.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This page enables the definition of unique identification information for the filter.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Enter a code and a description for the filter in the <b>Code</b> and <b>Description</b> fields.</li>
+                    <li class="PuceNumNiv1">If you want this filter to be applied by default when you access the report page, enable the <b>Template Default Filter</b> option.</li>
+                    <li class="PuceNumNiv1">If you want this filter to be exclusively accessed by yourself, select the <b>Private</b> option.<span style="background-color: #ffff00;"></span></li>
+                    <li class="PuceNumNiv1">You may add a comment in the <b>Text</b> area.</li>
+                    <li class="PuceNumNiv1">Click the <b>Configure</b> button to set up the filter settings.</li>
+                </ol>
+                <p class="IndentPuceNiv1SautLigne">The configuration page for filter settings is displayed.</p>
+                <p MadCap:targetName="Capture creer filtre 2"><img src="../../Resources/Images/L_FX/Filtre Journal TRN change 1.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1SautLigne">
+                    <MadCap:snippetText src="../../Resources/Snippets/L_SXT_FX/Bouton Copier filtre.flsnp" />
+                </p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">If you do not specify any filtering criterion for the transactions in the different tabs of this page, the report will include all the existing FX transactions.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="IndentPuceNiv1SautLigne">The <b>Entities</b> tab enables you to specify a filtering on the applicant companies of the FX transactions to include in the report, as well as a filtering on the counterparty, the countervalue currency and the bank accounts associated with the main and countervalue currencies of the transactions.</p>
+                <ol start="8" MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Select</b> area, enable the following option:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>All</b> not to apply any filter on the companies,</li>
+                    <li class="PuceNiv2"><b>Single</b> to select a single applicant company (selection in the area below),</li>
+                    <li class="PuceNiv2"><b>Multiple</b> to select several applicant companies (selection in the area on the right).</li>
+                </ul>
+                <ol start="8">
+                    <li class="PuceNumNiv1">In the <b>Select</b> area , if you selected the following option:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Single</b>, select a company by clicking the button <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> in the area below, then, in the contextual window, double-click your company;</li>
+                    <li class="PuceNiv2"><b>Multiple</b>, select several companies as described below.</li>
+                </ul>
+                <ol>
+                    <li class="PuceNumNiv3">On the right of the <b>Select</b> area, click the <b>Select</b> button.</li>
+                    <li class="PuceNumNiv3">In the contextual window, enable the options in front of the codes for the companies to select, and click the <img src="../../Resources/Images/L_FX/Bouton coche bleue.JPG"></img> button at the top of the window.</li>
+                </ol>
+                <p class="IndentPuceNiv3">The codes and descriptions for the selected companies are displayed in the table of the area.</p>
+                <ol start="9">
+                    <li class="PuceNumNiv1">In the <b>Additional Criteria</b> area, you can add other filtering criteria on the countervalue currency of the transactions, using the <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> button.</li>
+                    <li class="PuceNumNiv1">In the <b>Accounts</b>, you can define the criteria for the filtering on bank accounts as explained below.</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2">If you want to define a filtering on the accounts according to the main and countervalue currencies:</li>
+                </ul>
+                <ol>
+                    <li class="PuceNumNiv3">Enable the <b>Main / CTRV</b> option:</li>
+                </ol>
+                <p class="IndentPuceNiv3">The <b>Main Account</b> and <b>CTRV Account</b> fields appear in the area.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv3">In these fields, select one bank account for the main currency and another one for the countervalue currency, using the <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> button.</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2">If you want to define a filtering on the accounts according to the flow direction:</li>
+                </ul>
+                <ol>
+                    <li class="PuceNumNiv3">Enable the <b>Debit / Credit</b> option:</li>
+                </ol>
+                <p class="IndentPuceNiv3">The <b>Debit Account</b> and <b>Credit Account</b> fields appear in the area.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv3">In these fields, select one bank account for debit flow and another one for credit flow, using the <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;" /> button.</li>
+                </ol>
+                <ol start="11">
+                    <li class="PuceNumNiv1"><a name="onglet_devise"></a>Click on the <b>Main Currencies</b> tab.</li>
+                </ol>
+                <p MadCap:targetName="Capture dev princ"><img src="../../Resources/Images/L_FX/Filtre Journal TRN change 2.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This tab enables you to specify filtering criteria on the main currencies of the FX transactions to include in the report.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Select</b> area, enable the following option:</li>
+                </ol>
+                <ol>
+                    <li class="PuceNumNiv2"><b>All</b> not to apply any filter on the main currencies,</li>
+                    <li class="PuceNumNiv2"><b>Single</b>, to include only the FX transactions which use the selected currency as main currency (in the area below),</li>
+                    <li class="PuceNumNiv2"><b>Multiple</b> to include the FX transactions which use one of the selected currencies as main currency (in the area on the right).</li>
+                </ol>
+                <ol start="13">
+                    <li class="PuceNumNiv1">Go through the same process as in the <b>Entities</b> tab, to select one or several main currencies.</li>
+                    <li class="PuceNumNiv1">Click the <b>Format</b> tab.</li>
+                </ol>
+                <p MadCap:targetName="Capture onglet Date"><img src="../../Resources/Images/L_FX/Filtre Journal TRN change 3.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This tab enables you to specify the output formats for the report.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Complete the fields described in the table below.</li>
+                </ol>
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_FX/Options Format Filtre edition.flsnp" />
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Enable the <b>Show Total Only</b> option, if you do not want to include the transactions&apos; details, but if you want to include the line of the transactions total amounts only.</li>
+                    <li class="PuceNumNiv1">Click the <b>Period</b> tab.</li>
+                </ol>
+                <p MadCap:targetName="Capture onglet periode"><img src="../../Resources/Images/L_FX/Filtre Journal TRN change 4.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This tab enables you to specify filtering criteria on the transaction and delivery dates of the FX transactions to include in the report.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">To define a filtering process on the transaction date:</li>
+                </ol>
+                <ol>
+                    <li class="PuceNumNiv2">Enable the option <b>TRX Date</b>.</li>
+                </ol>
+                <p class="IndentPuceNiv2">The fields next to the option are enabled.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv2">In these fields, specify the start and end date of the period, between which must fall the transaction date of the transactions to include in the report, by going through the following process:</li>
+                </ol>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv3">In the entry field, select the value to modify and enter a date with the format dd.mm.yyyy.</li>
+                </ul>
+                <p class="IndentPuceNiv3">- or -</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv3">Click the <img src="../../Resources/Images/L_FX/Bouton fleche bas.jpg"></img> button to display the calendar.</li>
+                </ul>
+                <p class="IndentPuceNiv3">A contextual window displays the calendar.</p>
+                <p class="IndentPuceNiv3SautLigne">
+                    <MadCap:toggler targets="Capture calendrier" class="IndentPuceNiv3SautLigne">View Calendar</MadCap:toggler>
+                </p>
+                <p class="IndentPuceNiv3" MadCap:targetName="Capture calendrier"><img src="../../Resources/Images/L_FX/Pop-up calendrier.jpg" class="SAGE_screenshot"></img></p>
+                <p class="IndentPuceNiv3SautLigne">Use the arrows <img src="../../Resources/Images/L_FX/Bouton calendrier fleche droite.jpg" style="width: 8px;height: 12px;"></img> and <img src="../../Resources/Images/L_FX/Bouton calendrier fleche gauche.jpg"></img> to select the month, year and day.</p>
+                <p class="IndentPuceNiv3">- or -</p>
+                <p class="IndentPuceNiv3">To set the start date to today&apos;s date, click the button <b>Today</b>.</p>
+                <ol start="19">
+                    <li class="PuceNumNiv1">To specify a filtering process on the delivery date, enable the <b>Delivery Date</b> option, then go through the same process as above, to define the start and end dates of the period, between which must fall the delivery date for the transactions to include in the report.</li>
+                    <li class="PuceNumNiv1"><a name="onglet_options"></a>Click the <b>Options</b> tab.</li>
+                </ol>
+                <p MadCap:targetName="Capture onglet Options"><img src="../../Resources/Images/L_FX/Filtre Journal TRN change 5.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This tab enables you to specify filtering criteria on the <i>back-office</i> validation and settlement statuses of the transactions.</p>
+                <p class="IndentPuceNiv1SautLigne">It also enables you to define different settings for the report layout:</p>
+                <ul>
+                    <li class="PuceNiv2">the order of transactions according to sorting criteria for columns,</li>
+                    <li class="PuceNiv2">one subtotal for each sort criterion value,</li>
+                    <li class="PuceNiv2">insertion of a page break between each sort criterion value.</li>
+                </ul>
+                <p class="IndentPuceNiv1SautLigne">For instance, you can decide to sort the columns according to the <i>back-office</i> validation status and to display a subtotal of transactions for each status, and you can insert a page break for each status value.</p>
+                <ol start="21">
+                    <li class="PuceNumNiv1">In the <b>Back office</b> dropdown list of the <b>Transaction Status</b> area, select a filtering criterion on the <i>back-office</i> validation of transactions:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Non B.O. Validated</b> to select the non-<i>BO</i>-validated transactions only,</li>
+                    <li class="PuceNiv2"><b>B.O. Validated </b>to select the <i>BO</i>-validated transactions only,</li>
+                    <li class="PuceNiv2"><b>B.O. Validated and Non B.O. Validated</b> to disable any filtering process on the <i>back-office</i> validation.</li>
+                </ul>
+                <ol start="22">
+                    <li class="PuceNumNiv1">In the <b>Settlement Status</b> dropdown list, select a filtering criterion for Settlement Status of Transactions:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>All</b> to cancel any filtering at the level of the settlement status for transactions,</li>
+                    <li class="PuceNiv2"><b>Opened</b> to select the opened transactions only,</li>
+                    <li class="PuceNiv2"><b>Settled</b> to select the settled transactions only.</li>
+                </ul>
+                <ol start="23">
+                    <li class="PuceNumNiv1">In the <b>Sort Order / Subtotal</b> area:</li>
+                </ol>
+                <ol>
+                    <li class="PuceNumNiv2">Select your first column in the <b>Field</b> dropdown list.</li>
+                    <li class="PuceNumNiv2">On the same line, enable the <b>Subtotal</b> option, if you want to display a subtotal of transactions for each selected criterion.</li>
+                    <li class="PuceNumNiv2">Enable the <b>Page Break</b> option, if you want to insert a page break after each selected criterion.</li>
+                    <li class="PuceNumNiv2">If you want to add other sort criteria, go through the same process as above, for the next lines.</li>
+                </ol>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Warning.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Warning" cellspacing="0">
+                    <col class="TableStyle-Warning-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Warning-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Warning-Body-Body1">
+                            <td class="TableStyle-Warning-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Warning.png" /></td>
+                            <td class="TableStyle-Warning-BodyA-Column2-Body1">Select your sort criteria in the required order, as the report will follow this order.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol start="24">
+                    <li class="PuceNumNiv1">Click the <b>Transactions</b> tab.</li>
+                </ol>
+                <p MadCap:targetName="Capture onglet Transactions"><img src="../../Resources/Images/L_FX/Filtre Journal TRN change 6.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This tab enables you to specify filtering criteria on the type of the FX transactions to include in the report.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Select</b> area, enable the following option:</li>
+                </ol>
+                <ol>
+                    <li class="PuceNumNiv2"><b>All</b> not to apply any filtering on the transaction types,</li>
+                    <li class="PuceNumNiv2"><b>Single</b> to include only the FX transactions with the selected type (in the area below),</li>
+                    <li class="PuceNumNiv2"><b>Multiple</b> to include the FX transactions with one of the selected types (in the area on the right).</li>
+                </ol>
+                <ol start="26">
+                    <li class="PuceNumNiv1">Go through the same process as in the <b>Entities</b> tab, to select one or several transaction types.</li>
+                </ol>
+                <ol start="19" MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Direction</b> dropdown list, select a filtering criterion for the direction of the transaction:</li>
+                </ol>
+                <ul>
+                    <li class="PuceNiv2"><b>Buy</b> to select the buy transactions only,</li>
+                    <li class="PuceNiv2"><b>Sell</b> to select the sell transactions only,</li>
+                    <li class="PuceNiv2"><b>Buy &amp; Sell</b> to disable any filtering process on the transaction direction.</li>
+                </ul>
+                <ol start="28">
+                    <li class="PuceNumNiv1"><a name="onglet_avance"></a>Click on the <b>Advanced</b> tab.</li>
+                </ol>
+                <p MadCap:targetName="Capture onglet avance"><img src="../../Resources/Images/L_FX/Filtre Journal TRN change 7.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">This tab enables you to specify filtering criteria on the different characteristics of FX Transactions, such as the order number, the external reference, the link number or the portfolio number.</p>
+                <ol start="8" MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Number</b> field of the <b>Transactions</b> area, enter a range of order numbers for transactions.</li>
+                </ol>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Warning.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Warning" cellspacing="0">
+                    <col class="TableStyle-Warning-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Warning-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Warning-Body-Body1">
+                            <td class="TableStyle-Warning-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Warning.png" /></td>
+                            <td class="TableStyle-Warning-BodyA-Column2-Body1">They are not the complete numbers of transactions, but the numbers of the creation order, they can be found on the right of transactions numbers. The transaction number consists of the company code, the transaction type code and the <b>transaction order number</b>.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol start="8" MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Link</b> field, enter a range of link numbers for transactions, or select a range using the button <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" /> as explained previously.</li>
+                    <li class="PuceNumNiv1">In the <b>Notes</b> field, enter the begining of the notes for transactions.</li>
+                    <li class="PuceNumNiv1">In the <b>Reference</b> field, enter the external reference number for transactions.</li>
+                    <li class="PuceNumNiv1">In the <b>Portfolio</b> field, enter the portfolio number of transactions, or select the portfolio using the <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" style="width: 16px;height: 16px;"></img> button.</li>
+                    <li class="PuceNumNiv1">Click the following buttons, as needed:</li>
+                </ol>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2"><b>OK </b>to save the selected setup,</li>
+                    <li class="PuceNiv2"><b>Cancel</b> to display again the Exchange Transactions Ledger report without saving the setup.</li>
+                </ul>
+                <p class="IndentPuceNiv1SautLigne">The creation page for filters is redisplayed.</p>
+                <ol start="35">
+                    <li class="PuceNumNiv1">Click <b>OK</b> to confirm the filter creation and view the report with the new filter settings.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/bouton appel calendrier.png" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Pop-up calendrier 1.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Pop-up calendrier 2.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Pop-up calendrier 3.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Pop-up calendrier 4.jpg" />
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Bouton calendrier fleche gauche.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Bouton calendrier fleche droite.jpg" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/bouton appel calendrier.png" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Pop-up calendrier 1.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Pop-up calendrier 2.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Pop-up calendrier 3.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Pop-up calendrier 4.jpg" />
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Bouton calendrier fleche gauche.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_Liquidity/Bouton calendrier fleche droite.jpg" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.ScreenOnly" />
+  </AllConditions>
+  <Stylesheets />
+</CatapultFileLinkSet>

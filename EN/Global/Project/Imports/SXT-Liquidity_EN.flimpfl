@@ -1,0 +1,2261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultProjectImport
+  AutoSync="true"
+  DeleteStale="true"
+  IncludePattern="*.htm;*.html;*.png;*.bmp;*.jpg;*.jpeg;*.tif;*.tiff;*.gif;*.swd;*.emf;*.wmf;*.xaml;*.xps;*.exps;*.hdp;*.wdp;*.dib;*.svg;*.ps;*.eps;*.pdf;*.asf;*.wm;*.wma;*.wmv;*.asx;*.wax;*.wvx;*.wmx;*.mid;*.midi;*.mpeg;*.mpg;*.mpa;*.mpe;*.wav;*.au;*.mp3;*.avi;*.swf;*.mov;*.qt;*.mp4;*.webm;*.ogg;*.ogv;*.oga;*.ogx;*.spx;*.opus;*.m4v;*.u3d;*.flsnp;*.fltoc"
+  ConditionTagExpression="exclude[General.ImportFromGBL] "
+  LastImport="2019-02-07T15:57:12.0833705+01:00">
+  <Files>
+    <Url
+      Source="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/SXT-Liquidity_EN.flprj"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/SXT-Liquidity_EN.flprj" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles>
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ANNEXE - GUI - Actions.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ANNEXE - GUI - Actions.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ANNEXE - GUI - Copier les parametres d un filtre.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ANNEXE - GUI - Copier les parametres d un filtre.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ANNEXE - GUI - Fenetres contextuelles.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ANNEXE - GUI - Fenetres contextuelles.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ANNEXE - GUI - Filtres.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ANNEXE - GUI - Filtres.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ANNEXE - GUI - Recherche.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ANNEXE - GUI - Recherche.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ANNEXE - GUI - Tableau reorg.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ANNEXE - GUI - Tableau reorg.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ANNEXE - GUI.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ANNEXE - GUI.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ANNEXE - Regles de gestion - Etapes.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ANNEXE - Regles de gestion - Etapes.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ANNEXE - Regles de gestion - Operateurs.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ANNEXE - Regles de gestion - Operateurs.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ANNEXE - Regles de gestion.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ANNEXE - Regles de gestion.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/COMP - ComparaisonExercices.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/COMP - ComparaisonExercices.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/COMP - filtre.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/COMP - filtre.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/COMP - SelectionNaturesBudgetaires.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/COMP - SelectionNaturesBudgetaires.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/EDITION - Comparaison des exercices.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/EDITION - Comparaison des exercices.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/EDITION - Consultation.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/EDITION - Consultation.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/EDITION - Diffusion.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/EDITION - Diffusion.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/EDITION - Editions.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/EDITION - Editions.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/EDITION - Feuille budgetaire.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/EDITION - Feuille budgetaire.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/EDITION - Filtres edition.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/EDITION - Filtres edition.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/EDITION - Journal des ecritures.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/EDITION - Journal des ecritures.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/IMPORT - Configuration.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/IMPORT - Configuration.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/IMPORT - Importation.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/IMPORT - Importation.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/IMPORT - Intro.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/IMPORT - Intro.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/IMPORT - Modalites d importation.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/IMPORT - Modalites d importation.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/IMPORT - Rejets.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/IMPORT - Rejets.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/IMPORT - Structure.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/IMPORT - Structure.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/INTRO - Acces appli.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/INTRO - Acces appli.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/INTRO - Budget de tresorerie.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/INTRO - Budget de tresorerie.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/INTRO - Principes fonctionnels.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/INTRO - Principes fonctionnels.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Assistant de regle de gestion.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Assistant de regle de gestion.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Construction de feuille budgetaire.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Construction de feuille budgetaire.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Devise et cours budget.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Devise et cours budget.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Donnees economiques.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Donnees economiques.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Entite.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Entite.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Exemples de regles.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Exemples de regles.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Exercice budgetaire.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Exercice budgetaire.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Exercices.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Exercices.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Feuille budgetaire.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Feuille budgetaire.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Groupe entites.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Groupe entites.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Natures budgetaires et regles.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Natures budgetaires et regles.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Natures budgetaires standard.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Natures budgetaires standard.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Natures budgetaires systeme.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Natures budgetaires systeme.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Natures budgetaires.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Natures budgetaires.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Parametrage du budget.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Parametrage du budget.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Periodes exercice.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Periodes exercice.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Regles de gestion.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Regles de gestion.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Structure budgetaire.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Structure budgetaire.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Structure organisationnelle.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Structure organisationnelle.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Tables de repartition.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Tables de repartition.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - TVA.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - TVA.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Unite.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/PARAM - Unite.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/POST - Capture.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/POST - Capture.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/POST - Journal de treso.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/POST - Journal de treso.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/POST - Postage dans Cash.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/POST - Postage dans Cash.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Affichage au niveau unite.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Affichage au niveau unite.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Affichage detaille.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Affichage detaille.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Configuration affichage.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Configuration affichage.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Dependances entre transactions.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Dependances entre transactions.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Details montant transaction.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Details montant transaction.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Exportation vers Excel.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Exportation vers Excel.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Filtres affichage.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Filtres affichage.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Fonctions logiques.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Fonctions logiques.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Mode analyse.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Mode analyse.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Mode prevision.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Mode prevision.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Niveau de detail.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Niveau de detail.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Preferences affichage.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Preferences affichage.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Regles de gestion.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Regles de gestion.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Report previsions.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Report previsions.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Revision de budget.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Revision de budget.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Saisie des feuilles budgetaires.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Saisie des feuilles budgetaires.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Volets.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Volets.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Vue consolidee.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/SAISIE - Vue consolidee.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Acceder page saisie budget.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Acceder page saisie budget.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Activer le mode analyse.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Activer le mode analyse.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Activer le mode prevision.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Activer le mode prevision.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Afficher ecart.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Afficher ecart.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Calculatrice.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Calculatrice.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Calendrier.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Calendrier.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Condition logique.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Condition logique.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Copier les parametres d un filtre.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Copier les parametres d un filtre.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Creer une regle de gestion.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Creer une regle de gestion.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Decalage.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Decalage.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Definir une date.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Definir une date.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Exemples sens TVA.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Exemples sens TVA.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Exporter vers Excel.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Exporter vers Excel.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Modifier element dans tableau parametrage.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Modifier element dans tableau parametrage.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Rechercher texte dans tableau parametrage.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Rechercher texte dans tableau parametrage.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Repartition analytique.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Repartition analytique.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Repartition periodique.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Repartition periodique.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Supprimer element dans tableau page parametrage.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Supprimer element dans tableau page parametrage.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Valider une formule et enregistrer.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/E_Legacy/2_Liquidity/ContextualTopics/Valider une formule et enregistrer.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Accueil Liquidity.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Accueil Liquidity.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Actualiser a partir de la periode precedente.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Actualiser a partir de la periode precedente.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Afficher edition composants 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Afficher edition composants 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Assistant de macro Decalage 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Assistant de macro Decalage 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Assistant de macro Logique 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Assistant de macro Logique 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Assistant de macro Repartition analytique 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Assistant de macro Repartition analytique 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Assistant de macro Repartition periodique 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Assistant de macro Repartition periodique 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Back.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Back.gif" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Barre etat.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Barre etat.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/barre outil actions dans saisie budgets.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/barre outil actions dans saisie budgets.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/barre outil filtres.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/barre outil filtres.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Barre outil Zoom.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Barre outil Zoom.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Barre outils langues developpee.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Barre outils langues developpee.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Barre outils langues.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Barre outils langues.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Barre outils page paramétrage générale.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Barre outils page paramétrage générale.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Barre outils page.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Barre outils page.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/BarredoutilsRecherche.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/BarredoutilsRecherche.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/BarredoutilsRecherche2.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/BarredoutilsRecherche2.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bdd filtre erpsonnalise.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bdd filtre erpsonnalise.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bdd ligne de commande.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bdd ligne de commande.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bg_footer_sep.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bg_footer_sep.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Book.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Book.gif" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton calendrier flèche droite.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton calendrier flèche droite.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton calendrier flèche gauche.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton calendrier flèche gauche.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton coche bleue.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton coche bleue.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton Derniere page.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton Derniere page.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton fleche bas gris.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton fleche bas gris.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton flèche bas.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton flèche bas.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bouton flèche double droite.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bouton flèche double droite.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bouton flèche double gauche.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bouton flèche double gauche.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bouton flèche simple droite.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bouton flèche simple droite.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bouton flèche simple gauche.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bouton flèche simple gauche.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton Page precedente.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton Page precedente.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton Page suivante.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton Page suivante.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton Points de suspension.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton Points de suspension.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton Premiere page.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton Premiere page.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton signe plus.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton signe plus.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton STR coche verte.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton STR coche verte.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton STR croix rouge.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton STR croix rouge.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton STR fleche drte.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton STR fleche drte.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton Zoom moins.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton Zoom moins.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton Zoom plus.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton Zoom plus.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Boutons flèches haut bas.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Boutons flèches haut bas.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/BoutonValidationFormule.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/BoutonValidationFormule.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Calculatrice.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Calculatrice.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Carres bleus.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Carres bleus.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Checkmark_L.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Checkmark_L.gif" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/circle_green.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/circle_green.gif" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/circle_green.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/circle_green.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Cloturer.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Cloturer.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Codes utilisateur 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Codes utilisateur 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Codes utilisateur 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Codes utilisateur 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Collapse.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Collapse.gif" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Copier parametres filtre.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Copier parametres filtre.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Cours budget 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Cours budget 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Cours budget 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Cours budget 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition 1 FB.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition 1 FB.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition exemple ecart.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition exemple ecart.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre feuille de budget.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre feuille de budget.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre regle de gestion 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre regle de gestion 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre regle de gestion 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre regle de gestion 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre regle de gestion 3.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre regle de gestion 3.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer une construction de FB.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer une construction de FB.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Diapositive2.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Diapositive2.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Diapositive3.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Diapositive3.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Diapositive4.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Diapositive4.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Duplique structure.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Duplique structure.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Dupliquer structure importation budget.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Dupliquer structure importation budget.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Dupliquer structure.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Dupliquer structure.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Editeur de filtre 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Editeur de filtre 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Editeur de filtre 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Editeur de filtre 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Editeur de filtre 3.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Editeur de filtre 3.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Edition enregistrer.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Edition enregistrer.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Entite1.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Entite1.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Entite2.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Entite2.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Entite3.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Entite3.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Entite4.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Entite4.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Expand.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Expand.gif" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/ExpandingClosed.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/ExpandingClosed.gif" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/ExpandingOpen.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/ExpandingOpen.gif" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Export Excel.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Export Excel.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filter edition supprimer 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filter edition supprimer 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filter edition supprimer.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filter edition supprimer.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filter regle de gestion supprimer 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filter regle de gestion supprimer 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filter regle de gestion supprimer.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filter regle de gestion supprimer.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre de commande FB 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre de commande FB 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre de commande FB 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre de commande FB 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre de recherche.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre de recherche.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre FB 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre FB 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre FB 3b.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre FB 3b.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre FB 4.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre FB 4.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre rapide 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre rapide 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtres de commandes.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtres de commandes.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Formulaire detail cellule.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Formulaire detail cellule.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Forward.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Forward.gif" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/GlossaryIcon.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/GlossaryIcon.gif" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Grille double.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Grille double.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Grille simple.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Grille simple.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Groupe entites 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Groupe entites 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Groupe entites 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Groupe entites 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Groupe entites 3.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Groupe entites 3.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/HideNavigation.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/HideNavigation.gif" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Highlight_over.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Highlight_over.gif" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Historique Recherche.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Historique Recherche.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Home.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Home.gif" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/icone croix.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/icone croix.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Icone entite.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Icone entite.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Icone filtre.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Icone filtre.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Icone groupe entites.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Icone groupe entites.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Icone Loupe.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Icone Loupe.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Icone revision.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Icone revision.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Icone triangle 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Icone triangle 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Icone triangle 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Icone triangle 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Icone unite.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Icone unite.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Icone version finale.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Icone version finale.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Icone version initiale.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Icone version initiale.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Importer les transactions de budget 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Importer les transactions de budget 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Importer les transactions de budget 4.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Importer les transactions de budget 4.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Importer les transactions de budget.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Importer les transactions de budget.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Imprimer la vue.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Imprimer la vue.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/IndexIcon.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/IndexIcon.gif" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/logo_sage.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/logo_sage.gif" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Menu contextuel saisie budget.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Menu contextuel saisie budget.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Menu contxt rechch 1.PNG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Menu contxt rechch 1.PNG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Menu principal Taches de module.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Menu principal Taches de module.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Modifier les correspondances.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Modifier les correspondances.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Notifier edition 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Notifier edition 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/oh-Note.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/oh-Note.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/oh-Warning.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/oh-Warning.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param codes refus 2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param codes refus 2.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/ParametrageTVA1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/ParametrageTVA1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/ParametrageTVA2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/ParametrageTVA2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer conditions importation 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer conditions importation 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer conditions importation 3.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer conditions importation 3.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer les codes budget systeme 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer les codes budget systeme 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer les codes budget systeme 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer les codes budget systeme 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer les regles de gestion 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer les regles de gestion 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer les regles de gestion 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer les regles de gestion 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer structure importation budget 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer structure importation budget 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer structure importation budget 4.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer structure importation budget 4.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer structure importation budget 5.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer structure importation budget 5.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer structure importation budget 5b.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer structure importation budget 5b.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer structure importation budget 6.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer structure importation budget 6.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer structure importation budget.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer structure importation budget.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrage devise 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrage devise 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrage devise onglet complements.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrage devise onglet complements.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrage devise onglet Generalites.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrage devise onglet Generalites.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer l'exercice 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer l'exercice 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer l'exercice 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer l'exercice 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer l'exercice 3.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer l'exercice 3.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer l'exercice 4.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer l'exercice 4.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer l'exercice 5.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer l'exercice 5.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer l'exercice 5b.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer l'exercice 5b.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer la construction 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer la construction 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer la construction 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer la construction 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer la construction 3.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer la construction 3.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer la structure 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer la structure 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer la structure 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer la structure 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer la structure 3.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer la structure 3.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer les codes periodes 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer les codes periodes 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer les codes periodes 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer les codes periodes 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer les unites 13.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer les unites 13.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer les unites 2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Paramétrer les unites 2.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Pop-up calendrier.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Pop-up calendrier.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Pop-up codes budget.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Pop-up codes budget.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Pop-up Entités.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Pop-up Entités.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Pop-up menu tri tableau.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Pop-up menu tri tableau.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Pop-up regles de gestion.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Pop-up regles de gestion.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Preferences affichage feuille budget 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Preferences affichage feuille budget 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Projet1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Projet1.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Projet2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Projet2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/QuickSearch.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/QuickSearch.gif" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Rectangle bleu 1.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Rectangle bleu 1.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Rectangle bleu 2.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Rectangle bleu 2.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Rectangle bleu 3.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Rectangle bleu 3.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Rectangle1.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Rectangle1.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Rectangle2.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Rectangle2.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Rectangle3.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Rectangle3.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Regle de gestion transaction budget.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Regle de gestion transaction budget.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Repartition sur 12 mois.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Repartition sur 12 mois.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Reviser budget 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Reviser budget 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/SAGE FRP Treasury.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/SAGE FRP Treasury.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/SAGE FRP Treasury.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/SAGE FRP Treasury.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/SearchIcon.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/SearchIcon.gif" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/TocIcon.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/TocIcon.gif" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Topic.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Topic.gif" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Transactions de budget rejetees Modifier.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Transactions de budget rejetees Modifier.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Transactions de budget rejetees Visualiser.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Transactions de budget rejetees Visualiser.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Transactions de budget rejetees.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Transactions de budget rejetees.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/WebHelpIconeTermeGlossaire.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/WebHelpIconeTermeGlossaire.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Project/TOCs/SXT-Liquidity.fltoc"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Project/TOCs/SXT-Liquidity.fltoc" />
+  </CollectedSourceFiles>
+  <SkippedSourceFiles>
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/SearchResults.htm"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/SearchResults.htm" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Afficher edition composants 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Afficher edition composants 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Background.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Background.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Barre outils page param gen.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Barre outils page param gen.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bdd filtre personnalise.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bdd filtre personnalise.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bouton aff tout.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bouton aff tout.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bouton appel calendrier.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bouton appel calendrier.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton calendrier fleche droite.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton calendrier fleche droite.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton calendrier fleche gauche.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton calendrier fleche gauche.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton fleche bas.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Bouton fleche bas.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bouton fleche double droite.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bouton fleche double droite.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bouton fleche double gauche.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bouton fleche double gauche.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bouton fleche simple droite.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bouton fleche simple droite.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bouton fleche simple gauche.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/bouton fleche simple gauche.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Boutons fleches haut bas.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Boutons fleches haut bas.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Carre1.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Carre1.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Carre2.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Carre2.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Carre3.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Carre3.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Cash treso - filtre.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Cash treso - filtre.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Cash treso 2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Cash treso 2.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Compar exo 1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Compar exo 1.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Consolidation selectionner construction.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Consolidation selectionner construction.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer construction FB.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer construction FB.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre compar exo 1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre compar exo 1.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre compar exo 2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre compar exo 2.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre compar exo 2b.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre compar exo 2b.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre compar exo 3.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre compar exo 3.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre compar exo 4.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre compar exo 4.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre compar exo 5.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre compar exo 5.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre compar exo 6.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre compar exo 6.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre compar exo 7.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre compar exo 7.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edit compar exo 6.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edit compar exo 6.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition 2a.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition 2a.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition 2ab.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition 2ab.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition 2b.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition 2b.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition 2c.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition 2c.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition 3.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition 3.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition 3a.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition 3a.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition 4.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition 4.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition 4a.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition 4a.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition 5.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition 5.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition 5a.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition 5a.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition 6.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition 6.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition FB 7.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition FB 7.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition FB.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre edition FB.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre feuille de budget 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre feuille de budget 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre feuille de budget 2b.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre feuille de budget 2b.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre feuille de budget 3.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre feuille de budget 3.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre feuille de budget 4.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre feuille de budget 4.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre feuille de budget 5.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre feuille de budget 5.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre feuille de budget 6.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Creer filtre feuille de budget 6.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Deplacer Nature budgetaire Structure.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Deplacer Nature budgetaire Structure.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Diapositive1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Diapositive1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Diapositive5.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Diapositive5.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Diapositive6.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Diapositive6.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Diapositive7.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Diapositive7.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Dupliquer construction.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Dupliquer construction.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Editer la feuille budgetaire 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Editer la feuille budgetaire 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Edition compar ex.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Edition compar ex.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Edition Feuille budgetaire.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Edition Feuille budgetaire.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Edition Journal des ecritures.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Edition Journal des ecritures.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Exemple mode analyse.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Exemple mode analyse.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Exemple mode prevision.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Exemple mode prevision.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/FB apres importation realises.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/FB apres importation realises.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/FB avant importation realises.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/FB avant importation realises.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/fenetre liquidity.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/fenetre liquidity.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre edition compar 1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre edition compar 1.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre edition compar 2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre edition compar 2.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre edition compar 3.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre edition compar 3.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre edition compar 4.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre edition compar 4.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre edition compar 5.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre edition compar 5.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre edition compar 6.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre edition compar 6.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre edition compar 7.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre edition compar 7.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre FB 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre FB 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre FB 3.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre FB 3.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre rapide 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtre rapide 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtres 1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtres 1.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtres 2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Filtres 2.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Flux treso 1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Flux treso 1.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Flux treso 2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Flux treso 2.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Flux treso 3.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Flux treso 3.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Flux treso 4.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Flux treso 4.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Flux treso 5.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Flux treso 5.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Forfaitisation.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Forfaitisation.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Formulaire detail apres importation realises.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Formulaire detail apres importation realises.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/FVCM.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/FVCM.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Grille double Compar ex.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Grille double Compar ex.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Grille double FB.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Grille double FB.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Grille simple Compar ex.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Grille simple Compar ex.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Grille simple FB.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Grille simple FB.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/ImageFRP.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/ImageFRP.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Importer les transactions de budget 3.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Importer les transactions de budget 3.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Importer realises 1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Importer realises 1.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Infobulle.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Infobulle.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Journal treso.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Journal treso.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/LiquidityDashboard.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/LiquidityDashboard.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Logo.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Logo.gif" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/LogoIcon.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/LogoIcon.gif" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/LogoSage.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/LogoSage.gif" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/LogoSage.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/LogoSage.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param codes periodes 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param codes periodes 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param codes periodes 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param codes periodes 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param construction 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param construction 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param devise 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param devise 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param devise onglet complements.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param devise onglet complements.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param devise onglet Generalites.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param devise onglet Generalites.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 3.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 3.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 4.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 4.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 5.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 5.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 5b.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 5b.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 6.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 6.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 6b.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 6b.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 6c.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 6c.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 6d.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 6d.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 7.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 7.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 7b.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 7b.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 7c.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 7c.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 7d.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param exercice 7d.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param structure 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param structure 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param structure 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param structure 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param structure 3.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param structure 3.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param unites 13.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param unites 13.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param unites 2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Param unites 2.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer conditions importation 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer conditions importation 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer structure importation budget 3.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Parametrer structure importation budget 3.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Pop-up calendrier 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Pop-up calendrier 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Pop-up calendrier 2.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Pop-up calendrier 2.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Pop-up calendrier 3.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Pop-up calendrier 3.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Pop-up calendrier 4.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Pop-up calendrier 4.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Pop-up Entites.JPG"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Pop-up Entites.JPG" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Preferences affichage feuille budget 1.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Preferences affichage feuille budget 1.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Report ecart 1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Report ecart 1.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Report ecart 2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Report ecart 2.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Report par lots 1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Report par lots 1.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Report par lots 2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Report par lots 2.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/report prev 1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/report prev 1.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Sage-XRT-Treasury.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Sage-XRT-Treasury.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/sage.gif"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/sage.gif" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/SXT_LoginScreen.jpg"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/SXT_LoginScreen.jpg" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/SXT_LoginScreen.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/SXT_LoginScreen.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Table repartition 1.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Table repartition 1.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Table repartition 2.png"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Images/L_Liquidity/Table repartition 2.png" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Multimedia/NewVideo.mp4"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Multimedia/NewVideo.mp4" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Acceder page saisie budget.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Acceder page saisie budget.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Actions dans tableau page de parametrage.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Actions dans tableau page de parametrage.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Activer le mode analyse.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Activer le mode analyse.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Activer le mode prevision.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Activer le mode prevision.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Afficher ecart.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Afficher ecart.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Bouton Copier filtre.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Bouton Copier filtre.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Calculatrice.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Calculatrice.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Calendrier.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Calendrier.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Condition logique IF.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Condition logique IF.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Copier un filtre de commandes.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Copier un filtre de commandes.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Creer une regle de gestion.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Creer une regle de gestion.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Decalage.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Decalage.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Definir une date.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Definir une date.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Editions - options analyse budget.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Editions - options analyse budget.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Editions - options.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Editions - options.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Enregistrer params filtre.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Enregistrer params filtre.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Etapes de periode.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Etapes de periode.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Exemples sens TVA.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Exemples sens TVA.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Exporter vers Excel.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Exporter vers Excel.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Mode analyse - champs.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Mode analyse - champs.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Modifier ligne dans tableau parametrage.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Modifier ligne dans tableau parametrage.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/OK rafraichir annuler.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/OK rafraichir annuler.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Operateurs logiques.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Operateurs logiques.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Options Format Filtre edition.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Options Format Filtre edition.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Pertinence champs.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Pertinence champs.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Plus d options mode analyse et filtres affichage.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Plus d options mode analyse et filtres affichage.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Rechercher du texte dans un tableau.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Rechercher du texte dans un tableau.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Ref croisee Reorg tableau.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Ref croisee Reorg tableau.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Repartition analytique.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Repartition analytique.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Repartition periodique.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Repartition periodique.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Repartition sur 12 mois.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Repartition sur 12 mois.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Sommation sur un montant.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Sommation sur un montant.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Sous rubriques.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Sous rubriques.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Supprimer ligne dans tableau parametrage.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Supprimer ligne dans tableau parametrage.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Valider enregistrer annuler.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Valider enregistrer annuler.flsnp" />
+    <Url
+      Source="../../../SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Valider une formule et enregistrer.flsnp"
+      AbsoluteSource="file:///C:/__OHC MADCAP/EN/SXT/SXT-Liquidity/Content/Resources/Snippets/L_SXT_Liquidity/Valider une formule et enregistrer.flsnp" />
+  </SkippedSourceFiles>
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ANNEXE - GUI - Actions.htm"
+      TimeStamp="07/02/2018 18:36:15" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ANNEXE - GUI - Copier les parametres d un filtre.htm"
+      TimeStamp="07/02/2018 18:36:15" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ANNEXE - GUI - Fenetres contextuelles.htm"
+      TimeStamp="07/02/2018 18:36:15" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ANNEXE - GUI - Filtres.htm"
+      TimeStamp="07/02/2018 18:36:15" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ANNEXE - GUI - Recherche.htm"
+      TimeStamp="07/02/2018 18:36:15" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ANNEXE - GUI - Tableau reorg.htm"
+      TimeStamp="07/02/2018 18:36:15" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ANNEXE - GUI.htm"
+      TimeStamp="07/02/2018 18:36:15" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ANNEXE - Regles de gestion - Etapes.htm"
+      TimeStamp="07/02/2018 18:36:15" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ANNEXE - Regles de gestion - Operateurs.htm"
+      TimeStamp="07/02/2018 18:36:15" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ANNEXE - Regles de gestion.htm"
+      TimeStamp="07/02/2018 18:36:15" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/COMP - ComparaisonExercices.htm"
+      TimeStamp="07/02/2018 18:36:15" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/COMP - filtre.htm"
+      TimeStamp="07/02/2018 18:36:15" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/COMP - SelectionNaturesBudgetaires.htm"
+      TimeStamp="07/02/2018 18:36:16" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/EDITION - Comparaison des exercices.htm"
+      TimeStamp="07/02/2018 18:36:16" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/EDITION - Consultation.htm"
+      TimeStamp="07/02/2018 18:36:16" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/EDITION - Diffusion.htm"
+      TimeStamp="07/02/2018 18:36:16" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/EDITION - Editions.htm"
+      TimeStamp="07/02/2018 18:36:16" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/EDITION - Feuille budgetaire.htm"
+      TimeStamp="07/02/2018 18:36:16" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/EDITION - Filtres edition.htm"
+      TimeStamp="07/02/2018 18:36:17" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/EDITION - Journal des ecritures.htm"
+      TimeStamp="07/02/2018 18:36:17" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/IMPORT - Configuration.htm"
+      TimeStamp="07/02/2018 18:36:17" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/IMPORT - Importation.htm"
+      TimeStamp="07/02/2018 18:36:17" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/IMPORT - Intro.htm"
+      TimeStamp="07/02/2018 18:36:17" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/IMPORT - Modalites d importation.htm"
+      TimeStamp="07/02/2018 18:36:17" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/IMPORT - Rejets.htm"
+      TimeStamp="07/02/2018 18:36:17" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/IMPORT - Structure.htm"
+      TimeStamp="07/02/2018 18:36:17" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/INTRO - Acces appli.htm"
+      TimeStamp="07/02/2018 18:36:17" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/INTRO - Budget de tresorerie.htm"
+      TimeStamp="07/02/2018 18:36:17" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/INTRO - Principes fonctionnels.htm"
+      TimeStamp="07/02/2018 18:36:17" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/PARAM - Assistant de regle de gestion.htm"
+      TimeStamp="07/02/2018 18:36:17" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/PARAM - Construction de feuille budgetaire.htm"
+      TimeStamp="07/02/2018 18:36:17" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/PARAM - Devise et cours budget.htm"
+      TimeStamp="07/02/2018 18:36:17" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/PARAM - Donnees economiques.htm"
+      TimeStamp="07/02/2018 18:36:17" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/PARAM - Entite.htm"
+      TimeStamp="07/02/2018 18:36:18" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/PARAM - Exemples de regles.htm"
+      TimeStamp="07/02/2018 18:36:18" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/PARAM - Exercice budgetaire.htm"
+      TimeStamp="07/02/2018 18:36:18" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/PARAM - Exercices.htm"
+      TimeStamp="07/02/2018 18:36:18" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/PARAM - Feuille budgetaire.htm"
+      TimeStamp="07/02/2018 18:36:18" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/PARAM - Groupe entites.htm"
+      TimeStamp="07/02/2018 18:36:18" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/PARAM - Natures budgetaires et regles.htm"
+      TimeStamp="07/02/2018 18:36:18" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/PARAM - Natures budgetaires standard.htm"
+      TimeStamp="07/02/2018 18:36:18" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/PARAM - Natures budgetaires systeme.htm"
+      TimeStamp="07/02/2018 18:36:19" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/PARAM - Natures budgetaires.htm"
+      TimeStamp="07/02/2018 18:36:19" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/PARAM - Parametrage du budget.htm"
+      TimeStamp="07/02/2018 18:36:19" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/PARAM - Periodes exercice.htm"
+      TimeStamp="07/02/2018 18:36:19" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/PARAM - Regles de gestion.htm"
+      TimeStamp="07/02/2018 18:36:19" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/PARAM - Structure budgetaire.htm"
+      TimeStamp="07/02/2018 18:36:19" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/PARAM - Structure organisationnelle.htm"
+      TimeStamp="07/02/2018 18:36:19" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/PARAM - Tables de repartition.htm"
+      TimeStamp="07/02/2018 18:36:19" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/PARAM - TVA.htm"
+      TimeStamp="07/02/2018 18:36:19" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/PARAM - Unite.htm"
+      TimeStamp="07/02/2018 18:36:19" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/POST - Capture.htm"
+      TimeStamp="07/02/2018 18:36:19" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/POST - Journal de treso.htm"
+      TimeStamp="07/02/2018 18:36:19" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/POST - Postage dans Cash.htm"
+      TimeStamp="07/02/2018 18:36:19" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/SAISIE - Affichage au niveau unite.htm"
+      TimeStamp="07/02/2018 18:36:20" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/SAISIE - Affichage detaille.htm"
+      TimeStamp="07/02/2018 18:36:20" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/SAISIE - Configuration affichage.htm"
+      TimeStamp="07/02/2018 18:36:20" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/SAISIE - Dependances entre transactions.htm"
+      TimeStamp="07/02/2018 18:36:20" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/SAISIE - Details montant transaction.htm"
+      TimeStamp="07/02/2018 18:36:20" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/SAISIE - Exportation vers Excel.htm"
+      TimeStamp="07/02/2018 18:36:20" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/SAISIE - Filtres affichage.htm"
+      TimeStamp="07/02/2018 18:36:20" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/SAISIE - Fonctions logiques.htm"
+      TimeStamp="07/02/2018 18:36:20" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/SAISIE - Mode analyse.htm"
+      TimeStamp="07/02/2018 18:36:20" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/SAISIE - Mode prevision.htm"
+      TimeStamp="07/02/2018 18:36:20" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/SAISIE - Niveau de detail.htm"
+      TimeStamp="07/02/2018 18:36:20" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/SAISIE - Preferences affichage.htm"
+      TimeStamp="07/02/2018 18:36:20" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/SAISIE - Regles de gestion.htm"
+      TimeStamp="07/02/2018 18:36:20" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/SAISIE - Report previsions.htm"
+      TimeStamp="07/02/2018 18:36:20" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/SAISIE - Revision de budget.htm"
+      TimeStamp="07/02/2018 18:36:21" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/SAISIE - Saisie des feuilles budgetaires.htm"
+      TimeStamp="07/02/2018 18:36:21" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/SAISIE - Volets.htm"
+      TimeStamp="07/02/2018 18:36:21" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/SAISIE - Vue consolidee.htm"
+      TimeStamp="07/02/2018 18:36:21" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ContextualTopics/Acceder page saisie budget.htm"
+      TimeStamp="07/02/2018 18:36:16" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ContextualTopics/Activer le mode analyse.htm"
+      TimeStamp="07/02/2018 18:36:16" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ContextualTopics/Activer le mode prevision.htm"
+      TimeStamp="07/02/2018 18:36:16" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ContextualTopics/Afficher ecart.htm"
+      TimeStamp="07/02/2018 18:36:16" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ContextualTopics/Calculatrice.htm"
+      TimeStamp="07/02/2018 18:36:16" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ContextualTopics/Calendrier.htm"
+      TimeStamp="07/02/2018 18:36:16" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ContextualTopics/Condition logique.htm"
+      TimeStamp="07/02/2018 18:36:16" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ContextualTopics/Copier les parametres d un filtre.htm"
+      TimeStamp="07/02/2018 18:36:16" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ContextualTopics/Creer une regle de gestion.htm"
+      TimeStamp="07/02/2018 18:36:16" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ContextualTopics/Decalage.htm"
+      TimeStamp="07/02/2018 18:36:16" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ContextualTopics/Definir une date.htm"
+      TimeStamp="07/02/2018 18:36:16" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ContextualTopics/Exemples sens TVA.htm"
+      TimeStamp="07/02/2018 18:36:16" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ContextualTopics/Exporter vers Excel.htm"
+      TimeStamp="07/02/2018 18:36:16" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ContextualTopics/Modifier element dans tableau parametrage.htm"
+      TimeStamp="07/02/2018 18:36:16" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ContextualTopics/Rechercher texte dans tableau parametrage.htm"
+      TimeStamp="07/02/2018 18:36:16" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ContextualTopics/Repartition analytique.htm"
+      TimeStamp="07/02/2018 18:36:16" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ContextualTopics/Repartition periodique.htm"
+      TimeStamp="07/02/2018 18:36:16" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ContextualTopics/Supprimer element dans tableau page parametrage.htm"
+      TimeStamp="07/02/2018 18:36:16" />
+    <Url
+      Source="../../Content/E_Legacy/2_Liquidity/ContextualTopics/Valider une formule et enregistrer.htm"
+      TimeStamp="07/02/2018 18:36:16" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Accueil Liquidity.jpg"
+      TimeStamp="21/10/2014 10:44:32" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Actualiser a partir de la periode precedente.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Afficher edition composants 2.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Assistant de macro Decalage 1.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Assistant de macro Logique 1.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Assistant de macro Repartition analytique 1.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Assistant de macro Repartition periodique 1.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Back.gif"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Barre etat.JPG"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/barre outil actions dans saisie budgets.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/barre outil filtres.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Barre outil Zoom.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Barre outils langues developpee.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Barre outils langues.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Barre outils page paramétrage générale.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Barre outils page.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/BarredoutilsRecherche.JPG"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/BarredoutilsRecherche2.JPG"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/bdd filtre erpsonnalise.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/bdd ligne de commande.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/bg_footer_sep.png"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Book.gif"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Bouton calendrier flèche droite.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Bouton calendrier flèche gauche.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Bouton coche bleue.JPG"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Bouton Derniere page.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Bouton fleche bas gris.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Bouton flèche bas.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/bouton flèche double droite.JPG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/bouton flèche double gauche.JPG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/bouton flèche simple droite.JPG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/bouton flèche simple gauche.JPG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Bouton Page precedente.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Bouton Page suivante.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Bouton Points de suspension.JPG"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Bouton Premiere page.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Bouton signe plus.JPG"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Bouton STR coche verte.JPG"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Bouton STR croix rouge.JPG"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Bouton STR fleche drte.JPG"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Bouton Zoom moins.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Bouton Zoom plus.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Boutons flèches haut bas.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/BoutonValidationFormule.JPG"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Calculatrice.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Carres bleus.JPG"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Checkmark_L.gif"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/circle_green.gif"
+      TimeStamp="11/12/2013 14:52:27" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/circle_green.png"
+      TimeStamp="11/12/2013 11:43:12" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Cloturer.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Codes utilisateur 1.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Codes utilisateur 2.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Collapse.gif"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Copier parametres filtre.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Cours budget 1.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Cours budget 2.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Creer filtre edition 1 FB.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Creer filtre edition 1.jpg"
+      TimeStamp="12/03/2009 12:04:43" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Creer filtre edition exemple ecart.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Creer filtre feuille de budget.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Creer filtre regle de gestion 1.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Creer filtre regle de gestion 2.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Creer filtre regle de gestion 3.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Creer une construction de FB.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Diapositive2.JPG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Diapositive3.JPG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Diapositive4.JPG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Duplique structure.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Dupliquer structure importation budget.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Dupliquer structure.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Editeur de filtre 1.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Editeur de filtre 2.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Editeur de filtre 3.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Edition enregistrer.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Entite1.JPG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Entite2.JPG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Entite3.JPG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Entite4.JPG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Expand.gif"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/ExpandingClosed.gif"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/ExpandingOpen.gif"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Export Excel.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Filter edition supprimer 2.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Filter edition supprimer.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Filter regle de gestion supprimer 2.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Filter regle de gestion supprimer.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Filtre de commande FB 1.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Filtre de commande FB 2.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Filtre de recherche.JPG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Filtre FB 2.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Filtre FB 3b.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Filtre FB 4.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Filtre rapide 1.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Filtres de commandes.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Formulaire detail cellule.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Forward.gif"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/GlossaryIcon.gif"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Grille double.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Grille simple.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Groupe entites 1.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Groupe entites 2.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Groupe entites 3.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/HideNavigation.gif"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Highlight_over.gif"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Historique Recherche.JPG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Home.gif"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/icone croix.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Icone entite.JPG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Icone filtre.JPG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Icone groupe entites.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Icone Loupe.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Icone revision.JPG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Icone triangle 1.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Icone triangle 2.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Icone unite.JPG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Icone version finale.JPG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Icone version initiale.JPG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Importer les transactions de budget 2.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Importer les transactions de budget 4.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Importer les transactions de budget.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Imprimer la vue.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/IndexIcon.gif"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/logo_sage.gif"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Menu contextuel saisie budget.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Menu contxt rechch 1.PNG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Menu principal Taches de module.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Modifier les correspondances.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Notifier edition 1.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/oh-Note.png"
+      TimeStamp="07/10/2014 14:33:01" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/oh-Warning.png"
+      TimeStamp="07/10/2014 14:33:18" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Param codes refus 2.png"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/ParametrageTVA1.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/ParametrageTVA2.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Parametrer conditions importation 1.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Parametrer conditions importation 3.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Parametrer les codes budget systeme 1.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Parametrer les codes budget systeme 2.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Parametrer les regles de gestion 1.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Parametrer les regles de gestion 2.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Parametrer structure importation budget 2.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Parametrer structure importation budget 4.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Parametrer structure importation budget 5.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Parametrer structure importation budget 5b.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Parametrer structure importation budget 6.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Parametrer structure importation budget.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Paramétrage devise 1.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Paramétrage devise onglet complements.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Paramétrage devise onglet Generalites.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Paramétrer l'exercice 1.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Paramétrer l'exercice 2.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Paramétrer l'exercice 3.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Paramétrer l'exercice 4.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Paramétrer l'exercice 5.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Paramétrer l'exercice 5b.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Paramétrer la construction 1.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Paramétrer la construction 2.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Paramétrer la construction 3.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Paramétrer la structure 1.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Paramétrer la structure 2.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Paramétrer la structure 3.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Paramétrer les codes periodes 1.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Paramétrer les codes periodes 2.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Paramétrer les unites 13.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Paramétrer les unites 2.png"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Pop-up calendrier.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Pop-up codes budget.JPG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Pop-up Entités.JPG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Pop-up menu tri tableau.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Pop-up regles de gestion.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Preferences affichage feuille budget 2.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Projet1.png"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Projet2.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/QuickSearch.gif"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Rectangle bleu 1.JPG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Rectangle bleu 2.JPG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Rectangle bleu 3.JPG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Rectangle1.JPG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Rectangle2.JPG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Rectangle3.JPG"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Regle de gestion transaction budget.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Repartition sur 12 mois.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Reviser budget 1.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/SAGE FRP Treasury.JPG"
+      TimeStamp="12/05/2010 16:13:10" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/SAGE FRP Treasury.png"
+      TimeStamp="26/09/2014 10:51:38" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/SearchIcon.gif"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/TocIcon.gif"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Topic.gif"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Transactions de budget rejetees Modifier.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Transactions de budget rejetees Visualiser.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/Transactions de budget rejetees.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../../Content/Resources/Images/L_Liquidity/WebHelpIconeTermeGlossaire.jpg"
+      TimeStamp="12/03/2009 12:04:44" />
+    <Url
+      Source="../TOCs/SXT-Liquidity.fltoc"
+      TimeStamp="07/02/2018 18:36:58" />
+  </GeneratedFiles>
+</CatapultProjectImport>

@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultProject Version="1" xml:lang="fr" SourceControlBound="false" Comment="This template contains several starter topics and other files intended for online HTML5 output with top navigation like a modern website, instead of the more traditional tripane format. It is a simpler version of the Top Navigation Advanced template. Although it is a basic template, the content and files have been designed to maximize single-sourcing capabilities. This template starts you out with two HTML5 targets. Responsive output is automatically enabled with this type of output. This means the content display changes automatically depending on the width of the screen. You can add other kinds of targets and skins if you like." MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css" MasterStylesheetOverride="True" IncludePattern="*.htm;*.html;*.png;*.bmp;*.jpg;*.jpeg;*.tif;*.tiff;*.gif;*.swd;*.emf;*.wmf;*.xaml;*.xps;*.exps;*.hdp;*.wdp;*.dib;*.svg;*.ps;*.eps;*.pdf;*.asf;*.wm;*.wma;*.wmv;*.asx;*.wax;*.wvx;*.wmx;*.mid;*.midi;*.mpeg;*.mpg;*.mpa;*.mpe;*.wav;*.au;*.mp3;*.avi;*.swf;*.mov;*.qt;*.mp4;*.webm;*.ogg;*.ogv;*.oga;*.ogx;*.spx;*.opus;*.m4v;*.u3d;*.css;*.fltoc;*.flvar;*.flsnp" AutoExcludeNonTaggedFiles="false" IncludeLinkedFiles="false" DeleteStale="true" DeleteUnreferenced="true" AutoSync="true" LastImport="2017-12-19T15:44:28.1893442+01:00" MasterToc="/Project/TOCs/SXT-Payment.fltoc">
+    <Files>
+        <Url Source="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/SBD_EN.flprj" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/SBD_EN.flprj" />
+    </Files>
+    <ExcludedFiles />
+    <CollectedSourceFiles>
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/10_SelectionValidator.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/10_SelectionValidator.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/11_SelectionUtilisateurs.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/11_SelectionUtilisateurs.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/12_RequetesDeValidation.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/12_RequetesDeValidation.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/13_MesRequetesDeValidation.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/13_MesRequetesDeValidation.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/2_ModelesLettres.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/2_ModelesLettres.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/3_CreationRegleValidation.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/3_CreationRegleValidation.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/4_Rubrique1Validation.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/4_Rubrique1Validation.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/5_Rubrique2Validation.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/5_Rubrique2Validation.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/6_ValidationSelectionSocietes1.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/6_ValidationSelectionSocietes1.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/7_ValidationSelectionSocietes2.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/7_ValidationSelectionSocietes2.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/8_Rubrique3Validation.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/8_Rubrique3Validation.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/9_RequetesObsoletes.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/9_RequetesObsoletes.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/bg.jpg" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/bg.jpg" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/circle_green.gif" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/circle_green.gif" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/circle_green.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/circle_green.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Collaborateur.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Collaborateur.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Compte.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Compte.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/ConfigurerFiltre.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/ConfigurerFiltre.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Creation masse - modele 1 signature.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Creation masse - modele 1 signature.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Creation masse - modele 2 signatures.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Creation masse - modele 2 signatures.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Creation unitaire.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Creation unitaire.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/CreationUnitaire.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/CreationUnitaire.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/CreerModeleDelegation.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/CreerModeleDelegation.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/CreerModeleDeuxSignatures.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/CreerModeleDeuxSignatures.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/CreerModeleDeuxSignatures02.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/CreerModeleDeuxSignatures02.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/CreerModeleUneSignature.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/CreerModeleUneSignature.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/CreerModeleUneSignature02.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/CreerModeleUneSignature02.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/DEFVIEW.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/DEFVIEW.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Delegants.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Delegants.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Designer 4.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Designer 4.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Designer 5.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Designer 5.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Designer 6.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Designer 6.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Designer1.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Designer1.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Designer2.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Designer2.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Designer3.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Designer3.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/DesignerLettres.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/DesignerLettres.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/DesignerVariables.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/DesignerVariables.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/filtre 1.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/filtre 1.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Filtre 2.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Filtre 2.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Filtre 3.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Filtre 3.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Filtre 4.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Filtre 4.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/FiltreRapide.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/FiltreRapide.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/FlowChart General.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/FlowChart General.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/fullscreen.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/fullscreen.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/GenererLettresParRegles.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/GenererLettresParRegles.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/GroupeCollaborateurs.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/GroupeCollaborateurs.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Lettre brouillon.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Lettre brouillon.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Lettres Brouillon.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Lettres Brouillon.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/MenuCreerModele1Signature.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/MenuCreerModele1Signature.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/MenuCreerModele2Signatures.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/MenuCreerModele2Signatures.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Modele lettres Affichage.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Modele lettres Affichage.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/ModeleDelegation.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/ModeleDelegation.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/ModeVisualisation.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/ModeVisualisation.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/oh-Note.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/oh-Note.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/oh-Warning.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/oh-Warning.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Prep lettre - delegation.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Prep lettre - delegation.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Prep lettre - regle generation.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Prep lettre - regle generation.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Quick Default Filter.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Quick Default Filter.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/RegleGenerationLettre.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/RegleGenerationLettre.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Regles de generation.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Regles de generation.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Scope Pouvoirs Bancaires V1.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Scope Pouvoirs Bancaires V1.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Slide 2.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Slide 2.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Slide 3.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Slide 3.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Slide 4.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Slide 4.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Slide 5.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Slide 5.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/Slide1.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/Slide1.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/TypeOperation.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/TypeOperation.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/TypeSignature.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/TypeSignature.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/V3_EditionReglesGeneration.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/V3_EditionReglesGeneration.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Images/WorkflowLettre.png" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Images/WorkflowLettre.png" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Multimedia/NewVideo.mp4" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Multimedia/NewVideo.mp4" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Multimedia/SageBankDelegations.v3.NewInterface_FR.mp4" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Multimedia/SageBankDelegations.v3.NewInterface_FR.mp4" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Multimedia/SBD_CreationDelegations.mp4" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Multimedia/SBD_CreationDelegations.mp4" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Multimedia/SBD_Dashboards.mp4" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Multimedia/SBD_Dashboards.mp4" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Multimedia/SBD_Filtres.mp4" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Multimedia/SBD_Filtres.mp4" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Multimedia/SBD_ModelesDelegations.mp4" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Multimedia/SBD_ModelesDelegations.mp4" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Multimedia/SBD_RegleGeneration.mp4" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Multimedia/SBD_RegleGeneration.mp4" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Snippets/Homepage_Title.flsnp" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Snippets/Homepage_Title.flsnp" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Snippets/SAGE_Note.flsnp" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Snippets/SAGE_Note.flsnp" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Snippets/SAGE_Video.flsnp" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Snippets/SAGE_Video.flsnp" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Snippets/SAGE_Warning.flsnp" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Snippets/SAGE_Warning.flsnp" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Stylesheets/TopNvg_OH5_Styles.css" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Stylesheets/TopNvg_OH5_Styles.css" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/Stylesheets/fonts/Foco.svg" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/Stylesheets/fonts/Foco.svg" />
+        <Url Source="../../../My Projects/SBD_EN/Content/TableStyles/Note.css" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/TableStyles/Note.css" />
+        <Url Source="../../../My Projects/SBD_EN/Content/TableStyles/Tableau standard bordures.css" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/TableStyles/Tableau standard bordures.css" />
+        <Url Source="../../../My Projects/SBD_EN/Content/TableStyles/Tableau standard.css" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/TableStyles/Tableau standard.css" />
+        <Url Source="../../../My Projects/SBD_EN/Content/TableStyles/Warning.css" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/TableStyles/Warning.css" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Topics/CreationDelegation.htm" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Topics/CreationDelegation.htm" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Topics/CreationIntro.htm" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Topics/CreationIntro.htm" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Topics/CreationMasse.htm" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Topics/CreationMasse.htm" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Topics/CreationUnitaire.htm" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Topics/CreationUnitaire.htm" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Topics/Filtres.htm" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Topics/Filtres.htm" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Topics/Modele lettre.htm" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Topics/Modele lettre.htm" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Topics/ParamComplementaire.htm" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Topics/ParamComplementaire.htm" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Topics/Parametrage.htm" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Topics/Parametrage.htm" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Topics/ParamIntro.htm" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Topics/ParamIntro.htm" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Topics/PreparationLettre.htm" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Topics/PreparationLettre.htm" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Topics/ReglesGeneration.htm" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Topics/ReglesGeneration.htm" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Topics/SecuriteDonnees.htm" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Topics/SecuriteDonnees.htm" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Topics/V3_CreationCircuitValidation.htm" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Topics/V3_CreationCircuitValidation.htm" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Topics/V3_CreationCircuitValidation_Notification.htm" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Topics/V3_CreationCircuitValidation_Notification.htm" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Topics/V3_CreationCircuitValidation_SuiviRequetes.htm" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Topics/V3_CreationCircuitValidation_SuiviRequetes.htm" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Topics/V3_EditionReglesGeneration.htm" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Topics/V3_EditionReglesGeneration.htm" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Topics/V3_NouvelleInterface.htm" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Topics/V3_NouvelleInterface.htm" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Topics/__OnlineHelp_Empty.htm" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Topics/__OnlineHelp_Empty.htm" />
+        <Url Source="../../../My Projects/SBD_EN/Project/VariableSets/MyVariables.flvar" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Project/VariableSets/MyVariables.flvar" />
+    </CollectedSourceFiles>
+    <SkippedSourceFiles>
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/TableStyles/Note.css" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/TableStyles/Note.css" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/TableStyles/Tableau standard.css" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/TableStyles/Tableau standard.css" />
+        <Url Source="../../../My Projects/SBD_EN/Content/Resources/TableStyles/Warning.css" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Content/Resources/TableStyles/Warning.css" />
+        <Url Source="../../../My Projects/SBD_EN/Project/TOCs/Master.fltoc" AbsoluteSource="file:///C:/Users/svalentin/Documents/My Projects/SBD_EN/Project/TOCs/Master.fltoc" />
+    </SkippedSourceFiles>
+    <GeneratedFiles>
+        <Url Source="Content/Resources/Images/10_SelectionValidator.png" TimeStamp="30/11/2015 16:38:57" />
+        <Url Source="Content/Resources/Images/11_SelectionUtilisateurs.png" TimeStamp="04/12/2015 11:53:52" />
+        <Url Source="Content/Resources/Images/12_RequetesDeValidation.png" TimeStamp="30/11/2015 16:38:57" />
+        <Url Source="Content/Resources/Images/13_MesRequetesDeValidation.png" TimeStamp="30/11/2015 16:38:57" />
+        <Url Source="Content/Resources/Images/2_ModelesLettres.png" TimeStamp="17/09/2015 18:36:06" />
+        <Url Source="Content/Resources/Images/3_CreationRegleValidation.png" TimeStamp="30/11/2015 16:38:57" />
+        <Url Source="Content/Resources/Images/4_Rubrique1Validation.png" TimeStamp="04/12/2015 14:19:50" />
+        <Url Source="Content/Resources/Images/5_Rubrique2Validation.png" TimeStamp="04/12/2015 14:20:49" />
+        <Url Source="Content/Resources/Images/6_ValidationSelectionSocietes1.png" TimeStamp="04/12/2015 14:22:07" />
+        <Url Source="Content/Resources/Images/7_ValidationSelectionSocietes2.png" TimeStamp="30/11/2015 16:38:57" />
+        <Url Source="Content/Resources/Images/8_Rubrique3Validation.png" TimeStamp="04/12/2015 14:23:15" />
+        <Url Source="Content/Resources/Images/9_RequetesObsoletes.png" TimeStamp="04/12/2015 11:41:07" />
+        <Url Source="Content/Resources/Images/bg.jpg" TimeStamp="23/09/2015 18:05:20" />
+        <Url Source="Content/Resources/Images/circle_green.gif" TimeStamp="11/12/2013 14:52:27" />
+        <Url Source="Content/Resources/Images/circle_green.png" TimeStamp="23/09/2015 18:13:26" />
+        <Url Source="Content/Resources/Images/Collaborateur.png" TimeStamp="04/12/2015 14:24:32" />
+        <Url Source="Content/Resources/Images/Compte.png" TimeStamp="04/12/2015 14:25:12" />
+        <Url Source="Content/Resources/Images/ConfigurerFiltre.png" TimeStamp="30/11/2015 16:38:57" />
+        <Url Source="Content/Resources/Images/Creation masse - modele 1 signature.png" TimeStamp="21/01/2014 14:37:32" />
+        <Url Source="Content/Resources/Images/Creation masse - modele 2 signatures.png" TimeStamp="21/01/2014 14:39:53" />
+        <Url Source="Content/Resources/Images/Creation unitaire.png" TimeStamp="20/12/2013 11:13:10" />
+        <Url Source="Content/Resources/Images/CreationUnitaire.png" TimeStamp="30/11/2015 16:38:57" />
+        <Url Source="Content/Resources/Images/CreerModeleDelegation.png" TimeStamp="21/09/2015 11:42:24" />
+        <Url Source="Content/Resources/Images/CreerModeleDeuxSignatures.png" TimeStamp="30/11/2015 16:38:57" />
+        <Url Source="Content/Resources/Images/CreerModeleDeuxSignatures02.png" TimeStamp="30/11/2015 16:38:57" />
+        <Url Source="Content/Resources/Images/CreerModeleUneSignature.png" TimeStamp="30/11/2015 16:38:57" />
+        <Url Source="Content/Resources/Images/CreerModeleUneSignature02.png" TimeStamp="30/11/2015 16:38:57" />
+        <Url Source="Content/Resources/Images/DEFVIEW.png" TimeStamp="16/09/2015 13:43:10" />
+        <Url Source="Content/Resources/Images/Delegants.png" TimeStamp="21/01/2014 14:41:11" />
+        <Url Source="Content/Resources/Images/Designer 4.png" TimeStamp="11/04/2014 10:38:21" />
+        <Url Source="Content/Resources/Images/Designer 5.png" TimeStamp="11/04/2014 10:39:40" />
+        <Url Source="Content/Resources/Images/Designer 6.png" TimeStamp="11/04/2014 10:40:08" />
+        <Url Source="Content/Resources/Images/Designer1.png" TimeStamp="16/09/2015 13:43:10" />
+        <Url Source="Content/Resources/Images/Designer2.png" TimeStamp="16/09/2015 13:43:09" />
+        <Url Source="Content/Resources/Images/Designer3.png" TimeStamp="11/04/2014 10:37:43" />
+        <Url Source="Content/Resources/Images/DesignerLettres.png" TimeStamp="04/12/2015 11:25:27" />
+        <Url Source="Content/Resources/Images/DesignerVariables.png" TimeStamp="30/11/2015 16:38:57" />
+        <Url Source="Content/Resources/Images/filtre 1.png" TimeStamp="24/04/2014 16:03:22" />
+        <Url Source="Content/Resources/Images/Filtre 2.png" TimeStamp="24/04/2014 16:05:41" />
+        <Url Source="Content/Resources/Images/Filtre 3.png" TimeStamp="24/04/2014 16:06:02" />
+        <Url Source="Content/Resources/Images/Filtre 4.png" TimeStamp="24/04/2014 16:06:27" />
+        <Url Source="Content/Resources/Images/FiltreRapide.png" TimeStamp="30/11/2015 16:38:57" />
+        <Url Source="Content/Resources/Images/FlowChart General.png" TimeStamp="21/05/2014 18:19:57" />
+        <Url Source="Content/Resources/Images/fullscreen.png" TimeStamp="24/09/2015 15:54:31" />
+        <Url Source="Content/Resources/Images/GenererLettresParRegles.png" TimeStamp="04/12/2015 11:21:15" />
+        <Url Source="Content/Resources/Images/GroupeCollaborateurs.png" TimeStamp="30/11/2015 16:38:57" />
+        <Url Source="Content/Resources/Images/Lettre brouillon.png" TimeStamp="10/12/2013 15:55:52" />
+        <Url Source="Content/Resources/Images/Lettres Brouillon.png" TimeStamp="20/12/2013 15:09:11" />
+        <Url Source="Content/Resources/Images/MenuCreerModele1Signature.png" TimeStamp="04/12/2015 11:12:47" />
+        <Url Source="Content/Resources/Images/MenuCreerModele2Signatures.png" TimeStamp="04/12/2015 11:09:36" />
+        <Url Source="Content/Resources/Images/Modele lettres Affichage.png" TimeStamp="19/12/2013 16:52:47" />
+        <Url Source="Content/Resources/Images/ModeleDelegation.png" TimeStamp="30/11/2015 16:38:57" />
+        <Url Source="Content/Resources/Images/ModeVisualisation.png" TimeStamp="30/11/2015 16:38:57" />
+        <Url Source="Content/Resources/Images/oh-Note.png" TimeStamp="07/10/2014 14:33:01" />
+        <Url Source="Content/Resources/Images/oh-Warning.png" TimeStamp="07/10/2014 14:33:18" />
+        <Url Source="Content/Resources/Images/Prep lettre - delegation.png" TimeStamp="20/12/2013 15:07:16" />
+        <Url Source="Content/Resources/Images/Prep lettre - regle generation.png" TimeStamp="16/09/2015 13:43:10" />
+        <Url Source="Content/Resources/Images/Quick Default Filter.png" TimeStamp="16/09/2015 13:43:10" />
+        <Url Source="Content/Resources/Images/RegleGenerationLettre.png" TimeStamp="30/11/2015 16:38:57" />
+        <Url Source="Content/Resources/Images/Regles de generation.png" TimeStamp="19/12/2013 16:38:49" />
+        <Url Source="Content/Resources/Images/Scope Pouvoirs Bancaires V1.png" TimeStamp="04/12/2015 10:54:36" />
+        <Url Source="Content/Resources/Images/Slide 2.png" TimeStamp="04/12/2015 14:17:40" />
+        <Url Source="Content/Resources/Images/Slide 3.png" TimeStamp="04/12/2015 14:18:06" />
+        <Url Source="Content/Resources/Images/Slide 4.png" TimeStamp="04/12/2015 14:18:26" />
+        <Url Source="Content/Resources/Images/Slide 5.png" TimeStamp="04/12/2015 14:18:46" />
+        <Url Source="Content/Resources/Images/Slide1.png" TimeStamp="04/12/2015 14:17:14" />
+        <Url Source="Content/Resources/Images/TypeOperation.png" TimeStamp="04/12/2015 14:26:28" />
+        <Url Source="Content/Resources/Images/TypeSignature.png" TimeStamp="04/12/2015 14:27:10" />
+        <Url Source="Content/Resources/Images/V3_EditionReglesGeneration.png" TimeStamp="04/12/2015 11:31:43" />
+        <Url Source="Content/Resources/Images/WorkflowLettre.png" TimeStamp="04/12/2015 10:56:17" />
+        <Url Source="Content/Resources/Multimedia/NewVideo.mp4" TimeStamp="28/09/2015 14:16:42" />
+        <Url Source="Content/Resources/Multimedia/SageBankDelegations.v3.NewInterface_FR.mp4" TimeStamp="10/07/2015 15:56:08" />
+        <Url Source="Content/Resources/Multimedia/SBD_CreationDelegations.mp4" TimeStamp="22/09/2015 22:29:29" />
+        <Url Source="Content/Resources/Multimedia/SBD_Dashboards.mp4" TimeStamp="27/09/2015 23:36:16" />
+        <Url Source="Content/Resources/Multimedia/SBD_Filtres.mp4" TimeStamp="27/09/2015 23:36:16" />
+        <Url Source="Content/Resources/Multimedia/SBD_ModelesDelegations.mp4" TimeStamp="23/09/2015 10:59:09" />
+        <Url Source="Content/Resources/Multimedia/SBD_RegleGeneration.mp4" TimeStamp="22/09/2015 22:55:36" />
+        <Url Source="Content/Resources/Snippets/Homepage_Title.flsnp" TimeStamp="25/06/2015 16:52:03" />
+        <Url Source="Content/Resources/Snippets/SAGE_Note.flsnp" TimeStamp="30/09/2015 18:13:21" />
+        <Url Source="Content/Resources/Snippets/SAGE_Video.flsnp" TimeStamp="28/09/2015 14:18:19" />
+        <Url Source="Content/Resources/Snippets/SAGE_Warning.flsnp" TimeStamp="30/09/2015 18:13:40" />
+        <Url Source="Content/Resources/Stylesheets/TopNvg_OH5_Styles.css" TimeStamp="23/09/2015 18:14:11" />
+        <Url Source="Content/Resources/Stylesheets/fonts/Foco.svg" TimeStamp="27/03/2014 16:12:59" />
+        <Url Source="Content/TableStyles/Note.css" TimeStamp="14/10/2014 13:55:26" />
+        <Url Source="Content/TableStyles/Tableau standard bordures.css" TimeStamp="07/05/2015 10:45:13" />
+        <Url Source="Content/TableStyles/Tableau standard.css" TimeStamp="07/10/2014 11:35:03" />
+        <Url Source="Content/TableStyles/Warning.css" TimeStamp="14/10/2014 17:17:10" />
+        <Url Source="Content/Topics/CreationDelegation.htm" TimeStamp="27/11/2015 15:12:28" />
+        <Url Source="Content/Topics/CreationIntro.htm" TimeStamp="27/11/2015 15:12:28" />
+        <Url Source="Content/Topics/CreationMasse.htm" TimeStamp="27/11/2015 15:18:24" />
+        <Url Source="Content/Topics/CreationUnitaire.htm" TimeStamp="27/11/2015 15:18:32" />
+        <Url Source="Content/Topics/Filtres.htm" TimeStamp="27/11/2015 15:18:45" />
+        <Url Source="Content/Topics/Modele lettre.htm" TimeStamp="27/11/2015 15:12:28" />
+        <Url Source="Content/Topics/ParamComplementaire.htm" TimeStamp="27/11/2015 15:12:28" />
+        <Url Source="Content/Topics/Parametrage.htm" TimeStamp="07/12/2015 16:41:07" />
+        <Url Source="Content/Topics/ParamIntro.htm" TimeStamp="27/11/2015 15:12:28" />
+        <Url Source="Content/Topics/PreparationLettre.htm" TimeStamp="27/11/2015 15:12:28" />
+        <Url Source="Content/Topics/ReglesGeneration.htm" TimeStamp="27/11/2015 15:19:20" />
+        <Url Source="Content/Topics/SecuriteDonnees.htm" TimeStamp="27/11/2015 15:12:28" />
+        <Url Source="Content/Topics/V3_CreationCircuitValidation.htm" TimeStamp="27/11/2015 15:12:28" />
+        <Url Source="Content/Topics/V3_CreationCircuitValidation_Notification.htm" TimeStamp="27/11/2015 15:12:28" />
+        <Url Source="Content/Topics/V3_CreationCircuitValidation_SuiviRequetes.htm" TimeStamp="27/11/2015 15:12:28" />
+        <Url Source="Content/Topics/V3_EditionReglesGeneration.htm" TimeStamp="27/11/2015 15:12:28" />
+        <Url Source="Content/Topics/V3_NouvelleInterface.htm" TimeStamp="27/11/2015 15:19:58" />
+        <Url Source="Content/Topics/__OnlineHelp_Empty.htm" TimeStamp="13/04/2015 17:01:49" />
+        <Url Source="Project/VariableSets/MyVariables.flvar" TimeStamp="27/11/2015 15:13:02" />
+    </GeneratedFiles>
+</CatapultProject>

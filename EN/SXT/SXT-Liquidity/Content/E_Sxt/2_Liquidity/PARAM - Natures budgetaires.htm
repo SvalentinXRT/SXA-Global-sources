@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1100" MadCap:lastWidth="740">
+    <head><title></title>
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1 class="LegacySXT"><MadCap:keyword term="Budget Code, setup" />Setting up Budget Codes</h1>
+        <p>The setup of budget codes enables to entries in the budgets by code. Each budget code is unique.</p>
+        <p>Setting up a code enables you to create a macro specifying the logical relationships between the budget codes of the Operational Budget or the Treasury Budget.</p>
+        <p class="SautLigne">You can include this budget code in the budget sheet structure, and then, in the budget sheet designer, you can select the macro to apply in the list of the set up macros for this budget code.</p>
+        <p class="SautLigne">Budget codes are classified by category:</p>
+        <ul>
+            <li class="PuceNiv1">operating receipts and expenses,</li>
+            <li class="PuceNiv1">non-operating receipts and expenses,</li>
+            <li class="PuceNiv1">financings or investments.</li>
+        </ul>
+        <p class="SautLigne">There are two different types of budget codes:</p>
+        <ul>
+            <li class="PuceNiv1"><MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">the <a href="PARAM - Natures budgetaires standard.htm">standard budget codes</a>,</MadCap:conditionalText></li>
+            <li class="PuceNiv1"><MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">the <a href="PARAM - Natures budgetaires systeme.htm">system budget codes</a>,</MadCap:conditionalText> which are not included in the balances and are used for the opening and closing balances, as well as for the subtotals and the VAT.</li>
+        </ul>
+        <p class="SautLigne">Budget codes can be different between the Operational Budget and the Treasury Budget: the Treasury Budget includes specific budget codes such as the codes linked to VAT or to investments and financial transactions.</p>
+        <p class="SautLigneAvantEtAprès">Such system budget codes do not exist in the Operational Budget.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Budget Codes related to VAT</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Some budget codes linked to VAT are not included in the calculation of budget balances. This is the case for the VAT collected on sales and the VAT paid on purchases. These budget codes are defined as system budget codes and are not included in the balances calculation. Most of these budget codes are included in the application.</p>
+                <p class="SautLigneAvantEtAprès">The table below presents the usual budget codes related to VAT.</p>
+                <table class="TableStyle-Tableau_standard" cellspacing="0" MadCap:targetName="Tableau : codes budgétaires liés TVA" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');">
+                    <col class="TableStyle-Tableau_standard-Column-Column1" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Tableau_standard-Head-Header1">
+                            <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">VAT Type</th>
+                            <th class="TableStyle-Tableau_standard-HeadF-Column2-Header1">Code Type</th>
+                            <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Existing/To be created</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Collected VAT</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">System</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Included in the application<br />Code: VATCOLL<br /></td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Retrievable VAT</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">System</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Included in the application<br />Code: VATRETR</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Non-retrievable VAT</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">System</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Included in the application<br />Code: VATNRETR</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">VAT credit</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">System</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Included in the application<br />Code: VATCREDIT</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Cumulated VAT credit</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">System</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Included in the application<br />Code: VATCUMUL</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">VAT to pay to the Treasury</td>
+                            <td class="TableStyle-Tableau_standard-BodyF-Column2-Body1">Standard</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">To be created</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">VAT reimbursed by the Treasury</td>
+                            <td class="TableStyle-Tableau_standard-BodyC-Column2-Body1">Standard</td>
+                            <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">To be created</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

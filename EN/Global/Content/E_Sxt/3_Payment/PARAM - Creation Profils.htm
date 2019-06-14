@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:ignoredWords="Back;First;FIFO" MadCap:lastBlockDepth="7" MadCap:lastHeight="1764" MadCap:lastWidth="589">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="LegacySXT"><a name="ProfilesCreation"></a>Creating Profiles</h1>
+        <p>Profiles are always defined per transaction code, transaction codes being implicitly linked to transaction types (International, Commercial or Domestic Transfers). You need to set up Profiles from the less particular case to the most particular case, since several combinations are possible.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Example</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="SautLigneAvantEtAprès">Let&apos;s say all your branches use the AFB160 format for Domestic Transfers, except one which uses the MT100 format. So, you first need to create a general profile for the transaction code of Domestic Payments, specifying the AFB160 format, the subformat and the protocol with no more details. And then, you need to create a profile that takes into account the country of the applicant&apos;s branch, and the applicant&apos;s branch which generates the exception to the rule specifying the MT100 format. But further specificity is still possible: this branch which is different from the other ones because of its format, could also use another format for a particular applicant. In this case, a profile should be created with the transaction code and the branch, PLUS the relevant applicant and format.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Setting up Profiles</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">To access this function, in the <b><MadCap:variable name="Localization.SXTDashboardsTasks" /></b> pane, select the <b>Payment Elements</b> option in the <MadCap:variable name="Localization.SXTSetupFolder" style="font-weight: bold;" /> folder of the <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> module.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The setup page for Receipts Elements is displayed. Click <b>Profiles</b>.</p>
+                <p MadCap:targetName="Capture 1"><img src="../../Resources/Images/L_Payment/Param Profils.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">The list of already set up profiles is displayed. You can delete or modify an existing profile, or create another one. To create a Profile, click <b>Create</b>.</p>
+                <p MadCap:targetName="Capture 2"><img src="../../Resources/Images/L_Payment/Profil-Creation.png" class="SAGE_screenshot" /></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Complete at least the <b>Transaction Code</b> field in the Criteria group box, and the <b>Format</b>, <b>Subformat</b> and <b>Protocol</b> fields in the Transmission group box to identify a standard bank rule.</li>
+                    <li class="PuceNumNiv1">Once you completed the mandatory fields, click <b>Apply</b> to validate your action and go on with the profiles creation, or click <b>OK</b> to save the new profile and go back to the profile list.</li>
+                </ol>
+                <p class="IndentPuceNiv1SautLigne">To specify an exception, you also need to complete the following fields before creating the profile:</p>
+                <ul>
+                    <li class="PuceNiv2"><b>The country of the applicant&apos;s branch</b> when it is a distinctive criterion.</li>
+                    <li class="PuceNiv2"><b>The</b><b> applicant&apos;s branch</b>, when it does not aply the same conditions as the others.</li>
+                    <li class="PuceNiv2"><b>The applicant</b>, if it has special conditions compared with the other applicants working with the selected branch.</li>
+                    <li class="PuceNiv2"><b>The payor&apos;s account</b>, when regarding the selected country, branch and applicant, all accounts have the same processing, except this one.</li>
+                    <li class="PuceNiv2"><b>The beneficiary</b>, when the payee&apos;s bank uses a format, subformat and/or protocol that are different from the others.</li>
+                    <li class="PuceNiv2"><b>The payee and its bank account ID</b> to specify the account generating the exception.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Modifying Profiles</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">Select the <b>Payment Elements</b> option in the <MadCap:variable name="Localization.SXTSetupFolder" style="font-weight: bold;" /> folder of the <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> module. The setup page for Receipts Elements is displayed. Click <b>Profiles</b>.</li>
+                    <li class="PuceNumNiv1">Select from the list the profile you want to modify.</li>
+                    <li class="PuceNumNiv1">Click <b>Change</b>. The detail page for the selected profile is displayed.</li>
+                    <li class="PuceNumNiv1">Edit the relevant elements, then click <b>OK</b> to save your actions.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Deleting Profiles</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">Select the <b>Payment Elements</b> option in the <MadCap:variable name="Localization.SXTSetupFolder" style="font-weight: bold;" /> folder of the <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> module. The setup page for Receipts Elements is displayed. Click <b>Profiles</b>.</li>
+                    <li class="PuceNumNiv1">Select from the list the profile you want to delete.</li>
+                    <li class="PuceNumNiv1">Click <b>Delete</b> to delete the selected profile.</li>
+                    <li class="PuceNumNiv1">Confirm your action by clicking <b>Yes</b> in the confirmation dialog box.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">You should create one profile per transfer type: Domestic Transfer, Commercial Transfer, International Transfer and Treasury Transfer.</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

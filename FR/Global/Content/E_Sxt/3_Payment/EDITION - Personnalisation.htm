@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" MadCap:lastBlockDepth="5" MadCap:lastHeight="447" MadCap:lastWidth="641">
+    <head>
+        <link href="../../Resources/TableStyles/Warning.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Personnalisation</title>
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="LegacySXT">Personnalisation</h1>
+        <p>Vous pouvez modifier le contenu des tickets d'opération, des lettres de confirmation et des ordres de paiement.</p>
+        <p class="SautLigneAvantEtAprès">Les fichiers correspondant aux modèles sont stockés dans le dossier <b>EDI</b> du répertoire d'installation de <MadCap:variable name="Localization.SXT" style="font-weight: bold;" /> qui est généralement localisé à l'emplacement suivant&#160;:</p>
+        <p class="IndentPuceNiv1"><b>C:\Program Files\Sage\XRT\Treasury\edi</b>
+        </p>
+        <p class="SautLigneAvantEtAprès">Les fichiers portant l'extension EDI&#160;peuvent être modifiés avec un éditeur de texte et les fichiers portant l'extension RTF peuvent être modifiés avec un logiciel de traitement de texte.</p>
+        <p>Tous les fichiers existent en double, l'un portant l'extension EDI (modifiable à partir d'un éditeur de texte de type EDIT ou NOTEPAD), l'autre l'extension RTF (modifiable à partir de Word).</p>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Warning.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Warning" cellspacing="0">
+            <col class="TableStyle-Warning-Column-Column1" />
+            <col class="TableStyle-Warning-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Warning-Body-Body1">
+                    <td class="TableStyle-Warning-BodyB-Column1-Body1" style="text-align: left;">
+                        <img src="../../Resources/Images/Assets/oh-Warning.png" />
+                    </td>
+                    <td class="TableStyle-Warning-BodyA-Column2-Body1">Prêtez une attention particulière, lors de vos modifications, aux chaînes de caractères délimitées par le signe «&#160;$&#160;». Il s'agit de variables, pour lesquelles une donnée est recherchée dans l'enregistrement de la transaction. Par exemple, le champ «&#160;$50&#160;» correspond à la référence de la transaction.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Les fichiers du dossier <b>EDI</b> concernent tous les progiciels de la plateforme <MadCap:variable name="Localization.SXT" style="font-weight: bold;" />. Les fichiers correspondant au module <MadCap:variable name="Localization.SXT_Payment" style="font-weight: bold;" /> commencent toujours par les lettres "PM".</p>
+    </body>
+</html>

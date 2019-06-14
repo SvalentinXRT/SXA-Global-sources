@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_Netting/Condition de postage des flux.png" />
+    <Link
+      Url="Content/Resources/Multimedia/L_Netting/Postage de flux.mp4" />
+    <Link
+      Url="Content/Resources/Images/L_Netting/Configuration Netting - onglet factures.png" />
+    <Link
+      Url="Content/Resources/Images/L_Netting/Confirguration Netting - onglet processus netting.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/Resources/Multimedia/L_Netting/Convention de compensation.mp4" />
+    <Link
+      Url="Content/Resources/Multimedia/L_Netting/Cours de compensation.mp4" />
+    <Link
+      Url="Content/Resources/Multimedia/L_Netting/Cycle de compensation.mp4" />
+    <Link
+      Url="Content/Resources/Multimedia/L_Netting/Structure de cycle.mp4" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_Netting/Condition de postage des flux.png" />
+    <Link
+      Url="Content/Resources/Multimedia/L_Netting/Postage de flux.mp4" />
+    <Link
+      Url="Content/Resources/Images/L_Netting/Configuration Netting - onglet factures.png" />
+    <Link
+      Url="Content/Resources/Images/L_Netting/Confirguration Netting - onglet processus netting.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/Resources/Multimedia/L_Netting/Convention de compensation.mp4" />
+    <Link
+      Url="Content/Resources/Multimedia/L_Netting/Cours de compensation.mp4" />
+    <Link
+      Url="Content/Resources/Multimedia/L_Netting/Cycle de compensation.mp4" />
+    <Link
+      Url="Content/Resources/Multimedia/L_Netting/Structure de cycle.mp4" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXT_Netting" />
+    <Variable
+      Name="Localization.SXT" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Note.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

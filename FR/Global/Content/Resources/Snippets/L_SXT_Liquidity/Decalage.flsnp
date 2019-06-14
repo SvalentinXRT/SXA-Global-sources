@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="669" MadCap:lastWidth="544">
+    <head>
+        <link href="../../TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p MadCap:conditions="">La page de paramétrage de décalage s'affiche lorsque vous sélectionnez l'option <b>Décalage</b> dans la liste déroulante de l'Assistant Règle de gestion.</p>
+        <p MadCap:targetName="Capture Assistant de macro Décalage">
+            <img src="../../Images/L_Liquidity/Assistant de macro Decalage 1.jpg" class="SAGE_screenshot" />
+        </p>
+        <ol>
+            <li class="PuceNumNiv1">Dans le champ <b>Pourcentage du montant</b>, saisissez le pourcentage du montant à décaler.</li>
+        </ol>
+        <table style="mc-table-style: url('../../TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+            <col class="TableStyle-Note-Column-Column1" />
+            <col class="TableStyle-Note-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Note-Body-Body1">
+                    <td style="text-align: left;" class="TableStyle-Note-BodyB-Column1-Body1">
+                        <img src="../../Images/Assets/oh-Note.png" />
+                    </td>
+                    <td class="TableStyle-Note-BodyA-Column2-Body1">Vous pouvez choisir de ne pas décaler 100% du montant. Dans ce cas, deux transactions sont créées dans le budget de trésorerie, l'une correspondant à la part du montant non décalée et l'autre correspondant à la part du montant décalée.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="IndentPuceNiv1">Le champ <b>Date de début</b>, est défini par défaut sur <span class="TexteSaisi">DATE</span>. Vous pouvez modifier cette valeur au besoin (ce cas de figure n'est pas commun).</p>
+        <ol start="3" MadCap:continue="true">
+            <li class="PuceNumNiv1">Dans le champ <b>Date de fin</b>, saisissez une date de fin de décalage.</li>
+        </ol>
+        <p class="IndentPuceNiv1">Utilisez le bouton <img src="../../Images/L_Liquidity/Bouton Points de suspension.JPG" style="width: 15px;height: 15px;" /> pour sélectionner successivement des dates, des opérateurs logiques et des périodes. Vous pouvez multiplier les périodes au clavier après avoir placé le curseur juste avant le mot-clé de la période.</p>
+        <p class="IndentPuceNiv1SautLigne"><i>Exemples de dates</i>
+        </p>
+        <ul style="list-style-type: square;">
+            <li class="PuceNiv2">Date de&#160;la transaction&#160;: <span class="TexteSaisi">DATE</span></li>
+            <li class="PuceNiv2">Date de la transaction plus un mois&#160;: <span class="TexteSaisi">DATE+1M</span></li>
+        </ul>
+        <p class="IndentPuceNiv1SautLigne">Le champ <b>Périodicité</b> est activé si les dates paramétrées spécifient un décalage avec cumul (reportez-vous aux explications ci-dessous pour plus d'informations sur le décalage avec cumul). Saisissez la périodicité du décalage en nombre de mois dans ce champ.</p>
+    </body>
+</html>

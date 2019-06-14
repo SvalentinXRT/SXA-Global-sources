@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="false"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/B_Sxa/1_BankDelegations/ParamIntro.htm" />
+    <Link
+      Url="Content/B_Sxa/1_BankDelegations/Parametrage.htm" />
+    <Link
+      Url="Content/B_Sxa/1_BankDelegations/ParamComplementaire.htm" />
+    <Link
+      Url="Content/B_Sxa/1_BankDelegations/CreationIntro.htm" />
+    <Link
+      Url="Content/B_Sxa/1_BankDelegations/CreationDelegation.htm" />
+    <Link
+      Url="Content/B_Sxa/1_BankDelegations/CreationUnitaire.htm" />
+    <Link
+      Url="Content/B_Sxa/1_BankDelegations/CreationMasse.htm" />
+    <Link
+      Url="Content/B_Sxa/1_BankDelegations/PreparationLettre.htm" />
+    <Link
+      Url="Content/B_Sxa/1_BankDelegations/ReglesGeneration.htm" />
+    <Link
+      Url="Content/B_Sxa/1_BankDelegations/Modele lettre.htm" />
+    <Link
+      Url="Content/B_Sxa/1_BankDelegations/Filtres.htm" />
+    <Link
+      Url="Content/B_Sxa/1_BankDelegations/SecuriteDonnees.htm" />
+    <Link
+      Url="Content/B_Sxa/1_BankDelegations/V3_NouvelleInterface.htm" />
+    <Link
+      Url="Content/B_Sxa/1_BankDelegations/V3_EditionReglesGeneration.htm" />
+    <Link
+      Url="Content/B_Sxa/1_BankDelegations/V3_CreationCircuitValidation.htm" />
+    <Link
+      Url="Content/B_Sxa/1_BankDelegations/V3_CreationCircuitValidation_Notification.htm" />
+    <Link
+      Url="Content/B_Sxa/1_BankDelegations/V3_CreationCircuitValidation_SuiviRequetes.htm" />
+  </Links>
+  <LongLinks />
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

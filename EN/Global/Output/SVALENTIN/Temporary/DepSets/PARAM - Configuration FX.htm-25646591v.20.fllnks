@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Mode gestion ope comm.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Configuration FX 1.png" />
+    <Link
+      Url="Content/E_Legacy/5_FX/ANNEXE - Verrouillage Back Office.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITFINAN - Traitement Back Office.htm" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Configuration FX 2.png" />
+    <Link
+      Url="Content/E_Legacy/5_FX/ANNEXE - Gestion des op comm.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Mode gestion ope comm.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Configuration FX 1.png" />
+    <Link
+      Url="Content/E_Legacy/5_FX/ANNEXE - Verrouillage Back Office.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITFINAN - Traitement Back Office.htm" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Configuration FX 2.png" />
+    <Link
+      Url="Content/E_Legacy/5_FX/ANNEXE - Gestion des op comm.htm" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="FX Configuration"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="10" />
+    <IndexCacheEntry
+      Term="Setup:FX configuration"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="10" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXT_FX" />
+    <Variable
+      Name="Localization.SXTModulesTasks" />
+    <Variable
+      Name="Localization.SXTSetupFolder" />
+  </Variables>
+  <FileConditions>
+    <Condition
+      Tag="Default.3Revised" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.3Revised" />
+    <Condition
+      Tag="Default.ScreenOnly" />
+  </AllConditions>
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Note.css" />
+    <Url
+      Source="Content/Resources/TableStyles/Tableau standard.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Warning.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre Journal prev comm 1.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Journal prev comm.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre Journal prev comm 0.png" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Bouton Copier filtre.flsnp" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton Points de suspension.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton coche bleue.JPG" />
+    <Link
+      Url="Content/E_Sxt/5_FX/PARAM - Configuration FX.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/EDITION - Journal TRN change.htm" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre Journal prev comm 5.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Warning.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre Journal prev comm 6.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre Journal prev comm 7.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Warning.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre Journal prev comm 1.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Journal prev comm.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre Journal prev comm 0.png" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Bouton Copier filtre.flsnp" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton Points de suspension.JPG" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton coche bleue.JPG" />
+    <Link
+      Url="Content/E_Sxt/5_FX/PARAM - Configuration FX.htm" />
+    <Link
+      Url="Content/E_Sxt/5_FX/EDITION - Journal TRN change.htm#onglet_devise" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre Journal prev comm 5.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Warning.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre Journal prev comm 6.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre Journal prev comm 7.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="Journal:opérations commerciales"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="10" />
+    <IndexCacheEntry
+      Term="Opération commerciale:journal"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="10" />
+    <IndexCacheEntry
+      Term="Editions:opérations commerciales"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="10" />
+    <IndexCacheEntry
+      Term="Journal:opérations commerciales:filtre"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="111" />
+    <IndexCacheEntry
+      Term="Filtre:journal des opérations commerciales"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="111" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXT_FX" />
+    <Variable
+      Name="Localization.SXTModulesTasks" />
+    <Variable
+      Name="Localization.SXTReportsFolder" />
+  </Variables>
+  <FileConditions>
+    <Condition
+      Tag="Default.3Revised" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.3Revised" />
+    <Condition
+      Tag="Default.ScreenOnly" />
+  </AllConditions>
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Warning.css" />
+    <Url
+      Source="Content/Resources/TableStyles/Note.css" />
+    <Url
+      Source="Content/Resources/TableStyles/Tableau standard.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

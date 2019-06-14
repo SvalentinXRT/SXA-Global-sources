@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:lastBlockDepth="9" MadCap:lastHeight="3542" MadCap:lastWidth="570">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Warning.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT"><a name="top"></a> <MadCap:keyword term="Linking transaction and forecasts;FX transaction:linking to commercial forecasts;Commercial forecast:linking to FX transaction;Commercial transaction:linking to FX transaction" />Commercial Forecasts Link</h1>
+        <p>You can link an outright forward transaction or a swap forward leg to the commercial forecasts previously recorded.</p>
+        <p>This is not a mandatory step, but it could help you to follow up the hedging of your exchange risk.</p>
+        <p>Each hedging transaction can be linked to one or several commercial transactions, and vice versa. In this way, you can check whether the hedging policy complies with your company&apos;s management rules for Commercial Transactions (for example, hedging 100% of the risks), or not.</p>
+        <p>Hedging Transactions are Outright Forward Transactions and Forward Legs are Exchange Swaps.</p>
+        <p>Once you validated the creation of an FX transaction, you can link it to commercial transactions. This is not possible during the creation of the FX transaction.</p>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Warning.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Warning" cellspacing="0">
+            <col class="TableStyle-Warning-Column-Column1" style="width: 31px;" />
+            <col class="TableStyle-Warning-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Warning-Body-Body1">
+                    <td class="TableStyle-Warning-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Warning.png" /></td>
+                    <td class="TableStyle-Warning-BodyA-Column2-Body1">When you associate a commercial transaction with an FX transaction, you cannot lower the amount of the FX transaction, and the amount of the commercial transaction anymore.</td>
+                </tr>
+            </tbody>
+        </table>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Linking Transactions to Commercial Forecasts</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">In the management page for Forward Exchange Transactions, double-click a line in the table to modify the corresponding transaction.</li>
+                </ol>
+                <p class="IndentPuceNiv1">- OR -</p>
+                <p class="IndentPuceNiv1">In the management page for Spot/Forward or Forward/Forward Swap Transactions, double-click a line in the table to modify the corresponding swap forward leg.</p>
+                <p class="IndentPuceNiv1SautLigne">The modification page for the transaction is displayed.</p>
+                <p MadCap:targetName="Capture selection prev comm"><img src="../../Resources/Images/L_FX/Selectionner TRN comm 1.png" class="SAGE_screenshot"></img></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click the <b>Select Commercial Transactions</b> button at the bottom of the page.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The selection page for Commercial Transactions is displayed.</p>
+                <p MadCap:targetName="Capture selection trn comm"><img src="../../Resources/Images/L_FX/Selectionner TRN comm 2.png" class="SAGE_screenshot"></img></p>
+                <p class="IndentPuceNiv1">This page displays the list of the commercial forecasts that you can associate with the current FX transaction.</p>
+                <p class="IndentPuceNiv1">The transaction direction (buy/sell), the company, the currencies and the delivery month of the commercial forecasts that are displayed, correspond to the current FX transaction with the &quot;Open&quot; status. The commercial transactions that are already linked to an FX transaction, are displayed if their non-hedged amount is not null.</p>
+                <p class="IndentPuceNiv1SautLigne">At the top right of the page, an amount counter presents the difference between the FX transaction amount and the total of the commercial forecasts selected for the linking.</p>
+                <ul>
+                    <li class="PuceNiv2">The first field called <b>Total Hedge TRX</b> shows the amount of the FX transaction in the transaction currency.</li>
+                    <li class="PuceNiv2">The second field <b>Total Commercial TRX</b> shows the total of the selected commercial forecasts. This amount is null, as long as no commercial forecast is associated with the FX transaction.</li>
+                    <li class="PuceNiv2">The <b>Gap</b> field displays the gap amount between the FX transaction and the selected commercial forecasts. This amount equals the FX transaction amount, as long as no commercial forecast is associated with the FX transaction. Once you linked all the relevant commercial forecasts, this amount must be null.</li>
+                </ul>
+                <p class="IndentPuceNiv1SautLigne">The table below displays the list of the commercial forecasts that can be selected with their characteristics, such as the direction of the forecast (disbursement or receipt), the identifier, the transaction and delivery dates, the company, the currency and the amount.</p>
+                <ol start="3">
+                    <li class="PuceNumNiv1">Double-click a line in the table to select the corresponding commercial forecast.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The counter is simultaneously updated.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Select other commercial forecasts, if necessary.</li>
+                    <li class="PuceNumNiv1">If the table does not present all the required commercial forecasts or if it presents too many of them, you can lengthen or prune the displayed list by modifying the range of commercial forecasts dates, as follows.</li>
+                </ol>
+                <ol>
+                    <li class="PuceNumNiv2">Click the <b>Extend/Restrict Selection</b> button at the bottom of the page.</li>
+                </ol>
+                <p class="IndentPuceNiv2">The modification page for selection criteria is displayed.</p>
+                <p MadCap:targetName="Capture filtre 1"><img src="../../Resources/Images/L_FX/Selectionner TRN comm 3.png" class="SAGE_screenshot" /></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv2">If you want to cancel the filtering process on the commercial forecasts dates, disable the <b>Delivery Date</b> option.</li>
+                </ol>
+                <p class="IndentPuceNiv2">If you want to extend or restrict the filtering period:</p>
+                <ol>
+                    <li class="PuceNumNiv3">Enable the <b>Delivery Date</b> option.</li>
+                    <li class="PuceNumNiv3">In the <b>From</b> and <b>To</b> fields, define the start and end dates of the period into which the date for the commercial forecasts to display, must be included.</li>
+                </ol>
+                <p class="IndentPuceNiv3">In the entry field, select the value to modify and enter a date with the format dd/mm/yyyy.</p>
+                <p class="IndentPuceNiv3">- Or -</p>
+                <p class="IndentPuceNiv3">Click the <img src="../../Resources/Images/L_FX/bouton appel calendrier 2.png" style="width: 12px;height: 15px;" /> button to use the calendar.</p>
+                <p class="IndentPuceNiv3">The date selection page is displayed.</p>
+                <p class="IndentPuceNiv3"><img src="../../Resources/Images/L_FX/Selectionner TRN comm 4.png" MadCap:targetName="Capture selection date" class="SAGE_screenshot"></img></p>
+                <p class="IndentPuceNiv3">In the field next to the <b>Fixed Date</b> option (which is enabled), click the button <img src="../../Resources/Images/L_FX/Bouton fleche bas.jpg" /> to display the calendar.</p>
+                <p class="IndentPuceNiv3">A contextual window displays the calendar.</p>
+                <p class="IndentPuceNiv3SautLigne">
+                    <MadCap:toggler targets="Capture calendrier" class="IndentPuceNiv3SautLigne">View Calendar</MadCap:toggler>
+                </p>
+                <p class="IndentPuceNiv3" MadCap:targetName="Capture calendrier"><img src="../../Resources/Images/L_FX/Pop-up calendrier.jpg" class="SAGE_screenshot"></img></p>
+                <p class="IndentPuceNiv3SautLigne">Use the arrows <img src="../../Resources/Images/L_FX/Bouton calendrier fleche droite.jpg" style="width: 8px;height: 12px;"></img> and <img src="../../Resources/Images/L_FX/Bouton calendrier fleche gauche.jpg"></img> to select the month, year and day.</p>
+                <p class="IndentPuceNiv3">- or -</p>
+                <p class="IndentPuceNiv3">To set the start date to today&apos;s date, click the button <b>Today</b>.</p>
+                <p class="IndentPuceNiv3">In the date selection page, click <b>OK</b> at the top of the page to validate the date.</p>
+                <p class="IndentPuceNiv3">In the modification page for selection criteria, click <b>OK</b> to validate the date range.</p>
+                <ol start="6">
+                    <li class="PuceNumNiv1">Once you selected the commercial transactions, click <b>OK</b> at the top of the page to validate the action.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The selected commercial forecasts and the FX transaction are linked.</p>
+                <p class="IndentPuceNiv1SautLigne">You can view the linking between Commercial Forecasts and FX Transactions from the management page for Commercial Forecasts and from the FX Position Worksheet.</p>
+                <p class="IndentPuceNiv1SautLigne">You can increase (but not decrease) the amount of the FX transaction or the amount of the commercial transaction.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead MadCap:conditions="">
+                <MadCap:dropDownHotspot>Viewing Links between FX Transactions and Commercial Forecasts</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_FX/Consulter lien TRN PREV.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

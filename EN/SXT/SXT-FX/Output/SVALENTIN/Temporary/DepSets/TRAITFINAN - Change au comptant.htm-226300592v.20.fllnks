@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  FileConditionTagExpression=""
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Warning.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre change au comptant 2.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Change au comptant 1.png" />
+    <Link
+      Url="Content/E_Legacy/5_FX/ANNEXE - GUI - Tableau reorg.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/ContextualTopics/Rechercher texte dans tableau page.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/ContextualTopics/Modifier element dans tableau page.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/ContextualTopics/Supprimer element dans tableau page.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITFINAN - Traitement Back Office.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITFINAN - Documents lies aux transactions.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITFINAN - Journal de treso.htm" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Ref croisee Reorg tableau.flsnp" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Change au comptant 2.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Checkmark_L.gif" />
+    <Link
+      Url="Content/Resources/Images/L_FX/croix.gif" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton Points de suspension.JPG" />
+    <Link
+      Url="Content/E_Legacy/5_FX/ANNEXE - Natures de transaction.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/ContextualTopics/Calculatrice.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/ContextualTopics/Calendrier.htm" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton cours inverse.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Change au comptant 3.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Change au comptant 4.png" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITFINAN - Conversion des montants.htm" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Change au comptant 5.png" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITFINAN - Annulation BO.htm" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Change au comptant 6.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Dupliquer trn change.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/bouton liste.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre change au comptant 1.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre change au comptant 2b.png" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Bouton Copier filtre.flsnp" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton fleche bas.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Pop-up calendrier.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton calendrier fleche droite.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton calendrier fleche gauche.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre change au comptant 3.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Warning.png" />
+    <Link
+      Url="Content/E_Legacy/5_FX/ANNEXE - Filtres.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+    <Link
+      Url="Content/Resources/TableStyles/Warning.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Note.css" />
+    <Link
+      Url="Content/Resources/TableStyles/Tableau standard.css" />
+    <Link
+      Url="Project/VariableSets/Localization.flvar" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre change au comptant 2.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Note.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Change au comptant 1.png" />
+    <Link
+      Url="Content/E_Legacy/5_FX/ANNEXE - GUI - Tableau reorg.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/ContextualTopics/Rechercher texte dans tableau page.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/ContextualTopics/Modifier element dans tableau page.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/ContextualTopics/Supprimer element dans tableau page.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITFINAN - Traitement Back Office.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITFINAN - Documents lies aux transactions.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITFINAN - Journal de treso.htm" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Ref croisee Reorg tableau.flsnp" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Change au comptant 2.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Checkmark_L.gif" />
+    <Link
+      Url="Content/Resources/Images/L_FX/croix.gif" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton Points de suspension.JPG" />
+    <Link
+      Url="Content/E_Legacy/5_FX/ANNEXE - Natures de transaction.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/ContextualTopics/Calculatrice.htm" />
+    <Link
+      Url="Content/E_Legacy/5_FX/ContextualTopics/Calendrier.htm" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton cours inverse.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Change au comptant 3.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Change au comptant 4.png" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITFINAN - Conversion des montants.htm" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Change au comptant 5.png" />
+    <Link
+      Url="Content/E_Legacy/5_FX/TRAITFINAN - Annulation BO.htm" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Change au comptant 6.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Dupliquer trn change.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/bouton liste.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre change au comptant 1.png" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre change au comptant 2b.png" />
+    <Link
+      Url="Content/Resources/Snippets/L_SXT_FX/Bouton Copier filtre.flsnp" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton fleche bas.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Pop-up calendrier.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton calendrier fleche droite.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Bouton calendrier fleche gauche.jpg" />
+    <Link
+      Url="Content/Resources/Images/L_FX/Filtre change au comptant 3.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/oh-Warning.png" />
+    <Link
+      Url="Content/E_Legacy/5_FX/ANNEXE - Filtres.htm" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="onglet_denouement_comptant" />
+    <Anchor
+      Name="onglet_BO" />
+    <Anchor
+      Name="onglet_ZU" />
+    <Anchor
+      Name="dupliquer_trn" />
+  </Anchors>
+  <Keywords>
+    <IndexCacheEntry
+      Term="FX transactions:spot"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="12" />
+    <IndexCacheEntry
+      Term="Spot exchange"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="12" />
+    <IndexCacheEntry
+      Term="Spot exchange:duplicate"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="587" />
+    <IndexCacheEntry
+      Term="Duplicate, button"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="587" />
+    <IndexCacheEntry
+      Term="FX transaction:duplication"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="587" />
+    <IndexCacheEntry
+      Term="FX transaction:spot:filter"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="636" />
+    <IndexCacheEntry
+      Term="Filter:spot exchange transactions"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="636" />
+    <IndexCacheEntry
+      Term="Spot exchange:filter"
+      Conditions="Default.3Revised"
+      LocalConditions=""
+      Position="636" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="Localization.SXTModulesTasks" />
+    <Variable
+      Name="Localization.SXTManagementFolder" />
+    <Variable
+      Name="Localization.SXT_FX" />
+    <Variable
+      Name="Localization.SXT_Setup" />
+    <Variable
+      Name="Localization.SXT_MarketData" />
+  </Variables>
+  <FileConditions>
+    <Condition
+      Tag="Default.3Revised" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Default.3Revised" />
+    <Condition
+      Tag="Default.ScreenOnly" />
+  </AllConditions>
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/Warning.css" />
+    <Url
+      Source="Content/Resources/TableStyles/Note.css" />
+    <Url
+      Source="Content/Resources/TableStyles/Tableau standard.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

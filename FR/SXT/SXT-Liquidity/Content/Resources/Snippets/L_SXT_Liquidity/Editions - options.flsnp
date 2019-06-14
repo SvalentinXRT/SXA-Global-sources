@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="185" MadCap:lastWidth="865">
+    <head>&#160;</head>
+    <body>
+        <p class="SautLigne">Pour des informations sur&#160;:</p>
+        <ul style="list-style-type: square;">
+            <li class="PuceNiv1">la gestion des filtres d'édition, consultez  la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Sxt/2_Liquidity/EDITION - Filtres edition.htm" target="" title="" alt="" class="XrefSansTexte">Filtres d'édition</MadCap:xref>,</MadCap:conditionalText></li>
+            <li class="PuceNiv1">les fonctionnalités de consultation et de navigation, consultez  la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Sxt/2_Liquidity/EDITION - Consultation.htm" target="" title="" alt="" class="XrefSansTexte">Consultation des éditions</MadCap:xref>,</MadCap:conditionalText></li>
+            <li class="PuceNiv1">l'enregistrement et la diffusion des éditions, consultez  la <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">rubrique <MadCap:xref href="../../../E_Sxt/2_Liquidity/EDITION - Diffusion.htm" target="" title="" alt="" class="XrefSansTexte">Enregistrement et diffusion des éditions</MadCap:xref>.</MadCap:conditionalText></li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.3Revised" MadCap:lastBlockDepth="11" MadCap:lastHeight="7143" MadCap:lastWidth="544">
+    <head>
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Tableau standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Note.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="LegacySXT"><MadCap:keyword term="File Structure:commercial forecasts import;Import:commercial forecasts:structure;Commercial Forecast:import structure;Commercial transaction:import structure" />File Structure for Commercial Forecasts</h1>
+        <p>This function enables you to define the file structure for the commercial forecasts generated from an external system and imported in <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" />.</p>
+        <p>You must complete this step before exporting files, in order to ensure the smooth integration of the file data into the database. It enables the definition of the type and location of data and potentially, conversion rules.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Accessing Setup Page for File Structures of Commercial Forecasts</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>From the <MadCap:variable name="Localization.SXTModulesTasks" style="font-weight: bold;" /> pane, select the <b>Commercial Forecast Import Structure</b> option in the <MadCap:variable name="Localization.SXTImportFolder" style="font-weight: bold;" /> folder of the <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> module.</p>
+                <p>The setup page for file structures of Commercial Forecasts, is displayed with the list of the set up structures in a table.</p>
+                <p MadCap:targetName="Capture structure importation 1"><img src="../../Resources/Images/L_FX/Structure importation previsions commerciales 1.png" class="SAGE_screenshot" /></p>
+                <p>The table shows the code and description of each structure, as well as the relevant function type, the expected date format, the standard length of records in characters and the presence and absence of value equivalences in a correspondence table.</p>
+                <p>For more information on:</p>
+                <ul>
+                    
+                    <li class="PuceNiv1" style="margin-top: 12pt;" MadCap:conditions="Default.ScreenOnly"><b>Reorganization of the lines display</b> in the table, <a href="ANNEXE - GUI.htm" target="_popup">click here</a></li>
+                    <li MadCap:conditions="Default.ScreenOnly" class="PuceNiv1"><b>Text search</b> in the table, <a href="ContextualTopics/Rechercher texte dans tableau page.htm" target="_popup" class="Popup">click here</a></li>
+                    
+                    <li MadCap:conditions="" class="PuceNiv1"><b>how to create lines</b>, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">topic</MadCap:conditionalText> below,</li>
+                    <li MadCap:conditions="Default.ScreenOnly" class="PuceNiv1"><b>how to delete lines</b> in the table, <a href="ContextualTopics/Supprimer element dans tableau page.htm" target="_popup" class="Popup">click here</a>,</li>
+                    
+                    <li MadCap:conditions="" class="PuceNiv1"><b>Structure or equivalences modification</b> in the table, click the <b>Modify the structure</b> or <b>Modify the equivalences</b> buttons. You can access the same pages as in creation mode.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Creating File Structures for Commercial Forecasts</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li class="PuceNumNiv1">In the setup page of file structures for Commercial Forecasts, click the <b>Create</b> button.<br />The first page of the Structure Wizard opens up.</li>
+                </ol>
+                <p MadCap:conditions="" MadCap:targetName="Capture structure importation 2"><img src="../../Resources/Images/L_FX/Structure importation previsions commerciales 2.png" class="SAGE_screenshot" /></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Enter the structure&apos;s basic information.</li>
+                </ol>
+                <p>
+                    <MadCap:toggler targets="Tableau structure importation 2">View Fields Description</MadCap:toggler>
+                </p>
+                <table class="TableStyle-Tableau_standard" cellspacing="0" MadCap:targetName="Tableau structure importation 2" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');">
+                    <col class="TableStyle-Tableau_standard-Column-Column1" />
+                    <col class="TableStyle-Tableau_standard-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-Tableau_standard-Head-Header1">
+                            <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Field</th>
+                            <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Description</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Enter a description for the new structure.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Type</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">The &quot;Import&quot; function is selected. No action can be performed on this field.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Length</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Specify the length of a record in characters including spaces. A record of the file consists of a string of characters containing the information of a single line.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Line Feed</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Enable this option if the entries in the file are separated by a line feed.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Date Format</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Select the expected date format for the transaction dates.<br /><i>dd</i> for day, <i>MM</i> for month and <i>yyyy</i> for year.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Separator</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Select the separator type between day, month and year of the record date.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Decimal Symbol</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Select the decimal separator for the amounts.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Nb of digits after decimal</td>
+                            <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">Select the number of digits after decimal.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click the <img src="../../Resources/Images/L_FX/Bouton STR fleche drte.JPG" /> <b>Set up the elements of the structure</b> button to complete the file structure setup.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The setup page for the fields of each record, opens up.</p>
+                <p MadCap:targetName="Capture structure importation champs 3"><img src="../../Resources/Images/L_FX/Structure importation previsions commerciales 3.png" class="SAGE_screenshot" /></p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">If you click the<b> Cancel</b> button <img src="../../Resources/Images/L_FX/Bouton STR croix rouge.JPG" />, the current setup is canceled and the list of the set up file structures is displayed again.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="IndentPuceNiv1" style="margin-bottom: 12pt;">This page enables you to set up eleven fields for each record, corresponding to eleven types of information on the transaction.<a name="Champs_importes"></a></p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead MadCap:conditions="">
+                        <MadCap:dropDownHotspot>View Data Description of the File to set up</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <MadCap:snippetBlock src="../../Resources/Snippets/L_SXT_FX/Champ prev comm.flsnp" MadCap:conditions="" />
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Specify the field settings of each entry in the file.</li>
+                </ol>
+                <p class="IndentPuceNiv1">
+                    <MadCap:toggler targets="Tableau structure importation champs 3b">View Settings</MadCap:toggler>
+                </p>
+                <table class="TableStyle-Tableau_standard" cellspacing="0" MadCap:targetName="Tableau structure importation champs 3b" style="mc-table-style: url('../../Resources/TableStyles/Tableau standard.css');">
+                    <thead>
+                        <tr class="TableStyle-Tableau_standard-Head-Header1">
+                            <th class="TableStyle-Tableau_standard-HeadE-Column1-Header1">Parameter</th>
+                            <th class="TableStyle-Tableau_standard-HeadD-Column2-Header1">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Type</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">This default field is not editable.<br />It specifies the string type: &quot;AN&quot; for alphanumerical text, &quot;D&quot; for a date and &quot;M&quot; for an amount.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Included</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Enable this option to import the information value of the file into the database.<br />Disable this option if this element is not in the file or if you do not want to import it.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Mandatory</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Enable this option to specify that this element must be in the file.<br />The transaction will be rejected if a mandatory element is missing in the file.<br />For more information on rejected transactions, their correction and their re-import, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="INTEGRATION - Rejets previsions commerciales.htm" target="" title="" alt="" class="XrefSansTexte">Commercial Forecasts Rejects</MadCap:xref> topic</MadCap:conditionalText>.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Position</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">Specify the position of the first character of the field containing the information in the entry.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Length</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">If the field containing the information has a fixed length, specify its length here.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyE-Column1-Body1">Var. Length</td>
+                            <td class="TableStyle-Tableau_standard-BodyD-Column2-Body1">If the field containing the information has a variable length, enable this option.</td>
+                        </tr>
+                        <tr class="TableStyle-Tableau_standard-Body-Body1">
+                            <td class="TableStyle-Tableau_standard-BodyB-Column1-Body1">Terminator</td>
+                            <td class="TableStyle-Tableau_standard-BodyA-Column2-Body1">If the field containing the information has a variable length, specify the character that ends the field here.<br /><b>Note:</b> In version 3.0, the length of fields is fixed. You do not have to specify a terminator.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click the <img src="../../Resources/Images/L_FX/Bouton STR fleche drte.JPG" /> <b>Set up the correspondence tables</b> button to go on with the setup.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The setup page for the correspondence tables is displayed.</p>
+                <ul style="list-style-type: square;">
+                    <li class="PuceNiv2">If the codes in the file are the same as the ones in the database, click <img src="../../Resources/Images/L_FX/Bouton STR fleche drte.JPG" /> the <b>Test the structure</b> button to avoid this step of the setup and go directly to the structure test.<b></b></li>
+                    <li class="PuceNiv2">To avoid the structure test and validate the setup straight away, click the <img src="../../Resources/Images/L_FX/Bouton STR coche verte.JPG" /> <b>Validate</b> button.</li>
+                    <li class="PuceNiv2">To cancel the current setup and redisplay the list of the set up file structures, click the <img src="../../Resources/Images/L_FX/Bouton STR croix rouge.JPG" /> <b>Cancel</b> button.</li>
+                </ul>
+                <p MadCap:targetName="Capture structure importation 4"><img src="../../Resources/Images/L_FX/Structure importation previsions commerciales 4.png" class="SAGE_screenshot" /><br />
+                </p>
+                <p class="IndentPuceNiv1">This page consists in four tabs.</p>
+                <ul>
+                    <li class="PuceNiv2">The <b>Accounts</b> tab enables you to establish equivalences between bank account codes.</li>
+                    <li class="PuceNiv2">The <b>Transactions</b> tab enables you to establish equivalences between the codes of transaction types.</li>
+                    <li class="PuceNiv2">The <b>Companies</b> tab enables you to establish equivalences between company codes.</li>
+                    <li class="PuceNiv2">The <b>Currencies</b> tab enables you to establish equivalences between currency codes.</li>
+                </ul>
+                <p class="IndentPuceNiv1">In the <b>Accounts</b>, enable the option <b>Do you want to use the equivalences set up in the Bank Accounts?</b> if you do.</p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/Note.css');margin-left: 50px;margin-right: auto;" class="TableStyle-Note" cellspacing="0">
+                    <col class="TableStyle-Note-Column-Column1" style="width: 31px;" />
+                    <col class="TableStyle-Note-Column-Column2" />
+                    <tbody>
+                        <tr class="TableStyle-Note-Body-Body1">
+                            <td class="TableStyle-Note-BodyB-Column1-Body1"><img src="../../Resources/Images/Assets/oh-Note.png" /></td>
+                            <td class="TableStyle-Note-BodyA-Column2-Body1">If you enable this option, the other fields in this tab are disabled.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="IndentPuceNiv1">Each tab contains a four-column table.</p>
+                <ul>
+                    <li class="PuceNiv2">The column called <b>N°</b>, shows a number that identifies each equivalence.</li>
+                    <li class="PuceNiv2">The column called <b>Internal Field</b>, shows the bank account codes saved in the database.</li>
+                    <li class="PuceNiv2">The <b>External From</b> column enables the definition of the lower limit for the interval of the external account codes.</li>
+                    <li class="PuceNiv2">The <b>External To</b> column enables the definition of the upper limit for the interval of the external account codes.</li>
+                </ul>
+                <ol start="6">
+                    <li class="PuceNumNiv1">If you did not enable the option <b>Do you want to use the equivalences set up in the Bank Accounts?</b>, click <b>Add</b> to create a correspondence.</li>
+                </ol>
+                <p class="IndentPuceNiv1">A line is added in the table.</p>
+                <ol start="6" MadCap:continue="true">
+                    <li class="PuceNumNiv1">On this line, click the button <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" /> in the <b>Internal Field</b> column to select the bank account code existing in the database.</li>
+                    <li class="PuceNumNiv1">In the <b>External From</b> column, enter the lower limit of the interval for the external identifiers of bank accounts expected in the imported file.</li>
+                    <li class="PuceNumNiv1">In the <b>External To</b> column, enter the upper limit of the interval for the external identifiers of bank accounts expected in the imported file.</li>
+                    <li class="PuceNumNiv1">Click the <b>Add</b> button to add a new line or the <b>Delete</b> button to delete the selected line.</li>
+                </ol>
+                <p class="IndentPuceNiv1">Complete the same steps again and as many times as necessary, to complete the correspondence table.</p>
+                <ol start="6" MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click the <b>Transactions</b> tab.</li>
+                </ol>
+                <p MadCap:targetName="Capture onglet Transactions"><img src="../../Resources/Images/L_FX/Structure importation previsions commerciales 5b.png" class="SAGE_screenshot" /></p>
+                <p class="IndentPuceNiv1">Each tab contains a three-column table.</p>
+                <ul>
+                    <li class="PuceNiv2">The column called <b>N°</b>, shows a number that identifies each equivalence.</li>
+                    <li class="PuceNiv2">The column called <b>Internal Field</b>, shows the transaction type codes saved in the database.</li>
+                    <li class="PuceNiv2">The column called <b>Internal Field</b>, shows the transaction type codes contained in the files to import.</li>
+                </ul>
+                <ol start="12">
+                    <li class="PuceNumNiv1">Click <b>Add</b> to create a correspondence.</li>
+                </ol>
+                <p class="IndentPuceNiv1">A line is added in the table.</p>
+                <ol start="6" MadCap:continue="true">
+                    <li class="PuceNumNiv1">On this line, click the button <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" /> in the <b>Internal Field</b> column to select the transaction type existing in the database.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The transaction type code is displayed in the <b>Internal Field</b> column.</p>
+                <ol start="6" MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>External from</b> column, enter the transaction type code expected in the imported file.</li>
+                    <li class="PuceNumNiv1">Click the <b>Add</b> button to add a new line or the <b>Delete</b> button to delete the selected line.</li>
+                </ol>
+                <p class="IndentPuceNiv1">Complete the same steps again and as many times as necessary, to complete the correspondence table.</p>
+                <p class="IndentPuceNiv1">The <b>Companies</b> and <b>Currencies</b> tabs look like the <b>Transactions</b> tab.</p>
+                <p class="IndentPuceNiv1">Go through the same process to set up the correspondences of the company codes and currency codes in these tabs.</p>
+                <ol start="6" MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click the button <img src="../../Resources/Images/L_FX/Bouton STR fleche drte.JPG" /> <b>Test the structure</b> to test the setup on a file.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The creation page for structure tests is displayed.</p>
+                <p MadCap:targetName="Capture structure importation 5"><img src="../../Resources/Images/L_FX/Param structure fichier comptable a importer 5.png" class="SAGE_screenshot" /></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>File</b> field, click the button <img src="../../Resources/Images/L_FX/Bouton Points de suspension.JPG" /> to view the <MadCap:variable name="Localization.SXT_FX" style="font-weight: bold;" /> browser and select a file to test.</li>
+                </ol>
+                <p class="IndentPuceNiv1">A contextual menu appears.</p>
+                <p MadCap:targetName="Capture structure importation 5b"><img src="../../Resources/Images/L_FX/Pop-up sel fichier.png" class="SAGE_screenshot" /></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the browser, select the directory where the file is located.<br />The path appears in the <b>Selected Path</b> field and the files of the directory are listed in the table at the bottom of the window.</li>
+                    <li class="PuceNumNiv1">Double-click the name of the file to select it, or click the name of the file, then the button <img src="../../Resources/Images/L_FX/Bouton coche bleue.JPG" />.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The wizard appears again and you can view the file path in the <b>File</b> field.</p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click <b>Test</b>.</li>
+                </ol>
+                <p class="IndentPuceNiv1">The records are displayed in a table and the values are extracted according to the fields defined in the file structure.</p>
+                <p class="IndentPuceNiv1">At the bottom of the table, the number of records found in the file is displayed.</p>
+                <p MadCap:targetName="Capture test reussi"><img src="../../Resources/Images/L_FX/test str ope comm.png" class="SAGE_screenshot" /></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Check whether the file matches the expected result regarding the number of records and values in the fields. Correct the structure or the file if required.</li>
+                    <li class="PuceNumNiv1">Once the test provides you with the right results, click the button <img src="../../Resources/Images/L_FX/Bouton STR coche verte.JPG" /> <b>Validate</b> to validate and save the structure.</li>
+                </ol>
+                <p>The setup page for file structures reappears with the newly saved structure at the bottom of the set up structures list.</p>
+                <p>Now the setup is completed, you can import the commercial forecast files. See the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly"><MadCap:xref href="INTEGRATION - Importation previsions commerciales.htm" target="" title="" alt="" class="XrefSansTexte">Importing Commercial Forecasts</MadCap:xref> topic</MadCap:conditionalText> for more information.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead><a name="dupliquer_str"></a> <MadCap:keyword term="Duplication:import structure;File structure:commercial forecast import:duplication;Commercial forecast:structure duplication;Commercial transaction:structure duplication;Import:Commercial forecasts:structure duplication" /><MadCap:dropDownHotspot>Duplicating File Structures</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>You can create structures using the copy function on an existing structure.</p>
+                <ol>
+                    <li class="PuceNumNiv1">In the setup page for Structures, select the structure to duplicate and click the <b>Duplicate</b> button in the actions bar.</li>
+                </ol>
+                <p class="IndentPuceNiv1">A dialog box opens up, suggesting you modify the duplicate.</p>
+                <p MadCap:conditions="" MadCap:targetName="Capture Duplication structure 1"><img src="../../Resources/Images/L_FX/Dupliquer structure importation previsions commerciales 1.png" class="SAGE_screenshot" /></p>
+                <ol MadCap:continue="true">
+                    <li class="PuceNumNiv1">Click <b>Yes</b> to modify the duplicate.</li>
+                    <li class="PuceNumNiv1">The creation page for structures completed with the settings of the duplicated structure, opens up. An identifying number is automatically created for the structure by incrementation.</li>
+                </ol>
+                <ol start="2" MadCap:continue="true">
+                    <li class="PuceNumNiv1">In the <b>Description</b> area, enter the description for the new structure.</li>
+                </ol>
+                <p class="IndentPuceNiv1SautLigne">You can modify the settings of the duplicated structure.</p>
+                <p class="IndentPuceNiv1">For more information on the setup pages for File Structures, see the previous <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">topic</MadCap:conditionalText>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead><MadCap:keyword term="Modify: correspondences, option" /><MadCap:dropDownHotspot>Modifying value correspondences between Files and Database</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>You can enrich or modify the correspondences of values between file and database at any time.</p>
+                <ol>
+                    <li class="PuceNumNiv1">In the setup page for structures, select the structure to modify and click the <b>Modify the Equivalences</b> button in the actions bar.</li>
+                    <li class="PuceNumNiv1">The definition page for correspondence tables opens up, with the set up correspondences for the selected structure.</li>
+                </ol>
+                <p MadCap:targetName="Capture Modifier correspondances"><img src="../../Resources/Images/L_FX/Structure importation previsions commerciales 5a.png" class="SAGE_screenshot" /></p>
+                <p>For more information on the fields in this page, see the <MadCap:conditionalText MadCap:conditions="Default.ScreenOnly">topic</MadCap:conditionalText> describing the creation process for the import files structure.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>
