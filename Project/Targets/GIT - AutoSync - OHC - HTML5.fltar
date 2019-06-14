@@ -29,7 +29,7 @@
     GenerateGlossaryProxy="true" />
   <Destinations>
     <Destination
-      Link="/Project/Destinations/sageascotsoh-sxa.fldes"
+      Link="/Project/Destinations/SageFR_HelpSites_XRT.fldes"
       Publish="true" />
   </Destinations>
   <Variables></Variables>

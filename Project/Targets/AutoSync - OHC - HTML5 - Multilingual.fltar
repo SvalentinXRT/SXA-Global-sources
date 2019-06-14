@@ -19,7 +19,7 @@
   DisableAutoSync="false"
   SearchEngine="MadCapSearch"
   CentralLinkIds=""
-  TargetLanguage="fr,en-us_../../../EN/Global/SXA_OHC.Global_EN.flprj"
+  TargetLanguage="fr,en_../../../EN/Global/SXA_OHC.Global_EN.flprj"
   TabletBreakpoint="1150">
   <PrintedOutput
     CollapseMargins="true"
